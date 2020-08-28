@@ -1,0 +1,14 @@
+@startuml
+
+class Product
+class Customer
+class LineItem
+class Order
+enum ShippingMode
+
+Product <-- LineItem
+Order --> LineItem
+Order --> ShippingMode
+Customer --> Order
+
+@enduml

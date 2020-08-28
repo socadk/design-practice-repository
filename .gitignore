@@ -1,0 +1,8 @@
+old/
+generated/
+./**/_generated
+/.vscode
+.DS_Store
+
+## Temporary Office Files
+.~*

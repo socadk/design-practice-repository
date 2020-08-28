@@ -1,0 +1,50 @@
+// Generated from DDD Context Map 'DPR-DomainModelMiniTutorial.cml' at 19.08.2020 17:03:31 CEST.
+API description OnlineShopFeaturesBackendAPI
+
+
+data type CustomerAccountBackend { "name":D<string>, "address":D<string>, "customeraccountId":CustomerAccountIdBackend }
+data type CustomerAccountIdBackend { "customeraccountId":D<long> }
+data type OrderBackend { "orderNumber":D<string>, "orderId":OrderIdBackend, "orderitemList":OrderItemBackend* }
+data type OrderIdBackend { "orderId":D<long> }
+data type OrderItemBackend { "productName":D<string>, "price":D<string>, "orderitemId":OrderItemIdBackend }
+data type OrderItemIdBackend { "orderitemId":D<long> }
+data type ProductBackend { "productName":D<string>, "image":D<string>, "productCategory":D<string>, "productId":ProductIdBackend }
+data type ProductIdBackend { "productId":D<long> }
+
+
+endpoint type BusinessToConsumerAggregateBackend
+	exposes
+		operation createCustomerAccount
+			expecting
+				payload CustomerAccountBackend
+			delivering
+				payload CustomerAccountIdBackend
+		operation readProduct
+			expecting
+				payload ProductIdBackend*
+			delivering
+				payload ProductBackend*
+		operation createOrder
+			expecting
+				payload OrderBackend
+			delivering
+				payload OrderIdBackend
+		operation createOrderItem
+			expecting
+				payload OrderItemBackend
+			delivering
+				payload OrderItemIdBackend
+
+
+// Generated from DDD upstream Bounded Context 'OnlineShopFeaturesBackend' implementing PUBLISHED_LANGUAGE (PL).
+API provider OnlineShopFeaturesBackendProvider
+	// This Bounded Context realizes the following subdomains: BusinessToConsumer
+	offers BusinessToConsumerAggregateBackend
+	at endpoint location "http://localhost:8000"
+		via protocol "tbd" // The protocol is generated if you specify the implementation technology in CML
+
+
+// Generated from DDD downstream Bounded Context 'OnlineShopFeaturesFrontend' implementing CONFORMIST (CF).
+API client OnlineShopFeaturesFrontendClient
+	// This Bounded Context realizes the following subdomains: BusinessToConsumer
+	consumes BusinessToConsumerAggregateBackend

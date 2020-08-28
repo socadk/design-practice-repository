@@ -1,0 +1,35 @@
+@startuml
+	class Product {
+	  price
+	  description
+	  image
+	}
+	class PostalAddress {
+	  streetAddress
+	  postalCode
+	  addressLocality
+	  addressRegion
+	}
+	class Customer {
+	  givenName
+	  familyName
+	}
+	class LineItem {
+	  amount
+	}
+	class Order {
+	  
+	}
+	enum ShippingMode {
+	  REGULAR
+	  PRIORITY
+	  PICKUP
+	}
+	
+	Customer o-- PostalAddress
+	Order "shippingAddress" o-- PostalAddress
+	LineItem "product"  o-- Product
+	Order "lineItems" o-- LineItem
+	Order "shipping" o-- ShippingMode
+	Customer "orders" o-- Order
+@enduml

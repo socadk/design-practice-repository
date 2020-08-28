@@ -1,0 +1,23 @@
+@startuml
+class Class {
+	attribute
+	method()
+}
+abstract class AbstractClass {
+	method()
+}
+interface Interface
+enum Enumeration {
+	Option1
+	Option2
+}
+
+Class "is a" --|>  AbstractClass
+note on link: Inheritance\nRelationship
+
+AbstractClass "relates to" --> Interface
+note on link: Association
+
+AbstractClass "has a" o-- Enumeration
+note on link: Aggregation
+@enduml
