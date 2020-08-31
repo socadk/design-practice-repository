@@ -3,7 +3,7 @@
 
 ## Getting Involved 
 
-We are happy to welcome new contributors who want to help improve MDSL language and tools:
+We are happy to welcome new contributors who want to help improve our collection of software/service/API design practices:
 
 * Feel free to create GitHub [issues](https://github.com/socadk/design-practice-repository/issues). 
     * Have a look at the ones labelled with "help wanted".

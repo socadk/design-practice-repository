@@ -141,7 +141,7 @@ RoutingService -- > RouteSpecification : fetchRoutesForSpecification
 ~~~
 -->
 
-Context Mapper, a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then bounded contexts (a strategic DDD pattern) containing Aggregates, Entities and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/).
+[Context Mapper](https://contextmapper.org/), a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then bounded contexts (a strategic DDD pattern) containing Aggregates, Entities and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/).
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
@@ -182,7 +182,7 @@ Usage of the pattern names and presence of domain models, either drawn informall
 
 * [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCases.md) provide input. 
 * [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
-* [Stepwise service design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates" in DDDs.
+* [Stepwise service design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
 
 
 #### Performing Roles and Related Artifacts (Synopsis)
@@ -201,9 +201,9 @@ Usage of the pattern names and presence of domain models, either drawn informall
 #### Practices and Techniques (Refinements, Guides)
 
 * [Event Storming](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html) is a complementary technique that can help identify an initial set of Aggregates, Entities, Commands, Events and other design elements (to be refactored and refined in further tactic DDD). 
-* The [DDD Whirlpool] by E. Evans is frequently mentioned. 
+* The [DDD Whirlpool](https://domainlanguage.com/ddd/whirlpool/) by E. Evans is frequently mentioned. 
 * [Story Mapping](https://www.agilealliance.org/glossary/storymap/) <!-- by J. Patton --> and [Story Splitting](https://www.agilealliance.org/glossary/split/) may assist with DDD pattern identification (among other things).
-* Context Mapper tutorials and guides, for instance on [rapid OOAD](https://contextmapper.org/docs/rapid-ooad/).
+* [Context Mapper](https://contextmapper.org/) tutorials and guides, for instance on [rapid OOAD](https://contextmapper.org/docs/rapid-ooad/).
 * [Domain story telling](https://domainstorytelling.org/).
 
 There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) that features many business analysis-level extensions to DDD practices, for instance a [Aggregate Design Canvas](hhttps://github.com/ddd-crew/aggregate-design-canvas) template.

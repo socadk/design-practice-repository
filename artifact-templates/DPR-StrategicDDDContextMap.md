@@ -31,7 +31,7 @@ DDD as such does not mandate any notation. Each author and presenter has his/her
 
 ### Example(s)
 
-The above context map was generated from this DSL model (Context Mapper):
+The above context map was generated from this DSL model ([Context Mapper](https://contextmapper.org/)):
 
 ~~~
 ContextMap DDDSampleMap {
@@ -49,7 +49,7 @@ ContextMap DDDSampleMap {
 
 ### Tools
 
-* Context Mapper
+* [Context Mapper](https://contextmapper.org/)
 * Any drawing tool
 * Whiteboard
 
