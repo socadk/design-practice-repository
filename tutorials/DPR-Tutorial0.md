@@ -3,7 +3,7 @@
 
 ## First Steps and Orientation
 
-Let's assume you have been assigned the role of API product owner role for a fictitious online shop and its APIs. 
+Let's assume you have been assigned the role of API product owner for a fictitious online shop and its APIs. 
 
 1. Consult the [API Product Owner](../roles/SDPR-APIProductOwner.md) role description here in DPR to find out what it is about: on the role page, navigate to the tasks typically performed by this role at project initiation.
 2. Create a [User Story](../artifact-templates/DPR-UserStory.md) as a sample artifact. 

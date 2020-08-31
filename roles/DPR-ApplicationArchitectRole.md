@@ -3,7 +3,7 @@ Category: Architecture
 Activities: SMART NFR Elicitation, Architectural Capturing, Architecture Modeling, Stepwise Service Design
 ---
 
-Role: *Application ad Integration Architect*
+Role: *Application and Integration Architect*
 --------------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 a.k.a. Coding Architect (to indicate strong connection to development)

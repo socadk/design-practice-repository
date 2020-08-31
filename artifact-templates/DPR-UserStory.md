@@ -38,7 +38,7 @@ See the [glossary entry](https://www.agilealliance.org/glossary/user-story-templ
 
 
 ### Example(s)
-The Context Mapper and MDSL demo described in ZIO's blog starts with this story that employs the role-feature-benefit template:
+The [Context Mapper](https://contextmapper.org/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) demo described in [ZIO's blog](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) starts with this story that employs the role-feature-benefit template:
 
 ~~~
 As a Researcher 
@@ -51,7 +51,7 @@ so that other researchers can find and cite the referenced paper easily, and my 
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
 User stories typically are created and updated transiently in issue tracking systems. They can also go to wiki pages, specification and documentation documents. 
 
-The Context Mapper DSL has first class support for an extended user story format. 
+The [Context Mapper](https://contextmapper.org/) DSL has first class support for an extended user story format. 
 
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)

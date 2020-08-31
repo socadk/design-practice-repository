@@ -85,7 +85,7 @@ Contributors (input, technical writing, feedback):
 
 ## Getting Involved 
 
-We are happy to welcome new contributors who want to help improve MDSL language and tools:
+We are happy to welcome new contributors who want to help improve this collection of software/service/API design practices:
 
 * Feel free to create GitHub issues.
 * Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
