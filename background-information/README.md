@@ -61,6 +61,7 @@ And the 2000s:
     * SOAD proposal ([HTML](https://www.ibm.com/developerworks/library/ws-soad1/), [PDF](https://www.ibm.com/developerworks/library/ws-soad1/ws-soad1-pdf.pdf))
     <!-- * SOMA and similar proprietary methods (see this paper) -->
     
+<!-- TODO (v2): feature UAM, http://www.unified-am.com/ -->
 
 ### Personal toolboxes (general purpose, not limited to service design)
 
