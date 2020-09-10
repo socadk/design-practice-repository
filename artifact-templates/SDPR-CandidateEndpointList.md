@@ -92,6 +92,8 @@ Any design/documentation artifact in between a planning item/requirement specifi
 
 The artifact appears in (@Sturgeon:2016) and also is a candidate pattern in MAP.
 
+Chapter 2 of (@Lauret:2019) features an "API Goals Canvas", which is very similar to the CEL/REL artifacts in DPR.
+
 
 ### Related Artifacts and Templates (incl. Alternatives)
 
