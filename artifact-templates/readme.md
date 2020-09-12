@@ -62,7 +62,7 @@ Some evaluation and assessment templates are:
 
 * Strength Weaknesses Opportunities Threats (SWOT) tables
 * Architecture review report
-* [API/code review checklist](futureWork/SDPR-APIReviewChecklist.md) <!-- Plain code review checklist really fits into this repository, too focused on the implementation. But we could do an API Review Checklist! TODO (v2) placeholder added to futureWork folder -->
+* [API/code review checklist](futureWork/SDPR-APIReviewChecklist.md) <!--  API Review Checklist! TODO (v2) placeholder added to futureWork folder, point at @Lauret:2019 -->
 * to be continued
 
 

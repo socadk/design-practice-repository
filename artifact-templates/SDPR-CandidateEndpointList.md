@@ -27,7 +27,7 @@ Step 4 in the [stepwise API/service design activity](../activities/SDPR-Stepwise
 
 Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) starts with "List all the things"; this activity roughly corresponds to Steps 1 to 3 in DPR.
 
-<!-- TODO (v2) consult Subbu or other REST authority? -->
+<!-- TODO (v2) cite @Lauret:2019 here (see signs of use section ) -->
 
 
 ### Template Structure and Notation(s)

@@ -62,6 +62,13 @@ In this DPR repository, these seven top-level steps are elaborated upon in a num
 6. This should be "business as usual" for agile full stack developers and integration specialists for the most part, yielding an expressive, understandable [API description a.k.a. service contract artifact](../artifact-templates/SDPR-APIDescription.md). Both the abstract "port" level as well as technology-specific "adapter" bindings should be covered in it; both business and technical information has to be published in it. <!-- TODO (v2) write about "API TDD", jUnit, Postman, SOAPUI, Swagger tools, etc.; bring in checklist (can also go to Step 7) -->
 7. Patterns from the [quality category](https://microservice-api-patterns.org/patterns/quality/) and the [evolution category](https://microservice-api-patterns.org/patterns/evolution/) of MAP are eligible. The [quality patterns tutorial](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) introduces many of these patterns and gives you an idea of what kind of quality issues they can mitigate. And even if you are not yet thinking about the next version of your API, it is good to know what evolution strategies and patterns exist.
 
+<!-- TODO feature API testing too? 
+https://dzone.com/articles/api-testing-and-automation-101-the-essential-guide 
+https://techbeacon.com/app-dev-testing/11-top-open-source-api-testing-tools-what-your-team-needs-know 
+https://www.guru99.com/top-6-api-testing-tool.html 
+
+-->
+
 
 ### Example(s)
 Our [tutorial 1](../tutorials/DPR-Tutorial1.md) applies the seven steps to an online shop example (work in progress). 
