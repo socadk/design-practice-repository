@@ -21,7 +21,7 @@ The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) we
 * *How to ensure that services are loosely coupled? How much data should they exchange, and how often does this happen?*
 * *What are the most suitable message representations? How to agree on the meaning of each message?*"
 
-API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence software [architects](/roles/DPR-ApplicationArchitects.md) and Web developers collaborate on this activity; [API owners](/roles/SDPR-APIProductOwner) initiate and oversee this work.
+API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence software [architects](/roles/DPR-ApplicationArchitects.md) and developers collaborate on this activity; [API owners](/roles/SDPR-APIProductOwner) initiate and oversee this work.
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -30,7 +30,7 @@ This activity has the objective to answer the questions raised under 'Context' a
 1. Platform-independent *interface specifications*, including service contract and service level agreement.
 2. At least one serialization *technology mapping* and communication *protocol binding* for this design (for instance, JSON schemas and HTTP resource contracts). 
 
-This activity includes [domain-driven design](./DPR-TacticDDD.md); other forms of business-driven forward engineering can be used alternatively. It is commonly used when [backend integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration) are realized. It can also be applied in [frontend integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration); in that case, [User Interface Mocking.md](./DPR-UserInterfaceMocking.md) is an alternative and complementary activity. 
+This activity includes [domain-driven design](./DPR-TacticDDD.md); other forms of business-driven forward engineering can be used alternatively. It is commonly used when [backend integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration) are realized. It can also be applied in [frontend integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration); in that case, [User Interface Mocking](./DPR-UserInterfaceMocking.md) is an alternative and complementary activity. 
 
 
 ### Instructions (Synopsis, Definition)
@@ -44,7 +44,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 -->
 
 
-1. *Understand the business problem as well as stakeholder wants and needs, including desired system qualities.* What should be done, and how?  
+1. *Understand the business problem as well as stakeholder wants and needs, including desired system qualities.* What should be done, and how?  <!-- STX4ZIO: Compared to the other steps, this one is a bit "light", and provides no further hints. Also when looking at the figure above, we seem to be missing functional requirements, i.e, user stories, use cases, as outcomes of the first step. -->
 2. *Model the business domain and group related capabilities*, for instance by applying [tactic Domain-Driven Design (DDD)](DPR-TacticDDD.md) and [strategic DDD](DPR-StrategicDDD.md) (Vernon:2013). If "buy" or "rent" is an option (rather than "build" from scratch only), reverse engineer the interfaces and domain models of the existing systems to be bought or rented and integrated.
 3. *Split applications into frontends and backends*, again applying [strategic DDD](DPR-StrategicDDD.md) and/or other patterns for distributed computing while doing so (@Buschmann:2007). While designing, *capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made* and *[model]((DPR-ArchitectureModeling.md)) the resulting architecture*. <!-- TODO (v2) add CSC a.k.a. layer-tier assignment activity, CM supports it with APP to SYSTEM BC transition -->
 4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API resources. For each candidate endpoint, *forsee a [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html) that exposes [Data Transfer Objects](https://martinfowler.com/eaaCatalog/dataTransferObject.html)* in its request and response messages of the API operations) and assemble these facades into one or more [Service Layers](https://martinfowler.com/eaaCatalog/serviceLayer.html) to decouple the languages of frontends and backends (@Fowler:2002). Keep on deciding and capturing your architectural decisions. <!-- TODO (v2) list a few key ones in this step -->

@@ -35,7 +35,7 @@ Particularly relevant for service/API design are:
 #### Architectural Analysis
 
 * Analysis of Architecturally Significant Requirements (ASRs) and feature/functional requirements:
-    * An early and continuous analysis output is a relevance assessment and resulting prioritization, which can be supported by a checklist of ASR criteria (see [this blog post](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490) for the time being)
+    * An early and continuous analysis output is a relevance assessment and resulting prioritization, which can be supported by a checklist of ASR criteria (see [this blog post](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490) for the time being) <!-- STX4ZIO: Ich musste den Satz mehrmals lesen, bin aber immer noch nicht sicher, ob ich ihn verstanden habe. -->
     * User Story-Based Iteration Planning, Story Mapping and [Story Splitting](https://www.agilealliance.org/glossary/split/) 
     * [Use Case](../artifact-templates/DPR-UseCase.md) Modeling (full vs. brief)
 * [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md): <!-- TODO (v2.1) add "with CARGO as five meta qualities" -->

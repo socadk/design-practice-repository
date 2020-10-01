@@ -14,7 +14,7 @@ a.k.a. Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 
 ### Context
-*Domain-Driven Design (DDD)* proposes techniques and patterns to deal with the intrinsinc complexity in software development, both organizationally and technically. Key DDD themes are business-orientation, domain modeling, and knowledge reuse both on the strategical (i.e., long term, cross-project) and on the tactical (i.e.application, project, product) level. 
+*Domain-Driven Design (DDD)* proposes techniques and patterns to deal with the intrinsic complexity in software development, both organizationally and technically. Key DDD themes are business-orientation, domain modeling, and knowledge reuse both on the strategical (i.e., long term, cross-project) and on the tactical (i.e.application, project, product) level. 
 
 
 ### Goal and Purpose (When to Use and When not to Use)
