@@ -23,7 +23,7 @@ Use cases are elicited during requirements engineering (analysis) on a project. 
 ### Template Structure
 No single standardized template for use cases exist. At a bare minimum, a use case comprises:
 
-* A *name* that captures the essence of the sequence of the actor-system interactions (and their purpose/value).
+* A *name* that captures the essence of the actor-system interaction sequence (and their purpose/value).
 * An *identifier* so that use cases can be referred to.
 * A sequence of *interactions* between a user of the system and the system, either paraphrased in free text (called "brief" or "casual" use cases) or enumerated explicitly.
 
@@ -34,7 +34,7 @@ More elaborate templates also include:
 * *Postconditions* to indicate changes in the system after the use case was executed.
 * *Alternatives* in the flow of interactions, e.g. to handle errors or special cases. 
 
-Most templates are variations of the fully-dressed template described in @Cockburn:2001 (can also be found on [Wikipedia](https://en.wikipedia.org/wiki/Use_case#Fully_dressed)). One exmaple of a brief notation can be found in the [Context Mapper DSL(https://contextmapper.org/docs/user-requirements/).
+Most templates are variations of the fully-dressed template described in @Cockburn:2001 (can also be found on [Wikipedia](https://en.wikipedia.org/wiki/Use_case#Fully_dressed)). One example of a brief notation can be found in the [Context Mapper DSL](https://contextmapper.org/docs/user-requirements/).
 
 Here is an example template:
 

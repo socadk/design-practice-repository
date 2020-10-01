@@ -54,7 +54,7 @@ Note that these assumptions and decisions merely scope the tutorial; you'll be a
 ### Step 2: Model Domain, Make/Support Business Decisions
 <!-- summarize purpose, input and output of step -->
 
-When analyzing the two use cases from Step 1, the following [tactic DDD](../activities/DPR-TacticDDD.md) pattern instances may capture the analysis results (note that several entity attributes have been added; the Step 1 stories did not mention them explicitly but justify their introduction implicitly):
+When analyzing the two use cases from Step 1, the following [tactic DDD](../activities/DPR-TacticDDD.md) pattern instances may capture the analysis results (note that several entity attributes have been added; the Step 1 stories did not mention them explicitly, but justify their introduction implicitly):
 
 <!-- CML source (also appears in models subfolder): 
 ~~~

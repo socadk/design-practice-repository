@@ -12,7 +12,7 @@ a.k.a. Coding Architect (to indicate strong connection to development)
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
 Archie Tekt cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in te 4+1 model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (e.g., in reviews).
 
-P. Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But not forget that architects (like all people) are different!
+P. Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But do not forget that architects (like all people) are different!
 
 
 ### Information and Modeling Need

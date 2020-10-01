@@ -94,7 +94,7 @@ Stefan Murer's book on "Managed Evolution" lists many more, and the [Evolution c
 
 #### Up the Elevator 
 
-A number of frameworks and approaches exist for scaling agile exist, including: 
+A number of frameworks and approaches for scaling agile exist, including: 
 
 * [SAFe](https://www.scaledagileframework.com/)
 * [Large-scale Scrum (LeSS)](https://less.works/)
@@ -108,11 +108,11 @@ And Gregor Hohpe's IT/Software [Architect Elevator](https://architectelevator.co
 
 Some general hints for all design and modeling activities are: <!-- two typos on https://www.ifs.hsr.ch/index.php?id=13195&L=4 (in hint not copied here) -->
 
-* Always write for a particular target audience (stakeholders with concerns) and model purposeful.
+* Always write for a particular target audience (stakeholders with concerns) and model purposefully.
 * Follow a "good enough" approach to decision making and documentation.
 * Apply patterns and other reusable assets to reduce risk and cut cost.
 * Make your methods [mighty](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox), both as a method engineer and as a method adopter.
-* Practice [Situational_Method_Engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review/link/0912f508a5a083e5bc000000/download) when creating new method elements (artifact description techniques, templates and so on). We hope we do... if not please [help us](../contributing/readme.md) get better!
+* Practice [Situational Method Engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review/link/0912f508a5a083e5bc000000/download) when creating new method elements (artifact description techniques, templates and so on). We hope we do... if not please [help us](../contributing/readme.md) get better!
 
 
 ## Tools
