@@ -49,7 +49,7 @@ Pen and paper or a whiteboard are enough to get started on a simple model. The e
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 
-* A domain model is not a data-centric entity-relationship (ER) diagram, even if these two artifacts might look very similar at the first glance. For instance, the domain model for example does not contain any notion of primary keys, whereas the typical ER diagram does not use inheritance. Domain models are supposed to feature attributes *and* operations.
+* A domain model is not a data-centric entity-relationship (ER) diagram, even if these two artifacts might look very similar at the first glance. For instance, the domain model for example does not contain any notion of primary keys, whereas the typical ER diagram does not use inheritance. Domain models are supposed to feature attributes *and* operations. Martin Fowler warns about such [Anemic Domain Models](https://www.martinfowler.com/bliki/AnemicDomainModel.html) in his bliki.
 * A domain model can serve as an early check to see whether the desired functionality can be implemented, e.g. by making sure that all required relationships are present.
 * The refinement of the domain model as more use cases/user stories are implemented and the design evolves should not be forgotten (but often is).
 

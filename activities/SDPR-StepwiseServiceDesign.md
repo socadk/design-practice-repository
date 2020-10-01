@@ -21,7 +21,7 @@ The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) we
 * *How to ensure that services are loosely coupled? How much data should they exchange, and how often does this happen?*
 * *What are the most suitable message representations? How to agree on the meaning of each message?*"
 
-API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence software [architects](/roles/DPR-ApplicationArchitects.md) and Web developers collaborate on this activity; [API owners](/roles/SDPR-APIProductOwner) initiate and oversee this work.
+API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence software [architects](/roles/DPR-ApplicationArchitects.md) and developers collaborate on this activity; [API owners](/roles/SDPR-APIProductOwner) initiate and oversee this work.
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -30,7 +30,7 @@ This activity has the objective to answer the questions raised under 'Context' a
 1. Platform-independent *interface specifications*, including service contract and service level agreement.
 2. At least one serialization *technology mapping* and communication *protocol binding* for this design (for instance, JSON schemas and HTTP resource contracts). 
 
-This activity includes [domain-driven design](./DPR-TacticDDD.md); other forms of business-driven forward engineering can be used alternatively. It is commonly used when [backend integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration) are realized. It can also be applied in [frontend integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration); in that case, [User Interface Mocking.md](./DPR-UserInterfaceMocking.md) is an alternative and complementary activity. 
+This activity includes [domain-driven design](./DPR-TacticDDD.md); other forms of business-driven forward engineering can be used alternatively. It is commonly used when [backend integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration) are realized. It can also be applied in [frontend integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration); in that case, [User Interface Mocking](./DPR-UserInterfaceMocking.md) is an alternative and complementary activity. 
 
 
 ### Instructions (Synopsis, Definition)
@@ -44,7 +44,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 -->
 
 
-1. *Understand the business problem as well as stakeholder wants and needs, including desired system qualities.* What should be done, and how?  
+1. *Understand the business problem as well as stakeholder wants and needs, including desired system qualities.* Before anything can be designed, we ought to know: what should be done (on the project, by the software), and how? Many workshop techniques supporting this step exist, for instance (to name just two) [event storming](https://www.eventstorming.com/) and [quality storming](https://speakerdeck.com/mploed/quality-storming). With respect to software quality, DPR proposes [SMART NFR elicitation](DPR-SMART-NFR-Elicitation.md).
 2. *Model the business domain and group related capabilities*, for instance by applying [tactic Domain-Driven Design (DDD)](DPR-TacticDDD.md) and [strategic DDD](DPR-StrategicDDD.md) (Vernon:2013). If "buy" or "rent" is an option (rather than "build" from scratch only), reverse engineer the interfaces and domain models of the existing systems to be bought or rented and integrated.
 3. *Split applications into frontends and backends*, again applying [strategic DDD](DPR-StrategicDDD.md) and/or other patterns for distributed computing while doing so (@Buschmann:2007). While designing, *capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made* and *[model]((DPR-ArchitectureModeling.md)) the resulting architecture*. <!-- TODO (v2) add CSC a.k.a. layer-tier assignment activity, CM supports it with APP to SYSTEM BC transition -->
 4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API resources. For each candidate endpoint, *forsee a [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html) that exposes [Data Transfer Objects](https://martinfowler.com/eaaCatalog/dataTransferObject.html)* in its request and response messages of the API operations) and assemble these facades into one or more [Service Layers](https://martinfowler.com/eaaCatalog/serviceLayer.html) to decouple the languages of frontends and backends (@Fowler:2002). Keep on deciding and capturing your architectural decisions. <!-- TODO (v2) list a few key ones in this step -->
@@ -61,6 +61,13 @@ In this DPR repository, these seven top-level steps are elaborated upon in a num
 5. The [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md) then is more precise and assertive. The architectural refactoring activity is not documented in DPR (this repository) yet, but introduces [here (overview)](https://www.infoq.com/articles/architectural-refactoring/) and [here (more elaborate version with a draft catalog)](http://www.2015.summersoc.eu/wp-content/uploads/2015/07/2.4.ZIO-SummerSoC2015-ArcRefCloudv10p.pdf); it can be supported by tools such as [Context Mapper](https://contextmapper.org/docs/architectural-refactorings/) and [Service Cutter](https://contextmapper.org/docs/service-cutter-context-map-suggestions/).
 6. This should be "business as usual" for agile full stack developers and integration specialists for the most part, yielding an expressive, understandable [API description a.k.a. service contract artifact](../artifact-templates/SDPR-APIDescription.md). Both the abstract "port" level as well as technology-specific "adapter" bindings should be covered in it; both business and technical information has to be published in it. <!-- TODO (v2) write about "API TDD", jUnit, Postman, SOAPUI, Swagger tools, etc.; bring in checklist (can also go to Step 7) -->
 7. Patterns from the [quality category](https://microservice-api-patterns.org/patterns/quality/) and the [evolution category](https://microservice-api-patterns.org/patterns/evolution/) of MAP are eligible. The [quality patterns tutorial](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) introduces many of these patterns and gives you an idea of what kind of quality issues they can mitigate. And even if you are not yet thinking about the next version of your API, it is good to know what evolution strategies and patterns exist.
+
+<!-- TODO feature API testing too? 
+https://dzone.com/articles/api-testing-and-automation-101-the-essential-guide 
+https://techbeacon.com/app-dev-testing/11-top-open-source-api-testing-tools-what-your-team-needs-know 
+https://www.guru99.com/top-6-api-testing-tool.html 
+
+-->
 
 
 ### Example(s)
@@ -88,9 +95,7 @@ Step 7. Convert into Open API Specification (OAS)
 Step 7a (optional). Use Open API Specification to Update Application Stub
 -->
 
-<!-- TODO (v2): add 
-See [MAP tutorial 2](https://preview.microservice-api-patterns.org/patterns/tutorials/tutorial2) for an additional application example. not there yet, but will be by the time this repo goes public? 
--->
+See [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for an additional application example.
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
@@ -148,13 +153,15 @@ Bottom-up *code-first* API design can be combined with this top-down contract-fi
 * Phil Sturgeon's website and e-books themed [APIs you won't hate](https://apisyouwonthate.com/).
 * The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices". 
 
+<!-- TODO (v2.1) https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming?next_slideshow=1 -->
+
 
 ### Data Provenance 
 
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "08, 25, 2020 (Source: Project DD-DSE)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

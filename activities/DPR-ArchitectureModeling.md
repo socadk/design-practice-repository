@@ -48,7 +48,7 @@ not working:
 A wide range of notations and tools to support these and other modeling tasks exist, from ad hoc and informal to systematic and full-fledged. Some of the choices include:
 
 * Format: graphical vs. textual (DSLs)
-* Notation: Informal Rich Pictures (IRPs) vs. Unified Modeling Language (UML) models/diagrams (possibly using architecture-specific stereotypes) vs. Architecture Description Languages (ADLs) <!-- TODO (v2) such as FMC block diagrams -->
+* Notation: Informal Rich Pictures (IRPs) vs. Unified Modeling Language (UML) models/diagrams (possibly using architecture-specific stereotypes) vs. Architecture Description Languages (ADLs) such as Block Diagrams from the [Fundamental Modeling Concepts (FMC)](http://www.fmc-modeling.org/home).
 * Level of detail (abstraction and refinement); a model never is a 1:1 copy of the modeled realm (by definition)
 * Naming of diagram elements (for instance, components and connectors)
 * Tools (if any)

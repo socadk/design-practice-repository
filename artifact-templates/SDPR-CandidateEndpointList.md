@@ -27,7 +27,7 @@ Step 4 in the [stepwise API/service design activity](../activities/SDPR-Stepwise
 
 Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) starts with "List all the things"; this activity roughly corresponds to Steps 1 to 3 in DPR.
 
-<!-- TODO (v2) consult Subbu or other REST authority? -->
+<!-- TODO (v2) cite @Lauret:2019 here (see signs of use section ) -->
 
 
 ### Template Structure and Notation(s)
@@ -70,7 +70,7 @@ Any plain text or Markdown editor, wikis, presentation tools and even spreadshee
 Taking the output of Step 3 in our seven-step approach (or equivalent output of another business analysis and architecture design method) into account, you may want to follow the following steps when populating the CEL table (and, in the next step, the [Refined Endpoint List (REL)](SDPR-RefinedEndpointList.md)): 
 <!-- source: from MAP, unpublished so far -->
 
-1. Add one candidate API per functional partition a.k.a *Subdomain* in DDD (@Evans:2003); note that some DDD literature also talks about *Bounded Contexts* here (@Vernon:2013); optionally, also add one candidate endpoint per *Entity* in a subdomain and/or *Aggregate* in a bounded context. <!-- TODO (v2) how about operations too? -->
+1. Add one candidate API per functional partition a.k.a *Subdomain* in DDD (@Evans:2003); note that some DDD literature also talks about *Bounded Contexts* here (@Vernon:2013); optionally, also add one candidate endpoint per *Entity* in a subdomain and/or *Aggregate* in a bounded context. <!-- TODO (v2.1) how about services too? see what GT SLR from UZ et al has to say -->
 2. Add one candidate API per layer that crosses a physical tier boundary according to the chosen *client-server cuts* in the architecture; for instance, add one candidate API per client application? (as explained/motivated in the [*Backends-for-Frontends*](https://samnewman.io/patterns/architectural/bff/) pattern). <!-- TODO cite CSC patterns paper --><!-- removed here (v1): 3. Add one *candidate API client* per backend system to be integrated/required to implement the user/integration stories. -->
 3. Refactor (merge, split) to remove redundant API/API endpoint entries and achieve high cohesion (w.r.t. business-/domain-level responsibilities) within endpoints. <!--, but do not refine to API operation/call level yet. -->
 <!--
@@ -91,6 +91,8 @@ A general hint is not to hesitate to undo and revise as you learn more about the
 Any design/documentation artifact in between a planning item/requirement specification (for instance, a user story) and annotated source code providing a RESTful HTTP (or similar) endpoint resource qualifies as a CEL.
 
 The artifact appears in (@Sturgeon:2016) and also is a candidate pattern in MAP.
+
+Chapter 2 of (@Lauret:2019) features an "API Goals Canvas", which is very similar to the CEL/REL artifacts in DPR.
 
 
 ### Related Artifacts and Templates (incl. Alternatives)

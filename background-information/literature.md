@@ -63,6 +63,12 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 <div id="ref-Larman:2004">
 <p>Larman, Craig. 2004. <em>Applying Uml and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd Edition)</em>. USA: Prentice Hall PTR.</p>
 </div>
+<div id="ref-Lauret:2019">
+<p>Lauret, A. 2019. <em>The Design of Web Apis</em>. Manning.</p>
+</div>
+<div id="ref-MannionKeepence:1995">
+<p>Mannion, Mike, and Barry Keepence. 1995. “SMART Requirements.” <em>SIGSOFT Softw. Eng. Notes</em> 20 (2): 42–47. <a href="https://doi.org/10.1145/224155.224157">https://doi.org/10.1145/224155.224157</a>.</p>
+</div>
 <div id="ref-Newman:2015">
 <p>Newman, Sam. 2015. <em>Building Microservices: Designing Fine-Grained Systems</em>. O’Reilly Media, Inc.</p>
 </div>

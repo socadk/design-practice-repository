@@ -52,7 +52,7 @@ TODO
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA -->
-TODO
+Chapter 13 in @Lauret:2019 features questions to ask and a review checklist.
 
 
 ### Related Artifacts and Templates (incl. Alternatives)

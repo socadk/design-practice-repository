@@ -14,7 +14,7 @@ Activity/Technique: *Strategic DDD*
 
 
 ### Context
-Tactic DDD deals with implementing domain layer components; strategic DDD deals with integrating these components and managing complexity in end-to-end application landscapes for the long run. In small projects and businesses such long-time perspective might not be needed, but how about the many software development projects and development organizations at large software-intensive firms? The interfaces between system and teams have to be managed somehow, either centrally (this would be the task of enterprise architecture efforts) or decentrally (for instance, via Scrums of Scrums in the Scaled Agile Framework, SAFe). Strategic DDD provides patterns and a simple diagram type to support such efforts.
+Tactic DDD deals with implementing domain layer components; strategic DDD deals with integrating these components and managing complexity in end-to-end application landscapes for the long run. In small projects and businesses such long-term perspective might not be needed, but how about the many software development projects and development organizations at large software-intensive firms? The interfaces between systems and teams have to be managed somehow, either centrally (this would be the task of enterprise architecture efforts) or decentrally (for instance, via Scrums of Scrums in the Scaled Agile Framework, SAFe). Strategic DDD provides patterns and a simple diagram type to support such efforts.
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -85,9 +85,9 @@ Usage of the pattern names and presence of context maps, either drawn informally
 
 ### Related Content
 
-* Tactic DDD
+* [Tactic DDD](./DPR-TacticDDD.md)
 * System Context Diagram
-* Stepwise service design 
+* [Stepwise Service Design](./SDPR-StepwiseServiceDesign.md) 
 
 
 ### Performing Roles and Related Artifacts (Synopsis)

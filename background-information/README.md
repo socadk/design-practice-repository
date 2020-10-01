@@ -34,7 +34,7 @@ More snippets of method engineering and usage principles are:
 * The [Service Cutter wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
 * The [Build APIs You Won't Hate](https://apisyouwonthate.com/books) on LeanPub features a simple but effective resource identification technique
 * [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its "little brother" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
-* to be continued
+* Articles [on design](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
 
 See [ECSA SAGRA 2016 keynote](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and IFS webpage [Method Selection and Tailoring Guide](https://www.ifs.hsr.ch/index.php?id=13195&L=4) for more sources.
 
@@ -51,8 +51,8 @@ Methods from the 1970s, 1980s, 1990s:
 
 And the 2000s:
 
-* Agile practices, including proposals for scaling agile (SAFe, DA etc.)
-* Strategic and tactic DDD (OOAD continuation/extension)
+* [Agile practices](https://www.agilealliance.org/agile101/agile-glossary/), including proposals for scaling agile such as SAFe
+* Strategic and tactic [Domain-Driven Design (DDD)[https://dddcommunity.org/] (OOAD continuation/extension)
 * Software architecture templates and notations (see this [state of the art and the practice report as of 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) for more): 
     * [arc42](https://arc42.org/)
     * [C4 Model](https://c4model.com/) 
@@ -60,8 +60,8 @@ And the 2000s:
 * SOA methods 
     * SOAD proposal ([HTML](https://www.ibm.com/developerworks/library/ws-soad1/), [PDF](https://www.ibm.com/developerworks/library/ws-soad1/ws-soad1-pdf.pdf))
     <!-- * SOMA and similar proprietary methods (see this paper) -->
-    
-<!-- TODO (v2): feature UAM, http://www.unified-am.com/ -->
+* [Unified Architecture Method (UAM)](http://www.unified-am.com/)    
+
 
 ### Personal toolboxes (general purpose, not limited to service design)
 
@@ -87,6 +87,8 @@ Here are some additional resources and references:
 * OMG SPEM for method terminology and method engineering (e.g. in software engineering research)
 -->
 
+[arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
+
 See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
 
 
@@ -102,7 +104,7 @@ See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-toward
 ```yaml
 title: "Design Practice Repository (DPR): Background Information"
 author: Olaf Zimmermann (ZIO)
-date: "08, 17, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
+date: "10, 01, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

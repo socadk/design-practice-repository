@@ -11,7 +11,8 @@ On our client projects, we typically combine carefully selected elements from ex
 * Y-statements for terse Architectural Decision (AD) capturing that still is compliant to ISO/IEC/IEEE 42010:2011, the successor of IEEE Std. 1471 that makes decision rationale a mandatory element of architecture descriptions
 * SWOT tables for (qualitative) fit-gap scoring of candidate assets (such as patterns, technologies, frameworks)
 
-See an [ECSA SAGRA presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) for a shortlist of key artifacts/practices and examples of their use. <!-- > and paper <http://dl.acm.org/citation.cfm?id=3014339>. -->
+See an [ECSA SAGRA presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) for a shortlist of key artifacts/practices and examples of their use. <!-- > and paper <http://dl.acm.org/citation.cfm?id=3014339>. --> 
+
 
 ### Principles 
 
@@ -23,7 +24,7 @@ Some of our guiding principles for method adoption (and creation) are:
 * Design for operations, strive for compliance by design
 * Apply patterns and other reusable assets to reduce risk and cut cost.
 
-For more guiding principles, see Gregor Hohpe's beliefs as presented in his [ECSA 2014 keynote](http://ecsa2014.cs.univie.ac.at/program/keynote-speakers/) (e.g. "content is king", "lead by example") and the [10 Design Principles by GOV.UK Government Digital Service](https://www.gov.uk/design-principles).
+For more guiding principles, see Gregor Hohpe's beliefs as presented in his [ECSA 2014 keynote](http://ecsa2014.cs.univie.ac.at/program/keynote-speakers/) (e.g. "content is king", "lead by example") and the [10 Design Principles by GOV.UK Government Digital Service](https://www.gov.uk/design-principles). At ECSA 2020, [Michael Keeling's keynote](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox) listed these five criteria: 1) facilitate human-centered design 2) bias toward concrete outcomes, 3) consider the whole design space and 4) promote team growth, 5) easy to teach, fun to use.
 
 
 ## DPR Metadata
@@ -31,7 +32,7 @@ For more guiding principles, see Gregor Hohpe's beliefs as presented in his [ECS
 ```yaml
 title: Design Practice Repository (DPR): Towards an Open and Lean Architecting Framework
 author: Olaf Zimmermann (ZIO)
-date: "08, 17, 2020 (Source: Project DD-DSE)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 ```
 

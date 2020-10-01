@@ -7,12 +7,12 @@ We are happy to welcome new contributors who want to help improve our collection
 
 * Feel free to create GitHub [issues](https://github.com/socadk/design-practice-repository/issues). 
     * Have a look at the ones labelled with "help wanted".
-* Submit pull requests. <!-- TODO (v2) provide a template, example: <https://github.com/JabRef/jabref/blob/master/.github/PULL_REQUEST_TEMPLATE.md> -->
+* Submit pull requests. <!-- TODO (v2.1) provide a template, example: <https://github.com/JabRef/jabref/blob/master/.github/PULL_REQUEST_TEMPLATE.md> -->
     * If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
     * This folder contains templates for [artifact](DPR-ArtifactTemplate.md), [activity](DPR-ActivityTemplate.md), [role](DPR-RoleTemplate.md) descriptions.
 * [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
 
-<!-- TODO (v2): Please review our contribution rules/code of conduct upfront. Thank you! -->
+<!-- TODO (v2.1): Please review our contribution rules/code of conduct upfront. Thank you! -->
 
 
 ## DPR Metadata 
@@ -20,7 +20,7 @@ We are happy to welcome new contributors who want to help improve our collection
 ```yaml
 title: Design Practice Repository (DPR): CONTRIBUTING.md
 owner: Olaf Zimmermann (ZIO)
-date: "08, 25, 2020 (Source: Project DD-DSE)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 ```
 

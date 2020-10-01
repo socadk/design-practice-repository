@@ -14,7 +14,7 @@ Welcome to DPR (pronounced "deeper")! This public repository collects and refere
 
 Here's the roles we have created this repository for, ordered from specific to generic:
 
-* [(Micro-)service](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html) designers
+* [(Micro-)service](https://medium.com/olzzio/seven-microservices-tenets-e97d6b0990a4) designers
 * API product managers/owners, developers, testers, maintainers 
 * Software architects specializing on application integration 
 * Any software architect 
@@ -23,7 +23,7 @@ Here's the roles we have created this repository for, ordered from specific to g
 
 ## Overview and Quick Links
 
-<!-- TODO (v2) add simple miro or other diagram (with hyperlinks!) here -->
+<!-- TODO (v2.1) add simple miro or other diagram (with hyperlinks!) here -->
 
 DPR contains three types of method/practice elements:
 
@@ -45,7 +45,7 @@ We also provide some [background information](./background-information) on metho
 
 According to Martin Fowler, a service is a component with a remote Application Programming Interface (API). And services and their APIs [come in different sizes](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html), hence an engineering approach to designing them is required. That's all there is to say!
 
-If you want more conceptual clarifications, see this [blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html), [presentation](https://vss.swa.univie.ac.at/2019/wp-content/uploads/2019/08/ZIO-DomainDrivenServiceDecompositionMAP2019v13p.pdf) or [paper](http://rdcu.be/mJPz) for a definition of microservices and positioning as an implementation approach to SOA.
+If you want more conceptual clarifications, see this [blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html), this [presentation](https://vss.swa.univie.ac.at/2019/wp-content/uploads/2019/08/ZIO-DomainDrivenServiceDecompositionMAP2019v13p.pdf) or this [article](http://rdcu.be/mJPz) for a definition of microservices and positioning as an implementation approach to SOA.
 
 The [Microservice API Patterns (MAP) website](https://microservice-api-patterns.org/), [introduction](https://drops.dagstuhl.de/opus/volltexte/2020/11826/) and [pattern papers](https://microservice-api-patterns.org/publications#interface-evolution-patterns--balancing-compatibility-and-extensibility-across-service-life-cycles) go even deeper and introduce terms such as endpoint, operation and message representations. 
 
@@ -55,7 +55,7 @@ Our metamodel is an adoption of the related work chapter in Olaf Zimmermann's Ph
 
 ![DPR metamodel (from SOAD PhD thesis)](./images/SOADMethodMetamodel.png)
 
-This terminology maps to that of other method engineers like this<!-- (*note*: work in progress!)-->:
+This terminology maps to that of other method engineers like this<!-- TODO (v2): work in progress, review terms, add link to sit meth eng -->:
 
 | This repository | Agile community ([glossary](https://www.agilealliance.org/agile101/agile-glossary/))| OMG SPEM 2.0 ([PDF](https://www.omg.org/spec/SPEM/2.0/PDF)) | [Open Unified Process (UP)](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm) and other methods |
 |-|-|-|-|
@@ -73,19 +73,19 @@ The above terms establish an [ubiquitous language](https://martinfowler.com/blik
 
 ##  Acknowledgments 
 
-The creation and release of DPR was partially supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+The creation and release of DPR was partially supported by the project "Domain-Driven Digital Service Engineering" funded by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
 
 Contributors (input, technical writing, feedback): 
 
 * [Olaf Zimmermann (ZIO)](https://ozimmer.ch)
 * [Mirko Stocker (STX)](https://www.linkedin.com/in/misto/)
-* Oliver Kopp reviewed selected repository content and structure
-* to be continued
+
+Stefan Kapferer and Oliver Kopp reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
 
 
 ## Getting Involved 
 
-We are happy to welcome new contributors who want to help improve this collection of software/service/API design practices:
+If you would like to help improve this collection of software/service/API design practices:
 
 * Feel free to create GitHub issues.
 * Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
@@ -100,7 +100,7 @@ More information can be found [here](contributing/CONTRIBUTING.md).
 ```yaml
 title: Design Practice Repository (DPR)
 owner: Olaf Zimmermann (ZIO)
-date: "08, 19, 2020 (Source: Project DD-DSE)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Copyright 2020 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 
