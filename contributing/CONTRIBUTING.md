@@ -20,7 +20,7 @@ We are happy to welcome new contributors who want to help improve our collection
 ```yaml
 title: Design Practice Repository (DPR): CONTRIBUTING.md
 owner: Olaf Zimmermann (ZIO)
-date: "08, 25, 2020 (Source: Project DD-DSE)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 ```
 

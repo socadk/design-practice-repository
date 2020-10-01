@@ -14,7 +14,7 @@ Let's now walk through the main API design activity in DPR, [Stepwise Service De
 ### Step 1: Gather Requirements, Make Scoping Decisions
 <!-- TODO (all steps) summarize purpose, input and output of step from [activity description](activities/SDPR-StepwiseServiceDesign.md)? -->
 
-Two obvious [use cases](../artifact-templates/DPR-UseCase.md) in our sample scenario are specified in [a brief format](https://contextmapper.org/docs/user-requirements/) here (that unveils the required data and their relations just a bit): <!-- TODO (v2): mention that format in the UseCase text -->
+Two obvious [use cases](../artifact-templates/DPR-UseCase.md) in our sample scenario are specified in a [brief](https://contextmapper.org/docs/user-requirements/) format that unveils the required data and their relations just a bit: 
 
 ~~~
 UseCase UC1_Register {
@@ -54,7 +54,7 @@ Note that these assumptions and decisions merely scope the tutorial; you'll be a
 ### Step 2: Model Domain, Make/Support Business Decisions
 <!-- summarize purpose, input and output of step -->
 
-When analyzing the two use cases from Step 1, the following [tactic DDD](../activities/DPR-TacticDDD.md) pattern instances can be derived and identified (note that several entity attributes have been added, the need for them was not apparent in the Step 1 stories):
+When analyzing the two use cases from Step 1, the following [tactic DDD](../activities/DPR-TacticDDD.md) pattern instances may capture the analysis results (note that several entity attributes have been added; the Step 1 stories did not mention them explicitly but justify their introduction implicitly):
 
 <!-- CML source (also appears in models subfolder): 
 ~~~
@@ -244,7 +244,7 @@ See [MAP Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tu
 ```yaml
 title: "Design Practice Repository (DPR): Tutorial 1 (Online Shop API Design)"
 author: Olaf Zimmermann (ZIO)
-date: "08, 25, 2020 (Source: Project DD-DSE)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

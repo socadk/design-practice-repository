@@ -121,7 +121,27 @@ The [arc42 website](https://docs.arc42.org/section-10/) provides eight more hint
 
 
 ### Origins and Signs of Use
-NFRs and quality management have been a key theme in software engineering since the very beginnings 50+ years ago. Words ending with "-ility" often indicate NFR awareness and analysis.
+NFRs and quality management have been a key theme in software engineering since the very beginnings 50+ years ago. Words ending with "-ility" often indicate NFR awareness and analysis. 
+
+<!-- TODO (v2): SMART paper (A and T defined differently): https://dl.acm.org/doi/10.1145/224155.224157 
+@article{10.1145/224155.224157,
+author = {Mannion, Mike and Keepence, Barry},
+title = {SMART Requirements},
+year = {1995},
+issue_date = {April 1995},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {20},
+number = {2},
+issn = {0163-5948},
+url = {https://doi.org/10.1145/224155.224157},
+doi = {10.1145/224155.224157},
+journal = {SIGSOFT Softw. Eng. Notes},
+month = apr,
+pages = {42–47},
+numpages = {6}
+}
+-->
 
 Numbers usually indicate that the 'M' property has been strived for; explicit mention of the system under construction and/or individual use cases/user stories and system components indicates the 'S' in SMART. 
 
@@ -148,7 +168,9 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 ### More Information 
 arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/) and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/).
 
-Websites dedicated to software quality include [Quality-Aware development](http://www.quality-aware.com/).
+SAFe also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/).
+
+Websites dedicated to software quality include [Quality-Aware development](http://www.quality-aware.com/). The presentation [Non-Functional Requirements --- How to Get Them in Shape](http://www.softwaresummit.com/2006/speakers/BerghJohnssonNFR.pdf) defines the acronym differently but sends similar messages as we do here.
 
 
 ### Data Provenance 

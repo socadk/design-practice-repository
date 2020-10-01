@@ -35,9 +35,9 @@ Particularly relevant for service/API design are:
 #### Architectural Analysis
 
 * Analysis of Architecturally Significant Requirements (ASRs) and feature/functional requirements:
-    * Related artifacts: Checklist of ASR criteria
-    * User Story-Based Iteration Planning, Story Mapping and Splitting 
-    * Use Case Modeling (full vs. brief)
+    * An early and continuous analysis output is a relevance assessment and resulting prioritization, which can be supported by a checklist of ASR criteria (see [this blog post](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490) for the time being)
+    * User Story-Based Iteration Planning, Story Mapping and [Story Splitting](https://www.agilealliance.org/glossary/split/) 
+    * [Use Case](../artifact-templates/DPR-UseCase.md) Modeling (full vs. brief)
 * [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md): <!-- TODO (v2) add (with CARGO as five meta qualities: -->
     * Value, risk and cost-based prioritization of NFRs, article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements))
     * Specification of [Agile landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) (Rebecca Wirfs-Brock) 
@@ -62,8 +62,8 @@ Particularly relevant for service/API design are:
     * Yielding [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md), (M)ADRs or other forms of ADRs as artifacts 
     * Most Responsible Moment (MRM) scoring for ADs (dynamic?) <!-- MRM not LRM -->
 * Domain-Driven Design (DDD)
-    * Context Mapping <!-- and context maps (practice. vs. artifact) -->
-    * Tactic DDD
+    * Context Mapping in [Strategic DDD](DPR-StrategicDDD.md) <!-- and context maps (practice. vs. artifact) -->
+    * [Tactic DDD](DPR-TacticDDD.md)
 * User Interface (UI) Design
     * [User Interface Mocking](./DPR-UserInterfaceMocking.md)
 * Coding the Architecture 
@@ -135,7 +135,7 @@ More specific information, also about other tools, can be found on the individua
 ```yaml
 title: "Design Practice Repository (DPR): Activities (Practices, Techniques) Overview"
 author: Olaf Zimmermann (ZIO)
-date: "08, 06, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 ```
 

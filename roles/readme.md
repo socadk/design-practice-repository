@@ -48,7 +48,7 @@ We have identified the a number roles already, but only documented two of them s
 ```yaml
 title: "Design Practice Repository (DPR): Roles and Personas Overview"
 author: Olaf Zimmermann (ZIO)
-date: "08, 06, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 ```
 
