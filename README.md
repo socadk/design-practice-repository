@@ -23,7 +23,7 @@ Here's the roles we have created this repository for, ordered from specific to g
 
 ## Overview and Quick Links
 
-<!-- TODO (v2) add simple miro or other diagram (with hyperlinks!) here -->
+<!-- TODO (v2.1) add simple miro or other diagram (with hyperlinks!) here -->
 
 DPR contains three types of method/practice elements:
 

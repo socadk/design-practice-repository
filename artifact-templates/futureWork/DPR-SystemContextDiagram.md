@@ -53,7 +53,8 @@ TODO
 <!-- From PLOPs and from AA-->
 TODO
 
-<!-- TODO (v2): feature UAM, http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html -->
+UAM has this artifact: <http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html>
+
 
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->

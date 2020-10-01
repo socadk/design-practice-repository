@@ -17,7 +17,7 @@ Never fill out a template just because. If you cannot think of a benefit for a p
 
 ### Overview/Inventory
 
-<!-- TODO (v2) add simple miro diagram (with hyperlinks!) here -->
+<!-- TODO (v2.1) add simple miro diagram (with hyperlinks!) here -->
 
 #### Specific to API/Service Design
 
@@ -32,8 +32,7 @@ The service/API design-specific artifacts/templates in DPR are:
 
 * [Candidate Endpoint List](SDPR-CandidateEndpointList.md) 
 * [Refined Endpoint List](SDPR-RefinedEndpointList.md)
-* [API Description](SDPR-APIDescription.md), a.k.a. business and technical service contract (captured as a [API Description pattern](https://microservice-api-patterns.org/patterns/foundation/APIDescription)) in the [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) language
-<!-- TODO (v2) MDSL, Open API, AsyncAPI -->
+* [API Description](SDPR-APIDescription.md), a.k.a. business and technical service contract (captured as a [API Description pattern](https://microservice-api-patterns.org/patterns/foundation/APIDescription)) in the [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) language <!-- TODO (v.2.1) link to/mention MDSL, Open API, AsyncAPI -->
 * [Service Level Agreement](SDPR-ServiceLevelAgreement.md) (also a [pattern in MAP](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement))
 * to be continued
 
@@ -44,7 +43,7 @@ Requirements analysis and conversation with stakeholders can be captured in the 
 
 * [User stories](DPR-UserStory.md)
 * [Use cases](DPR-UseCase.md)
-* [Quality Attribute Scenarios (QAS)](futureWork/DPR-QualityAttributeScenario.md) and other templates for NFR/QA elicitation <!-- TODO (v2) other NFR templates: quality stories, Sophisten, PLANGUAGE? -->
+* [Quality Attribute Scenarios (QAS)](futureWork/DPR-QualityAttributeScenario.md) and other templates for NFR/QA elicitation <!-- TODO (v2.1) other NFR templates: quality stories, Sophisten, PLANGUAGE -->
 * [System Context Diagram (SCD)](futureWork/DPR-SystemContextDiagram.md)
 * to be continued
 

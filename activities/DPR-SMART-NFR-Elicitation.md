@@ -11,7 +11,7 @@ Abstraction/Refinement Level: all
 Activity: *SMART NFR Elicitation*
 ---------------------------------
 
-<!-- TODO (v2) decide on split: "Group NFRs by Type" or "select taxonomy" could be a separate activity that features FURPS, etc.; activity vs. artifact? -->
+<!-- TODO (v2.1) decide on split: "Group NFRs by Type" or "select taxonomy" could be a separate activity that features FURPS, etc.; activity vs. artifact? -->
 
 ### Context
 *Non-Functional Requirements (NFRs)*, including *Quality Attribute (QAs)*, describe *how* a system provides its functionality, not what it does (which is the purpose of functional requirements specifications such as [user stories](../artifact-templates/DPR-UserStory.md) or [use cases](../artifact-templates/DPR-UseCase.md)). Examples of key QAs are reliability, usability, efficiency (e.g., performance, scalability), maintainability, and portability according to [ISO/IEC standard 9126](https://en.wikipedia.org/wiki/ISO/IEC_9126). ISO 9126, now superseded by a newer standard, also lists functionality as a quality category.
@@ -63,7 +63,7 @@ M is about *monitoring* the requirement throughout a project. You should be able
 
 Explanations (excuses?) for not coming up with numbers are easy to find (e.g., fear of over-commitment might cause under-specification), but will get to you in the long run (project example given in the lecture: “standards compliance (past, present and future)”, "flexible data model", "scale console").
 
-<!-- TODO (v2) also document A, R, T on level of detail of S and M? -->
+<!-- TODO (v2.1) also document A, R, T on level of detail of S and M? -->
 
 SMARTness assessments can be recorded in the following way: 
 
@@ -123,25 +123,7 @@ The [arc42 website](https://docs.arc42.org/section-10/) provides eight more hint
 ### Origins and Signs of Use
 NFRs and quality management have been a key theme in software engineering since the very beginnings 50+ years ago. Words ending with "-ility" often indicate NFR awareness and analysis. 
 
-<!-- TODO (v2): SMART paper (A and T defined differently): https://dl.acm.org/doi/10.1145/224155.224157 
-@article{10.1145/224155.224157,
-author = {Mannion, Mike and Keepence, Barry},
-title = {SMART Requirements},
-year = {1995},
-issue_date = {April 1995},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {20},
-number = {2},
-issn = {0163-5948},
-url = {https://doi.org/10.1145/224155.224157},
-doi = {10.1145/224155.224157},
-journal = {SIGSOFT Softw. Eng. Notes},
-month = apr,
-pages = {42–47},
-numpages = {6}
-}
--->
+A paper on SMART requirements (that defines A and T somewhat differently) is the oldest reference that we found @MannionKeepence:1995
 
 Numbers usually indicate that the 'M' property has been strived for; explicit mention of the system under construction and/or individual use cases/user stories and system components indicates the 'S' in SMART. 
 

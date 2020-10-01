@@ -146,7 +146,7 @@ Usage of the above list and table formats is a sign of use.
 * [GraphQL](https://graphql.org/learn/) resources
 * WSDL/SOAP tips and tricks (@Zimmermann:2003)
 
-<!-- TODO (v2) links to books and guidelines for protocols/integration technologies, e.g. Subbu for RESTful HTTP  --> 
+<!-- TODO (ongoing) more links to books and guidelines: protocols/integration technologies --> 
 
 
 ### Data Provenance 

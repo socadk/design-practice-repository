@@ -36,7 +36,7 @@ API product owners care about and require/produce information related to:
 * Quick overviews of external interfaces and internal structure of the produced software.
 * Cost vs. benefit of feature development, supportability and evolvability of their products and services.
 
-<!-- TODO (v2): Revisit and complete as activities and artifacts evolve. -->
+<!-- TODO (ongoing): Revisit and complete as activities and artifacts evolve. -->
 
 
 ### Collaborations

@@ -12,7 +12,7 @@ a.k.a. Coding Architect (to indicate strong connection to development)
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
 Archie Tekt cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in te 4+1 model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (e.g., in reviews).
 
-<!-- TODO (v2) point to Starke book/arc42 and P. Kruchten JSS "what do architects do all day" -->
+P. Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But not forget that architects (like all people) are different!
 
 
 ### Information and Modeling Need
@@ -47,8 +47,7 @@ Application architects worry about and need:
 See this [guest editorial](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) of the special theme issue of IEEE Software "The Role of the Software Architect in the Digital Age".
 
 <!-- 
-Could suggest books to learn this role (experience can't be taught but has to be gained): 
-1) Design It! 2) Just Enough SWA, 3) Elevator? 
+Could suggest books to learn this role. Experience can't be taught but has to be gained. Once you have some, try 1) Design It! 2) Just Enough Software Architecture, 3) SWA Elevator 
 -->
 
 

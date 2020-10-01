@@ -13,7 +13,7 @@ One should never forget the first rule of method adoption:
 
 ### Overview/Inventory of Activities Specific to Service/API Design
 
-<!-- TODO (v2) add simple miro diagram (with hyperlinks!) here -->
+<!-- TODO (v2.1) add simple miro diagram (with hyperlinks!) here -->
 
 Particularly relevant for service/API design are:
 
@@ -38,7 +38,7 @@ Particularly relevant for service/API design are:
     * An early and continuous analysis output is a relevance assessment and resulting prioritization, which can be supported by a checklist of ASR criteria (see [this blog post](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490) for the time being)
     * User Story-Based Iteration Planning, Story Mapping and [Story Splitting](https://www.agilealliance.org/glossary/split/) 
     * [Use Case](../artifact-templates/DPR-UseCase.md) Modeling (full vs. brief)
-* [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md): <!-- TODO (v2) add (with CARGO as five meta qualities: -->
+* [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md): <!-- TODO (v2.1) add "with CARGO as five meta qualities" -->
     * Value, risk and cost-based prioritization of NFRs, proposed and elaborated upon in an article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements)) and very much in line with George Fairbank's advice on [Just Enough Software Architecture]().
     * Specification of [Agile landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) (Rebecca Wirfs-Brock) 
 <!--
@@ -53,11 +53,11 @@ Particularly relevant for service/API design are:
     * "Architecture Overviewing" and Strategic Architecting
 * Quality- and Pattern-Oriented Design 
 	* [Attribute-Driven Design (ADD) 3.0](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536) 
-	* POSA book series, POSA 4 in particular (tbd)
+	* Pattern-Oriented Software Architecture (POSA) book series, Volume 4 in particular @Buschmann:2007.
 * Component Identification and Modeling 
     <!-- * C4 (which extend into C5+2, adding Connectors, Context and Concerns) -->
     * [Responsibility-Driven Design](http://www.wirfs-brock.com/PDFs/A_Brief-Tour-of-RDD.pdf) introduces role stereotypes and made CRC cards popular.
-    * <!-- TODO (v2) --> "UML Components" by J. Cheesman and J. Daniels suggests steps to advance from use cases to components.
+    * "UML Components" by J. Cheesman and J. Daniels suggests steps to advance from use cases to components @CheesmanDaniels:2000
 * [Architectural Decision Capturing](./DPR-ArchitecturalDecisionCapturing.md)
     * Yielding [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md), (M)ADRs or other forms of ADRs as artifacts 
     * Most Responsible Moment (MRM) scoring for ADs (dynamic?) <!-- MRM not LRM -->

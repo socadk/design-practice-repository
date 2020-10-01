@@ -95,9 +95,7 @@ Step 7. Convert into Open API Specification (OAS)
 Step 7a (optional). Use Open API Specification to Update Application Stub
 -->
 
-<!-- TODO (v2): add 
-See [MAP tutorial 2](https://preview.microservice-api-patterns.org/patterns/tutorials/tutorial2) for an additional application example. not there yet, but will be by the time this repo goes public? 
--->
+See [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for an additional application example.
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
@@ -155,13 +153,15 @@ Bottom-up *code-first* API design can be combined with this top-down contract-fi
 * Phil Sturgeon's website and e-books themed [APIs you won't hate](https://apisyouwonthate.com/).
 * The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices". 
 
+<!-- TODO (v2.1) https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming?next_slideshow=1 -->
+
 
 ### Data Provenance 
 
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "08, 25, 2020 (Source: Project DD-DSE)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

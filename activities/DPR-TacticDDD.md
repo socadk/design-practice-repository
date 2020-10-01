@@ -42,9 +42,8 @@ The original DDD book @Evans:2003 provides this pattern map for tactic DDD (show
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together. Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity. 
 
-<!-- TODO (v2) explain term Aggregate Root (an entity) better, provide CRC card? -->
-
-<!-- TODO (v2) give examples of: The aggregate root (an entity) is responsible for preserving invariants. -->
+<!-- TODO (v2.1) explain term Aggregate Root (an entity) better, provide CRC card? -->
+<!-- TODO (v2.1) give examples of: The aggregate root (an entity) is responsible for preserving invariants. -->
 
 In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via subdomains, another DDD pattern):
 

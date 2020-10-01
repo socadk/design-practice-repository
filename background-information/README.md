@@ -87,6 +87,8 @@ Here are some additional resources and references:
 * OMG SPEM for method terminology and method engineering (e.g. in software engineering research)
 -->
 
+[arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
+
 See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
 
 
