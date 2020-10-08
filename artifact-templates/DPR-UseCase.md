@@ -94,7 +94,7 @@ The history of use cases dates back to Ivar Jacobson in 1986 and are an essentia
 
 [User Interface Mocking](../activities/DPR-UserInterfaceMocking.md) can be used to visualize use cases.
 
-[SMART NFR elicitation](DPR-SMART-NFR-Elicitation.md).
+[SMART NFR elicitation](../activities/DPR-SMART-NFR-Elicitation.md).
 
 
 ### More Information

@@ -23,7 +23,9 @@ Here's the roles we have created this repository for, ordered from specific to g
 
 ## Overview and Quick Links
 
-<!-- TODO (v2.1) add simple miro or other diagram (with hyperlinks!) here -->
+DPR is organized around *artifacts*, *templates*, *activities* and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
+
+<img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPG concepts visualized with miro "/>
 
 DPR contains three types of method/practice elements:
 

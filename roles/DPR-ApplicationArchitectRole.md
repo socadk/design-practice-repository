@@ -56,7 +56,7 @@ Could suggest books to learn this role. Experience can't be taught but has to be
 ```yaml
 title: "Design Practice Repository (DPR): Application Architect"
 author: Olaf Zimmermann (ZIO)
-date: "08, 14, 2020 (Source: Project DD-DSE)"
+date: "10, 01, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
