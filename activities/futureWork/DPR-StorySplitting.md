@@ -90,8 +90,9 @@ Review the [agile glossary](https://www.agilealliance.org/agile101/agile-glossar
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Story Splitting"
 author: Olaf Zimmermann (ZIO)
-date: "mm, dd, yyyy (Source: Project XYZ)"
-copyright: The author, 2020 (unless noted otherwise). All rights reserved.
+date: "10, 14, 2020 (Source: Project DD-DSE)"
+copyright: Copyright 2020 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
+
 
