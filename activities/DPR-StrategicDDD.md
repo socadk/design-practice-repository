@@ -46,8 +46,6 @@ The original DDD book (@Evans:2003) defined an initial set of relations between 
 * *Anti-Corruption Layer (ACL)*: "One bounded context uses the services of another and is not a stakeholder, but aims to minimize impact from changes in the bounded context it depends on by introducing a set of adapters – an anti-corruption layer."
 * An additional relation is *Separate Ways*, if you decide not to collaborate and/or integrate two bounded contexts.
 
-<!-- Mirko: Eine sehr schöne Zusammenfassung und Einführung! O: Thx! Aus AppArch Fact Sheet -->
-
 The relationship types are organizational patterns (not technical ones); they differ regarding the following design concerns: 
 
 * Topology: Local vs. remote? 
@@ -70,7 +68,7 @@ The [Context Mapper website](https://contextmapper.org/docs/examples/) provides 
 This [OOSPLA experience report](https://dddcommunity.org/wp-content/uploads/files/practitioner_reports/landre_einar_2006_part1.pdf) makes the case for strategic DDD. 
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 * Never forget whom you build a system for; do not get hung up in pattern philosophy or technical details.
 * Read Chapters 2, 3, 10 and 13 in "Implementing Domain-Driven Design", for instance for a clarification of the relationships between subdomains and bounded contexts.

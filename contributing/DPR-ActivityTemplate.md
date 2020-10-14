@@ -48,7 +48,7 @@ TODO
 TODO
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 <!-- See ART, don’t overdo etc. -->
 TODO
 

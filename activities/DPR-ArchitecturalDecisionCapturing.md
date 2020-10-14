@@ -65,7 +65,7 @@ There are few short-term incentives for decision capturing, which has been repor
 Comparing the two definitions of software architecture (components and connectors vs. set of design decisions), one can view the latter as the software engineering/architecting process equivalent of [event sourcing](https://martinfowler.com/eaaDev/EventSourcing.html), with all its pros and cons. 
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 See this article for tips and tricks: <https://www.infoq.com/articles/sustainable-architectural-design-decisions>
 

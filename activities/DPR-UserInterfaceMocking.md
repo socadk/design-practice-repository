@@ -49,7 +49,7 @@ The following wireframe shows a rather simple and basic screen for user manageme
 Creating some sort of mock up (whether that's a paper prototype or fully interactive design) is part of most teams workflow anyway, but it's usually done to communicate between designers, developers and customers/end-users and not for service design.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 Take care not to loose yourself in details, so don't use a graphics program that lets you create a pixel-perfect design, but keep it rough, just like in the example above. Besides saving time and allowing to focus on the task at hand, figuring out the coarse-grained layout and content of your screens; this also clearly communicates to the other stakeholders that you're still far from a working application.
 
 

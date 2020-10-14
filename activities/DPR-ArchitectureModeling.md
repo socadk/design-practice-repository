@@ -19,7 +19,7 @@ This desire for structure can be met by identification of candidate components a
 
 Furthermore, technology concepts also have to be decided: middleware and frameworks such as component containers, communication protocols and message exchange formats, cluster and deployment managers (for instance, Spring Boot and Docker running in a public cloud). 
 
-The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture these early decisions; complementary to that, the overall architecture and selected parts should also be visualized to accommodate the information needs of the different types of stakeholders <!-- TODO link to MRM/SOAD meta issue blog post when there --> 
+The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture these early decisions; complementary to that, the overall architecture and selected parts should also be visualized to accommodate the information needs of the different types of stakeholders. <!-- TODO link to MRM/SOAD meta issue blog post when there --> 
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -86,12 +86,12 @@ TODO
 
 George Fairbanks sends similar messages in bis book ["Just Enough Software Architecture"](https://www.georgefairbanks.com/book/) (@Fairbanks:2020).
 
-A variation of DPR method creation and adoption rule 4 applies: $
+A variation of the "if in doubt leave it out" rule for DPR method adoption applies here:
 
-> Do not create a 'big ball of model mud'; always have a distinct target audience and its information needs in mind when creating a model or a diagram.
+> Do not create a 'big ball of model mud'; always have a distinct target audience and its information needs in mind when creating a model or a diagram and base your in/out and naming decisions on the preferences and background of that particular audience.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 * Capture both static and dynamic aspects (for instance, compile time and runtime dependencies). UML sequence diagrams can serve as Component Interaction Diagrams (CIDs); the [arc42 Runtime View](https://docs.arc42.org/section-6/) provides further advice. 
 * Consider to complement your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows) and/or provide [CRC cards](../artifact-templates/futureWork/DPR-CRCCard.md) to explain responsibilities and collaborations of the components that appear in architecture overviews and component models. 
@@ -103,7 +103,9 @@ A variation of DPR method creation and adoption rule 4 applies: $
 
 
 ### Origins and Signs of Use
-If the above hints are followed, use of architecture modeling is straightforward to spot. If not, you have a review finding and set of questions to ask &#128515;. 
+Modeling arguably has been there since the very beginnings of computer science and software engineering; most computer programs actually are models and abstractions of some parts of the real world.
+
+If the tips in teh section "Hints and Pitfalls to Avoid" above are followed, the use of architecture modeling and models is straightforward to spot. If not, you have a review finding and set of questions to ask &#128515;. 
 
 
 ### Related Content

@@ -109,7 +109,7 @@ The more a system fails, the less it is available; the longer it takes to repair
 See this [IEEE Software article](https://www.zora.uzh.ch/id/eprint/7375/) for guidelines when to invest in deep and SMART NFR elicitation, and when not to.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 * State assumptions if stakeholder input is incomplete or insufficient; have these assumptions reviewed and approved.
 * Define [landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) if single numbers are hard to come up with and agree upon.
