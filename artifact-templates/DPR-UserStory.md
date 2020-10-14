@@ -60,6 +60,8 @@ The [Context Mapper](https://contextmapper.org/) DSL has first class support for
 * Do not create models or specifications as an excuse for and user interactions and conversations.  
 * Continuously update the stories while learning about users and their requirements.
 * [INVEST](https://www.agilealliance.org/glossary/invest) in story quality.
+* Practice [story splitting](https://agileforall.com/patterns-for-splitting-user-stories/) to make stories fit into single sprints/iterations (and to identify candidate components for  [architecture modeling](../activities/DPR-ArchitectureModeling.md), including [candidate endpoints](SDPR-CandidateEndpointList.md)).
+* Also consider story mapping and example mapping.
 
 
 ### Origins and Signs of Use
