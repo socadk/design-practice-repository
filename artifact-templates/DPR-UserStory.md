@@ -29,7 +29,6 @@ User stories are used in sprint planning, sprint reviews, etc. They are one way 
 
 
 ### Template Structure
-<!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
 The Connextra format ("role-feature-benefit/reason") is a popular one: 
 
 > As a `[role/persona]`, I want to `[feature, in verb form]` so that `[benefit]`.
@@ -48,14 +47,12 @@ so that other researchers can find and cite the referenced paper easily, and my 
 
 
 ### Tools
-<!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
 User stories typically are created and updated transiently in issue tracking systems. They can also go to wiki pages, specification and documentation documents. 
 
 The [Context Mapper](https://contextmapper.org/) DSL has first class support for an extended user story format. 
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
-<!--See ART, don’t overdo etc.-->
+### Hints and Pitfalls to Avoid
 
 * Do not create models or specifications as an excuse for and user interactions and conversations.  
 * Continuously update the stories while learning about users and their requirements.

@@ -104,7 +104,7 @@ A few examples of tools include:
 * [JHipster](https://www.jhipster.tech/doing-api-first-development/) can be used to quickly turn OpenAPI specifications into Spring Boot applications.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 * Do not mechanically turn all application domain (micro-)layer artifacts such as Domain-Driven Design (DDD) pattern instances or facades into (micro-)services, but follow a recognized or homegrown identification method. For instance, the DDD *Bounded Context* is seen to form an upper boundary for microservice size, while *Aggregates* serve as lower boundary.
 * Prioritize the nonfunctional requirements as many of them conflict with each other (see coverage of top-level forces in the language overview).

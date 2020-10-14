@@ -24,7 +24,7 @@ See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) 
 
 
 ### Template Structure
-DDD as such does not mandate any notation. Each author and presenter has his/her own style. The following visualization of context maps shown has become quite popular:
+DDD as such does not mandate any notation. Each author and presenter has his/her own style. The following visualization of context maps has become quite popular:
 
 ![](images/CargoDDD_ContextMap.svg)
 
@@ -50,20 +50,20 @@ ContextMap DDDSampleMap {
 ### Tools
 
 * [Context Mapper](https://contextmapper.org/)
-* Any drawing tool
-* Whiteboard
+* Any drawing tool, including online ones
+* Whiteboards, both physical and virtual ones such as [miro](https://miro.com)
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
-* Comment on the arrow/relationship semantics. 
-* Provide a figure legend.
-* Keep it simple.
+* Decide which type(s) of Bounded Context to support: feature? application? system? team?  
+* Specify the arrow/relationship semantics (DDD patterns? other?) and provide a figure legend as DDD does not mandate any particular notation.
+* See [architecture modeling activity](../activities/DPR-ArchitectureModeling.md) for more modeling hints, including variants of the general "keep it simple" rule.
 
 
 ### Origins and Signs of Use
 
-See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) for the time being. 
+See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md) for the time being. 
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
@@ -75,15 +75,18 @@ See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) 
 
 ### More Information
 
-Can be found in the book "Implementing Domain-Driven Design" by V. Vernon.
+["Strategic Domain Driven Design with Context Mapping "](https://www.infoq.com/articles/ddd-contextmapping/) by A. Brandolini introduces context maps by scenario and example.
 
+Context Maps are covered in depth in the book "Implementing Domain-Driven Design" by V. Vernon (@Vernon:2013).
+
+The language reference of the Context Mapper DSL is [here](https://contextmapper.org/docs/context-map/).
 
 ### Data Provenance 
 
 ```yaml
 title: "Design Practice Repository (DPR): Context Map (Strategic DDD)"
 author: Olaf Zimmermann (ZIO)
-date: "08, 15, 2020 (Source: Project DD-DSE)"
+date: "10, 14, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

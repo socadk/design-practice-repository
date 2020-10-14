@@ -67,7 +67,7 @@ See this [end-to-end service design demo](https://ozimmer.ch/practices/2020/06/1
 * Annotation processors and equivalent programming language-level tools, often included in Web development frameworks and application servers; JAX-RS, Spring MVC and Spring Fox are examples.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 From the EuroPLoP 2019 paper "Interface Evolution Patterns — Balancing Compatibility and Extensibility across Service Life Cycles" by Daniel Lübke, Olaf Zimmermann, Cesare Pautasso, Uwe Zdun, Mirko Stocker  ([PDF](http://eprints.cs.univie.ac.at/6082/1/WADE-EuroPlop2019Paper.pdf)):
 
