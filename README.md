@@ -28,7 +28,7 @@ DPR is organized around *artifacts*, *templates*, *activities* and *techniques* 
 <!--
 <img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPG concepts visualized with miro "/>
 -->
-<object height="100%" width="100%" data="{{site.baseurl}}/assets/images/DPR-MetamodelMiro.svg" alt="DPG concepts visualized with miro ">
+<object height="100%" width="100%" data="./images/DPR-MetamodelMiro.svg" alt="DPG concepts visualized with miro ">
 </object>
 
 DPR contains three types of method/practice elements:
