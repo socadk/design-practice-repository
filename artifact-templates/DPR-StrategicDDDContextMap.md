@@ -26,7 +26,8 @@ See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) 
 ### Template Structure
 DDD as such does not mandate any notation. Each author and presenter has his/her own style. The following visualization of context maps has become quite popular:
 
-![](images/CargoDDD_ContextMap.svg)
+<img src="images/CargoDDD_ContextMap.svg" height="400" />
+<!-- ![](images/CargoDDD_ContextMap.svg) -->
 
 
 ### Example(s)
@@ -56,7 +57,7 @@ ContextMap DDDSampleMap {
 
 ### Hints and Pitfalls to Avoid
 
-* Decide which type(s) of Bounded Context to support: feature? application? system? team?  
+* Decide which type(s) of Bounded Context to support: Feature? Application? System? Team?  
 * Specify the arrow/relationship semantics (DDD patterns? other?) and provide a figure legend as DDD does not mandate any particular notation.
 * See [architecture modeling activity](../activities/DPR-ArchitectureModeling.md) for more modeling hints, including variants of the general "keep it simple" rule.
 
@@ -66,7 +67,7 @@ ContextMap DDDSampleMap {
 See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md) for the time being. 
 
 
-### Related Artifacts and Practices (incl. Alternatives)
+### Related Artifacts (incl. Alternatives)
 
 * System Context Diagram
 * Domain Model 
@@ -79,7 +80,8 @@ See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md) f
 
 Context Maps are covered in depth in the book "Implementing Domain-Driven Design" by V. Vernon (@Vernon:2013).
 
-The language reference of the Context Mapper DSL is [here](https://contextmapper.org/docs/context-map/).
+The language reference of the Context Mapper DSL can be found [here](https://contextmapper.org/docs/context-map/). <!-- TODO link to papers: FAST in MW20? -->
+
 
 ### Data Provenance 
 
