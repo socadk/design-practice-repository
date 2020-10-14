@@ -76,7 +76,7 @@ A project wiki is a good place to store use cases. Apart from that, only a text 
 Requirements engineering and UML tools such as DOORS or Enterprise Architect from Sparx (to name just two of many) can be used, but do not have to.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 To classify use cases, @Cockburn:2001 suggests to specify the *design scope* of a use case, ranging from black-box organization to single component. To indicate the level of detail to readers (and also writers), use cases can also be annotated with a *goal level*. In the context of API and service design, strive to write on the *user goal* or *subfunction* level.
 
 It is a common convention to name use cases with verbs; strong, domain-specific words should be preferred over generic ones such as "manage" or "make". Actors should also be named specifically; for instance, prefer "Online Shopper" over "User". See hint 6 in ZIO's [Technical Writing Tips and Tricks](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
@@ -94,7 +94,7 @@ The history of use cases dates back to Ivar Jacobson in 1986 and are an essentia
 
 [User Interface Mocking](../activities/DPR-UserInterfaceMocking.md) can be used to visualize use cases.
 
-[SMART NFR elicitation](DPR-SMART-NFR-Elicitation.md).
+[SMART NFR elicitation](../activities/DPR-SMART-NFR-Elicitation.md).
 
 
 ### More Information

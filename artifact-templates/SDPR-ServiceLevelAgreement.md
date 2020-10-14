@@ -42,7 +42,7 @@ No tools are needed, but it's recommended to create a project or even company-wi
 The emerging [Microservice Domain-Specific Language](https://microservice-api-patterns.github.io/MDSL-Specification/optionalparts) (MDSL) supports SLA modeling in an experimental and optional part of the language. 
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 Striking a balance between attractiveness and at the same time trustworthiness and accountability in your SLA and SLO commitments can be a challenge. 
 
 The level of detail and the tradeoff between provider commitments and customer/client obligations also depends on the visibility and reach of a system/API and the consequence of not meeting its SLA: an internal SLA often can be more aggressive, while an SLA for external clients might be legally binding. 

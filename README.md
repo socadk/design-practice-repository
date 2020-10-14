@@ -23,7 +23,14 @@ Here's the roles we have created this repository for, ordered from specific to g
 
 ## Overview and Quick Links
 
-<!-- TODO (v2.1) add simple miro or other diagram (with hyperlinks!) here -->
+DPR is organized around *artifacts*, *templates*, *activities* and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
+
+<img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPG concepts visualized with miro"/>
+
+<!-- not possible here (?): 
+<object height="100%" width="100%" data="./images/DPR-MetamodelMiro.svg" alt="DPG concepts visualized with miro">
+</object>
+-->
 
 DPR contains three types of method/practice elements:
 
@@ -49,9 +56,9 @@ If you want more conceptual clarifications, see this [blog post](https://ozimmer
 
 The [Microservice API Patterns (MAP) website](https://microservice-api-patterns.org/), [introduction](https://drops.dagstuhl.de/opus/volltexte/2020/11826/) and [pattern papers](https://microservice-api-patterns.org/publications#interface-evolution-patterns--balancing-compatibility-and-extensibility-across-service-life-cycles) go even deeper and introduce terms such as endpoint, operation and message representations. 
 
-### Method Engineering
+### Situational Method Engineering
 
-Our metamodel is an adoption of the related work chapter in Olaf Zimmermann's PhD thesis report ["An architectural decision modeling framework for service-oriented architecture design"](https://elib.uni-stuttgart.de/handle/11682/2682): 
+DPR applies a best-of-breed approach. Our metamodel is an adoption of the related work chapter in Olaf Zimmermann's PhD thesis report ["An architectural decision modeling framework for service-oriented architecture design"](https://elib.uni-stuttgart.de/handle/11682/2682): 
 
 ![DPR metamodel (from SOAD PhD thesis)](./images/SOADMethodMetamodel.png)
 
@@ -100,7 +107,7 @@ More information can be found [here](contributing/CONTRIBUTING.md).
 ```yaml
 title: Design Practice Repository (DPR)
 owner: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE)"
+date: "10, 14, 2020 (Source: Project DD-DSE)"
 copyright: Copyright 2020 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 

@@ -51,7 +51,7 @@ Several options are available:
 When embedding ADs in code, custom annotations can be used (for instance, with [Embedded Architectural Decision Records (e-adr)](https://github.com/adr/e-adr)).
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 * Some readers do not appreciate the structured, but rather long sentences in the original Y-form; consider splitting up into two our three sentences if you get such feedback.
 * Optionally, you may want to add a "because" half sentence for any rationale and justification that does not fit into the "to achieve"/"accepting that" weighting. 

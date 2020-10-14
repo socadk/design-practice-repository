@@ -102,7 +102,7 @@ See [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tu
 The more clients an API has and the longer it runs and the more mission-critical it is, the more it pays off to invest in contract-first API and service design. 
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 * *Do not follow the steps sequentially* but iterate, refactor, evolve stepwise. Iterate, refactor, evolve again. Iterate, refactor, evolve continuously. The logical ordering of the seven steps by no means implies waterfall or [Big Design Up Front (BDUF)](https://en.wikipedia.org/wiki/Big_Design_Up_Front). 
 * *Avoid &mdash; or spot and overcome &mdash; [analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis)*. Acknowledge the general rules of method engineering, including:

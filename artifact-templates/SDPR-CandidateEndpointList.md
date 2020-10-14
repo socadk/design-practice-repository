@@ -66,7 +66,7 @@ The CEL identifying the API design and frontend-backend integration needs derive
 Any plain text or Markdown editor, wikis, presentation tools and even spreadsheets can be used to create and populate CEL tables, as long as they provide some support for table editing.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 Taking the output of Step 3 in our seven-step approach (or equivalent output of another business analysis and architecture design method) into account, you may want to follow the following steps when populating the CEL table (and, in the next step, the [Refined Endpoint List (REL)](SDPR-RefinedEndpointList.md)): 
 <!-- source: from MAP, unpublished so far -->
 
