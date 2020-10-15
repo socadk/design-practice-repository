@@ -249,7 +249,7 @@ See MAP [Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tu
 ```yaml
 title: "Design Practice Repository (DPR): Tutorial 1 (Online Shop API Design)"
 author: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE)"
+date: "10, 15, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
