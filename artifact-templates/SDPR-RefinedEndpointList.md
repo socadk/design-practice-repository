@@ -22,16 +22,14 @@ A REL answers the following questions:
 
 ### Usage (Produced and Consumed When)
  
-A REL is produced in Step 5 in [stepwise service design activity](../activities/SDPR-StepwiseServiceDesign.md), service layer design (the API provides the remote facades).
+A Refined Endpoint List (REL) is produced in Step 5 in [stepwise service design activity](../activities/SDPR-StepwiseServiceDesign.md), service layer design (the API provides the remote facades).
 
 <!-- * Step 5 of the EXPOSE technique -->
 
-Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) includes "Reconcile Magic Strings" as step 3 and "Select a Media Type" as step 4; REL creation and population roughly corresponds to these two steps.
+Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) includes "Reconcile Magic Strings" as step 3 and "Select a Media Type" as step 4; REL creation and population roughly corresponds to these two steps. The REL corresponds to the "updated API goal canvas that Arnaud Lauret proposes in Chapter 2 of "The Design of Web APIs" (@Lauret:2019).
 
 
 ### Template Structure and Notation(s)
-<!-- copy-pasted from https://internal.microservice-api-patterns.org/patterns/identification/CandidateEndpointList.html TOOO decide pattern/method split --> 
-
 Record your design results in list or table form. 
 
 Start with a list of endpoints with their visibility and direction and link to requirements and domain model, for instance structured as this: 
@@ -66,7 +64,7 @@ For each API endpoint listed as described above, specify its responsibilities an
 |          |  [name]     | [operation responsibility]   | [abstract in/out data syntax]        | [custom, standard] |                    |
 ```
 
-<!-- TODO (v2) Step 5 of activity has more here: service layer, remote facade, DTO ADs -->
+<!-- Step 5 of activity has more here: service layer, remote facade, DTO ADs; feature in tutorial (not needed here) -->
 
 Make the following decisions and record them as described in the activity [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md):
 
@@ -81,14 +79,14 @@ Make these decisions with an API-wide scope or decide separately per endpoint/pe
 
 ### Example(s)
 
-This example refines the CEL example:
+This example of a REL continues and details the example given in the [Candidate Endpoint List](SDPR-CandidateEndpointList.md) artifact:
 
 | Endpoint | Operation   | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
 |----------|-------------|------------------------------|-----------------------------------------------------------|--------------------|
-| Customer |             | *Master Data Holder*         |              | microformats or ALPS (tbd) |
-|          |  Find (GET) |  *Retrieval Operation* | *in:* QueryString (tbd), *out:* CustomerDTOSet | |
-|          |  Read (GET) | *Retrieval Operation* | *in:* `CustomerId":ID<int>`, *out:* `CustomerDTO` <!-- MDSL snippets --> |  |
-|          |  Update (PUT) |*State Creation Operation*  | *in:* `{"CustomerId", "newPhoneNumber", "newAddress"}`, *out:* `{"statusInformation", "linkToUpdatedCustomerResource}` <!-- MDSL snippets --> | |
+| Customer |             | [*Master Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/MasterDataHolder)         |              | microformats or ALPS (tbd) |
+|          |  Find (GET) |  [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* QueryString (tbd), *out:* CustomerDTOSet | |
+|          |  Read (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* `CustomerId":ID<int>`, *out:* `CustomerDTO` <!-- MDSL snippets --> |  |
+|          |  Update (PUT) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation)  | *in:* `{"CustomerId", "newPhoneNumber", "newAddress"}`, *out:* `{"statusInformation", "linkToUpdatedCustomerResource}` <!-- MDSL snippets --> | |
 
  Note that one could use a structure that deviates from the template. This is ok according to our second rule of method adoption "do not follow templates blindly, but adopt them to your needs".
 
@@ -111,7 +109,7 @@ A few examples of tools include:
 * Reuse already modelled data representation elements (ALPS, microformats, etc.).
 * Define a [Service Level Agreement](SDPR-ServiceLevelAgreement.md) with at least one service level objective per operation (or endpoint). 
 * Specify at least one test case per user story and API operation.
-* Evaluate whether your API design and implementation can benefit from [Test-Driven Development (TDD)](https://www.agilealliance.org/glossary/tdd/) and [Behavior-Driven Development (BDD)](https://dannorth.net/introducing-bdd/) supporting tools such as [Cucumber](https://cucumber.io/). 
+* Evaluate whether your API design and implementation can benefit from [Test-Driven Development (TDD)](https://www.agilealliance.org/glossary/tdd/) and [Behavior-Driven Development (BDD)](https://dannorth.net/introducing-bdd/) and supporting tools such as [Cucumber](https://cucumber.io/). 
 
 <!-- From JUG 2019 slide (is there a newer version?) -->
 
@@ -121,7 +119,7 @@ The book "Implementing Domain-Driven Design" by V. Vernon provides the following
 * When Bounded Contexts (BCs) are realized by API providers, one service API and IDE project for each team/system BC (a.k.a. microservice) should be foreseen.
 * Aggregates supply API resources (or responsibilities) of service endpoints.
 * DDD (application) services may be exposed as top-level (home) resources in BC endpoints as well.
-* The Root Entity, the Repository and the Factory in an Aggregate suggest top-level resources; contained entities yield sub-resources.
+* The Root Entity (also known as Aggregate Root), the Repository and the Factory in an Aggregate suggest top-level resources; contained entities yield sub-resources. The [MDSL generator in Context Mapper](https://contextmapper.org/docs/mdsl/) implements this mapping.
 * Repository lookups become paginated queries (GET with search parameters).
 
 
@@ -141,12 +139,10 @@ Usage of the above list and table formats is a sign of use.
 ### More Information
 
 * [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and related patterns (@Fowler:2002)
-* Books on Web API design and RESTful HTTP (@Allamaraju:2010)
+* Books on Web API design and RESTful HTTP (@Allamaraju:2010, @Lauret:2019)
 * gRPC guidelines and [style guide](https://developers.google.com/protocol-buffers/docs/style)
 * [GraphQL](https://graphql.org/learn/) resources
 * WSDL/SOAP tips and tricks (@Zimmermann:2003)
-
-<!-- TODO (ongoing) more links to books and guidelines: protocols/integration technologies --> 
 
 
 ### Data Provenance 
@@ -154,7 +150,7 @@ Usage of the above list and table formats is a sign of use.
 ```yaml
 title: "Design Practice Repository (DPR): Refined Endpoint List (REL)"
 author: Olaf Zimmermann (ZIO)
-date: "08, 25, 2020 (Source: Project DD-DSE)"
+date: "10, 15, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

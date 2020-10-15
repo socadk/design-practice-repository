@@ -21,13 +21,13 @@ Let us articulate the need for this artifact in question form:
 
 ### Usage (Produced and Consumed When)
 
-Step 4 in the [stepwise API/service design activity](../activities/SDPR-StepwiseServiceDesign.md) in DPR concetns service layer design. The API provides the remote facades.
+Step 4 in the [stepwise API/service design activity](../activities/SDPR-StepwiseServiceDesign.md) in DPR concerns service layer design; the API provides remote facades and data transfer objects (@Fowler:2002). The still technology- and platform-independent output of this step is the Candidate Endpoint List (CEL).
 
 <!-- * Step 3 of the EXPOSE technique -->
 
-Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) starts with "List all the things"; this activity roughly corresponds to Steps 1 to 3 in DPR.
+Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) starts with "List all the things"; this activity roughly corresponds to Steps 1 to 3 in DPR. Arnaud Lauret proposes an "API goal canvas" in Chapter 2 of "The Design of Web APIs" (@Lauret:2019): 
 
-<!-- TODO (v2) cite @Lauret:2019 here (see signs of use section ) -->
+> Who wants to do what and how? What are the inputs and outputs? Which goals result? 
 
 
 ### Template Structure and Notation(s)
@@ -70,8 +70,8 @@ Any plain text or Markdown editor, wikis, presentation tools and even spreadshee
 Taking the output of Step 3 in our seven-step approach (or equivalent output of another business analysis and architecture design method) into account, you may want to follow the following steps when populating the CEL table (and, in the next step, the [Refined Endpoint List (REL)](SDPR-RefinedEndpointList.md)): 
 <!-- source: from MAP, unpublished so far -->
 
-1. Add one candidate API per functional partition a.k.a *Subdomain* in DDD (@Evans:2003); note that some DDD literature also talks about *Bounded Contexts* here (@Vernon:2013); optionally, also add one candidate endpoint per *Entity* in a subdomain and/or *Aggregate* in a bounded context. <!-- TODO (v2.1) how about services too? see what GT SLR from UZ et al has to say -->
-2. Add one candidate API per layer that crosses a physical tier boundary according to the chosen *client-server cuts* in the architecture; for instance, add one candidate API per client application? (as explained/motivated in the [*Backends-for-Frontends*](https://samnewman.io/patterns/architectural/bff/) pattern). <!-- TODO cite CSC patterns paper --><!-- removed here (v1): 3. Add one *candidate API client* per backend system to be integrated/required to implement the user/integration stories. -->
+1. Add one candidate API per functional partition a.k.a *Subdomain* in DDD (@Evans:2003); note that some DDD literature also talks about *Bounded Contexts* here (@Vernon:2013); optionally, also add one candidate endpoint per *Entity* and *Service* in a subdomain and/or *Aggregate* in a bounded context.
+2. Add one candidate API per layer that crosses a physical tier boundary according to the chosen assignment of logical layers to physical tiers, also known as *client-server cuts* (@RenzelKeller:1997). For instance, add one candidate API per client application as explained/motivated in the [*Backends-for-Frontends*](https://samnewman.io/patterns/architectural/bff/) pattern. <!-- removed here: 3. Add one *candidate API client* per backend system to be integrated/required to implement the user/integration stories. -->
 3. Refactor (merge, split) to remove redundant API/API endpoint entries and achieve high cohesion (w.r.t. business-/domain-level responsibilities) within endpoints. <!--, but do not refine to API operation/call level yet. -->
 <!--
 5. Add one *candidate API* per team shown as a *Team Bounded Context (TBC)* in a DDD context map; add one *candidate endpoint* per subteam. -->
@@ -97,9 +97,10 @@ Chapter 2 of (@Lauret:2019) features an "API Goals Canvas", which is very simila
 
 ### Related Artifacts and Templates (incl. Alternatives)
 
-* [Domain Model](DPR-DomainModel.md) 
-* Architecture overviews showing Service Layer
-* [Refined Endpoint List](SDPR-RefinedEndpointList.md)
+* [Use cases](DPR-UseCase.md) or [user stories](DPR-UserStory.md) as well as [user interface mocks](../activities/DPR-UserInterfaceMocking.md) can serve as input to CEL preparation.
+* The same holds for the [Domain Model](DPR-DomainModel.md) .
+* Architecture overview diagrams and models containing a Service Layer
+* The [Refined Endpoint List](SDPR-RefinedEndpointList.md) picks up the CEL en route to implementation.
 * [API Description](SDPR-APIDescription.md), capturing platform-independent and -specific service contracts (MDSL, OpenAPI Specification, AsyncAPI)
 
 
