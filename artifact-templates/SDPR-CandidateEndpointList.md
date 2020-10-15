@@ -83,9 +83,9 @@ A general hint is not to hesitate to undo and revise as you learn more about the
 ### Origins and Signs of Use
 Any design/documentation artifact in between a planning item/requirement specification (for instance, a user story) and annotated source code providing a RESTful HTTP (or similar) endpoint resource qualifies as a CEL.
 
-The artifact appears in (@Sturgeon:2016) and also is a candidate pattern in MAP.
+A similar artifact appears in "Build APIs You Won’t Hate" (@Sturgeon:2016).
 
-Chapter 2 of (@Lauret:2019) features an "API Goals Canvas", which is very similar to the CEL/REL artifacts in DPR.
+Chapter 2 of "The Design of Web APIs" (@Lauret:2019) features an "API Goals Canvas", which is very similar to the CEL/REL artifacts in DPR.
 
 
 ### Related Artifacts and Templates (incl. Alternatives)
@@ -109,7 +109,7 @@ Chapter 2 of (@Lauret:2019) features an "API Goals Canvas", which is very simila
 ```yaml
 title: "Design Practice Repository (DPR): Candidate Endpoint List"
 author: Olaf Zimmermann (ZIO)
-date: "08, 14, 2020 (Source: Project DD-DSE)"
+date: "10, 15, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
