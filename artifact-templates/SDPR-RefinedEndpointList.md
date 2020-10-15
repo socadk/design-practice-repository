@@ -88,7 +88,9 @@ This example of a REL continues and details the example given in the [Candidate 
 |          |  Read (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* `CustomerId":ID<int>`, *out:* `CustomerDTO` <!-- MDSL snippets --> |  |
 |          |  Update (PUT) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation)  | *in:* `{"CustomerId", "newPhoneNumber", "newAddress"}`, *out:* `{"statusInformation", "linkToUpdatedCustomerResource}` <!-- MDSL snippets --> | |
 
- Note that one could use a structure that deviates from the template. This is ok according to our second rule of method adoption "do not follow templates blindly, but adopt them to your needs".
+<!-- TODO (v2) SSD step 5 has more, for instance provider/backend mapping -->
+
+Note that one could use a structure that deviates from the template. This is ok according to our second rule of method adoption "do not follow templates blindly, but adopt them to your needs".
 
 <!-- See this [end-to-end service design demo](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for more technical contracts. -->
 

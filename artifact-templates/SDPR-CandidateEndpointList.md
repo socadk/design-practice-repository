@@ -43,7 +43,7 @@ Record your analysis (and design) results in list or table form:
 
 A simple table like this will suffice: 
 
-| Endpoint | Operation | Responsibility/Exposed Data | 
+| Endpoint | Operation | Role/Exposed Data | 
 |----------|-----------|-----------------------------|
 |...|...|...|
 
@@ -55,7 +55,7 @@ MAP tutorial 2 (which is not yet published on the MAP website yet) provides a cu
 
 The CEL identifying the API design and frontend-backend integration needs derived from this story looks like this (note that HTTP verbs are already called out, which is a little early but ok on candidate level):
 
-| Endpoint | Operation (HTTP verb)  | Responsibility/Exposed Data | 
+| Endpoint | Operation (HTTP verb)  | Role/Exposed Data | 
 |----------|-------------|-----------------------------|
 | Customer | Find (GET)  | Returns list of identifiers of customers that match some search criteria |
 |          | Read (GET)  | Returns details of one particular customer record |
