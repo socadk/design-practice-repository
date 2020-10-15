@@ -122,6 +122,13 @@ The book "Implementing Domain-Driven Design" by V. Vernon provides the following
 * The Root Entity (also known as Aggregate Root), the Repository and the Factory in an Aggregate suggest top-level resources; contained entities yield sub-resources. The [MDSL generator in Context Mapper](https://contextmapper.org/docs/mdsl/) implements this mapping.
 * Repository lookups become paginated queries (GET with search parameters).
 
+Additional rules of thumb regarding the transition from DDD to API design (drawn from our experience and additional sources) are:
+
+* Master data and transactional data go to different bounded contexts/aggregates and, in turn, endpoints.
+* Creation requests to Factories become POSTs.
+* Entity modifiers become PUTs or PATCHes.
+* Value Objects appear in the custom MIME types representing resources.
+
 
 ### Origins and Signs of Use
 The REL artifact is an unpublished candidate pattern in MAP, drawing upon experiences in the community. So unlike all other artifact templates, REL is an novel proposal in DPR Release 1.0.

@@ -77,13 +77,6 @@ Taking the output of Step 3 in our seven-step approach (or equivalent output of 
 5. Add one *candidate API* per team shown as a *Team Bounded Context (TBC)* in a DDD context map; add one *candidate endpoint* per subteam. -->
 <!-- not sure where previous one came from; F-A-S-T? see e2e demo -->
 
-Additional rules of thumb (regarding the transition from DDD to API design (drawn from our experience and additional sources) are:
-
-* Master data and transactional data go to different contexts/aggregates and, in turn, endpoints.
-* Creation requests to Factories become POSTs.
-* Entity modifiers become PUTs or PATCHes.
-* Value Objects appear in the custom MIME types representing resources.
-
 A general hint is not to hesitate to undo and revise as you learn more about the client's information needs and provider capabilities (both on CEL and REL level, as well as throughout all seven steps). 
 
 

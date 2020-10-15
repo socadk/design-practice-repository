@@ -49,7 +49,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 3. *Split applications into frontends and backends*, again applying [strategic DDD](DPR-StrategicDDD.md) and/or other patterns for distributed computing while doing so (@Buschmann:2007). While designing, *capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made* and *[model]((DPR-ArchitectureModeling.md)) the resulting architecture*. <!-- TODO (v2) add CSC a.k.a. layer-tier assignment activity, CM supports it with APP to SYSTEM BC transition -->
 4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API resources. For each candidate endpoint, *forsee a [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html) that exposes [Data Transfer Objects](https://martinfowler.com/eaaCatalog/dataTransferObject.html)* in its request and response messages of the API operations) and assemble these facades into one or more [Service Layers](https://martinfowler.com/eaaCatalog/serviceLayer.html) to decouple the languages of frontends and backends (@Fowler:2002). Keep on deciding and capturing your architectural decisions. <!-- TODO (v2) list a few key ones in this step -->
 5. *Map candidate endpoints to existing or new backend systems, yielding a [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md)*, and *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. *Refactor* the Candidate Endpoint List from the previous step along the way (along with any tentatively added facades and DTOs). Update the architectural decision log accordingly. 
-6. Once the entries in the refined endpoint list are somewhat stable, *decide for integration technologies* (communication protocols such as HTTP or gRPC and message exchange formats such as JSON and XML in particular) and implement stubs (or an API MVP), integrate and test. *Specify service contracts including protocol bindings and technology mappings* in an [API description a.k.a. service contract artifact](../artifact-templates/SDPR-APIDescription.md). Optionally, add [Service Level Agreements](../artifact-templates/SDPR-ServiceLevelAgreement.md) and [Rate Plans](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RatePlan). Decide on service deployment technologies and microservice infrastructure middleware such as API gateways, load balancers, container orchestration engines and cloud offerings (@Fehling:2014), again capturing your decision outcome. <!-- TODO (v2) cite another MS(A) book (C. Richardson?) -->
+6. Once the entries in the refined endpoint list are somewhat stable, *decide for integration technologies* (communication protocols such as HTTP or gRPC and message exchange formats such as JSON and XML in particular) and implement stubs (or an API MVP), integrate and test. *Specify service contracts including protocol bindings and technology mappings* in an [API description a.k.a. service contract artifact](../artifact-templates/SDPR-APIDescription.md). Optionally, add [Service Level Agreements](../artifact-templates/SDPR-ServiceLevelAgreement.md) and [Rate Plans](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RatePlan). Decide on service deployment technologies and microservice infrastructure middleware such as [API gateways](https://microservices.io/patterns/apigateway.html), load balancers, container orchestration engines and cloud offerings (@Fehling:2014), again capturing your decision outcome.
 7. *Improve and evolve the API design* and its implementation, for instance adjust endpoint and operation numbers as well as request and response message structures to meet the desired runtime qualities (for instance, performance and scalability). Use [(micro-)service API design and evolution patterns](https://microservice-api-patterns.org/patterns/evolution/) along the way (@Daigneau:2011, @Zimmermann:2020).
 
 In this DPR repository, these seven top-level steps are elaborated upon in a number of dedicated activities, each supported by one or more artifact templates and/or [Microservice API Patterns](https://microservice-api-patterns.org/patterns/byscope#pattern-index): 
@@ -63,9 +63,10 @@ In this DPR repository, these seven top-level steps are elaborated upon in a num
 7. Patterns from the [quality category](https://microservice-api-patterns.org/patterns/quality/) and the [evolution category](https://microservice-api-patterns.org/patterns/evolution/) of MAP are eligible. The [quality patterns tutorial](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) introduces many of these patterns and gives you an idea of what kind of quality issues they can mitigate. And even if you are not yet thinking about the next version of your API, it is good to know what evolution strategies and patterns exist.
 
 <!-- TODO feature API testing too? 
-https://dzone.com/articles/api-testing-and-automation-101-the-essential-guide 
-https://techbeacon.com/app-dev-testing/11-top-open-source-api-testing-tools-what-your-team-needs-know 
-https://www.guru99.com/top-6-api-testing-tool.html 
+
+* https://dzone.com/articles/api-testing-and-automation-101-the-essential-guide 
+* https://techbeacon.com/app-dev-testing/11-top-open-source-api-testing-tools-what-your-team-needs-know 
+* https://www.guru99.com/top-6-api-testing-tool.html 
 
 -->
 
@@ -136,7 +137,7 @@ Produced artifacts:
 
 
 #### Other Practices (Alternatives)
-Early presentations on MAP featured six steps called EXPOSE: <!-- (not yet fully documented): -->
+Early presentations on MAP featured six steps called EXPOSE:
 <!-- (see [this conference presentation]() 2018 seminar preso): --> 
 
 ![](images/MAP-EXPOSEStepsInServiceDesign.png)
@@ -147,10 +148,11 @@ Bottom-up *code-first* API design can be combined with this top-down contract-fi
 
 
 ### More Information 
-<!-- Further Reading, Academic Publications) -->
 
-* [Microservice API Patterns (MAP) website](https://microservice-api-patterns.org/)
+* Arnaud Lauret, "The Design of Web APIs" (@Lauret:2019).
 * Phil Sturgeon's website and e-books themed [APIs you won't hate](https://apisyouwonthate.com/).
+* Presentations, [blog posts](http://amundsen.com/blog/) and [books](https://www.amazon.com/Design-Build-Great-Web-APIs/dp/1680506803) by Mike Amundsen.
+* [Microservice API Patterns (MAP) website](https://microservice-api-patterns.org/)
 * The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices". 
 
 <!-- TODO (v2.1) https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming?next_slideshow=1 -->
