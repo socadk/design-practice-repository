@@ -10,8 +10,14 @@ One should never forget the first rule of method adoption:
 
 > *If in doubt, leave it out (or: do not create a big ball of method mud).*
 
+Other general hints for all design and modeling activities are: <!-- two typos on https://www.ifs.hsr.ch/index.php?id=13195&L=4 (in hint not copied here) -->
 
-### Overview/Inventory of Activities Specific to Service/API Design
+* Always write for a particular target audience (stakeholders with concerns) and model purposefully.
+* Follow a "good enough" approach to decision making and documentation.
+* Apply patterns and other reusable assets to reduce risk and cut cost.
+
+
+### Activities Specific to Service/API Design
 
 <!-- TODO (v2.1) add simple miro diagram (with hyperlinks!) or table here -->
 
@@ -28,7 +34,7 @@ Particularly relevant for service/API design are:
 -->
 
 
-### Overview/Inventory of Artifacts General Software Engineering/Architecture:
+### Activities General Software Engineering/Architecture:
 
 #### Architectural Analysis
 
@@ -36,13 +42,11 @@ Particularly relevant for service/API design are:
     * Relevance assessment and prioritization, which can be supported by a checklist of ASR criteria (see [this blog post](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490) for the time being)
     * User Story-Based Iteration Planning, Story Mapping and [Story Splitting](https://www.agilealliance.org/glossary/split/) 
     * [Use Case](../artifact-templates/DPR-UseCase.md) Modeling (full vs. brief)
-    * [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md): <!-- TODO (v2.1) add "with CARGO as five meta qualities" -->
-    * Value, risk and cost-based prioritization of NFRs, proposed and elaborated upon in an article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements)) and very much in line with George Fairbank's advice on [Just Enough Software Architecture](https://www.georgefairbanks.com/book/).
+    * [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md), including <!-- TODO (v2.1) add "with CARGO as five meta qualities" --> value-, risk- and cost-based prioritization of NFRs, proposed and elaborated upon in an article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements)) and very much in line with George Fairbank's advice on [Just Enough Software Architecture](https://www.georgefairbanks.com/book/). [Quality storming](https://speakerdeck.com/mploed/quality-storming) has been proposed vy Michael Ploed more recently. 
     * Specification of [Agile landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) (Rebecca Wirfs-Brock) 
 <!--
     * Quality story telling (two flavours: extended user story, standalone)
-    * Quality storming (Michael Ploed) 
-    * to be continued (e.g., PLANGUAGE, Sophisten templates) 
+    * PLANGUAGE, Sophisten templates) 
 -->
 
 #### Architectural Synthesis
@@ -67,6 +71,7 @@ Particularly relevant for service/API design are:
 * Coding the Architecture 
     * [Architecturally Evident Coding Styles](https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_48651.pdf)
 * Operational Modeling
+    * As proposed by the IBM Global Services Method (see [here](https://www.ifi.uzh.ch/dam/jcr:00000000-10dc-dd8d-ffff-ffffa2484ab4/UniZH_HS2011_5_DevelopingSolutionArchitecture.pdf))
 <!-- * DevOps (or: ArchOps?) -->
 
 
@@ -85,12 +90,12 @@ Both lean/light and full-fledged techniques have been proposed:
 #### Architectural Evolution
 
 * Architectural Roadmapping, described by Eltjo Poort in an IEEE Software [Insights installment](https://ieeexplore.ieee.org/document/7725228?arnumber=7725228)
-* Risk-driven prioritization, introduced in George Fairbank's "Just Enough Software Architecture"  <!-- (hoisting?) -->
+* Risk-driven prioritization, introduced in George Fairbank's "Just Enough Software Architecture" (@@Fairbanks:2010) <!-- hoisting?) -->
 * Thomas Ronzon's [Software Retrofit](https://www.researchgate.net/publication/296480151_Software_Retrofit_in_High-Availability_Systems_When_Uptime_Matters)
 
 Stefan Murer's book on "Managed Evolution" lists many more, and the [Evolution category in MAP]()collects patterns for API versioning and life cycle management.
 
-#### Up the Elevator 
+#### IT Strategy and Enterprise/Program Architecture Work 
 
 A number of frameworks and approaches for scaling agile exist, including: 
 
@@ -99,21 +104,10 @@ A number of frameworks and approaches for scaling agile exist, including:
 * [Disciplined Agile Delivery](https://en.wikipedia.org/wiki/Disciplined_agile_delivery) <!-- at PMI now, less information available online -->
 <!-- * to be continued -->
 
-And Gregor Hohpe's IT/Software [Architect Elevator](https://architectelevator.com/) always is worth a ride.
+Gregor Hohpe's IT/Software [Architect Elevator](https://architectelevator.com/) always is worth a ride to the upper levels (and back).
 
 
-## General Hints 
-
-Some general hints for all design and modeling activities are: <!-- two typos on https://www.ifs.hsr.ch/index.php?id=13195&L=4 (in hint not copied here) -->
-
-* Always write for a particular target audience (stakeholders with concerns) and model purposefully.
-* Follow a "good enough" approach to decision making and documentation.
-* Apply patterns and other reusable assets to reduce risk and cut cost.
-* Make your methods [mighty](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox), both as a method engineer and as a method adopter.
-* Practice [Situational Method Engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review/link/0912f508a5a083e5bc000000/download) when creating new method elements (artifact description techniques, templates and so on). We hope we do... if not please [help us](../contributing/readme.md) get better!
-
-
-## Tools
+### Tool Support
 
 Many of the activities (techniques and practices, that is) collected in this repository are partially or fully supported by tools; these tools then help produce the output artifacts. 
 
@@ -126,7 +120,7 @@ Some of the ones we have contributed to, or work on, are:
 More specific information, also about other tools, can be found on the individual pages.
 
 
-## More Information 
+### More Information 
 
 * See [top-level readme](../README.md).
 * See [background information folder](../background-information).

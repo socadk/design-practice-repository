@@ -84,7 +84,7 @@ TODO
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 "Agile Modeling" by S. Ambler has a core practice called [Just Barely Good Enough Models and Documents](http://agilemodeling.com/essays/barelyGoodEnough.html) that covers cost vs. benefit of modeling (@Ambler:2002). 
 
-George Fairbanks sends similar messages in bis book ["Just Enough Software Architecture"](https://www.georgefairbanks.com/book/) (@Fairbanks:2020).
+George Fairbanks sends similar messages in bis book ["Just Enough Software Architecture"](https://www.georgefairbanks.com/book/) (@Fairbanks:2010).
 
 A variation of the "if in doubt leave it out" rule for DPR method adoption applies here:
 

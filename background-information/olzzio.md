@@ -31,6 +31,8 @@ For more guiding principles, see Gregor Hohpe's beliefs as presented in his [ECS
 
 Olaf Zimmermann announced DPR in his blog post ["DPR: an Open Source Repository Collecting Mighty Methods"](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) on October 14, 2020. 
 
+We hope DPR qualifies as a (set of) mighty methods... if not, please [help us](../contributing/readme.md) get better!
+
 
 ## DPR Metadata
 

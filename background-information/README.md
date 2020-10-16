@@ -10,6 +10,7 @@ These are the design principles and guidelines for [DPR](../README.md):
 * Prefer a practice collection over a closed, formal/full method(ology):
     * Roles are not formally defined, but represent stakeholder personas with information/specification/review needs
     * Be open and lean by design, so never finished (and delivered as a repo)
+* Practice [Situational Method Engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review/link/0912f508a5a083e5bc000000/download) when creating new method elements (artifact description techniques, templates and so on). 
 
 We follow a *PEACH* model (compare with the ["Keeling Five"](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) criteria for mighty methods): 
 
@@ -97,7 +98,7 @@ API and service design:
 See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
 
 
-## Site Navigation
+### Site Navigation
 
 * [Top-level readme for the DPR repository](../README.md): getting started information, terminology clarification, metadata
 * [Artifact templates](../artifact-templates) 

@@ -74,6 +74,8 @@ In short, *activities* describe work to be done, *techniques* (or practices) hel
 
 The above terms establish an [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) (or domain model) of service design and agile architecting &mdash; in the (bounded) context of this repository &#128521; 
 
+*Note:* Method adoption is eased if you make your methods [mighty](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox).
+
 
 ##  Acknowledgments 
 
@@ -88,7 +90,6 @@ Stefan Kapferer and [Oliver Kopp](https://ozimmer.ch/practices/2020/10/14/github
 
 
 ## Getting Involved 
-
 If you would like to help improve this collection of software/service/API design practices:
 
 * Feel free to create GitHub issues.
