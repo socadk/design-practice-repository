@@ -11,7 +11,7 @@ These are the design principles and guidelines for [DPR](../README.md):
     * Roles are not formally defined, but represent stakeholder personas with information/specification/review needs
     * Be open and lean by design, so never finished (and delivered as a repo)
 * Practice [Situational Method Engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review/link/0912f508a5a083e5bc000000/download) when creating new method elements (artifact description techniques, templates and so on).
-* We agree with Philippe Kruchten that ["we do not need richer software process models"](https://philippe.kruchten.com/2011/03/11/we-do-not-need-richer-software-process-models/) if rich means means heavy, detailed, complicated. Hence, our main focus is on the (hopefully light) artifacts templates for commonly used practices --- and much less on activity flows and roles.
+* We agree with Philippe Kruchten that ["we do not need richer software process models"](https://philippe.kruchten.com/2011/03/11/we-do-not-need-richer-software-process-models/) if rich means means heavy, detailed, complicated. Hence, our main focus is on the (hopefully light) artifacts templates for commonly used practices, and much less on activity flows and roles.
 
 We follow a *PEACH* model (compare with the ["Keeling Five"](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) criteria for mighty methods): 
 
@@ -45,16 +45,16 @@ Methods from the 1970s, 1980s, 1990s:
 And the 2000s:
 
 * [Agile practices](https://www.agilealliance.org/agile101/agile-glossary/), including proposals for scaling agile such as SAFe
-* Strategic and tactic [Domain-Driven Design (DDD)[https://dddcommunity.org/] <!-- OOAD continuation/extension -->
+* Strategic and tactic [Domain-Driven Design (DDD)(https://dddcommunity.org/) <!-- OOAD continuation/extension -->
+* [Software Engineering Method and Theory (SEMAT)](http://semat.org/what-is-it-and-why-should-you-care-) initiative, [Essence specification](http://semat.org/essence-1.2) and [learning/teaching material](http://www.software-engineering-essentialized.com/home)
 * Software architecture templates and notations (see this [state of the art and the practice report as of 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) for more): 
     * [C4 Model](https://c4model.com/) and RCDA
     * [ISO/IEC/IEEE 42010 templates](http://www.iso-architecture.org/ieee-1471/templates/)
     * [Unified Architecture Method (UAM)](http://www.unified-am.com/)
+* [arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
 * SOA method(s) 
     * SOAD proposal ([HTML](https://www.ibm.com/developerworks/library/ws-soad1/), [PDF](https://www.ibm.com/developerworks/library/ws-soad1/ws-soad1-pdf.pdf))
     <!-- * SOMA and similar proprietary methods (see this paper) -->
-* [Software Engineering Method and Theory (SEMAT)](http://semat.org/what-is-it-and-why-should-you-care-) initiative, [Essence specification](http://semat.org/essence-1.2) and [learning/teaching material](http://www.software-engineering-essentialized.com/home)
-* [arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
 
 
 ### Personal toolboxes (general purpose, not limited to service design)
