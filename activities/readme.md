@@ -131,7 +131,7 @@ More specific information, also about other tools, can be found on the individua
 ```yaml
 title: "Design Practice Repository (DPR): Activities (Practices, Techniques) Overview"
 author: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE)"
+date: "10, 16, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 ```
 

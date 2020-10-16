@@ -35,7 +35,7 @@ This activity includes [domain-driven design](./DPR-TacticDDD.md); other forms o
 
 ### Instructions (Synopsis, Definition)
 
-There is no single path to APIs and service endpoints of quality and style. When "surfing" the Web searching for advice regarding API design and (micro-)service size (or asking the elders), one "rides" at least seven "waves" of analysis and design work:  
+There is no single path to APIs and service endpoints of quality and style. When "surfing" the Web searching for advice regarding API design and (micro-)service size (or asking the elders), one "rides" at least seven "waves" of analysis and design work (called steps from now on):  
 
 <!-- Source: https://miro.com/app/embed/o9J_ko6VkCM=/? -->
 ![Service Design Workflow :Seven Steps from Analysis to Design, Realization, Evolution](images/SDPR-SevenServiceDesignSteps.png)
