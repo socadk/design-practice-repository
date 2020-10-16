@@ -3,20 +3,23 @@
 
 These are the design principles and guidelines for [DPR](../README.md):
 
-* Get inspired by structure and terminology of OMG SPEM and traditional methods like IBM Global Services Method/Unified Method Framework UMF and the Unified Process, but also contain information found in the [Agile subway map](https://www.agilealliance.org/agile101/subway-map-to-agile-practices/) and underlying glossary/practice collection available at the Agile Aliance
-* Integrate or point at resources from other methods and templates, for instance, ADD, arc42, C4 (as umbrella, defined goals and gives choices), blended with [ZIO](https://ozimmer.ch/index.html)'s insights 1995 to present <!-- DAD,  RCDA removed from list for v1 -->
+* Get inspired by structure and terminology of OMG SPEM and traditional methods like IBM Global Services Method/Unified Method Framework and the Unified Process
+* Include architecturally significant [Agile practices](https://www.agilealliance.org/agile101/) from the [subway map](https://www.agilealliance.org/agile101/subway-map-to-agile-practices/) and [glossary collection](https://www.agilealliance.org/agile101/agile-glossary/) available at the Agile Alliance
+* Integrate or point at resources from publicly available methods and templates, for instance, ADD, arc42 and C4 (as umbrella, defined goals and gives choices), blended with [personal insights](https://ozimmer.ch/index.html) 1995 to present
 * Complement this content with fresh, up-to-date content from personal experience and online resources
 * Prefer a practice collection over a closed, formal/full method(ology):
     * Roles are not formally defined, but represent stakeholder personas with information/specification/review needs
     * Be open and lean by design, so never finished (and delivered as a repo)
 
-We follow a *PEACH* model: 
+We follow a *PEACH* model (compare with the ["Keeling Five"](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) criteria for mighty methods): 
 
 * *P*ragmatism, 
 * *E*ngineering Spirit (repeatable process, from analysis and spec to design and impl), 
 * *A*daptability (by context, according to preferences and culture), 
 * *C*ourage (e.g. to leave things out or do them differently, disclose sources/reference input; reusing (aka "stealing") material is typically ok in an open source-minded community, but with acknowledgment), 
-* *H*onesty (ethics such as no cheating, no black-and-white argumentation, no false enemy (see Agile! book for correct term), see consulting code of conduct). If you do not comply, you risk impeachment ;-) 
+* *H*onesty (ethics such as no cheating, no black-and-white argumentation, no false enemy (see Agile! book for correct term), see consulting code of conduct). 
+
+If you do not comply, you might risk impeachment &#128530; 
 
 More snippets of method engineering and usage principles are:
 
@@ -25,23 +28,9 @@ More snippets of method engineering and usage principles are:
 * The notion of a "topic backlog" has been proposed: things to be thought about and worked upon, not necessarily features only <!-- (see what S. Ambler and P. Kruchten have to say) -->
 
 
-### Application Examples, Links to other Method and Repositories
-
-* The demo [Domain-Driven Service Design with Context Mapper and MDSL](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) take you from user stories to running microservice architecture in seven (plus two) steps.
-* [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/#tutorial-2) (not public yet, but access can be granted upon request) features a good share of the tasks describes in this repository.
-* The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level Domain-Driven Design (DDD). A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
-* Sam Newman's second book "Monolith to Microservices" features database decomposition patterns 
-* The [Service Cutter wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
-* The [Build APIs You Won't Hate](https://apisyouwonthate.com/books) on LeanPub features a simple but effective resource identification technique
-* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its "little brother" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
-* Articles [on design](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
-
-See [ECSA SAGRA 2016 keynote](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and IFS webpage [Method Selection and Tailoring Guide](https://www.ifs.hsr.ch/index.php?id=13195&L=4) for more sources.
-
-
 ### A bit of method history
 
-This section certainly is incomplete; please send additions via pull requests if you miss a method you have applied or created.
+This section certainly does not aim to be complete; please send additions via pull requests if you miss a method you have applied or created.
 
 Methods from the 1970s, 1980s, 1990s:
 
@@ -52,26 +41,31 @@ Methods from the 1970s, 1980s, 1990s:
 And the 2000s:
 
 * [Agile practices](https://www.agilealliance.org/agile101/agile-glossary/), including proposals for scaling agile such as SAFe
-* Strategic and tactic [Domain-Driven Design (DDD)[https://dddcommunity.org/] (OOAD continuation/extension)
+* Strategic and tactic [Domain-Driven Design (DDD)[https://dddcommunity.org/] <!-- OOAD continuation/extension -->
 * Software architecture templates and notations (see this [state of the art and the practice report as of 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) for more): 
-    * [arc42](https://arc42.org/)
-    * [C4 Model](https://c4model.com/) 
+    * [C4 Model](https://c4model.com/) and RCDA
     * [ISO/IEC/IEEE 42010 templates](http://www.iso-architecture.org/ieee-1471/templates/)
-* SOA methods 
+    * [Unified Architecture Method (UAM)](http://www.unified-am.com/)
+* SOA method(s) 
     * SOAD proposal ([HTML](https://www.ibm.com/developerworks/library/ws-soad1/), [PDF](https://www.ibm.com/developerworks/library/ws-soad1/ws-soad1-pdf.pdf))
     <!-- * SOMA and similar proprietary methods (see this paper) -->
-* [Unified Architecture Method (UAM)](http://www.unified-am.com/)    
+    
+[arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
 
 
 ### Personal toolboxes (general purpose, not limited to service design)
 
 Ordered alphabetically: 
 
-* George Fairbanks, [Arch. Haikus](https://www.georgefairbanks.com/software-architecture/architecture-haiku/) and more 
+* George Fairbanks, [Architecture Haikus](https://www.georgefairbanks.com/software-architecture/architecture-haiku/) and more 
+* Gregor Hohpe, [IT Architect Elevator](https://architectelevator.com/) and [Cloud Strategy](https://architectelevator.com/book/cloudstrategy/) book
 * Michael Keeling, Design It! book and [blog](https://www.neverletdown.net/)
 * Michael Stal's [Hitchhiker's Guide to Software Architecture and Everything Else](http://stal.blogspot.com/)
 * Rebecca Wirfs-Brock’s blog [The Responsible Designer](http://wirfs-brock.com/blog/)
-* [Olaf Zimmermann's take](./olzzio.md)
+
+Olaf Zimmermann's take is summarized in [this blog post](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) (that also introduces DPR) and [this page in DPR](./olzzio.md). 
+
+See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
 
 
 ## More Information 
@@ -87,10 +81,23 @@ Here are some additional resources and references:
 * OMG SPEM for method terminology and method engineering (e.g. in software engineering research)
 -->
 
-[arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
+### Application Examples, Links to other Method and Repositories
 
-See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
+General purpose:
 
+* The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level Domain-Driven Design (DDD). A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
+* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its "little brother" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
+* Articles [on design](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
+
+API and service design:
+
+* Sam Newman's second book "Monolith to Microservices" features database decomposition patterns 
+* The demo [Domain-Driven Service Design with Context Mapper and MDSL](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) take you from user stories to running microservice architecture in seven (plus two) steps.
+* [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/#tutorial-2) (not public yet, but access can be granted upon request) features a good share of the tasks describes in this repository.
+* The [Service Cutter wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
+
+
+## Site navigation
 
 * [Top-level readme for the DPR repository](../README.md): getting started information, terminology clarification, metadata
 * [Artifact templates](../artifact-templates) 
@@ -104,7 +111,7 @@ See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-toward
 ```yaml
 title: "Design Practice Repository (DPR): Background Information"
 author: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
+date: "10, 16, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

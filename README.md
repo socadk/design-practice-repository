@@ -41,7 +41,7 @@ DPR contains three types of method/practice elements:
 * Also there, but not very deeply populated: [roles and personas](./roles).
     * [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md)
 
-A [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The [online shop API design tutorial](tutorials/DPR-Tutorial1.md) (under construction) is a good starting point if you like to learn by example and have a little more time. <!-- Not there yet: [examples](./examples) --> 
+The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
 We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 
@@ -107,7 +107,7 @@ More information can be found [here](contributing/CONTRIBUTING.md).
 ```yaml
 title: Design Practice Repository (DPR)
 owner: Olaf Zimmermann (ZIO)
-date: "10, 14, 2020 (Source: Project DD-DSE)"
+date: "10, 16, 2020 (Source: Project DD-DSE)"
 copyright: Copyright 2020 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 

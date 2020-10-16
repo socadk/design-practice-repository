@@ -99,7 +99,7 @@ Chapter 2 of "The Design of Web APIs" (@Lauret:2019) features an "API Goals Canv
 
 ### More Information
 
-* Phil Sturgeon's @Sturgeon:2016 features a simple table format for CELs. 
+* Phil Sturgeon's [Build APIs You Won't Hate](https://apisyouwonthate.com/books) (@Sturgeon:2016) features a simple but effective resource identification technique and a simple table format for CELs.
 * Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) uses finite state machines as an intermediate artifact. 
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, Data Transfer Object.
 

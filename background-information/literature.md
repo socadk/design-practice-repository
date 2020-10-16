@@ -106,7 +106,7 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 ```yaml
 title: "Design Practice Repository (DPR): Bibliography (Literature)"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "08, 17, 2020 (Source: Project DD-DSE)"
+date: "10, 16, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

@@ -27,12 +27,17 @@ Some of our guiding principles for method adoption (and creation) are:
 For more guiding principles, see Gregor Hohpe's beliefs as presented in his [ECSA 2014 keynote](http://ecsa2014.cs.univie.ac.at/program/keynote-speakers/) (e.g. "content is king", "lead by example") and the [10 Design Principles by GOV.UK Government Digital Service](https://www.gov.uk/design-principles). At ECSA 2020, [Michael Keeling's keynote](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox) listed these five criteria: 1) facilitate human-centered design 2) bias toward concrete outcomes, 3) consider the whole design space and 4) promote team growth, 5) easy to teach, fun to use.
 
 
+### DPR overview
+
+Olaf Zimmermann announced DPR in his blog post ["DPR: an Open Source Repository Collecting Mighty Methods"](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) on October 14, 2020. 
+
+
 ## DPR Metadata
 
 ```yaml
 title: Design Practice Repository (DPR): Towards an Open and Lean Architecting Framework
 author: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE)"
+date: "10, 16, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 ```
 
