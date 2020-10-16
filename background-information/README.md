@@ -3,7 +3,7 @@
 
 These are the design principles and guidelines for [DPR](../README.md):
 
-* Get inspired by structure and terminology of OMG SPEM and traditional methods like IBM Global Services Method/Unified Method Framework and the Unified Process
+* Use structure and terminology of OMG SPEM and traditional methods like IBM Global Services Method/Unified Method Framework and (Rational/Open) Unified Process
 * Include architecturally significant [Agile practices](https://www.agilealliance.org/agile101/) from the [subway map](https://www.agilealliance.org/agile101/subway-map-to-agile-practices/) and [glossary collection](https://www.agilealliance.org/agile101/agile-glossary/) available at the Agile Alliance
 * Integrate or point at resources from publicly available methods and templates, for instance, ADD, arc42 and C4 (as umbrella, defined goals and gives choices), blended with [personal insights](https://ozimmer.ch/index.html) 1995 to present
 * Complement this content with fresh, up-to-date content from personal experience and online resources
