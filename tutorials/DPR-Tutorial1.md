@@ -184,31 +184,31 @@ data type ProductBackend { "productName":D<string>, "image":D<string>, "productC
 data type ProductIdBackend { "productId":D<long> }
 
 endpoint type BusinessToConsumerAggregateBackend
-	exposes
-		operation createCustomerAccount
-			expecting
-				payload CustomerAccountBackend
-			delivering
-				payload CustomerAccountIdBackend
-		operation readProduct
-			expecting
-				payload ProductIdBackend*
-			delivering
-				payload ProductBackend*
-		operation createOrder
-			expecting
-				payload OrderBackend
-			delivering
-				payload OrderIdBackend
-		operation createOrderItem
-			expecting
-				payload OrderItemBackend
-			delivering
-				payload OrderItemIdBackend
+  exposes
+	operation createCustomerAccount
+	  expecting
+		payload CustomerAccountBackend
+	  delivering
+		payload CustomerAccountIdBackend
+	operation readProduct
+	  expecting
+		payload ProductIdBackend*
+	  delivering
+		payload ProductBackend*
+	operation createOrder
+	  expecting
+		payload OrderBackend
+	  delivering
+		payload OrderIdBackend
+	operation createOrderItem
+	  expecting
+		payload OrderItemBackend
+	  delivering
+		payload OrderItemIdBackend
 
 API provider OnlineShopFeaturesBackendProvider
 	offers BusinessToConsumerAggregateBackend
-	at endpoint location "http://localhost:8000"
+	at endpoint location "http://..."
 		via protocol HTTP
 ~~~ 
 
@@ -227,9 +227,14 @@ In this phase, we can optimize message sizes and exchange frequency (and then up
 
 * Decide to add [Pagination](https://microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to product search.
 * Decide to introduce a [Wish List](https://microservice-api-patterns.org/patterns/quality/dataTransferParsimony/WishList) to product search. 
-* ... and so on (eg., how about security? billing? service level agreements?)
 
-See [MAP Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tutorial1) for the time being.
+Keep on deciding and addressing design issues as they emerge: 
+
+* Which security policies and audit controls are required (authentication, authorization, encryption, and so on)? (@Julisch:2011, @Schumacher:2013)
+* Should API calls be billed? (@Zimmermann:2020)
+* Are service level agreements required? (@Zimmermann:2020)
+
+See MAP [Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tutorial1) and [ Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for more examples of API design work related to quality and evolution concerns.
 
 <!--
 ## Quick Links
@@ -244,7 +249,7 @@ See [MAP Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tu
 ```yaml
 title: "Design Practice Repository (DPR): Tutorial 1 (Online Shop API Design)"
 author: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE)"
+date: "10, 15, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

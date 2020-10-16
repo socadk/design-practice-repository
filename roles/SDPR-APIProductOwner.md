@@ -31,12 +31,10 @@ API product owners care about and require/produce information related to:
 
 * Stakeholder concerns
 * User experience
-* Documentation, for example product roadmaps and API descriptions 
+* Documentation, for example product road maps and API descriptions 
 * Service level agreements
 * Quick overviews of external interfaces and internal structure of the produced software.
 * Cost vs. benefit of feature development, supportability and evolvability of their products and services.
-
-<!-- TODO (ongoing): Revisit and complete as activities and artifacts evolve. -->
 
 
 ### Collaborations

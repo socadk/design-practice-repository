@@ -19,7 +19,7 @@ This desire for structure can be met by identification of candidate components a
 
 Furthermore, technology concepts also have to be decided: middleware and frameworks such as component containers, communication protocols and message exchange formats, cluster and deployment managers (for instance, Spring Boot and Docker running in a public cloud). 
 
-The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture these early decisions; complementary to that, the overall architecture and selected parts should also be visualized to accommodate the information needs of the different types of stakeholders. <!-- TODO link to MRM/SOAD meta issue blog post when there --> 
+The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture these early decisions; complementary to that, the overall architecture and selected parts should also be visualized to accommodate the information needs of the different types of stakeholders. <!-- TODO (v2): link to MRM/SOAD meta issue blog post when there --> 
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -74,17 +74,11 @@ C4 examples are available publicly [here](https://structurizr.com/share/1).
 
 An [arc42 FAQ](https://faq.arc42.org/questions/C-4-3/) provides examples of solution strategy decisions worth capturing and visualizing. Section 5 of the arc42 template covers the [building block view(s)](https://docs.arc42.org/section-5/).
 
-<!--
-~~~
-TODO
-~~~
--->
-
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 "Agile Modeling" by S. Ambler has a core practice called [Just Barely Good Enough Models and Documents](http://agilemodeling.com/essays/barelyGoodEnough.html) that covers cost vs. benefit of modeling (@Ambler:2002). 
 
-George Fairbanks sends similar messages in bis book ["Just Enough Software Architecture"](https://www.georgefairbanks.com/book/) (@Fairbanks:2020).
+George Fairbanks sends similar messages in bis book ["Just Enough Software Architecture"](https://www.georgefairbanks.com/book/) (@Fairbanks:2010).
 
 A variation of the "if in doubt leave it out" rule for DPR method adoption applies here:
 

@@ -80,7 +80,7 @@ See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md) f
 
 Context Maps are covered in depth in the book "Implementing Domain-Driven Design" by V. Vernon (@Vernon:2013).
 
-The language reference of the Context Mapper DSL can be found [here](https://contextmapper.org/docs/context-map/). <!-- TODO link to papers: FAST in MW20? -->
+The language reference of the Context Mapper DSL can be found [here](https://contextmapper.org/docs/context-map/) and [this conference presentation](https://contextmapper.org/media/ZIOSK-Modelsward-Paper-Presentation-v101p.pdf) gives an overview. <!-- FAST not published in paper yet, Modelsward CCIS or SummerSoC -->
 
 
 ### Data Provenance 
@@ -88,7 +88,7 @@ The language reference of the Context Mapper DSL can be found [here](https://con
 ```yaml
 title: "Design Practice Repository (DPR): Context Map (Strategic DDD)"
 author: Olaf Zimmermann (ZIO)
-date: "10, 14, 2020 (Source: Project DD-DSE)"
+date: "10, 16, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
