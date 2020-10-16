@@ -62,7 +62,7 @@ See this [end-to-end service design demo](https://ozimmer.ch/practices/2020/06/1
 
 ### Tools
 
-* [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/), a service contract language with supporting tools such as an API Linter, Open API and Protocol Buffer generators 
+* [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/), a service contract language with supporting tools such as an API Linter and generators for Open API, Protocol Buffers (gRPC), Jolie and GraphQL 
 * Swagger tools such as [Swagger Hub](https://swagger.io/tools/swaggerhub/) and the online [Swagger/Open API editor](https://editor.swagger.io/) 
 * Annotation processors and equivalent programming language-level tools, often included in Web development frameworks and application servers; JAX-RS, Spring MVC and Spring Fox are examples.
 

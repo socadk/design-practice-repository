@@ -36,7 +36,7 @@ DPR contains three types of method/practice elements:
 
 * The [artifact and template descriptions folder](artifact-templates) might be a good first stop. Try [Y-statements as Architecture Decision Records](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md).
 * Next up: [activities and techniques](activities). Start with our [stepwise service design (contract first)](activities/SDPR-StepwiseServiceDesign.md) practice.
-* Also there, but not very deeply populated: [roles and personas](./roles): [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md)
+* Also there, but not very deeply populated is the [roles and personas](./roles) folder: [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md)
 
 The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and can invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
@@ -59,14 +59,14 @@ DPR applies a best-of-breed approach. Our metamodel adopts parts of the related 
 
 ![DPR metamodel (from SOAD PhD thesis)](./images/SOADMethodMetamodel.png)
 
-This terminology maps to that of other method engineers like this<!-- TODO (v2): work in progress, review terms, add link to sit meth eng -->:
+This terminology maps to that of other method engineers like this<!-- TODO (v2): review terms again; https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf -->:
 
 | This repository | Agile community ([glossary](https://www.agilealliance.org/agile101/agile-glossary/))| OMG SPEM 2.0 ([PDF](https://www.omg.org/spec/SPEM/2.0/PDF)) | [Open Unified Process (UP)](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm) and other methods |
 |-|-|-|-|
-| [Role](./roles) | Persona, team member | Role | Stakeholder |
-| [Activity](activities) (with steps) | n/a (not plan-driven, backlog item types come close)  | Task (with Steps) | UP: Activity <!-- TODO check --> |
+| [Role](./roles) | Persona, team member | Role | Worker, Stakeholder |
+| [Activity](activities) (with steps) | n/a (not plan-driven, backlog item types come close)  | Task (with Steps) | RUP: Activity, OpenUP: Task |
 | [Artifact](artifact-templates) | no direct pendant (Template? Documentation?) |  Work product | UP: Artifact |
-| Technique (part of activity description)| Practice | no direct pendant (Tool comes close) | UP: Guide, guidance |
+| Technique (part of activity description)| Practice | no direct pendant (Tool comes close) | UP: Guidance, guideline |
 
 <!-- In SOAD, a phase has tasks, which in turn has steps; DPR is flat at present (folder) -->
 
@@ -109,7 +109,7 @@ date: "10, 16, 2020 (Source: Project DD-DSE)"
 copyright: Copyright 2020 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 
-<!-- TODOs: 1. use ISO date format yyyy-mm-dd 2. add SPDX license identifier and metadata -->
+<!-- could use ISO date format yyyy-mm-dd 2. add SPDX license identifier and metadata -->
 
 ### License
 

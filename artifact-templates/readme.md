@@ -17,7 +17,7 @@ Never fill out a template just because. If you cannot think of a benefit for a p
 
 ### Artifact and Template Overview
 
-<!-- TODO (v2.1) add simple miro diagram (with hyperlinks!) or table here -->
+<!-- TODO (v2) add simple miro diagram (with hyperlinks!) or table here -->
 
 #### Specific to API/Service Design
 
@@ -31,7 +31,7 @@ The service/API design-specific artifacts/templates in DPR are:
 
 * [Candidate Endpoint List](SDPR-CandidateEndpointList.md) 
 * [Refined Endpoint List](SDPR-RefinedEndpointList.md)
-* [API Description](SDPR-APIDescription.md), a.k.a. business and technical service contract (captured as a [API Description pattern](https://microservice-api-patterns.org/patterns/foundation/APIDescription)) in the [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) language <!-- TODO (v.2.1) link to/mention MDSL, Open API, AsyncAPI -->
+* [API Description](SDPR-APIDescription.md), a.k.a. business and technical service contract (captured as a [API Description pattern](https://microservice-api-patterns.org/patterns/foundation/APIDescription)) in the [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) language 
 * [Service Level Agreement](SDPR-ServiceLevelAgreement.md) (also a [pattern in MAP](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement))
 
 #### General Software Engineering/Software Architecture
