@@ -19,6 +19,7 @@ An API quality property that is often expressed in an SLA is the *availability* 
 ### Usage (Produced and Consumed When)
 Providing an SLA for a service has the following benefits: 
 
+* In DPR, the activity [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md) talks about SLA in its Step 6.
 * Service clients can decide whether a provider’s offerings match the client’s business needs from a business agility and vitality point of view.
 * The service provider can communicate the attractiveness, availability and performance goals of its services to clients without making unrealistic promises that may cause client dissatisfaction or even financial losses.
 
@@ -53,7 +54,7 @@ The emerging [Microservice Domain-Specific Language](https://microservice-api-pa
 
 
 ### Related Artifacts and Templates (incl. Alternatives)
-SLAs are often part of the *API Description*, or complement technical service contracts.
+SLAs are often part of an [API Description](SDPR-APIDescription.md), or complement technical service contracts. 
 
 Terms and Conditions (Ts&Cs) documents of API use are less formal, but similar in their goals. Ts&Cs and SLAs may be used together and can then complement and cross-reference each other. 
 
