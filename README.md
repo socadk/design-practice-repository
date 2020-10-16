@@ -70,6 +70,8 @@ This terminology maps to that of other method engineers like this<!-- TODO (v2):
 
 <!-- In SOAD, a phase has tasks, which in turn has steps; DPR is flat at present (folder) -->
 
+<!-- SEMAT Essence V1.2 became an OMG standard in July 2018 (300 pages): http://semat.org/documents/20181/57862/formal-18-10-02.pdf/866c80c0-cdc8-488b-bcf8-0c67cb60b5d7 -->
+
 In short, *activities* describe work to be done, *techniques* (or practices) help doing so; more than one technique might support an activity. For instance, use case modeling and user story telling are two techniques to elicit functional requirements. *Artifacts* are deliverables of activities, *templates* suggest content and structure for them. For instance, an architectural decision log (an artifact) may come in the form of a [Nygard Architecture Decision Record (ADR)](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions), as a [Y-statement](https://medium.com/@docsoc/y-statements-10eb07b5a177), as a [Tyree/Akerman table](https://ieeexplore.ieee.org/document/1407822), etc. *Techniques* and tools support and/or partially automate the activities.
 
 The above terms establish an [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) (or domain model) of service design and agile architecting &mdash; in the (bounded) context of this repository &#128521; 
