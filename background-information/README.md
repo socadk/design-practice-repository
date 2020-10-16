@@ -18,7 +18,7 @@ We follow a *PEACH* model (compare with the ["Keeling Five"](https://ozimmer.ch/
 * *P*ragmatism and common sense, for instance when making in/out decisions
 * *E*ngineering Spirit: repeatable process, from analysis and spec to design and implementation and beyond 
 * *A*daptability by context, according to preferences and culture, 
-* *C*ourage for instance to leave things out or do them differently, disclose sources/reference input; reusing (aka "stealing") material is generally accepted in an open source-minded community, but with acknowledgment, proper referencing (license permitting) 
+* *C*ourage for instance to leave things out or do them differently, disclose sources/reference input; reusing material is generally accepted in an open source-minded community, but with acknowledgment, proper referencing (license permitting) 
 * *H*onesty: ethics such as no cheating, no black-and-white argumentation, do not make up villains  <!--, see consulting code of conduct in CSCUBS presentation 2017-->
 
 If you do not comply, you might risk impeachment &#128530; 
