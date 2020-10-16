@@ -13,7 +13,7 @@ One should never forget the first rule of method adoption:
 
 ### Overview/Inventory of Activities Specific to Service/API Design
 
-<!-- TODO (v2.1) add simple miro diagram (with hyperlinks!) here -->
+<!-- TODO (v2.1) add simple miro diagram (with hyperlinks!) or table here -->
 
 Particularly relevant for service/API design are:
 
@@ -24,10 +24,8 @@ Particularly relevant for service/API design are:
 * Integration Story Telling (for [Backend Integration](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration)) (to be continued)
 
 <!--
-* Service Modeling methods
-    * MAP category on service identification (including DDD), not yet published
-    * EIP integration flows (tbd)
- -->
+* Service Modeling methods and EIP integration flows (tbd)
+-->
 
 
 ### Overview/Inventory of Artifacts General Software Engineering/Architecture:
@@ -39,7 +37,7 @@ Particularly relevant for service/API design are:
     * User Story-Based Iteration Planning, Story Mapping and [Story Splitting](https://www.agilealliance.org/glossary/split/) 
     * [Use Case](../artifact-templates/DPR-UseCase.md) Modeling (full vs. brief)
     * [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md): <!-- TODO (v2.1) add "with CARGO as five meta qualities" -->
-    * Value, risk and cost-based prioritization of NFRs, proposed and elaborated upon in an article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements)) and very much in line with George Fairbank's advice on [Just Enough Software Architecture]().
+    * Value, risk and cost-based prioritization of NFRs, proposed and elaborated upon in an article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements)) and very much in line with George Fairbank's advice on [Just Enough Software Architecture](https://www.georgefairbanks.com/book/).
     * Specification of [Agile landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) (Rebecca Wirfs-Brock) 
 <!--
     * Quality story telling (two flavours: extended user story, standalone)

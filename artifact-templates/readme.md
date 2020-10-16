@@ -17,7 +17,7 @@ Never fill out a template just because. If you cannot think of a benefit for a p
 
 ### Overview/Inventory
 
-<!-- TODO (v2.1) add simple miro diagram (with hyperlinks!) here -->
+<!-- TODO (v2.1) add simple miro diagram (with hyperlinks!) or table here -->
 
 #### Specific to API/Service Design
 

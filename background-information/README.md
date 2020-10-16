@@ -21,11 +21,13 @@ We follow a *PEACH* model (compare with the ["Keeling Five"](https://ozimmer.ch/
 
 If you do not comply, you might risk impeachment &#128530; 
 
+<!--
 More snippets of method engineering and usage principles are:
 
-* "It depends" as an answer to a difficult question is not (always) an excuse, context does matter. But one should always be able to list some criteria! 
-* There is a specification continuum, see this [report from a EuroPLoP 2017 focus group](https://www.vanheesch.net/papers/eplop17-FG-continuousSWD.pdf), featuring the notion of *document refactoring* and related smells: document are never finished but, but leaving them blank does not make sense either e.g. for non-functional requirement specifications 
-* The notion of a "topic backlog" has been proposed: things to be thought about and worked upon, not necessarily features only <!-- (see what S. Ambler and P. Kruchten have to say) -->
+* "It depends" as an answer to a difficult question is not (always) an excuse, context does matter. But one should always be able to list some criteria! General advice is good but has its limitations.
+* There is a specification continuum, see this [report from a EuroPLoP 2017 focus group](https://www.vanheesch.net/papers/eplop17-FG-continuousSWD.pdf), featuring the notion of *document refactoring* and related smells: document are never finished but, but leaving them blank does not make sense either e.g. for non-functional requirement specifications. 
+* The notion of a "topic backlog" has been proposed (S. Ambler and P. Kruchten): things to be thought about and worked upon, not necessarily features only.
+-->
 
 
 ### A bit of method history
@@ -65,10 +67,8 @@ Ordered alphabetically:
 
 Olaf Zimmermann's take is summarized in [this blog post](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) (that also introduces DPR) and [this page in DPR](./olzzio.md). 
 
-See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
 
-
-## More Information 
+### More Information (Application Examples, Links to other Method and Repositories)
 <!--
 Here are some additional resources and references:
 
@@ -80,8 +80,6 @@ Here are some additional resources and references:
 * Collection of essential practices and checklists in SEMAT
 * OMG SPEM for method terminology and method engineering (e.g. in software engineering research)
 -->
-
-### Application Examples, Links to other Method and Repositories
 
 General purpose:
 
@@ -96,8 +94,10 @@ API and service design:
 * [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/#tutorial-2) (not public yet, but access can be granted upon request) features a good share of the tasks describes in this repository.
 * The [Service Cutter wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
 
+See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
 
-## Site navigation
+
+## Site Navigation
 
 * [Top-level readme for the DPR repository](../README.md): getting started information, terminology clarification, metadata
 * [Artifact templates](../artifact-templates) 

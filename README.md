@@ -34,14 +34,11 @@ DPR is organized around *artifacts*, *templates*, *activities* and *techniques* 
 
 DPR contains three types of method/practice elements:
 
-* The [artifact and template descriptions folder](artifact-templates) might be a good first stop. 
-    * Try [Y-statements as Architecture Decision Records](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md).
-* Next up: [activities and techniques](activities)
-    * Start with our [stepwise service design (contract first)](activities/SDPR-StepwiseServiceDesign.md) practice.
-* Also there, but not very deeply populated: [roles and personas](./roles).
-    * [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md)
+* The [artifact and template descriptions folder](artifact-templates) might be a good first stop. Try [Y-statements as Architecture Decision Records](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md).
+* Next up: [activities and techniques](activities). Start with our [stepwise service design (contract first)](activities/SDPR-StepwiseServiceDesign.md) practice.
+* Also there, but not very deeply populated: [roles and personas](./roles): [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md)
 
-The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
+The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and can invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
 We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 
@@ -58,7 +55,7 @@ The [Microservice API Patterns (MAP) website](https://microservice-api-patterns.
 
 ### Situational Method Engineering
 
-DPR applies a best-of-breed approach. Our metamodel is an adoption of the related work chapter in Olaf Zimmermann's PhD thesis report ["An architectural decision modeling framework for service-oriented architecture design"](https://elib.uni-stuttgart.de/handle/11682/2682): 
+DPR applies a best-of-breed approach. Our metamodel adopts parts of the related work Chapter 2 in ["An architectural decision modeling framework for service-oriented architecture design"](https://elib.uni-stuttgart.de/handle/11682/2682): 
 
 ![DPR metamodel (from SOAD PhD thesis)](./images/SOADMethodMetamodel.png)
 
@@ -87,7 +84,7 @@ Contributors (input, technical writing, feedback):
 * [Olaf Zimmermann (ZIO)](https://ozimmer.ch)
 * [Mirko Stocker (STX)](https://www.linkedin.com/in/misto/)
 
-Stefan Kapferer and Oliver Kopp reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
+Stefan Kapferer and [Oliver Kopp](https://ozimmer.ch/practices/2020/10/14/github.com/koppor/) reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
 
 
 ## Getting Involved 
