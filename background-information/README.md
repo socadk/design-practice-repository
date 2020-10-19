@@ -1,7 +1,7 @@
 
 ## *DPR:* Background information 
 
-These are the design principles and guidelines for [DPR](../README.md):
+[This blog post](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) motivates where DPR comes from and what matters to us as method engieers and adopters. More specifically, the design principles and guidelines for [DPR](../README.md) are:
 
 * Use structure and terminology of OMG SPEM and traditional methods like IBM Global Services Method/Unified Method Framework and (Rational/Open) Unified Process
 * Include architecturally significant [Agile practices](https://www.agilealliance.org/agile101/) from the [subway map](https://www.agilealliance.org/agile101/subway-map-to-agile-practices/) and [glossary collection](https://www.agilealliance.org/agile101/agile-glossary/) available at the Agile Alliance
