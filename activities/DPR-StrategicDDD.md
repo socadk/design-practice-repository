@@ -53,7 +53,7 @@ The relationship types are organizational patterns (not technical ones); they di
 * (A)symmetry of relationship? 
 * Amount of control and influence for client/consumer?
 
-In Strategic DDD, you basically have to identify Bounded Contexts and then answer these questions to end up at the right pattern for any given relationship. [Context Mapper](https://contextmapper.org/docs/bounded-context/) can help you do so; it features DDD patterns and enforces additional semantic valiation rules. 
+In Strategic DDD, you basically identify Bounded Contexts and then answer these questions to end up at the right pattern for any given relationship. [Context Mapper](https://contextmapper.org/docs/bounded-context/) can help you do so; it features DDD patterns and enforces additional semantic valiation rules. 
 
 The resulting [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md) can drive the architectural decision making in API design. Follow-on decisions pertain the integration style technology and style. The relationship types do not exclude, but complement each other by default. 
 

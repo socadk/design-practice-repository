@@ -6,7 +6,7 @@
 
 # Software/Service/API Design Practice Repository (DPR)
 
-<!-- "DPR" pronounced "deeper"... and Se (or C?) can be pronounced "see", so [O] see deeper :-) -->
+<!-- "DPR" pronounced "deeper"... and Se (or C?) can be pronounced "see", so [O] see deeper... or "steeper" ;-) -->
 
 Welcome to DPR (pronounced "deeper")! This public repository collects and references methods elements and practices from various methods (old and new) that are applicable to service analysis and design (and beyond).
 

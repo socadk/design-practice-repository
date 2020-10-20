@@ -13,7 +13,7 @@ a.k.a. Wireframing
 
 
 ### Context
-The need for a new service can arise from different occasions: For example, you're building a new single page web app or adding new features to a mobile app. If the service client does not exist yet, how do you know what responsibilities your service must meet, and what message structure is best suited for the service client? 
+The need for a new service can arise from different occasions: For example, you're building a new single page web app or adding new features to a mobile app. If the service client does not exist yet, how do you know what responsibilities your service should have, and what message structure is best suited for the service client? 
 
 ### Goal and Purpose (When to Use)
 A general purpose is to present emerging user interface designs with stakeholders (for instance, end users and product managers)to solicit their feedback and involve them in the design closely. The goal of *User Interface Mocking* or *Wireframing* in the context of service design is to get a better understanding of the structure, amount and kind of data a client needs so that the service can be designed accordingly.
