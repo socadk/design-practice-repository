@@ -154,17 +154,17 @@ Specific to OOAD and DDD, it is a good idea to establish naming conventions, for
 
 E. Evans establishes the following design heuristics for Aggregates in his [DDD Reference](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf):
 
-* Use asynchronous communication between Aggregates
+* "Use asynchronous communication between Aggregates
 * Give enforcement responsibilities (for invariants) to root entity, possibly supported by designated framework mechanisms (e.g., in Spring)
 * Keep one Aggregate on one server, allow different Aggregates to be distributed among (hardware) nodes
-* Use the same boundaries for transactions and distribution
+* Use the same boundaries for transactions and distribution"
 
 In "Implementing DDD", V. Vernon establishes similar rules for Aggregate design (@Vernon:2013):
 
-* Model true invariants in consistency boundaries.
+* "Model true invariants in consistency boundaries.
 * Design small aggregates.
 * Reference other aggregates by identity.
-* Use eventual consistency outside the boundary.
+* Use eventual consistency outside the boundary."
 
 These nuggets of advice can also be found online in an [article series at domaindrivendesign.org](http://dddcommunity.org/library/vernon_2011/).
 
@@ -211,6 +211,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ### More Information 
 
 * There is a free DDD reference providing pattern summaries ([PDF](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), [Word](http://domainlanguage.com/wp-content/uploads/2016/05/PatternSummariesUnderCreativeCommons.doc)) and a [DDD glossary](http://dddcommunity.org/resources/ddd_terms/) on the community website. 
+* Michael Ploed shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub @Ploed:2019:HDDD. 
 * The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design)
 * Consult [this web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
 
