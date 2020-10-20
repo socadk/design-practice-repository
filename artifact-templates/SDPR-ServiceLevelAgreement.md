@@ -19,10 +19,11 @@ An API quality property that is often expressed in an SLA is the *availability* 
 ### Usage (Produced and Consumed When)
 Providing an SLA for a service has the following benefits: 
 
+* In DPR, the activity [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md) talks about SLA in its Step 6.
 * Service clients can decide whether a provider’s offerings match the client’s business needs from a business agility and vitality point of view.
 * The service provider can communicate the attractiveness, availability and performance goals of its services to clients without making unrealistic promises that may cause client dissatisfaction or even financial losses.
 
-The Microservice API Pattern (MAP) website captured the SLA artifacts as a pattern; the [Forces and Consequences](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:Forces) section of the pattern, for instance, features a detailed discussions of the pros and cons of such artifact.
+The Microservice API Pattern (MAP) website captures the SLA artifacts as a pattern; the [Forces](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:Forces) and the [Consequences](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:Consequences) sections of the pattern, for instance, features a detailed discussions of the pros and cons of such artifact.
 
 ### Template Structure and Notation(s)
 An SLA is comprised of at least one *Service Level Objective*, which specifies a measurable aspect of the service the provider agrees to uphold:
@@ -43,9 +44,9 @@ The emerging [Microservice Domain-Specific Language](https://microservice-api-pa
 
 
 ### Hints and Pitfalls to Avoid
-Striking a balance between attractiveness and at the same time trustworthiness and accountability in your SLA and SLO commitments can be a challenge. 
 
-The level of detail and the tradeoff between provider commitments and customer/client obligations also depends on the visibility and reach of a system/API and the consequence of not meeting its SLA: an internal SLA often can be more aggressive, while an SLA for external clients might be legally binding. 
+* Striking a balance between attractiveness and at the same time trustworthiness and accountability in your SLA and SLO commitments can be a challenge. 
+* The level of detail and the tradeoff between provider commitments and customer/client obligations also depends on the visibility and reach of a system/API and the consequence of not meeting its SLA: an internal SLA often can be more aggressive, while an SLA for external clients might be legally binding. 
 
 
 ### Origins and Signs of Use
@@ -53,7 +54,7 @@ The level of detail and the tradeoff between provider commitments and customer/c
 
 
 ### Related Artifacts and Templates (incl. Alternatives)
-SLAs are often part of the *API Description*, or complement technical service contracts.
+SLAs are often part of an [API Description](SDPR-APIDescription.md), or complement technical service contracts. 
 
 Terms and Conditions (Ts&Cs) documents of API use are less formal, but similar in their goals. Ts&Cs and SLAs may be used together and can then complement and cross-reference each other. 
 
@@ -67,7 +68,7 @@ See this Userlike blog post on [Service Level Agreement - Best Practices & Cruci
 ```yaml
 title: "Design Practice Repository (DPR): Service Level Agreement"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "08, 14, 2020 (Source: Project DD-DSE)"
+date: "10, 16, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

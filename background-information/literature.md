@@ -60,17 +60,23 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 <div id="ref-Gamma:1995">
 <p>Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. 1995. <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc.</p>
 </div>
+<div id="ref-Julisch:2011">
+<p>Julisch, Klaus, Christophe Suter, Thomas Woitalla, and Olaf Zimmermann. 2011. “Compliance by Design–Bridging the Chasm Between Auditors and It Architects.” <em>Computers &amp; Security</em> 30 (6): 410–26.</p>
+</div>
 <div id="ref-Larman:2004">
 <p>Larman, Craig. 2004. <em>Applying Uml and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd Edition)</em>. USA: Prentice Hall PTR.</p>
 </div>
 <div id="ref-Lauret:2019">
-<p>Lauret, A. 2019. <em>The Design of Web Apis</em>. Manning.</p>
+<p>Lauret, Arnaud. 2019. <em>The Design of Web Apis</em>. Manning.</p>
 </div>
 <div id="ref-MannionKeepence:1995">
 <p>Mannion, Mike, and Barry Keepence. 1995. “SMART Requirements.” <em>SIGSOFT Softw. Eng. Notes</em> 20 (2): 42–47. <a href="https://doi.org/10.1145/224155.224157">https://doi.org/10.1145/224155.224157</a>.</p>
 </div>
 <div id="ref-Newman:2015">
 <p>Newman, Sam. 2015. <em>Building Microservices: Designing Fine-Grained Systems</em>. O’Reilly Media, Inc.</p>
+</div>
+<div id="ref-RenzelKeller:1997">
+<p>Renzel, Klaus, and Wolfgang Keller. 1997. “Client/Server Architectures for Business Information Systems - a Pattern Language.” In <em>Proceedings of the Conference on Pattern Languages of Programs</em>. PLoP ’97.</p>
 </div>
 <div id="ref-RozanskiWoods:2005">
 <p>Rozanski, Nick, and Eoin Woods. 2011. <em>Software Systems Architecture: Working with Stakeholders Using Viewpoints and Perspectives</em>. 2nd ed. Addison-Wesley Professional.</p>
@@ -84,10 +90,14 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 <div id="ref-Vernon:2013">
 <p>Vernon, Vaughn. 2013. <em>Implementing Domain-Driven Design</em>. Addison-Wesley Professional.</p>
 </div>
+<div id="ref-Zimmermann:2020">
+<p>Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Cesare Pautasso, and Uwe Zdun. 2020. “Introduction to Microservice API Patterns (MAP).” In <em>Joint Post-Proceedings of the First and Second International Conference on Microservices (Microservices 2017/2019)</em>, edited by Luı́s Cruz-Filipe, Saverio Giallorenzo, Fabrizio Montesi, Marco Peressotti, Florian Rademacher, and Sabine Sachweh, 78:4:1–4:17. OpenAccess Series in Informatics (Oasics). Dagstuhl, Germany: Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik. <a href="https://doi.org/10.4230/OASIcs.Microservices.2017-2019.4">https://doi.org/10.4230/OASIcs.Microservices.2017-2019.4</a>.</p>
+</div>
 <div id="ref-Zimmermann:2003">
 <p>Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on Web Services: Applying Soap, Wsdl and Uddi to Real-World Projects</em>. Springer Science &amp; Business Media.</p>
 </div>
 </div>
+
 
 <!-- keep/update the metadata below when updating the page: -->
 
@@ -96,7 +106,7 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 ```yaml
 title: "Design Practice Repository (DPR): Bibliography (Literature)"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "08, 17, 2020 (Source: Project DD-DSE)"
+date: "10, 16, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
