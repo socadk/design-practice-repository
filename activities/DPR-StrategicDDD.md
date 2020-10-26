@@ -113,10 +113,9 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 
 Refer to presentations and articles by:
 
-<!-- * A. Brandolini -->
-<!-- * S. Millet -->
+* A. Brandolini, for instance ["Strategic Domain Driven Design with Context Mapping"](https://www.infoq.com/articles/ddd-contextmapping/)
+* S. Millet, for instance ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/anatomy-of-DDD) on LeanPub. 
 * M. Ploed, for instance [Visualizing sociotechnical architectures with Context Maps](https://speakerdeck.com/mploed/visualizing-sociotechnical-architectures-with-context-maps?slide=4)
-<!-- * N. Tune -->
 * V. Vernon has a [YouTube channel](https://www.youtube.com/channel/UCdbDxsXevDLt7EhRbi2KGjg).
 * The Vaadin website also has an [introduction to strategic DDD](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design).
 
