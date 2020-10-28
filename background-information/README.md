@@ -63,7 +63,7 @@ Ordered alphabetically:
 
 * George Fairbanks, [Architecture Haikus](https://www.georgefairbanks.com/software-architecture/architecture-haiku/) and more 
 * Gregor Hohpe, [IT Architect Elevator](https://architectelevator.com/) and [Cloud Strategy](https://architectelevator.com/book/cloudstrategy/) book
-* Michael Keeling, Design It! book and [blog](https://www.neverletdown.net/)
+* Michael Keeling, Design It! book (@Keeling:2019) and [blog](https://www.neverletdown.net/)
 * Michael Stal's [Hitchhiker's Guide to Software Architecture and Everything Else](http://stal.blogspot.com/)
 * Rebecca Wirfs-Brock’s blog [The Responsible Designer](http://wirfs-brock.com/blog/)
 
