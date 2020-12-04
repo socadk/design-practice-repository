@@ -16,7 +16,7 @@ Activity: *SMART NFR Elicitation*
 ### Context
 *Non-Functional Requirements (NFRs)*, including *Quality Attribute (QAs)*, describe *how* a system provides its functionality, not what it does (which is the purpose of functional requirements specifications such as [user stories](../artifact-templates/DPR-UserStory.md) or [use cases](../artifact-templates/DPR-UseCase.md)). Examples of key QAs are reliability, usability, efficiency (e.g., performance, scalability), maintainability, and portability according to [ISO/IEC standard 9126](https://en.wikipedia.org/wiki/ISO/IEC_9126). ISO 9126, now superseded by a newer standard, also lists functionality as a quality category.
 
-Note that while common, the term and acronym NFR are not received well by some thought leaders and practitioners; they prefer terms such as "extra-functional". Not all non- or extra-functional requirements qualify as quality attributes, as there are organizational and educational constraints as well; hence, an extra term is needed. We decided for NFR here, weighting popularity higher than accuracy (to express our decision in terms of desired qualities).
+Note that while common, the term "non-functional" and the acronym "NFR" are not received well by some thought leaders; they prefer terms such as ["extra-functional"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html). Not all non- or extra-functional requirements qualify as quality attributes, as there are organizational and educational constraints as well; hence, an additional  term is needed. We decided for NFR here, weighting popularity higher than accuracy (to express our decision in terms of desired qualities). 
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -143,6 +143,8 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 
 ### More Information 
+See blog post ["https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by C. Pautasso and O. Zimmermann for a deeper, only half-serious terminology discussion, examples as well as pointers to related taxonomies and templates. 
+
 arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/) and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/).
 
 SAFe also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/).

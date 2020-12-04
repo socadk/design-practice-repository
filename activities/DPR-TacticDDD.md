@@ -49,7 +49,7 @@ The following CRC card outlines the responsibilities and collaborations of Aggre
 
 **Aggregates and Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
 
-1. Executable part of the business logic (so an algorithm) that is not expressed as sequence of statements as in OOP, but declaratively. 
+1. Executable part of the business logic (an algorithm) that is not expressed as sequence of statements, but declaratively. 
 2. A statement or condition about the domain model, its elements and their relationships that always has to be true (i.e., be invariant) to preserve data consistency and ensure accuracy of processing. For instance, the sum of all withdrawals is equal to the sum of all payments; the total amount of player salaries on any sports team in the league does not exceed xM USD; all orders point to customers that actually exist in the real world.
 
 <!--
@@ -72,7 +72,7 @@ Accounting and non-repudiation
 * All access attempts are logged 
 -->
 
-The first meaning of the term can be modeled with Entity operations and services (core domain logic). The second meaning (constraint, invariant) can and should be enforced by Aggregates.
+The first meaning of the term is not in our focus here, but can be modeled as Entity operations and services. We are interested in the second meaning (constraint, invariant) here; such rules can and should be enforced by Aggregates.
 
 **Modeling Steps**. In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
 
@@ -86,7 +86,7 @@ The [Context Mapper website](https://contextmapper.org/docs/examples/) provides 
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
-<img src="images/CM-TacticDDDCargoAggregate.png" height="600" />
+<img src="images/CM-TacticDDDCargoAggregate.png" height="500" />
 <!-- > ![](images/CM-TacticDDDCargoAggregate.png) -->
 
 <!--
