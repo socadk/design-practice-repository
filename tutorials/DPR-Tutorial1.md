@@ -110,7 +110,7 @@ The above diagram qualifies as the visual part of the [domain model](../artifact
 Let us assume that the following [architectural decisions](../activities/DPR-ArchitecturalDecisionCapturing.md) have been made already (if not, we should make them now):
 
 * Two-tier client server (patterns: remote user interface, distributed application kernel)
-* Reactive <!-- STX4ZIO: Ist Reactive relevant? --> JavaScript Web frontend
+* <!-- Reactive --> JavaScript Web frontend
 * Java Spring backend 
 
 A very basic [context map](../artifact-templates/DPR-StrategicDDDContextMap.md), resulting from [strategic DDD](../activities/DPR-StrategicDDD.md) work for this scenario is:
@@ -157,7 +157,7 @@ Endpoints in this API (and their architectural role):
 
 The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md) that refactors and refined the output from the previous Step 4 may then contain the following entries:
 
-<!-- STX4ZIO: For a future version, maybe add more than just "Custom JSON" Media Type/Profile? -->
+<!-- TODO (v2) For a future version, maybe add more than just "Custom JSON" Media Type/Profile? -->
 
 | Endpoint | Operation   | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
 |----------|-------------|---------------|------------------------|-------------|
@@ -178,24 +178,24 @@ We have decided for endpoint and operation responsibilities on a conceptual leve
 One of the architectural related architectural decisions might be (formatted as a [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)):
 
 ```
-"In the context of the BusinessToConsumer backend, <!-- STX4ZIO: BusinessToConsumer first seen here, should it be OnlineShopBackend?  -->
-facing the need to serve a number of diverse, unknown clients, <!-- STX4ZIO: we do know one client though, our own frontend. Are the other clients sufficiently motivated in the tutorial? -->
-we decided for RESTful HTTP on maturity level 2 in the Service Layer <!-- STX4ZIO: This is the only place we talk about Layers, hmm -->
+In the context of the OnlineShopBackend backend,
+facing the need to serve a number of technically diverse clients, 
+we decided for RESTful HTTP on maturity level 2  
 and neglected other protocols such as gRPC or SOAP/HTTP
-to achieve interoperability, evolvability and accountability <!-- STX4ZIO: Could you elaborate on the accountability? -->
-accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS <!-- STX4ZIO: "vision" is good! -->
-because the implementation effort on client and server side required for multimedia-drive <!-- STX4ZIO: hypermedia-driven? --> state transitions 
+to achieve interoperability, evolvability and auditability
+accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS
+because the implementation effort on client and server side required for hypermedia-driven state transitions 
 is not justified in this scenario (not requiring dynamic workflows) 
-and there is good contract language and tool support for this technology (Open API, Swagger tools)."
+and there is good contract language and tool support for this technology (Open API, Swagger tools).
 ```
 
-
+<!-- This would  the only place in the tutorial we talk about Layers (SSD activity has it), so removed "in the Service Layer" from "we decided for" (for now) now -->
 
 The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from the previous Step 5 may look like this (notation: [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
-<!-- TODO (v2): show MAP decorators too? addGRaphQL (why n files?) -->
+<!-- TODO (v2): show MAP decorators too? addGRaphQL (why n files?); TODO (v1.2) recreate file after APi name change -->
 ~~~
-API description BusinessToConsumerBackend
+API description OnlineShopBackend
 
 data type CustomerAccount { "name":D<string>, "address":D<string>, "customeraccountId":CustomerAccountId }
 data type CustomerAccountId { "customeraccountId":D<long> }
