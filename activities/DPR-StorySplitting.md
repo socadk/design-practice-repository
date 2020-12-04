@@ -34,7 +34,7 @@ The same practice can be used to identify candidate components in architecture d
 
 ### Instructions (Synopsis, Definition)
 
-R. Lawrence describes nine splitting patterns in ["Patterns for Splitting User Stories"](https://agileforall.com/patterns-for-splitting-user-stories/), including:
+**Splitting patterns.** R. Lawrence describes nine splitting patterns in ["Patterns for Splitting User Stories"](https://agileforall.com/patterns-for-splitting-user-stories/), including:
 
 * *Data entry* methods, for instance multiple actors/users and/or technical channels (Web, mobile app and son on)
 * *Workflow* step: sequencing from process initiation to processing activities (possibly in parallel) and data manipulations to process termination 
@@ -49,7 +49,7 @@ The remaining patterns are useful for planning iterations, but less relevant for
 * Investigation vs. implementation: architectural *spike* vs. full implementation 
 * (Major) *effort* and *simple/complex*; *defer performance* 
 
-**Other splitting criteria.**. B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). M. Cohn listed five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story): Spikes, Paths, Interfaces, Data, Rules. 
+**Other splitting criteria.** B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). M. Cohn listed five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story): Spikes, Paths, Interfaces, Data, Rules. 
 
 
 ### Example(s)
