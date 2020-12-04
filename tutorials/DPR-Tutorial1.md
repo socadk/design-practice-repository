@@ -133,7 +133,7 @@ Such list can be derived from the Step 2 domain model and Step 3 architecture de
 | Order Item | add to order | Specify amount bought, reference product |
 
 <!-- TODO pattern selection AD missing -->
-We skip additional architectural decision making here for the sake of brevity; on a real project, one would now make quite a few now.
+We skip additional architectural decision making here for the sake of brevity; on a real project, one would now make quite a few decisions now. See next step (Step 5) for an example.
 
 
 ### Step 5: Refine Service Candidates, Make More Conceptual Architectural Decisions
@@ -161,52 +161,36 @@ The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEnd
 |----------|-------------|---------------|------------------------|-------------|
 | Customer |             | [*Master Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/MasterDataHolder) |                 |             |
 |          |  Create (POST) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* account name, *out:* returns account name (and/or details) | Custom JSON |
-| Product |             | *Master Data Holder* |                 |             |
+| Product Catalog |             | *Master Data Holder* |                 |             |
 |   |  Search (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* search parameters, *out:* returns set of product descriptions, possibly paginated | Custom JSON |
 | Order |             | [*Operational Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/OperationalDataHolder) |                 |             |
-|      |  Create (PUT) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* products to be bought, *out:* returns order conformation and/or DTO (containing items)  | Custom JSON |
+|      |  Create (POST) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* products to be bought, *out:* returns order confirmation and/or DTO (containing items) | Custom JSON |
+|      |  Add (PUT) | [*State Transition Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* items to be added, *out:* returns order item id as confirmatipon | Custom JSON |
 
-<!-- TODO ADs missing -->
-Again we skip additional architectural decision making here for the sake of brevity.
+One of the architectural related architectural decisions might be (formatted as a [Y-statement]()):
 
+> In the context of the BusinessToConsumer backend,
+
+> facing the need to serve a number of diverse, unknown clients,
+
+> we decided for RESTful HTTP on maturity level 2 in the Service Layer
+
+> and neglected other protocols such as gRPC or SOAP/HTTP
+
+> to achieve interoperability, evolvability and accountability 
+
+> accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS 
+
+> because the implementation effort on client and server side required for multimedia-drive state transitions is not justified in this scenario (not requiring dynamic workflows) and there is good contract language and tool support for this technology (Open API, Swagger tools).
 
 ### Step 6: Specify Service Contract, Make Technology Decisions
 <!-- summarize purpose, input and output of step -->
 
 The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from the previous Step 5 may look like this (notation: [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
+<!-- TODO (v2): show MAP decorators too? addGRaphQL (why n files?) -->
 ~~~
-data type CustomerAccountBackend { "name":D<string>, "address":D<string>, "customeraccountId":CustomerAccountIdBackend }
-data type CustomerAccountIdBackend { "customeraccountId":D<long> }
-data type OrderBackend { "orderNumber":D<string>, "orderId":OrderIdBackend, "orderitemList":OrderItemBackend* }
-data type OrderIdBackend { "orderId":D<long> }
-data type OrderItemBackend { "productName":D<string>, "price":D<string>, "orderitemId":OrderItemIdBackend }
-data type OrderItemIdBackend { "orderitemId":D<long> }
-data type ProductBackend { "productName":D<string>, "image":D<string>, "productCategory":D<string>, "productId":ProductIdBackend }
-data type ProductIdBackend { "productId":D<long> }
 
-endpoint type BusinessToConsumerAggregateBackend
-  exposes
-	operation createCustomerAccount
-	  expecting
-		payload CustomerAccountBackend
-	  delivering
-		payload CustomerAccountIdBackend
-	operation readProduct
-	  expecting
-		payload ProductIdBackend*
-	  delivering
-		payload ProductBackend*
-	operation createOrder
-	  expecting
-		payload OrderBackend
-	  delivering
-		payload OrderIdBackend
-	operation createOrderItem
-	  expecting
-		payload OrderItemBackend
-	  delivering
-		payload OrderItemIdBackend
 
 API provider OnlineShopFeaturesBackendProvider
 	offers BusinessToConsumerAggregateBackend
@@ -214,21 +198,13 @@ API provider OnlineShopFeaturesBackendProvider
 		via protocol HTTP
 ~~~ 
 
-<!-- TODO (v2) also link to OpenAPI, gRPC, Jolie, WSDL/XSD -->
+The [MDSL command line tools](https://github.com/Microservice-API-Patterns/MDSL-Specification/tree/master/dsl-core/io.mdsl.cli) can transform this technology-independent service contract into [Open API](./contracts/DPR-Tutorial1Step6.yaml), [gRPC Protocol Buffers](./contracts/DPR-Tutorial1Step6.proto), and [Jolie](./contracts/DPR-Tutorial1Step6.ol). <!-- TODO GQL, WSDL/XSD, Java --> 
 
-One of the architectural related architectural decisions might be (formatted as a [Y-statement]()):
-
-> In the context of the BusinessToConsumer backend,
-> facing the need to serve a number of diverse, unknown clients,
-> we decided for RESTful HTTP on maturity level 2 in the Service Layer
-> and neglected other protocols such as gRPC or SOAP/HTTP
-> to achieve interoperability, evolvability and accountability 
-> accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS 
-> because the implementation effort on client and server side required for multimedia-drive state transitions is not justified in this scenario (not requiring dynamic workflows) and there is good contract language and tool support for this technology (Open API, Swagger tools).
+We skip additional architectural decision making here for the sake of brevity (see step 5 for an example).
 
 <!-- TODO (v2): add some code-level implementation decision(s), in MADR or e-ADR? -->
 
-We also do not show how to implement the contract yet, for instance in Spring Boot and Java. Have a look at Step 7 of this [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for such information. 
+We do not show how to implement the contract yet, for instance in Spring Boot and Java. Have a look at Step 7 of this [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for such information. 
 
 
 ### Step 7: Improve and Evolve Service Design
