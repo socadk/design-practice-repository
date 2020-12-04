@@ -70,9 +70,9 @@ Accounting and non-repudiation
 * All access attempts are logged 
 -->
 
-The first meaning of the can be modeled with entity operations and services (core domain logic). The second meaning (constraint, invariant) can and should be enforced by Aggregates.
+The first meaning of the term can be modeled with Entity operations and services (core domain logic). The second meaning (constraint, invariant) can and should be enforced by Aggregates.
 
-In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via subdomains, another DDD pattern):
+**Steps**. In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
 
 1. Distinguish Entities (stateful) and Value Objects (stateless), and expose cross-cutting or supporting code that does not fit into any class well as Services (can start with a [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) per user story or use case).
 2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events.
@@ -84,7 +84,8 @@ The [Context Mapper website](https://contextmapper.org/docs/examples/) provides 
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
-![](images/CM-TacticDDDCargoAggregate.png)
+<img src="images/CM-TacticDDDCargoAggregate.png" height="400" />
+<!-- > ![](images/CM-TacticDDDCargoAggregate.png) -->
 
 <!--
 png created from this puml source (had to add a blank to some relationship arrows):
