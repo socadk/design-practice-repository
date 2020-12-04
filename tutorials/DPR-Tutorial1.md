@@ -107,10 +107,10 @@ The above diagram qualifies as the visual part of the [domain model](../artifact
 ### Step 3: Make Executive Decisions (incl. Client/Server Cuts, Frontends/Backends)
 <!-- summarize purpose, input and output of step -->
 
-Let us assume that the following [architectural decisions](../activities/DPR-ArchitecturalDecisionCapturing.md) have been made already (if not, we should we make them now):
+Let us assume that the following [architectural decisions](../activities/DPR-ArchitecturalDecisionCapturing.md) have been made already (if not, we should make them now):
 
 * Two-tier client server (patterns: remote user interface, distributed application kernel)
-* Reactive JavaScript Web frontend
+* Reactive <!-- STX4ZIO: Ist Reactive relevant? --> JavaScript Web frontend
 * Java Spring backend 
 
 A very basic [context map](../artifact-templates/DPR-StrategicDDDContextMap.md), resulting from [strategic DDD](../activities/DPR-StrategicDDD.md) work for this scenario is:
@@ -133,7 +133,7 @@ Such list can be derived from the Step 2 domain model and Step 3 architecture de
 | Order Item | add to order | Specify amount bought, reference product |
 
 <!-- TODO pattern selection AD missing (or FE/BE? see what SSD acticity has to say about this step -->
-We skip additional architectural decision making here for the sake of brevity; on a real project, one would now make quite a few decisions now. See Step 6 for an example of an Architectural Decision Record (ADR).
+We skip additional architectural decision making here for the sake of brevity; on a real project, one would make quite a few decisions now. See Step 6 for an example of an Architectural Decision Record (ADR).
 
 
 ### Step 5: Refine Service Candidates, Make More Conceptual Architectural Decisions
@@ -182,7 +182,7 @@ we decided for RESTful HTTP on maturity level 2 in the Service Layer
 and neglected other protocols such as gRPC or SOAP/HTTP
 to achieve interoperability, evolvability and accountability 
 accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS 
-because the implementation effort on client and server side required for multimedia-drive state transitions 
+because the implementation effort on client and server side required for multimedia-drive <!-- STX4ZIO: hypermedia-driven? --> state transitions 
 is not justified in this scenario (not requiring dynamic workflows) 
 and there is good contract language and tool support for this technology (Open API, Swagger tools)."
 ```
