@@ -98,11 +98,6 @@ Usage of the pattern names and presence of context maps, either drawn informally
 * Program/portfolio architects  
 * Agile teams 
 
-<!--
-|**Role**| Input | Output | Comments |
-|:-|:-----:|:------:|:--------:|
-|  |  |  |  |
--->
 
 
 ### Practices and Techniques (Refinements, Guides)
@@ -113,6 +108,7 @@ Usage of the pattern names and presence of context maps, either drawn informally
 <!-- * Context Modeling in UML or DSL -->
 
 There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) that features many business analysis-level extensions to DDD practices, for instance a [Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas) template.
+
 
 ### More Information 
 

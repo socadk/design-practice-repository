@@ -86,9 +86,9 @@ Notes and comments in UML tools (and Structurizr) as well as plain text descript
 ### More Information
 The [RDD tutorial](http://www.wirfs-brock.com/PDFs/A_Brief-Tour-of-RDD.pdf) explains the *original*, class-level version and provides additional examples.
 
-Gregor Hohpe explains the difference between "scope" and "abstraction" in his blog post ["The Architect’s Path (Part 1 - Model)"](https://architectelevator.com/architecture/architect-path/). CRC cards have a narrow scope and a conceptual level of abstraction (bottom right quadrant).
+G. Hohpe explains the difference between "scope" and "abstraction" in his blog post ["The Architect’s Path (Part 1 - Model)"](https://architectelevator.com/architecture/architect-path/). CRC cards have a narrow scope and a conceptual level of abstraction (bottom right quadrant).
 
-RDD and many other methods are compiled in the post ["Driven by Acronyms"](https://medium.com/olzzio/driven-by-acronyms-e1568b73e4aa) on Medium.
+RDD and many other methods are compiled in the story ["Driven by Acronyms"](https://medium.com/olzzio/driven-by-acronyms-e1568b73e4aa) on Medium.
 
 
 ### Data Provenance 
