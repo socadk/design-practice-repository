@@ -132,8 +132,8 @@ Such list can be derived from the Step 2 domain model and Step 3 architecture de
 | Order    | create    | Model purchase items the order consists of; point to customer; calculate tax and discounts |
 | Order Item | add to order | Specify amount bought, reference product |
 
-<!-- TODO pattern selection AD missing -->
-We skip additional architectural decision making here for the sake of brevity; on a real project, one would now make quite a few decisions now. See next step (Step 5) for an example.
+<!-- TODO pattern selection AD missing (or FE/BE? see what SSD acticity has to say about this step -->
+We skip additional architectural decision making here for the sake of brevity; on a real project, one would now make quite a few decisions now. See Step 6 for an example of an Architectural Decision Record (ADR).
 
 
 ### Step 5: Refine Service Candidates, Make More Conceptual Architectural Decisions
