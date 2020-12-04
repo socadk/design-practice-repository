@@ -1,7 +1,7 @@
 
 # *DPR* Tutorial 1: API Design in an Online Shop
 
-*Note to reviewers:* This tutorial is not complete yet (work in progress); but hopefully it is helpful already (or can at least give an idea of what is coming).
+*Note to reviewers:* This tutorial is not complete yet, but hopefully it is helpful already (or can at least give an idea of what is coming). Bear with us if you spot inconsistencies or information is missing still.
 
 Let's continue the story from [Quick Start Tutorial 0](DPR-Tutorial0.md) and assume you have been assigned the role of API product owner for a fictitious online shop and its APIs, and decided to use DPR as your architecture design method.
 
@@ -165,9 +165,15 @@ The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEnd
 |   |  Search (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* search parameters, *out:* returns set of product descriptions, possibly paginated | Custom JSON |
 | Order |             | [*Operational Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/OperationalDataHolder) |                 |             |
 |      |  Create (POST) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* products to be bought, *out:* returns order confirmation and/or DTO (containing items) | Custom JSON |
-|      |  Add (PUT) | [*State Transition Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* items to be added, *out:* returns order item id as confirmatipon | Custom JSON |
+|      |  Add (PUT) | [*State Transition Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* items to be added, *out:* returns order item id as confirmation | Custom JSON |
 
-One of the architectural related architectural decisions might be (formatted as a [Y-statement]()):
+We have decided for endpoint and operation responsibilities on a conceptual level now; see Step 6 (next) for an example of an ADR that continues the design decision making (on a technology level).
+
+
+### Step 6: Specify Service Contract, Make Technology Decisions
+<!-- summarize purpose, input and output of step -->
+
+One of the architectural related architectural decisions might be (formatted as a [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)):
 
 ```
 "In the context of the BusinessToConsumer backend,
@@ -176,11 +182,10 @@ we decided for RESTful HTTP on maturity level 2 in the Service Layer
 and neglected other protocols such as gRPC or SOAP/HTTP
 to achieve interoperability, evolvability and accountability 
 accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS 
-because the implementation effort on client and server side required for multimedia-drive state transitions is not justified in this scenario (not requiring dynamic workflows) and there is good contract language and tool support for this technology (Open API, Swagger tools)."
+because the implementation effort on client and server side required for multimedia-drive state transitions 
+is not justified in this scenario (not requiring dynamic workflows) 
+and there is good contract language and tool support for this technology (Open API, Swagger tools)."
 ```
-
-### Step 6: Specify Service Contract, Make Technology Decisions
-<!-- summarize purpose, input and output of step -->
 
 The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from the previous Step 5 may look like this (notation: [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
@@ -234,7 +239,7 @@ API provider OnlineShopFeaturesBackendProvider
 
 The [MDSL command line tools](https://github.com/Microservice-API-Patterns/MDSL-Specification/tree/master/dsl-core/io.mdsl.cli) can transform this technology-independent service contract into [Open API](./contracts/DPR-Tutorial1Step6.yaml), [gRPC Protocol Buffers](./contracts/DPR-Tutorial1Step6.proto), and [Jolie](./contracts/DPR-Tutorial1Step6.ol). <!-- TODO GQL, WSDL/XSD, Java --> 
 
-We skip additional architectural decision making here for the sake of brevity (see step 5 for an example). <!-- TODO (v2): add some code-level implementation decision(s), in MADR or e-ADR? -->
+<!-- TODO (v2): add some code-level implementation decision(s), in MADR or e-ADR? -->
 We also do not show how to implement the contract yet, for instance in Spring Boot and Java. Have a look at Step 7 of this [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for such information. 
 
 
