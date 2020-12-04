@@ -48,7 +48,7 @@ Requirements analysis and conversation with stakeholders can be captured in the 
 
 * Architecture Overview Diagram (AOD)  
 * [C4 model](futureWork/DPR-C4Model.md) <!-- The four views in C4 actually map to SCD, AOD/OML0, CML0, CML1) -->
-* [CRC cards](futureWork/DPR-CRCCard.md)
+* [CRC cards](DPR-CRCCard.md)
 * EIP integration flows (a.k.a. "Gregorgrams")
 * [Y-statements](DPR-ArchitecturalDecisionRecordYForm.md) and other ADR formats
 * Architectural refactoring template (from HSR FHO [ARC project](https://ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4))

@@ -33,7 +33,7 @@ Another usage scenario is specification and documentation tool. Finally, the car
 
 An annotated template (with teaser questions) is:
 
-<img src="./images/ZIO-CRCCardNotationExplained.png" height="500" />
+<img src="./images/ZIO-CRCCardNotationExplained.png" height="70%" width="70%" />
 <!-- 
 ![CRC Card Notation Explained](./images/ZIO-CRCCardNotationExplained.png) -->
 
@@ -41,7 +41,7 @@ An annotated template (with teaser questions) is:
 
 This is an example of a filled out card (an entire layer is described here, rather than a single component in that layer):
 
-<img src="./images/ZIO-CRCCardNotationExample.png" height="500" />
+<img src="./images/ZIO-CRCCardNotationExample.png" height="70%" width="70%" />
 <!-- 
 ![CRC Card Notation Example](./images/ZIO-CRCCardNotationExample.png)
 -->
