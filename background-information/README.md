@@ -45,7 +45,7 @@ Methods from the 1970s, 1980s, 1990s:
 And the 2000s:
 
 * [Agile practices](https://www.agilealliance.org/agile101/agile-glossary/), including proposals for scaling agile such as SAFe
-* Strategic and tactic [Domain-Driven Design (DDD)(https://dddcommunity.org/) <!-- OOAD continuation/extension -->
+* Strategic and tactic [Domain-Driven Design (DDD)](https://dddcommunity.org/) <!-- OOAD continuation/extension -->
 * [Software Engineering Method and Theory (SEMAT)](http://semat.org/what-is-it-and-why-should-you-care-) initiative, [Essence specification](http://semat.org/essence-1.2) and [learning/teaching material](http://www.software-engineering-essentialized.com/home)
 * Software architecture templates and notations (see this [state of the art and the practice report as of 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) for more): 
     * [C4 Model](https://c4model.com/) and RCDA
@@ -88,6 +88,8 @@ General purpose:
 * The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level Domain-Driven Design (DDD). A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
 * [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its "little brother" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
 * Articles [on design](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
+
+<!-- TODO V1.2: http://www.methodsandtools.com/archive/archive.php -->
 
 API and service design:
 
