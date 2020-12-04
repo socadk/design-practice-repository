@@ -74,13 +74,15 @@ The original CRC cards were invented by W. Cunningham, who also invented Wikis a
 
 On the architectural level, they are used in Volume 1 of the POSA book series (@Buschmann:1996). See this [blog post by M. Stal](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. [O. Zimmermann](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) has been using them this way in his "Application Architecture" lecture at HSR/OST since 2013; M. Keeling features them as Activity 13 in "Design It!" (@Keeling:2019).
 
-Usage is straightforward to spot; just look for the keywords "responsibilities" and "collaborations" (or "collaborators") and a table format that ivi the one introduced above (the section on candidate implementation technologies and known uses is optional). <!-- added by ZIO -->
+Usage is straightforward to spot; just look for the keywords "responsibilities" and "collaborations" (or "collaborators") and a table format that ivi <!-- STX4ZIO: ivi? --> the one introduced above (the section on candidate implementation technologies and known uses is optional). <!-- added by ZIO -->
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
 Notes and comments in UML tools (and Structurizr) as well as plain text descriptions can be used alternatively.  
+
+Interface-Responsibility-Interactions (IRI) cards are a similar concept, but applied to interfaces @Pugh:2006.
 
 
 ### More Information
