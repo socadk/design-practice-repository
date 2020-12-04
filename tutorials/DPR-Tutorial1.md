@@ -169,19 +169,15 @@ The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEnd
 
 One of the architectural related architectural decisions might be (formatted as a [Y-statement]()):
 
-> In the context of the BusinessToConsumer backend,
-
-> facing the need to serve a number of diverse, unknown clients,
-
-> we decided for RESTful HTTP on maturity level 2 in the Service Layer
-
-> and neglected other protocols such as gRPC or SOAP/HTTP
-
-> to achieve interoperability, evolvability and accountability 
-
-> accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS 
-
-> because the implementation effort on client and server side required for multimedia-drive state transitions is not justified in this scenario (not requiring dynamic workflows) and there is good contract language and tool support for this technology (Open API, Swagger tools).
+```
+"In the context of the BusinessToConsumer backend,
+facing the need to serve a number of diverse, unknown clients,
+we decided for RESTful HTTP on maturity level 2 in the Service Layer
+and neglected other protocols such as gRPC or SOAP/HTTP
+to achieve interoperability, evolvability and accountability 
+accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS 
+because the implementation effort on client and server side required for multimedia-drive state transitions is not justified in this scenario (not requiring dynamic workflows) and there is good contract language and tool support for this technology (Open API, Swagger tools)."
+```
 
 ### Step 6: Specify Service Contract, Make Technology Decisions
 <!-- summarize purpose, input and output of step -->
@@ -190,7 +186,45 @@ The [API description](../artifact-templates/SDPR-APIDescription.md) that refines
 
 <!-- TODO (v2): show MAP decorators too? addGRaphQL (why n files?) -->
 ~~~
+API description BusinessToConsumerBackend
 
+data type CustomerAccount { "name":D<string>, "address":D<string>, "customeraccountId":CustomerAccountId }
+data type CustomerAccountId { "customeraccountId":D<long> }
+data type Order { "orderNumber":D<string>, "orderId":OrderId, "orderitemList":OrderItem* }
+data type OrderId { "orderId":D<long> }
+data type OrderItem { "productName":D<string>, "price":D<string>, "orderitemId":OrderItemId }
+data type OrderItemId { "orderitemId":D<long> }
+data type Product { "productName":D<string>, "image":D<string>, "productCategory":D<string>, "productId":ProductId }
+data type ProductId { "productId":D<long> }
+
+endpoint type Customer
+  exposes
+	operation createAccount
+	  expecting
+		payload CustomerAccount
+	  delivering
+		payload CustomerAccountId
+		
+endpoint type ProductCatalog
+  exposes
+	operation readProductInformation
+	  expecting
+		payload ProductId*
+	  delivering
+		payload Product*
+		
+endpoint type OrderBasket
+  exposes
+	operation createOrder with responsibility "POST"
+	  expecting
+		payload Order
+	  delivering
+		payload OrderId
+	operation addOrderItem with responsibility "PUT"
+	  expecting
+		payload OrderItem
+	  delivering
+		payload OrderItemId
 
 API provider OnlineShopFeaturesBackendProvider
 	offers BusinessToConsumerAggregateBackend
@@ -200,11 +234,8 @@ API provider OnlineShopFeaturesBackendProvider
 
 The [MDSL command line tools](https://github.com/Microservice-API-Patterns/MDSL-Specification/tree/master/dsl-core/io.mdsl.cli) can transform this technology-independent service contract into [Open API](./contracts/DPR-Tutorial1Step6.yaml), [gRPC Protocol Buffers](./contracts/DPR-Tutorial1Step6.proto), and [Jolie](./contracts/DPR-Tutorial1Step6.ol). <!-- TODO GQL, WSDL/XSD, Java --> 
 
-We skip additional architectural decision making here for the sake of brevity (see step 5 for an example).
-
-<!-- TODO (v2): add some code-level implementation decision(s), in MADR or e-ADR? -->
-
-We do not show how to implement the contract yet, for instance in Spring Boot and Java. Have a look at Step 7 of this [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for such information. 
+We skip additional architectural decision making here for the sake of brevity (see step 5 for an example). <!-- TODO (v2): add some code-level implementation decision(s), in MADR or e-ADR? -->
+We also do not show how to implement the contract yet, for instance in Spring Boot and Java. Have a look at Step 7 of this [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for such information. 
 
 
 ### Step 7: Improve and Evolve Service Design
