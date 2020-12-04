@@ -34,17 +34,21 @@ The same practice can be used to identify candidate components in architecture d
 
 ### Instructions (Synopsis, Definition)
 
-Nine splitting patterns are described in <https://agileforall.com/patterns-for-splitting-user-stories/>, covering:
+R. Lawrence describes nine splitting patterns in ["Patterns for Splitting User Stories"](https://agileforall.com/patterns-for-splitting-user-stories/), including:
 
 * *Data entry* methods, for instance multiple actors/users and/or technical channels (Web, mobile app and son on)
 * *Workflow* step: sequencing from process initiation to processing activities (possibly in parallel) and data manipulations to process termination 
 * *Business rule* variations: domain decisions to be made, conditions and constraint checking
 * *Data variations*: is-a relations, categorizations and classifications, domain partitioning  
 * *Operations completeness*: create, read, update (full, partial), delete; search, find, archive; undo (compensation)
+
+<!-- TODO could add a table mapping the splitting patterns to logical layers and patterns/component types -->
+
+The remaining patterns are useful for planning iterations, but less relevant for component identification: 
+
 * Investigation vs. implementation: architectural *spike* vs. full implementation 
 * (Major) *effort* and *simple/complex*; *defer performance* 
 
-<!-- TODO could add a table mapping the splitting patterns to logical layers and patterns/component types -->
 
 ### Example(s)
 Let us assume this top-level story (a.k.a. epic) from a telecommunications order management scenario:
