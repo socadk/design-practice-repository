@@ -88,8 +88,7 @@ General purpose:
 * The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level Domain-Driven Design (DDD). A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
 * [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its "little brother" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
 * Articles [on design](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
-
-<!-- TODO V1.2: http://www.methodsandtools.com/archive/archive.php -->
+* [Methods and Tools](http://www.methodsandtools.com/) is an online "Software Development Magazine - Project Management, Programming, Software Testing".
 
 API and service design:
 
@@ -98,7 +97,7 @@ API and service design:
 * [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/#tutorial-2) (not public yet, but access can be granted upon request) features a good share of the tasks describes in this repository.
 * The [Service Cutter wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
 
-See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
+See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4) for more pointers.
 
 
 ### Site Navigation
@@ -115,7 +114,7 @@ See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-toward
 ```yaml
 title: "Design Practice Repository (DPR): Background Information"
 author: Olaf Zimmermann (ZIO)
-date: "10, 16, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
+date: "12, 4, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

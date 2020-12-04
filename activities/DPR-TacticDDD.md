@@ -42,8 +42,35 @@ The original DDD book @Evans:2003 provides this pattern map for tactic DDD (show
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together. Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity. 
 
-<!-- TODO (v2) explain term Aggregate Root (an entity) better, provide CRC card? -->
-<!-- TODO (v2) give examples of: The aggregate root (an entity) is responsible for preserving invariants. -->
+<!-- TODO (v2) explain term Aggregate Root (and entity) even more (slides?) -->
+<img src="images/ZIO-AggregateCRC.png" height="400" />
+
+**Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
+
+1. Executable part of the business logic (so an algorithm) that is not expressed as sequence of statements as in OOP, but declaratively. 
+2. A statement or condition about the domain model, its elements and their relationships that always has to be true (i.e., be invariant) to preserve data consistency and ensure accuracy of processing. For instance, the sum of all withdrawals is equal to the sum of all payments; the total amount of player salaries on any sports team in the league does not exceed xM USD; all orders point to customers that actually exist in the real world.
+
+<!--
+More examples:
+
+Physical containment relationship 
+
+* No order without an existing customer
+* When A changes, B also has to change 
+
+Number calculations/value ranges 
+
+* Total (sum) of X must not exceed value Y
+* VAT calculation must match product type 
+* Sum of all account transfers must always be 0
+
+Accounting and non-repudiation 
+
+* All calls are billed
+* All access attempts are logged 
+-->
+
+The first meaning of the can be modeled with entity operations and services (core domain logic). The second meaning (constraint, invariant) can and should be enforced by Aggregates.
 
 In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via subdomains, another DDD pattern):
 
@@ -222,7 +249,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Tactic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "08, 15, 2020 (Source: Project DD-DSE)"
+date: "12, 04, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

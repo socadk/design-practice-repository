@@ -134,16 +134,11 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 * [Application Architect](../roles/ApplicationArchitect.md) and other decision makers
 
-<!--
-|**Role**| Input | Output | Comments |
-|:-|:-----:|:------:|:--------:|
-|  |  |  |  |
--->
 
 #### Practices and Techniques (Refinements, Guides)
 
 * Quality Attribute Scenarios (QAS) and utility trees (SEI) @Bass:2012
-* [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) @Barbacci:2002.
+* [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) @Barbacci:2002. M. Keeling introduces them <!-- as activity 7 in his Architect's Toolbox in --> in "Design It" and his 2015 IEEE Software Insights column ["Lightweight and Flexible"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7093052).
 * [Quality storming](https://speakerdeck.com/mploed/quality-storming)
 
 
@@ -160,7 +155,7 @@ Websites dedicated to software quality include [Quality-Aware development](http:
 ```yaml
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE)"
+date: "12, 04, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
