@@ -220,12 +220,6 @@ Usage of the pattern names and presence of domain models, either drawn informall
 * Application architects 
 * Any team member designing and developing
 
-<!--
-|**Role**| Input | Output | Comments |
-|:-|:-----:|:------:|:--------:|
-|  |  |  |  |
--->
-
 
 #### Practices and Techniques (Refinements, Guides)
 
