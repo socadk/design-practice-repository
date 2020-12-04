@@ -33,7 +33,7 @@ Another usage scenario is specification and documentation tool. Finally, the car
 
 An annotated template (with teaser questions) is:
 
-<img src="./images/ZIO-CRCCardNotationExplained.png" height="70%" width="70%" />
+<img src="./images/ZIO-CRCCardNotationExplained.png" height="60%" width="60%" />
 <!-- 
 ![CRC Card Notation Explained](./images/ZIO-CRCCardNotationExplained.png) -->
 
@@ -41,7 +41,7 @@ An annotated template (with teaser questions) is:
 
 This is an example of a filled out card (an entire layer is described here, rather than a single component in that layer):
 
-<img src="./images/ZIO-CRCCardNotationExample.png" height="70%" width="70%" />
+<img src="./images/ZIO-CRCCardNotationExample.png" height="60%" width="60%" />
 <!-- 
 ![CRC Card Notation Example](./images/ZIO-CRCCardNotationExample.png)
 -->
@@ -70,7 +70,7 @@ CRC cards must be expressive, but also easy to understand:
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
-The original CRC cards were invented by W. Cunningham, who also invented Wikis and Technical Debt metaphor, and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were popularized in RDD (for programming and object design level) @WirfsBrock:RDD:2002. 
+The original CRC cards were invented by W. Cunningham, who also invented Wikis and Technical Debt metaphor, and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:RDD:2002). 
 
 On the architectural level, they are used in Volume 1 of the POSA book series (@Buschmann:1996). See this [blog post by M. Stal](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. [O. Zimmermann](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) has been using them this way in his "Application Architecture" lecture at HSR/OST since 2013; M. Keeling features them as Activity 13 in "Design It!" (@Keeling:2019).
 
@@ -87,6 +87,8 @@ Notes and comments in UML tools (and Structurizr) as well as plain text descript
 The [RDD tutorial](http://www.wirfs-brock.com/PDFs/A_Brief-Tour-of-RDD.pdf) explains the *original*, class-level version and provides additional examples.
 
 Gregor Hohpe explains the difference between "scope" and "abstraction" in his blog post ["The Architect’s Path (Part 1 - Model)"](https://architectelevator.com/architecture/architect-path/). CRC cards have a narrow scope and a conceptual level of abstraction (bottom right quadrant).
+
+RDD and many other methods are compiled in the post ["Driven by Acronyms"](https://medium.com/olzzio/driven-by-acronyms-e1568b73e4aa) on Medium.
 
 
 ### Data Provenance 
