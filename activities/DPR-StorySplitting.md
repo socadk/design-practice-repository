@@ -49,25 +49,31 @@ Nine splitting patterns are described in <https://agileforall.com/patterns-for-s
 The patterns can be applied to the "T" case study, assuming this top-level story (a.k.a. epic): 
 
 ```
-"As a Virtual Service Provider (VSP) and client of 'T', I would like to create telephony orders on behalf of my end customers rapidly and reliably to that they are satisfied and stay with me rather than switch to T or another VSP.". See figure "Story splitting at "T".
+"As a Virtual Service Provider (VSP) and client of 'T', 
+I would like to create telephony orders on behalf of my end customers rapidly and reliably 
+so that they are satisfied and stay with me rather than switch to T or another VSP.".
 ```
 
-![Story splitting at "T"](/images/ZIO-TStorySplitting.png) <!-- TODO replace with Spinnaker table from exercise? (and more text in sample solution? -->
+![Story splitting at "T"](./images/ZIO-TStorySplitting.png) <!-- TODO replace with Spinnaker table from exercise? (and more text in sample solution? -->
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 <!-- From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
-TODO
+This is a very light technique, a single application (of one pattern to one story) will only take a few moments. It does not require any particular, specialized skills and its positive effects should become apparent immediately: more actionable backlog items, more expressive, problem- and domain-specific architecture models (component diagrams in particular).
 
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!-- See ART, don’t overdo etc. -->
-TODO
+The only warning of danger is not to overdo it; do not carried away by dreaming up data entry and data variations, business rules nobody has asked for, etc.
 
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA -->
 The Wayback machine has archived early posts about story splitting: <https://web.archive.org/web/20120909082905/http://lassekoskela.com/thoughts/7/ways-to-split-user-stories/> and <https://web.archive.org/web/20120716060616/http://jbrains.ca/permalink/how-youll-probably-learn-to-split-features>
+
+B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). M. Cohn listed five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story): Spikes, Paths, Interfaces, Data, Rules. 
+
+<!-- TODO Signs of Use? Difficult... backlog size and structure? How about CI/CM? --> 
 
 
 ### Related Content
@@ -82,14 +88,12 @@ The Wayback machine has archived early posts about story splitting: <https://web
 
 #### Practices and Techniques (Refinements, Guides)
 
-Story Mapping and Example Mapping are related, complementary practices. See <https://www.agilealliance.org/glossary/storymap/> and <https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox>. 
+[Story Mapping](https://www.agilealliance.org/glossary/storymap/) and [Example Mapping](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox) are two related, complementary practices.
 
 
 ### More Information 
 <!-- Further Reading, Academic Publications) -->
 The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) has an entry for [Story Splitting](https://www.agilealliance.org/glossary/split/).
-
-B. Wake suggests [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). M. Cohn lists five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story).
 
 Agile for All provides a [Cheat Sheet](https://agileforall.com/wp-content/uploads/2009/10/Story-Splitting-Cheat-Sheet.pdf) that summarizes the patterns. 
 * <!-- TODO AppArch exercise 5, fact sheet, slides: <https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story> 
