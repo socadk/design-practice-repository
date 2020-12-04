@@ -142,12 +142,13 @@ Produced artifacts:
 
 
 #### Other Practices (Alternatives)
-Early presentations on MAP featured six steps called EXPOSE:
+
+**EXPOSE.** Early presentations on MAP featured six endpoint/service identification and realization steps called EXPOSE:
 <!-- (see [this conference presentation]() 2018 seminar preso): --> 
 
 ![](images/MAP-EXPOSEStepsInServiceDesign.png)
 
-Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices (unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) is included in the architecture to decouple application and domain logic from integration and interface code).
+**Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices (unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) is included in the architecture to decouple application and domain logic from integration and interface code).
 
 Bottom-up *code-first* API design can be combined with this top-down contract-first design activity to yield a *meet-in-the-middle* approach (note that code-first runs the risk of exposing provider-side implementation details in the API contract, which violates the information hiding principle).
 

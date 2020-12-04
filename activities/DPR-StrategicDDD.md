@@ -130,7 +130,7 @@ Refer to presentations and articles by:
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Strategic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "12, 4, 2020 (Source: Project DD-DSE)"
+date: "12, 04, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

@@ -121,7 +121,9 @@ A very basic [context map](../artifact-templates/DPR-StrategicDDDContextMap.md),
 ### Step 4: Identify Service Candidates, Select Architectural Patterns
 <!-- summarize purpose, input and output of step -->
 
-Following the instructions and hints in the activity and artifact pages, a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md) that looks like this can be derived from the Step 2 domain model and Step 3 architecture design:
+Follow the instructions and hints in the activity and artifact pages to produce a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md). 
+
+Such list can be derived from the Step 2 domain model and Step 3 architecture design and may look like this:
 
 | Endpoint | Operation | Responsibility/Exposed Data | 
 |----------|-----------|-----------------------------|
@@ -162,7 +164,7 @@ The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEnd
 | Product |             | *Master Data Holder* |                 |             |
 |   |  Search (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* search parameters, *out:* returns set of product descriptions, possibly paginated | Custom JSON |
 | Order |             | [*Operational Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/OperationalDataHolder) |                 |             |
-| Order    |  Create (PUT) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* products to be bought, *out:* returns order conformation and/or DTO (containing items)  | Custom JSON |
+|      |  Create (PUT) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* products to be bought, *out:* returns order conformation and/or DTO (containing items)  | Custom JSON |
 
 <!-- TODO ADs missing -->
 Again we skip additional architectural decision making here for the sake of brevity.
@@ -214,8 +216,17 @@ API provider OnlineShopFeaturesBackendProvider
 
 <!-- TODO (v2) also link to OpenAPI, gRPC, Jolie, WSDL/XSD -->
 
-<!-- TODO ADs missing [O] MADR, e-adr -->
-In a future version of this tutorial, we will feature some of the architectural and code-level implementation decisions here. 
+One of the architectural related architectural decisions might be (formatted as a [Y-statement]()):
+
+> In the context of the BusinessToConsumer backend,
+> facing the need to serve a number of diverse, unknown clients,
+> we decided for RESTful HTTP on maturity level 2 in the Service Layer
+> and neglected other protocols such as gRPC or SOAP/HTTP
+> to achieve interoperability, evolvability and accountability 
+> accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS 
+> because the implementation effort on client and server side required for multimedia-drive state transitions is not justified in this scenario (not requiring dynamic workflows) and there is good contract language and tool support for this technology (Open API, Swagger tools).
+
+<!-- TODO (v2): add some code-level implementation decision(s), in MADR or e-ADR? -->
 
 We also do not show how to implement the contract yet, for instance in Spring Boot and Java. Have a look at Step 7 of this [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for such information. 
 
@@ -249,7 +260,7 @@ See MAP [Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tu
 ```yaml
 title: "Design Practice Repository (DPR): Tutorial 1 (Online Shop API Design)"
 author: Olaf Zimmermann (ZIO)
-date: "10, 15, 2020 (Source: Project DD-DSE)"
+date: "12, 04, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

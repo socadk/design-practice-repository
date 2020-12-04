@@ -36,7 +36,7 @@ Therefore, it is desirable to establish criteria and templates that allow archit
 ### Instructions (Synopsis, Definition)
 *Select and apply a taxonomy consistently.* There are many different NFRs, Quality Attributes (QAs) in particular. Many of these pertain to the runtime, others deal with software support and maintenance. Therefore, many attempts have been made to organize the QA landscape (ordered from informal and ad hoc to formal and complete): 
 
-* The basic, easy-to-remember *FURPS+* classification introduced in the lecture and used in exercise 1, originally introduced in a software engineering book from the 1990s and explained in [this article by P. Eeles](https://www.ibm.com/developerworks/rational/library/4706.html).
+* The basic, easy-to-remember *FURPS+* classification was originally introduced in a software engineering book from the 1990s and explained in [this article by P. Eeles](https://www.ibm.com/developerworks/rational/library/4706.html).
 * ISO 9126 and its successor [ISO 25010](http://iso25000.com/index.php/en/iso-25000-standards/iso-25010), also used by in "Effektive Softarearchitekturen" @Starke:2015 and recommended for use in arc42 descriptions.
 * SEI quality utility trees, see this Technical Report, [this article](http://arnon.me/2010/05/utility-trees-hatching-quality-attributes/) by Arnon Rotem-Gal-Oz and [arc42 tip 10-2](http://docs.arc42.org/tips/10-2/).
 
@@ -61,11 +61,11 @@ M is about *monitoring* the requirement throughout a project. You should be able
 
 > Is the NFR achieved or not? 
 
-Explanations (excuses?) for not coming up with numbers are easy to find (e.g., fear of over-commitment might cause under-specification), but will get to you in the long run (project example given in the lecture: “standards compliance (past, present and future)”, "flexible data model", "scale console").
+Explanations (excuses?) for not coming up with numbers are easy to find (e.g., fear of over-commitment might cause under-specification), but will get to you in the long run (project example: “standards compliance (past, present and future)”, "flexible data model", "scale console").
 
 <!-- TODO (v2) also document A, R, T on level of detail of S and M? -->
 
-SMARTness assessments can be recorded in the following way: 
+Assessments can be recorded in the following way: 
 
 | ASR | Specific (Y/N)? | Measurable (Y/N)? | Rationale for Answers | Improvement (if needed) |
 |:----|:----------------|:------------------|-----------------------|-------------------------| 
