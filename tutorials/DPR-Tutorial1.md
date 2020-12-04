@@ -157,6 +157,8 @@ Endpoints in this API (and their architectural role):
 
 The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md) that refactors and refined the output from the previous Step 4 may then contain the following entries:
 
+<!-- STX4ZIO: For a future version, maybe add more than just "Custom JSON" Media Type/Profile? -->
+
 | Endpoint | Operation   | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
 |----------|-------------|---------------|------------------------|-------------|
 | Customer |             | [*Master Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/MasterDataHolder) |                 |             |
@@ -176,16 +178,18 @@ We have decided for endpoint and operation responsibilities on a conceptual leve
 One of the architectural related architectural decisions might be (formatted as a [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)):
 
 ```
-"In the context of the BusinessToConsumer backend,
-facing the need to serve a number of diverse, unknown clients,
-we decided for RESTful HTTP on maturity level 2 in the Service Layer
+"In the context of the BusinessToConsumer backend, <!-- STX4ZIO: BusinessToConsumer first seen here, should it be OnlineShopBackend?  -->
+facing the need to serve a number of diverse, unknown clients, <!-- STX4ZIO: we do know one client though, our own frontend. Are the other clients sufficiently motivated in the tutorial? -->
+we decided for RESTful HTTP on maturity level 2 in the Service Layer <!-- STX4ZIO: This is the only place we talk about Layers, hmm -->
 and neglected other protocols such as gRPC or SOAP/HTTP
-to achieve interoperability, evolvability and accountability 
-accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS 
+to achieve interoperability, evolvability and accountability <!-- STX4ZIO: Could you elaborate on the accountability? -->
+accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS <!-- STX4ZIO: "vision" is good! -->
 because the implementation effort on client and server side required for multimedia-drive <!-- STX4ZIO: hypermedia-driven? --> state transitions 
 is not justified in this scenario (not requiring dynamic workflows) 
 and there is good contract language and tool support for this technology (Open API, Swagger tools)."
 ```
+
+
 
 The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from the previous Step 5 may look like this (notation: [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
