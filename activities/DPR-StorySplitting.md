@@ -20,7 +20,7 @@ A story that is too large for a sprint must be broken down to meet the [INVEST p
 * *Negotiable:* Stories are supposed to be "co-created by the customer and programmer during development. A good story captures the essence, not the detail."
 * *Valuable:* Each story must be valuable to the customer on its own. <!-- "Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important." --> 
 * *Estimable:* The level of detail should be "just enough to help the customer rank and schedule the story’s implementation."
-* *Small:* "Stories typically represent at most a few person-weeks worth of work."
+* *Small:* "Stories typically represent at most a few person-weeks worth of work." <!-- STX4ZIO: Könnte man sagen, dass die Story innerhalb einer Iteration umsetzbar sein sollte? -->
 * *Testable:* customer and developers should understand the story well enough that a test for it can be written --- or is written first, as in BDD and TDD, see this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html).
 
 Several techniques exist; one of them is story splitting.
@@ -65,7 +65,7 @@ Applying the splitting patterns may yield a result like this:
 
 <img src=".//images/ZIO-TStorySplitting.png" height="80%" width="80%" />
 <!-- ![Story splitting at "T"](./images/ZIO-TStorySplitting.png) -->
-<!-- replace with Spinnaker table from exercise? (and more text in sample solution? -->
+<!-- replace with Spinnaker table from exercise? (and more text in sample solution? Mirko: Die Tabelle ist gut, aber es wäre schön, wenn man am Ende auch wieder Stories resultieren. -->
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
@@ -87,6 +87,8 @@ Signs of use are difficult to call out for this activity. Backlog size and struc
 
 ### Related Content
 <!-- in DPR/OLAF and elsewhere -->
+
+<!-- STX4ZIO: Gibt's eigentlich auch Use Case Splitting? :-) -->
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
