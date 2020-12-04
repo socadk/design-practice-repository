@@ -49,6 +49,8 @@ The remaining patterns are useful for planning iterations, but less relevant for
 * Investigation vs. implementation: architectural *spike* vs. full implementation 
 * (Major) *effort* and *simple/complex*; *defer performance* 
 
+**Other splitting criteria.**. B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). M. Cohn listed five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story): Spikes, Paths, Interfaces, Data, Rules. 
+
 
 ### Example(s)
 Let us assume this top-level story (a.k.a. epic) from a telecommunications order management scenario:
@@ -80,9 +82,7 @@ The only warning of danger is not to overdo it; do not carried away by dreaming 
 <!-- From PLOPs and from AA -->
 The Wayback machine has archived early posts about story splitting [here](https://web.archive.org/web/20120909082905/http://lassekoskela.com/thoughts/7/ways-to-split-user-stories/) and [here](https://web.archive.org/web/20120716060616/http://jbrains.ca/permalink/how-youll-probably-learn-to-split-features).
 
-B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). M. Cohn listed five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story): Spikes, Paths, Interfaces, Data, Rules. 
-
-<!-- TODO Signs of Use? Difficult... backlog size and structure? How about CI/CM? --> 
+Signs of use are difficult to call out for this activity. Backlog size and structure might indicate use. <!-- TODO How about CI/CM? --> 
 
 
 ### Related Content
