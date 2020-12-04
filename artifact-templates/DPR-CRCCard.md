@@ -12,9 +12,9 @@ Artifact/Template: *Components, Responsibilities, Collaborators (CRC) Card*
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 
 ### Motivation (Addressed Information Need) 
-How can logical design building blocks be described on an intermediate level of detail and refinement? 
+*How can logical design building blocks be described on an intermediate level of detail and refinement?*
 
-A notation that is well suited for *candidate* component modeling is the *CRC Card* format. CRC stands for Components, Responsibilities, Collaborators (CRC) here.  It finds a balance between being precise and being consumable; code interfaces would be too detailed, boxes-and-arrows diagrams to abstract. 
+A notation that is well suited for *candidate* component modeling is the *CRC Card* format. CRC stands for Components, Responsibilities, Collaborators (CRC) here; you also find Classes or Candidates as the meaning of the first 'C'. CRC cards finds a balance between being precise and being consumable; code interfaces would be too detailed, boxes-and-arrows diagrams to abstract.
 
 
 ### Usage (Produced and Consumed When)
@@ -56,17 +56,16 @@ Any tool that support table layouts (preferably with the option to merge cells) 
 CRC cards must be expressive, but also easy to understand:
 
 * Names should communicate what application/architecture are about
-    * Metaphors are good, but must be chosen wisely (stakeholder reaction?)
-    * Prefer strong semantics and domain-specific vocabulary, e.g. "Web Shop" over "Client"
-    * A common naming scheme is `domain concept + architectural role/pattern` (see above example)
-* Value consistency (no contradictions) over completeness (know it all)
-    * Good component descriptions should be SMART (like goals, but adapted)
-    * Each outgoing collaboration relationship must correspond to an incoming one elsewhere in system or its context (service consumer and provider)
-    * Sunny day and rainy days to be taken into account (remember the QASs?)
+    * Metaphors are good, but must be chosen wisely. How will key stakeholders react to them?
+    * Prefer strong semantics and domain-specific vocabulary, e.g. "Web Shop" over "Client".
+    * A common naming scheme is `domain concept + architectural role/pattern`.
+* Value consistency (no contradictions) over completeness
+    * Good component descriptions should be SMART (like goals and NFRs)
+    * Each outgoing collaboration relationship should correspond to an incoming one elsewhere in system or its context (service consumer and provider).
+    * Sunny day (happy path scenarios) and rainy days (error and edge cases) should be taken into account when assigning responsibilities.
 * Model on same level of detail on all cards and find a medium ground:
-    * Too precise – hard to implement and to change 
-    * Too vague – no added value, implementations hard to integrate, architecture difficult to validate
-    * “If in doubt leave it out”; all diagrams should have a key/legend 
+    * Too precise specifications are hard to implement and change 
+    * Too vague ones do not add value, implementations are hard to integrate, and the resulting architecture is difficult to validate.
 
 
 ### Origins and Signs of Use
