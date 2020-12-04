@@ -16,12 +16,12 @@ Activity/Technique: *Story Splitting*
 <!-- Keywords, preconditions (input artifacts), performing role -->
 A story that is too large for a sprint must be broken down to meet the [INVEST properties](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/) of user stories:
 
-* I – Independent
-* N – Negotiable
-* V – Valuable
-* E – Estimable
-* S – Small
-* T – Testable
+* I – Independent: Stories should not overlap conceptually and not dictate any implementation order.
+* N – Negotiable: Stories are supposed to be "co-created by the customer and programmer during development. A good story captures the essence, not the detail."
+* V – Valuable: Each story must be valuable to the customer on its own. <!-- "Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important." --> 
+* E – Estimable: The level of detail should be "just enough to help the customer rank and schedule the story’s implementation."
+* S – Small: "Stories typically represent at most a few person-weeks worth of work."
+* T – Testable: customer and developers should understand the story well enough that a test for it can be written --- or is written first, as in BDD and TDD, see this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html).
 
 Several techniques exist; one of them is story splitting.
 
@@ -36,17 +36,18 @@ The same practice can be used to identify candidate components in architecture d
 
 Nine splitting patterns are described in <https://agileforall.com/patterns-for-splitting-user-stories/>, covering:
 
-* Workflow step
-* Business rule variation 
-* Conditions/constraints, sequencing
-* Effort, complexity
-* Data entry, data variations
-* Investigation vs. implementation 
+* Data entry methods, for instance multiple actors/users and/or technical channels (Web, mobile app and son on)
+* Workflow step: sequencing from process initiation to processing activities (possibly in parallel) and data manipulations to process termination 
+* Business rule variations: domain decisions to be made, conditions and constraint checking
+* Data variations: is-a relations, categorizations and classifications, domain partitioning  
+* Operations: create, read, update (full, partial), delete; search, find, archive; undo (compensation)
+* (Major) Effort and simple/complex; defer performance 
+* Investigation vs. implementation: architectural spike vs. full implementation 
 
 <!-- TODO could add a table mapping the splitting patterns to logical layers and patterns/component types -->
 
 ### Example(s)
-The patterns can be applied to the "T" case study, assuming this top-level story (a.k.a. epic): 
+Let us assume this top-level story (a.k.a. epic) from a telecommunications order management scenario:
 
 ```
 "As a Virtual Service Provider (VSP) and client of 'T', 
@@ -54,7 +55,11 @@ I would like to create telephony orders on behalf of my end customers rapidly an
 so that they are satisfied and stay with me rather than switch to T or another VSP.".
 ```
 
-![Story splitting at "T"](./images/ZIO-TStorySplitting.png) <!-- TODO replace with Spinnaker table from exercise? (and more text in sample solution? -->
+Applying the splitting patterns may yield a result like this:
+
+<img src=".//images/ZIO-TStorySplitting.png" height="60%" width="60%" />
+![Story splitting at "T"](./images/ZIO-TStorySplitting.png) 
+<!-- replace with Spinnaker table from exercise? (and more text in sample solution? -->
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
@@ -69,7 +74,7 @@ The only warning of danger is not to overdo it; do not carried away by dreaming 
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA -->
-The Wayback machine has archived early posts about story splitting: <https://web.archive.org/web/20120909082905/http://lassekoskela.com/thoughts/7/ways-to-split-user-stories/> and <https://web.archive.org/web/20120716060616/http://jbrains.ca/permalink/how-youll-probably-learn-to-split-features>
+The Wayback machine has archived early posts about story splitting [here](https://web.archive.org/web/20120909082905/http://lassekoskela.com/thoughts/7/ways-to-split-user-stories/) and [here](https://web.archive.org/web/20120716060616/http://jbrains.ca/permalink/how-youll-probably-learn-to-split-features).
 
 B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). M. Cohn listed five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story): Spikes, Paths, Interfaces, Data, Rules. 
 
@@ -96,7 +101,8 @@ B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twen
 The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) has an entry for [Story Splitting](https://www.agilealliance.org/glossary/split/).
 
 Agile for All provides a [Cheat Sheet](https://agileforall.com/wp-content/uploads/2009/10/Story-Splitting-Cheat-Sheet.pdf) that summarizes the patterns. 
-* <!-- TODO AppArch exercise 5, fact sheet, slides: <https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story> 
+
+<!-- TODO use AppArch exercise 5 and slides -->
 
 
 ### Data Provenance 
