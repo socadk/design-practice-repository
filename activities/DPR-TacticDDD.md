@@ -43,9 +43,11 @@ The original DDD book @Evans:2003 provides this pattern map for tactic DDD (show
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together. Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity. 
 
 <!-- TODO (v2) explain term Aggregate Root (and entity) even more (slides?) -->
+
+The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (the root entities in an Aggregate):
 <img src="images/ZIO-AggregateCRC.png" height="400" />
 
-**Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
+**Aggregates and Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
 
 1. Executable part of the business logic (so an algorithm) that is not expressed as sequence of statements as in OOP, but declaratively. 
 2. A statement or condition about the domain model, its elements and their relationships that always has to be true (i.e., be invariant) to preserve data consistency and ensure accuracy of processing. For instance, the sum of all withdrawals is equal to the sum of all payments; the total amount of player salaries on any sports team in the league does not exceed xM USD; all orders point to customers that actually exist in the real world.
@@ -72,7 +74,7 @@ Accounting and non-repudiation
 
 The first meaning of the term can be modeled with Entity operations and services (core domain logic). The second meaning (constraint, invariant) can and should be enforced by Aggregates.
 
-**Steps**. In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
+**Modeling Steps**. In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
 
 1. Distinguish Entities (stateful) and Value Objects (stateless), and expose cross-cutting or supporting code that does not fit into any class well as Services (can start with a [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) per user story or use case).
 2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events.
@@ -84,7 +86,7 @@ The [Context Mapper website](https://contextmapper.org/docs/examples/) provides 
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
-<img src="images/CM-TacticDDDCargoAggregate.png" height="400" />
+<img src="images/CM-TacticDDDCargoAggregate.png" height="600" />
 <!-- > ![](images/CM-TacticDDDCargoAggregate.png) -->
 
 <!--
