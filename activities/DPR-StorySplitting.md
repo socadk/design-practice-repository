@@ -29,7 +29,7 @@ Several techniques exist; one of them is story splitting.
 <!-- TODO, can be a user story, must identify the performing role and the target audience (producer, consumer) -->
 Story splitting is an agile practice that makes stories and their implementation easier to plan and execute. 
 
-Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) and viewpoint, the same practice can be used to identify candidate components in architecture design. Many (but not all) splitting patterns and techniques are equally suited fot this second, extended use of the practice.
+Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md). Many (but not all) splitting patterns and techniques are equally suited fot this second, extended use of the practice.
 
 
 ### Instructions (Synopsis, Definition)
@@ -42,7 +42,7 @@ Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practi
 * *Data variations*: is-a relations, categorizations and classifications, domain partitioning  
 * *Operations completeness*: create, read, update (full, partial), delete; search, find, archive; undo (compensation)
 
-Each data entry split suggests at least one presentation layer component (as a candidate). Complex workflows call for explicit state management, to be designed architecturally and assigned as a responsibility to one or more components. Each business rule has to be implemented and enforced somewhere (see below). Data variations and operations find their place in the [Domain Model](../artifact-templates/DPR-DomainModel.md) as well as the data access/data source and persistence layer. <!-- TODO could add a table mapping the splitting patterns to logical layers and patterns/component types -->
+Each data entry split suggests at least one presentation layer component (as a candidate). Complex workflows call for explicit state management, to be designed architecturally and assigned as a responsibility to one or more components. Each business rule has to be implemented and enforced somewhere (see below). Data variations and operations find their place in the [Domain Model](../artifact-templates/DPR-DomainModel.md) and in the data access/data source and persistence layer. <!-- TODO could add a table mapping the splitting patterns to logical layers and patterns/component types -->
 
 The remaining patterns are useful for planning iterations, but less relevant for component identification and architecture design (unlike their output, which might yield additional candidate components): 
 
@@ -77,7 +77,7 @@ A very welcome effect of story splitting is that it often leads to new questions
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!-- See ART, don’t overdo etc. -->
-The only warning of danger is not to overdo it; do not carried away by dreaming up data entry and data variations, business rules nobody has asked for, etc.
+The only warning of danger is not to overdo it; one should not get carried away by dreaming up data entry and data variations, business rules nobody has asked for, and so on.
 
 
 ### Origins and Signs of Use
@@ -105,7 +105,7 @@ Story splitting can be followed or accompanied by [Tactic DDD](DPR-TacticDDD.md)
 
 Event storming can either trigger story capturing and splitting, or be performed when following the workflow steps. 
 
-[Story Mapping](https://www.agilealliance.org/glossary/storymap/) and [Example Mapping](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox) are two related, complementary practices. Split stories can be mapped more easily than larger ones. More specifically, splitting by workflow step is straightforward to combine with/use to populate the horizontal dimension in story maps; the other patterns 2 to 9 all fit the vertical "details" dimension. Example mapping also talks about "business rules" (like splitting pattern 2), in the sense of a constraint that must be met. Any story can serve as input; the broader and complex it is, the longer and more intense clarification discussions will results. The more specific and simple a story is, the easier it will be to find the acceptance criteria for it. 
+[Story Mapping](https://www.agilealliance.org/glossary/storymap/) and [Example Mapping](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox) are two related, complementary practices. Split stories can be mapped more easily than larger ones. More specifically, splitting by workflow step is straightforward to combine with/use to populate the horizontal dimension in story maps; the other patterns all fit the vertical "details" dimension. Example mapping also talks about business rules, in the sense of a constraint that must be met. Any story can serve as input; the broader and complex it is, the longer and more intense clarification discussions will results. The more specific and simple a story is, the easier it will be to find the acceptance criteria for it. 
 
 
 ### More Information 
@@ -114,7 +114,7 @@ The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) has
 
 Agile for All provides a [Cheat Sheet](https://agileforall.com/wp-content/uploads/2009/10/Story-Splitting-Cheat-Sheet.pdf) that summarizes the patterns. 
 
-T. Heap, a business analyst, puts the splitting steps in a logical order in [an article on his blog](http://www.its-all-design.com/how-to-split-user-stories/) (and also touches upon API design).
+T. Heap, a business analyst, [puts the splitting steps in a logical order](http://www.its-all-design.com/how-to-split-user-stories/) and also touches upon API design.
 
 
 ### Data Provenance 
@@ -122,7 +122,7 @@ T. Heap, a business analyst, puts the splitting steps in a logical order in [an 
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Story Splitting"
 author: Olaf Zimmermann (ZIO)
-date: "12, 04, 2020"
+date: "12, 05, 2020"
 copyright: Copyright 2020 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

@@ -14,19 +14,19 @@ Artifact/Template: *Components, Responsibilities, Collaborators (CRC) Card*
 ### Motivation (Addressed Information Need) 
 *How can logical design building blocks be described on an intermediate level of detail and refinement?*
 
-A notation that is well suited for *candidate* component modeling is the *CRC Card* format. CRC stands for Components, Responsibilities, Collaborators (CRC) here; you also find Classes or Candidates as the meaning of the first 'C'. CRC cards finds a balance between being precise and being consumable; code interfaces would be too detailed, boxes-and-arrows diagrams to abstract.
+A notation that is well suited for *candidate* component modeling is the *CRC Card* format. CRC stands for Components, Responsibilities, Collaborators (CRC) here; you also find Classes or Candidates as the meaning of the first 'C'. CRC cards allows designers to strike a balance between being precise and being consumable; code interfaces often would be too detailed, boxes-and-arrows diagrams too abstract (depending on the modeling goals and information needs in a given context).
 
 
 ### Usage (Produced and Consumed When)
 <!--AA/AS/AE, must identify the producing role and the target audience-->
-
-One usage scenario for CRC cards is as a workshop or "design thinking" element, sometimes involving a role-playing game: Each participant takes the role of an object/a candidate component (one CRC card). A ball representing control flow is thrown around to specify data flow, (a)synchrony, etc. The resulting collaborations and responsibilities are recorded on CRC card. 
-
-Another usage scenario is specification and documentation tool. Finally, the cards can support decision making during component realization, starting with the "buy vs. build" decision: 
+ 
+CRC cards primarily serve as specification and documentation tool. Moreover, the cards can support decision making during component realization, starting with the "buy vs. build" decision: 
 
 * Buy, build, or rent (a cloud service)?
 * Use software package, commercial middleware, or open source software? 
 * Can an operating system feature fulfill the responsibilities (such as crontab as a job scheduler)?  
+
+Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing (or serve as graphical meeting minutes only).
 
 
 ### Template Structure and Notation(s)
@@ -36,6 +36,8 @@ An annotated template (with teaser questions) is:
 <img src="./images/ZIO-CRCCardNotationExplained.png" height="60%" width="60%" />
 <!-- 
 ![CRC Card Notation Explained](./images/ZIO-CRCCardNotationExplained.png) -->
+
+Note that the template and the teaser questions deviate from the original CRC format a bit (applying our method engineering rule "do not follow templates blindly, but adopt them to your needs"). In the responsibility cell, functions, (externally visible) data and qualities are mentioned; in the collaborations cell, both inbound and outbound dependencies can be listed. There is an extra cell asking for previous experiences and realizations with the candidate component (in support of the decision making use case of CRC cards).
 
 ### Example(s)
 
@@ -55,32 +57,32 @@ Any tool that support table layouts (preferably with the option to merge cells) 
 
 CRC cards must be expressive, but also easy to understand:
 
-* Names should communicate what application/architecture are about
-    * Metaphors are good, but must be chosen wisely. How will key stakeholders react to them?
+* Names should communicate what application/architecture are about.
+    * Metaphors can make cards expressive and easy to remember, but must be chosen wisely. How will key stakeholders react to them?
     * Prefer strong semantics and domain-specific vocabulary, e.g. "Web Shop" over "Client".
     * A common naming scheme is `domain concept + architectural role/pattern`.
-* Value consistency (no contradictions) over completeness
+* Value consistency (no contradictions) over completeness.
     * Good component descriptions should be SMART (like goals and NFRs)
-    * Each outgoing collaboration relationship should correspond to an incoming one elsewhere in system or its context (service consumer and provider).
+    * Each outgoing collaboration relationship should correspond to an incoming one elsewhere and vice versa (a service consumer needs a provider). Look for it in other CRC cards or the API contracts of systems in the context of the one under construction.
     * Sunny day (happy path scenarios) and rainy days (error and edge cases) should be taken into account when assigning responsibilities.
-* Model on same level of detail on all cards and find a medium ground:
+* Model on same level of detail on all cards and find a medium ground.
     * Too precise specifications are hard to implement and change 
     * Too vague ones do not add value, implementations are hard to integrate, and the resulting architecture is difficult to validate.
 
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
-The original CRC cards were invented by W. Cunningham, who also invented Wikis and Technical Debt metaphor, and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:RDD:2002). 
+The original CRC cards were invented by W. Cunningham (who, by the way, also invented Wikis and the Technical Debt metaphor), and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:RDD:2002). 
 
-On the architectural level, they are used in Volume 1 of the POSA book series (@Buschmann:1996). See this [blog post by M. Stal](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. [O. Zimmermann](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) has been using them this way in his "Application Architecture" lecture at HSR/OST since 2013; M. Keeling features them as Activity 13 in "Design It!" (@Keeling:2019).
+On the architectural level, they are used in Volume 1 of the POSA book series (@Buschmann:1996). See this [blog post by M. Stal from 2006](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. [O. Zimmermann](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) has been using them this way in his "Application Architecture" lecture at HSR/OST since 2013; M. Keeling features them as Activity 13 in "Design It!" (@Keeling:2019).
 
-Usage is straightforward to spot; just look for the keywords "responsibilities" and "collaborations" (or "collaborators") and a table format that resembles the one introduced above (the section on candidate implementation technologies and known uses is optional). <!-- added by ZIO -->
+Usage is straightforward to spot; just look for the keywords "responsibilities" and "collaborations" (or "collaborators") and a table format that resembles the one introduced above (note that the section on candidate implementation technologies and known uses is optional).
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
-Notes and comments in UML tools (and Structurizr) as well as plain text descriptions can be used alternatively.  
+Notes and comments in UML tools (and Structurizr) as well as plain text descriptions can be used alternatively, or formatted in such a way that the responsibilities and collaborations come out clearly. 
 
 Interface-Responsibility-Interactions (IRI) cards are a similar concept, but applied to interfaces @Pugh:2006.
 
@@ -98,7 +100,7 @@ RDD and many other methods are compiled in the story ["Driven by Acronyms"](http
 ```yaml
 title: "Design Practice Repository (DPR): CRC Card"
 author: Olaf Zimmermann (ZIO)
-date: "12, 04, 2020"
+date: "12, 05, 2020"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
