@@ -39,6 +39,9 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 <div id="ref-Buschmann:2007">
 <p>Buschmann, Frank, Kevlin Henney, and Douglas Schmidt. 2007. <em>Pattern-Oriented Software Architecture, Volume 4: A Pattern Language for Distributed Computing</em>. John Wiley &amp; Sons.</p>
 </div>
+<div id="ref-Buschmann:1996">
+<p>Buschmann, Frank, Regine Meunier, Hans Rohnert, Peter Sommerlad, and Michael Stal. 1996. <em>Pattern-Oriented Software Architecture - Volume 1: A System of Patterns</em>. Wiley Publishing.</p>
+</div>
 <div id="ref-Cockburn:2001">
 <p>Cockburn, Alistair. 2001. <em>Writing Effective Use Cases</em>. Boston, MA: Addison-Wesley.</p>
 </div>
@@ -63,6 +66,9 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 <div id="ref-Julisch:2011">
 <p>Julisch, Klaus, Christophe Suter, Thomas Woitalla, and Olaf Zimmermann. 2011. “Compliance by Design–Bridging the Chasm Between Auditors and It Architects.” <em>Computers &amp; Security</em> 30 (6): 410–26.</p>
 </div>
+<div id="ref-Keeling:2019">
+<p>Keeling, Michael. 2017. <em>Design it!: From Programmer to Software Architect</em>. The Pragmatic Programmers. Raleigh, NC: Pragmatic Bookshelf.</p>
+</div>
 <div id="ref-Larman:2004">
 <p>Larman, Craig. 2004. <em>Applying Uml and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd Edition)</em>. USA: Prentice Hall PTR.</p>
 </div>
@@ -74,6 +80,9 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 </div>
 <div id="ref-Newman:2015">
 <p>Newman, Sam. 2015. <em>Building Microservices: Designing Fine-Grained Systems</em>. O’Reilly Media, Inc.</p>
+</div>
+<div id="ref-Pugh:2006">
+<p>Pugh, Ken. 2006. <em>Interface-Oriented Design (Pragmatic Programmers)</em>. Pragmatic Bookshelf.</p>
 </div>
 <div id="ref-RenzelKeller:1997">
 <p>Renzel, Klaus, and Wolfgang Keller. 1997. “Client/Server Architectures for Business Information Systems - a Pattern Language.” In <em>Proceedings of the Conference on Pattern Languages of Programs</em>. PLoP ’97.</p>
