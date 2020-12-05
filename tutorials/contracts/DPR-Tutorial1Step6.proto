@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package BusinessToConsumerBackend;
+package OnlineShopBackend;
 
 message CustomerAccount {
   string name = 1;

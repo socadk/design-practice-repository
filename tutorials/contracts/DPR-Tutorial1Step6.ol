@@ -1,4 +1,4 @@
-// API name: BusinessToConsumerBackend
+// API name: OnlineShopBackend
 
 type Order {
 	anonymous11: void { orderNumber: string /* data type role: D */ orderId: OrderId orderitemList[0,*]: OrderItem } 

@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: BusinessToConsumerBackend
+  title: OnlineShopBackend
   version: "1.0"
 tags:
 - name: Customer
