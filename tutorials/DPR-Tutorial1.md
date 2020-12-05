@@ -33,13 +33,11 @@ UseCase UC2_BrowseAndBuy {
 }
 ~~~
 
-<!-- TODO point at artifact descriptions -->
-
-A specific and measurable Non-Functional Requirement (NFR) is: 
+A specific and measurable [Non-Functional Requirement (NFR)](../artifact-templates/DPR-SMART-NFR-Elicitation.md) is: 
 
 * 80% of all executions of "UC1_Register" should produce a correct response (user account created or error reported) in less than 3 seconds on average, measured at the system boundary of the shop (so excluding external network communication).
 
-Scoping decisions might include (in a future version of the tutorial, we'll capture tham as [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)): 
+Scoping decisions might include (we could capture them as [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md); see Step 6 for an example of such statement): 
 
 * Build the shop components rather than buy or rent them.
 * Use a [microservices architecture](https://microservice-api-patterns.org/introduction) whose service components are identified with [domain-driven design](https://www.ifs.hsr.ch/index.php?id=15666&L=4). 
@@ -47,8 +45,7 @@ Scoping decisions might include (in a future version of the tutorial, we'll capt
 * Develop in JavaScript (frontends) and Java (backends).
 * Integrate an external payment service. <!-- TODO feature in SCD etc. -->
 
-Note that these assumptions and decisions merely scope the tutorial; you'll be able to learn about the DPR content without being knowledgeable in any of the technologies and concepts mentioned. 
-<!-- [W] "the DPR way" -->
+Note that these assumptions and decisions merely scope the tutorial; you'll be able to learn about the DPR way of API and architecture design without being knowledgeable in any of the technologies and concepts mentioned.
 
 
 ### Step 2: Model Domain, Make/Support Business Decisions
@@ -132,8 +129,10 @@ Such list can be derived from the Step 2 domain model and Step 3 architecture de
 | Order    | create    | Model purchase items the order consists of; point to customer; calculate tax and discounts |
 | Order Item | add to order | Specify amount bought, reference product |
 
-<!-- TODO pattern selection AD missing (or FE/BE? see what SSD acticity has to say about this step -->
-We skip additional architectural decision making here for the sake of brevity; on a real project, one would make quite a few decisions now. See Step 6 for an example of an Architectural Decision Record (ADR).
+These candidate endpoints outline the [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) of the backend under construction. The table does know much about its Remote facades and Data Transfer Objects (DTOs) yet; this is something to be improved in the next step.
+
+<!--
+We skip additional architectural decision making here for the sake of brevity; on a real project, one would make quite a few decisions now. See Step 6 for an example of an Architectural Decision Record (ADR). -->
 
 
 ### Step 5: Refine Service Candidates, Make More Conceptual Architectural Decisions
@@ -157,7 +156,7 @@ Endpoints in this API (and their architectural role):
 
 The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md) that refactors and refined the output from the previous Step 4 may then contain the following entries:
 
-<!-- TODO (v2) For a future version, maybe add more than just "Custom JSON" Media Type/Profile? -->
+<!-- TODO (v2) maybe add more than just "Custom JSON" Media Type/Profile? -->
 
 | Endpoint | Operation   | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
 |----------|-------------|---------------|------------------------|-------------|
@@ -175,7 +174,7 @@ We have decided for endpoint and operation responsibilities on a conceptual leve
 ### Step 6: Specify Service Contract, Make Technology Decisions
 <!-- summarize purpose, input and output of step -->
 
-One of the architectural related architectural decisions might be (formatted as a [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)):
+One of the architectural related architectural decisions might be (formatted as a [Y-statement](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)):
 
 ```
 In the context of the OnlineShopBackend backend,
@@ -186,14 +185,14 @@ to achieve interoperability, evolvability and auditability
 accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS
 because the implementation effort on client and server side required for hypermedia-driven state transitions 
 is not justified in this scenario (not requiring dynamic workflows) 
-and there is good contract language and tool support for this technology (Open API, Swagger tools).
+and there is good contract language and tool support (Open API, Swagger tools).
 ```
 
 <!-- This would  the only place in the tutorial we talk about Layers (SSD activity has it), so removed "in the Service Layer" from "we decided for" (for now) now -->
 
-The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from the previous Step 5 may look like this (notation: [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/)):
+The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from the previous Step 5 may look like this (notation: [Microservice Domain-Specific Language (MDSL)](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
-<!-- TODO (v2): show MAP decorators too? addGRaphQL (why n files?); TODO (v1.2) recreate file after APi name change -->
+<!-- TODO (v2): show MAP decorators too? addGraphQL (why n files?); TODO (v1.2) recreate file after API name change -->
 ~~~
 API description OnlineShopBackend
 
@@ -261,7 +260,7 @@ Keep on deciding and addressing design issues as they emerge:
 * Should API calls be billed? (@Zimmermann:2020)
 * Are service level agreements required? (@Zimmermann:2020)
 
-See MAP [Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tutorial1) and [ Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for more examples of API design work related to quality and evolution concerns.
+See Microservice API Patterns (MAP) [Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tutorial1) and [ Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for more examples of API design work related to quality and evolution concerns.
 
 <!--
 ## Quick Links
