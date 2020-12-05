@@ -42,12 +42,12 @@ The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the rep
 
 We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 
-## *News*
+### *News*
 
 Version 1.2, released on December 7, 2020, adds one activity and one artifact:
 
 * [Story splitting](/activities/DPR-StorySplitting.md) for planning and design purposes
-* [Component, Responsibility, Collaboration (CRC) cards](artifact-templates/), an OOAD veteran repurpose for architecture design 
+* [Component, Responsibility, Collaboration (CRC) cards](artifact-templates/DPR-CRCCard.md), an OOAD veteran repurpose for architecture design 
 
 Tutorial 1 also was enhanced, as well as several other activity and artifact descriptions. We also added (even) more pointers to background information. 
 
