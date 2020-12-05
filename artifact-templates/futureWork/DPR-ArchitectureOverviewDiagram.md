@@ -7,14 +7,14 @@ Abstraction/Refinement Level: Technology/platform-independent
 ---
 
 
-Artifact/Template: *C4 Model*
----------------------------------
+Artifact/Template: *AOD*
+------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
-a.k.a. TODO
+a.k.a. Container Diagram
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
-TODO
+Container Diagram is one of the four Cs in C4. 
 
 
 ### Usage (Produced and Consumed When)
@@ -66,9 +66,9 @@ TODO
 ### Data Provenance 
 
 ```yaml
-title: "Design Practice Repository (DPR): C4 Model"
+title: "Design Practice Repository (DPR): Container Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "07, 02, 2020 (Source: Project DD-DSE)"
+date: "07, 02, 2020 (Source: Project tbd)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

@@ -21,7 +21,7 @@ A story that is too large for a sprint must be broken down to meet the [INVEST p
 * *Valuable:* Each story must be valuable to the customer on its own. <!-- "Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important." --> 
 * *Estimable:* The level of detail should be "just enough to help the customer rank and schedule the story’s implementation."
 * *Small:* "Stories typically represent at most a few person-weeks worth of work." Some teams size them in such a way that they can be implemented in a single iteration.
-* *Testable:* customer and developers should understand the story well enough that a test for it can be written --- or is written first, as in BDD and TDD, see this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html).
+* *Testable:* customer and developers should understand the story well enough that a test for it can be written &mdash; or is written first, as in BDD and TDD, see this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html).
 
 Several techniques exist; one of them is story splitting.
 

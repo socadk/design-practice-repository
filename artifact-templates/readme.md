@@ -46,10 +46,12 @@ Requirements analysis and conversation with stakeholders can be captured in the 
 
 (Architecture) design work is usually documented both textually and visually:
 
-* Architecture Overview Diagram (AOD)  
-* [C4 model](futureWork/DPR-C4Model.md) <!-- The four views in C4 actually map to SCD, AOD/OML0, CML0, CML1) -->
-* [CRC cards](DPR-CRCCard.md)
-* EIP integration flows (a.k.a. "Gregorgrams")
+* [Architecture Overview Diagram (AOD)](futureWork/DPR-ArchitectureOverviewDiagram.md) aka Container Diagram
+* [Component Diagram](futureWork/DPR-ComponentDiagram.md), providing a logical [view](https://www.ibm.com/developerworks/rational/library/08/0108_cooks-cripps-spaas/index.html) on the architecture <!-- The four views in C4 actually map to SCD, AOD/OML0, CML0, CML1) -->
+* [Component, Responsibility, Collaborations (CRC) cards](DPR-CRCCard.md)
+* Component Interaction Diagrams (CIDs), often expressed as UML sequence diagrams
+* Integration flows (a.k.a. "Gregorgrams")
+* Deployment Diagram (providing an operational, physical view)
 * [Y-statements](DPR-ArchitecturalDecisionRecordYForm.md) and other ADR formats
 * Architectural refactoring template (from HSR FHO [ARC project](https://ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4))
 

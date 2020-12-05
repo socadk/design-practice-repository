@@ -15,13 +15,9 @@ An API product owner is at the intersection where API clients and providers meet
 <!-- We decided to call it API Product Owner based on various definitions we found:
 
 * [Broadcom](https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/api-portal-legacy/3-5/manage-the-api-portal/functionality-by-user-role/internal-roles.html): API Owner: The person within your organization tasked with defining, publishing and monetizing, or promoting your APIs. On the API Portal, this person will be responsible for: ..
-
 * [DZone](https://dzone.com/articles/api-ownership-for-the-modern-enterprise) has a Business API Owner and Technical API Owner
-
 * [Tyk](https://tyk.io/essentials-of-api-product-ownership/) has the API product owner as a specialization of the product owner.
-
 * [Apigee](https://medium.com/apis-and-digital-transformation/without-an-api-product-owner-your-apis-have-a-limited-lifespan-6df98d6ad281) has a "API product owner" and describe them as "Essentially, API product owners are the end-user advocate — and that’s for both for developers using the APIs and the people touching the applications powered by those APIs." 
-
 -->
 
 ### Information and Modeling Need
@@ -41,7 +37,7 @@ API product owners care about and require/produce information related to:
 
 Roles to communicate with: 
 
-  * [Application and Integration Architect](./DPR-ApplicationArchitectRole.md) 
+* [Application and Integration Architect](./DPR-ApplicationArchitectRole.md) 
 
 
 ### Consumed/Produced Artifacts and Applied Practices

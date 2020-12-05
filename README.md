@@ -15,9 +15,9 @@ Welcome to DPR (pronounced "deeper")! This public repository collects and refere
 Here's the roles we have created this repository for, ordered from specific to generic:
 
 * [(Micro-)service](https://medium.com/olzzio/seven-microservices-tenets-e97d6b0990a4) designers
-* API product managers/owners, developers, testers, maintainers 
-* Software architects specializing on application integration 
-* Any software architect 
+* [API product managers/owners](/roles/SDPR-APIProductOwner.md), developers, testers, maintainers 
+* Software architects specializing on application integration and APIs 
+* Any software [architect](/roles/DPR-ApplicationArchitectRole.md)
 * Any software engineer
 
 
