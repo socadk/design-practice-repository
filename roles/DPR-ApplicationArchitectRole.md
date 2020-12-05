@@ -44,7 +44,7 @@ Application architects worry about and need:
 | Implementation and test | Code, test specifications and reports | Reviews | Not in scope of DPR at present |
 | Evolution and maintenance | Change requests, bug reports | Architectural refactorings | Not in scope of DPR at present |
 
-The applied practices include [story splitting](../activities/DPR-StorySplitting.md) and [domain-driven design](../activities/DPR-StrategicDDD.md).
+The applied practices include [story splitting](../activities/DPR-StorySplitting.md) and strategic [domain-driven design](../activities/DPR-StrategicDDD.md).
 
 
 ### More Information

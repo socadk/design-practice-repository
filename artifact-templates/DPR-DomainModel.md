@@ -59,7 +59,7 @@ When UML-based methods and their predecessors are applied, chances are that a do
 
 * "UML Components" by Cheesman/Daniels has a *business type model* artifact (which is an early OOA Domain Model)
 * Larman's book on UML and patterns covers OOA and OOD. 
-* Tactic DDD can be seen as domain modeling "on stereoids".
+* [Tactic DDD](../activities/DPR-TacticDDD.md) can be seen as domain modeling "on stereoids".
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
