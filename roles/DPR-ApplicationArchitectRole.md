@@ -10,7 +10,7 @@ a.k.a. Coding Architect (to indicate strong connection to development)
 
 ### Persona 
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
-Archie Tekt, who first appeared in a [book on Web services](https://soadecisions.org/atb.htm), cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1 model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
+Archie Tekt, who first appeared in a [book on Web services](https://soadecisions.org/atb.htm) in 2003, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1 model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
 
 P. Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But do not forget that architects (like all people) are different!
 
@@ -23,9 +23,9 @@ O. Zimmermann's blog ["The Concerned Architect"](https://ozimmer.ch/blog/) provi
 Application architects worry about and need: 
 
 * Stakeholder concerns, project budgets 
-* Quality attributes
-* Decision rationale
-* Quick overviews of external interfaces and internal structure of the produced software.
+* [Quality attributes](../activities/DPR-SMART-NFR-Elicitation.md)
+* [Decision rationale](../activities/DPR-ArchitecturalDecisionCapturing.md)
+* Quick overviews of external interfaces and internal structure of the produced software and other outcomes of [architecture modeling](../activities/DPR-ArchitectureModeling.md)
 * Dependencies, licenses
 
 ### Collaborations
@@ -39,17 +39,19 @@ Application architects worry about and need:
 
 |**Phase**| Consumed | Produced | Comments |
 |:-|:-----:|:------:|:--------:|
-| Analysis | Uses cases, user stories | Non-functional requirements, for instance in the form of Quality Attribute Scenarios | Iteratively refined |
-| Design | Legacy system descriptions, external interfaces | Decision log] comprising of ADRs (for instance [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)), architecture design models | Both produced and consumed |
+| Analysis | [User stories](../artifact-templates/DPR-UserStory.md), [Use cases](../artifact-templates/DPR-UseCase.md) | Non-functional requirements, for instance in the form of Quality Attribute Scenarios | Iteratively refined |
+| Design | Legacy system descriptions, external interfaces | [CRC cards](../artifact-templates/DPR-CRCCard.md), Decision log comprising of ADRs (for instance [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)), architecture design models | Both produced and consumed |
 | Implementation and test | Code, test specifications and reports | Reviews | Not in scope of DPR at present |
 | Evolution and maintenance | Change requests, bug reports | Architectural refactorings | Not in scope of DPR at present |
+
+The applied practices include [story splitting](../activities/DPR-StorySplitting.md) and [domain-driven design](../activities/DPR-StrategicDDD.md).
 
 
 ### More Information
 
-See this [guest editorial](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) of the special theme issue of IEEE Software "The Role of the Software Architect in the Digital Age" for a retrospective of the field and a discussion of role vs. responsibility. 
+See the [guest editorial of the special theme issue of IEEE Software "The Role of the Software Architect in the Digital Age"](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214)  for a retrospective of the field and a discussion of role vs. responsibility. 
 
-Take [The Architect Elevator](https://architectelevator.com/) to learn about the different facets of the profession, tips and tricks per level, and reading recommendations.
+[The Architect Elevator](https://architectelevator.com/) visits the different facets of the profession, provides tips and tricks for being successful on each level, and gives additional reading recommendations.
 
 <!-- 
 Experience can't be taught but has to be gained. Once you have some, read these books: 
