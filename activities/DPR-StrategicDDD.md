@@ -100,7 +100,7 @@ Usage of the pattern names and presence of context maps, either drawn informally
 
 ### Practices and Techniques (Refinements, Guides)
 
-* Event Storming, introduced [here](https://www.ibm.com/cloud/architecture/architecture/practices/event-storming-methodology-architecture) and tool-supported as described [here](https://contextmapper.org/docs/event-storming/)
+* Event Storming, introduced [here](https://www.ibm.com/cloud/architecture/architecture/practices/event-storming-methodology-architecture) and tool-supported as described [here](https://contextmapper.org/docs/event-storming/).
 * Lean [Wardley Mapping](https://learnwardleymapping.com/) to capture strategic intent.
 * Enterprise Architecture Management (EAM) offerings and the Scaled Agile Framework (SAFe) may benefit from strategic DDD.
 <!-- * Context Modeling in UML or DSL -->
