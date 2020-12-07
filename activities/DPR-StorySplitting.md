@@ -105,7 +105,7 @@ Signs of use are difficult to call out for this activity. Backlog size and struc
 
 #### Practices and Techniques (Refinements, Guides)
 
-Story splitting operates on backlog items such as [user stories](../artifact-templates/DPR-UserStory.md). Story splitting can be followed or accompanied by [Tactic DDD](DPR-TacticDDD.md).
+Story splitting operates on backlog items such as [User Stories](../artifact-templates/DPR-UserStory.md). Story splitting can be followed or accompanied by [Tactic DDD](DPR-TacticDDD.md).
 
 [Event storming](https://en.wikipedia.org/wiki/Event_storming) can either trigger story capturing and splitting, or be performed when following business events and workflow steps. 
 
