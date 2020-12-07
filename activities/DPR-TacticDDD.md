@@ -196,13 +196,13 @@ In "Implementing DDD", V. Vernon establishes similar rules for Aggregate design 
 * Reference other aggregates by identity.
 * Use eventual consistency outside the boundary."
 
-These nuggets of advice can also be found online in an [article series at domaindrivendesign.org](http://dddcommunity.org/library/vernon_2011/).
+These nuggets of advice can also be found online in an [article series at domaindrivendesign.org](http://dddcommunity.org/library/vernon_2011/) (@Vernon:2013).
 
 
 ### Origins and Signs of Use
 DDD has been around, in active use on real-world projects, and supported by a community since the first DDD book came out in 2003; it recently became particularly popular in the microservices community as a way to identify service boundaries (via strategic DDD). 
 
-Tactic DDD was introduced in E. Evans' book on DDD, but featured even more prominently later in "Implementing Domain-Driven Design" by V. Vernon. 
+Tactic DDD was introduced in E. Evans' book on DDD (@Evans:2003), but featured even more deeply later in "Implementing Domain-Driven Design" by V. Vernon. 
 
 Usage of the pattern names and presence of domain models, either drawn informally or modelled in a UML tool or DSL, indicate use.
 

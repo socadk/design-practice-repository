@@ -20,7 +20,7 @@ The interfaces between systems and teams have to be managed somehow, either cent
 
 
 ### Goal and Purpose (When to Use and When not to Use)
-According to an [InfoQ article on strategic DDD](https://www.infoq.com/articles/ddd-contextmapping) that develops an example in several steps, there are four particular reasons to bother about model partitioning and model/context boundaries:
+According to A. Brandolini's [InfoQ article on strategic DDD](https://www.infoq.com/articles/ddd-contextmapping) that develops an example in several steps, there are four particular reasons to bother about model partitioning and model/context boundaries:
 
 * Same term, different meaning (homonym)
 * Same concept, different use (polyseme)
@@ -46,9 +46,8 @@ The original DDD book (@Evans:2003) defined an initial set of relations between 
 * *Customer/Supplier* (a.k.a. Customer/Supplier Teams/Development): "One bounded context uses the services of another and is a stakeholder (customer) of that other bounded context. As such it can influence the services provided by that bounded context."
 * *Conformist*: "One bounded context uses the services of another but is not a stakeholder to that other bounded context. As such it uses "as-is" (conforms to) the protocols or APIs provided by that bounded context."
 * *Anti-Corruption Layer (ACL)*: "One bounded context uses the services of another and is not a stakeholder, but aims to minimize impact from changes in the bounded context it depends on by introducing a set of adapters – an anti-corruption layer."
-* An additional relation is *Separate Ways*, expressing that it has been decided not to collaborate and/or integrate two bounded contexts.
 
-Summaries of the patterns from the original DDD book as well as a few extensions are available for free download in the book ["Domain-Driven Design Reference"](http://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), also by E. Evans. For instance, Partnership is defined as this "Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release" (@).
+Summaries of the patterns from the original DDD book as well as a few extensions are available for free download in the book ["Domain-Driven Design Reference"](http://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), also by E. Evans. For instance, Partnership is defined as this "Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release" An additional relation is *Separate Ways*, expressing that it has been decided not to collaborate and/or integrate two bounded contexts.
 
 The relationship types are organizational patterns (not technical ones); they differ regarding the following design concerns: 
 
@@ -57,15 +56,14 @@ The relationship types are organizational patterns (not technical ones); they di
 * (A)symmetry of relationship? 
 * Amount of control and influence for client/consumer?
 
-In Strategic DDD, you basically identify Bounded Contexts and then answer these questions to end up at the right pattern for any given relationship. [Context Mapper](https://contextmapper.org/docs/bounded-context/) can help you do so; it features DDD patterns and enforces additional semantic validation rules. 
-
-The resulting [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md) can drive the architectural decision making in API design. Follow-on decisions pertain the integration style technology and style. The relationship types do not exclude, but complement each other by default. 
+In Strategic DDD, you basically identify Bounded Contexts and then answer these questions to end up at the right pattern for any given relationship. [Context Mapper](https://contextmapper.org/docs/bounded-context/) can help you do so; it features DDD patterns and enforces additional semantic validation rules. The resulting [Context Maps](../artifact-templates/DPR-StrategicDDDContextMap.md) can drive the architectural decision making in API design. Follow-on decisions pertain the integration style technology and style. The relationship types do not exclude, but complement each other by default. 
 
 
 ### Example(s)
 The [Context Mapper website](https://contextmapper.org/docs/examples/) provides a number of examples of tactic and strategic, including a model of the [Lakeside Mutual](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/insurance-example) microservices ecosystem:
 
-![](https://raw.githubusercontent.com/ContextMapper/context-mapper-examples/master/src/main/cml/insurance-example/images/ContextMap-Illustration.png)
+
+<img src="https://raw.githubusercontent.com/ContextMapper/context-mapper-examples/master/src/main/cml/insurance-example/images/ContextMap-Illustration.png" height="70%" width="70%" />
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
@@ -126,7 +124,7 @@ Refer to presentations and articles by:
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Strategic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "12, 04, 2020 (Source: Project DD-DSE)"
+date: "12, 07, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
