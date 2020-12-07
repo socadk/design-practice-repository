@@ -42,10 +42,10 @@ not working:
 -->
 <img src="images/DPR-ArchitectureModeling.png" height="400" />
 
-* Create a *system context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
-* Provide an *architecture overview diagram* that captures the outcome of the executive decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder requirements, project/iteration planning).
-* Refine selected components that are technically challenging to design and implement in one or more *component model(s)* (stakeholder: architects, developers, maintainers; concern: support decision making, trace design and implementation progress, manage/mitigate technical risk during evolution and maintenance).
-* Show how and where logical components will be deployed to real or virtual hardware (stakeholder: DevOps personnel including database administrators, system managers, security specialists; concern: automation, cloud cost management, network configuration) in a *deployment diagram*.
+1. Create a *system context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
+2. Provide an *architecture overview diagram* that captures the outcome of the executive decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder requirements, project/iteration planning).
+3. Refine selected components that are technically challenging to design and implement in one or more *component diagrams(s)* (stakeholder: architects, developers, maintainers; concern: support decision making, trace design and implementation progress, manage/mitigate technical risk during evolution and maintenance). You might want to capture the component design results in [CRC cards](../artifact-templates/DPR-CRCCard.md) that explain responsibilities and collaborations of the boxes in architecture overviews and component diagrams.
+4. Show how and where logical components will be deployed to real or virtual hardware (stakeholder: DevOps personnel including database administrators, system managers, security specialists; concern: automation, cloud cost management, network configuration) in a *deployment diagram*.
 
 A wide range of notations and tools to support these and other modeling tasks exist, from ad hoc and informal to systematic and full-fledged. Some of the choices include:
 
@@ -88,7 +88,7 @@ A variation of the "if in doubt leave it out" rule for DPR method adoption appli
 ### Hints and Pitfalls to Avoid
 
 * Capture both static and dynamic aspects (for instance, compile time and runtime dependencies). UML sequence diagrams can serve as Component Interaction Diagrams (CIDs); the [arc42 Runtime View](https://docs.arc42.org/section-6/) provides further advice. 
-* Consider to complement your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows) and/or provide [CRC cards](../artifact-templates/DPR-CRCCard.md) to explain responsibilities and collaborations of the components that appear in architecture overviews and component models. 
+* Consider to complement your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows). 
 * Model both "sunny day" and "rainy day" behavior (normal case, error situations).
 * Do not model just because; choose set of diagrams and notation consciously, reflecting on the project and company culture, team capabilities and preferences. 
 * But do not skip modeling just because working software is valued more than comprehensive documentation; see above for motivation and (light, lean) instructions.
@@ -130,7 +130,7 @@ See metadata at the top for synopsis.
 ```yaml
 title: "Design Practice Repository (DPR): Architecture Modeling"
 author: Olaf Zimmermann (ZIO)
-date: "10, 14, 2020 (Source: Project DD-DSE)"
+date: "12, 07, 2020 (Source: Project DD-DSE)"
 copyright: Copyright 2020 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

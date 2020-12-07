@@ -126,7 +126,7 @@ You might want to *apply patterns* to optimize API qualities when evolving it:
 
 
 ### Origins and Signs of Use
-If OpenAPI specifications are provided, either contract-first or code-first API design has been practiced. Usage of domain-driven design patterns such as *Published Language* also may indicate use.
+If [OpenAPI](https://swagger.io/specification/) specifications are provided, either contract-first or code-first API design has been practiced. Usage of domain-driven design patterns such as *Published Language* also may indicate use.
 
 The DDD DSL tool Context Mapper supports some of the steps with its [model transformations](https://contextmapper.org/docs/rapid-ooad/), [architectural refactorings](https://contextmapper.org/docs/architectural-refactorings/) and [service contract generation](https://contextmapper.org/docs/mdsl/).
 
@@ -135,11 +135,11 @@ The DDD DSL tool Context Mapper supports some of the steps with its [model trans
 
 Produced artifacts: 
 
+* Architectural models (different viewpoints) and [CRC cards](../artifact-templates/CRCCard.md)
 * [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md) and [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md)
 * [API Description](../artifact-templates/SDPR-APIDescription.md) a.k.a. Service Contract
 * [Service Level Agreement](../artifact-templates/SDPR-APIDescription.md)
 * Decision log of [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md) 
-* Architectural models (different viewpoints)
 
 
 #### Other Practices (Alternatives)
@@ -178,7 +178,7 @@ Note that in microservices architectures, more options for these decisions (in t
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "12, 04, 2020 (Source: Project DD-DSE)"
+date: "12, 07, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
