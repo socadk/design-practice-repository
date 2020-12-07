@@ -52,7 +52,7 @@ This is an example of a filled out card (an entire layer is described here, rath
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
 Any tool that support table layouts (preferably with the option to merge cells) can be used. Online and offline whiteboards will do too. 
 
-Team [wikis](https://en.wikipedia.org/wiki/Wiki) and Markdown tables are additional options.
+Team [wikis](https://en.wikipedia.org/wiki/Wiki) or [Markdown tables](https://www.markdownguide.org/extended-syntax/) are additional options.
 
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
@@ -76,7 +76,7 @@ To be able to serve their purpose, CRC cards should be expressive but also easy 
 <!-- From PLOPs and from AA-->
 The original CRC cards were invented by W. Cunningham (who also invented Wikis and came up with the Technical Debt metaphor), and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:RDD:2002). 
 
-On the architectural level, they are used in Volume 1 of the POSA book series (@Buschmann:1996). See this [blog post by M. Stal from 2006](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. [O. Zimmermann](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) has been using them this way in his "Application Architecture" lecture at HSR/OST since 2013; M. Keeling features them as Activity 13 in "Design It!" (@Keeling:2019).
+On the architectural level, they are used in Volume 1 of the POSA book series (@Buschmann:1996). See this [blog post by M. Stal from 2006](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. O. Zimmermann has been teaching them this way in his ["Application Architecture" lecture at HSR/OST](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) since 2013; M. Keeling features them as Activity 13 in "Design It!" (@Keeling:2019).
 
 Usage is straightforward to spot; just look for the keywords "responsibilities" and "collaborations" (or "collaborators") and a table format that resembles the one introduced above (note that the section on candidate implementation technologies and known uses is optional).
 
@@ -94,7 +94,7 @@ The [RDD tutorial](http://www.wirfs-brock.com/PDFs/A_Brief-Tour-of-RDD.pdf) expl
 
 G. Hohpe explains the difference between "scope" and "abstraction" in his blog post ["The Architect’s Path (Part 1 - Model)"](https://architectelevator.com/architecture/architect-path/). CRC cards have a narrow scope and a conceptual level of abstraction (bottom right quadrant).
 
-RDD and many other methods are compiled in the story ["Driven by Acronyms"](https://medium.com/olzzio/driven-by-acronyms-e1568b73e4aa) on Medium.
+RDD and many other methods are compiled and commented on in ["Driven by Acronyms"](https://medium.com/olzzio/driven-by-acronyms-e1568b73e4aa), a story on Medium.
 
 
 ### Data Provenance 
