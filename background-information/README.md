@@ -45,7 +45,7 @@ Methods from the 1970s, 1980s, 1990s:
 And the 2000s:
 
 * [Agile practices](https://www.agilealliance.org/agile101/agile-glossary/), including proposals for scaling agile such as SAFe
-* Strategic and tactic [Domain-Driven Design (DDD)(https://dddcommunity.org/) <!-- OOAD continuation/extension -->
+* Strategic and tactic [Domain-Driven Design (DDD)](https://dddcommunity.org/) <!-- OOAD continuation/extension -->
 * [Software Engineering Method and Theory (SEMAT)](http://semat.org/what-is-it-and-why-should-you-care-) initiative, [Essence specification](http://semat.org/essence-1.2) and [learning/teaching material](http://www.software-engineering-essentialized.com/home)
 * Software architecture templates and notations (see this [state of the art and the practice report as of 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) for more): 
     * [C4 Model](https://c4model.com/) and RCDA
@@ -63,7 +63,7 @@ Ordered alphabetically:
 
 * George Fairbanks, [Architecture Haikus](https://www.georgefairbanks.com/software-architecture/architecture-haiku/) and more 
 * Gregor Hohpe, [IT Architect Elevator](https://architectelevator.com/) and [Cloud Strategy](https://architectelevator.com/book/cloudstrategy/) book
-* Michael Keeling, Design It! book and [blog](https://www.neverletdown.net/)
+* Michael Keeling, Design It! book (@Keeling:2019) and [blog](https://www.neverletdown.net/)
 * Michael Stal's [Hitchhiker's Guide to Software Architecture and Everything Else](http://stal.blogspot.com/)
 * Rebecca Wirfs-Brock’s blog [The Responsible Designer](http://wirfs-brock.com/blog/)
 
@@ -86,8 +86,9 @@ Here are some additional resources and references:
 General purpose:
 
 * The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level Domain-Driven Design (DDD). A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
-* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its "little brother" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
+* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its younger "sibling" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
 * Articles [on design](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
+* [Methods and Tools](http://www.methodsandtools.com/) is an online "Software Development Magazine - Project Management, Programming, Software Testing".
 
 API and service design:
 
@@ -96,7 +97,7 @@ API and service design:
 * [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/#tutorial-2) (not public yet, but access can be granted upon request) features a good share of the tasks describes in this repository.
 * The [Service Cutter wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
 
-See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4)<!-- >, [blog post]() --> for more pointers.
+See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4) for more pointers.
 
 
 ### Site Navigation
@@ -113,7 +114,7 @@ See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-toward
 ```yaml
 title: "Design Practice Repository (DPR): Background Information"
 author: Olaf Zimmermann (ZIO)
-date: "10, 16, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
+date: "12, 4, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

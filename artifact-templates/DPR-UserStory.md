@@ -57,7 +57,7 @@ The [Context Mapper](https://contextmapper.org/) DSL has first class support for
 * Do not create models or specifications as an excuse for and user interactions and conversations.  
 * Continuously update the stories while learning about users and their requirements.
 * [INVEST](https://www.agilealliance.org/glossary/invest) in story quality.
-* Practice [story splitting](https://agileforall.com/patterns-for-splitting-user-stories/) to make stories fit into single sprints/iterations (and to identify candidate components for  [architecture modeling](../activities/DPR-ArchitectureModeling.md), including [candidate endpoints](SDPR-CandidateEndpointList.md)).
+* Practice [Story Splitting](../activities/DPR-StorySplitting.md) to make stories fit into single sprints/iterations (and to identify candidate components for [architecture modeling](../activities/DPR-ArchitectureModeling.md), including [candidate endpoints](SDPR-CandidateEndpointList.md)).
 * Also consider story mapping and example mapping.
 
 
@@ -69,7 +69,8 @@ Presence or mention of three Cs [Card, Conversation, Confirmation](https://www.a
 
 ### Related Artifacts and Practices (incl. Alternatives)
 
-* Use Cases
+* [Use Cases](DPR-UseCase.md)
+* [Story Splitting](../activities/DPR-StorySplitting.md)
 * Test-Driven Development (TDD) 
 * Behavior-Driven Development (BDD) and [given-when-then](https://www.agilealliance.org/glossary/gwt) template for acceptance criteria.
 
@@ -83,7 +84,7 @@ Mike Cohn's book "User Stories Applied" is a seminal reference (@Cohn:2004).
 ```yaml
 title: "Design Practice Repository (DPR): User Stories"
 author: Olaf Zimmermann (ZIO)
-date: "08, 14, 2020 (Source: Project DD-DSE)"
+date: "12, 07, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

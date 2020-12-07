@@ -16,7 +16,7 @@ Activity: *SMART NFR Elicitation*
 ### Context
 *Non-Functional Requirements (NFRs)*, including *Quality Attribute (QAs)*, describe *how* a system provides its functionality, not what it does (which is the purpose of functional requirements specifications such as [user stories](../artifact-templates/DPR-UserStory.md) or [use cases](../artifact-templates/DPR-UseCase.md)). Examples of key QAs are reliability, usability, efficiency (e.g., performance, scalability), maintainability, and portability according to [ISO/IEC standard 9126](https://en.wikipedia.org/wiki/ISO/IEC_9126). ISO 9126, now superseded by a newer standard, also lists functionality as a quality category.
 
-Note that while common, the term and acronym NFR are not received well by some thought leaders and practitioners; they prefer terms such as "extra-functional". Not all non- or extra-functional requirements qualify as quality attributes, as there are organizational and educational constraints as well; hence, an extra term is needed. We decided for NFR here, weighting popularity higher than accuracy (to express our decision in terms of desired qualities).
+Note that while common, the term "non-functional" and the acronym "NFR" are not received well by some thought leaders; they prefer terms such as ["extra-functional"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html). Not all non- or extra-functional requirements qualify as quality attributes, as there are organizational and educational constraints as well; hence, an additional  term is needed. We decided for NFR here, weighting popularity higher than accuracy (to express our decision in terms of desired qualities). 
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -36,7 +36,7 @@ Therefore, it is desirable to establish criteria and templates that allow archit
 ### Instructions (Synopsis, Definition)
 *Select and apply a taxonomy consistently.* There are many different NFRs, Quality Attributes (QAs) in particular. Many of these pertain to the runtime, others deal with software support and maintenance. Therefore, many attempts have been made to organize the QA landscape (ordered from informal and ad hoc to formal and complete): 
 
-* The basic, easy-to-remember *FURPS+* classification introduced in the lecture and used in exercise 1, originally introduced in a software engineering book from the 1990s and explained in [this article by P. Eeles](https://www.ibm.com/developerworks/rational/library/4706.html).
+* The basic, easy-to-remember *FURPS+* classification was originally introduced in a software engineering book from the 1990s and explained in [this article by P. Eeles](https://www.ibm.com/developerworks/rational/library/4706.html).
 * ISO 9126 and its successor [ISO 25010](http://iso25000.com/index.php/en/iso-25000-standards/iso-25010), also used by in "Effektive Softarearchitekturen" @Starke:2015 and recommended for use in arc42 descriptions.
 * SEI quality utility trees, see this Technical Report, [this article](http://arnon.me/2010/05/utility-trees-hatching-quality-attributes/) by Arnon Rotem-Gal-Oz and [arc42 tip 10-2](http://docs.arc42.org/tips/10-2/).
 
@@ -61,11 +61,11 @@ M is about *monitoring* the requirement throughout a project. You should be able
 
 > Is the NFR achieved or not? 
 
-Explanations (excuses?) for not coming up with numbers are easy to find (e.g., fear of over-commitment might cause under-specification), but will get to you in the long run (project example given in the lecture: “standards compliance (past, present and future)”, "flexible data model", "scale console").
+Explanations (excuses?) for not coming up with numbers are easy to find (e.g., fear of over-commitment might cause under-specification), but will get to you in the long run (project example: “standards compliance (past, present and future)”, "flexible data model", "scale console").
 
 <!-- TODO (v2) also document A, R, T on level of detail of S and M? -->
 
-SMARTness assessments can be recorded in the following way: 
+Assessments can be recorded in the following way: 
 
 | ASR | Specific (Y/N)? | Measurable (Y/N)? | Rationale for Answers | Improvement (if needed) |
 |:----|:----------------|:------------------|-----------------------|-------------------------| 
@@ -134,20 +134,17 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 * [Application Architect](../roles/ApplicationArchitect.md) and other decision makers
 
-<!--
-|**Role**| Input | Output | Comments |
-|:-|:-----:|:------:|:--------:|
-|  |  |  |  |
--->
 
 #### Practices and Techniques (Refinements, Guides)
 
 * Quality Attribute Scenarios (QAS) and utility trees (SEI) @Bass:2012
-* [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) @Barbacci:2002.
+* [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) @Barbacci:2002. M. Keeling introduces them <!-- as activity 7 in his Architect's Toolbox in --> in "Design It" and his 2015 IEEE Software Insights column ["Lightweight and Flexible"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7093052).
 * [Quality storming](https://speakerdeck.com/mploed/quality-storming)
 
 
 ### More Information 
+See blog post ["https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by C. Pautasso and O. Zimmermann for a deeper, only half-serious terminology discussion, examples as well as pointers to related taxonomies and templates. 
+
 arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/) and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/).
 
 SAFe also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/).
@@ -160,7 +157,7 @@ Websites dedicated to software quality include [Quality-Aware development](http:
 ```yaml
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE)"
+date: "12, 04, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

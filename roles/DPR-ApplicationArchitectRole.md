@@ -4,15 +4,17 @@ Activities: SMART NFR Elicitation, Architectural Capturing, Architecture Modelin
 ---
 
 Role: *Application and Integration Architect*
---------------------------------------------
+---------------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 a.k.a. Coding Architect (to indicate strong connection to development)
 
 ### Persona 
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
-Archie Tekt cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in te 4+1 model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (e.g., in reviews).
+Archie Tekt, who first appeared in a [book on Web services](https://soadecisions.org/atb.htm) in 2003, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1 model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
 
 P. Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But do not forget that architects (like all people) are different!
+
+O. Zimmermann's blog ["The Concerned Architect"](https://ozimmer.ch/blog/) provides short articles with examples of everyday problems (and solutions to them, including those that made it into DPR already). 
 
 
 ### Information and Modeling Need
@@ -21,14 +23,15 @@ P. Kruchten has an article ["What do software architects really do?"](https://pk
 Application architects worry about and need: 
 
 * Stakeholder concerns, project budgets 
-* Quality attributes
-* Decision rationale
-* Quick overviews of external interfaces and internal structure of the produced software.
+* [Quality attributes](../activities/DPR-SMART-NFR-Elicitation.md)
+* [Decision rationale](../activities/DPR-ArchitecturalDecisionCapturing.md)
+* Quick overviews of external interfaces and internal structure of the produced software and other outcomes of [architecture modeling](../activities/DPR-ArchitectureModeling.md)
 * Dependencies, licenses
 
 ### Collaborations
 
-* [API Product Owner/Manager](./SDPR-APIProductOwner.md)
+* API [Product Owner/Manager](./SDPR-APIProductOwner.md)
+* Developers (who may also take architectural responsibilities)
 * and many more (all external stakeholders and team members, basically)
 
 ### Consumed/Produced Artifacts and Applied Practices
@@ -36,18 +39,23 @@ Application architects worry about and need:
 
 |**Phase**| Consumed | Produced | Comments |
 |:-|:-----:|:------:|:--------:|
-| Analysis | Uses cases, user stories | Non-functional requirements, for instance in the form of Quality Attribute Scenarios | Iteratively refined |
-| Design | Legacy system descriptions, external interfaces | Decision log] comprising of ADRs (for instance [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)), architecture design models | Both produced and consumed |
+| Analysis | [User stories](../artifact-templates/DPR-UserStory.md), [Use cases](../artifact-templates/DPR-UseCase.md) | Non-functional requirements, for instance in the form of Quality Attribute Scenarios | Iteratively refined |
+| Design | Legacy system descriptions, external interfaces | [CRC cards](../artifact-templates/DPR-CRCCard.md), Decision log comprising of ADRs (for instance [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)), architecture design models | Both produced and consumed |
 | Implementation and test | Code, test specifications and reports | Reviews | Not in scope of DPR at present |
 | Evolution and maintenance | Change requests, bug reports | Architectural refactorings | Not in scope of DPR at present |
+
+The applied practices include [story splitting](../activities/DPR-StorySplitting.md) and strategic [domain-driven design](../activities/DPR-StrategicDDD.md).
 
 
 ### More Information
 
-See this [guest editorial](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) of the special theme issue of IEEE Software "The Role of the Software Architect in the Digital Age".
+See the [guest editorial of the special theme issue of IEEE Software "The Role of the Software Architect in the Digital Age"](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214)  for a retrospective of the field and a discussion of role vs. responsibility. 
+
+[The Architect Elevator](https://architectelevator.com/) visits the different facets of the profession, provides tips and tricks for being successful on each level, and gives additional reading recommendations.
 
 <!-- 
-Could suggest books to learn this role. Experience can't be taught but has to be gained. Once you have some, try 1) Design It! 2) Just Enough Software Architecture, 3) SWA Elevator 
+Experience can't be taught but has to be gained. Once you have some, read these books: 
+1) Design It! 2) Just Enough Software Architecture, 3) Software Architect Elevator 
 -->
 
 
@@ -56,7 +64,7 @@ Could suggest books to learn this role. Experience can't be taught but has to be
 ```yaml
 title: "Design Practice Repository (DPR): Application Architect"
 author: Olaf Zimmermann (ZIO)
-date: "10, 01, 2020 (Source: Project DD-DSE)"
+date: "12, 04, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

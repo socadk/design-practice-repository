@@ -7,14 +7,14 @@ Abstraction/Refinement Level: Technology/platform-independent
 ---
 
 
-Artifact/Template: *CRC Card*
------------------------------
+Artifact/Template: *AOD*
+------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
-a.k.a. TODO
+a.k.a. Container Diagram
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
-TODO
+Container Diagram is one of the four Cs in C4. 
 
 
 ### Usage (Produced and Consumed When)
@@ -50,13 +50,13 @@ TODO
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
-Michael Stal, Ward Cunningham, RDD
+Simon Brown's presentations and website
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
-UML, plain text 
+UML, 4+1, etc.
 
 
 ### More Information
@@ -66,13 +66,12 @@ TODO
 ### Data Provenance 
 
 ```yaml
-title: "Design Practice Repository (DPR): CRC Card"
+title: "Design Practice Repository (DPR): Container Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "07, 02, 2020 (Source: Project DD-DSE)"
+date: "07, 02, 2020 (Source: Project tbd)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
-
 
 <!--
 # References

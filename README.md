@@ -15,9 +15,9 @@ Welcome to DPR (pronounced "deeper")! This public repository collects and refere
 Here's the roles we have created this repository for, ordered from specific to generic:
 
 * [(Micro-)service](https://medium.com/olzzio/seven-microservices-tenets-e97d6b0990a4) designers
-* API product managers/owners, developers, testers, maintainers 
-* Software architects specializing on application integration 
-* Any software architect 
+* [API product managers/owners](/roles/SDPR-APIProductOwner.md), developers, testers, maintainers 
+* Software architects specializing on application integration and APIs 
+* Any software [architect](/roles/DPR-ApplicationArchitectRole.md)
 * Any software engineer
 
 
@@ -42,6 +42,15 @@ The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the rep
 
 We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 
+### *News*
+
+Version 1.2, released on December 7, 2020, adds one activity and one artifact:
+
+* [Story splitting](/activities/DPR-StorySplitting.md) for planning and design purposes
+* [Component, Responsibility, Collaboration (CRC) cards](artifact-templates/DPR-CRCCard.md), an OOAD veteran repurpose for architecture design 
+
+Tutorial 1 also was enhanced, as well as several other activity and artifact descriptions. We also added (even) more pointers to background information. 
+
 
 ## Terminology Clarification
 
@@ -59,7 +68,7 @@ DPR applies a best-of-breed approach. Our metamodel adopts parts of the related 
 
 ![DPR metamodel (from SOAD PhD thesis)](./images/SOADMethodMetamodel.png)
 
-This terminology maps to that of other method engineers like this<!-- TODO (v2): review terms again; https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf -->:
+This terminology maps to that of other method engineers like this<!-- TODO (v2): review terms again; RUP: https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf -->:
 
 | This repository | Agile community ([glossary](https://www.agilealliance.org/agile101/agile-glossary/))| OMG SPEM 2.0 ([PDF](https://www.omg.org/spec/SPEM/2.0/PDF)) | [Open Unified Process (UP)](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm) and other methods |
 |-|-|-|-|
@@ -107,7 +116,7 @@ More information can be found [here](contributing/CONTRIBUTING.md).
 ```yaml
 title: Design Practice Repository (DPR)
 owner: Olaf Zimmermann (ZIO)
-date: "10, 16, 2020 (Source: Project DD-DSE)"
+date: "12, 04, 2020 (Source: Project DD-DSE)"
 copyright: Copyright 2020 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 

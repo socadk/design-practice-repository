@@ -72,7 +72,7 @@ A blog post on [AD Making](https://ozimmer.ch/practices/2020/04/27/ArchitectureD
 -->
 
 ### Related Artifacts and Practices (incl. Alternatives)
-Instances of this artifact are produced when employing a continuous or stage-based [Architectural Decision Capturing](../artifacts-activities/DPR-ArchitecturalDecisionCapturing.md) practice.
+Instances of this artifact are produced when employing a continuous or stage-based [Architectural Decision Capturing](../artifacts-activities/DPR-ArchitecturalDecisionCapturing.md) practice. The captured rationale (decision justification) should reference one or more [non-functional requirements](../artifacts-activities/DPR-SMART-NFR-Elicitation.md).
 
 Many other templates have been proposed; see [activity description](../activities/DPR-ArchitecturalDecisionCapturing.md) for pointers.
 

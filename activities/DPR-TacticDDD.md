@@ -42,10 +42,39 @@ The original DDD book @Evans:2003 provides this pattern map for tactic DDD (show
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together. Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity. 
 
-<!-- TODO (v2) explain term Aggregate Root (an entity) better, provide CRC card? -->
-<!-- TODO (v2) give examples of: The aggregate root (an entity) is responsible for preserving invariants. -->
+<!-- TODO (v2) explain term Aggregate Root (and entity) even more (slides?) -->
 
-In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via subdomains, another DDD pattern):
+The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (the root entities in an Aggregate):
+<img src="images/ZIO-AggregateCRC.png" height="400" />
+
+**Aggregates and Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
+
+1. Executable part of the business logic (an algorithm) that is not expressed as sequence of statements, but declaratively. 
+2. A statement or condition about the domain model, its elements and their relationships that always has to be true (i.e., be invariant) to preserve data consistency and ensure accuracy of processing. For instance, the sum of all withdrawals is equal to the sum of all payments; the total amount of player salaries on any sports team in the league does not exceed xM USD; all orders point to customers that actually exist in the real world.
+
+<!--
+More examples:
+
+Physical containment relationship 
+
+* No order without an existing customer
+* When A changes, B also has to change 
+
+Number calculations/value ranges 
+
+* Total (sum) of X must not exceed value Y
+* VAT calculation must match product type 
+* Sum of all account transfers must always be 0
+
+Accounting and non-repudiation 
+
+* All calls are billed
+* All access attempts are logged 
+-->
+
+The first meaning of the term is not in our focus here, but can be modeled as Entity operations and services. We are interested in the second meaning (constraint, invariant) here; such rules can and should be enforced by Aggregates.
+
+**Modeling Steps**. In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
 
 1. Distinguish Entities (stateful) and Value Objects (stateless), and expose cross-cutting or supporting code that does not fit into any class well as Services (can start with a [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) per user story or use case).
 2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events.
@@ -57,7 +86,8 @@ The [Context Mapper website](https://contextmapper.org/docs/examples/) provides 
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
-![](images/CM-TacticDDDCargoAggregate.png)
+<img src="images/CM-TacticDDDCargoAggregate.png" height="500" />
+<!-- > ![](images/CM-TacticDDDCargoAggregate.png) -->
 
 <!--
 png created from this puml source (had to add a blank to some relationship arrows):
@@ -166,20 +196,20 @@ In "Implementing DDD", V. Vernon establishes similar rules for Aggregate design 
 * Reference other aggregates by identity.
 * Use eventual consistency outside the boundary."
 
-These nuggets of advice can also be found online in an [article series at domaindrivendesign.org](http://dddcommunity.org/library/vernon_2011/).
+These nuggets of advice can also be found online in an [article series at domaindrivendesign.org](http://dddcommunity.org/library/vernon_2011/) (@Vernon:2013).
 
 
 ### Origins and Signs of Use
 DDD has been around, in active use on real-world projects, and supported by a community since the first DDD book came out in 2003; it recently became particularly popular in the microservices community as a way to identify service boundaries (via strategic DDD). 
 
-Tactic DDD was introduced in E. Evans' book on DDD, but featured even more prominently later in "Implementing Domain-Driven Design" by V. Vernon. 
+Tactic DDD was introduced in E. Evans' book on DDD (@Evans:2003), but featured even more deeply later in "Implementing Domain-Driven Design" by V. Vernon. 
 
 Usage of the pattern names and presence of domain models, either drawn informally or modelled in a UML tool or DSL, indicate use.
 
 
 ### Related Content
 
-* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCases.md) provide input. 
+* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCases.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
 * [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
 * [Stepwise service design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
 
@@ -189,12 +219,6 @@ Usage of the pattern names and presence of domain models, either drawn informall
 * Domain experts, business analysts
 * Application architects 
 * Any team member designing and developing
-
-<!--
-|**Role**| Input | Output | Comments |
-|:-|:-----:|:------:|:--------:|
-|  |  |  |  |
--->
 
 
 #### Practices and Techniques (Refinements, Guides)
@@ -222,7 +246,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Tactic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "08, 15, 2020 (Source: Project DD-DSE)"
+date: "12, 07, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
