@@ -24,9 +24,9 @@ CRC cards primarily serve as specification and documentation tool. Moreover, the
 
 * Buy, build, or rent (a cloud service) software that has the desired capabilities?
 * Use a custom-off-the-shelf software package, commercial middleware, or open source software? 
-* Can an operating system feature or a cloud service fulfill the responsibilities (such as crontab as a job scheduler)?  
+* Can or a cloud service or an operating system feature (such as a storage offering or a job scheduler) fulfill the responsibilities?
 
-Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow then is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing (or serve as graphical workshop minutes only, accompanying [textual notes](https://ozimmer.ch/authoring/2020/07/02/ReviewAndMeetingMarkup.html)).
+Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow then is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing (or serve as graphical notes only, accompanying the [textual ones](https://ozimmer.ch/authoring/2020/07/02/ReviewAndMeetingMarkup.html) from the workshop).
 
 
 ### Template Structure and Notation(s)
