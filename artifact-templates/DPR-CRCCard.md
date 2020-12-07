@@ -82,7 +82,7 @@ Usage is straightforward to spot; just look for the keywords "responsibilities" 
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
-CRC cards can support, and result from, [DPR-ArchitectureModeling](../artifacts-activities/DPR-ArchitectureModeling.md) activities. 
+CRC cards can support, and result from, [DPR-ArchitectureModeling](../artifacts-activities/DPR-ArchitectureModeling.md) activities. The stated responsibilities should trace back to requirements, expressed as as [user stories](DPR-UserStory.md) and/or [use cases](DPR-UseCase.md) and [non-functional requirements](../artifacts-activities/DPR-SMART-NFR-Elicitation.md).
 
 Notes and comments in UML and other modeling tools as well as plain text descriptions can be used alternatively, or formatted in such a way that the responsibilities and collaborations come out clearly.
 
