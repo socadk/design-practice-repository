@@ -20,13 +20,13 @@ A notation that is well suited for *candidate* component modeling is the *CRC Ca
 ### Usage (Produced and Consumed When)
 <!--AA/AS/AE, must identify the producing role and the target audience-->
  
-CRC cards primarily serve as specification and documentation tool. Moreover, the cards can support decision making during component realization, starting with the "buy vs. build" decision: 
+CRC cards primarily serve as specification and documentation tool. Moreover, the cards can support decision making during component realization, starting with a "make of buy" decision: 
 
-* Buy, build, or rent (a cloud service)?
-* Use software package, commercial middleware, or open source software? 
-* Can an operating system feature fulfill the responsibilities (such as crontab as a job scheduler)?  
+* Buy, build, or rent (a cloud service) software that has the desired capabilities?
+* Use a custom-off-the-shelf software package, commercial middleware, or open source software? 
+* Can an operating system feature or a cloud service fulfill the responsibilities (such as crontab as a job scheduler)?  
 
-Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing (or serve as graphical meeting minutes only).
+Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow then is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing (or serve as graphical workshop minutes only, accompanying [textual notes](https://ozimmer.ch/authoring/2020/07/02/ReviewAndMeetingMarkup.html)).
 
 
 ### Template Structure and Notation(s)
@@ -37,7 +37,7 @@ An annotated template (with teaser questions) is:
 <!-- 
 ![CRC Card Notation Explained](./images/ZIO-CRCCardNotationExplained.png) -->
 
-Note that the template and the teaser questions deviate from the original CRC format a bit (applying our method engineering rule "do not follow templates blindly, but adopt them to your needs"). In the responsibility cell, functions, (externally visible) data and qualities are mentioned; in the collaborations cell, both inbound and outbound dependencies can be listed. There is an extra cell asking for previous experiences and realizations with the candidate component (in support of the decision making use case of CRC cards).
+Note that the template and the teaser questions deviate from the original CRC format a bit (applying our method engineering rule "do not follow templates blindly, but adopt them to your needs"). In the Responsibilities cell, functions, (externally visible) data and qualities are mentioned; in the Collaborations cell, both inbound and outbound dependencies can be listed. Note that there is an extra cell asking for previous experiences and realizations with the candidate component (in support of the decision making use case of CRC cards).
 
 ### Example(s)
 
@@ -50,29 +50,31 @@ This is an example of a filled out card (an entire layer is described here, rath
 
 ### Tools
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
-Any tool that support table layouts (preferably with the option to merge cells) can be used. Online and offline whiteboards will do too. Wikis and Markdown tables are additional options.
+Any tool that support table layouts (preferably with the option to merge cells) can be used. Online and offline whiteboards will do too. 
+
+Team [wikis](https://en.wikipedia.org/wiki/Wiki) and Markdown tables are additional options.
 
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 
-CRC cards must be expressive, but also easy to understand:
+To be able to serve their purpose, CRC cards should be expressive but also easy to understand:
 
 * Names should communicate what application/architecture are about.
-    * Metaphors can make cards expressive and easy to remember, but must be chosen wisely. How will key stakeholders react to them?
+    * [Metaphors](https://www.agilealliance.org/resources/videos/making-metaphors-that-matter/) can make cards expressive and easy to remember, but must be chosen wisely. How will key stakeholders react to them?
     * Prefer strong semantics and domain-specific vocabulary, e.g. "Web Shop" over "Client".
     * A common naming scheme is `domain concept + architectural role/pattern`.
 * Value consistency (no contradictions) over completeness.
-    * Good component descriptions should be SMART (like goals and NFRs)
+    * Good component descriptions should be SMART (like goals and NFRs).
     * Each outgoing collaboration relationship should correspond to an incoming one elsewhere and vice versa (a service consumer needs a provider). Look for it in other CRC cards or the API contracts of systems in the context of the one under construction.
     * Sunny day (happy path scenarios) and rainy days (error and edge cases) should be taken into account when assigning responsibilities.
 * Model on same level of detail on all cards and find a medium ground.
-    * Too precise specifications are hard to implement and change 
+    * Too precise specifications are hard to implement and change.
     * Too vague ones do not add value, implementations are hard to integrate, and the resulting architecture is difficult to validate.
 
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
-The original CRC cards were invented by W. Cunningham (who, by the way, also invented Wikis and the Technical Debt metaphor), and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:RDD:2002). 
+The original CRC cards were invented by W. Cunningham (who also invented Wikis and came up with the Technical Debt metaphor), and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:RDD:2002). 
 
 On the architectural level, they are used in Volume 1 of the POSA book series (@Buschmann:1996). See this [blog post by M. Stal from 2006](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. [O. Zimmermann](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) has been using them this way in his "Application Architecture" lecture at HSR/OST since 2013; M. Keeling features them as Activity 13 in "Design It!" (@Keeling:2019).
 
