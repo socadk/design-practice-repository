@@ -80,11 +80,11 @@ Usage is straightforward to spot; just look for the keywords "responsibilities" 
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
-<!--in DPR/OLAF and elsewhere-->
+CRC cards can support, and result from, [DPR-ArchitectureModeling](../artifacts-activities/DPR-ArchitectureModeling.md) activities. 
 
-Notes and comments in UML tools (and Structurizr) as well as plain text descriptions can be used alternatively, or formatted in such a way that the responsibilities and collaborations come out clearly. 
+Notes and comments in UML and other modeling tools as well as plain text descriptions can be used alternatively, or formatted in such a way that the responsibilities and collaborations come out clearly.
 
-Interface-Responsibility-Interactions (IRI) cards are a similar concept, but applied to interfaces @Pugh:2006.
+Interface-Responsibility-Interactions (IRI) cards are a similar concept, but applied to interfaces (@Pugh:2006).
 
 
 ### More Information
@@ -100,7 +100,7 @@ RDD and many other methods are compiled in the story ["Driven by Acronyms"](http
 ```yaml
 title: "Design Practice Repository (DPR): CRC Card"
 author: Olaf Zimmermann (ZIO)
-date: "12, 05, 2020"
+date: "12, 07, 2020"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

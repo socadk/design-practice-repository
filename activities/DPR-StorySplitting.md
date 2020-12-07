@@ -23,11 +23,11 @@ A [user story](../artifact-templates/DPR-UserStory.md) that is too large for a s
 * *Small:* "Stories typically represent at most a few person-weeks worth of work." Some teams size their stories in such a way that they can be implemented in a single iteration.
 * *Testable:* Customer and developers should understand a story well enough so that a test for it can be written &mdash; or is written first, as in BDD and TDD (see this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html) for a collection of these two and many more "driven" methods).
 
-Several techniques exist; one of them is story splitting.
+Several INVESTment practices and techniques exist; one of them is story splitting.
 
 ### Goal and Purpose (When to Use and When not to Use)
 <!-- TODO, can be a user story, must identify the performing role and the target audience (producer, consumer) -->
-Story splitting is an agile practice that makes stories and their implementation easier to plan and execute. 
+Story splitting makes stories and their implementation easier to plan and execute. 
 
 Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md). Many (but not all) splitting patterns and techniques are equally suited fot this second, extended use of the practice.
 
@@ -37,19 +37,23 @@ Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practi
 **Splitting patterns.** R. Lawrence describes nine splitting patterns in ["Patterns for Splitting User Stories"](https://agileforall.com/patterns-for-splitting-user-stories/), including:
 
 * *Data entry* methods, for instance multiple actors/users and/or technical channels (Web, mobile app and son on)
-* *Workflow* step: sequencing from process initiation to processing activities (possibly in parallel) and data manipulations to process termination 
-* *Business rule* variations: domain decisions to be made, conditions and constraint checking
+* *Workflow* step, from process initiation to processing activities (possibly in parallel) and data manipulations to process termination 
+* *Business rule* variations: domain decisions to be made at runtime, conditions and constraint checking
 * *Data variations*: is-a relations, categorizations and classifications, domain partitioning  
-* *Operations completeness*: create, read, update (full, partial), delete; search, find, archive; undo (compensation)
+* *Operations* completion: create, read, update (full, partial), delete; search, find, archive; undo (compensation)
 
-Each data entry split suggests at least one presentation layer component (as a candidate). Complex workflows call for explicit state management, to be designed architecturally and assigned as a responsibility to one or more components. Each business rule has to be implemented and enforced somewhere (see below). Data variations and operations find their place in the [Domain Model](../artifact-templates/DPR-DomainModel.md) and in the data access/data source and persistence layer. <!-- TODO could add a table mapping the splitting patterns to logical layers and patterns/component types -->
+Each data entry split suggests at least one presentation layer component (as a candidate). Complex workflows call for explicit state management, to be designed architecturally and assigned as a responsibility to one or more components. Each business rule has to be implemented and enforced somewhere (see below for a discussion of the ter in this context). Data variations and operations find their place in the [Domain Model](../artifact-templates/DPR-DomainModel.md) and in the data access/data source and persistence layer of the application system under construction. <!-- TODO could add a table mapping the splitting patterns to logical layers and patterns/component types -->
 
 The remaining patterns are useful for planning iterations, but less relevant for component identification and architecture design (unlike their output, which might yield additional candidate components): 
 
-* Investigation vs. implementation: architectural *spike* vs. full implementation 
-* (Major) *effort* and *simple/complex*; *defer performance* 
+* Investigation vs. implementation architectural *spike* vs. full implementation 
+* (Major) *effort* 
+* *Simple/complex*
+* *Defer performance* 
 
-**Other splitting criteria.** B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). M. Cohn listed five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story): Spikes, Paths, Interfaces, Data, Rules. 
+**Other splitting criteria.** B. Wake suggested [Twenty Ways to Split Stories](https://xp123.com/articles/twenty-ways-to-split-stories/). 
+
+M. Cohn listed five techniques under the moniker [SPIDR](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story): Spikes, Paths, Interfaces, Data, Rules. 
 
 
 ### Example(s)
@@ -77,7 +81,7 @@ A very welcome effect of story splitting is that it often leads to new questions
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!-- See ART, don’t overdo etc. -->
-The only warning of danger is not to overdo it; one should not get carried away by dreaming up data entry and data variations, business rules nobody has asked for, and so on.
+One should not get carried away by dreaming up data entry and data variations, business rules nobody has asked for, and so on.
 
 
 ### Origins and Signs of Use
@@ -101,9 +105,9 @@ Signs of use are difficult to call out for this activity. Backlog size and struc
 
 #### Practices and Techniques (Refinements, Guides)
 
-Story splitting can be followed or accompanied by [Tactic DDD](DPR-TacticDDD.md).
+Story splitting operates on backlog items such as [user stories](DPR-UserStory.md). Story splitting can be followed or accompanied by [Tactic DDD](DPR-TacticDDD.md).
 
-Event storming can either trigger story capturing and splitting, or be performed when following the workflow steps. 
+Event storming can either trigger story capturing and splitting, or be performed when following business event and workflow steps. 
 
 [Story Mapping](https://www.agilealliance.org/glossary/storymap/) and [Example Mapping](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox) are two related, complementary practices. Split stories can be mapped more easily than larger ones. More specifically, splitting by workflow step is straightforward to combine with/use to populate the horizontal dimension in story maps; the other patterns all fit the vertical "details" dimension. Example mapping also talks about business rules, in the sense of a constraint that must be met. Any story can serve as input; the broader and complex it is, the longer and more intense clarification discussions will results. The more specific and simple a story is, the easier it will be to find the acceptance criteria for it. 
 

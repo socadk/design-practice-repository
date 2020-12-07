@@ -88,7 +88,7 @@ A variation of the "if in doubt leave it out" rule for DPR method adoption appli
 ### Hints and Pitfalls to Avoid
 
 * Capture both static and dynamic aspects (for instance, compile time and runtime dependencies). UML sequence diagrams can serve as Component Interaction Diagrams (CIDs); the [arc42 Runtime View](https://docs.arc42.org/section-6/) provides further advice. 
-* Consider to complement your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows) and/or provide [CRC cards](../artifact-templates/futureWork/DPR-CRCCard.md) to explain responsibilities and collaborations of the components that appear in architecture overviews and component models. 
+* Consider to complement your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows) and/or provide [CRC cards](../artifact-templates/DPR-CRCCard.md) to explain responsibilities and collaborations of the components that appear in architecture overviews and component models. 
 * Model both "sunny day" and "rainy day" behavior (normal case, error situations).
 * Do not model just because; choose set of diagrams and notation consciously, reflecting on the project and company culture, team capabilities and preferences. 
 * But do not skip modeling just because working software is valued more than comprehensive documentation; see above for motivation and (light, lean) instructions.

@@ -63,6 +63,7 @@ When UML-based methods and their predecessors are applied, chances are that a do
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
+
 * E/R diagrams from Structured Analysis (SA) can be used alternatively.
 * Informal glossaries of the project's ubiquitous language can feed the domain model, or be extracted from it.
 * Code-level class diagrams might use the same notation, but have a different purpose. 
