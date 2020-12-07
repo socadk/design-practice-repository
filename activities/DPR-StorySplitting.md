@@ -107,9 +107,9 @@ Signs of use are difficult to call out for this activity. Backlog size and struc
 
 Story splitting operates on backlog items such as [user stories](../artifact-templates/DPR-UserStory.md). Story splitting can be followed or accompanied by [Tactic DDD](DPR-TacticDDD.md).
 
-Event storming can either trigger story capturing and splitting, or be performed when following business events and workflow steps. 
+[Event storming](https://en.wikipedia.org/wiki/Event_storming) can either trigger story capturing and splitting, or be performed when following business events and workflow steps. 
 
-[Story Mapping](https://www.agilealliance.org/glossary/storymap/) and [Example Mapping](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox) are two related, complementary practices. Split stories can be mapped more easily than larger ones. More specifically, splitting by workflow step is straightforward to combine with/use to populate the horizontal dimension in story maps; the other patterns all fit the vertical "details" dimension. Example mapping also talks about business rules, in the sense of a constraint that must be met. Any story can serve as input; the broader and complex it is, the longer and more intense clarification discussions will results. The more specific and simple a story is, the easier it will be to find the acceptance criteria for it. 
+[Story Mapping](https://www.agilealliance.org/glossary/storymap/) and [Example Mapping](https://cucumber.io/blog/bdd/example-mapping-introduction/) are two related, complementary practices. Split stories can be mapped more easily than larger ones. More specifically, splitting by workflow step is straightforward to combine with/use to populate the horizontal dimension in story maps; the other patterns all fit the vertical "details" dimension. Example mapping also talks about business rules, in the sense of a constraint that must be met. Any story can serve as input; the broader and complex it is, the longer and more intense clarification discussions will results. The more specific and simple a story is, the easier it will be to find the acceptance criteria for it. 
 
 
 ### More Information 

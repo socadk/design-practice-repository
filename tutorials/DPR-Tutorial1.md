@@ -177,7 +177,7 @@ We have decided for endpoint and operation responsibilities on a conceptual leve
 One of the architectural related architectural decisions might be (formatted as a [Y-statement](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)):
 
 ```
-In the context of the OnlineShopBackend backend,
+In the context of the OnlineShopBackend subsystem,
 facing the need to serve a number of technically diverse clients, 
 we decided for RESTful HTTP on maturity level 2  
 and neglected other protocols such as gRPC or SOAP/HTTP
