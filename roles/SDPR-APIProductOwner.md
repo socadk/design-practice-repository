@@ -70,7 +70,7 @@ In a contributor or reviewer role, (s)he might also work with/on:
 ```yaml
 title: "Design Practice Repository (DPR): API Product Manager"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "08, 19, 2020 (Source: Project DD-DSE)"
+date: "12, 04, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
