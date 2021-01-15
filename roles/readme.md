@@ -4,15 +4,15 @@
 
 Practices are employed by people on projects and/or building products; these people have one or more roles and responsibilities in their organizations. These role/persona descriptions will be kept light here, unlike in more traditional methods such as (R)UP or IBM UMF: 
 
-1. Names of stakeholders (of architecture and architectural artifacts) and their main concerns
+1. Names of stakeholders (of architecture and architectural artifacts) and their main concerns.
 2. Information and modeling need, derived from role responsibilities (articulated in the form of user stories) and [activities](../activities) performed.
-3. [Artifacts](../artifact-templates) produced and consumed, including templates, practices and techniques applied to do so.
+3. [Artifacts](../artifact-templates) produced and consumed, including templates, practice, and techniques applied to do so.
 
 The third rule of method adoption applies (the first two laws can be found in the activities and artifact folders): 
 
-> *Context matters: what works for one role in a particular client, team and project environment might be the root of all evil elsewhere.*
+> *Context matters: what works for one role in a particular client, team, and project environment might be the root of all evil elsewhere.*
 
-See Part 1 of [this ICWE 2020 presentation](https://ozimmer.ch/assets/presos/ZIO-ICWEKeynoteWADEC3v10p.pdf) for more information on the importance of context during design and [decision making](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html).
+See Part 1 of O. Zimmermann's [ICWE 2020 presentation](https://ozimmer.ch/assets/presos/ZIO-ICWEKeynoteWADEC3v10p.pdf) for more information on the importance of context during design and [decision making](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html).
 
 
 ### Overview/Inventory (Genetic and Specific Roles)
@@ -29,18 +29,18 @@ We have identified the a number roles already, but only documented two of them s
   * Infrastructure Architect
   * Security Architect/Specialist
   * Developer ("full stack", specialized)
-  * DevOps specialist (CI/CD, provisioning)
+  * DevOps Specialist (CI/CD, provisioning)
   * Tester 
-  * Auditor (e.g., system and process assurance auditor)
-  * Maintainer (e.g., legacy system modernizer)
+  * Auditor (e.g., System and Process Assurance Auditor)
+  * Maintainer (e.g., Legacy System Modernizer)
 
 #### API/service design roles:
 
   * [API Product Owner](./SDPR-APIProductOwner.md)
-  * Cloud application architect 
-  * Service designer 
-  * API developer (backend developer, Web developer) 
-  * API client developer (frontend developer, Web developer)
+  * Cloud Application Architect 
+  * Service Designer 
+  * API Developer (Backend Developer, Web developer) 
+  * API Client Developer (Frontend Developer, Web Developer)
 
 
 ## DPR Metadata
@@ -48,7 +48,7 @@ We have identified the a number roles already, but only documented two of them s
 ```yaml
 title: "Design Practice Repository (DPR): Roles and Personas Overview"
 author: Olaf Zimmermann (ZIO)
-date: "10, 16, 2020 (Source: Project DD-DSE)"
+date: "01, 15, 2021"
 copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
 ```
 
