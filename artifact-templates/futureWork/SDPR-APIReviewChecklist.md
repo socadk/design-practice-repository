@@ -62,6 +62,8 @@ Chapter 13 in @Lauret:2019 features questions to ask and a review checklist.
 ### More Information
 TODO
 
+<!-- JH: https://tyk.io/how-to-conduct-an-api-design-review/ -->
+
 A proposal for Open and Lean Architecting Framework collecting important artifacts can be found on an [HSR FHO/OST web page](https://www.ifs.hsr.ch/index.php?id=13195&L=4).
 
 

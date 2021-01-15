@@ -71,6 +71,7 @@ Presence or mention of three Cs [Card, Conversation, Confirmation](https://www.a
 
 * [Use Cases](DPR-UseCase.md)
 * [Story Splitting](../activities/DPR-StorySplitting.md)
+* [Job Stories](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
 * Test-Driven Development (TDD) 
 * Behavior-Driven Development (BDD) and [given-when-then](https://www.agilealliance.org/glossary/gwt) template for acceptance criteria.
 
