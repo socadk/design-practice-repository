@@ -30,6 +30,7 @@ Y-statements are often captured in plain but structured text (but tables in pres
 
 ![](images/ADCaptureYTemplate.png)
 
+<!-- TODO feature tradeoff character of bottom half more -->
 
 ### Examples
 [Wikipedia](https://en.wikipedia.org/wiki/Architectural_decision#Examples) has this example:
