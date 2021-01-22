@@ -48,9 +48,9 @@ The SMART criteria can be applied to NFR elicitation in a straightforward way an
 
 * S: Which feature or part of the system (or the build-time process and supporting infrastructure) should satisfy the requirement? Which type of environment does the requirement pertain to (for instance, normal operations a.k.a. "sunny day", peak loads, error situations)? 
 * M: How can testers and other stakeholders find out whether the requirement is met (or not)? Is the requirement quantified?
-* A: Do all affected internal and external stakeholders agree on the 'S' and the 'M' wording? (issue for requirements engineering and project management, so out of scope here and now)
-* R: Is it technically and economically feasible to achieve the 'M' measure in the context of all features or system parts specified under 'S'? (issue for requirements engineering and project management, so out of scope here and now)
-* T: When should the NFR meet the 'M' measure, is there a growth path from iteration to iteration? (also to be answered by project management, so out of scope here and now)
+* A: Do all affected internal and external stakeholders agree on the 'S' and the 'M' wording (issue for requirements engineering and project management, so out of scope here and now)?
+* R: Is it technically and economically feasible to achieve the 'M' measure in the context of all features or system parts specified under 'S' (issue for requirements engineering and project management, so out of scope here and now)?
+* T: When should the NFR meet the 'M' measure, is there a growth path from iteration to iteration (also to be answered by project management, so out of scope here and now)?
 
 S is about *scoping* the requirement (note that the word “specific” might suggest a different meaning, possibly similar to "M"?). 
 
@@ -68,7 +68,7 @@ Explanations (excuses?) for not coming up with numbers are easy to find (for ins
 
 Assessments can be recorded in the following way: 
 
-| ASR | Specific (Y/N)? | Measurable (Y/N)? | Rationale for Answers | Improvement (if needed) |
+| ASR | Specific (Y/N)? | Measurable (Y/N)? | Rationale for Answers | Improvement (if Needed) |
 |:----|:----------------|:------------------|-----------------------|-------------------------| 
 | R1 | [Y/N] | [Y/N] | (answer to question from above) | (required change or n/a) | 
 | Rn | [Y/N] | [Y/N] | ... | ... | 
