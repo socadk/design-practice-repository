@@ -4,7 +4,7 @@ Phases: "Analysis"
 Roles: "Application architects, other architects"
 Input: "Project goals, functional requirements"
 Output: "NFR document, formal or informal"
-Abstraction/Refinement Level: all
+Abstraction/Refinement Level: n/a (requirements)
 ---
 
 
