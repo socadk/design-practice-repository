@@ -11,14 +11,14 @@ Artifact and Template: *Architectural Decision Record (Y-Form)*
 ---------------------------------------------------------------
 also known as: Y-Statement
 
-A Y-statement captures decision context, addressed requirement, decision outcome and consequences (good and bad) in a single, structured sentence.
+A Y-Statement captures decision context, addressed requirement, decision outcome and consequences (good and bad) in a single, structured sentence.
 
 ### Motivation (Addressed Information Need) 
-The purpose of this artifact and template is to provide decision *rationale* (justifications for chosen patterns, technologies, products). Instances of this template answer "why?" questions about an architecture (across viewpoints and perspectives).
+The purpose of this artifact and template is to provide *decision rationale* (justifications for chosen patterns, technologies, products). Instances of this template answer *"why?"* questions about an architecture (across viewpoints and perspectives).
 
 
 ### Usage (Produced and Consumed When)
-Decisions are made throughout the entire project (or product development), by different stakeholders: team leads, team members recording group decisions, lead and subsystem architects, DevOps specialist, and so on. For the time being, only the [Application Architect](../roles/DPR-ApplicationArchitectRole.md) and the [API Product Owner](../roles/SDPR-APIProductOwner.md) role are modeled in DPR.
+Decisions are made by different stakeholders throughout the entire project (or product development): team leads, team members recording group decisions, lead and subsystem architects, DevOps specialists, and so on. For the time being, only the [Application Architect](../roles/DPR-ApplicationArchitectRole.md) and the [API Product Owner](../roles/SDPR-APIProductOwner.md) role are modeled in DPR.
 
 On agile projects, the sprint/iteration review meetings might be a good point in time to gather and discuss decision rationale; daily stand-ups may be used for urgent ones.
 
@@ -26,7 +26,7 @@ The decision making and capturing activity in DPR is documented [here](../activi
 
 
 ### Template Structure and Notation(s)
-Y-statements are often captured in plain but structured text (but tables in presentation tools, wiki pages and modeling tools can also be used):
+Y-Statements are often captured in plain but structured text (but tables in presentation tools, wiki pages and modeling tools can also be used):
 
 ![](images/ADCaptureYTemplate.png)
 
@@ -54,15 +54,15 @@ When embedding ADs in code, custom annotations can be used (for instance, with [
 
 ### Hints and Pitfalls to Avoid
 
-* Some readers do not appreciate the structured, but rather long sentences in the original Y-form; consider splitting up into two our three sentences if you get such feedback.
+* Some readers do not appreciate the structured, but rather long sentences in the Y-Statement template proposed above; consider splitting up into two or three sentences if you get such feedback.
 * Optionally, you may want to add a "because" half sentence for any rationale and justification that does not fit into the "to achieve"/"accepting that" weighting. 
-* Consider switching to MADR or Nyman ADRs or another template for AD capturing if the Y statements do not work well in your context and project. An inconsistently formatted decision log is better that none (assuming that its content is accurate and current).
+* Consider switching to MADR or Nyman ADRs or another template for AD capturing if the Y-Statements do not work well in your context and project. An inconsistently formatted decision log is better that none (assuming that its content is accurate and current).
 
 
 ### Origins and Signs of Use
-The WH(Y) format for AD records was originally suggested in a SATURN 2012 presentation by Olaf Zimmermann; it has been practiced in a number of projects, for instance at ABB, and taught at HSR FHO since 2013. It took inspiration from the decision outcome format suggested by George Fairbanks in this Architecture Haikus, but adds context- and quality-related information.
+The WH(Y) format for AD records was originally suggested in a [SATURN 2012 presentation by Olaf Zimmermann](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=31345); it has been practiced in a number of projects, for instance at ABB, and taught at HSR FHO since 2013. It took inspiration from the decision outcome format suggested by George Fairbanks in this [Architecture Haikus, presented at WICSA 2011](https://www.georgefairbanks.com/blog/comparch-wicsa-2011-panel-discussion-and-haiku-tutorial/); the upper part of Y-Statements adds context- and quality-related information to the tradeoff information ("to achieve, accepting that") in the bottom part.
 
-A blog post on [AD Making](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) provides more historical information, known uses, an additional example and advice on how to provide convincing justifications.
+A blog post on [AD Making](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) provides more historical information, known uses, an additional example, and advice on how to provide convincing justifications.
 
 <!-- 
 ### Performing Role(s)
@@ -80,16 +80,16 @@ Many other templates have been proposed; see [activity description](../activitie
 
 ### More Information
 
-* [Blog post on Y-statements on Medium](https://medium.com/@docsoc/y-statements-10eb07b5a177)
+* [Blog post on Y-Statements on Medium](https://medium.com/@docsoc/y-statements-10eb07b5a177)
 * IFS website on [Architectural Knowledge Management (AKM)](https://www.ifs.hsr.ch/index.php?id=13191&L=4) 
-* Proposal for a [Definition of Done for ADs](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html)
+* Proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html)
 
 
 ```yaml
 title: "Design Practice Repository (DPR): ADR-Y"
 author: Olaf Zimmermann (ZIO)
-date: "08, 14, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "01, 29, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 

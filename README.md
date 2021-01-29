@@ -64,7 +64,7 @@ The [Microservice API Patterns (MAP) website](https://microservice-api-patterns.
 
 ### Situational Method Engineering
 
-DPR applies a best-of-breed approach. Our metamodel adopts parts of Chapter 2 in ["An Architectural Decision Modeling Framework for Service-Oriented Architecture Design"](https://elib.uni-stuttgart.de/handle/11682/2682) (SOAD): 
+DPR applies a best-of-breed approach. Our metamodel adopts parts of Chapter 2 from ["An Architectural Decision Modeling Framework for Service-Oriented Architecture Design"](https://elib.uni-stuttgart.de/handle/11682/2682) (SOAD): 
 
 ![DPR metamodel (from SOAD PhD thesis)](./images/SOADMethodMetamodel.png)
 
@@ -116,7 +116,7 @@ More information can be found [here](contributing/CONTRIBUTING.md).
 ```yaml
 title: Design Practice Repository (DPR)
 owner: Olaf Zimmermann (ZIO)
-date: "01, 29, 2020 (Original Source: Project DD-DSE)"
+date: "01, 29, 2021 (Original Source: Project DD-DSE)"
 copyright: Copyright 2020-2021 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 
