@@ -3,11 +3,10 @@
 
 At present, there are two DPR tutorials:
 
-* A basic [Tutorial 0](DPR-Tutorial0.md) that intrdoduces you to the repository structure (by example).
-* [Tutorial 1](DPR-Tutorial1.md) applies DPR content (artivities, artifacts) step by step (in an online shop AIP design example). 
+* A basic [Tutorial 0](DPR-Tutorial0.md) that introduces you to the repository structure (by example).
+* [Tutorial 1](DPR-Tutorial1.md) applies DPR content (activities, artifacts) step by step (in an online shop API design example). 
 
-The [MAP website](
-    https://microservice-api-patterns.org/patterns/tutorials/) has more. 
+The [MAP website](https://microservice-api-patterns.org/patterns/tutorials/) has more. 
 
 ## DPR Metadata
 
