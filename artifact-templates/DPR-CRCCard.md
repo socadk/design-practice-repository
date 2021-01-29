@@ -105,7 +105,7 @@ RDD and many other methods are compiled and commented on in ["Driven by Acronyms
 title: "Design Practice Repository (DPR): CRC Card"
 author: Olaf Zimmermann (ZIO)
 date: "01, 15, 2021"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 

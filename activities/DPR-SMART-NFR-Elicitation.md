@@ -160,6 +160,6 @@ Websites dedicated to software quality include [Quality-Aware development](http:
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
 date: "01, 15, 2021 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

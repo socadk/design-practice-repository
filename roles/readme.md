@@ -51,7 +51,7 @@ We have identified the a number roles already, but only documented two of them s
 title: "Design Practice Repository (DPR): Roles and Personas Overview"
 author: Olaf Zimmermann (ZIO)
 date: "01, 15, 2021"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 ```
 
 ### License
