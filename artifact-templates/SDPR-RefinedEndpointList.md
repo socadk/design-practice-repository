@@ -1,5 +1,5 @@
 ---
-Scope: Service Layer of Backend
+Scope: Remote Service Layer of Backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect, Web Developer
 Activities: Stepwise/Incremental Service Design (Contract First), Step 5
@@ -22,7 +22,7 @@ A REL answers the following questions:
 
 ### Usage (Produced and Consumed When)
  
-A Refined Endpoint List (REL) is produced in Step 5 in [stepwise service design activity](../activities/SDPR-StepwiseServiceDesign.md), service layer design (the API provides the remote facades).
+A Refined Endpoint List (REL) is produced in Step 5 in [stepwise service design activity](../activities/SDPR-StepwiseServiceDesign.md), remote service layer design (the API provides the remote facades).
 
 <!-- * Step 5 of the EXPOSE technique -->
 

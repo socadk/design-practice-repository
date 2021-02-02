@@ -159,9 +159,10 @@ Bottom-up *code-first* API design can be combined with this top-down contract-fi
 While written with the Web and RESTful HTTP in mind, many of the existing informal "methods" (or design heuristics) can also be applied when other technologies are chosen:
 
 * Arnaud Lauret, "The Design of Web APIs" (@Lauret:2019).
-* Blog posts such as ["Moving to API design-first in an Agile world"](https://tyk.io/moving-api-design-first-agile-world/), ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/), and ["Techniques For Designing Your API and Microservices"](https://tyk.io/api-design-methodologies/) <!-- TODO book link(s) --> by James Higginbotham. 
+* Blog posts such as ["Moving to API design-first in an Agile world"](https://tyk.io/moving-api-design-first-agile-world/), ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/), and ["Techniques For Designing Your API and Microservices"](https://tyk.io/api-design-methodologies/) <!-- TODO more link(s) --> by James Higginbotham. 
 * Presentations, [blog posts](http://amundsen.com/blog/) and [books](https://www.amazon.com/Design-Build-Great-Web-APIs/dp/1680506803) by Mike Amundsen.
 * Phil Sturgeon's website and e-books themed [APIs you won't hate](https://apisyouwonthate.com/).
+* Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, Data Transfer Object.
 
 <!-- The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices". -->
 
