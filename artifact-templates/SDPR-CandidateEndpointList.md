@@ -99,9 +99,9 @@ Chapter 2 of "The Design of Web APIs" (@Lauret:2019) features an "API Goals Canv
 
 ### More Information
 
-* Phil Sturgeon's [Build APIs You Won't Hate](https://apisyouwonthate.com/books) (@Sturgeon:2016) features a simple but effective resource identification technique and a simple table format for CELs.
+* Phil Sturgeon's ["Build APIs You Won't Hate"](https://apisyouwonthate.com/books) (@Sturgeon:2016) features a simple but effective resource identification technique and a simple table format for CELs.
 * Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) uses finite state machines as an intermediate artifact. 
-* James Higginbotham has posted API design advice on the [Tyk blog](https://tyk.io/author/james-higginbotham/), for instance he advises ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/) in five steps. The AIP model produced in the fourth step corresponds to the CEL here in DPR.
+* James Higginbotham has posted API design advice on the [Tyk blog](https://tyk.io/author/james-higginbotham/), for instance he advises ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/) in five steps. The API model produced in the fourth step corresponds to the CEL here in DPR.
 
 
 ### Data Provenance 
