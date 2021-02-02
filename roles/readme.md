@@ -6,7 +6,7 @@ Practices are employed by people on projects and/or building products; these peo
 
 1. Names of stakeholders (of architecture and architectural artifacts) and their main concerns.
 2. Information and modeling need, derived from role responsibilities (articulated in the form of user stories) and [activities](../activities) performed.
-3. [Artifacts](../artifact-templates) produced and consumed, including templates, practice, and techniques applied to do so.
+3. [Artifacts](../artifact-templates) produced and consumed, including templates, practices, and techniques applied to do so.
 
 The third rule of method adoption applies (the first two laws can be found in the activities and artifact folders): 
 

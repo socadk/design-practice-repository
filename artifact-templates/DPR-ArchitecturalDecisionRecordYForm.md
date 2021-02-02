@@ -62,7 +62,7 @@ When embedding ADs in code, custom annotations can be used (for instance, with [
 ### Origins and Signs of Use
 The WH(Y) template for AD records was originally suggested in a [SATURN 2012 presentation by Olaf Zimmermann](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=31345); it has been practiced in a number of projects, for instance at ABB, and taught at HSR FHO since 2013. The template took inspiration from the decision outcome format suggested by George Fairbanks in this [Architecture Haikus, presented at WICSA 2011](https://www.georgefairbanks.com/blog/comparch-wicsa-2011-panel-discussion-and-haiku-tutorial/): The upper part of Y-Statements ("In the context of, facing") adds feature- and quality-related information to the tradeoff information ("to achieve, accepting that") in the bottom part.
 
-A blog post on [AD Making](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) provides more historical information, known uses, an additional example, and advice on how to provide convincing justifications.
+A blog post called [Architectural Decisions - The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) provides more historical information, known uses, an additional example, and advice on how to provide convincing justifications.
 
 <!-- 
 ### Performing Role(s)
