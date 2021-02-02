@@ -1,5 +1,5 @@
 ---
-Scope: Remote Service Layer of Backend
+Scope: Remote service layer of backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect, Web Developer
 Activities: Stepwise/Incremental Service Design (Contract First), Step 5
@@ -148,7 +148,7 @@ Usage of the above list and table formats is a sign of use.
 ### More Information
 
 * [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and related patterns (@Fowler:2002)
-* Books on Web API design and RESTful HTTP (@Allamaraju:2010, @Lauret:2019)
+* Books on Web API design and RESTful HTTP (@Allamaraju:2010, @Lauret:2019) as well as related blog posts such as [those by J. Higginbotham](https://tyk.io/author/james-higginbotham/)
 * gRPC guidelines and [style guide](https://developers.google.com/protocol-buffers/docs/style)
 * [GraphQL](https://graphql.org/learn/) resources
 * WSDL/SOAP tips and tricks (@Zimmermann:2003)
@@ -159,7 +159,7 @@ Usage of the above list and table formats is a sign of use.
 ```yaml
 title: "Design Practice Repository (DPR): Refined Endpoint List (REL)"
 author: Olaf Zimmermann (ZIO)
-date: "10, 15, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 02, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

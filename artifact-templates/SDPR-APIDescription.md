@@ -103,7 +103,7 @@ Usage of Open API specifications or other platform- and technology-specific IDLs
 ```yaml
 title: "Design Practice Repository (DPR): API Description"
 author: Olaf Zimmermann (ZIO), woth contributions from other MAP authors
-date: "08, 14, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 02, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

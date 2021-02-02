@@ -162,7 +162,7 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Blog posts such as ["Moving to API design-first in an Agile world"](https://tyk.io/moving-api-design-first-agile-world/), ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/), and ["Techniques For Designing Your API and Microservices"](https://tyk.io/api-design-methodologies/) <!-- TODO more link(s) --> by James Higginbotham. 
 * Presentations, [blog posts](http://amundsen.com/blog/) and [books](https://www.amazon.com/Design-Build-Great-Web-APIs/dp/1680506803) by Mike Amundsen.
 * Phil Sturgeon's website and e-books themed [APIs you won't hate](https://apisyouwonthate.com/).
-* Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, Data Transfer Object.
+* Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, Data Transfer Object (@Fowler:2002).
 
 <!-- The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices". -->
 
@@ -180,7 +180,7 @@ Note that in microservices architectures, more options for these decisions (in t
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "12, 07, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 02, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
