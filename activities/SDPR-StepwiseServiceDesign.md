@@ -1,5 +1,5 @@
 ---
-Scope: Service Layer
+Scope: Presentation and Business Logic Layer
 Phases: "Analysis, design"
 Roles: "API product owner, integration architects, API designers"
 Input: "(Non-)functional requirements, domain model/layer design"
@@ -46,7 +46,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 1. *Understand the business problem as well as stakeholder wants and needs, including desired system qualities.* Before anything can be designed, we ought to know: what should be delivered (on the project, by the software), and why? Which quality properties are desired? Many workshop techniques supporting this step exist, for instance (to name just two) [event storming](https://www.eventstorming.com/) and [quality storming](https://speakerdeck.com/mploed/quality-storming). A. Lauret suggest the notion of API goals, driven by end user wants and frontend application needs, in ["The Design of Web APIs"](https://apihandyman.io/about/#my-book-the-design-of-web-apis) (@Lauret:2019). No matter which technique or template you use, elicit the Non-Functional Requirements (NFRs) in a [SMART, value- and risk-driven](DPR-SMART-NFR-Elicitation.md) way (@Fairbanks:2010).
 2. *Model the business domain and group related capabilities*, for instance by applying [tactic Domain-Driven Design (DDD)](DPR-TacticDDD.md) and [strategic DDD](DPR-StrategicDDD.md) (Vernon:2013). If "buy" or "rent" is an option (rather than "build" from scratch only), also reverse engineer the interfaces and domain models of the existing systems to be bought or rented and integrated and model them on the same level of detail as those representing the results from forward engineering. 
 3. *Split applications into frontends and backends*, again applying [strategic DDD](DPR-StrategicDDD.md) and/or other patterns for distributed computing while doing so (@Buschmann:2007, @RenzelKeller:1997). While designing, *capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made* and *[model](DPR-ArchitectureModeling.md) the resulting architecture*.
-4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API endpoints and their roles. For each candidate endpoint, *foresee a [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html) that exposes [Data Transfer Objects (DTOs)](https://martinfowler.com/eaaCatalog/dataTransferObject.html)* in its request and response messages of the API operations and assemble these facades into one or more [Service Layers](https://martinfowler.com/eaaCatalog/serviceLayer.html) to decouple the (published) languages of frontends and backends (@Fowler:2002). Keep on deciding and capturing your architectural decisions about these patterns. 
+4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API endpoints and their roles. For each candidate endpoint, foresee a [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html) that exposes [Data Transfer Objects (DTOs)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) in the request and response messages of its API operations to decouple the (published) languages of frontends and backends and to optimize the message exchange over the network w.r.t exchange frequency and message size. Consider to add a [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) to further encapsulate the business logic, to control transactions and to coordinate responses (@Fowler:2002). Capture your architectural decisions about these patterns as well as resulting additional decisions. 
 5. *Specify operation responsibilities and data formats to yield a [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md)* and *map the endpoints to existing or new API providers*. If needed, *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. [*Refactor*](https://www.ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
 6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL or gRPC; message exchange formats such as JSON and XML) and implement stubs (or an minimum viable API product). Integrate and test these stubs; iterate and revise the list as needed. If the results are good enough, go ahead and *specify service contracts including protocol bindings and technology mappings* in an [API description a.k.a. service contract artifact](../artifact-templates/SDPR-APIDescription.md). Optionally, establish [Service Level Agreements](../artifact-templates/SDPR-ServiceLevelAgreement.md) and [Rate Plans](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RatePlan). Also decide on (micro-)service deployment technologies and infrastructure middleware such as [API gateways](https://microservices.io/patterns/apigateway.html), load balancers and container orchestration engines as well as cloud offerings (@Fehling:2014), again capturing your architectural decisions in the log.
 7. *Improve and evolve the API design* and its implementation, for instance adjust endpoint and operation numbers as well as request and response message structures to meet the desired runtime qualities (for instance, performance and scalability). Apply [(micro-)service API design and evolution patterns](https://microservice-api-patterns.org/patterns/evolution/) along the way (@Daigneau:2011, @Zimmermann:2020).
@@ -85,7 +85,7 @@ In a [demo for tool-supported API design and service identification](https://ozi
 <img src="images/SDPR-ServiceDesignSteps.svg" height="100%" width="100%" />
 <!-- ![Service Design Example (BPMN)](images/SDPR-ServiceDesignSteps.svg) -->
 
-Finally, the microservices in the sample application [Lakeside Mutual](https://github.com/Microservice-API-Patterns/LakesideMutual) contain several Service Layers that expose Remote Facades implemented as HTTP resources and DTOs that are serialized into JSON.
+Finally, the microservices in the sample application [Lakeside Mutual](https://github.com/Microservice-API-Patterns/LakesideMutual) contain several Remote Facades implemented as HTTP resources and DTOs that are serialized into JSON.
 
 <!-- 
 https://www.bpmn-sketch-miner.ai/# 
@@ -149,7 +149,7 @@ Produced artifacts:
 
 ![](images/MAP-EXPOSEStepsInServiceDesign.png)
 
-**Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices (unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) is included in the architecture to decouple application and domain logic from integration and interface code).
+**Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices - unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and/or [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) are included in the architecture to decouple application and domain logic from integration and interface code.
 
 Bottom-up *code-first* API design can be combined with this top-down contract-first design activity to yield a *meet-in-the-middle* approach (note that code-first runs the risk of exposing provider-side implementation details in the API contract, which violates the information hiding principle).
 
@@ -159,8 +159,10 @@ Bottom-up *code-first* API design can be combined with this top-down contract-fi
 While written with the Web and RESTful HTTP in mind, many of the existing informal "methods" (or design heuristics) can also be applied when other technologies are chosen:
 
 * Arnaud Lauret, "The Design of Web APIs" (@Lauret:2019).
-* Phil Sturgeon's website and e-books themed [APIs you won't hate](https://apisyouwonthate.com/).
+* Blog posts such as ["Moving to API design-first in an Agile world"](https://tyk.io/moving-api-design-first-agile-world/), ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/), and ["Techniques For Designing Your API and Microservices"](https://tyk.io/api-design-methodologies/) <!-- TODO more link(s) --> by James Higginbotham. 
 * Presentations, [blog posts](http://amundsen.com/blog/) and [books](https://www.amazon.com/Design-Build-Great-Web-APIs/dp/1680506803) by Mike Amundsen.
+* Phil Sturgeon's website and e-books themed [APIs you won't hate](https://apisyouwonthate.com/).
+* Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, Data Transfer Object (@Fowler:2002).
 
 <!-- The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices". -->
 
@@ -178,7 +180,7 @@ Note that in microservices architectures, more options for these decisions (in t
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "12, 07, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 02, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

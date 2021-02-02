@@ -129,7 +129,7 @@ Such list can be derived from the Step 2 domain model and Step 3 architecture de
 | Order    | create    | Model purchase items the order consists of; point to customer; calculate tax and discounts |
 | Order Item | add to order | Specify amount bought, reference product |
 
-These candidate endpoints outline the [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) of the backend under construction. The table does know much about its Remote facades and Data Transfer Objects (DTOs) yet; this is something to be improved in the next step.
+These candidate endpoints outline a [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) of the backend under construction. The table does know much about Remote Facades and Data Transfer Objects (DTOs) yet; this is something to be improved in the next step.
 
 <!--
 We skip additional architectural decision making here for the sake of brevity; on a real project, one would make quite a few decisions now. See Step 6 for an example of an Architectural Decision Record (ADR). -->

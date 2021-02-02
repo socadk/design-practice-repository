@@ -1,5 +1,5 @@
 ---
-Scope: Service Layer of Backend
+Scope: Remote service layer of backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect 
 Activities: Stepwise/Incremental Service Design (Contract First), Step 4
@@ -21,7 +21,7 @@ Let us articulate the need for this artifact in question form:
 
 ### Usage (Produced and Consumed When)
 
-Step 4 in the [stepwise API/service design activity](../activities/SDPR-StepwiseServiceDesign.md) in DPR concerns service layer design; the API provides remote facades and data transfer objects (@Fowler:2002). The still technology- and platform-independent output of this step is the Candidate Endpoint List (CEL).
+Step 4 in the [stepwise API/service design activity](../activities/SDPR-StepwiseServiceDesign.md) in DPR concerns remote service layer design; the API provides remote facades and data transfer objects (@Fowler:2002). The still technology- and platform-independent output of this step is the Candidate Endpoint List (CEL).
 
 <!-- * Step 3 of the EXPOSE technique -->
 
@@ -67,7 +67,7 @@ Any plain text or Markdown editor, wikis, presentation tools and even spreadshee
 
 
 ### Hints and Pitfalls to Avoid
-Taking the output of Step 3 in our seven-step approach (or equivalent output of another business analysis and architecture design method) into account, you may want to follow the following steps when populating the CEL table (and, in the next step, the [Refined Endpoint List (REL)](SDPR-RefinedEndpointList.md)): 
+Taking the output of Step 3 in our seven-step approach (or equivalent output of another business analysis and architecture design method) into account, you may want to follow the following steps when populating the CEL table (and, in the next step, the [Refined Endpoint List](SDPR-RefinedEndpointList.md)): 
 <!-- source: from MAP, unpublished so far -->
 
 1. Add one candidate API per functional partition a.k.a *Subdomain* in DDD (@Evans:2003); note that some DDD literature also talks about *Bounded Contexts* here (@Vernon:2013); optionally, also add one candidate endpoint per *Entity* and *Service* in a subdomain and/or *Aggregate* in a bounded context.
@@ -91,17 +91,17 @@ Chapter 2 of "The Design of Web APIs" (@Lauret:2019) features an "API Goals Canv
 ### Related Artifacts and Templates (incl. Alternatives)
 
 * [Use cases](DPR-UseCase.md) or [user stories](DPR-UserStory.md) as well as [user interface mocks](../activities/DPR-UserInterfaceMocking.md) can serve as input to CEL preparation.
-* The same holds for the [Domain Model](DPR-DomainModel.md) .
-* Architecture overview diagrams and models containing a Service Layer
+* The same holds for the [Domain Model](DPR-DomainModel.md).
+* Architecture overview diagrams and models containing a (Remote) Service Layer
 * The [Refined Endpoint List](SDPR-RefinedEndpointList.md) picks up the CEL en route to implementation.
 * [API Description](SDPR-APIDescription.md), capturing platform-independent and -specific service contracts (MDSL, OpenAPI Specification, AsyncAPI)
 
 
 ### More Information
 
-* Phil Sturgeon's [Build APIs You Won't Hate](https://apisyouwonthate.com/books) (@Sturgeon:2016) features a simple but effective resource identification technique and a simple table format for CELs.
+* Phil Sturgeon's ["Build APIs You Won't Hate"](https://apisyouwonthate.com/books) (@Sturgeon:2016) features a simple but effective resource identification technique and a simple table format for CELs.
 * Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) uses finite state machines as an intermediate artifact. 
-* Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, Data Transfer Object.
+* James Higginbotham has posted API design advice on the [Tyk blog](https://tyk.io/author/james-higginbotham/), for instance he advises ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/) in five steps. The API model produced in the fourth step corresponds to the CEL here in DPR.
 
 
 ### Data Provenance 
@@ -109,8 +109,8 @@ Chapter 2 of "The Design of Web APIs" (@Lauret:2019) features an "API Goals Canv
 ```yaml
 title: "Design Practice Repository (DPR): Candidate Endpoint List"
 author: Olaf Zimmermann (ZIO)
-date: "10, 15, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 02, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 

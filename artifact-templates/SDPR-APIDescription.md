@@ -57,6 +57,8 @@ API client HelloWorldAPIClient
 
 The [Microservices Canvas](http://chrisrichardson.net/post/microservices/general/2019/02/27/microservice-canvas.html) template proposed by C. Richardson creates elaborate API Descriptions when filled out completely. The template includes implementation information, service invocation relationships, and events produced/subscribed to.
 
+J. Higginbotham compiled [the minimum documentation required for an API(https://tyk.io/whats-minimum-documentation-required-api/) in a blog post.
+
 See this [end-to-end service design demo](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for technical, platform-specific contracts generated from the platform-independent MDSL.
 
 
@@ -101,7 +103,7 @@ Usage of Open API specifications or other platform- and technology-specific IDLs
 ```yaml
 title: "Design Practice Repository (DPR): API Description"
 author: Olaf Zimmermann (ZIO), woth contributions from other MAP authors
-date: "08, 14, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 02, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

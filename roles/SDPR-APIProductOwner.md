@@ -32,6 +32,8 @@ API product owners care about and require/produce information related to:
 * Quick overviews of external interfaces and internal structure of the produced software.
 * Cost vs. benefit of feature development, supportability and evolvability of their products and services.
 
+Just like application and integration architects specializing on distributed systems and APIs, they [wear six hats](http://www.debonogroup.com/services/core-programs/six-thinking-hats/) according to a [blog post by James Higginbotham](https://tyk.io/the-six-hats-of-the-api-architect/) (and his Twitter network): API trendspotter, API reviewer, API risk assessor, API advocate, API creator, and API planner.
+
 
 ### Collaborations
 
