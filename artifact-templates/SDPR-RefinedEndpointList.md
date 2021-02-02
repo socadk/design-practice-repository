@@ -149,8 +149,8 @@ Usage of the above list and table formats is a sign of use.
 
 * [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and related patterns (@Fowler:2002)
 * Books on Web API design and RESTful HTTP (@Allamaraju:2010, @Lauret:2019) as well as related blog posts such as [those by J. Higginbotham](https://tyk.io/author/james-higginbotham/)
-* gRPC guidelines and [style guide](https://developers.google.com/protocol-buffers/docs/style)
-* GraphQL[learning resources](https://graphql.org/learn/) 
+* gRPC guidelines, for instance this [style guide](https://developers.google.com/protocol-buffers/docs/style)
+* GraphQL [learning resources](https://graphql.org/learn/) 
 * WSDL/SOAP tips and tricks (@Zimmermann:2003)
 
 
