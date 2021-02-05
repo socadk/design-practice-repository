@@ -1,8 +1,8 @@
 ---
 Scope: From entire system to individual features
-Phases: Analysis, Requirements Engineering
-Roles: Entire Agile Team; Business Analysts, Domain Experts; Application Architects
-Activities: Iteration Planning, Development, Test; Story Mapping, Story Splitting 
+Phases: Analysis, requirements engineering
+Roles: Agile team; business analysts, domain experts; application architects
+Activities: Iteration planning, development, test; story mapping, story splitting 
 Abstraction/Refinement Level: Multiple (invitation for conversation)
 ---
 
@@ -54,10 +54,10 @@ The [Context Mapper](https://contextmapper.org/) DSL has first class support for
 
 ### Hints and Pitfalls to Avoid
 
-* Do not create models or specifications as an excuse for and user interactions and conversations.  
+* Do not create models or specifications as an excuse for interactions and conversations with end users of the software under construction. When creating libraries, frameworks, or APIs, the client developers are your users. 
 * Continuously update the stories while learning about users and their requirements.
 * [INVEST](https://www.agilealliance.org/glossary/invest) in story quality.
-* Practice [Story Splitting](../activities/DPR-StorySplitting.md) to make stories fit into single sprints/iterations (and to identify candidate components for [architecture modeling](../activities/DPR-ArchitectureModeling.md), including [candidate endpoints](SDPR-CandidateEndpointList.md)).
+* Practice [Story Splitting](../activities/DPR-StorySplitting.md) to make stories fit into single sprints/iterations (and to identify candidate components for [architecture modeling](../activities/DPR-ArchitectureModeling.md), including potential [API endpoints](SDPR-CandidateEndpointList.md)).
 * Also consider story mapping and example mapping.
 
 
@@ -77,7 +77,7 @@ Presence or mention of three Cs [Card, Conversation, Confirmation](https://www.a
 
 
 ### More Information
-Mike Cohn's book "User Stories Applied" is a seminal reference (@Cohn:2004). 
+Mike Cohn's book "User Stories Applied" is a seminal reference (@Cohn:2004). <!-- TODO CE: Mike Cohn or M. Cohn? Consistency... -->
 
 
 ### Data Provenance 
@@ -85,7 +85,7 @@ Mike Cohn's book "User Stories Applied" is a seminal reference (@Cohn:2004).
 ```yaml
 title: "Design Practice Repository (DPR): User Stories"
 author: Olaf Zimmermann (ZIO)
-date: "12, 07, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 05, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
