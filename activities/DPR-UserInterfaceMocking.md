@@ -9,7 +9,7 @@ Abstraction/Refinement Level: Multiple, from abstract/early to refined/concrete
 
 Activity/Technique: *User Interface Mocking*
 ------------------------
-a.k.a. Wireframing
+also known as: Wireframing
 
 
 ### Context

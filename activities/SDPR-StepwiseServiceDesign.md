@@ -9,7 +9,7 @@ Abstraction/Refinement Level: Both conceptual (platform-independent) and technic
 
 Activity: *Stepwise Service Design*
 -------------------------------------
-a.k.a. Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
+also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
 
 
 ### Context

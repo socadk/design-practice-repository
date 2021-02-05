@@ -86,6 +86,6 @@ Mike Cohn's book "User Stories Applied" is a seminal reference (@Cohn:2004). <!-
 title: "Design Practice Repository (DPR): User Stories"
 author: Olaf Zimmermann (ZIO)
 date: "02, 05, 2021 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2021 (unless noted otherwise). All rights reserved.
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

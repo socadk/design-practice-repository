@@ -10,7 +10,7 @@ Abstraction/Refinement Level: Technology/platform-independent
 Artifact/Template: *AOD*
 ------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
-a.k.a. Container Diagram
+also known as: Container Diagram
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->

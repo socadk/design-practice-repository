@@ -9,7 +9,7 @@ Abstraction/Refinement Level: TODO
 Artifact/Template: *Quality Attribute Scenario (QAS)*
 -----------------------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
-a.k.a. TODO
+also known as: TODO
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->

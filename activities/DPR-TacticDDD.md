@@ -10,7 +10,7 @@ Abstraction/Refinement Level: Conceptual
 
 Activity/Technique: *Tactic DDD*
 --------------------------------
-a.k.a. Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
+also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 
 ### Context

@@ -16,7 +16,7 @@ Abstraction/Refinement Level: Technology/platform-independent
 
 Practice: *Architectural Decision Capturing*
 --------------------------------------------
-a.k.a. Decision Log(ging)
+also known as: Decision Log(ging)
 
 ### Context 
 Each software system has an architecture, which is defined by the set of [architectural decisions](https://en.wikipedia.org/wiki/Architectural_decision) made. Hopefully, these decisions are made consciously and continuously, and consensus is reached about them. This decision making progress should be recorded to avoid knowledge vaporization.
