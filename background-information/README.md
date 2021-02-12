@@ -1,27 +1,27 @@
 
-## *DPR:* Background information 
+## *DPR:* Background Information 
 
-[This blog post](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) motivates where DPR comes from and what matters to us as method engieers and adopters. More specifically, the design principles and guidelines for [DPR](../README.md) are:
+The blog post ["DPR: an Open Source Repository Collecting Mighty Methods"](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) motivates where DPR comes from and what matters to us as method engineers and adopters. More specifically, the design principles and guidelines for [DPR](../README.md) are:
 
-* Use structure and terminology of OMG SPEM and traditional methods like IBM Global Services Method/Unified Method Framework and (Rational/Open) Unified Process
-* Include architecturally significant [Agile practices](https://www.agilealliance.org/agile101/) from the [subway map](https://www.agilealliance.org/agile101/subway-map-to-agile-practices/) and [glossary collection](https://www.agilealliance.org/agile101/agile-glossary/) available at the Agile Alliance
-* Integrate or point at resources from publicly available methods and templates, for instance, ADD, arc42 and C4 (as umbrella, defined goals and gives choices), blended with [personal insights](https://ozimmer.ch/index.html) 1995 to present
+* Use structure and terminology of [OMG SPEM](https://www.omg.org/spec/SPEM/2.0/) as well as traditional methods like IBM Global Services Method/Unified Method Framework and (Rational/Open) Unified Process
+* Include architecturally significant [agile practices](https://www.agilealliance.org/agile101/) from the [subway map](https://www.agilealliance.org/agile101/subway-map-to-agile-practices/) and [glossary collection](https://www.agilealliance.org/agile101/agile-glossary/) available at the Agile Alliance
+* Integrate or point at resources from publicly available methods and templates, for instance, ADD, arc42, and C4<!-- (as umbrella, defines goals and gives choices)-->, blended with [personal insights](https://ozimmer.ch/index.html) from 1995 to present
 * Complement this content with fresh, up-to-date content from personal experience and online resources
 * Prefer a practice collection over a closed, formal/full method(ology):
     * Roles are not formally defined, but represent stakeholder personas with information/specification/review needs
     * Be open and lean by design, so never finished (and delivered as a repo)
-* Practice [Situational Method Engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review/link/0912f508a5a083e5bc000000/download) when creating new method elements (artifact description techniques, templates and so on).
-* We agree with Philippe Kruchten that ["we do not need richer software process models"](https://philippe.kruchten.com/2011/03/11/we-do-not-need-richer-software-process-models/) if rich means means heavy, detailed, complicated. Hence, our main focus is on the (hopefully light) artifacts templates for commonly used practices, and much less on activity flows and roles.
+* Practice [situational method engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review/link/0912f508a5a083e5bc000000/download) when creating new method elements (artifact description techniques, templates, and so on)
+* We agree with Philippe Kruchten that ["we do not need richer software process models"](https://philippe.kruchten.com/2011/03/11/we-do-not-need-richer-software-process-models/) if rich means means heavy, detailed, complicated. Hence, our main focus is on the (hopefully light) artifacts templates for commonly used practices, and much less on activity flows and roles
 
 We follow a *PEACH* model (compare with the ["Keeling Five"](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) criteria for mighty methods): 
 
 * *P*ragmatism and common sense, for instance when making in/out decisions
-* *E*ngineering Spirit: repeatable process, from analysis and spec to design and implementation and beyond 
-* *A*daptability by context, according to preferences and culture, 
-* *C*ourage for instance to leave things out or do them differently, disclose sources/reference input; reusing material is generally accepted in an open source-minded community, but with acknowledgment, proper referencing (license permitting) 
+* *E*ngineering spirit: repeatable process, from analysis and spec to design and implementation (and beyond) 
+* *A*daptability by context, according to preferences and culture 
+* *C*ourage, for instance to leave things out or do them differently, disclose sources/reference input; reusing material is generally accepted in an open source-minded community, but with acknowledgment, proper referencing (license permitting) 
 * *H*onesty: ethics such as no cheating, no black-and-white argumentation, do not make up villains  <!--, see consulting code of conduct in CSCUBS presentation 2017-->
 
-If you do not comply, you might risk impeachment &#128530; 
+If you do not comply, you might risk impeachment. &#128530; 
 
 <!--
 More snippets of method engineering and usage principles are:
@@ -32,32 +32,32 @@ More snippets of method engineering and usage principles are:
 -->
 
 
-### A bit of method history
+### A Bit of Method History
 
 This section certainly does not aim to be complete; please send additions via pull requests if you miss a method you have applied or created.
 
 Methods from the 1970s, 1980s, 1990s:
 
 * Structured Analysis (SA)
-* Object-Oriented Analysis and Design (OOAD), supported by a number of methods such as Booch, OMT, OOSE and later converged and unified in UML and the Unified Process (UP) 
+* Object-Oriented Analysis and Design (OOAD), supported by a number of methods such as Booch, OMT, OOSE; several OOAD methods later converged in UML and the Unified Process (UP) 
 * Enterprise Architecture Management (EAM) frameworks and methods such as TOGAF and Zachman
 
 And the 2000s:
 
 * [Agile practices](https://www.agilealliance.org/agile101/agile-glossary/), including proposals for scaling agile such as SAFe
 * Strategic and tactic [Domain-Driven Design (DDD)](https://dddcommunity.org/) <!-- OOAD continuation/extension -->
-* [Software Engineering Method and Theory (SEMAT)](http://semat.org/what-is-it-and-why-should-you-care-) initiative, [Essence specification](http://semat.org/essence-1.2) and [learning/teaching material](http://www.software-engineering-essentialized.com/home)
-* Software architecture templates and notations (see this [state of the art and the practice report as of 2016](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) for more): 
+* [Software Engineering Method and Theory (SEMAT)](http://semat.org/what-is-it-and-why-should-you-care-) initiative, [Essence Standard](http://semat.org/essence-1.2) and [learning/teaching material](http://www.software-engineering-essentialized.com/home)
+* Software architecture templates and notations: 
     * [C4 Model](https://c4model.com/) and RCDA
     * [ISO/IEC/IEEE 42010 templates](http://www.iso-architecture.org/ieee-1471/templates/)
     * [Unified Architecture Method (UAM)](http://www.unified-am.com/)
-* [arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
-* SOA method(s) 
-    * SOAD proposal ([HTML](https://www.ibm.com/developerworks/library/ws-soad1/), [PDF](https://www.ibm.com/developerworks/library/ws-soad1/ws-soad1-pdf.pdf))
+    * [arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
+    * Service-Oriented Architecture (SOA) method(s) and SOAD proposal ([HTML](https://www.ibm.com/developerworks/library/ws-soad1/), [PDF](https://www.ibm.com/developerworks/library/ws-soad1/ws-soad1-pdf.pdf))
     <!-- * SOMA and similar proprietary methods (see this paper) -->
 
+["The Software Architect’s Role in the Digital Age"](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) reports the state-of-the art and the practice (as of 2016).
 
-### Personal toolboxes (general purpose, not limited to service design)
+### Personal Toolboxes (General Purpose, not Limited to Service Design)
 
 Ordered alphabetically: 
 
@@ -70,7 +70,7 @@ Ordered alphabetically:
 Olaf Zimmermann's take is summarized in [this blog post](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) (that also introduces DPR) and [this page in DPR](./olzzio.md). 
 
 
-### More Information (Application Examples, Links to other Method and Repositories)
+### More Information (Application Examples, Links to other Methods and Repositories)
 <!--
 Here are some additional resources and references:
 
@@ -85,24 +85,24 @@ Here are some additional resources and references:
 
 General purpose:
 
-* The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level Domain-Driven Design (DDD). A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
+* The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level DDD. A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
 * [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its younger "sibling" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
-* Articles [on design](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
+* Articles ["On Design"](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
 * [Methods and Tools](http://www.methodsandtools.com/) is an online "Software Development Magazine - Project Management, Programming, Software Testing".
 
 API and service design:
 
 * Sam Newman's second book "Monolith to Microservices" features database decomposition patterns 
 * The demo [Domain-Driven Service Design with Context Mapper and MDSL](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) take you from user stories to running microservice architecture in seven (plus two) steps.
-* [MAP tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/#tutorial-2) (not public yet, but access can be granted upon request) features a good share of the tasks describes in this repository.
-* The [Service Cutter wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
+* [MAP Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/#tutorial-2) (not public yet, but access can be granted upon request) features a good share of the tasks describes in this repository.
+* The [Service Cutter Wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
 
 See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4) for more pointers.
 
 
 ### Site Navigation
 
-* [Top-level readme for the DPR repository](../README.md): getting started information, terminology clarification, metadata
+* [Top-level readme for DPR](../README.md): getting started information, terminology clarification, metadata
 * [Artifact templates](../artifact-templates) 
 * [Activities](../activities)
 * [Roles](../roles)
@@ -114,8 +114,8 @@ See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-toward
 ```yaml
 title: "Design Practice Repository (DPR): Background Information"
 author: Olaf Zimmermann (ZIO)
-date: "12, 4, 2020 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 12, 2021 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 
