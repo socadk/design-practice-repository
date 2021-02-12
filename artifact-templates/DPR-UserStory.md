@@ -33,7 +33,7 @@ The Connextra format ("role-feature-benefit/reason") is a popular one:
 
 > As a `[role/persona]`, I want to `[feature, in verb form]` so that `[benefit]`.
 
-See the [glossary entry](https://www.agilealliance.org/glossary/user-story-template/).
+See the [glossary entry](https://www.agilealliance.org/glossary/user-story-template/) at the Agile Alliance.
 
 
 ### Example(s)
@@ -55,10 +55,10 @@ The [Context Mapper](https://contextmapper.org/) DSL has first class support for
 ### Hints and Pitfalls to Avoid
 
 * Do not create models or specifications as an excuse for interactions and conversations with end users of the software under construction. When creating libraries, frameworks, or APIs, the client developers are your users. 
+* Do not confuse benefit with outcome in the third part of the who-what-why template. The [glossary entry at the Agile Alliance](https://www.agilealliance.org/glossary/user-story-template/) clearly states: "So that (why they want to accomplish that thing)".
 * Continuously update the stories while learning about users and their requirements.
 * [INVEST](https://www.agilealliance.org/glossary/invest) in story quality.
-* Practice [Story Splitting](../activities/DPR-StorySplitting.md) to make stories fit into single sprints/iterations (and to identify candidate components for [architecture modeling](../activities/DPR-ArchitectureModeling.md), including potential [API endpoints](SDPR-CandidateEndpointList.md)).
-* Also consider story mapping and example mapping.
+* Practice [Story Splitting](../activities/DPR-StorySplitting.md) to make stories fit into single sprints/iterations (and to identify candidate components for [architecture modeling](../activities/DPR-ArchitectureModeling.md), including potential [API endpoints](SDPR-CandidateEndpointList.md)). Also consider story mapping and example mapping.
 
 
 ### Origins and Signs of Use
