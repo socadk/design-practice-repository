@@ -108,7 +108,7 @@ More information can be found in UML books and [dedicated literature](https://en
 ```yaml
 title: "Design Practice Repository (DPR): Use Case/Use Case Model"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "02, 12, 2020 (Source: Project DD-DSE)"
+date: "02, 12, 2021 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
