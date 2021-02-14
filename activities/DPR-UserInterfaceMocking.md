@@ -26,9 +26,9 @@ For example, should a service use [Pagination](https://www.microservice-api-patt
 ### Instructions (Synopsis, Definition)
 The fidelity of user interfaces mockups <!-- ZIO4STX: add "(a.k.a. mocks)"? STX4ZIO: Hm, no I don't think so, to me "mocks" refers to the testing concept of a mock, an imitation, whereas a mockup is a simple model. --> varies between hand-drawn sketches to pixel perfect, clickable prototypes. A middle way of a rough grayscale layout (to make clear that this is just a mockup and should not be taken as representing the exact outcome) that shows the UI elements and approximate position offers a good cost-benefit ratio.
 
-According to [Balsamiq's Five Steps to Creating Great Wireframes](https://balsamiq.com/learn/articles/five-steps-to-great-wireframes/), creating a wireframe comprises five steps: 
+According to [Balsamiq](https://balsamiq.com/learn/articles/five-steps-to-great-wireframes/), creating a wireframe comprises the following five steps: 
 
-1. *Articulate* the scenario you're addressing. Input for this comes from [User Stories](../artifact-templates/DPR-UserStory) and [Use Cases](../artifact-templates/DPR-UseCase).
+1. *Articulate* the scenario you are addressing. Input for this comes from [User Stories](../artifact-templates/DPR-UserStory) and [Use Cases](../artifact-templates/DPR-UseCase).
 1. *Generate* a first mockup, and
 1. *Iterate* until you have a few variations for each screen.
 1. *Communicate* your results to your team and
@@ -41,7 +41,7 @@ The resulting wireframes support [Stepwise Service Design](DPR-StepwiseServiceDe
 
 The following wireframe shows a rather simple and basic screen for user management. But it still contains some valuable information for our service design:
 
-* Users can be created, edited and removed. This hints at role of our service: it's probably an [Information Holder](https://www.microservice-api-patterns.org/patterns/responsibility/endpointRoles/InformationHolderResource).
+* Users can be created, edited and removed. This hints at the role of our service: it is probably an [Information Holder](https://www.microservice-api-patterns.org/patterns/responsibility/endpointRoles/InformationHolderResource).
 * Users can be copied. This might be relevant for our service, but it could maybe also be implemented just on the client side.
 * The navigation elements at the bottom of the page suggest that there will be a large number of users and that they can be [navigated in pages](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination). 
 
@@ -76,7 +76,7 @@ Typically user experience specialist, designer, developer; anyone can do it!
 
 
 #### Practices and Techniques (Refinements, Guides)
-User interface mocks can be done with pen and paper and of course with any general purpose graphics software. Specialized tools also exist, here is a non-exhaustive list:
+User interface mockups can be done with pen and paper and of course with any general purpose graphics software. Specialized tools also exist, here is a non-exhaustive list:
 
 * [Adobe XD](https://www.adobe.com/products/xd.html)
 * [Balsamiq Wireframes](https://balsamiq.com/) (used for the example above)
@@ -93,8 +93,8 @@ See [This course on user interface design intro](https://balsamiq.com/learn/cour
 
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique User Interface Mocking"
-author: Mirko Stocker (STX)
-date: "02, 12, 2021 (Source: Project DD-DSE)"
+author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
+date: "02, 14, 2021 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

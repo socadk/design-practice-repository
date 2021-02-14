@@ -1,7 +1,7 @@
 ---
 Scope: Entire system, subsystems, components
 Phases: Analysis, requirements engineering
-Roles: Business analysts, domain experts; application architects
+Roles: Business analysts, domain experts, application architects
 Activities: Use Case Modeling
 Abstraction/Refinement Level: Multiple, from abstract/early to refined/concrete
 ---
@@ -34,7 +34,7 @@ More elaborate templates also include:
 * *Postconditions* to indicate changes in the system after the use case was executed.
 * *Alternatives* in the flow of interactions, e.g. to handle errors or special cases. 
 
-Most templates are variations of the fully-dressed template described in @Cockburn:2001 (can also be found on [Wikipedia](https://en.wikipedia.org/wiki/Use_case#Fully_dressed)). One example of a brief notation can be found in the [Context Mapper DSL](https://contextmapper.org/docs/user-requirements/).
+Most templates are variations of the fully-dressed template described in @Cockburn:2001 (also available on [Wikipedia](https://en.wikipedia.org/wiki/Use_case#Fully_dressed)). One example of a brief notation is shown in the [Context Mapper DSL](https://contextmapper.org/docs/user-requirements/).
 
 Here is an example template:
 
@@ -50,7 +50,7 @@ Pre: ___
 Post: ___
 ```
 
-The sum of all use cases forms the *use case model* and can be accompanied by a UML [*Use Case Diagram*](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/) to show the relationships between actors and use cases.
+The sum of all use cases forms the *use case model* <!-- TODO STX: Find a reference, IIRC the term originates from RUP. --> and can be accompanied by a UML [*Use Case Diagram*](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/) to show the relationships between actors and use cases.
 
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
@@ -58,15 +58,15 @@ The sum of all use cases forms the *use case model* and can be accompanied by a 
 ```
 # UC 1: Change Profile Picture
 
-Pre: The social network user has created an account and is logged in.
+Pre: The social network influencer has created an account and is logged in.
 
-1. The user uploads an image from his/her computer.
+1. The influencer uploads an image from his/her computer.
 2. The system verifies that the image satisfies the size constraints.
-3. The user crops and/or zooms the image.
-4. The user indicates that they want to use the new image as his/her profile picture.
+3. The influencer crops and/or zooms the image.
+4. The influencer indicates that they want to use the new image as his/her profile picture.
 5. The system saves the image and updates the user profile.
 
-Post: The user's profile picture has been changed.
+Post: The influencer's profile picture has been changed.
 ```
 
 
@@ -98,9 +98,9 @@ The history of use cases dates back to Ivar Jacobson in 1986. They are an essent
 
 ### More Information
 
-Larman's @Larman:2004 Chapter on Use Cases is [available as a free sample](https://www.craiglarman.com/wiki/index.php?title=Book_Applying_UML_and_Patterns).
+Larman's @Larman:2004 Chapter on [Use Cases]((https://www.craiglarman.com/wiki/index.php?title=Book_Applying_UML_and_Patterns)) is available as a free sample.
 
-More information can be found in UML books and [dedicated literature](https://en.wikipedia.org/wiki/Use_case#Further_reading).
+More information is available in UML books and [dedicated literature](https://en.wikipedia.org/wiki/Use_case#Further_reading).
 
 
 ### Data Provenance 
