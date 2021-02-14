@@ -24,7 +24,7 @@ For example, should a service use [Pagination](https://www.microservice-api-patt
 *When not to use*. Services and APIs serve different purposes. Some are tailored to a specific frontend (so-called [Backends-for-Frontend](https://samnewman.io/patterns/architectural/bff/) pattern), while others are built for a yet unknown client (i.e., when your product offering is the API itself). If you are not planning on also creating a client for the service, then doing a mockup of its interface might not be the best approach and you might be better served by [Stepwise Service Design](DPR-StepwiseServiceDesign) instead.
 
 ### Instructions (Synopsis, Definition)
-The fidelity of user interfaces mockups <!-- ZIO4STX: add "(a.k.a. mocks)"? --> varies between hand-drawn sketches to pixel perfect, clickable prototypes. A middle way of a rough grayscale layout (to make clear that this is just a mockup and should not be taken as representing the exact outcome) that shows the UI elements and approximate position offers a good cost-benefit ratio.
+The fidelity of user interfaces mockups <!-- ZIO4STX: add "(a.k.a. mocks)"? STX4ZIO: Hm, no I don't think so, to me "mocks" refers to the testing concept of a mock, an imitation, whereas a mockup is a simple model. --> varies between hand-drawn sketches to pixel perfect, clickable prototypes. A middle way of a rough grayscale layout (to make clear that this is just a mockup and should not be taken as representing the exact outcome) that shows the UI elements and approximate position offers a good cost-benefit ratio.
 
 According to [Balsamiq's Five Steps to Creating Great Wireframes](https://balsamiq.com/learn/articles/five-steps-to-great-wireframes/), creating a wireframe comprises five steps: 
 
@@ -52,7 +52,7 @@ Creating some sort of mockup (whether that is a paper prototype or fully interac
 
 
 ### Hints and Pitfalls to Avoid
-Take care not to loose yourself in details, so do not use a graphics program that lets you create a pixel-perfect design, but keep it rough, just like in the example above. <!-- ZIO4STX: pls check edit --> This saves time and allows you to focus on the task at hand: figuring out the coarse-grained layout and content of your screens. As an additional benefit, this also clearly communicates to the other stakeholders that you are still far from a working application.
+Take care not to loose yourself in details, so do not use a graphics program that lets you create a pixel-perfect design, but keep it rough, just like in the example above. This saves time and allows you to focus on the task at hand: figuring out the coarse-grained layout and content of your screens. As an additional benefit, this also clearly communicates to the other stakeholders that you are still far from a working application.
 
 
 ### Origins and Signs of Use
