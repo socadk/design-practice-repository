@@ -7,8 +7,8 @@ Abstraction/Refinement Level: Conceptual
 ---
 
 
-Artifact/Template: Template: *DDD Context Map*
-----------------------------------------------
+Artifact/Template: *DDD Context Map*
+------------------------------------
 
 ### Motivation (Addressed Information Need)
 A context map visualizes the relationships between [Bounded Contexts]() in [Strategic DDD](../activities/DPR-StrategicDDD.md). Several types of such relationships have been described as patterns; Bounded Contexts abstract from functional feature sets, existing or future application or systems as well as teams.
@@ -59,7 +59,7 @@ ContextMap DDDSampleMap {
 
 * Decide which type(s) of Bounded Context to support: Feature? Application? System? Team?  
 * Specify the arrow/relationship semantics (DDD patterns? other?) and provide a figure legend as DDD does not mandate any particular notation.
-* See [architecture modeling activity](../activities/DPR-ArchitectureModeling.md) for more modeling hints, including variants of the general "keep it simple" rule.
+* See [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity for more modeling hints, including variants of the general "keep it simple" rule.
 
 
 ### Origins and Signs of Use
@@ -78,9 +78,11 @@ See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md) f
 
 ["Strategic Domain Driven Design with Context Mapping "](https://www.infoq.com/articles/ddd-contextmapping/) by A. Brandolini introduces context maps by scenario and example.
 
-Context Maps are covered in depth in the book "Implementing Domain-Driven Design" by V. Vernon (@Vernon:2013).
+Context Maps are covered in depth in the book ["Implementing Domain-Driven Design"](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577) by V. Vernon (@Vernon:2013).
 
-The language reference of the Context Mapper DSL can be found [here](https://contextmapper.org/docs/context-map/) and [this conference presentation](https://contextmapper.org/media/ZIOSK-Modelsward-Paper-Presentation-v101p.pdf) gives an overview. <!-- FAST not published in paper yet, Modelsward CCIS or SummerSoC -->
+The language reference of the Context Mapper DSL can be found [here](https://contextmapper.org/docs/context-map/) and [this conference presentation](https://contextmapper.org/media/ZIOSK-Modelsward-Paper-Presentation-v101p.pdf) gives an overview.
+
+The Feature, Application, System, Team taxonomy is introduced in ["Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper,"](https://contextmapper.org/media/978-3-030-67445-8_11_AuthorsCopy.pdf) by S. Kapferer and O. Zimmermann.
 
 
 ### Data Provenance 
@@ -88,7 +90,7 @@ The language reference of the Context Mapper DSL can be found [here](https://con
 ```yaml
 title: "Design Practice Repository (DPR): Context Map (Strategic DDD)"
 author: Olaf Zimmermann (ZIO)
-date: "10, 16, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 18, 2020 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
