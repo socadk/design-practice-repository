@@ -123,7 +123,7 @@ Finally, there is a proposed for ["A Definition of Done for Architectural Decisi
 ```yaml
 title: "Design Practice Repository (DPR): Architectural Decision Capturing"
 author: Olaf Zimmermann (ZIO)
-date: "08, 14, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 26, 2020 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

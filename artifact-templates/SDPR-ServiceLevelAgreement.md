@@ -60,7 +60,7 @@ Terms and Conditions (Ts&Cs) documents of API use are less formal, but similar i
 
 
 ### More Information
-See this Userlike blog post on [Service Level Agreement - Best Practices & Crucial Elements](https://www.userlike.com/en/blog/service-level-agreement-best-practices).
+See this Userlike blog post ["Service Level Agreement - Best Practices & Crucial Elements"](https://www.userlike.com/en/blog/service-level-agreement-best-practices).
 
 
 ### Data Provenance 
@@ -68,7 +68,7 @@ See this Userlike blog post on [Service Level Agreement - Best Practices & Cruci
 ```yaml
 title: "Design Practice Repository (DPR): Service Level Agreement"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "10, 16, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 26, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020 -2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
