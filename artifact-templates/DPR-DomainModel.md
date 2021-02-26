@@ -1,8 +1,8 @@
 ---
-Scope: From system to component to classes
-Phases: Analysis, Design 
-Roles: Domain Expert, Designer 
-Activities: OOAD, Tactic DDD 
+Scope: From system to components to classes
+Phases: Analysis, design 
+Roles: Domain expert, designer 
+Activities: Object-oriented analysis and design, tactic DDD 
 Abstraction/Refinement Level: multiple 
 ---
 
@@ -31,11 +31,11 @@ UML class diagrams are the most commonly used notation for domain models. Keep i
 
 
 ### Example(s)
-A minimal domain model can start with just the classes and their relations. For example, here's a very simple domain model for an e-commerce site:
+A minimal domain model can start with just the classes and their relations. For example, here is a very simple domain model for an e-commerce site:
 
 ![](./images/Domain-Model-Simple.png)
 
-This can then be fleshed out with more details, for example more specific relations, attributes and methods:
+This can then be fleshed out with more details, for example more specific relations, attributes, and methods:
 
 ![](./images/Domain-Model-Elaborate.png)
 
@@ -49,28 +49,28 @@ Pen and paper or a whiteboard are enough to get started on a simple model. The e
 
 ### Hints and Pitfalls to Avoid
 
-* A domain model is not a data-centric entity-relationship (ER) diagram, even if these two artifacts might look very similar at the first glance. For instance, the domain model for example does not contain any notion of primary keys, whereas the typical ER diagram does not use inheritance. Domain models are supposed to feature attributes *and* operations. Martin Fowler warns about such [Anemic Domain Models](https://www.martinfowler.com/bliki/AnemicDomainModel.html) in his bliki.
-* A domain model can serve as an early check to see whether the desired functionality can be implemented, e.g. by making sure that all required relationships are present.
-* The refinement of the domain model as more use cases/user stories are implemented and the design evolves should not be forgotten (but often is).
+* A domain model is not a data-centric [Entity-Relationship (ER) Diagram](https://www.lucidchart.com/pages/er-diagrams), even if these two artifacts might look very similar at the first glance. For instance, a domain model does not contain any notion of primary keys, whereas the typical ER diagram does not use inheritance. Domain models are supposed to feature attributes *and* operations. Martin Fowler warns about such [Anemic Domain Models](https://www.martinfowler.com/bliki/AnemicDomainModel.html) in his bliki.
+* A domain model may serve as an early check to see whether the desired functionality can be implemented, e.g. by making sure that all required relationships are present.
+* The refinement of the domain model should not be forgotten as more use cases or user stories are implemented and the design evolves (but often is).
 
 
 ### Origins and Signs of Use
 When UML-based methods and their predecessors are applied, chances are that a domain model is present:
 
-* "UML Components" by Cheesman/Daniels has a *business type model* artifact (which is an early OOA Domain Model)
-* Larman's book on UML and patterns covers OOA and OOD. 
+* ["UML Components"](https://www.pearson.com/us/higher-education/program/Cheesman-UML-Components-A-Simple-Process-for-Specifying-Component-Based-Software/PGM319361.html) by John Cheesman and John Daniels has a *business type model* artifact (which is an early OOA domain model).
+* Craig Larman's book ["Applying UML and Patterns"](https://www.craiglarman.com/wiki/index.php?title=Book_Applying_UML_and_Patterns) covers OOA and OOD. 
 * [Tactic DDD](../activities/DPR-TacticDDD.md) can be seen as domain modeling "on stereoids".
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
 
-* E/R diagrams from Structured Analysis (SA) can be used alternatively.
+* ER diagrams from [Structured Analysis (SA)](https://en.wikipedia.org/wiki/Structured_analysis) can be used alternatively.
 * Informal glossaries of the project's ubiquitous language can feed the domain model, or be extracted from it.
 * Code-level class diagrams might use the same notation, but have a different purpose. 
 
 
 ### More Information
-While often associated with object oriented languages, domain modeling can also be used in functional programming languages. See Debasish Ghosh's [Functional and Reactive Domain Modeling](https://www.manning.com/books/functional-and-reactive-domain-modeling). 
+While often associated with object oriented languages, domain modeling can also be used in functional programming languages. See Debasish Ghosh's book ["Functional and Reactive Domain Modeling"](https://www.manning.com/books/functional-and-reactive-domain-modeling). 
 
 
 ### Data Provenance 
@@ -78,7 +78,7 @@ While often associated with object oriented languages, domain modeling can also 
 ```yaml
 title: "Design Practice Repository (DPR): Domain Model"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "08, 14, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "02, 26, 2021 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

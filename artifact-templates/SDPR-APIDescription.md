@@ -23,7 +23,7 @@ Desired qualities are understandability, interoperability, and extensibility (pr
 
 
 ### Usage (Produced and Consumed When)
-Explicit, both human- and machine readable API descriptions (or service contracts) are typically created during design elaboration and transition activities. In the seven-step [Service Design](../activities/SDPR-StepwiseServiceDesign.md) activity in DPR, they are created in Step 6 (and then evolved in Step 7).
+Explicit, both human- and machine readable API specifications (or service contracts) are typically created during design elaboration and transition activities. In the seven-step [Service Design](../activities/SDPR-StepwiseServiceDesign.md) activity in DPR, they are created in Step 6 (and then evolved in Step 7).
 
 Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) features "Create a Semantic Profile" as step 5. Service description and profile formats are created in this step, hence it produces an API Description in DPR and MAP terms.
 
@@ -35,7 +35,7 @@ The [API Description](https://microservice-api-patterns.org/patterns/foundation/
 
 
 ### Example(s)
-A minimal technical API description is (notation: [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/)):
+A minimal technical API Description is (notation: [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
 ~~~
 API description HelloWorldAPI
@@ -93,7 +93,7 @@ Usage of Open API specifications or other platform- and technology-specific IDLs
 
 ### More Information
 
-* The [Known Uses](https://microservice-api-patterns.org/patterns/foundation/APIDescription#sec:APIDescription:KnownUses) section of the API description pattern lists many notations and tools. 
+* The [Known Uses](https://microservice-api-patterns.org/patterns/foundation/APIDescription#sec:APIDescription:KnownUses) section of the API Description pattern lists many notations and tools. 
 * [APIs.guru](APIs.guru) aims at creating "the most comprehensive, standards-compliant and up-to-date directory of machine-readable API definitions" [here](https://github.com/APIs-guru/openapi-directory).
 * The [Programmable Web](https://www.programmableweb.com/) also lists countless APIs and contract information (not all entries seem to be up to date).
 
