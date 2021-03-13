@@ -11,7 +11,7 @@ See repo-LEVEL README.md for the time being.
 
 Activities:
 
-* [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md)
+* [Architectural Decision Capturing](activities/DPR-ArchitecturalDecisionCapturing.md)
 * [Stepwise Service Design](activities/SDPR-StepwiseServiceDesign.md) practice.
 
 Artifact templates:
