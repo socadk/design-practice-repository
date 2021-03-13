@@ -1,18 +1,21 @@
 ## Welcome to DPR (Git Pages Edition)
 
-See repo-LEVEL README.md for the time being.
+*Note:* These Gut Pages are still experimental and incomplete. 
+
+Please use the repository-level [README.md](https://github.com/socadk/design-practice-repository/blob/master/README.md) as entry into DPR for the time being.
 
 ### Navigation
 
 * [Artifact templates](./artifact-templates/README.md) 
 * [Activities](./activities/README.md)
+* [Roles](./roles/README.md)
 
 ### Popular
 
 Activities:
 
 * [Architectural Decision Capturing](activities/DPR-ArchitecturalDecisionCapturing.md)
-* [Stepwise Service Design](activities/SDPR-StepwiseServiceDesign.md) practice.
+<!-- * [Stepwise Service Design](activities/SDPR-StepwiseServiceDesign.md) practice. -->
 
 Artifact templates:
 
@@ -20,6 +23,6 @@ Artifact templates:
 
 ### Other resources
 
-* Blog [The Concerned Architect](https://ozimmer.ch/blog/)
+* Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)
 
-(c) Olaf Zimmermann, 2021. All rights reserved. Licensed as Creative Commons (see repo). 
+(c) Olaf Zimmermann, 2021. All rights reserved. Licensed as Creative Commons (see repository). 
