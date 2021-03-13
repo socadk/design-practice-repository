@@ -23,7 +23,7 @@ Artifact templates:
 
 Roles:
 
-* 
+* [Application Architect](roles/DPR-ApplicationArchitectRole.md)
 
 ### Other resources
 
