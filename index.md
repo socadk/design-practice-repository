@@ -21,6 +21,10 @@ Artifact templates:
 
 * [Y-shaped Architecture Decision Records (ADRs)](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md).
 
+Roles:
+
+* 
+
 ### Other resources
 
 * Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)
