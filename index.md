@@ -4,13 +4,14 @@ See repo-LEVEL README.md for the time being.
 
 ### Navigation
 
-* [Artifact templates](./artifact-templates) 
-* [Activities](./activities)
+* [Artifact templates](./artifact-templates/README.md) 
+* [Activities](./activities/README.md)
 
 ### Popular
 
 Activities:
 
+* [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md)
 * [Stepwise Service Design](activities/SDPR-StepwiseServiceDesign.md) practice.
 
 Artifact templates:
