@@ -1,6 +1,6 @@
 ## Welcome to DPR (Git Pages Edition)
 
-*Note:* These Gut Pages are still experimental and incomplete. 
+*Note:* These Git Pages are still experimental and incomplete. 
 
 Please use the repository-level [README.md](https://github.com/socadk/design-practice-repository/blob/master/README.md) as entry into DPR for the time being.
 
