@@ -8,11 +8,11 @@
 
 <!-- "DPR" pronounced "deeper"... and Se (or C?) can be pronounced "see", so [O] see deeper... or "steeper" ;-) -->
 
-*Welcome to DPR (pronounced "deeper")!* This public repository collects methods elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond).
+*Welcome to DPR (pronounced "deeper")!* This public repository collects method elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond).
 
 ## Target Audience 
 
-Here's the roles we have created this repository for, ordered from specific to generic:
+This repository targets the following software engineering roles, ordered from specific to generic:
 
 * [(Micro-)Service](https://medium.com/olzzio/seven-microservices-tenets-e97d6b0990a4) designers
 * [API product managers/owners](/roles/SDPR-APIProductOwner.md), developers, testers, maintainers 
@@ -34,11 +34,11 @@ As explained in [this introductory blog post](https://medium.com/olzzio/design-p
 
 DPR contains three types of method/practice elements:
 
-* The [artifact and template descriptions](artifact-templates) folder might be a good first stop. Try [Y-shaped Architecture Decision Records (ADRs)](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md).
+* The [artifact and template descriptions](artifact-templates) might be a good first stop. Try [Y-shaped Architecture Decision Records (ADRs)](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md).
 * Next up would be [activities and techniques](activities). You may want to start with our [Stepwise Service Design](activities/SDPR-StepwiseServiceDesign.md) practice.
-* Also there, but not very deeply populated is the [roles and personas](./roles) folder: [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md).
+* Also there, but not very deeply populated are the [roles and personas](./roles): [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md).
 
-The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and can invest a little more time). <!-- Not there yet: [examples](./examples) --> 
+The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
 We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 
@@ -58,9 +58,9 @@ Tutorial 1 also was enhanced, as well as several other activity and artifact des
 
 According to Martin Fowler, a service is a component with a remote Application Programming Interface (API). And services and their APIs [come in different sizes](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html), hence an engineering approach to designing them is required. That's all there is to say!
 
-If you want more conceptual clarifications, see this [blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html), this [presentation](https://vss.swa.univie.ac.at/2019/wp-content/uploads/2019/08/ZIO-DomainDrivenServiceDecompositionMAP2019v13p.pdf) or this [article](http://rdcu.be/mJPz) for a definition of microservices and positioning as an implementation approach to SOA.
+If you want more conceptual clarifications, see this [blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html), this [presentation](https://vss.swa.univie.ac.at/2019/wp-content/uploads/2019/08/ZIO-DomainDrivenServiceDecompositionMAP2019v13p.pdf), or this [article](http://rdcu.be/mJPz) for a definition of microservices and positioning as an implementation approach to SOA.
 
-The [Microservice API Patterns (MAP) website](https://microservice-api-patterns.org/), [introduction](https://drops.dagstuhl.de/opus/volltexte/2020/11826/) and [pattern papers](https://microservice-api-patterns.org/publications#interface-evolution-patterns--balancing-compatibility-and-extensibility-across-service-life-cycles) go even deeper and introduce terms such as endpoint, operation and message representations. 
+The [Microservice API Patterns (MAP) website](https://microservice-api-patterns.org/), [introduction](https://drops.dagstuhl.de/opus/volltexte/2020/11826/), and [pattern papers](https://microservice-api-patterns.org/publications#interface-evolution-patterns--balancing-compatibility-and-extensibility-across-service-life-cycles) go even deeper and introduce terms such as endpoint, operation, and message representations. 
 
 ### Situational Method Engineering
 
@@ -72,10 +72,10 @@ This terminology maps to that of other method engineers like this<!-- TODO (v2):
 
 | This repository | Agile community ([glossary](https://www.agilealliance.org/agile101/agile-glossary/))| OMG SPEM 2.0 ([PDF](https://www.omg.org/spec/SPEM/2.0/PDF)) | [Open Unified Process (UP)](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm) and other methods |
 |-|-|-|-|
-| [Role](./roles) | Persona, team member | Role | worker, stakeholder |
-| [Activity](activities) (with steps) | n/a (not plan-driven, backlog item types come close)  | task (with steps) | RUP: activity, OpenUP: task |
-| [Artifact](artifact-templates) | no direct pendant (template? documentation?) | work product | UP: artifact |
-| Technique (part of activity description)| practice | no direct pendant (tool comes close) | UP: guidance, guideline |
+| [Role](./roles) | Persona, team member | Role | Worker, stakeholder |
+| [Activity](activities) (with steps) | n/a (not plan-driven, backlog item types come close)  | Task (with steps) | RUP: activity, OpenUP: task |
+| [Artifact](artifact-templates) | No direct pendant (template? documentation?) | Work product | UP: artifact |
+| Technique (part of activity description)| Practice | No direct pendant (tool comes close) | UP: guidance, guideline |
 
 <!-- In SOAD, a phase has tasks, which in turn has steps; DPR is flat at present (folder) -->
 
@@ -97,7 +97,7 @@ Contributors (input, technical writing, feedback):
 * [Olaf Zimmermann (ZIO)](https://ozimmer.ch)
 * [Mirko Stocker (STX)](https://www.linkedin.com/in/misto/)
 
-Stefan Kapferer and [Oliver Kopp](https://ozimmer.ch/practices/2020/10/14/github.com/koppor/) reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
+[Stefan Kapferer](https://stefan.kapferer.ch/about/) and [Oliver Kopp](https://ozimmer.ch/practices/2020/10/14/github.com/koppor/) reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
 
 
 ## Getting Involved 
@@ -105,7 +105,7 @@ If you would like to help improve this collection of software/service/API design
 
 * Feel free to create GitHub issues.
 * Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
-    * The [contributing](./contributing) folder has templates for artifact, activity, role descriptions.
+    * The ["contributing" folder](./contributing) has templates for artifact, activity, role descriptions.
 * [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
 
 More information can be found [here](contributing/CONTRIBUTING.md).
