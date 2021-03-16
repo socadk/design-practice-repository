@@ -115,7 +115,10 @@ The more clients an API has and the longer it runs and the more mission-critical
 Let us repeat and emphasize again:
 
 * *Avoid &mdash; or spot and overcome &mdash; [analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis)*. Acknowledge the general rules of method engineering, including:
-> 1. If in doubt, leave it out, 2. Do not follow templates blindly, but adopt them to your needs, 3. Context matters. <!-- source: readmes for activities, artifacts, roles -->
+> 1. If in doubt, leave it out.
+> 2. Do not follow templates blindly, but adopt them to your needs. 
+> 3. Context matters. <!-- source: readmes for activities, artifacts, roles -->
+<!-- source: readmes for activities, artifacts, roles -->
 * *Do not follow the steps sequentially* but iterate, refactor, evolve stepwise. Iterate, refactor, evolve again. Iterate, refactor, evolve continuously. The logical ordering of the seven steps by no means implies waterfall or [Big Design Up Front (BDUF)](https://en.wikipedia.org/wiki/Big_Design_Up_Front). 
 
 You might want to *apply patterns* to optimize API qualities when evolving it:
