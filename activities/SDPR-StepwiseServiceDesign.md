@@ -38,9 +38,8 @@ This activity includes [domain-driven design](./DPR-TacticDDD.md); other forms o
 
 There is no single path to APIs and service endpoints of quality and style. When "surfing" the Web searching for advice regarding API design and (micro-)service size (or asking the elders), one "rides" at least seven "waves" of analysis and design work (called steps from now on):  
 
-<!-- Source: https://miro.com/app/embed/o9J_ko6VkCM=/? -->
 ![Service Design Workflow :Seven Steps from Analysis to Design, Realization, Evolution](images/SDPR-SevenServiceDesignSteps.png)
-<!-- not possible: HTML inlining/embedding as offered by miro: 
+<!-- miro (iframe): 
 <iframe width="640" height="360" src="https://miro.com/app/embed/o9J_ko6VkCM=/?" frameborder="0" scrolling="no" allowfullscreen></iframe>
 -->
 
