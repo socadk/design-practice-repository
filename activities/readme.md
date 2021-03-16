@@ -4,7 +4,7 @@
 ### Context and Motivation 
 As responsible software engineers, we do not like to be bossed around. Decentralized decision making and autonomous teams might not be listed explicitly as values in the [Agile Manifesto](https://www.agilealliance.org/agile101/the-agile-manifesto/), but are certainly valued and practiced a lot in agile teams and organizations.
 
-Agile does equal anarchy; agile teams actually are quite (self-)disciplined and employ a number of ceremonies (a.k.a. practices). Most of them are collected and commented upon elsewhere, for instance try the [Subway Map to Agile Practices](https://www.agilealliance.org/agile101/subway-map-to-agihle-practices/) and glossary by the Agile Alliance. Here in DPR, we focus on agile architecting and service/API design and collect some of the method elements, tactics, practices, etc. that served us well or that are frequently recommended, for instance in microservices books. These activities consume and produce the [artifacts](../artifact-templates) listed in a sibling folder, possibly supported by checklists and templates; they are owned and performed by one or more of the personas and [roles](../roles) also documented in this repository.
+Agile does equal anarchy; agile teams actually are quite (self-)disciplined and employ a number of ceremonies (a.k.a. practices). Most of them are collected and commented upon elsewhere, for instance try the [Subway Map to Agile Practices](https://www.agilealliance.org/agile101/subway-map-to-agile-practices/) and [glossary](https://www.agilealliance.org/agile101/agile-glossary/) by the Agile Alliance. Here in DPR, we focus on agile architecting and service/API design and collect some of the method elements, tactics, practices, etc. that served us well or that are frequently recommended, for instance in microservices books. These activities consume and produce the [artifacts](../artifact-templates) listed in a sibling folder, possibly supported by checklists and templates; they are owned and performed by one or more of the personas and [roles](../roles) also documented in this repository.
 
 One should never forget the first rule of method adoption: 
 
@@ -24,7 +24,7 @@ Other general hints for all design and modeling activities are: <!-- two typos o
 Particularly relevant for service/API design are:
 
 * [Strategic DDD](DPR-StrategicDDD.md) a.k.a. context mapping 
-* [Tactic DDD](DPR-TacticDDD.md) and/or [event storming results](https://contextmapper.org/docs/event-storming/) and other analysis practices 
+* [Tactic DDD](DPR-TacticDDD.md) models, [Event Storming](https://contextmapper.org/docs/event-storming/) results, and those from other analysis practices 
 * *Featured:* [Stepwise/Incremental Service Design](SDPR-StepwiseServiceDesign.md) (contract-first)
 * [User Interface Mocking](DPR-UserInterfaceMocking.md) (for APIs providing [Frontend Integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration) capabilities)
 * Integration Story Telling (for [Backend Integration](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration)) (to be continued)
@@ -39,10 +39,10 @@ Particularly relevant for service/API design are:
 #### Architectural Analysis
 
 * Analysis of Architecturally Significant Requirements (ASRs), both functional and quality-oriented. Activities may include:
-    * Relevance assessment and prioritization, which can be supported by a checklist of ASR criteria (see [this blog post](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490) for the time being)
+    * Relevance assessment and prioritization, which can be supported by a checklist of ASR criteria (see blog post ["Architectural Significance Test"](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490) for the time being)
     * User Story-Based Iteration Planning, Story Mapping and [Story Splitting](DPR-StorySplitting.md) 
     * [Use Case](../artifact-templates/DPR-UseCase.md) Modeling (full vs. brief)
-    * [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md), including value-, risk- and cost-based prioritization of NFRs, proposed and elaborated upon in an article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements)) and very much in line with George Fairbank's advice on [Just Enough Software Architecture](https://www.georgefairbanks.com/book/). [Quality storming](https://speakerdeck.com/mploed/quality-storming) has been proposed by Michael Ploed more recently. 
+    * [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md), including value-, risk-, and cost-based prioritization of NFRs, proposed in an article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements)); very much in line with George Fairbank's advice on [Just Enough Software Architecture](https://www.georgefairbanks.com/book/). [Quality storming](https://speakerdeck.com/mploed/quality-storming) has been proposed by Michael Ploed more recently. 
     * Specification of [Agile landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) (Rebecca Wirfs-Brock) 
 <!--
     * Quality story telling (two flavours: extended user story, standalone)
@@ -55,11 +55,11 @@ Particularly relevant for service/API design are:
     * "Architecture Overviewing" and Strategic Architecting
 * Quality- and Pattern-Oriented Design 
 	* [Attribute-Driven Design (ADD) 3.0](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536) 
-	* Pattern-Oriented Software Architecture (POSA) book series, Volume 4 in particular @Buschmann:2007.
+	* Pattern-Oriented Software Architecture (POSA) book series, Volume 4 in particular @Buschmann:2007
 * Component Identification and Modeling 
     <!-- * C4 (which extend into C5+2, adding Connectors, Context and Concerns) -->
     * [Responsibility-Driven Design](http://www.wirfs-brock.com/PDFs/A_Brief-Tour-of-RDD.pdf) introduces role stereotypes and made CRC cards popular.
-    * "UML Components" by J. Cheesman and J. Daniels suggests steps to advance from use cases to components @CheesmanDaniels:2000
+    * "UML Components" by John Cheesman and John Daniels suggests steps to advance from use cases to components @CheesmanDaniels:2000
 * [Architectural Decision Capturing](./DPR-ArchitecturalDecisionCapturing.md)
     * Yielding [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md), (M)ADRs or other forms of ADRs as artifacts 
     * Most Responsible Moment (MRM) scoring for ADs (dynamic?) <!-- MRM not LRM -->
@@ -93,7 +93,7 @@ Both lean/light and full-fledged techniques have been proposed:
 * Risk-driven prioritization, introduced in George Fairbank's "Just Enough Software Architecture" (@@Fairbanks:2010) <!-- hoisting?) -->
 * Thomas Ronzon's [Software Retrofit](https://www.researchgate.net/publication/296480151_Software_Retrofit_in_High-Availability_Systems_When_Uptime_Matters)
 
-Stefan Murer's book on "Managed Evolution" lists many more, and the [Evolution category in MAP]()collects patterns for API versioning and life cycle management.
+Stefan Murer's book on "Managed Evolution" lists many more, and the [Evolution category in MAP](https://microservice-api-patterns.org/patterns/evolution/) collects patterns for API versioning and life cycle management.
 
 #### IT Strategy and Enterprise/Program Architecture Work 
 
@@ -114,7 +114,7 @@ Many of the activities (techniques and practices, that is) collected in this rep
 Some of the ones we have contributed to, or work on, are:
 
 * [Context Mapper](https://contextmapper.org/) for domain modeling
-* Editor and linter for [Microservice API Description Language (MDSL)](https://microservice-api-patterns.github.io/MDSL-Specification/) for service contract design
+* Editor and Linter for [Microservice API Description Language (MDSL)](https://microservice-api-patterns.github.io/MDSL-Specification/) for service contract design
 * Architectural decision capturing and modeling: [MADR](https://github.com/adr/madr), [e-ADR](https://github.com/adr/e-adr), [ADMentor](https://github.com/IFS-HSR/ADMentor)
 
 More specific information, also about other tools, can be found on the individual pages.

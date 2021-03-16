@@ -7,9 +7,10 @@ Output: "Service contract (with technology mapping and protocol binding), SLA"
 Abstraction/Refinement Level: Both conceptual (platform-independent) and technical (platform-specific)
 ---
 
-[DPR Home](..) [DPR Home](/) [DPR Home](../)
+<!-- Navigation required for Git Pages -->
+[DPR Home](../README.md) [DPR Home](../index.md) [DPR Repo Home](https://github.com/socadk/design-practice-repository)
 <!-- Markua PoC: -->
-## [Activity: *Stepwise Service Design*](#ssid){#ssd}
+## [Activity: *Stepwise Service Design*](#ssid) {#ssd}
 also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
 
 ### Context
