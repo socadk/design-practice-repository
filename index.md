@@ -4,7 +4,7 @@
 
 <!-- Please use the repository-level [README.md](https://github.com/socadk/design-practice-repository/blob/master/README.md) as entry into DPR for the time being. -->
 
-Please use the [README](README.md) file as entry into these DPR pages for the time being.
+Please use the [README](./README.md) file as entry into these DPR pages for the time being.
 
 ### Navigation
 
