@@ -1,5 +1,5 @@
 
-## *DPR:* Activities in Service Design and Agile Architecting 
+## DPR: *Activities in Service Design and Agile Architecting*
 
 ### Context and Motivation 
 As responsible software engineers, we do not like to be bossed around. Decentralized decision making and autonomous teams might not be listed explicitly as values in the [Agile Manifesto](https://www.agilealliance.org/agile101/the-agile-manifesto/), but are certainly valued and practiced a lot in agile teams and organizations.
