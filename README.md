@@ -25,10 +25,10 @@ Here's the roles we have created this repository for, ordered from specific to g
 
 As explained in [this introductory blog post](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd), DPR is organized around *artifacts*, *templates*, *activities* and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
 
-<img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPG concepts visualized with miro"/>
+<img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPR concepts visualized with miro"/>
 
 <!-- not possible here (?): 
-<object height="100%" width="100%" data="./images/DPR-MetamodelMiro.svg" alt="DPG concepts visualized with miro">
+<object height="100%" width="100%" data="./images/DPR-MetamodelMiro.svg" alt="DPR concepts visualized with miro">
 </object>
 -->
 

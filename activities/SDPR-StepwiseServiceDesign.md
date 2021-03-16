@@ -21,7 +21,7 @@ The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) we
 * *How to ensure that services are loosely coupled? How much data should they exchange, and how often does this happen?*
 * *What are the most suitable message representations? How to agree on the meaning of each message?*"
 
-API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence software [architects](/roles/DPR-ApplicationArchitects.md) and developers collaborate on this activity; [API owners](/roles/SDPR-APIProductOwner) initiate and oversee this work.
+API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence software [architects](/roles/DPR-ApplicationArchitectRole.md) and developers collaborate on this activity; [API owners](/roles/SDPR-APIProductOwner) initiate and oversee this work.
 
 
 ### Goal and Purpose (When to Use and When not to Use)
