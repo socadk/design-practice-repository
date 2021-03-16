@@ -7,9 +7,12 @@ Output: "Service contract (with technology mapping and protocol binding), SLA"
 Abstraction/Refinement Level: Both conceptual (platform-independent) and technical (platform-specific)
 ---
 
-Activity: *Stepwise Service Design*
--------------------------------------
-a.k.a. Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
+<!-- Navigation required for Git Pages -->
+[DPR README](../README.md) [DPR Index](../index.md) [DPR Repo Home](https://github.com/socadk/design-practice-repository)
+<!-- Markua PoC: -->
+
+## [Activity: *Stepwise Service Design*](#ssid) {#ssd}
+also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
 
 
 ### Context
@@ -174,6 +177,7 @@ The SOAD project 2006 to 2009 compiled a number of architectural decisions that 
 
 Note that in microservices architectures, more options for these decisions (in transition from meta issues to actual decisions required) are available, and the decision drivers may vary too. See [this blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html) and [this article](http://rdcu.be/mJPz) for more information on microservices as an implementation approach to service-oriented architectures.
 
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository/)
 
 ### Data Provenance 
 
