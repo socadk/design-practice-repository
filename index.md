@@ -32,7 +32,11 @@ Roles:
 * [Application Architect](roles/DPR-ApplicationArchitectRole.md)
 * to be continued
 
-### Other resources
+### Preview (roadmap not confirmed yet)
+
+<iframe width='160' height='400' src='https://leanpub.com/dpr/embed' frameborder='0' allowtransparency='true'></iframe>
+
+### Other Resources
 
 * [Microservice API Patterns](https://microservice-api-patterns.org/) website 
 * Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)

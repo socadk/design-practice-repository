@@ -185,7 +185,7 @@ Note that in microservices architectures, more options for these decisions (in t
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "02, 02, 2021 (Source: Project DD-DSE)"
+date: "03, 16, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
