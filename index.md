@@ -32,7 +32,7 @@ Roles:
 * [Application Architect](roles/DPR-ApplicationArchitectRole.md)
 * to be continued
 
-### Other resources
+### Other Resources
 
 * [Microservice API Patterns](https://microservice-api-patterns.org/) website 
 * Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)
