@@ -6,7 +6,8 @@ Activities: All design work
 Abstraction/Refinement Level: All
 ---
 
-
+<!-- Navigation required for Git Pages -->
+[DPR Index (Git Pages Home)](../index.md)
 Artifact and Template: *Architectural Decision Record (Y-Form)*
 ---------------------------------------------------------------
 also known as: Y-Statement

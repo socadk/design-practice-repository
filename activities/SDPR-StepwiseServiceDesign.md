@@ -8,7 +8,7 @@ Abstraction/Refinement Level: Both conceptual (platform-independent) and technic
 ---
 
 <!-- Navigation required for Git Pages -->
-[DPR Index](../index.md)
+[DPR Index (Git Pages Home)](../index.md)
 <!-- Markua PoC: -->
 ## [Activity: *Stepwise Service Design*](#ssid) {#ssd}
 also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
