@@ -1,8 +1,8 @@
 ## Welcome to DPR (Git Pages Edition)
 
-*Note:* These Git Pages are still experimental, and this index page is incomplete. 
+*Note:* This index page only lists a subset of the available method elements. 
 <!-- Please use the repository-level [README.md](https://github.com/socadk/design-practice-repository/blob/master/README.md) as entry into DPR for the time being. -->
-Please use the [introduction](./introduction.md) page as entry into these DPR pages for the time being. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
+The [introduction](./introduction.md) page is a more comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
 
 ### Navigation
 
@@ -38,7 +38,7 @@ Roles:
 <iframe width='160' height='400' src='https://leanpub.com/dpr/embed' frameborder='0' allowtransparency='true'></iframe>
 -->
 
-### Bibiliography 
+### Bibliography 
 
 The books and other publications referenced in the artifact and activity descriptions are compiled [here](background-information/literature.md).
 
