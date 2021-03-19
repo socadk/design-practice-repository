@@ -66,7 +66,7 @@ The [Microservice API Patterns (MAP) website](https://microservice-api-patterns.
 
 DPR applies a best-of-breed approach. Our metamodel adopts parts of Chapter 2 from ["An Architectural Decision Modeling Framework for Service-Oriented Architecture Design"](https://elib.uni-stuttgart.de/handle/11682/2682)(SOAD): 
 
-![DPR metamodel (from SOAD PhD thesis)](./images/SOADMethodMetamodel.png)
+![DPR metamodel (from SOAD PhD thesis)](/images/SOADMethodMetamodel.png)
 
 This terminology maps to that of other method engineers like this<!-- TODO (v2): review terms again; RUP: https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf -->:
 
