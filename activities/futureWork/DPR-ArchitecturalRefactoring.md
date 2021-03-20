@@ -31,7 +31,7 @@ TODO
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?) -->  
 TODO
 
-![](./images/NN.png)
+![](/images/NN.png)
 
 
 ### Example(s)

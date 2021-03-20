@@ -112,7 +112,7 @@ Let us assume that the following [architectural decisions](../activities/DPR-Arc
 
 A very basic [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md) for this scenario (resulting from [Strategic DDD](../activities/DPR-StrategicDDD.md)) is:
 
-![](./models/DPR-DomainModelMiniTutorial_ContextMap.svg)
+![](/tutorials/models/DPR-DomainModelMiniTutorial_ContextMap.svg)
 
 
 ### Step 4: Identify Service Candidates, Select Architectural Patterns

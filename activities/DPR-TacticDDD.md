@@ -38,7 +38,7 @@ Key patterns in tactic DDD are:
 
 The original DDD book @Evans:2003 provides this pattern map for tactic DDD (showing more patterns):
 
-![](images/EE-TacticDDDPatternMap.png)
+![](/activities/images/EE-TacticDDDPatternMap.png)
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together. Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity. 
 

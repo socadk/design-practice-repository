@@ -27,17 +27,17 @@ Martin Fowler distinguishes between simple domain models, that "look very much l
 
 UML class diagrams are the most commonly used notation for domain models. Keep in mind that a domain model does not need to specify every detail of the resulting implementation, but should show the most important concepts and give the reader an understanding of the code. 
 
-![](./images/Domain-Model-Template.png)
+![](/artifact-templates//images/Domain-Model-Template.png)
 
 
 ### Example(s)
 A minimal domain model can start with just the classes and their relations. For example, here is a very simple domain model for an e-commerce site:
 
-![](./images/Domain-Model-Simple.png)
+![](/artifact-templates//images/Domain-Model-Simple.png)
 
 This can then be fleshed out with more details, for example more specific relations, attributes, and methods:
 
-![](./images/Domain-Model-Elaborate.png)
+![](/artifact-templates//images/Domain-Model-Elaborate.png)
 
 In a next step, the method names could be turned into full method signatures with fully typed parameter names and return values.
 

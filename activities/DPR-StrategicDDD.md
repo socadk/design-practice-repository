@@ -36,7 +36,7 @@ The key pattern in strategic DDD is *Bounded Context*, an abstraction of a funct
 * "A bounded context is an explicit boundary within which a domain model exists. Inside the boundary, all terms and phrases of the Ubiquitous Language have specific meaning, and the model reflects the language with exactness” (@Vernon:2013). 
 * M. Fowler emphasizes that a Bounded Context is explicit about its interrelationships in his [bliki article on Bounded Contexts](http://martinfowler.com/bliki/BoundedContext.html).
 
-![](./images/ZIO-StrategicDDDMetaModel.png)
+![](/activities/images/ZIO-StrategicDDDMetaModel.png)
 
 The original DDD book (@Evans:2003) defined an initial set of relations between contexts appearing in a map, e.g., the *Conformist* pattern. Later on, a few additional types were added, for instance *Partnership* and *Big Ball of Mud*. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), D. Haywood summarizes the original six patterns as this:
 

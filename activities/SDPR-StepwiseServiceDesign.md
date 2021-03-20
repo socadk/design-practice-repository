@@ -9,8 +9,8 @@ Abstraction/Refinement Level: Both conceptual (platform-independent) and technic
 
 <!-- Navigation required for Git Pages -->
 [DPR Index](../index.md)
-<!-- Markua PoC: -->
-## [Activity: *Stepwise Service Design*](#ssid) {#ssd}
+
+## Activity: *Stepwise Service Design*
 also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
 
 ### Context
@@ -38,7 +38,7 @@ This activity includes [domain-driven design](./DPR-TacticDDD.md); other forms o
 
 There is no single path to APIs and service endpoints of quality and style. When "surfing" the Web searching for advice regarding API design and (micro-)service size (or asking the elders), one "rides" at least seven "waves" of analysis and design work (called steps from now on):  
 
-![Service Design Workflow :Seven Steps from Analysis to Design, Realization, Evolution](images/SDPR-SevenServiceDesignSteps.png)
+![Service Design Workflow :Seven Steps from Analysis to Design, Realization, Evolution](/activities/images/SDPR-SevenServiceDesignSteps.png)
 <!-- miro (iframe): 
 <iframe width="640" height="360" src="https://miro.com/app/embed/o9J_ko6VkCM=/?" frameborder="0" scrolling="no" allowfullscreen></iframe>
 -->
@@ -138,7 +138,7 @@ The DDD DSL tool Context Mapper supports some of the steps with its [model trans
 
 Produced artifacts: 
 
-* Architectural models (different viewpoints) and [CRC cards](../artifact-templates/CRCCard.md)
+* Architectural models (different viewpoints) and [CRC cards](../artifact-templates/DPR-CRCCard.md)
 * [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md) and [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md)
 * [API Description](../artifact-templates/SDPR-APIDescription.md) a.k.a. Service Contract
 * [Service Level Agreement](../artifact-templates/SDPR-APIDescription.md)
@@ -150,7 +150,7 @@ Produced artifacts:
 **EXPOSE.** Early presentations on MAP featured six endpoint/service identification and realization steps called EXPOSE:
 <!-- (see [this conference presentation]() 2018 seminar preso): --> 
 
-![](images/MAP-EXPOSEStepsInServiceDesign.png)
+![](/activities/images/MAP-EXPOSEStepsInServiceDesign.png)
 
 **Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices - unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and/or [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) are included in the architecture to decouple application and domain logic from integration and interface code.
 
@@ -173,7 +173,7 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 
 The SOAD project 2006 to 2009 compiled a number of architectural decisions that are required when designing service-oriented architectures. Being independent of application genre and architectural style, the meta issues in Table 2 from the SOAD paper ["Architectural Decision Identification in Architectural Patterns"](https://soadecisions.org/download/SOAD-SHARK2012v13Final.pdf) can guide the decision making in Steps 3 to 7:
 
-![Meta issues (decisions required) in service and API design](images/SOAD-MetaIssuesShark.png)
+![Meta issues (decisions required) in service and API design](/activities/images/SOAD-MetaIssuesShark.png)
 
 Note that in microservices architectures, more options for these decisions (in transition from meta issues to actual decisions required) are available, and the decision drivers may vary too. See [this blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html) and [this article](http://rdcu.be/mJPz) for more information on microservices as an implementation approach to service-oriented architectures.
 

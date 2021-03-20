@@ -31,7 +31,7 @@ Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/article
 ### Template Structure and Notation(s)
 The [API Description](https://microservice-api-patterns.org/patterns/foundation/APIDescription) on the MAP website advises to define "request and response message structures, error reporting, and other relevant parts of the technical knowledge to be shared between provider and client. In addition to static and structural information, also cover dynamic or behavioral aspects including invocation sequences, pre- and postconditions, and invariants. Complement the syntactical interface description with quality management policies as well as semantic specifications and organizational information."
 
-![](./images/ElaborateAPIDescription.png)
+![](/artifact-templates//images/ElaborateAPIDescription.png)
 
 
 ### Example(s)
