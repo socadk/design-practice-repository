@@ -38,7 +38,7 @@ Most templates are variations of the fully-dressed template described in @Cockbu
 
 Here is an example template:
 
-```
+```markdown
 # UC 1: Name
 
 Pre: ___
@@ -55,7 +55,7 @@ The sum of all use cases forms the *use case model* <!-- TODO STX: Find a refere
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-```
+```markdown
 # UC 1: Change Profile Picture
 
 Pre: The social network influencer has created an account and is logged in.
