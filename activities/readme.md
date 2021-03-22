@@ -90,7 +90,7 @@ Both lean/light and full-fledged techniques have been proposed:
 #### Architectural Evolution
 
 * Architectural Roadmapping, described by Eltjo Poort in an IEEE Software [Insights installment](https://ieeexplore.ieee.org/document/7725228?arnumber=7725228)
-* Risk-driven prioritization, introduced in George Fairbank's "Just Enough Software Architecture" (@@Fairbanks:2010) <!-- hoisting?) -->
+* Risk-driven prioritization, introduced in George Fairbank's "Just Enough Software Architecture" (@Fairbanks:2010) <!-- hoisting?) -->
 * Thomas Ronzon's [Software Retrofit](https://www.researchgate.net/publication/296480151_Software_Retrofit_in_High-Availability_Systems_When_Uptime_Matters)
 
 Stefan Murer's book on "Managed Evolution" lists many more, and the [Evolution category in MAP](https://microservice-api-patterns.org/patterns/evolution/) collects patterns for API versioning and life cycle management.

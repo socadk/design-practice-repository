@@ -71,7 +71,7 @@ To be able to serve their purpose, CRC cards should be expressive but also easy 
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
-The original [Class, Responsibilities, and Collaborators (CRC) cards](http://agilemodeling.com/artifacts/crcModel.htm) were invented by W. Cunningham (who also invented Wikis and came up with the Technical Debt metaphor) and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:RDD:2002). 
+The original [Class, Responsibilities, and Collaborators (CRC) cards](http://agilemodeling.com/artifacts/crcModel.htm) were invented by W. Cunningham (who also invented Wikis and came up with the Technical Debt metaphor) and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:2002). 
 
 On the architectural level, they are used in [Volume 1 of the POSA book series](https://www.wiley.com/en-us/Pattern+Oriented+Software+Architecture%2C+Volume+1%2C+A+System+of+Patterns-p-9780471958697) (@Buschmann:1996). See this [blog post by M. Stal from 2006](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. O. Zimmermann has been teaching them this way in his ["Application Architecture" lecture at HSR/OST](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) since 2013; M. Keeling features them as Activity 13 in ["Design It"](https://pragprog.com/titles/mkdsa/design-it/) (@Keeling:2019).
 
