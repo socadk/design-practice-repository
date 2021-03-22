@@ -42,6 +42,8 @@ not working:
 -->
 <img src="images/DPR-ArchitectureModeling.png" height="400" />
 
+![](/activities/images/DPR-ArchitectureModeling.png)
+
 <!-- TODO CE: typo in miro Guidelines -->
 
 1. Create a *system context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
