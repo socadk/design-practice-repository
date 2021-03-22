@@ -35,12 +35,7 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 *Derive the level of abstraction, breadth, depth and notation for any architecture model  you create from a set of stakeholder concerns and information needs caused by these concerns. Create one model/diagram per viewpoint (i.e., set of stakeholder concerns).* 
 
 For instance, four common modeling steps are: 
-<!-- Source: https://miro.com/app/board/o9J_kmvD-I0=/?fromEmbed=1 
-not working:
-![](images/DPR-ArchitectureModeling.png | width=100)
-![](images/DPR-ArchitectureModeling.png =250x250)
--->
-<img src="images/DPR-ArchitectureModeling.png" height="400" />
+<!-- Source: https://miro.com/app/board/o9J_kmvD-I0=/?fromEmbed=1 -->
 
 ![](/activities/images/DPR-ArchitectureModeling.png)
 
