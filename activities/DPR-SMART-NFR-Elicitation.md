@@ -8,8 +8,8 @@ Abstraction/Refinement Level: n/a (requirements)
 ---
 
 
-Activity: *SMART NFR Elicitation*
----------------------------------
+Activity/Technique: *SMART NFR Elicitation*
+--------------------------------------------
 
 <!-- TODO (v2) decide on split: "Group NFRs by Type" or "select taxonomy" could be a separate activity that features FURPS, etc.; activity vs. artifact? -->
 

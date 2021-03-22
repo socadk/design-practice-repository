@@ -14,8 +14,8 @@ Abstraction/Refinement Level: Technology-, platform-independent
 |   | ) |  |  |
 -->
 
-Practice: *Architectural Decision Capturing*
---------------------------------------------
+Activity/Technique: *Architectural Decision Capturing*
+------------------------------------------------------
 also known as: Decision Log(ging)
 
 ### Context 
