@@ -40,7 +40,7 @@ The key pattern in strategic DDD is *Bounded Context*, an abstraction of a funct
 
 The original DDD book (@Evans:2003) defined an initial set of relations between contexts appearing in a map, e.g., the *Conformist* pattern. Later on, a few additional types were added, for instance *Partnership* and *Big Ball of Mud*. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), D. Haywood summarizes the original six patterns as this:
 
-* *Shared Kernel*: "Two ounded context use a common kernel of code (for example a library) as a common lingua-franca, but otherwise do their other stuff in their own specific way."
+* *Shared Kernel*: "Two bounded contexts use a common kernel of code (for example a library) as a common lingua-franca, but otherwise do their other stuff in their own specific way."
 * *Open Host Service (OHS)*: "A Bounded Context specifies a protocol by which any other bounded context can use its services (e.g. a RESTful HTTP service or a SOAP Web service). This protocol exposes the Published Language."
 * *Published Language (PL)*: "The interacting bounded contexts agree on a common language (for example a bunch of XML schemas over an enterprise service bus) by which they can interact with each other."b
 * *Customer/Supplier* (a.k.a. Customer/Supplier Teams/Development): "One bounded context uses the services of another and is a stakeholder (customer) of that other bounded context. As such it can influence the services provided by that bounded context."
@@ -62,9 +62,7 @@ In Strategic DDD, you basically identify Bounded Contexts and then answer these 
 ### Example(s)
 The [Context Mapper website](https://contextmapper.org/docs/examples/) provides a number of examples of tactic and strategic, including a model of the [Lakeside Mutual](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/insurance-example) microservices ecosystem:
 
-
-<img src="https://raw.githubusercontent.com/ContextMapper/context-mapper-examples/master/src/main/cml/insurance-example/images/ContextMap-Illustration.png" height="70%" width="70%" />
-
+![](/activities/images/ContextMap-Illustration.png)
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 This [OOSPLA experience report](https://dddcommunity.org/wp-content/uploads/files/practitioner_reports/landre_einar_2006_part1.pdf) makes the case for strategic DDD. A [second paper from the same authors](https://dddcommunity.org/wp-content/uploads/files/practitioner_reports/landre_einar_2006_part2.pdf) reports on usage of strategic DDD in enterprise architecture management. 

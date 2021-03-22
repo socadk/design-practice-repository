@@ -93,10 +93,7 @@ Domain ECommerce {
 
 <!-- TODO show subset only? or OOA rather than OOD model? talk reader through figure, explain which tool was used to create it -->
 
-<!--
-![](./models/DPR-DomainModelVersion1.svg) 
--->
-<img src="./models/DPR-DomainModelVersion1.svg" height="600" />
+![](./models/DPR-DomainModelVersion1.png) 
 
 The above diagram qualifies as the visual part of the [domain model](../artifact-templates/DPR-DomainModel.md); on a real project, all figure/diagram elements would be explained (here or in a separate glossary).
 

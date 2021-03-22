@@ -46,7 +46,7 @@ Aggregates are object clusters serving as storage units, preserving consistency 
 
 The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (the root entities in an Aggregate):
 
-<img src="images/ZIO-AggregateCRC.png" height="400" />
+![](/activities/images/ZIO-AggregateCRC.png)
 
 **Aggregates and Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
 
@@ -78,8 +78,7 @@ The first meaning of the term is not in our focus here, but can be modeled as En
 **Modeling Steps**. In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
 
 1. Distinguish Entities (stateful) and Value Objects (stateless), and expose cross-cutting or supporting code that does not fit into any class well as Services (can start with a [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) per user story or use case).
-2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events. In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), S. Millet and S. Knight define Aggregate like this: "A single object graph may closely relate to the real domain but it does not make for an
-effective model. Treating the model as a single consistency boundary in a collaborative
+2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events. In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), S. Millet and S. Knight define Aggregate like this: "A single object graph may closely relate to the real domain, but it does not make for an effective model. Treating the model as a single consistency boundary in a collaborative
 domain can lead to conflict for changes that are completely unrelated. [...] Therefore: Decompose large objects structures into smaller objects groupings called aggregates which are based around invariants (business rules). An aggregate is a unit of consistency ensuring transactional boundaries are set at the right level of granularity to ensure a usable application by avoiding blocking at the database level."
 3. Add a Repository for each Aggregate (to implement lifecycle management) and add Factories as needed (generally speaking, never apply a pattern just because it exists; there has to be a solid business-level or technical justification for its use).
 
@@ -89,8 +88,7 @@ The [Context Mapper website](https://contextmapper.org/docs/examples/) provides 
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
-<img src="images/CM-TacticDDDCargoAggregate.png" height="500" />
-<!-- > ![](images/CM-TacticDDDCargoAggregate.png) -->
+![](/activities/images/CM-TacticDDDCargoAggregate.png)
 
 <!--
 png created from this puml source (had to add a blank to some relationship arrows):

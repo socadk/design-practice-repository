@@ -33,9 +33,7 @@ Another usage scenario for CRC cards is an interactive workshop or "design think
 
 An annotated template (with teaser questions) is:
 
-<img src="./images/ZIO-CRCCardNotationExplained.png" height="60%" width="60%" />
-<!-- 
-![CRC Card Notation Explained](./images/ZIO-CRCCardNotationExplained.png) -->
+![CRC Card Notation Explained](/artifact-templates/images/ZIO-CRCCardNotationExplained.png)
 
 Note that the template and the teaser questions deviate from the original CRC format a bit (applying our method engineering rule "do not follow templates blindly, but adopt them to your needs"). In the Responsibilities cell, functions, (externally visible) data, and qualities are mentioned; in the Collaborations cell, both inbound and outbound dependencies can be listed. Note that there is an extra cell asking for previous experiences and realizations with the candidate component (in support of the decision making use case of CRC cards).
 
@@ -45,10 +43,7 @@ This is an example of a filled out card (an entire layer is described here, rath
 
 <!-- IH CE: two more comments on figure -->
 
-<img src="./images/ZIO-CRCCardNotationExample.png" height="60%" width="60%" />
-<!-- 
-![CRC Card Notation Example](./images/ZIO-CRCCardNotationExample.png)
--->
+![CRC Card Notation Example](/artifact-templates/images/ZIO-CRCCardNotationExample.png)
 
 ### Tools
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
