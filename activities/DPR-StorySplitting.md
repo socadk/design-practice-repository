@@ -59,7 +59,7 @@ M. Cohn proposed five techniques under the moniker *SPIDR*, [explained in this b
 ### Example(s)
 Let us assume this top-level story (a.k.a. epic) from a telecommunications order management scenario:
 
-```
+```plain
 "As a Virtual Service Provider (VSP) and client of the PSTN (Public Switched Telephone Network) provider 'T', 
 I would like to create telephony orders on behalf of my end customers rapidly and reliably 
 so that they are satisfied and stay with me rather than switch to T or another VSP."
@@ -67,8 +67,8 @@ so that they are satisfied and stay with me rather than switch to T or another V
 
 Applying the splitting patterns may yield a result like this: <!-- IH CE: capitalization? confirm vs. technology -->
 
-<img src=".//images/ZIO-TStorySplitting.png" height="80%" width="80%" />
-<!-- ![Story splitting at "T"](./images/ZIO-TStorySplitting.png) -->
+![Story splitting at "T"](/activities/images/ZIO-TStorySplitting.png)
+
 <!-- replace with Spinnaker table from exercise? (and more text in sample solution? Mirko: Die Tabelle ist gut, aber es wäre schön, wenn man am Ende auch wieder Stories resultieren. -->
 
 

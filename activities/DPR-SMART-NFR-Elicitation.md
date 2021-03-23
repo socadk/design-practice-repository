@@ -8,8 +8,8 @@ Abstraction/Refinement Level: n/a (requirements)
 ---
 
 
-Activity: *SMART NFR Elicitation*
----------------------------------
+Activity/Technique: *SMART NFR Elicitation*
+--------------------------------------------
 
 <!-- TODO (v2) decide on split: "Group NFRs by Type" or "select taxonomy" could be a separate activity that features FURPS, etc.; activity vs. artifact? -->
 
@@ -31,7 +31,8 @@ Practical challenges of NFR elicitation include:
 Therefore, it is desirable to establish criteria and templates that allow architects and other participants in architectural analysis to overcome these challenge so that NFR elicitation and architectural analysis become effective and efficient.
 
 <!-- Source: https://miro.com/app/board/o9J_kmuX5tA=/?fromEmbed=1 -->
-<img src="images/DPR-NFRElicitation.png" height="400" />
+
+![](/activities/images/DPR-NFRElicitation.png)
 
 <!-- IH CE: capitalization not consistent in figure -->
 
