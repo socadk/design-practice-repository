@@ -7,8 +7,8 @@ Abstraction/Refinement Level: technology-agnostic, platform-independent
 ---
 
 
-Artifact/Template: Refined Endpoint List (REL)
-----------------------------------------------
+Artifact/Template: *Refined Endpoint List (REL)*
+------------------------------------------------
 also known as: Ordered Endpoint List, Final API Action Plan, Detailed API Roadmap, Resource Specifications <!-- from MAP -->
 
 

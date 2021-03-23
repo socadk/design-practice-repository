@@ -7,8 +7,8 @@ Abstraction/Refinement Level: technology-agnostic, platform-independent
 ---
 
 
-Artifact/Template: Candidate Endpoint List (CEL)
-------------------------------------------------
+Artifact/Template: *Candidate Endpoint List (CEL)*
+--------------------------------------------------
 also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, Resource Candidates <!-- from MAP -->
 
 ### Motivation (Addressed Information Need) 
