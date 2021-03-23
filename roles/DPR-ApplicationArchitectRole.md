@@ -1,3 +1,5 @@
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+
 ---
 Category: Architecture  
 Activities: SMART NFR Elicitation, Architectural Capturing, Architecture Modeling, Stepwise Service Design
