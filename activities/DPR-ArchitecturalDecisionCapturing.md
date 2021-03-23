@@ -14,7 +14,7 @@ Abstraction/Refinement Level: Technology-, platform-independent
 |   | ) |  |  |
 -->
 
-# [DPR Git Pages Home](https://socadk.github.io/design-practice-repository/)
+### [DPR Git Pages Home](https://socadk.github.io/design-practice-repository/)
 
 Activity/Technique: *Architectural Decision Capturing*
 ------------------------------------------------------

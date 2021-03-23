@@ -105,7 +105,7 @@ Let us assume that the following [architectural decisions](../activities/DPR-Arc
 
 * Two-tier client server (patterns: remote user interface, distributed application kernel)
 * <!-- Reactive --> JavaScript Web frontend
-* Java Spring backend 
+* Java Spring backend
 
 A very basic [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md) for this scenario (resulting from [Strategic DDD](../activities/DPR-StrategicDDD.md)) is:
 
