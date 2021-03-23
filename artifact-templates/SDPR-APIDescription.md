@@ -54,7 +54,8 @@ API provider HelloWorldAPIProvider
 
 API client HelloWorldAPIClient
   consumes HelloWorldEndpoint
-``` <!-- ~~~ -->
+``` 
+<!-- ~~~ -->
 
 The [Microservice Canvas](http://chrisrichardson.net/post/microservices/general/2019/02/27/microservice-canvas.html) template proposed by C. Richardson creates elaborate API Descriptions when filled out completely. The template includes implementation information, service invocation relationships, and events produced/subscribed to.
 
