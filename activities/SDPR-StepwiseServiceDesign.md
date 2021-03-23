@@ -10,9 +10,6 @@ Abstraction/Refinement Level: Both conceptual (platform-independent) and technic
 [Git Pages Home](https://socadk.github.io/design-practice-repository)
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
-<!-- Navigation required for Git Pages -->
-[DPR Index](../index.md)
-
 ## Activity/Technique: *Stepwise Service Design*
 also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
 
