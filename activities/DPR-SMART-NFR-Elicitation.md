@@ -32,7 +32,7 @@ Therefore, it is desirable to establish criteria and templates that allow archit
 
 <!-- Source: https://miro.com/app/board/o9J_kmuX5tA=/?fromEmbed=1 -->
 
-![](/activities/images/DPR-NFRElicitation.png)
+![](./images/DPR-NFRElicitation.png)
 
 <!-- IH CE: capitalization not consistent in figure -->
 

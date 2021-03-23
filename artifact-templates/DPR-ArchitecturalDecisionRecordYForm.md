@@ -28,7 +28,7 @@ The decision making and capturing activity in DPR is documented [here](../activi
 ### Template Structure and Notation(s)
 Y-Statements are often captured in plain but structured text (but tables in presentation tools, wiki pages and modeling tools can also be used):
 
-![](/artifact-templates/images/ADCaptureYTemplate.png)
+![](./images/ADCaptureYTemplate.png)
 
 <!-- TODO: check consistency of author names; DONE: feature tradeoff character of bottom half more -->
 

@@ -37,7 +37,7 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 For instance, four common modeling steps are: 
 <!-- Source: https://miro.com/app/board/o9J_kmvD-I0=/?fromEmbed=1 -->
 
-![](/activities/images/DPR-ArchitectureModeling.png)
+![](./images/DPR-ArchitectureModeling.png)
 
 <!-- TODO CE: typo in miro Guidelines -->
 

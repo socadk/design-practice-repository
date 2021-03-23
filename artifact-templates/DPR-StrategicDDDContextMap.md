@@ -26,7 +26,7 @@ See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) 
 ### Template Structure
 DDD as such does not mandate any notation. Each author and presenter has his/her own style. The following visualization of context maps has become quite popular:
 
-![](/artifact-templates/images/CargoDDD_ContextMap.png)
+![](./images/CargoDDD_ContextMap.png)
 
 
 ### Example(s)
