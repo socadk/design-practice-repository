@@ -7,9 +7,6 @@ Output: "Service contract (with technology mapping and protocol binding), SLA"
 Abstraction/Refinement Level: Both conceptual (platform-independent) and technical (platform-specific)
 ---
 
-<!-- Navigation required for Git Pages -->
-[DPR Index](../index.md)
-
 ## Activity/Technique: *Stepwise Service Design*
 also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
 
@@ -82,7 +79,7 @@ Our [Tutorial 1](../tutorials/DPR-Tutorial1.md) applies the seven steps to an on
 
 In a [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an Open API generator: 
 
-![Service Design Example (BPMN)](images/SDPR-ServiceDesignSteps.png)
+![Service Design Example (BPMN)](/activities/images/SDPR-ServiceDesignSteps.png)
 
 Finally, the microservices in the sample application [Lakeside Mutual](https://github.com/Microservice-API-Patterns/LakesideMutual) contain several [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) implemented as HTTP resources and DTOs that are serialized into JSON.
 

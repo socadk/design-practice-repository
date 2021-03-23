@@ -90,8 +90,9 @@ The main Aggregate of the Cargo sample application is shown in the following fig
 ![](/activities/images/CM-TacticDDDCargoAggregate.png)
 
 <!--
+
 png created from this puml source (had to add a blank to some relationship arrows):
-~~~
+
 @startuml
 
 skinparam componentStyle uml2
@@ -167,7 +168,7 @@ RoutingService -- > Itinerary : fetchRoutesForSpecification
 RoutingService -- > RouteSpecification : fetchRoutesForSpecification
 
 @enduml
-~~~
+
 -->
 
 [Context Mapper](https://contextmapper.org/), a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then bounded contexts (a strategic DDD pattern) containing Aggregates, Entities, and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/) and a comprehensive [end-to-end-demo](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2) features Tactic DDD and Context Mapper in combination wither service domain-specific languages and tools.
