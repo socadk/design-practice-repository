@@ -17,7 +17,7 @@ perl -ne '/@([\w:]+)/ && print "|$1|\@$1|\n";' **/*.md | sort | uniq
 
 4. Run the following command
  
-pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib --filter pandoc-citeproc background-information/literature.md
+pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib --citeproc background-information/literature.md
 
 5. Copy the generated bibliography (start from "<div id="refs" class="references hanging-indent" role="doc-bibliography">"), and replace the markdown table below this comment with the copied HTML.
 
