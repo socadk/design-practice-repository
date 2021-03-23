@@ -175,8 +175,6 @@ The SOAD project 2006 to 2009 compiled a number of architectural decisions that 
 
 Note that in microservices architectures, more options for these decisions (in transition from meta issues to actual decisions required) are available, and the decision drivers may vary too. See [this blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html) and [this article](http://rdcu.be/mJPz) for more information on microservices as an implementation approach to service-oriented architectures.
 
-[DPR Git Pages Home](https://socadk.github.io/design-practice-repository/)
-
 ### Data Provenance 
 
 ```yaml
