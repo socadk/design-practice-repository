@@ -2,9 +2,15 @@
 Scope: From system to components to classes
 Phases: Analysis, design 
 Roles: Domain expert, designer 
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Object-oriented analysis and design, tactic DDD 
 Abstraction/Refinement Level: multiple 
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *Domain Model*

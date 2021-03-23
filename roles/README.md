@@ -2,6 +2,9 @@
 
 ### Context and Motivation 
 
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Practices are employed by people on projects and/or building products; these people have one or more roles and responsibilities in their organizations. These role/persona descriptions will be kept light here, unlike in more traditional methods such as (R)UP or IBM UMF: 
 
 1. Names of stakeholders (of architecture and architectural artifacts) and their main concerns.

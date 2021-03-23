@@ -3,8 +3,14 @@
 
 ### Context and Motivation 
 
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
+
 Checklists and templates can speed up the creation of artifacts, and help ensure their quality. They also promote a common language among designers, reviewers, managers and other design stakeholders. These goals can only be achieved if the checklist, templates and any other *artifacts* are grounded in practice and engineered with a "less is more" spirit (following the first law of method engineering and adoptions, established in the [activities overview](../activities): "if in doubt, leave it out").
 
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 The Agile Alliance lists more than 100 agile practices and concepts in its [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/). Selecting and applying them well requires experience, training and/or consultancy. On the other end of the spectrum, more traditional plan-driven methods tend to impose processes on teams, which is not always appropriate and often not received well. Parts of the agile community <!--, for instance [Clean Agile](https://www.pearson.com/us/higher-education/program/Martin-Clean-Agile-Back-to-Basics/PGM2604771.html),--> see methods as "training wheels" only.
 
 #### What is different in DPR? 

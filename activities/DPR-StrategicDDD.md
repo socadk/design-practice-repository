@@ -7,6 +7,9 @@ Output: Context Map
 Abstraction/Refinement Level: Conceptual 
 ---
 
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
+
 <!-- Word budget: 1000-1500 (3-5 A4 pages); the practice descriptions should be readable in 5 to 10 minutes (expert vs. novice reader) -->
 
 Activity/Technique: *Strategic DDD*

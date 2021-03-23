@@ -2,9 +2,15 @@
 Scope: Entire system, component, connector, class, ...
 Phases: Design (all levels) 
 Roles: Architect (different specializations)
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: All design work
 Abstraction/Refinement Level: All
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *Architectural Decision Record (Y-Form)*

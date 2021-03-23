@@ -2,9 +2,15 @@
 Scope: Entire system, subsystems, components
 Phases: Analysis, requirements engineering
 Roles: Business analysts, domain experts, application architects
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Use Case Modeling
 Abstraction/Refinement Level: Multiple, from abstract/early to refined/concrete
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *Use Case (Model)*

@@ -2,9 +2,15 @@
 Scope: System landscapes, team organization 
 Phases: n/a (continuous)
 Roles: All cross-project roles 
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Strategic DDD
 Abstraction/Refinement Level: Conceptual 
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *DDD Context Map*

@@ -7,6 +7,9 @@ Output: "Service contract (with technology mapping and protocol binding), SLA"
 Abstraction/Refinement Level: Both conceptual (platform-independent) and technical (platform-specific)
 ---
 
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
+
 <!-- Navigation required for Git Pages -->
 [DPR Index](../index.md)
 

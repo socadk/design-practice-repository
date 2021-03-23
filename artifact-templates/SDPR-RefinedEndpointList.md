@@ -2,9 +2,15 @@
 Scope: Remote service layer of backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect, Web Developer
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Stepwise/Incremental Service Design (Contract First), Step 5
 Abstraction/Refinement Level: technology-agnostic, platform-independent
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: Refined Endpoint List (REL)

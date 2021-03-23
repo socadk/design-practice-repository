@@ -2,9 +2,15 @@
 Scope: Entire system, single API
 Phases: Transition from development to operations, commercial use
 Roles: API Owner Product Owner, Application Architect
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Stepwise Service Design, Step 6
 Abstraction/Refinement Level: Concrete, elaborate 
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *Service Level Agreement*

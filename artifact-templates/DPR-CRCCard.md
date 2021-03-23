@@ -2,9 +2,15 @@
 Scope: Single component (any viewpoint)
 Phases: Conceptual design 
 Roles: Architect (different specializations)
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Architecture design, component modeling 
 Abstraction/Refinement Level: Technology-/platform-independent
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *Components, Responsibilities, Collaborations (CRC) Card*

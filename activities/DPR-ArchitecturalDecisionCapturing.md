@@ -7,6 +7,9 @@ Output: "Decision log with ADRs"
 Abstraction/Refinement Level: Technology-, platform-independent
 ---
 
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
+
 <!--
 #### Performing Roles and Related Artifacts (Synopsis)
 |**Role**| Input | Output | Comments and Pointers |

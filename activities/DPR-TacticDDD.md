@@ -7,6 +7,9 @@ Output: Domain Model, DDD pattern instances
 Abstraction/Refinement Level: Conceptual
 ---
 
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
+
 
 Activity/Technique: *Tactic DDD*
 --------------------------------

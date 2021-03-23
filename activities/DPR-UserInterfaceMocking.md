@@ -7,6 +7,9 @@ Output: User interface mockups, wireframes
 Abstraction/Refinement Level: Multiple, from abstract/early to refined/concrete
 ---
 
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
+
 Activity/Technique: *User Interface Mocking*
 ------------------------
 also known as: Wireframing

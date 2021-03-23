@@ -2,9 +2,15 @@
 Scope: From entire system to individual features
 Phases: Analysis, requirements engineering
 Roles: Agile team; business analysts, domain experts; application architects
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Iteration planning, development, test; story mapping, story splitting 
 Abstraction/Refinement Level: Multiple (invitation for conversation)
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *User Stories*

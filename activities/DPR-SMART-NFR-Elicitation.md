@@ -7,6 +7,9 @@ Output: "NFR document, formal or informal"
 Abstraction/Refinement Level: n/a (requirements)
 ---
 
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
+
 
 Activity/Technique: *SMART NFR Elicitation*
 --------------------------------------------

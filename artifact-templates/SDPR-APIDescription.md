@@ -2,9 +2,15 @@
 Scope: Entire API, individual API endpoints and their operations
 Phases: Early integration testing, API publication/release 
 Roles: API Product Owner, Application Architect, developers
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Stepwise Service Design (Contract First), Steps 6 and 7; Code First
 Abstraction/Refinement Level: Platform-independent, platform-specific
 ---
+
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *API Description*
