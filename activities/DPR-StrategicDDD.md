@@ -36,7 +36,7 @@ The key pattern in strategic DDD is *Bounded Context*, an abstraction of a funct
 * "A bounded context is an explicit boundary within which a domain model exists. Inside the boundary, all terms and phrases of the Ubiquitous Language have specific meaning, and the model reflects the language with exactness” (@Vernon:2013). 
 * M. Fowler emphasizes that a Bounded Context is explicit about its interrelationships in his [bliki article on Bounded Contexts](http://martinfowler.com/bliki/BoundedContext.html).
 
-![](/activities/images/ZIO-StrategicDDDMetaModel.png)
+![](./images/ZIO-StrategicDDDMetaModel.png)
 
 The original DDD book (@Evans:2003) defined an initial set of relations between contexts appearing in a map, e.g., the *Conformist* pattern. Later on, a few additional types were added, for instance *Partnership* and *Big Ball of Mud*. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), D. Haywood summarizes the original six patterns as this:
 
@@ -62,7 +62,7 @@ In Strategic DDD, you basically identify Bounded Contexts and then answer these 
 ### Example(s)
 The [Context Mapper website](https://contextmapper.org/docs/examples/) provides a number of examples of tactic and strategic, including a model of the [Lakeside Mutual](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/insurance-example) microservices ecosystem:
 
-![](/activities/images/ContextMap-Illustration.png)
+![](./images/ContextMap-Illustration.png)
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 This [OOSPLA experience report](https://dddcommunity.org/wp-content/uploads/files/practitioner_reports/landre_einar_2006_part1.pdf) makes the case for strategic DDD. A [second paper from the same authors](https://dddcommunity.org/wp-content/uploads/files/practitioner_reports/landre_einar_2006_part2.pdf) reports on usage of strategic DDD in enterprise architecture management. 

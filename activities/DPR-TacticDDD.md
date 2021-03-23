@@ -38,7 +38,7 @@ Key patterns in tactic DDD are:
 
 The original DDD book @Evans:2003 provides this pattern map for tactic DDD (showing more patterns):
 
-![](/activities/images/EE-TacticDDDPatternMap.png)
+![](./images/EE-TacticDDDPatternMap.png)
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together. Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity. 
 
@@ -46,7 +46,7 @@ Aggregates are object clusters serving as storage units, preserving consistency 
 
 The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (the root entities in an Aggregate):
 
-![](/activities/images/ZIO-AggregateCRC.png)
+![](./images/ZIO-AggregateCRC.png)
 
 **Aggregates and Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
 
@@ -87,7 +87,7 @@ The [Context Mapper website](https://contextmapper.org/docs/examples/) provides 
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
-![](/activities/images/CM-TacticDDDCargoAggregate.png)
+![](./images/CM-TacticDDDCargoAggregate.png)
 
 <!--
 png created from this puml source (had to add a blank to some relationship arrows):
