@@ -1,0 +1,230 @@
+
+ContextMap {
+	contains OnlineShopFeaturesFrontend
+	contains OnlineShopFeaturesBackend
+
+	OnlineShopFeaturesBackend [ PL ] -> [ CF ] OnlineShopFeaturesFrontend {
+		exposedAggregates BusinessToConsumerAggregateBackend
+	}
+
+}
+
+BoundedContext OnlineShopFeatures implements BusinessToConsumer {
+	domainVisionStatement "This Bounded Context realizes the following subdomains: BusinessToConsumer"
+	type FEATURE
+	/* This Aggregate contains the entities and services of the 'BusinessToConsumer' subdomain.
+	 * TODO: You can now refactor the Aggregate, for example by using the 'Split Aggregate by Entities' architectural refactoring.
+	 * TODO: Add attributes and operations to the entities.
+	 * TODO: Add operations to the services.
+	 * Find examples and further instructions on our website: https://contextmapper.org/docs/rapid-ooad/ */
+	Aggregate BusinessToConsumerAggregate {
+		Service UC1RegisterService {
+			@CustomerAccountId createCustomerAccount (@CustomerAccount customerAccount);
+		}
+		Service UC2BrowseAndBuyService {
+			Set<@Product> readProduct (Set<@ProductId> productId);
+			@OrderId createOrder (@Order order);
+			@OrderItemId createOrderItem (@OrderItem orderItem);
+		}
+		Entity CustomerAccount {
+			String name
+			String address
+			- CustomerAccountId customeraccountId
+		}
+		ValueObject CustomerAccountId {
+			Long customeraccountId
+		}
+		Entity Product {
+			String productName
+			String image
+			String productCategory
+			- ProductId productId
+		}
+		ValueObject ProductId {
+			Long productId
+		}
+		Entity ProductCatalog {
+			- ProductCatalogId productcatalogId
+			- List<Product> productList
+		}
+		ValueObject ProductCatalogId {
+			Long productcatalogId
+		}
+		Entity Order {
+			String orderNumber
+			- OrderId orderId
+			- List<OrderItem> orderitemList
+		}
+		ValueObject OrderId {
+			Long orderId
+		}
+		Entity OrderItem {
+			String productName
+			String price
+			- OrderItemId orderitemId
+		}
+		ValueObject OrderItemId {
+			Long orderitemId
+		}
+	}
+}
+
+BoundedContext OnlineShopFeaturesBackend implements BusinessToConsumer {
+	domainVisionStatement "This Bounded Context realizes the following subdomains: BusinessToConsumer"
+	type SYSTEM
+	Aggregate BusinessToConsumerAggregateBackend {
+		Service UC1RegisterService {
+			@CustomerAccountIdBackend createCustomerAccount (@CustomerAccountBackend customerAccount);
+		}
+		Service UC2BrowseAndBuyService {
+			Set<@ProductBackend> readProduct (Set<@ProductIdBackend> productId);
+			@OrderIdBackend createOrder (@OrderBackend order);
+			@OrderItemIdBackend createOrderItem (@OrderItemBackend orderItem);
+		}
+		Entity CustomerAccountBackend {
+			String name
+			String address
+			- CustomerAccountIdBackend customeraccountId
+		}
+		ValueObject CustomerAccountIdBackend {
+			Long customeraccountId
+		}
+		Entity ProductBackend {
+			String productName
+			String image
+			String productCategory
+			- ProductIdBackend productId
+		}
+		ValueObject ProductIdBackend {
+			Long productId
+		}
+		Entity ProductCatalogBackend {
+			- ProductCatalogIdBackend productcatalogId
+			- List<ProductBackend> productList
+		}
+		ValueObject ProductCatalogIdBackend {
+			Long productcatalogId
+		}
+		Entity OrderBackend {
+			String orderNumber
+			- OrderIdBackend orderId
+			- List<OrderItemBackend> orderitemList
+		}
+		ValueObject OrderIdBackend {
+			Long orderId
+		}
+		Entity OrderItemBackend {
+			String productName
+			String price
+			- OrderItemIdBackend orderitemId
+		}
+		ValueObject OrderItemIdBackend {
+			Long orderitemId
+		}
+	}
+}
+
+BoundedContext OnlineShopFeaturesFrontend implements BusinessToConsumer {
+	domainVisionStatement "This Bounded Context realizes the following subdomains: BusinessToConsumer"
+	type SYSTEM
+	Aggregate BusinessToConsumerAggregateViewModel {
+		Service UC1RegisterService {
+			@CustomerAccountIdViewModel createCustomerAccount (@CustomerAccountViewModel customerAccount);
+		}
+		Service UC2BrowseAndBuyService {
+			Set<@ProductViewModel> readProduct (Set<@ProductIdViewModel> productId);
+			@OrderIdViewModel createOrder (@OrderViewModel order);
+			@OrderItemIdViewModel createOrderItem (@OrderItemViewModel orderItem);
+		}
+		Entity CustomerAccountViewModel {
+			String name
+			String address
+			- CustomerAccountIdViewModel customeraccountId
+		}
+		ValueObject CustomerAccountIdViewModel {
+			Long customeraccountId
+		}
+		Entity ProductViewModel {
+			String productName
+			String image
+			String productCategory
+			- ProductIdViewModel productId
+		}
+		ValueObject ProductIdViewModel {
+			Long productId
+		}
+		Entity ProductCatalogViewModel {
+			- ProductCatalogIdViewModel productcatalogId
+			- List<ProductViewModel> productList
+		}
+		ValueObject ProductCatalogIdViewModel {
+			Long productcatalogId
+		}
+		Entity OrderViewModel {
+			String orderNumber
+			- OrderIdViewModel orderId
+			- List<OrderItemViewModel> orderitemList
+		}
+		ValueObject OrderIdViewModel {
+			Long orderId
+		}
+		Entity OrderItemViewModel {
+			String productName
+			String price
+			- OrderItemIdViewModel orderitemId
+		}
+		ValueObject OrderItemIdViewModel {
+			Long orderitemId
+		}
+	}
+}
+
+Domain ECommerce {
+	Subdomain BusinessToConsumer supports UC1Register , UC2BrowseAndBuy {
+		domainVisionStatement "Aims at promoting the following benefit for a OnlineShopper: shop online and do not have to leave home; Aims at promoting the following benefit for a OnlineShopper: get best price"
+		Entity CustomerAccount {
+			String name
+			String address
+		}
+		Entity Product {
+			String productName
+			String image
+			String productCategory
+		}
+		Entity ProductCatalog {
+			- List<Product> productList
+		}
+		Entity Order {
+			String orderNumber
+			- List<OrderItem> orderitemList
+		}
+		Entity OrderItem {
+			String productName
+			String price
+		}
+		Service UC1RegisterService {
+			createCustomerAccount;
+		}
+		Service UC2BrowseAndBuyService {
+			readProduct;
+			createOrder;
+			createOrderItem;
+		}
+	}
+
+}
+
+UseCase UC1Register {
+	actor = "OnlineShopper"
+  interactions = create a "CustomerAccount" with its "Name", "Address"  
+  benefit "shop online and do not have to leave home"
+}
+
+UseCase UC2BrowseAndBuy {
+	actor = "OnlineShopper"
+  interactions = read a "Product" with its "productName", "image", "productCategory" in a "ProductCatalog",
+  				 create an "Order" with its "OrderNumber",  
+  				 create an "OrderItem" with its "productName", "price" in an "Order" 
+  benefit "get best price"
+}
+

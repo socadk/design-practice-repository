@@ -14,6 +14,8 @@ Abstraction/Refinement Level: Technology-, platform-independent
 |   | ) |  |  |
 -->
 
+# [DPR Git Pages Home](https://socadk.github.io/design-practice-repository/)
+
 Activity/Technique: *Architectural Decision Capturing*
 ------------------------------------------------------
 also known as: Decision Log(ging)
@@ -54,7 +56,7 @@ ADR-001: We decided for MySQL as our relational database in the backend because 
 
 Slide 18 in a [SAGRA 2016 keynote](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) features a medium-verbose ADR:
 
-![](/activities/images/ZIO-ADCapturingExample.png)
+![](./activities/images/ZIO-ADCapturingExample.png)
 
 See [this SATURN 2010 presentation](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=22124) for a high-fidelity example (slide 14). 
 

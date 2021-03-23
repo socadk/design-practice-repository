@@ -1,0 +1,66 @@
+syntax = "proto3";
+
+package OnlineShopBackend;
+
+message CustomerAccount {
+  string name = 1;
+  string address = 2;
+  CustomerAccountId customeraccountId = 3;
+}
+
+message CustomerAccountId {
+  int64 customeraccountId = 1;
+}
+
+message Order {
+  string orderNumber = 1;
+  OrderId orderId = 2;
+  repeated OrderItem orderitemList = 3;
+}
+
+message OrderId {
+  int64 orderId = 1;
+}
+
+message OrderItem {
+  string productName = 1;
+  string price = 2;
+  OrderItemId orderitemId = 3;
+}
+
+message OrderItemId {
+  int64 orderitemId = 1;
+}
+
+message Product {
+  string productName = 1;
+  string image = 2;
+  string productCategory = 3;
+  ProductId productId = 4;
+}
+
+message ProductId {
+  int64 productId = 1;
+}
+
+message ProductIdList {
+  repeated ProductId entries = 1;
+}
+
+message ProductList {
+  repeated Product entries = 1;
+}
+
+service Customer {
+  rpc createAccount(CustomerAccount) returns (CustomerAccountId);
+}
+
+service ProductCatalog {
+  rpc readProductInformation(ProductIdList) returns (ProductList);
+}
+
+service OrderBasket {
+  rpc createOrder(Order) returns (OrderId);
+  rpc addOrderItem(OrderItem) returns (OrderItemId);
+}
+

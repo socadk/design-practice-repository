@@ -1,0 +1,157 @@
+openapi: 3.0.1
+info:
+  title: OnlineShopBackend
+  version: "1.0"
+tags:
+- name: Customer
+  externalDocs:
+    url: https://microservice-api-patterns.org/patterns/responsibility/
+- name: ProductCatalog
+  externalDocs:
+    url: https://microservice-api-patterns.org/patterns/responsibility/
+- name: OrderBasket
+  externalDocs:
+    url: https://microservice-api-patterns.org/patterns/responsibility/
+paths:
+  /Customer:
+    description: ""
+    post:
+      tags:
+      - Customer
+      description: unspecified operation responsibility
+      operationId: createAccount
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomerAccount'
+      responses:
+        "200":
+          description: response message payload (success case)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerAccountId'
+  /ProductCatalog:
+    description: ""
+    get:
+      tags:
+      - ProductCatalog
+      description: unspecified operation responsibility
+      operationId: readProductInformation
+      parameters:
+      - name: productId
+        in: query
+        description: 'Data Element: https://microservice-api-patterns.org/patterns/structure/elementStereotypes/DataElement'
+        required: true
+        schema:
+          type: number
+      responses:
+        "200":
+          description: response message payload (success case)
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+  /OrderBasket:
+    description: ""
+    put:
+      tags:
+      - OrderBasket
+      summary: PUT
+      description: PUT
+      operationId: addOrderItem
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderItem'
+      responses:
+        "200":
+          description: response message payload (success case)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderItemId'
+    post:
+      tags:
+      - OrderBasket
+      summary: POST
+      description: POST
+      operationId: createOrder
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Order'
+      responses:
+        "200":
+          description: response message payload (success case)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderId'
+components:
+  schemas:
+    CustomerAccount:
+      type: object
+      properties:
+        name:
+          type: string
+        address:
+          type: string
+        customeraccountId:
+          $ref: '#/components/schemas/CustomerAccountId'
+    CustomerAccountId:
+      type: object
+      properties:
+        customeraccountId:
+          type: number
+    Order:
+      type: object
+      properties:
+        orderNumber:
+          type: string
+        orderId:
+          $ref: '#/components/schemas/OrderId'
+        orderitemList:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderItem'
+    OrderId:
+      type: object
+      properties:
+        orderId:
+          type: number
+    OrderItem:
+      type: object
+      properties:
+        productName:
+          type: string
+        price:
+          type: string
+        orderitemId:
+          $ref: '#/components/schemas/OrderItemId'
+    OrderItemId:
+      type: object
+      properties:
+        orderitemId:
+          type: number
+    Product:
+      type: object
+      properties:
+        productName:
+          type: string
+        image:
+          type: string
+        productCategory:
+          type: string
+        productId:
+          $ref: '#/components/schemas/ProductId'
+    ProductId:
+      type: object
+      properties:
+        productId:
+          type: number
