@@ -7,8 +7,8 @@ Abstraction/Refinement Level: All
 ---
 
 
-Artifact and Template: *Architectural Decision Record (Y-Form)*
----------------------------------------------------------------
+Artifact/Template: *Architectural Decision Record (Y-Form)*
+------------------------------------------------------------
 also known as: Y-Statement
 
 A Y-Statement captures decision context, addressed requirement, decision outcome and consequences (good and bad) in a single, structured sentence.
@@ -28,7 +28,7 @@ The decision making and capturing activity in DPR is documented [here](../activi
 ### Template Structure and Notation(s)
 Y-Statements are often captured in plain but structured text (but tables in presentation tools, wiki pages and modeling tools can also be used):
 
-![](images/ADCaptureYTemplate.png)
+![](/artifact-templates/images/ADCaptureYTemplate.png)
 
 <!-- TODO: check consistency of author names; DONE: feature tradeoff character of bottom half more -->
 

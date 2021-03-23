@@ -34,7 +34,7 @@ Record your design results in list or table form.
 
 Start with a list of endpoints with their visibility and direction and link to requirements and domain model, for instance structured as this: 
 
-```
+```markdown
 API name:  [name]
 
 Identified in: [user story, domain model element, architecture diagram]
@@ -57,7 +57,7 @@ This is an elaborate proposal, referencing several categories in [Microservice A
 
 For each API endpoint listed as described above, specify its responsibilities and signature on a platform- and technology-neutral, yet concrete level of detail:
 
-```
+```markdown
 | Endpoint | Operation   | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
 |----------|-------------|------------------------------|--------------------------------------|--------------------|--------------------|
 | [name]   |             | [endpoint role]              |                                      |                    |                    |

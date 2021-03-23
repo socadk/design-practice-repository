@@ -31,7 +31,7 @@ TODO
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?) -->  
 See this blog post for the time being: <https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490>.
 
-![](./images/NN.png)
+![](/images/NN.png)
 
 
 ### Example(s)

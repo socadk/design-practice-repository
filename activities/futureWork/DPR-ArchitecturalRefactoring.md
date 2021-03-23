@@ -9,8 +9,8 @@ Abstraction/Refinement Level: TODO
 
 <!-- Word budget: 1000-1500 (3-5 A4 pages); the practice descriptions should be readable in 5 to 10 minutes (expert vs. novice reader) -->
 
-Activity/Technique: *NN*
-------------------------
+Activity/Technique: *Architectural Refactoring*
+-----------------------------------------------
 <!-- Alternate names or candidate names) can be listed as "Also known as" here. -->
 also known as: TODO
 
@@ -48,7 +48,7 @@ TODO
 TODO
 
 
-### Hints and Pitfalls to Avoid
+### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!-- See ART, don’t overdo etc. -->
 TODO
 
@@ -57,6 +57,7 @@ TODO
 <!-- From PLOPs and from AA -->
 TODO
 
+AppArch fact sheet, Cheesman Daniels, ZIO heuristic
 
 ### Related Content
 <!-- in DPR/OLAF and elsewhere -->
@@ -80,14 +81,18 @@ TODO
 <!-- Further Reading, Academic Publications) -->
 Review the [agile glossary](https://www.agilealliance.org/agile101/agile-glossary/).
 
+* <https://agileforall.com/patterns-for-splitting-user-stories/>
+* <!-- TODO AppArch exercise 5, fact sheet, slides: <https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story> or the 20 splitting suggestions in <https://xp123.com/articles/twenty-ways-to-split-stories/> -->
+
 
 ### Data Provenance 
 
 ```yaml
-title: "Design Practice Repository (DPR): Practice/Technique NN"
+title: "Design Practice Repository (DPR): Practice/Technique Story Splitting"
 author: Olaf Zimmermann (ZIO)
-date: "mm, dd, yyyy (Source: Project XYZ)"
-copyright: The author, 2020 (unless noted otherwise). All rights reserved.
+date: "10, 14, 2020 (Source: Project DD-DSE)"
+copyright: Copyright 2020 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
+
 

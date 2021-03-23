@@ -1,4 +1,4 @@
-## *DPR:* Roles (a.k.a. Software Engineering/Service Design Personas)
+## DPR: *Roles (a.k.a. Software Engineering/Service Design Personas)*
 
 ### Context and Motivation 
 

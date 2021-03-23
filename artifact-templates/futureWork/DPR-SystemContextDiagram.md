@@ -10,7 +10,7 @@ Abstraction/Refinement Level: TODO
 Artifact/Template: *System Context Diagram*
 -------------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
-a.k.a. TODO
+also known as: TODO
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
@@ -26,7 +26,7 @@ TODO
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
 TODO
 
-![](./images/NN.png)
+![](/images/NN.png)
 
 
 ### Example(s)

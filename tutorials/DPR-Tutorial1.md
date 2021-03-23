@@ -1,14 +1,14 @@
 
-# *DPR* Tutorial 1: API Design in an Online Shop
+# *DPR* Tutorial 1: API Design in an Online Shop Scenario
 
-*Note to reviewers:* This tutorial is not complete yet, but hopefully it is helpful already (or can at least give an idea of what is coming). Bear with us if you spot inconsistencies or information is missing still.
+*Note to reviewers:* This tutorial is not complete yet, but hopefully it is helpful already (or can at least give an idea of what is coming). Bear with us if you spot inconsistencies or information is still missing.
 
-Let's continue the story from [Quick Start Tutorial 0](DPR-Tutorial0.md) and assume you have been assigned the role of API product owner for a fictitious online shop and its APIs, and decided to use DPR as your architecture design method.
+We continue the story from [Quick Start Tutorial 0](DPR-Tutorial0.md) and assume you have been assigned the role of API product owner for a fictitious online shop and its APIs. You decided to use elements from DPR to support your architecture design work.
 
 
 ## Featured Activity: Stepwise Service Design 
 
-Let's now walk through the main API design activity in DPR, [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md). Please open the activity page and keep it open while going through the seven steps in the online shop example.  
+Let's now walk through the main API design activity in DPR, [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md). Please open the activity page and keep it open while going through the seven steps in this online shop example.  
 
 
 ### Step 1: Gather Requirements, Make Scoping Decisions
@@ -37,10 +37,10 @@ A specific and measurable [Non-Functional Requirement (NFR)](../artifact-templat
 
 * 80% of all executions of "UC1_Register" should produce a correct response (user account created or error reported) in less than 3 seconds on average, measured at the system boundary of the shop (so excluding external network communication).
 
-Scoping decisions might include (we could capture them as [Y-statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md); see Step 6 for an example of such statement): 
+Scoping decisions might include (we could capture them as [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md); see Step 6 for an example of such statement): 
 
 * Build the shop components rather than buy or rent them.
-* Use a [microservices architecture](https://microservice-api-patterns.org/introduction) whose service components are identified with [domain-driven design](https://www.ifs.hsr.ch/index.php?id=15666&L=4). 
+* Use a [microservices architecture](https://microservice-api-patterns.org/introduction) whose service components are identified with [Domain-Driven Design (DDD)](https://www.ifs.hsr.ch/index.php?id=15666&L=4). 
 * Reuse architectural knowledge by applying patterns.
 * Develop in JavaScript (frontends) and Java (backends).
 * Integrate an external payment service. <!-- TODO feature in SCD etc. -->
@@ -93,10 +93,7 @@ Domain ECommerce {
 
 <!-- TODO show subset only? or OOA rather than OOD model? talk reader through figure, explain which tool was used to create it -->
 
-<!--
-![](./models/DPR-DomainModelVersion1.svg) 
--->
-<img src="./models/DPR-DomainModelVersion1.svg" height="600" />
+![](./models/DPR-DomainModelVersion1.png) 
 
 The above diagram qualifies as the visual part of the [domain model](../artifact-templates/DPR-DomainModel.md); on a real project, all figure/diagram elements would be explained (here or in a separate glossary).
 
@@ -110,9 +107,9 @@ Let us assume that the following [architectural decisions](../activities/DPR-Arc
 * <!-- Reactive --> JavaScript Web frontend
 * Java Spring backend 
 
-A very basic [context map](../artifact-templates/DPR-StrategicDDDContextMap.md), resulting from [strategic DDD](../activities/DPR-StrategicDDD.md) work for this scenario is:
+A very basic [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md) for this scenario (resulting from [Strategic DDD](../activities/DPR-StrategicDDD.md)) is:
 
-![](./models/DPR-DomainModelMiniTutorial_ContextMap.svg)
+![](/tutorials/models/DPR-DomainModelMiniTutorial_ContextMap.svg)
 
 
 ### Step 4: Identify Service Candidates, Select Architectural Patterns
@@ -129,7 +126,7 @@ Such list can be derived from the Step 2 domain model and Step 3 architecture de
 | Order    | create    | Model purchase items the order consists of; point to customer; calculate tax and discounts |
 | Order Item | add to order | Specify amount bought, reference product |
 
-These candidate endpoints outline a [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) of the backend under construction. The table does know much about Remote Facades and Data Transfer Objects (DTOs) yet; this is something to be improved in the next step.
+These candidate endpoints outline a [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) of the backend under construction. The table does not say much about Remote Facades and Data Transfer Objects (DTOs) yet; this is something to be improved in the next step.
 
 <!--
 We skip additional architectural decision making here for the sake of brevity; on a real project, one would make quite a few decisions now. See Step 6 for an example of an Architectural Decision Record (ADR). -->
@@ -154,29 +151,29 @@ Endpoints in this API (and their architectural role):
 3. Endpoint 3: Order, implements "checkout" activity in shopping process (supports use case UC2_BrowseAndBuy)
 ~~~
 
-The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md) that refactors and refined the output from the previous Step 4 may then contain the following entries:
+The endpoint-level [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md) that refactors and refines the output from the previous Step 4 may then contain the following entries:
 
 <!-- TODO (v2) maybe add more than just "Custom JSON" Media Type/Profile? -->
 
 | Endpoint | Operation   | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
 |----------|-------------|---------------|------------------------|-------------|
 | Customer |             | [*Master Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/MasterDataHolder) |                 |             |
-|          |  Create (POST) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* account name, *out:* returns account name (and/or details) | Custom JSON |
+|          |  create (POST) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* account name, *out:* returns account name (and/or details) | Custom JSON |
 | Product Catalog |             | *Master Data Holder* |                 |             |
-|   |  Search (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* search parameters, *out:* returns set of product descriptions, possibly paginated | Custom JSON |
+|   |  search (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* search parameters, *out:* returns set of product descriptions, possibly paginated | Custom JSON |
 | Order |             | [*Operational Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/OperationalDataHolder) |                 |             |
-|      |  Create (POST) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* products to be bought, *out:* returns order confirmation and/or DTO (containing items) | Custom JSON |
-|      |  Add (PUT) | [*State Transition Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* items to be added, *out:* returns order item id as confirmation | Custom JSON |
+|      |  create (POST) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* products to be bought, *out:* returns order confirmation and/or DTO (containing items) | Custom JSON |
+|      |  add (PUT) | [*State Transition Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation) | *in:* items to be added, *out:* returns order item id as confirmation | Custom JSON |
 
-We have decided for endpoint and operation responsibilities on a conceptual level now; see Step 6 (next) for an example of an ADR that continues the design decision making (on a technology level).
+We have decided for endpoint and operation responsibilities on a conceptual level now; see the following Step 6 for an example of an ADR that continues the design decision making (on a technology level).
 
 
 ### Step 6: Specify Service Contract, Make Technology Decisions
 <!-- summarize purpose, input and output of step -->
 
-One of the architectural related architectural decisions might be (formatted as a [Y-statement](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)):
+One of the architectural decisions might be (formatted as a [Y-Statement](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)):
 
-```
+```plain
 In the context of the OnlineShopBackend subsystem,
 facing the need to serve a number of technically diverse clients, 
 we decided for RESTful HTTP on maturity level 2  
@@ -190,7 +187,7 @@ and there is good contract language and tool support (Open API, Swagger tools).
 
 <!-- This would  the only place in the tutorial we talk about Layers (SSD activity has it), so removed "in the Service Layer" from "we decided for" (for now) now -->
 
-The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from the previous Step 5 may look like this (notation: [Microservice Domain-Specific Language (MDSL)](https://microservice-api-patterns.github.io/MDSL-Specification/)):
+The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from Step 5 may look like this (notation: [Microservice Domain-Specific Language (MDSL)](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
 <!-- TODO (v2): show MAP decorators too? addGraphQL (why n files?); TODO (v1.2) recreate file after API name change -->
 ~~~
@@ -249,7 +246,7 @@ We also do not show how to implement the contract yet, for instance in Spring Bo
 ### Step 7: Improve and Evolve Service Design
 <!-- summarize purpose, input and output of step -->
 
-In this phase, we can optimize message sizes and exchange frequency (and then update API description and architectural decision log accordingly):
+In this phase, we may want to optimize message sizes and exchange frequency (updating API description and architectural decision log accordingly):
 
 * Decide to add [Pagination](https://microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to product search.
 * Decide to introduce a [Wish List](https://microservice-api-patterns.org/patterns/quality/dataTransferParsimony/WishList) to product search. 
@@ -260,7 +257,7 @@ Keep on deciding and addressing design issues as they emerge:
 * Should API calls be billed? (@Zimmermann:2020)
 * Are service level agreements required? (@Zimmermann:2020)
 
-See Microservice API Patterns (MAP) [Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tutorial1) and [ Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for more examples of API design work related to quality and evolution concerns.
+See Microservice API Patterns (MAP) [Tutorial 1](https://microservice-api-patterns.org/patterns/tutorials/tutorial1) and [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for more examples of API design work related to quality and evolution concerns.
 
 <!--
 ## Quick Links

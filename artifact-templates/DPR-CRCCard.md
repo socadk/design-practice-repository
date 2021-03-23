@@ -33,9 +33,7 @@ Another usage scenario for CRC cards is an interactive workshop or "design think
 
 An annotated template (with teaser questions) is:
 
-<img src="./images/ZIO-CRCCardNotationExplained.png" height="60%" width="60%" />
-<!-- 
-![CRC Card Notation Explained](./images/ZIO-CRCCardNotationExplained.png) -->
+![CRC Card Notation Explained](/artifact-templates/images/ZIO-CRCCardNotationExplained.png)
 
 Note that the template and the teaser questions deviate from the original CRC format a bit (applying our method engineering rule "do not follow templates blindly, but adopt them to your needs"). In the Responsibilities cell, functions, (externally visible) data, and qualities are mentioned; in the Collaborations cell, both inbound and outbound dependencies can be listed. Note that there is an extra cell asking for previous experiences and realizations with the candidate component (in support of the decision making use case of CRC cards).
 
@@ -45,10 +43,7 @@ This is an example of a filled out card (an entire layer is described here, rath
 
 <!-- IH CE: two more comments on figure -->
 
-<img src="./images/ZIO-CRCCardNotationExample.png" height="60%" width="60%" />
-<!-- 
-![CRC Card Notation Example](./images/ZIO-CRCCardNotationExample.png)
--->
+![CRC Card Notation Example](/artifact-templates/images/ZIO-CRCCardNotationExample.png)
 
 ### Tools
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
@@ -76,7 +71,7 @@ To be able to serve their purpose, CRC cards should be expressive but also easy 
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
-The original [Class, Responsibilities, and Collaborators (CRC) cards](http://agilemodeling.com/artifacts/crcModel.htm) were invented by W. Cunningham (who also invented Wikis and came up with the Technical Debt metaphor) and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@WirfsBrock:RDD:2002). 
+The original [Class, Responsibilities, and Collaborators (CRC) cards](http://agilemodeling.com/artifacts/crcModel.htm) were invented by W. Cunningham (who also invented Wikis and came up with the Technical Debt metaphor) and published in his [OOPSLA 1989 paper](http://c2.com/doc/oopsla89/paper.html). They were used for object design and popularized in the Responsibility-Driven Design (RDD) method (@Wirfs-Brock:2002). 
 
 On the architectural level, they are used in [Volume 1 of the POSA book series](https://www.wiley.com/en-us/Pattern+Oriented+Software+Architecture%2C+Volume+1%2C+A+System+of+Patterns-p-9780471958697) (@Buschmann:1996). See this [blog post by M. Stal from 2006](http://stal.blogspot.ch/2006/12/architects-toolset-crc-cards.html) for background information and rationale. O. Zimmermann has been teaching them this way in his ["Application Architecture" lecture at HSR/OST](https://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4) since 2013; M. Keeling features them as Activity 13 in ["Design It"](https://pragprog.com/titles/mkdsa/design-it/) (@Keeling:2019).
 
