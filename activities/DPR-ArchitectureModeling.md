@@ -35,11 +35,9 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 *Derive the level of abstraction, breadth, depth and notation for any architecture model  you create from a set of stakeholder concerns and information needs caused by these concerns. Create one model/diagram per viewpoint (i.e., set of stakeholder concerns).* 
 
 For instance, four common modeling steps are: 
-<!-- Source: https://miro.com/app/board/o9J_kmvD-I0=/?fromEmbed=1 -->
+<!-- Source: https://miro.com/app/board/o9J_lN6TopI=/ -->
 
 ![](/activities/images/DPR-ArchitectureModeling.png)
-
-<!-- TODO CE: typo in miro Guidelines -->
 
 1. Create a *system context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
 2. Provide an *architecture overview diagram* that captures the outcome of the executive decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder requirements, project/iteration planning).

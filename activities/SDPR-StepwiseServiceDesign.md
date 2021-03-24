@@ -110,7 +110,7 @@ The more clients an API has and the longer it runs and the more mission-critical
 
 Let us repeat and emphasize again:
 
-* *Avoid &mdash; or spot and overcome &mdash; [analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis)*. Acknowledge the general rules of method engineering, including: <!-- IH CE: one or tree lines? check GitPages, LeanPub. --><!-- source: readmes for activities, artifacts, roles -->
+* *Avoid &mdash; or spot and overcome &mdash; [analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis)*. Acknowledge the general rules of method engineering, including: <!-- source: readmes for activities, artifacts, roles -->
 > 1. If in doubt, leave it out.
 > 2. Do not follow templates blindly, but adopt them to your needs. 
 > 3. Context matters. 
