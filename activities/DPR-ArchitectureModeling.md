@@ -7,6 +7,8 @@ Output: "Diagrams, taking different viewpoints"
 Abstraction/Refinement Level: Technology-/platform-independent
 ---
 
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
 Activity/Technique: *Architecture Modeling*
 -------------------------------------------
