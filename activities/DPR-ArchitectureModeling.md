@@ -15,7 +15,7 @@ also known as: Architecture Specification and Documentation
 ### Context
 Software architecture books such as "Software Architecture in Pratice" (@Bass:2012) or the German "Effektive Softwarearchitekturen" (@Starke:2015) explains that any architecture design (and early solution strategy in particular) is about *structure* and *technology*. 
 
-This desire for structure can be met by identification of candidate components and their continuous refinement, starting with "big" [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) for instance about logical [layers](https://wiki.hsr.ch/APF/files/Layers.pdf), [Client/Server Cuts (CSCs)](http://www.objectarchitects.de/ObjectArchitects/papers/Published/ZippedPapers/renzel.pdf) and architectural styles such as client/server and/or [(micro-)service-oriented architectures](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html). <!-- styles, patterns, reference architectures -->
+This desire for structure can be met by identification of candidate components and their continuous refinement, starting with "big" [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) for instance about logical layers, [Client/Server Cuts (CSCs)](http://www.objectarchitects.de/ObjectArchitects/papers/Published/ZippedPapers/renzel.pdf) and architectural styles such as client/server and/or [(micro-)service-oriented architectures](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html). <!-- styles, patterns, reference architectures -->
 
 Furthermore, technology concepts also have to be decided: middleware and frameworks such as component containers, communication protocols and message exchange formats, cluster and deployment managers (for instance, Spring Boot and Docker running in a public cloud). 
 
@@ -24,11 +24,11 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 
 ### Goal and Purpose (When to Use and When not to Use)
 
-> As a software engineer performing architecture design work,
+> *As a software engineer performing architecture design work,*
 
-> I want to capture my current understanding of the structure of the system under construction (in terms of its components and connectors), share it with peers and other stakeholders and continuously evolve it
+> *I want to capture my current understanding of the structure of the system under construction (in terms of its components and connectors), share it with peers and other stakeholders and continuously evolve it*
 
-> so that I can plan ahead (design and implementation work), manage risk and trace the design back to [architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements).
+> *so that I can plan ahead (design and implementation work), manage risk and trace the design back to [architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements).*
 
 
 ### Instructions (Synopsis, Definition)

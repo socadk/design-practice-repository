@@ -25,7 +25,8 @@ Each software system has an architecture, which is defined by the set of [archit
 
 
 ### Purpose (When to Use and When not to Use)
-*As a technical team lead (architect, lead developer, product manager), I want to keep track of the results of all architecture design activities in a compact and searchable form so that newcomers can get a quick overview of the key decisions made and the entire team (and interested external stakeholders) have a single point of reference when making follow-on decisions.* 
+
+> *As a technical team lead (architect, lead developer, product manager), I want to keep track of the results of all architecture design activities in a compact and searchable form so that newcomers can get a quick overview of the key decisions made and the entire team (and interested external stakeholders) have a single point of reference when making follow-on decisions.* 
 
 From a quality point view, look for accountability (of decision makers), consistency (between decisions, between decisions and implementation artifacts), and continuity (or currentness of the design artifacts).
 
