@@ -34,10 +34,11 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 ### Instructions (Synopsis, Definition)
 *Derive the level of abstraction, breadth, depth and notation for any architecture model  you create from a set of stakeholder concerns and information needs caused by these concerns. Create one model/diagram per viewpoint (i.e., set of stakeholder concerns).* 
 
-For instance, four common modeling steps are: 
 <!-- Source: https://miro.com/app/board/o9J_lN6TopI=/ -->
 
 ![](/activities/images/DPR-ArchitectureModeling.png)
+
+For instance, four common modeling steps are: 
 
 1. Create a *system context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
 2. Provide an *architecture overview diagram* that captures the outcome of the executive decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder requirements, project/iteration planning).
@@ -79,7 +80,7 @@ George Fairbanks sends similar messages in his book ["Just Enough Software Archi
 
 A variation of the "if in doubt leave it out" rule for DPR method adoption applies here:
 
-> Do not create a 'big ball of model mud'; always have a distinct target audience with its information needs in mind when creating a model or a diagram. Base your in/out and naming decisions on the preferences and background of that particular audience.
+> *Do not create a 'big ball of model mud'; always have a distinct target audience with its information needs in mind when creating a model or a diagram. Base your in/out and naming decisions on the preferences and background of that particular audience.*
 
 
 ### Hints and Pitfalls to Avoid
