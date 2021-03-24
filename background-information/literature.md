@@ -110,6 +110,9 @@ Sturgeon, Phil. 2016. <em>Build <span>APIs</span> You Won’t Hate</em>. LeanPub
 <p id="ref-Vernon:2013" class="csl-entry" role="doc-biblioentry">
 Vernon, Vaughn. 2013. <em>Implementing Domain-Driven Design</em>. Addison-Wesley Professional.
 </p>
+<p id="ref-WirfsBrock:2002" class="csl-entry" role="doc-biblioentry">
+Wirfs-Brock, Rebecca, and Alan McKean. 2002. <em>Object Design: Roles, Responsibilities, and Collaborations</em>. Pearson Education.
+</p>
 <p id="ref-Zimmermann:2020" class="csl-entry" role="doc-biblioentry">
 Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Cesare Pautasso, and Uwe Zdun. 2020. <span>“Introduction to Microservice API Patterns (MAP).”</span> In <em>Joint Post-Proceedings of the First and Second International Conference on Microservices (Microservices 2017/2019)</em>, edited by Luı́s Cruz-Filipe, Saverio Giallorenzo, Fabrizio Montesi, Marco Peressotti, Florian Rademacher, and Sabine Sachweh, 78:4:1–17. OpenAccess Series in Informatics (OASIcs). Dagstuhl, Germany: Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik. <a href="https://doi.org/10.4230/OASIcs.Microservices.2017-2019.4">https://doi.org/10.4230/OASIcs.Microservices.2017-2019.4</a>.
 </p>
@@ -126,7 +129,7 @@ Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on W
 ```yaml
 title: "Design Practice Repository (DPR): Bibliography (Literature)"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "12, 05, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "03, 24, 2021"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
