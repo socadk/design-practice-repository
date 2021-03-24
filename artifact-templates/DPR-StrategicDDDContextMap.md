@@ -39,7 +39,7 @@ DDD as such does not mandate any notation. Each author and presenter has his/her
 
 The above context map was generated from this DSL model ([Context Mapper](https://contextmapper.org/)):
 
-~~~
+```cml
 ContextMap DDDSampleMap {
 	contains CargoBookingContext
 	contains VoyagePlanningContext
@@ -50,7 +50,7 @@ ContextMap DDDSampleMap {
 
 	VoyagePlanningContext [D]<-[U,OHS,PL] LocationContext	
 }
-~~~
+```
 
 
 ### Tools
