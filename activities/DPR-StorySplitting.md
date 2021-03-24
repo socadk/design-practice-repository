@@ -88,7 +88,8 @@ One should not get carried away by dreaming up data entry and data variations, b
 <!-- From PLOPs and from AA -->
 The Wayback Machine (a.k.a. Internet Archive) keeps early posts about story splitting [here](https://web.archive.org/web/20120909082905/http://lassekoskela.com/thoughts/7/ways-to-split-user-stories/) and [here](https://web.archive.org/web/20120716060616/http://jbrains.ca/permalink/how-youll-probably-learn-to-split-features).
 
-Signs of use are difficult to call out for this activity. Backlog size and structure might indicate use. <!-- TODO How about CI/CM? --> 
+Signs of use are difficult to call out for this activity. Backlog size and structure might indicate use.
+<!-- TODO How about CI/CM? -->
 
 
 ### Related Content
