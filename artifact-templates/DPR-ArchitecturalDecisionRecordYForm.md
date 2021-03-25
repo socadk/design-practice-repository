@@ -11,7 +11,7 @@ Artifact/Template: *Architectural Decision Record (Y-Form)*
 ------------------------------------------------------------
 also known as: Y-Statement
 
-A Y-Statement captures decision context, addressed requirement, decision outcome and consequences (good and bad) in a single, structured sentence.
+> *A Y-Statement captures decision context, addressed requirement, decision outcome and consequences (good and bad) in a single, structured sentence.*
 
 ### Motivation (Addressed Information Need) 
 The purpose of this artifact and template is to provide *decision rationale* (justifications for chosen patterns, technologies, products). Instances of this template answer *"why?"* questions about an architecture (across viewpoints and perspectives).

@@ -14,6 +14,8 @@ Artifact/Template: *API Review Checklist*
 <!--Alternate names or candidate names) can be listed as "Also known as " here. -->
 a.k.a. TODO
 
+> *Synopsis: TODO*
+
 ### Motivation (Addressed Information Need) 
 <!-- Purpose -->
 TODO

@@ -10,6 +10,10 @@ Abstraction/Refinement Level: Conceptual
 Artifact/Template: *DDD Context Map*
 ------------------------------------
 
+<!--
+> *Synopsis: TODO*
+-->
+
 ### Motivation (Addressed Information Need)
 A context map visualizes the relationships between [Bounded Contexts]() in [Strategic DDD](../activities/DPR-StrategicDDD.md). Several types of such relationships have been described as patterns; Bounded Contexts abstract from functional feature sets, existing or future application or systems as well as teams.
 
@@ -44,7 +48,6 @@ ContextMap DDDSampleMap {
 
 	VoyagePlanningContext [D]<-[U,OHS,PL] LocationContext	
 }
-~~~
 ```
 
 ### Tools

@@ -26,7 +26,9 @@ A [user story](../artifact-templates/DPR-UserStory.md) that is too large for a s
 Several INVESTment practices and techniques exist; one of them is story splitting.
 
 ### Goal and Purpose (When to Use and When not to Use)
-<!-- TODO, can be a user story, must identify the performing role and the target audience (producer, consumer) -->
+<!--
+> *TODO 2021: goal and purpose story (see ADC, ADM), must identify the performing role and the target audience (producer, consumer)* 
+-->
 Story splitting makes stories and their implementation easier to plan and execute. 
 
 Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md). Many (but not all) splitting patterns and techniques are equally suited for this second, extended use of the practice.

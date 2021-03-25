@@ -11,6 +11,10 @@ Artifact/Template: *Components, Responsibilities, Collaborations (CRC) Card*
 ----------------------------------------------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 
+<!--
+> *Synopsis: TODO (could turn how-question from below into synopsis*
+-->
+
 ### Motivation (Addressed Information Need) 
 *How can logical design building blocks be described on an intermediate level of detail and refinement?*
 

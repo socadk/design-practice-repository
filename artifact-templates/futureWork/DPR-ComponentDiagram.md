@@ -12,6 +12,8 @@ Artifact/Template: *Component Diagram*
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 a.k.a. TODO
 
+> *Synopsis: TODO*
+
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
 Component Diagram is one of the four Cs in C4. Context is featured in a separate template. Containers correspond to architecture overviews. We will not cover classes here.

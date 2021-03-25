@@ -11,6 +11,10 @@ Artifact/Template: *API Description*
 ------------------------------------
 also known as: Service Contract 
 
+<!--
+> *Synopsis: TODO*
+-->
+
 ### Motivation (Addressed Information Need) 
 Quoting the context section of the [API Description pattern](https://microservice-api-patterns.org/patterns/foundation/APIDescription) on the MAP website, let's assume that "a service provider has decided to expose one or more API operations in an API endpoint; the number, name, and synopsis of these API calls have not been specified yet. Therefore, developers of clients (i.e., Web and mobile app developers implementing [Frontend Integrations](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration) or the system integrators writing adapters for [Backend Integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration)) are not yet able to code service invocations and do not know what to expect in responses. Furthermore, supplemental interface descriptions are missing as well, including informal explanations of the meaning of the API calls (e.g., parameters in message representations, effects on application state in the API implementation) and related qualities (e.g., idempotency, transactionality)."
 

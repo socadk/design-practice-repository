@@ -18,6 +18,10 @@ The need for a new service may arise from different occasions: For example, you 
 ### Goal and Purpose (When to Use)
 The general purpose is to share emerging user interface designs with stakeholders (for instance, end users and product managers) to solicit their feedback and involve them in the design closely. 
 
+<!--
+> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* 
+-->
+
 The goal of *User Interface Mocking* or *Wireframing* in the context of service design is to get a better understanding of the structure, amount, and kind of data a client needs so that the service can be designed accordingly.
 For example, should a service use [Pagination](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to break response messages into chunks, and what kind of [Reference Management](https://www.microservice-api-patterns.org/patterns/quality/#reference-management/) is best suited? 
 

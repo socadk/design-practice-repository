@@ -13,7 +13,7 @@ Artifact/Template: *NN*
 <!--Alternate names or candidate names) can be listed as "Also known as " here. -->
 also known as: TODO
 
-Synopsis: TODO <!-- one line, glossary style definition (optional) -->
+> *Synopsis: TODO* <!-- one line, glossary style definition (optional) -->
 
 
 ### Motivation (Addressed Information Need) 

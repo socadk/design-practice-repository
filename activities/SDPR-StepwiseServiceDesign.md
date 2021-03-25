@@ -23,6 +23,10 @@ API and service design have high [architectural significance](https://en.wikiped
 
 
 ### Goal and Purpose (When to Use and When not to Use)
+<!--
+> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* 
+-->
+
 This activity has the objective to answer the questions raised under 'Context' above. It delivers:
 
 1. Platform-independent *interface specifications*, including [service contract](/artifact-templates/SDPR-APIDescription.md) and Service Level Agreement (SLA)[/artifact-templates/SDPR-ServiceLevelAgreement.md].

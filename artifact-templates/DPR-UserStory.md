@@ -11,6 +11,10 @@ Artifact/Template: *User Stories*
 ---------------------------------
 also known as: Feature, Backlog Item
 
+<!--
+> *Synopsis: TODO*
+-->
+
 ### Motivation (Addressed Information Need) 
 The Agile Alliance describes the role and purpose of user stories nicely in its [glossary entry for them](https://www.agilealliance.org/glossary/user-stories/): 
 

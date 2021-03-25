@@ -66,9 +66,7 @@ The component overview of the frontend-backend and service landscape at [Lakesid
 
 ![Lakeside Mutual component overview](https://raw.githubusercontent.com/Microservice-API-Patterns/LakesideMutual/master/resources/overview-diagram.png)
 
-Page 4 of [this presentation](https://ozimmer.ch/assets/presos/ZIO-FromDDDToMAPIsQS2020v10p.pdf) provides an example of an architecture overview diagram styled as an IRP.
-
-C4 examples are available publicly [here](https://structurizr.com/share/1).
+Page 4 of [this presentation](https://ozimmer.ch/assets/presos/ZIO-FromDDDToMAPIsQS2020v10p.pdf) provides an example of an architecture overview diagram styled as an IRP. C4 examples are available publicly [here](https://structurizr.com/share/1).
 
 An [arc42 FAQ](https://faq.arc42.org/questions/C-4-3/) provides examples of solution strategy decisions worth capturing and visualizing. Section 5 of the arc42 template covers the [building block view(s)](https://docs.arc42.org/section-5/).
 

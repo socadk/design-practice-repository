@@ -10,6 +10,10 @@ Abstraction/Refinement Level: Concrete, elaborate
 Artifact/Template: *Service Level Agreement*
 --------------------------------------------
 
+<!--
+> *Synopsis: TODO*
+-->
+
 ### Motivation (Addressed Information Need) 
 API providers want to deliver high-quality services while at the same time using their available resources economically. The resulting compromise can be expressed in a Service Level Agreement (SLA). 
 
