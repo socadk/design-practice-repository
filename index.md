@@ -10,6 +10,10 @@ The [introduction](./introduction.md) page is a more comprehensive entry into th
 * [Activities](./activities/README.md)
 * [Roles](./roles/README.md)
 
+### Overview
+
+![Artifact and Activity Overview](/images/DPR-ActivityArtifactDependencies.png)
+
 ### Sample Content 
 
 Activities:
