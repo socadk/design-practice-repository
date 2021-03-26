@@ -1,3 +1,5 @@
+[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 ## DPR: *Activities in Service Design and Agile Architecting*
 
