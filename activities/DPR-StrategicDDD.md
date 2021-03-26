@@ -116,7 +116,7 @@ Refer to presentations and articles by:
 
 * A. Brandolini, for instance ["Strategic Domain Driven Design with Context Mapping"](https://www.infoq.com/articles/ddd-contextmapping/)
 * S. Millet, for instance ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/anatomy-of-DDD) on LeanPub 
-* M. Ploed, for instance ["Visualizing Sociotechnical Architectures with Context Maps](https://speakerdeck.com/mploed/visualizing-sociotechnical-architectures-with-context-maps?slide=4)
+* M. Ploed, for instance ["Visualizing Sociotechnical Architectures with Context Maps"](https://speakerdeck.com/mploed/visualizing-sociotechnical-architectures-with-context-maps?slide=4)
 * V. Vernon's [YouTube channel](https://www.youtube.com/channel/UCdbDxsXevDLt7EhRbi2KGjg)
 * ["Introduction to Strategic DDD"](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design) on the Vaadin website 
 

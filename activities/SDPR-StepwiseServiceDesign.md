@@ -147,6 +147,7 @@ Produced artifacts:
 #### Other Practices (Alternatives)
 
 **EXPOSE.** Early presentations on MAP featured six endpoint/service identification and realization steps called EXPOSE:
+
 <!-- (see [this conference presentation]() 2018 seminar preso): --> 
 
 ![](/activities/images/MAP-EXPOSEStepsInServiceDesign.png)

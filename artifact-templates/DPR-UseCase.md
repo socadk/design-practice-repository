@@ -101,7 +101,7 @@ The history of use cases dates back to Ivar Jacobson in 1986. They are an essent
 
 ### More Information
 
-Larman's @Larman:2004 Chapter on [Use Cases]((https://www.craiglarman.com/wiki/index.php?title=Book_Applying_UML_and_Patterns)) is available as a free sample.
+Larman's @Larman:2004 Chapter on [Use Cases](https://www.craiglarman.com/wiki/index.php?title=Book_Applying_UML_and_Patterns) is available as a free sample.
 
 More information is available in UML books and [dedicated literature](https://en.wikipedia.org/wiki/Use_case#Further_reading).
 

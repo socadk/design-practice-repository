@@ -132,7 +132,7 @@ Usage of the pattern names and presence of domain models, either drawn informall
 
 ### Related Content
 
-* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCases.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
+* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
 * [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
 
