@@ -55,7 +55,7 @@ The remaining patterns are useful for planning iterations, but less relevant for
 
 **Other splitting criteria.** B. Wake suggested ["Twenty Ways to Split Stories"](https://xp123.com/articles/twenty-ways-to-split-stories/). 
 
-M. Cohn proposed five techniques under the moniker *SPIDR*, [explained in this blog post](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story) by K. Lattenkamp: Spikes, Paths, Interfaces, Data, Rules. 
+Mike Cohn proposed five techniques under the moniker *SPIDR*, [explained in this blog post](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story) by K. Lattenkamp: Spikes, Paths, Interfaces, Data, Rules. 
 
 
 ### Example(s)
@@ -121,7 +121,7 @@ The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) has
 
 Agile for All provides a [Cheat Sheet](https://agileforall.com/wp-content/uploads/2009/10/Story-Splitting-Cheat-Sheet.pdf) that summarizes the patterns. 
 
-T. Heap, a business analyst, [puts the splitting steps in a logical order](http://www.its-all-design.com/how-to-split-user-stories/) and also touches upon API design.
+Tony Heap, a business analyst, [puts the splitting steps in a logical order](http://www.its-all-design.com/how-to-split-user-stories/) and also touches upon API design.
 
 
 ### Data Provenance 
