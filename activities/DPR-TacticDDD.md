@@ -19,9 +19,7 @@ also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 ### Goal and Purpose (When to Use and When not to Use)
 
-<!--
-> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* 
--->
+
 
 Tactic DDD can be seen as [Object-Oriented Analysis and Design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) (OOAD) done right, putting emphasis on the business logic in layered architecture and decomposing the [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) pattern from M. Fowler's @Fowler:2002. The goals of OOAD and tactic DDD are:
 
@@ -93,80 +91,7 @@ The main Aggregate of the Cargo sample application is shown in the following fig
 
 ![](/activities/images/CM-TacticDDDCargoAggregate.png)
 
-<!-- png created from this puml source (had to add a blank to some relationship arrows):
-
-skinparam componentStyle uml2
-
-package se.citerus.dddsample.domain.model.cargo {
-	package "'CargoItineraryLegDeliveryRouteSpecification' Aggregate" <<Rectangle>> {
-		class Cargo <<(A,#fffab8) Aggregate Root>> {
-			TrackingId trackingId
-			LocationShared origin
-			RouteSpecification routeSpecification
-			Itinerary itinerary
-			Delivery delivery
-		}
-		class Delivery <<(V,DarkSeaGreen) Value Object>> {
-			boolean misdirected
-			Date eta
-			boolean isUnloadedAtDestination
-			Date calculatedAt
-			TransportStatus transportStatus
-			LocationShared lastKnownLocation
-			Voyage currentVoyage
-			HandlingActivity nextExpectedActivity
-			RoutingStatus routingStatus
-			HandlingEvent lastEvent
-		}
-		class HandlingActivity <<(V,DarkSeaGreen) Value Object>> {
-			HandlingEvent.Type handlingEventType
-			LocationShared location
-			Voyage voyage
-		}
-		class Itinerary <<(V,DarkSeaGreen) Value Object>> {
-			ItineraryNumber itineraryNumber
-			List<Leg> legs
-		}
-		class Leg <<(V,DarkSeaGreen) Value Object>> {
-			Date loadTime
-			Date unloadTime
-			Voyage voyage
-			LocationShared loadLocation
-			LocationShared unloadLocation
-		}
-		class RouteSpecification <<(V,DarkSeaGreen) Value Object>> {
-			Date arrivalDeadline
-			LocationShared origin
-			LocationShared destination
-		}
-		enum TransportStatus {
-			NOT_RECEIVED
-			IN_PORT
-			ONBOARD_CARRIER
-			CLAIMED
-			UNKNOWN
-		}
-		enum RoutingStatus {
-			NOT_ROUTED
-			ROUTED
-			MISROUTED
-		}
-		class RoutingService <<(S,DarkSeaGreen) Service>> {
-			List<Itinerary> fetchRoutesForSpecification(RouteSpecification routeSpecification)
-		}
-	}
-}
-
-Cargo -- > RouteSpecification : routeSpecification
-Cargo -- > Itinerary : itinerary
-Cargo -- > Delivery : delivery
-Delivery -- > TransportStatus : transportStatus
-Delivery -- > HandlingActivity : nextExpectedActivity
-Delivery -- > RoutingStatus : routingStatus
-Itinerary -- > Leg : legs
-RoutingService -- > Itinerary : fetchRoutesForSpecification
-RoutingService -- > RouteSpecification : fetchRoutesForSpecification
--->
+<!-- png created from puml source (had to add a blank to some relationship arrows) in "models" folder -->
 
 [Context Mapper](https://contextmapper.org/), a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then bounded contexts (a strategic DDD pattern) containing Aggregates, Entities, and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/) and a comprehensive [end-to-end-demo](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2) features Tactic DDD and Context Mapper in combination wither service domain-specific languages and tools.
 

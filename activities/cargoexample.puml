@@ -1,0 +1,73 @@
+@startuml
+skinparam componentStyle uml2
+
+package se.citerus.dddsample.domain.model.cargo {
+	package "'CargoItineraryLegDeliveryRouteSpecification' Aggregate" <<Rectangle>> {
+		class Cargo <<(A,#fffab8) Aggregate Root>> {
+			TrackingId trackingId
+			LocationShared origin
+			RouteSpecification routeSpecification
+			Itinerary itinerary
+			Delivery delivery
+		}
+		class Delivery <<(V,DarkSeaGreen) Value Object>> {
+			boolean misdirected
+			Date eta
+			boolean isUnloadedAtDestination
+			Date calculatedAt
+			TransportStatus transportStatus
+			LocationShared lastKnownLocation
+			Voyage currentVoyage
+			HandlingActivity nextExpectedActivity
+			RoutingStatus routingStatus
+			HandlingEvent lastEvent
+		}
+		class HandlingActivity <<(V,DarkSeaGreen) Value Object>> {
+			HandlingEvent.Type handlingEventType
+			LocationShared location
+			Voyage voyage
+		}
+		class Itinerary <<(V,DarkSeaGreen) Value Object>> {
+			ItineraryNumber itineraryNumber
+			List<Leg> legs
+		}
+		class Leg <<(V,DarkSeaGreen) Value Object>> {
+			Date loadTime
+			Date unloadTime
+			Voyage voyage
+			LocationShared loadLocation
+			LocationShared unloadLocation
+		}
+		class RouteSpecification <<(V,DarkSeaGreen) Value Object>> {
+			Date arrivalDeadline
+			LocationShared origin
+			LocationShared destination
+		}
+		enum TransportStatus {
+			NOT_RECEIVED
+			IN_PORT
+			ONBOARD_CARRIER
+			CLAIMED
+			UNKNOWN
+		}
+		enum RoutingStatus {
+			NOT_ROUTED
+			ROUTED
+			MISROUTED
+		}
+		class RoutingService <<(S,DarkSeaGreen) Service>> {
+			List<Itinerary> fetchRoutesForSpecification(RouteSpecification routeSpecification)
+		}
+	}
+}
+
+Cargo -- > RouteSpecification : routeSpecification
+Cargo -- > Itinerary : itinerary
+Cargo -- > Delivery : delivery
+Delivery -- > TransportStatus : transportStatus
+Delivery -- > HandlingActivity : nextExpectedActivity
+Delivery -- > RoutingStatus : routingStatus
+Itinerary -- > Leg : legs
+RoutingService -- > Itinerary : fetchRoutesForSpecification
+RoutingService -- > RouteSpecification : fetchRoutesForSpecification
+@enduml
