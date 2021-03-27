@@ -105,7 +105,7 @@ We would argue that there hardly is any system that is simple enough not to bene
 ### Hints and Pitfalls to Avoid
 Specific to OOAD and DDD, it is a good idea to establish naming conventions, for instance for Aggregates and their Entities. See hint 6 in ZIO's [Technical Writing Tips and Tricks](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
 
-E. Evans establishes the following design heuristics for Aggregates in his [DDD Reference](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf):
+Eric Evans establishes the following design heuristics for Aggregates in his [DDD Reference](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf):
 
 * "Use asynchronous communication between Aggregates
 * Give enforcement responsibilities (for invariants) to root entity, possibly supported by designated framework mechanisms (e.g., in Spring)
@@ -132,7 +132,7 @@ Usage of the pattern names and presence of domain models, either drawn informall
 
 ### Related Content
 
-* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCases.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
+* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
 * [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
 
@@ -158,7 +158,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ### More Information 
 
 * There is a free DDD reference providing pattern summaries ([PDF](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), [Word](http://domainlanguage.com/wp-content/uploads/2016/05/PatternSummariesUnderCreativeCommons.doc)) and a [DDD glossary](http://dddcommunity.org/resources/ddd_terms/) on the community website. 
-* M. Ploed shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub @Ploed:2019. 
+* Michael Plöd shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub @Ploed:2019. 
 * The DDD Europe organization has published the ["Domain-Driven Design: The First 15 Years"](https://leanpub.com/ddd_first_15_years/) on LeanPub, a collection of "old and new essays" by "prominent authors in the software design world". 
 * The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity.html).
 * Consult [this web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.

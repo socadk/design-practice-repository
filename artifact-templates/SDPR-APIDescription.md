@@ -63,7 +63,7 @@ API client HelloWorldAPIClient
 
 The [Microservice Canvas](http://chrisrichardson.net/post/microservices/general/2019/02/27/microservice-canvas.html) template proposed by C. Richardson creates elaborate API Descriptions when filled out completely. The template includes implementation information, service invocation relationships, and events produced/subscribed to.
 
-J. Higginbotham compiled [the minimum documentation required for an API](https://tyk.io/whats-minimum-documentation-required-api/) in a blog post.
+James Higginbotham compiled [the minimum documentation required for an API](https://tyk.io/whats-minimum-documentation-required-api/) in a blog post.
 
 See the end-to-end service design demo ["Domain-Driven Service Design with Context Mapper and MDSL"](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for technical, platform-specific contracts generated from the platform-independent MDSL.
 

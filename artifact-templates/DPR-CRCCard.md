@@ -93,7 +93,7 @@ Interface-Responsibility-Interactions (IRI) cards are a similar concept, but app
 ### More Information
 The [RDD tutorial](http://www.wirfs-brock.com/PDFs/A_Brief-Tour-of-RDD.pdf) explains the *original*, class-level version and provides additional examples.
 
-G. Hohpe explains the difference between "scope" and "abstraction" in his blog post ["The Architect’s Path (Part 1 - Model)"](https://architectelevator.com/architecture/architect-path/). CRC cards have a narrow scope and a conceptual level of abstraction (bottom right quadrant).
+Gregor Hohpe explains the difference between "scope" and "abstraction" in his blog post ["The Architect’s Path (Part 1 - Model)"](https://architectelevator.com/architecture/architect-path/). CRC cards have a narrow scope and a conceptual level of abstraction (bottom right quadrant).
 
 RDD and many other methods are compiled and commented on in ["Driven by Acronyms"](https://medium.com/olzzio/driven-by-acronyms-e1568b73e4aa), one of O. Zimmermann's story posts on Medium.
 
