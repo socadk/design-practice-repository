@@ -18,7 +18,7 @@ The need for a new service may arise from different occasions: For example, you 
 ### Goal and Purpose (When to Use)
 <!-- turned purpose into user story (for consistency): -->
 
-> *As a designer and/or developer of user interfaces , user experience specialist, I want to share emerging user interface designs with my stakeholders (for instance, end users and product managers) to solicit their feedback and involve them in the design closely.* 
+> *As a designer and/or developer of user interfaces, user experience specialist, I want to share emerging user interface designs with my stakeholders (for instance, end users and product managers) to solicit their feedback and involve them in the design closely.* 
 
 The goal of *User Interface Mocking* or *Wireframing* in the context of service design is to get a better understanding of the structure, amount, and kind of data a client needs so that the service can be designed accordingly. For example, should a service use [Pagination](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to break response messages into chunks, and what kind of [Reference Management](https://www.microservice-api-patterns.org/patterns/quality/#reference-management/) is best suited? 
 
