@@ -21,7 +21,7 @@ also known as: Decision Log(ging)
 ### Context 
 Each software system has an architecture, which is defined by the set of [architectural decisions](https://en.wikipedia.org/wiki/Architectural_decision) made. Hopefully, these decisions are made consciously and continuously, and consensus is reached about them. This decision making progress should be recorded to avoid knowledge vaporization.
 
-*Note:* Not all organizations can or want to follow a "products over projects" philosophy; team members come and go, e.g., external consultants. Some of these tend to apply the "I know better, why haven't you done this and that?" tactic when joining and forget to document their legacy when leaving. Keeping a decision log current is a good safety belt in such (and similar) situations.
+*Discussion:* Not all organizations can or want to follow a "products over projects" philosophy; team members come and go, e.g., external consultants. Some of these tend to apply the "I know better, why haven't you done this and that?" tactic when joining and forget to document their legacy when leaving. Keeping a decision log current is a good safety belt in such (and similar) situations.
 
 
 ### Purpose (When to Use and When not to Use)
@@ -48,7 +48,10 @@ This log can, for instance, be a team-wide source modeling or code repository, a
 An example of a minimal decision capture is: 
 
 ```adr
-ADR-001: We decided for MySQL as our relational database in the backend because this database has been approved strategically by our EAM group, has good tool support and sufficient performance under the workload that we expect to be caused by the user stories to be implemented in the next 10 sprints.
+ADR-001: We decided for MySQL as our relational database in the backend 
+because this database has been approved strategically by our EAM group, 
+has good tool support and sufficient performance under the workload that 
+we expect from the user stories to be implemented in the next 10 sprints.
 ```
 
 Slide 18 in a [SAGRA 2016 keynote](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) features a medium-verbose ADR:

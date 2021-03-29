@@ -34,9 +34,12 @@ Y-Statements are often captured in plain but structured text (but tables in pres
 [Wikipedia](https://en.wikipedia.org/wiki/Architectural_decision#Examples) has this example:
 
 ```adr
-In the context of the Web shop service, facing the need to keep user session data consistent and current across shop instances, 
-we decided for the Database Session State Pattern (and against Client Session State or Server Session State)
-to achieve cloud elasticity, accepting that a session database needs to be designed, implemented, and replicated. 
+In the context of the Web shop service, 
+facing the need to keep user session data consistent and current across shop instances, 
+we decided for the Database Session State Pattern 
+(and against Client Session State or Server Session State)
+to achieve cloud elasticity, 
+accepting that a session database needs to be designed, implemented, and replicated. 
 ```
 
 
