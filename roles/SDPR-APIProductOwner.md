@@ -1,6 +1,6 @@
 ---
-Category: Business  
-Activities: Service Design, Rollout  
+Category: Business, technical leadership  
+Activities: Service design, rollout
 ---
 
 <!-- Word budget: 500-1000 (2-3 A4 pages); the artifacts descriptions should be readable in a few minutes (while practice descriptions will be a bit more elaborate) -->
@@ -10,7 +10,7 @@ Role: *API Product Owner*
 
 ### Persona 
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
-An API product owner is at the intersection where API clients and providers meet. This leads to a constant struggle between fulfilling clients' wishes and keeping the API on [POINT](https://ifs.hsr.ch/index.php?id=15667&L=0) and economically viable.
+An API product owner operates at the intersection where API clients and providers meet. This leads to a constant struggle between fulfilling clients' wishes and keeping the API on [POINT](https://ifs.hsr.ch/index.php?id=15667&L=0) and economically viable.
 
 <!-- We decided to call it API Product Owner based on various definitions we found:
 
@@ -29,8 +29,8 @@ API product owners care about and require/produce information related to:
 * User experience
 * Documentation, for example product road maps and API descriptions 
 * Service level agreements
-* Quick overviews of external interfaces and internal structure of the produced software.
-* Cost vs. benefit of feature development, supportability and evolvability of their products and services.
+* Quick overviews of external interfaces and internal structure of the produced software
+* Cost vs. benefit of feature development, supportability, and evolvability of their products and services
 
 Just like application and integration architects specializing on distributed systems and APIs, they [wear six hats](http://www.debonogroup.com/services/core-programs/six-thinking-hats/) according to a [blog post by James Higginbotham](https://tyk.io/the-six-hats-of-the-api-architect/) (and his Twitter network): API trendspotter, API reviewer, API risk assessor, API advocate, API creator, and API planner.
 
@@ -39,8 +39,9 @@ Just like application and integration architects specializing on distributed sys
 
 Roles to communicate with: 
 
+* API clients
 * [Application and Integration Architect](./DPR-ApplicationArchitectRole.md) 
-
+* Other roles not yet describes in DPR yet: domain experts, DevOps staff, etc.
 
 ### Consumed/Produced Artifacts and Applied Practices
 
@@ -51,8 +52,8 @@ The API product owner  participates in these activities (tasks):
 
 The API product owner is responsible for the following artifacts: 
 
-* [User stories](../artifact-templates/DPR-UserStory.md) and/or [use cases](../artifact-templates/DPR-UseCase.md)
-* [API description a.k.a. service contract artifact](../artifact-templates/SDPR-APIDescription.md)
+* [User Stories](../artifact-templates/DPR-UserStory.md) and/or [Use Cases](../artifact-templates/DPR-UseCase.md)
+* [API Description](../artifact-templates/SDPR-APIDescription.md) a.k.a. service contract artifact
 * [Service Level Agreements](../artifact-templates/SDPR-ServiceLevelAgreement.md) and [Rate Plans](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RatePlan).
 
 In a contributor or reviewer role, (s)he might also work with/on: 
@@ -64,7 +65,7 @@ In a contributor or reviewer role, (s)he might also work with/on:
 
 ### More Information
 
-["Beyond Software Architecture"](https://www.amazon.de/Beyond-Software-Architecture-Sustaining-Addison-Wesley-ebook/dp/B003YL3P0E) is not API-specific, but covers software product management.
+["Beyond Software Architecture"](https://www.amazon.de/Beyond-Software-Architecture-Sustaining-Addison-Wesley-ebook/dp/B003YL3P0E) by Luke Hohmann is not API-specific, but covers software product management. <!-- TODO add bibtex -->
 
 
 ### Data Provenance 
@@ -72,7 +73,7 @@ In a contributor or reviewer role, (s)he might also work with/on:
 ```yaml
 title: "Design Practice Repository (DPR): API Product Manager"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "12, 04, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+date: "03, 27, 2021"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

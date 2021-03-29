@@ -23,9 +23,9 @@ This repository targets the following software engineering roles, ordered from s
 
 ## Overview and Quick Links
 
-As explained in [this introductory blog post](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd), DPR is organized around *artifacts*, *templates*, *activities* and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
+DPR is organized around *artifacts*, *templates*, *activities* and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
 
-<img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPR concepts visualized with miro"/>
+<img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPR Concepts (Domain Model)"/>
 
 <!-- not possible here (?): 
 <object height="100%" width="100%" data="./images/DPR-MetamodelMiro.svg" alt="DPR concepts visualized with miro">
@@ -38,7 +38,11 @@ DPR contains three types of method/practice elements:
 * Next up would be [activities and techniques](activities). You may want to start with our [Stepwise Service Design](activities/SDPR-StepwiseServiceDesign.md) practice.
 * Also there, but not very deeply populated are the [roles and personas](./roles): [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md).
 
-The [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
+The activities and artifacts that we have collected so far are:
+
+![DPR Activities, Artifacts and their dependencies](/images/DPR-ActivityArtifactDependencies.png)
+
+There is an [introductory blog post](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd). And the [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
 We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 

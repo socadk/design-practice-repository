@@ -11,6 +11,8 @@ Artifact/Template: *API Description*
 ------------------------------------
 also known as: Service Contract 
 
+> *An API Description answers the following questions: "Which knowledge should be shared between an API provider and its clients? How should this knowledge be documented?"* <!-- MAP quote -->
+
 ### Motivation (Addressed Information Need) 
 Quoting the context section of the [API Description pattern](https://microservice-api-patterns.org/patterns/foundation/APIDescription) on the MAP website, let's assume that "a service provider has decided to expose one or more API operations in an API endpoint; the number, name, and synopsis of these API calls have not been specified yet. Therefore, developers of clients (i.e., Web and mobile app developers implementing [Frontend Integrations](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration) or the system integrators writing adapters for [Backend Integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration)) are not yet able to code service invocations and do not know what to expect in responses. Furthermore, supplemental interface descriptions are missing as well, including informal explanations of the meaning of the API calls (e.g., parameters in message representations, effects on application state in the API implementation) and related qualities (e.g., idempotency, transactionality)."
 
@@ -37,7 +39,8 @@ The [API Description](https://microservice-api-patterns.org/patterns/foundation/
 ### Example(s)
 A minimal technical API Description is (notation: [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
-~~~
+<!-- was ~~~ -->
+```guess
 API description HelloWorldAPI
 
 data type SampleDTO {ID, D} 
@@ -53,11 +56,12 @@ API provider HelloWorldAPIProvider
 
 API client HelloWorldAPIClient
   consumes HelloWorldEndpoint
-~~~
+``` 
+<!-- ~~~ -->
 
 The [Microservice Canvas](http://chrisrichardson.net/post/microservices/general/2019/02/27/microservice-canvas.html) template proposed by C. Richardson creates elaborate API Descriptions when filled out completely. The template includes implementation information, service invocation relationships, and events produced/subscribed to.
 
-J. Higginbotham compiled [the minimum documentation required for an API](https://tyk.io/whats-minimum-documentation-required-api/) in a blog post.
+James Higginbotham compiled [the minimum documentation required for an API](https://tyk.io/whats-minimum-documentation-required-api/) in a blog post.
 
 See the end-to-end service design demo ["Domain-Driven Service Design with Context Mapper and MDSL"](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for technical, platform-specific contracts generated from the platform-independent MDSL.
 

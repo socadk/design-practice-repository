@@ -26,6 +26,7 @@ TODO
 <!-- TODO, can be a user story, must identify the performing role and the target audience (producer, consumer) -->
 TODO 
 
+> *TODO goal and purpose story* 
 
 ### Instructions (Synopsis, Definition)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?) -->  

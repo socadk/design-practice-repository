@@ -16,12 +16,13 @@ also known as: Wireframing
 The need for a new service may arise from different occasions: For example, you are building a new single page web app or adding new features to a mobile app. If the service client does not exist yet, how do you know what responsibilities your service should have, and what message structure is best suited for the service client? 
 
 ### Goal and Purpose (When to Use)
-The general purpose is to share emerging user interface designs with stakeholders (for instance, end users and product managers) to solicit their feedback and involve them in the design closely. 
+<!-- turned purpose into user story (for consistency): -->
 
-The goal of *User Interface Mocking* or *Wireframing* in the context of service design is to get a better understanding of the structure, amount, and kind of data a client needs so that the service can be designed accordingly.
-For example, should a service use [Pagination](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to break response messages into chunks, and what kind of [Reference Management](https://www.microservice-api-patterns.org/patterns/quality/#reference-management/) is best suited? 
+> *As a designer and/or developer of user interfaces, user experience specialist, I want to share emerging user interface designs with my stakeholders (for instance, end users and product managers) to solicit their feedback and involve them in the design closely.* 
 
-*When not to use*. Services and APIs serve different purposes. Some are tailored to a specific frontend (so-called [Backends-for-Frontend](https://samnewman.io/patterns/architectural/bff/) pattern), while others are built for a yet unknown client (i.e., when your product offering is the API itself). If you are not planning on also creating a client for the service, then doing a mockup of its interface might not be the best approach and you might be better served by [Stepwise Service Design](DPR-StepwiseServiceDesign.md) instead.
+The goal of *User Interface Mocking* or *Wireframing* in the context of service design is to get a better understanding of the structure, amount, and kind of data a client needs so that the service can be designed accordingly. For example, should a service use [Pagination](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to break response messages into chunks, and what kind of [Reference Management](https://www.microservice-api-patterns.org/patterns/quality/#reference-management/) is best suited? 
+
+*When not to use*. Services and APIs serve different purposes. Some are tailored to a specific frontend (so-called [Backends-for-Frontend](https://samnewman.io/patterns/architectural/bff/) pattern), while others are built for a yet unknown client (i.e., when your product offering is the API itself). If you are not planning on also creating a client for the service, then doing a mockup of its interface might not be the best approach and you might be better served by [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) instead.
 
 ### Instructions (Synopsis, Definition)
 The fidelity of user interfaces mockups <!-- note: "mocks" refers to the testing concept of a mock, an imitation, whereas a UI mockup is a simple model. --> varies between hand-drawn sketches to pixel perfect, clickable prototypes. A middle way of a rough grayscale layout (to make clear that this is just a mockup and should not be taken as representing the exact outcome) that shows the UI elements and approximate position offers a good cost-benefit ratio.
@@ -34,7 +35,7 @@ According to [Balsamiq](https://balsamiq.com/learn/articles/five-steps-to-great-
 1. *Communicate* your results to your team and
 1. *Validate* that it actually solves the problem you set out to solve.
 
-The resulting wireframes support [Stepwise Service Design](DPR-StepwiseServiceDesign.md) from requirements gathering to decomposition. For instance, the first mockup can be used to populate the [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md). A regular alignment of wireframes and the API design, expressed in the [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md) and the [API Description](../artifact-templates/SDPR-APIDescription.md), can reduce the risk that the API needs to be reworked for the development of the frontend during Step 7 (API design evolution).
+The resulting wireframes support [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) from requirements gathering to decomposition. For instance, the first mockup can be used to populate the [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md). A regular alignment of wireframes and the API design, expressed in the [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md) and the [API Description](../artifact-templates/SDPR-APIDescription.md), can reduce the risk that the API needs to be reworked for the development of the frontend during Step 7 (API design evolution).
  
 
 ### Example(s)

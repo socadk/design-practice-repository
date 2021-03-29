@@ -12,6 +12,8 @@ Artifact/Template: *AOD*
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 also known as: Container Diagram
 
+> *Synopsis: TODO*
+
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
 Container Diagram is one of the four Cs in C4. 

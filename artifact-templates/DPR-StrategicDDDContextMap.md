@@ -10,6 +10,8 @@ Abstraction/Refinement Level: Conceptual
 Artifact/Template: *DDD Context Map*
 ------------------------------------
 
+> *In domain-driven design, a context map shows bounded contexts (model boundaries, of different types) and their relations (e.g., influence flows).*
+
 ### Motivation (Addressed Information Need)
 A context map visualizes the relationships between [Bounded Contexts]() in [Strategic DDD](../activities/DPR-StrategicDDD.md). Several types of such relationships have been described as patterns; Bounded Contexts abstract from functional feature sets, existing or future application or systems as well as teams.
 
@@ -33,7 +35,7 @@ DDD as such does not mandate any notation. Each author and presenter has his/her
 
 The above context map was generated from this DSL model ([Context Mapper](https://contextmapper.org/)):
 
-~~~
+```cml
 ContextMap DDDSampleMap {
 	contains CargoBookingContext
 	contains VoyagePlanningContext
@@ -44,8 +46,7 @@ ContextMap DDDSampleMap {
 
 	VoyagePlanningContext [D]<-[U,OHS,PL] LocationContext	
 }
-~~~
-
+```
 
 ### Tools
 

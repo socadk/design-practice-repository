@@ -20,6 +20,9 @@ Note that while common, the term "non-functional" and the acronym "NFR" are not 
 
 
 ### Goal and Purpose (When to Use and When not to Use)
+
+> *As a requirements engineer, I would to find out and specify the quality characteristics and (non-)technical constraints of the system/software under construction.* 
+
 Expressive, unambiguous NFRs that find their way into project plans and the minds of the project participants are the main output of architectural analysis. Without such NFRs, architecture design work becomes a blind flight; the project team is at the mercy of the client or internal project sponsor who can come up with new and more advanced requirements as they wish.
 
 Practical challenges of NFR elicitation include:
@@ -30,11 +33,9 @@ Practical challenges of NFR elicitation include:
 
 Therefore, it is desirable to establish criteria and templates that allow architects and other participants in architectural analysis to overcome these challenge so that NFR elicitation and architectural analysis become effective and efficient.
 
-<!-- Source: https://miro.com/app/board/o9J_kmuX5tA=/?fromEmbed=1 -->
+<!-- Source: https://miro.com/app/board/o9J_lN6Tr5c=/ -->
 
 ![](/activities/images/DPR-NFRElicitation.png)
-
-<!-- IH CE: capitalization not consistent in figure -->
 
 ### Instructions (Synopsis, Definition)
 *Select and apply a taxonomy consistently.* There are many different NFRs, Quality Attributes (QAs) in particular. Many of these pertain to the runtime, others deal with software support and maintenance. Therefore, many attempts have been made to organize the QA landscape (ordered from informal and ad hoc to formal and complete): 

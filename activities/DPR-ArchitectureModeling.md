@@ -15,7 +15,7 @@ also known as: Architecture Specification and Documentation
 ### Context
 Software architecture books such as "Software Architecture in Pratice" (@Bass:2012) or the German "Effektive Softwarearchitekturen" (@Starke:2015) explains that any architecture design (and early solution strategy in particular) is about *structure* and *technology*. 
 
-This desire for structure can be met by identification of candidate components and their continuous refinement, starting with "big" [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) for instance about logical [layers](https://wiki.hsr.ch/APF/files/Layers.pdf), [Client/Server Cuts (CSCs)](http://www.objectarchitects.de/ObjectArchitects/papers/Published/ZippedPapers/renzel.pdf) and architectural styles such as client/server and/or [(micro-)service-oriented architectures](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html). <!-- styles, patterns, reference architectures -->
+This desire for structure can be met by identification of candidate components and their continuous refinement, starting with "big" [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) for instance about logical layers, [Client/Server Cuts (CSCs)](http://www.objectarchitects.de/ObjectArchitects/papers/Published/ZippedPapers/renzel.pdf) and architectural styles such as client/server and/or [(micro-)service-oriented architectures](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html). <!-- styles, patterns, reference architectures -->
 
 Furthermore, technology concepts also have to be decided: middleware and frameworks such as component containers, communication protocols and message exchange formats, cluster and deployment managers (for instance, Spring Boot and Docker running in a public cloud). 
 
@@ -24,22 +24,21 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 
 ### Goal and Purpose (When to Use and When not to Use)
 
-> As a software engineer performing architecture design work,
+> *As a software engineer performing architecture design work,*
 
-> I want to capture my current understanding of the structure of the system under construction (in terms of its components and connectors), share it with peers and other stakeholders and continuously evolve it
+> *I want to capture my current understanding of the structure of the system under construction (in terms of its components and connectors), share it with peers and other stakeholders and continuously evolve it*
 
-> so that I can plan ahead (design and implementation work), manage risk and trace the design back to [architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements).
+> *so that I can plan ahead (design and implementation work), manage risk and trace the design back to [architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements).*
 
 
 ### Instructions (Synopsis, Definition)
 *Derive the level of abstraction, breadth, depth and notation for any architecture model  you create from a set of stakeholder concerns and information needs caused by these concerns. Create one model/diagram per viewpoint (i.e., set of stakeholder concerns).* 
 
-For instance, four common modeling steps are: 
-<!-- Source: https://miro.com/app/board/o9J_kmvD-I0=/?fromEmbed=1 -->
+<!-- Source: https://miro.com/app/board/o9J_lN6TopI=/ -->
 
 ![](/activities/images/DPR-ArchitectureModeling.png)
 
-<!-- TODO CE: typo in miro Guidelines -->
+For instance, four common modeling steps are: 
 
 1. Create a *system context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
 2. Provide an *architecture overview diagram* that captures the outcome of the executive decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder requirements, project/iteration planning).
@@ -56,7 +55,7 @@ A wide range of notations and tools to support these and other modeling tasks ex
 
 Popular viewpoint models are:
 
-* P. Kruchten's [4+1 views on software architecture](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
+* Philippe Kruchten's [4+1 views on software architecture](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
 * The [viewpoints and perspectives proposed by N. Rozanski and E. Woods](https://www.viewpoints-and-perspectives.info/home/viewpoints/) (@RozanskiWoods:2005)
 * Having started with a "less is more" (and anti-UML message), the [C4 Model](../artifact-templates/futureWork/DPR-C4Model.md) has now evolved into a rather comprehensive set of diagrams supported by the [Structurizr](https://structurizr.com/) library and online tool. 
 
@@ -67,9 +66,7 @@ The component overview of the frontend-backend and service landscape at [Lakesid
 
 ![Lakeside Mutual component overview](https://raw.githubusercontent.com/Microservice-API-Patterns/LakesideMutual/master/resources/overview-diagram.png)
 
-Page 4 of [this presentation](https://ozimmer.ch/assets/presos/ZIO-FromDDDToMAPIsQS2020v10p.pdf) provides an example of an architecture overview diagram styled as an IRP.
-
-C4 examples are available publicly [here](https://structurizr.com/share/1).
+Page 4 of [this presentation](https://ozimmer.ch/assets/presos/ZIO-FromDDDToMAPIsQS2020v10p.pdf) provides an example of an architecture overview diagram styled as an IRP. C4 examples are available publicly [here](https://structurizr.com/share/1).
 
 An [arc42 FAQ](https://faq.arc42.org/questions/C-4-3/) provides examples of solution strategy decisions worth capturing and visualizing. Section 5 of the arc42 template covers the [building block view(s)](https://docs.arc42.org/section-5/).
 
@@ -81,7 +78,7 @@ George Fairbanks sends similar messages in his book ["Just Enough Software Archi
 
 A variation of the "if in doubt leave it out" rule for DPR method adoption applies here:
 
-> Do not create a 'big ball of model mud'; always have a distinct target audience with its information needs in mind when creating a model or a diagram. Base your in/out and naming decisions on the preferences and background of that particular audience.
+> *Do not create a 'big ball of model mud'; always have a distinct target audience with its information needs in mind when creating a model or a diagram. Base your in/out and naming decisions on the preferences and background of that particular audience.*
 
 
 ### Hints and Pitfalls to Avoid

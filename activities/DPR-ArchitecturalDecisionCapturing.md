@@ -21,13 +21,12 @@ also known as: Decision Log(ging)
 ### Context 
 Each software system has an architecture, which is defined by the set of [architectural decisions](https://en.wikipedia.org/wiki/Architectural_decision) made. Hopefully, these decisions are made consciously and continuously, and consensus is reached about them. This decision making progress should be recorded to avoid knowledge vaporization.
 
-*Note:* Not all organizations can or want to follow a "products over projects" philosophy; team members come and go, e.g., external consultants. Some of these tend to apply the "I know better, why haven't you done this and that?" tactic when joining and forget to document their legacy when leaving. Keeping a decision log current is a good safety belt in such (and similar) situations.
+*Discussion:* Not all organizations can or want to follow a "products over projects" philosophy; team members come and go, e.g., external consultants. Some of these tend to apply the "I know better, why haven't you done this and that?" tactic when joining and forget to document their legacy when leaving. Keeping a decision log current is a good safety belt in such (and similar) situations.
 
 
 ### Purpose (When to Use and When not to Use)
-*As a technical team lead (architect, lead developer, product manager), I want to keep track of the results of all architecture design activities in a compact and searchable form so that newcomers can get a quick overview of the key decisions made and the entire team (and interested external stakeholders) have a single point of reference when making follow-on decisions.* 
 
-From a quality point view, look for accountability (of decision makers), consistency (between decisions, between decisions and implementation artifacts), and continuity (or currentness of the design artifacts).
+> *As a technical team lead (architect, lead developer, product manager), I want to keep track of the results of all architecture design activities in a compact and searchable form so that newcomers can get a quick overview of the key decisions made, and the entire team (and interested external stakeholders) has a single point of reference when making follow-on decisions.* 
 
 There are no reasons not to capture decisions. Two variants exist, *continuous architectural decision capturing* and *stage-based architectural decision capturing*. A stage refers to a phase or iteration, for instance a sprint in Scrum and other agile methods.
 
@@ -36,7 +35,7 @@ There are no reasons not to capture decisions. Two variants exist, *continuous a
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->   
 *Keep a log of architectural decisions in a single place that is accessible to the entire team*. 
 
-This can, for instance, be a team-wide source modeling or code repository, a project-wide wiki, or a shared office document (word processor, spreadsheet). As the first decision to be captured, select a *verbosity level* for the decision log: 
+This log can, for instance, be a team-wide source modeling or code repository, a project-wide wiki, or a shared office document (word processor, spreadsheet). As the first decision to be captured, select a *verbosity level* for the decision log: 
 
 - At a minimum, document the decision outcome ("we chose") and provide basic rationale (for instance, in the form of a "because" half sentence).
 - On a medium level of verbosity, use one of the lean *Architectural Decision Record (ADR)* templates such as [MADR](https://github.com/adr/madr), [Y-Statements](http://www.sei.cmu.edu/library/abstracts/presentations/zimmermann-saturn2012.cfm) or [Nygard's ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). 
@@ -48,33 +47,39 @@ This can, for instance, be a team-wide source modeling or code repository, a pro
 ### Examples
 An example of a minimal decision capture is: 
 
-~~~
-ADR-001: We decided for MySQL as our relational database in the backend because this database has been approved strategically by our EAM group, has good tool support and sufficient performance under the workload that we expect to be caused by the user stories to be implemented in the next 10 sprints.
-~~~
+```adr
+ADR-001: We decided for MySQL as our relational database in the backend 
+because this database has been approved strategically by our EAM group, 
+has good tool support and sufficient performance under the workload that 
+we expect from the user stories to be implemented in the next 10 sprints.
+```
 
 Slide 18 in a [SAGRA 2016 keynote](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) features a medium-verbose ADR:
 
-![](/activities/images/ZIO-ADCapturingExample.png)
+![Exemplary Architectural Decision Record (ADR)](/activities/images/ZIO-ADCapturingExample.png)
 
-See [this SATURN 2010 presentation](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=22124) for a high-fidelity example (slide 14). 
+See [this SATURN 2010 presentation](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=22124) for a full-fledged example (Slide 14). 
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 There are few short-term incentives for decision capturing, which has been reported to pay off in the medium to long time. Many architects report that out of all views on software architecture they provide in their software architecture documents, the decision log has been read and commented on and appreciated the most. No special skills are required; anybody who can make a decision (or contribute to a collaborative decision making effort) should be able to capture the outcome and the supporting arguments. 
 
-Comparing the two definitions of software architecture (components and connectors vs. set of design decisions), one can view the latter as the software engineering/architecting process equivalent of [event sourcing](https://martinfowler.com/eaaDev/EventSourcing.html), with all its pros and cons. 
+Comparing the two common types of definition of software architecture (components and connectors vs. set of design decisions), one can view the latter as the software engineering/architecting process equivalent of [event sourcing](https://martinfowler.com/eaaDev/EventSourcing.html), with all its pros and cons. 
 
 
 ### Hints and Pitfalls to Avoid
-
-See an [InfoQ article](https://www.infoq.com/articles/sustainable-architectural-design-decisions) for tips and tricks.
 
 Some additional rules of thumb: 
 
 * Stick to one template throughout a project; it is less relevant which one you pick --- as long as you pick one.
 * Focus on the essence of the decision, but make sure the individual ADRs and the entire decision log can serve their purpose (see above): quick orientation, long time reference.
-* Do not spend more time on decision capturing than on decision making (and preparing this activity).
 * Assign an identifier and create minimal meta information such as decision owner/makers, status, and timestamp.
+* Do not spend more time on decision capturing than on decision making (and preparing this activity).
+* Establish criteria when a decision will be considered done, for instance [ecADR](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html). 
+
+From a quality point view, look for accountability (of decision makers), consistency (between decisions, between decisions and implementation artifacts), and continuity (or currentness of the design artifacts).
+
+See InfoQ/IEEE Software article ["Sustainable Architectural Design Decisions"](https://www.infoq.com/articles/sustainable-architectural-design-decisions) for more tips and tricks.
 
 
 ### Origins and Signs of Use
@@ -107,7 +112,7 @@ Agile Modeling has the notion of [Architecture Envisioning](http://agilemodeling
 
 
 ### More Information 
-See ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) post on Medium and [slides 51 and 52 in this presentation](http://resources.sei.cmu.edu/asset_files/Presentation/2012_017_001_31349.pdf) for examples of good and bad justifications; for instance, "will look good on my CV" does not qualify as a sound decision rationale for a technology selection decision (although it is understandable to come up with such argument 😉).
+See ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) post on Medium and [slides 51 and 52 in this presentation](http://resources.sei.cmu.edu/asset_files/Presentation/2012_017_001_31349.pdf) for examples of good and bad justifications; for instance, "will look good on my CV" does not qualify as a sound decision rationale for a technology selection decision (although it is understandable to come up with such argument). <!-- emoji removed -->
 
 [This website](https://www.ifs.hsr.ch/index.php?id=13191&L=4) and [this paper](http://www.ifs.hsr.ch/fileadmin/user_upload/customers/ifs.hsr.ch/Home/projekte/ADMentor-WICSA2015ubmissionv11nc.pdf) provide an overview of selected existing templates for AD capturing and decision logging (both lean and full-fledged). 
 
@@ -123,7 +128,7 @@ Finally, there is a proposed for ["A Definition of Done for Architectural Decisi
 ```yaml
 title: "Design Practice Repository (DPR): Architectural Decision Capturing"
 author: Olaf Zimmermann (ZIO)
-date: "02, 26, 2020 (Source: Project DD-DSE)"
+date: "03, 29, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

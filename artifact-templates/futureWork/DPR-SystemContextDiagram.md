@@ -12,6 +12,8 @@ Artifact/Template: *System Context Diagram*
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 also known as: TODO
 
+> *Synopsis: TODO*
+
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
 TODO

@@ -23,7 +23,10 @@ TODO
 
 
 ### Goal and Purpose (When to Use and When not to Use)
-<!-- TODO, can be a user story, must identify the performing role and the target audience (producer, consumer) -->
+<!-- TODO, identify the performing role and the target audience (producer, consumer) and their information need -->
+
+> *TODO goal and purpose story* 
+
 TODO 
 
 

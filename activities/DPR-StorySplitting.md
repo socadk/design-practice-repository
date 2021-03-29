@@ -26,10 +26,12 @@ A [user story](../artifact-templates/DPR-UserStory.md) that is too large for a s
 Several INVESTment practices and techniques exist; one of them is story splitting.
 
 ### Goal and Purpose (When to Use and When not to Use)
-<!-- TODO, can be a user story, must identify the performing role and the target audience (producer, consumer) -->
-Story splitting makes stories and their implementation easier to plan and execute. 
+
+> *As an agile practitioner with requirements analysis and/or project planning responsibilities, I would like to split user stories to make stories and their implementation easier to plan and execute.* 
 
 Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md). Many (but not all) splitting patterns and techniques are equally suited for this second, extended use of the practice.
+
+> *As an application architect, I would like to split user stories to identify candidate components and API endpoints.*
 
 
 ### Instructions (Synopsis, Definition)
@@ -53,7 +55,7 @@ The remaining patterns are useful for planning iterations, but less relevant for
 
 **Other splitting criteria.** B. Wake suggested ["Twenty Ways to Split Stories"](https://xp123.com/articles/twenty-ways-to-split-stories/). 
 
-M. Cohn proposed five techniques under the moniker *SPIDR*, [explained in this blog post](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story) by K. Lattenkamp: Spikes, Paths, Interfaces, Data, Rules. 
+Mike Cohn proposed five techniques under the moniker *SPIDR*, [explained in this blog post](https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story) by K. Lattenkamp: Spikes, Paths, Interfaces, Data, Rules. 
 
 
 ### Example(s)
@@ -88,7 +90,8 @@ One should not get carried away by dreaming up data entry and data variations, b
 <!-- From PLOPs and from AA -->
 The Wayback Machine (a.k.a. Internet Archive) keeps early posts about story splitting [here](https://web.archive.org/web/20120909082905/http://lassekoskela.com/thoughts/7/ways-to-split-user-stories/) and [here](https://web.archive.org/web/20120716060616/http://jbrains.ca/permalink/how-youll-probably-learn-to-split-features).
 
-Signs of use are difficult to call out for this activity. Backlog size and structure might indicate use. <!-- TODO How about CI/CM? --> 
+Signs of use are difficult to call out for this activity. Backlog size and structure might indicate use.
+<!-- TODO How about CI/CM? -->
 
 
 ### Related Content
@@ -118,7 +121,7 @@ The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) has
 
 Agile for All provides a [Cheat Sheet](https://agileforall.com/wp-content/uploads/2009/10/Story-Splitting-Cheat-Sheet.pdf) that summarizes the patterns. 
 
-T. Heap, a business analyst, [puts the splitting steps in a logical order](http://www.its-all-design.com/how-to-split-user-stories/) and also touches upon API design.
+Tony Heap, a business analyst, [puts the splitting steps in a logical order](http://www.its-all-design.com/how-to-split-user-stories/) and also touches upon API design.
 
 
 ### Data Provenance 

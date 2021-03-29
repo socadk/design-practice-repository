@@ -1,7 +1,6 @@
 # Literature
 
 <!--
-
 How to update this file:
 
 1. Remove the HTML code below this comment (up to metadata section) and replace it with an empty table 
@@ -22,7 +21,6 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 5. Copy the generated bibliography (start from "<div id="refs" class="references hanging-indent" role="doc-bibliography">"), and replace the markdown table below this comment with the copied HTML.
 
 6. Replace all div elements with p
-
  -->
 
 <p id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
@@ -119,8 +117,7 @@ Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Cesare Pautasso, and Uwe Zdun. 2
 <p id="ref-Zimmermann:2003" class="csl-entry" role="doc-biblioentry">
 Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on Web Services: Applying SOAP, WSDL and UDDI to Real-World Projects</em>. Springer Science &amp; Business Media.
 </p>
-
-
+</p>
 
 <!-- keep/update the metadata below when updating the page: -->
 
