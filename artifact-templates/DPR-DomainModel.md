@@ -10,9 +10,7 @@ Abstraction/Refinement Level: multiple
 Artifact/Template: *Domain Model*
 ---------------------------------
 
-<!--
-> *Synopsis: TODO*
--->
+> *An analysis-level domain model captures domain concepts and their relations from an external, non-technical point if view. A design-level domain model represents design solutions for the concepts in the analysis model (including logic/behavior and data/structure).
 
 ### Motivation (Addressed Information Need) 
 A domain model shows the essential/most important/core business concepts of an application and how these concepts relate to each other. A domain model helps domain experts (a.k.a. business analysts), architects, developers and all other project stakeholders to establish (and agree on) a common understanding of the business problem domain, which is an important milestone en route to an appropriate service design.

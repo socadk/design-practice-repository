@@ -11,12 +11,9 @@ Artifact/Template: *Components, Responsibilities, Collaborations (CRC) Card*
 ----------------------------------------------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 
-<!--
-> *Synopsis: TODO (could turn how-question from below into synopsis*
--->
+> *A CRC card describes logical design building blocks on an intermediate level of detail and refinement.*
 
 ### Motivation (Addressed Information Need) 
-*How can logical design building blocks be described on an intermediate level of detail and refinement?*
 
 A notation that is well suited for *candidate* component modeling is the *CRC Card* format. CRC stands for Components, Responsibilities, Collaborations (CRC) here; you also find Classes or Candidates as the meaning of the first 'C'. CRC cards allow designers to strike a balance between being precise and being consumable; code interfaces often would be too detailed, boxes-and-arrows diagrams too abstract (depending on the modeling goals and information needs in a given context).
 

@@ -10,9 +10,7 @@ Abstraction/Refinement Level: Multiple, from abstract/early to refined/concrete
 Artifact/Template: *Use Case (Model)*
 -------------------------------------
 
-<!--
-> *Synopsis: TODO*
--->
+> *A use case describes a single feature of a system along with the user-system interactions at its boundary.*
 
 ### Motivation (Addressed Information Need) 
 Scott Ambler states that "[a] use case is a sequence of actions that provide a measurable value to an actor. Another way to look at it is a use case describes a way in which a real-world actor interacts with the system." in his book and website on [Agile Modeling](http://agilemodeling.com/artifacts/systemUseCase.htm).
