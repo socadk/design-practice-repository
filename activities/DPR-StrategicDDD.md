@@ -21,9 +21,7 @@ The interfaces between systems and teams have to be managed somehow, either cent
 
 ### Goal and Purpose (When to Use and When not to Use)
 
-<!--
-> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* 
--->
+> *As a domain-driven designer, I want to (de-)compose system landscape and team organization so that system parts can be developed, deployed, scaled, and changed independently.*  
 
 According to A. Brandolini's [InfoQ article on strategic DDD](https://www.infoq.com/articles/ddd-contextmapping) that develops an example in several steps, there are four particular reasons to bother about model partitioning and model/context boundaries:
 

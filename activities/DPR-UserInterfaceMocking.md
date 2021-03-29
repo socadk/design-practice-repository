@@ -16,14 +16,11 @@ also known as: Wireframing
 The need for a new service may arise from different occasions: For example, you are building a new single page web app or adding new features to a mobile app. If the service client does not exist yet, how do you know what responsibilities your service should have, and what message structure is best suited for the service client? 
 
 ### Goal and Purpose (When to Use)
-The general purpose is to share emerging user interface designs with stakeholders (for instance, end users and product managers) to solicit their feedback and involve them in the design closely. 
+<!-- turned purpose into user story (for consistency): -->
 
-<!--
-> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* 
--->
+> *As a designer and/or developer of user interfaces , user experience specialist, I want to share emerging user interface designs with my stakeholders (for instance, end users and product managers) to solicit their feedback and involve them in the design closely.* 
 
-The goal of *User Interface Mocking* or *Wireframing* in the context of service design is to get a better understanding of the structure, amount, and kind of data a client needs so that the service can be designed accordingly.
-For example, should a service use [Pagination](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to break response messages into chunks, and what kind of [Reference Management](https://www.microservice-api-patterns.org/patterns/quality/#reference-management/) is best suited? 
+The goal of *User Interface Mocking* or *Wireframing* in the context of service design is to get a better understanding of the structure, amount, and kind of data a client needs so that the service can be designed accordingly. For example, should a service use [Pagination](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to break response messages into chunks, and what kind of [Reference Management](https://www.microservice-api-patterns.org/patterns/quality/#reference-management/) is best suited? 
 
 *When not to use*. Services and APIs serve different purposes. Some are tailored to a specific frontend (so-called [Backends-for-Frontend](https://samnewman.io/patterns/architectural/bff/) pattern), while others are built for a yet unknown client (i.e., when your product offering is the API itself). If you are not planning on also creating a client for the service, then doing a mockup of its interface might not be the best approach and you might be better served by [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) instead.
 

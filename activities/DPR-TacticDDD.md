@@ -19,7 +19,9 @@ also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 ### Goal and Purpose (When to Use and When not to Use)
 
+> *As a business analyst (domain expert), I want to understand domain concepts driving and underlying requirements so that the emerging design is grounded in actual requirements.* 
 
+> *As a domain-driven designer, I want to design software concepts to address and satisfy requirements so that the stakeholder wants and needs are met in an understandable and traceable way.*
 
 Tactic DDD can be seen as [Object-Oriented Analysis and Design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) (OOAD) done right, putting emphasis on the business logic in layered architecture and decomposing the [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) pattern from M. Fowler's @Fowler:2002. The goals of OOAD and tactic DDD are:
 

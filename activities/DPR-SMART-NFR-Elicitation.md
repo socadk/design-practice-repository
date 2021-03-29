@@ -21,9 +21,7 @@ Note that while common, the term "non-functional" and the acronym "NFR" are not 
 
 ### Goal and Purpose (When to Use and When not to Use)
 
-<!--
-> *TODO 2021: goal and purpose story (see ADC, ADM)* 
--->
+> *As a requirements engineer, I would to find out and specify the quality characteristics and (non-)technical constraints of the system/software under construction.* 
 
 Expressive, unambiguous NFRs that find their way into project plans and the minds of the project participants are the main output of architectural analysis. Without such NFRs, architecture design work becomes a blind flight; the project team is at the mercy of the client or internal project sponsor who can come up with new and more advanced requirements as they wish.
 

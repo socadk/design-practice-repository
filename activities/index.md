@@ -8,3 +8,5 @@ In this folder (quick links):
 * [Tactic DDD](DPR-TacticDDD.md)
 * [User Interface Mocking](DPR-UserInterfaceMocking.md)
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md)
+
+An extended overview can be found in the [README](readme.md).

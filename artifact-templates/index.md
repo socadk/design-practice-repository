@@ -11,3 +11,5 @@ In this folder (quick links):
 * [Candidate Endpoint List](SDPR-CandidateEndpointList.md)
 * [Refined Endpoint List](SDPR-RefinedEndpointList.md)
 * [Service Level Agreement](SDPR-ServiceLevelAgreement.md)
+
+An extended overview can be found in the [README](readme.md).
