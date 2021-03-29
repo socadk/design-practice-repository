@@ -12,4 +12,4 @@ In this folder (quick links):
 * [Refined Endpoint List](SDPR-RefinedEndpointList.md)
 * [Service Level Agreement](SDPR-ServiceLevelAgreement.md)
 
-An extended overview can be found in the [README](readme.md).
+An extended overview can be found in the [readme](readme-gp.md).

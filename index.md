@@ -6,13 +6,9 @@ The [introduction](./introduction.md) page is a more comprehensive entry into th
 
 ### Navigation
 
-* [Artifact templates](./artifact-templates/README.md) 
-* [Activities](./activities/README.md)
-* [Roles](./roles/README.md)
-
-### Overview
-
-![Artifact and Activity Overview](/images/DPR-ActivityArtifactDependencies.png)
+* [Artifact templates](./artifact-templates/index.md) 
+* [Activities](./activities/index.md)
+* [Roles](./roles/index.md)
 
 ### Sample Content 
 

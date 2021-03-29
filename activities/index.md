@@ -9,4 +9,4 @@ In this folder (quick links):
 * [User Interface Mocking](DPR-UserInterfaceMocking.md)
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md)
 
-An extended overview can be found in the [README](readme.md).
+An extended overview can be found in the [README](readme-gp.md).
