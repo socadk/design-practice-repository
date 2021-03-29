@@ -35,7 +35,7 @@ Y-Statements are often captured in plain but structured text (but tables in pres
 
 ```adr
 In the context of the Web shop service, 
-facing the need to keep user session data consistent and current across shop instances, 
+facing the need to keep user session data consistent and current across instances, 
 we decided for the Database Session State Pattern 
 (and against Client Session State or Server Session State)
 to achieve cloud elasticity, 
