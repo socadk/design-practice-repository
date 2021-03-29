@@ -1,5 +1,3 @@
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
-[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 ## DPR: *Activities in Service Design and Agile Architecting*
 
@@ -8,9 +6,6 @@ As responsible software engineers, we do not like to be bossed around. Decentral
 
 Agile does equal anarchy; agile teams actually are quite (self-)disciplined and employ a number of ceremonies (a.k.a. practices). Most of them are collected and commented upon elsewhere, for instance try the [Subway Map to Agile Practices](https://www.agilealliance.org/agile101/subway-map-to-agile-practices/) and [glossary](https://www.agilealliance.org/agile101/agile-glossary/) by the Agile Alliance. Here in DPR, we focus on agile architecting and service/API design and collect some of the method elements, tactics, practices, etc. that served us well or that are frequently recommended, for instance in microservices books. These activities consume and produce the [artifacts](../artifact-templates) listed in a sibling folder, possibly supported by checklists and templates; they are owned and performed by one or more of the personas and [roles](../roles) also documented in this repository.
 
-
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
-[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 One should never forget the first rule of method adoption: 
 
 > *If in doubt, leave it out (or: do not create a big ball of method mud).*

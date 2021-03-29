@@ -2,9 +2,6 @@
 Scope: Single component (any viewpoint)
 Phases: Conceptual design 
 Roles: Architect (different specializations)
-
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Architecture design, component modeling 
 Abstraction/Refinement Level: Technology-/platform-independent
 ---
@@ -17,8 +14,9 @@ Artifact/Template: *Components, Responsibilities, Collaborations (CRC) Card*
 ----------------------------------------------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 
+> *A CRC card describes logical design building blocks on an intermediate level of detail and refinement.*
+
 ### Motivation (Addressed Information Need) 
-*How can logical design building blocks be described on an intermediate level of detail and refinement?*
 
 A notation that is well suited for *candidate* component modeling is the *CRC Card* format. CRC stands for Components, Responsibilities, Collaborations (CRC) here; you also find Classes or Candidates as the meaning of the first 'C'. CRC cards allow designers to strike a balance between being precise and being consumable; code interfaces often would be too detailed, boxes-and-arrows diagrams too abstract (depending on the modeling goals and information needs in a given context).
 
@@ -95,7 +93,7 @@ Interface-Responsibility-Interactions (IRI) cards are a similar concept, but app
 ### More Information
 The [RDD tutorial](http://www.wirfs-brock.com/PDFs/A_Brief-Tour-of-RDD.pdf) explains the *original*, class-level version and provides additional examples.
 
-G. Hohpe explains the difference between "scope" and "abstraction" in his blog post ["The Architect’s Path (Part 1 - Model)"](https://architectelevator.com/architecture/architect-path/). CRC cards have a narrow scope and a conceptual level of abstraction (bottom right quadrant).
+Gregor Hohpe explains the difference between "scope" and "abstraction" in his blog post ["The Architect’s Path (Part 1 - Model)"](https://architectelevator.com/architecture/architect-path/). CRC cards have a narrow scope and a conceptual level of abstraction (bottom right quadrant).
 
 RDD and many other methods are compiled and commented on in ["Driven by Acronyms"](https://medium.com/olzzio/driven-by-acronyms-e1568b73e4aa), one of O. Zimmermann's story posts on Medium.
 

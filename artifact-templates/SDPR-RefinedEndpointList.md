@@ -2,9 +2,6 @@
 Scope: Remote service layer of backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect, Web Developer
-
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Stepwise/Incremental Service Design (Contract First), Step 5
 Abstraction/Refinement Level: technology-agnostic, platform-independent
 ---
@@ -13,10 +10,11 @@ Abstraction/Refinement Level: technology-agnostic, platform-independent
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
-Artifact/Template: Refined Endpoint List (REL)
-----------------------------------------------
+Artifact/Template: *Refined Endpoint List (REL)*
+------------------------------------------------
 also known as: Ordered Endpoint List, Final API Action Plan, Detailed API Roadmap, Resource Specifications <!-- from MAP -->
 
+> *A Refined Endpoint List records intermediate API design results in list or table form.*
 
 ### Motivation (Addressed Information Need) 
 

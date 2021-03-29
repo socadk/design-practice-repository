@@ -10,6 +10,7 @@ Abstraction/Refinement Level: Technology-/platform-independent
 [Git Pages Home](https://socadk.github.io/design-practice-repository)
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
+
 Activity/Technique: *Architecture Modeling*
 -------------------------------------------
 also known as: Architecture Specification and Documentation
@@ -57,7 +58,7 @@ A wide range of notations and tools to support these and other modeling tasks ex
 
 Popular viewpoint models are:
 
-* P. Kruchten's [4+1 views on software architecture](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
+* Philippe Kruchten's [4+1 views on software architecture](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
 * The [viewpoints and perspectives proposed by N. Rozanski and E. Woods](https://www.viewpoints-and-perspectives.info/home/viewpoints/) (@RozanskiWoods:2005)
 * Having started with a "less is more" (and anti-UML message), the [C4 Model](../artifact-templates/futureWork/DPR-C4Model.md) has now evolved into a rather comprehensive set of diagrams supported by the [Structurizr](https://structurizr.com/) library and online tool. 
 
@@ -68,9 +69,7 @@ The component overview of the frontend-backend and service landscape at [Lakesid
 
 ![Lakeside Mutual component overview](https://raw.githubusercontent.com/Microservice-API-Patterns/LakesideMutual/master/resources/overview-diagram.png)
 
-Page 4 of [this presentation](https://ozimmer.ch/assets/presos/ZIO-FromDDDToMAPIsQS2020v10p.pdf) provides an example of an architecture overview diagram styled as an IRP.
-
-C4 examples are available publicly [here](https://structurizr.com/share/1).
+Page 4 of [this presentation](https://ozimmer.ch/assets/presos/ZIO-FromDDDToMAPIsQS2020v10p.pdf) provides an example of an architecture overview diagram styled as an IRP. C4 examples are available publicly [here](https://structurizr.com/share/1).
 
 An [arc42 FAQ](https://faq.arc42.org/questions/C-4-3/) provides examples of solution strategy decisions worth capturing and visualizing. Section 5 of the arc42 template covers the [building block view(s)](https://docs.arc42.org/section-5/).
 

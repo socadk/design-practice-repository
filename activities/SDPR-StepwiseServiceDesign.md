@@ -26,6 +26,10 @@ API and service design have high [architectural significance](https://en.wikiped
 
 
 ### Goal and Purpose (When to Use and When not to Use)
+<!--
+> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* 
+-->
+
 This activity has the objective to answer the questions raised under 'Context' above. It delivers:
 
 1. Platform-independent *interface specifications*, including [service contract](/artifact-templates/SDPR-APIDescription.md) and Service Level Agreement (SLA)[/artifact-templates/SDPR-ServiceLevelAgreement.md].
@@ -82,7 +86,7 @@ Our [Tutorial 1](../tutorials/DPR-Tutorial1.md) applies the seven steps to an on
 
 In a [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an Open API generator: 
 
-![Service Design Example (BPMN)](images/SDPR-ServiceDesignSteps.png)
+![Service Design Example (BPMN)](./images/SDPR-ServiceDesignSteps.png)
 
 Finally, the microservices in the sample application [Lakeside Mutual](https://github.com/Microservice-API-Patterns/LakesideMutual) contain several [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) implemented as HTTP resources and DTOs that are serialized into JSON.
 
@@ -113,7 +117,7 @@ The more clients an API has and the longer it runs and the more mission-critical
 
 Let us repeat and emphasize again:
 
-* *Avoid &mdash; or spot and overcome &mdash; [analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis)*. Acknowledge the general rules of method engineering, including: <!-- IH CE: one or tree lines? check GitPages, LeanPub. --><!-- source: readmes for activities, artifacts, roles -->
+* *Avoid &mdash; or spot and overcome &mdash; [analysis paralysis](https://en.wikipedia.org/wiki/Analysis_paralysis)*. Acknowledge the general rules of method engineering, including: <!-- source: readmes for activities, artifacts, roles -->
 > 1. If in doubt, leave it out.
 > 2. Do not follow templates blindly, but adopt them to your needs. 
 > 3. Context matters. 
@@ -146,6 +150,7 @@ Produced artifacts:
 #### Other Practices (Alternatives)
 
 **EXPOSE.** Early presentations on MAP featured six endpoint/service identification and realization steps called EXPOSE:
+
 <!-- (see [this conference presentation]() 2018 seminar preso): --> 
 
 ![](./images/MAP-EXPOSEStepsInServiceDesign.png)
@@ -174,8 +179,6 @@ The SOAD project 2006 to 2009 compiled a number of architectural decisions that 
 ![Meta issues (decisions required) in service and API design](./images/SOAD-MetaIssuesShark.png)
 
 Note that in microservices architectures, more options for these decisions (in transition from meta issues to actual decisions required) are available, and the decision drivers may vary too. See [this blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html) and [this article](http://rdcu.be/mJPz) for more information on microservices as an implementation approach to service-oriented architectures.
-
-[DPR Git Pages Home](https://socadk.github.io/design-practice-repository/)
 
 ### Data Provenance 
 

@@ -15,9 +15,9 @@ also known as: Coding Architect (to indicate strong connection to development)
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
 Archie Tekt, who first appeared in 2003 in ["Perspectives on Web services"](https://soadecisions.org/atb.htm) by O. Zimmermann, M. Tomlinson, S. Peuser, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability, and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) view model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
 
-P. Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But do not forget that architects (like all people) are different!
+Philippe Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But do not forget that architects (like all people) are different!
 
-O. Zimmermann's blog ["The Concerned Architect"](https://ozimmer.ch/blog/) provides short articles with examples of everyday problems (and solutions to them, including those that made it into DPR already). 
+Olaf Zimmermann's blog ["The Concerned Architect"](https://ozimmer.ch/blog/) provides short articles with examples of everyday problems (and solutions to them, including those that made it into DPR already). 
 
 
 ### Information and Modeling Need

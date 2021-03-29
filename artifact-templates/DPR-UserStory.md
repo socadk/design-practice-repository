@@ -2,9 +2,6 @@
 Scope: From entire system to individual features
 Phases: Analysis, requirements engineering
 Roles: Agile team; business analysts, domain experts; application architects
-
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Iteration planning, development, test; story mapping, story splitting 
 Abstraction/Refinement Level: Multiple (invitation for conversation)
 ---
@@ -16,6 +13,8 @@ Abstraction/Refinement Level: Multiple (invitation for conversation)
 Artifact/Template: *User Stories*
 ---------------------------------
 also known as: Feature, Backlog Item
+
+> *A user story is an invitation to a conversation about a particular system feature, and may also capture the results of such conversation.*
 
 ### Motivation (Addressed Information Need) 
 The Agile Alliance describes the role and purpose of user stories nicely in its [glossary entry for them](https://www.agilealliance.org/glossary/user-stories/): 

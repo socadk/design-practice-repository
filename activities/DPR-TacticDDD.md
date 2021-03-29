@@ -22,6 +22,10 @@ also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 ### Goal and Purpose (When to Use and When not to Use)
 
+> *As a business analyst (domain expert), I want to understand domain concepts driving and underlying requirements so that the emerging design is grounded in actual requirements.* 
+
+> *As a domain-driven designer, I want to design software concepts to address and satisfy requirements so that the stakeholder wants and needs are met in an understandable and traceable way.*
+
 Tactic DDD can be seen as [Object-Oriented Analysis and Design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) (OOAD) done right, putting emphasis on the business logic in layered architecture and decomposing the [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) pattern from M. Fowler's @Fowler:2002. The goals of OOAD and tactic DDD are:
 
 * Establish an [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) with users, other external stakeholders, and within the team
@@ -92,86 +96,7 @@ The main Aggregate of the Cargo sample application is shown in the following fig
 
 ![](./images/CM-TacticDDDCargoAggregate.png)
 
-<!--
-png created from this puml source (had to add a blank to some relationship arrows):
-~~~
-@startuml
-
-skinparam componentStyle uml2
-
-package se.citerus.dddsample.domain.model.cargo {
-	package "'CargoItineraryLegDeliveryRouteSpecification' Aggregate" <<Rectangle>> {
-		class Cargo <<(A,#fffab8) Aggregate Root>> {
-			TrackingId trackingId
-			LocationShared origin
-			RouteSpecification routeSpecification
-			Itinerary itinerary
-			Delivery delivery
-		}
-		class Delivery <<(V,DarkSeaGreen) Value Object>> {
-			boolean misdirected
-			Date eta
-			boolean isUnloadedAtDestination
-			Date calculatedAt
-			TransportStatus transportStatus
-			LocationShared lastKnownLocation
-			Voyage currentVoyage
-			HandlingActivity nextExpectedActivity
-			RoutingStatus routingStatus
-			HandlingEvent lastEvent
-		}
-		class HandlingActivity <<(V,DarkSeaGreen) Value Object>> {
-			HandlingEvent.Type handlingEventType
-			LocationShared location
-			Voyage voyage
-		}
-		class Itinerary <<(V,DarkSeaGreen) Value Object>> {
-			ItineraryNumber itineraryNumber
-			List<Leg> legs
-		}
-		class Leg <<(V,DarkSeaGreen) Value Object>> {
-			Date loadTime
-			Date unloadTime
-			Voyage voyage
-			LocationShared loadLocation
-			LocationShared unloadLocation
-		}
-		class RouteSpecification <<(V,DarkSeaGreen) Value Object>> {
-			Date arrivalDeadline
-			LocationShared origin
-			LocationShared destination
-		}
-		enum TransportStatus {
-			NOT_RECEIVED
-			IN_PORT
-			ONBOARD_CARRIER
-			CLAIMED
-			UNKNOWN
-		}
-		enum RoutingStatus {
-			NOT_ROUTED
-			ROUTED
-			MISROUTED
-		}
-		class RoutingService <<(S,DarkSeaGreen) Service>> {
-			List<Itinerary> fetchRoutesForSpecification(RouteSpecification routeSpecification)
-		}
-	}
-}
-
-Cargo -- > RouteSpecification : routeSpecification
-Cargo -- > Itinerary : itinerary
-Cargo -- > Delivery : delivery
-Delivery -- > TransportStatus : transportStatus
-Delivery -- > HandlingActivity : nextExpectedActivity
-Delivery -- > RoutingStatus : routingStatus
-Itinerary -- > Leg : legs
-RoutingService -- > Itinerary : fetchRoutesForSpecification
-RoutingService -- > RouteSpecification : fetchRoutesForSpecification
-
-@enduml
-~~~
--->
+<!-- png created from puml source (had to add a blank to some relationship arrows) in "models" folder -->
 
 [Context Mapper](https://contextmapper.org/), a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then bounded contexts (a strategic DDD pattern) containing Aggregates, Entities, and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/) and a comprehensive [end-to-end-demo](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2) features Tactic DDD and Context Mapper in combination wither service domain-specific languages and tools.
 
@@ -185,7 +110,7 @@ We would argue that there hardly is any system that is simple enough not to bene
 ### Hints and Pitfalls to Avoid
 Specific to OOAD and DDD, it is a good idea to establish naming conventions, for instance for Aggregates and their Entities. See hint 6 in ZIO's [Technical Writing Tips and Tricks](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
 
-E. Evans establishes the following design heuristics for Aggregates in his [DDD Reference](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf):
+Eric Evans establishes the following design heuristics for Aggregates in his [DDD Reference](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf):
 
 * "Use asynchronous communication between Aggregates
 * Give enforcement responsibilities (for invariants) to root entity, possibly supported by designated framework mechanisms (e.g., in Spring)
@@ -212,7 +137,7 @@ Usage of the pattern names and presence of domain models, either drawn informall
 
 ### Related Content
 
-* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCases.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
+* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
 * [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
 
@@ -238,7 +163,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ### More Information 
 
 * There is a free DDD reference providing pattern summaries ([PDF](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), [Word](http://domainlanguage.com/wp-content/uploads/2016/05/PatternSummariesUnderCreativeCommons.doc)) and a [DDD glossary](http://dddcommunity.org/resources/ddd_terms/) on the community website. 
-* M. Ploed shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub @Ploed:2019. 
+* Michael Plöd shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub @Ploed:2019. 
 * The DDD Europe organization has published the ["Domain-Driven Design: The First 15 Years"](https://leanpub.com/ddd_first_15_years/) on LeanPub, a collection of "old and new essays" by "prominent authors in the software design world". 
 * The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity.html).
 * Consult [this web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.

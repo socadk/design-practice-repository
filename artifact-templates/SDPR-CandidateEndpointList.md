@@ -2,9 +2,6 @@
 Scope: Remote service layer of backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect 
-
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 Activities: Stepwise/Incremental Service Design (Contract First), Step 4
 Abstraction/Refinement Level: technology-agnostic, platform-independent
 ---
@@ -13,9 +10,11 @@ Abstraction/Refinement Level: technology-agnostic, platform-independent
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
-Artifact/Template: Candidate Endpoint List (CEL)
-------------------------------------------------
+Artifact/Template: *Candidate Endpoint List (CEL)*
+--------------------------------------------------
 also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, Resource Candidates <!-- from MAP -->
+
+> *A Candidate Endpoint List records early API design results in list or table form.*
 
 ### Motivation (Addressed Information Need) 
 <!-- copy-pasted from https://internal.microservice-api-patterns.org/patterns/identification/CandidateEndpointList.html TOOO decide pattern/method split, pattern has more content already -->

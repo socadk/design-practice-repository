@@ -23,6 +23,9 @@ The interfaces between systems and teams have to be managed somehow, either cent
 
 
 ### Goal and Purpose (When to Use and When not to Use)
+
+> *As a domain-driven designer, I want to (de-)compose system landscape and team organization so that system parts can be developed, deployed, scaled, and changed independently.*  
+
 According to A. Brandolini's [InfoQ article on strategic DDD](https://www.infoq.com/articles/ddd-contextmapping) that develops an example in several steps, there are four particular reasons to bother about model partitioning and model/context boundaries:
 
 * Same term, different meaning (homonym)
@@ -37,7 +40,7 @@ The key pattern in strategic DDD is *Bounded Context*, an abstraction of a funct
 
 * "A description of a boundary (typically a subsystem, or the work of a particular team) within which a particular model is defined and applicable" (@Evans:2003).
 * "A bounded context is an explicit boundary within which a domain model exists. Inside the boundary, all terms and phrases of the Ubiquitous Language have specific meaning, and the model reflects the language with exactness” (@Vernon:2013). 
-* M. Fowler emphasizes that a Bounded Context is explicit about its interrelationships in his [bliki article on Bounded Contexts](http://martinfowler.com/bliki/BoundedContext.html).
+* Martin Fowler emphasizes that a Bounded Context is explicit about its interrelationships in his [bliki article on Bounded Contexts](http://martinfowler.com/bliki/BoundedContext.html).
 
 ![](./images/ZIO-StrategicDDDMetaModel.png)
 
@@ -112,10 +115,10 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 
 Refer to presentations and articles by:
 
-* A. Brandolini, for instance ["Strategic Domain Driven Design with Context Mapping"](https://www.infoq.com/articles/ddd-contextmapping/)
-* S. Millet, for instance ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/anatomy-of-DDD) on LeanPub 
-* M. Ploed, for instance ["Visualizing Sociotechnical Architectures with Context Maps](https://speakerdeck.com/mploed/visualizing-sociotechnical-architectures-with-context-maps?slide=4)
-* V. Vernon's [YouTube channel](https://www.youtube.com/channel/UCdbDxsXevDLt7EhRbi2KGjg)
+* Alberto Brandolini, for instance ["Strategic Domain Driven Design with Context Mapping"](https://www.infoq.com/articles/ddd-contextmapping/)
+* Scott Millet, for instance ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/anatomy-of-DDD) on LeanPub 
+* Michael Plöd, for instance ["Visualizing Sociotechnical Architectures with Context Maps"](https://speakerdeck.com/mploed/visualizing-sociotechnical-architectures-with-context-maps?slide=4)
+* Vaughn Vernon's [YouTube channel](https://www.youtube.com/channel/UCdbDxsXevDLt7EhRbi2KGjg)
 * ["Introduction to Strategic DDD"](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design) on the Vaadin website 
 
 
