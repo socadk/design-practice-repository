@@ -30,7 +30,7 @@ The [Microservice API Pattern (MAP)](https://microservice-api-patterns.org/) web
 ### Template Structure and Notation(s)
 An SLA is comprised of at least one *Service Level Objective*, which specifies a measurable aspect of the service the provider agrees to uphold:
 
-![](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/plantuml-images/42eccd72824320a88d354f225b467c2c461e7386.png)
+![SLA Structure (Source: MAP Website)](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/plantuml-images/42eccd72824320a88d354f225b467c2c461e7386.png)
 
 Again, the [SLA pattern on the MAP website](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:Solution) has all the details.
 

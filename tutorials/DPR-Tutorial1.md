@@ -93,7 +93,7 @@ Domain ECommerce {
 
 <!-- TODO show subset only? or OOA rather than OOD model? talk reader through figure, explain which tool was used to create it -->
 
-![](./models/DPR-DomainModelVersion1.png) 
+![Sample Domain Model](./models/DPR-DomainModelVersion1.png) 
 
 The above diagram qualifies as the visual part of the [domain model](../artifact-templates/DPR-DomainModel.md); on a real project, all figure/diagram elements would be explained (here or in a separate glossary).
 
@@ -109,7 +109,7 @@ Let us assume that the following [architectural decisions](../activities/DPR-Arc
 
 A very basic [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md) for this scenario (resulting from [Strategic DDD](../activities/DPR-StrategicDDD.md)) is:
 
-![](/tutorials/models/DPR-DomainModelMiniTutorial_ContextMap.svg)
+![Sample Context Map](/tutorials/models/DPR-DomainModelMiniTutorial_ContextMap.svg)
 
 
 ### Step 4: Identify Service Candidates, Select Architectural Patterns

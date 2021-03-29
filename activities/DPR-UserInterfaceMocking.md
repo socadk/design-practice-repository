@@ -46,7 +46,7 @@ The following wireframe shows a rather simple and basic screen for user manageme
 * Users can be copied. This might be relevant for our service, but it could maybe also be implemented just on the client side.
 * The navigation elements at the bottom of the page suggest that there will be a large number of users and that they can be [navigated in pages](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination). 
 
-![](/activities/images/Wireframe-Example.png)
+![Wireframe Example](/activities/images/Wireframe-Example.png)
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 Creating some sort of mockup (whether that is a paper prototype or fully interactive design) is part of most teams workflow anyway, but it is usually done to communicate between designers, developers and customers/end-users and not for service design.
