@@ -1,6 +1,6 @@
-## [Git Pages Home](https://socadk.github.io/design-practice-repository)
+### [Git Pages Home](https://socadk.github.io/design-practice-repository)
 
-## Quick links
+### Quick links
 
 This version of DPR contains the following artifact templates:
 
@@ -15,6 +15,6 @@ This version of DPR contains the following artifact templates:
 * [Refined Endpoint List](SDPR-RefinedEndpointList.md)
 * [Service Level Agreement](SDPR-ServiceLevelAgreement.md)
 
-## More information
+### More information
 
 An extended overview can be found in the [Artifact/Templates Readme](readme-gp.md).
