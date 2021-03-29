@@ -17,7 +17,7 @@ See Part 1 of O. Zimmermann's [ICWE 2020 presentation](https://ozimmer.ch/assets
 
 ### Overview/Inventory (Genetic and Specific Roles)
 
-We have identified the a number roles already, but only documented two of them so far (DPR puts more emphasis on the artifact templates and activities than on the role descriptions).
+We have identified a number of roles already, but only documented two of them so far (DPR puts more emphasis on the artifact templates and activities than on the role descriptions).
 
 #### Generic roles (not specific/limited to service design):
 
