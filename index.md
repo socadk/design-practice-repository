@@ -4,13 +4,13 @@
 <!-- Please use the repository-level [README.md](https://github.com/socadk/design-practice-repository/blob/master/README.md) as entry into DPR for the time being. -->
 The [introduction](./introduction.md) page is a more comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
 
-### Navigation
+### Navigation (to Full Content)
 
 * [Artifact templates](./artifact-templates/index.md) 
 * [Activities](./activities/index.md)
 * [Roles](./roles/index.md)
 
-### Sample Content 
+### Featured Content (Samples)
 
 Activities:
 
@@ -30,7 +30,7 @@ Roles:
 * [Application Architect](roles/DPR-ApplicationArchitectRole.md)
 
 <!--
-### Preview (roadmap not confirmed yet)
+### Preview (TODO enable when book draft is out)
 
 <iframe width='160' height='400' src='https://leanpub.com/dpr/embed' frameborder='0' allowtransparency='true'></iframe>
 -->
