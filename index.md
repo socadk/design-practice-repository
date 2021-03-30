@@ -17,20 +17,17 @@ Activities:
 * [SMART NFR Elicitation](activities/DPR-SMART-NFR-Elicitation.md)
 * [Architectural Decision Capturing](activities/DPR-ArchitecturalDecisionCapturing.md)
 * [Stepwise Service Design](activities/SDPR-StepwiseServiceDesign.md) practice
-* to be continued
 
 Artifact templates:
 
 * [Y-shaped Architecture Decision Records (ADRs)](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)
-* [API Description](artifact-templates/SDPR-APIDescription.md)
 * [Component, Responsibility, Collaborations (CRC) Cards](artifact-templates/DPR-CRCCard.md)
-* to be continued
+* [API Description](artifact-templates/SDPR-APIDescription.md)
 
 Roles:
 
 * [API Product Owner](roles/SDPR-APIProductOwner.md)
 * [Application Architect](roles/DPR-ApplicationArchitectRole.md)
-* to be continued
 
 <!--
 ### Preview (roadmap not confirmed yet)
