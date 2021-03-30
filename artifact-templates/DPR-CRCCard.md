@@ -107,8 +107,3 @@ date: "01, 15, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
-
-<!--
-# References
-[C-99]: # (Comment: References will be added here automatically when using -bibliography option of pandoc command)
--->

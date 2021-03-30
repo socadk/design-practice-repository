@@ -17,14 +17,16 @@ Activity/Technique: *Story Splitting*
 
 ### Context
 <!-- Keywords, preconditions (input artifacts), performing role -->
-A [user story](../artifact-templates/DPR-UserStory.md) that is too large for a sprint must be broken down to meet the [INVEST properties](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/) (established by B. Wake):
+A [user story](../artifact-templates/DPR-UserStory.md) that is too large for a sprint must be broken down to meet the [INVEST properties](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/) (established by Bill Wake):
 
 * *Independent:* Stories should not overlap conceptually and not dictate any particular implementation order.
 * *Negotiable:* Stories are supposed to be "co-created by the customer and programmer during development. A good story captures the essence, not the detail."
 * *Valuable:* Each story must be valuable to the customer on its own. <!-- "Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important." --> 
-* *Estimable:* The level of detail should be "just enough to help the customer rank and schedule the story’s implementation."
+* *Estimable:* The level of detail should be "just enough to help the customer rank and schedule the story's implementation."
 * *Small:* "Stories typically represent at most a few person-weeks worth of work." Some teams size their stories in such a way that they can be implemented in a single iteration.
-* *Testable:* Customer and developers should understand a story well enough so that a test for it can be written &mdash; or is written first, as in BDD and TDD (see this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html) for a collection of these two and many more "driven" methods).
+* *Testable:* Customer and developers should understand a story well enough so that a test for it can be written --- or is written first, as in BDD and TDD[^1]
+
+[^1]: See this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html) for a collection of these two and many more "driven" methods).
 
 Several INVESTment practices and techniques exist; one of them is story splitting.
 
@@ -132,7 +134,7 @@ Tony Heap, a business analyst, [puts the splitting steps in a logical order](htt
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Story Splitting"
 author: Olaf Zimmermann (ZIO)
-date: "01, 29, 2021"
+date: "03, 30, 2021"
 copyright: Copyright 2020-2021 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
