@@ -99,9 +99,9 @@ The main Aggregate of the Cargo sample application is shown in the following fig
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
-According to M. Fowler in @Fowler:2002, investing in a Domain Model makes sense if the business logic is inherently complex. 
+According to M. Fowler in @Fowler:2002, investing in a [Domain Model](../artifact-templates/DPR-DomainModel.md) makes sense if the business logic is inherently complex. 
 
-We would argue that there hardly is any system that is simple enough not to benefit from some domain modeling and tactic DDD.
+We would argue that there hardly is any system that is simple enough not to benefit from domain modeling in general and Tactic DDD in particular.
 
 
 ### Hints and Pitfalls to Avoid
@@ -129,7 +129,7 @@ DDD has been around, in active use on real-world projects, and supported by a co
 
 Tactic DDD was introduced in E. Evans' book on DDD (@Evans:2003), but featured even more deeply later in "Implementing Domain-Driven Design" by V. Vernon. 
 
-Usage of the pattern names and presence of domain models, either drawn informally or modelled in a UML tool or DSL, indicate use.
+Usage of the pattern names and presence of [Domain Model](../artifact-templates/DPR-DomainModel.md), either drawn informally or modelled in a UML tool or DSL, indicate use.
 
 
 ### Related Content
@@ -137,7 +137,7 @@ Usage of the pattern names and presence of domain models, either drawn informall
 * [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
 * [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
-
+* [Domain Model](../artifact-templates/DPR-DomainModel.md)
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
@@ -163,7 +163,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 * Michael Plöd shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub @Ploed:2019. 
 * The DDD Europe organization has published the ["Domain-Driven Design: The First 15 Years"](https://leanpub.com/ddd_first_15_years/) on LeanPub, a collection of "old and new essays" by "prominent authors in the software design world". 
 * The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity.html).
-* Consult [this web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
+* Consult [this Web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
 
 
 ### Data Provenance 
