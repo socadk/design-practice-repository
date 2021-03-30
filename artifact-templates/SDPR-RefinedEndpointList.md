@@ -83,7 +83,7 @@ Make these decisions with an API-wide scope or decide separately per endpoint/pe
 This example of a REL continues and details the example given in the [Candidate Endpoint List](SDPR-CandidateEndpointList.md) artifact:
 
 | Endpoint | Operation   | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
-|----------|-------------|------------------------------|-----------------------------------------------------------|--------------------|
+|----------|-------------|------------------------------|---------------------------------------|-------|
 | Customer |             | [*Master Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/MasterDataHolder)         |              | microformats or ALPS (tbd) |
 |          |  Find (GET) |  [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* QueryString (tbd), *out:* CustomerDTOSet | |
 |          |  Read (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* `CustomerId":ID<int>`, *out:* `CustomerDTO` <!-- MDSL snippets --> |  |

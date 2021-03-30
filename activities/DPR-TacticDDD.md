@@ -3,13 +3,13 @@ Scope: Entire system, business logic layer
 Phases: Throughout project/product development
 Roles: Domain experts, entire development team
 Input: Functional (and non-functional) requirements
-Output: Domain Model, DDD pattern instances
+Output: Domain model, DDD pattern instances
 Abstraction/Refinement Level: Conceptual
 ---
 
 
-Activity/Technique: *Tactic DDD*
---------------------------------
+Activity/Technique: *Tactic Domain-Driven Design (DDD)*
+-------------------------------------------------------
 also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 
@@ -79,7 +79,7 @@ Accounting and non-repudiation
 
 The first meaning of the term is not in our focus here, but can be modeled as Entity operations and services. We are interested in the second meaning (constraint, invariant) here; such rules can and should be enforced by Aggregates.
 
-**Modeling Steps**. In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
+**Modeling Steps**. In tactic DDD, an already existing OOA/OOD [Domain Model](../artifact-templates/DPR-DomainModel.md) is refined to call out instances of these patterns; alternatively, the pattern-oriented [Domain Model](../artifact-templates/DPR-DomainModel.md) can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
 
 1. Distinguish Entities (stateful) and Value Objects (stateless), and expose cross-cutting or supporting code that does not fit into any class well as Services (can start with a [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) per user story or use case).
 2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events. In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), S. Millet and S. Knight define Aggregate like this: "A single object graph may closely relate to the real domain, but it does not make for an effective model. Treating the model as a single consistency boundary in a collaborative domain can lead to conflict for changes that are completely unrelated. [...] Therefore: Decompose large objects structures into smaller objects groupings called aggregates which are based around invariants (business rules). An aggregate is a unit of consistency ensuring transactional boundaries are set at the right level of granularity to ensure a usable application by avoiding blocking at the database level."
@@ -171,7 +171,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Tactic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "03, 16, 2021"
+date: "03, 30, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

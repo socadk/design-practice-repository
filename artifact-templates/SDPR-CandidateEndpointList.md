@@ -45,10 +45,11 @@ Record your analysis (and design) results in list or table form:
 
 A simple table like this will suffice: 
 
+```markdown
 | Endpoint | Operation | Role/Exposed Data | 
 |----------|-----------|-----------------------------|
 |...|...|...|
-
+```
 
 ### Example(s)
 MAP tutorial 2 (which is not yet published on the MAP website yet) provides a customer master-data management example. In the tutorial, the following user story complemented with architectural context information, NFRs, and a simple domain model) provides the primary input to the [API design activities](../activities/SDPR-StepwiseServiceDesign.md):
