@@ -30,7 +30,7 @@ The fidelity of user interfaces mockups <!-- note: "mocks" refers to the testing
 <!-- TODO turn into miro flowchart -->
 According to [Balsamiq](https://balsamiq.com/learn/articles/five-steps-to-great-wireframes/), creating a wireframe comprises the following five steps: 
 
-1. *Articulate* the scenario you are addressing. Input for this may come from [User Stories](../artifact-templates/DPR-UserStory) and/or [Use Cases](../artifact-templates/DPR-UseCase).
+1. *Articulate* the scenario you are addressing. Input for this may come from [User Stories](../artifact-templates/DPR-UserStory.md) and/or [Use Cases](../artifact-templates/DPR-UseCase.md).
 1. *Generate* a first mockup, and
 1. *Iterate* until you have a few variations for each screen.
 1. *Communicate* your results to your team and
