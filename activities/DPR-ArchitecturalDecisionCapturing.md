@@ -69,7 +69,7 @@ Comparing the two common types of definition of software architecture (component
 
 ### Hints and Pitfalls to Avoid
 
-Some additional rules of thumb: 
+Some additional rules of thumb are: 
 
 * Stick to one template throughout a project; it is less relevant which one you pick --- as long as you pick one.
 * Focus on the essence of the decision, but make sure the individual ADRs and the entire decision log can serve their purpose (see above): quick orientation, long time reference.

@@ -1,5 +1,5 @@
 <!--
-# SPDX-FileCopyrightText: 2020 Copyright Olaf Zimmermann https://ozimmer.ch/about/
+# SPDX-FileCopyrightText: 2021 Copyright Olaf Zimmermann https://ozimmer.ch/about/
 #
 # SPDX-License-Identifier: CC-BY-4.0
 -->
@@ -27,7 +27,7 @@ DPR is organized around *artifacts*, *templates*, *activities* and *techniques* 
 
 <img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPR Concepts (Domain Model)"/>
 
-<!-- not possible here (?): 
+<!-- 
 <object height="100%" width="100%" data="./images/DPR-MetamodelMiro.svg" alt="DPR concepts visualized with miro">
 </object>
 -->
@@ -39,6 +39,7 @@ DPR contains three types of method/practice elements:
 * Also there, but not very deeply populated are the [roles and personas](./roles): [Application Architect](roles/DPR-ApplicationArchitectRole.md), [API Product Owner](roles/SDPR-APIProductOwner.md).
 
 The activities and artifacts that we have collected so far are:
+<!-- source: https://miro.com/app/board/o9J_lN5KDw0=/ -->
 
 ![DPR Activities, Artifacts and their dependencies](/images/DPR-ActivityArtifactDependencies.png)
 

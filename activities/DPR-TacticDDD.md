@@ -3,13 +3,13 @@ Scope: Entire system, business logic layer
 Phases: Throughout project/product development
 Roles: Domain experts, entire development team
 Input: Functional (and non-functional) requirements
-Output: Domain Model, DDD pattern instances
+Output: Domain model, DDD pattern instances
 Abstraction/Refinement Level: Conceptual
 ---
 
 
-Activity/Technique: *Tactic DDD*
---------------------------------
+Activity/Technique: *Tactic Domain-Driven Design (DDD)*
+-------------------------------------------------------
 also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 
@@ -23,34 +23,39 @@ also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 > *As a domain-driven designer, I want to design software concepts to address and satisfy requirements so that the stakeholder wants and needs are met in an understandable and traceable way.*
 
-Tactic DDD can be seen as [Object-Oriented Analysis and Design](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) (OOAD) done right, putting emphasis on the business logic in layered architecture and decomposing the [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) pattern from M. Fowler's @Fowler:2002. The goals of OOAD and tactic DDD are:
+Tactic DDD can be seen as [Object-Oriented Analysis and Design (OOAD)](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) done well, putting emphasis on the business logic in layered architecture and elaborating upon the [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) pattern in Martin Fowler's "Patterns of Enterprise Application Architecture" (@Fowler:2002). The goals of OOAD and tactic DDD are:
 
 * Establish an [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) with users, other external stakeholders, and within the team
-* Know what to implement (analysis)
-* Define storage units, attributes, methods (design) 
+* Find out what to implement (analysis)
+* Define storage units, attributes, methods that keep the connection to the analysis results (design) 
 
-Note the difference between analysis ("what are we building?") and design ("how will we deliver the 'what'"?), also explained in this [tutorial](https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_quick_guide.htm). OOA and OOD can be performed hand in hand, and DDD supports both OOA and OOD. 
+*Tip:* There is a deliberate difference between analysis ("what are we building?") and design ("how will we deliver the 'what'"?), explained in this [tutorial](https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_quick_guide.htm). OOA and OOD can and should be performed hand in hand, and DDD supports both OOA and OOD. The transition should be seamless, hence a common set of patterns and notations is used for the incremental and iterative refinement of both analysis and design. <!-- twin peaks model -->
 
 
 ### Instructions (Synopsis, Definition)
-Key patterns in tactic DDD are:
+Key patterns in tactic DDD are (@Evans:2003):
 
-* Entity, Value Object
-* Aggregate (with a single Root Entity)
-* Service, Domain Event
-* Factory, Repository
+* Entity and Value Object
+* Aggregate with a single Root Entity also called Aggregate Root (that may link to additional ones)
+* Service
+* Domain Event
+* Factory and Repository
 
+<!-- 
 The original DDD book @Evans:2003 provides this pattern map for tactic DDD (showing more patterns):
+![Pattern Map for Tactic DDD (Eric Evans)](/activities/images/EE-TacticDDDPatternMap.png)
+-->
+The following domain model for Tactic DDD gives an overview of the patterns in it:
 
-![](/activities/images/EE-TacticDDDPatternMap.png)
+![Tactic DDD Concepts and their Relations](/activities/images/ZIO-TacticDDDMetaModel.png)
 
-Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together. Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity. 
+Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together.[^1] Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity.
 
-<!-- TODO (v2) explain term Aggregate Root (and entity) even more (slides?) -->
+[^1]: In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), S. Millet and S. Knight define Aggregate like this: "A single object graph may closely relate to the real domain, but it does not make for an effective model. Treating the model as a single consistency boundary in a collaborative domain can lead to conflict for changes that are completely unrelated. [...] Therefore: Decompose large objects structures into smaller objects groupings called aggregates which are based around invariants (business rules). An aggregate is a unit of consistency ensuring transactional boundaries are set at the right level of granularity to ensure a usable application by avoiding blocking at the database level."
 
-The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (the root entities in an Aggregate):
+The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (i.e., the root entities in an Aggregate):
 
-![](/activities/images/ZIO-AggregateCRC.png)
+![CRC Card for DDD Aggregate](/activities/images/ZIO-AggregateCRC.png)
 
 **Aggregates and Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
 
@@ -77,35 +82,36 @@ Accounting and non-repudiation
 * All access attempts are logged 
 -->
 
-The first meaning of the term is not in our focus here, but can be modeled as Entity operations and services. We are interested in the second meaning (constraint, invariant) here; such rules can and should be enforced by Aggregates.
+The first meaning of the term is not in focus here, but can be modeled as Entity operations and services. The rules in the second meaning (constraint, invariant) can and should be enforced by DDD Aggregates.
 
-**Modeling Steps**. In tactic DDD, an already existing OOA/OOD Domain Model is refined to call out instances of these patterns; alternatively, the pattern-oriented domain model can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
+**Modeling Steps**. In tactic DDD, an already existing OOA/OOD [Domain Model](../artifact-templates/DPR-DomainModel.md) is refined to call out instances of these patterns; alternatively, the pattern-oriented [Domain Model](../artifact-templates/DPR-DomainModel.md) can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
 
 1. Distinguish Entities (stateful) and Value Objects (stateless), and expose cross-cutting or supporting code that does not fit into any class well as Services (can start with a [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) per user story or use case).
-2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events. In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), S. Millet and S. Knight define Aggregate like this: "A single object graph may closely relate to the real domain, but it does not make for an effective model. Treating the model as a single consistency boundary in a collaborative domain can lead to conflict for changes that are completely unrelated. [...] Therefore: Decompose large objects structures into smaller objects groupings called aggregates which are based around invariants (business rules). An aggregate is a unit of consistency ensuring transactional boundaries are set at the right level of granularity to ensure a usable application by avoiding blocking at the database level."
+2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events. 
 3. Add a Repository for each Aggregate (to implement lifecycle management) and add Factories as needed (generally speaking, never apply a pattern just because it exists; there has to be a solid business-level or technical justification for its use).
 
+<!-- TODO miro flowchart for these steps -->
 
 ### Example(s)
-The [Context Mapper website](https://contextmapper.org/docs/examples/) provides a number of examples of tactic and strategic DDD, including a model of the [Cargo example](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/ddd-sample) from the original DDD book.
+The [Context Mapper website](https://contextmapper.org/docs/examples/) provides a number of examples of Tactic and Strategic DDD, including a model of the [Cargo example](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/ddd-sample) from the original DDD book (@Evans:2003).
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
-![](/activities/images/CM-TacticDDDCargoAggregate.png)
+![Example of a DDD Aggregate in Cargo Case Study](/activities/images/CM-TacticDDDCargoAggregate.png)
 
 <!-- png created from puml source (had to add a blank to some relationship arrows) in "models" folder -->
 
-[Context Mapper](https://contextmapper.org/), a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then bounded contexts (a strategic DDD pattern) containing Aggregates, Entities, and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/) and a comprehensive [end-to-end-demo](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2) features Tactic DDD and Context Mapper in combination wither service domain-specific languages and tools.
+[Context Mapper](https://contextmapper.org/), a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then Bounded Contexts (a [Strategic DDD](DPR-StrategicDDD.md) pattern) containing Aggregates, Entities, and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/) and a comprehensive [end-to-end-demo](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2) features Tactic DDD and Context Mapper in combination wither service domain-specific languages and tools.
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
-According to M. Fowler in @Fowler:2002, investing in a Domain Model makes sense if the business logic is inherently complex. 
+According to M. Fowler in @Fowler:2002, investing in a [Domain Model](../artifact-templates/DPR-DomainModel.md) makes sense if the business logic is inherently complex. 
 
-We would argue that there hardly is any system that is simple enough not to benefit from some domain modeling and tactic DDD.
+We would argue that there hardly is any system that is simple enough not to benefit from domain modeling in general and Tactic DDD in particular.
 
 
 ### Hints and Pitfalls to Avoid
-Specific to OOAD and DDD, it is a good idea to establish naming conventions, for instance for Aggregates and their Entities. See hint 6 in ZIO's [Technical Writing Tips and Tricks](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
+Specific to OOAD and DDD, it is a good idea to establish naming conventions, for instance for Aggregates and their Entities. See Hint 6 in Olaf Zimmermann's ["Technical Writing Tips and Tricks"](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
 
 Eric Evans establishes the following design heuristics for Aggregates in his [DDD Reference](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf):
 
@@ -114,22 +120,22 @@ Eric Evans establishes the following design heuristics for Aggregates in his [DD
 * Keep one Aggregate on one server, allow different Aggregates to be distributed among (hardware) nodes
 * Use the same boundaries for transactions and distribution"
 
-In "Implementing DDD", V. Vernon establishes similar rules for Aggregate design (@Vernon:2013):
+In "Implementing DDD", Vaughn Vernon establishes similar rules for Aggregate design (@Vernon:2013):
 
 * "Model true invariants in consistency boundaries.
 * Design small aggregates.
 * Reference other aggregates by identity.
 * Use eventual consistency outside the boundary."
 
-These nuggets of advice can also be found online in an [article series at dddcommunity.org](http://dddcommunity.org/library/vernon_2011/) (@Vernon:2013).
+These recommendations can also be found online in an [article series ](http://dddcommunity.org/library/vernon_2011/) at dddcommunity.org.
 
 
 ### Origins and Signs of Use
 DDD has been around, in active use on real-world projects, and supported by a community since the first DDD book came out in 2003; it recently became particularly popular in the microservices community as a way to identify service boundaries (via strategic DDD). 
 
-Tactic DDD was introduced in E. Evans' book on DDD (@Evans:2003), but featured even more deeply later in "Implementing Domain-Driven Design" by V. Vernon. 
+Tactic DDD was introduced in Eric Evans' book on DDD (@Evans:2003), but featured even more deeply later in "Implementing Domain-Driven Design" by Vaughn Vernon (@Vernon:2013). 
 
-Usage of the pattern names and presence of domain models, either drawn informally or modelled in a UML tool or DSL, indicate use.
+Usage of the pattern names and presence of [Domain Model](../artifact-templates/DPR-DomainModel.md), either drawn informally or modelled in a UML tool or DSL, indicate use.
 
 
 ### Related Content
@@ -137,7 +143,7 @@ Usage of the pattern names and presence of domain models, either drawn informall
 * [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
 * [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
-
+* [Domain Model](../artifact-templates/DPR-DomainModel.md)
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
@@ -149,7 +155,7 @@ Usage of the pattern names and presence of domain models, either drawn informall
 #### Practices and Techniques (Refinements, Guides)
 
 * [Event Storming](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html) is a complementary technique that can help identify an initial set of Aggregates, Entities, Commands, Events and other design elements (to be refactored and refined in further tactic DDD). 
-* The [DDD Whirlpool](https://domainlanguage.com/ddd/whirlpool/) by E. Evans is frequently mentioned. 
+* The [DDD Whirlpool](https://domainlanguage.com/ddd/whirlpool/) by Eric Evans is frequently mentioned. 
 * [Story Mapping](https://www.agilealliance.org/glossary/storymap/) <!-- by J. Patton --> and [Story Splitting](https://www.agilealliance.org/glossary/split/) may assist with DDD pattern identification (among other things).
 * [Context Mapper](https://contextmapper.org/) tutorials and guides, for instance on [rapid OOAD](https://contextmapper.org/docs/rapid-ooad/).
 * [Domain Story Telling](https://domainstorytelling.org/).
@@ -160,10 +166,10 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ### More Information 
 
 * There is a free DDD reference providing pattern summaries ([PDF](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), [Word](http://domainlanguage.com/wp-content/uploads/2016/05/PatternSummariesUnderCreativeCommons.doc)) and a [DDD glossary](http://dddcommunity.org/resources/ddd_terms/) on the community website. 
-* Michael Plöd shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub @Ploed:2019. 
+* Michael Ploed shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub (@Ploed:2019). 
 * The DDD Europe organization has published the ["Domain-Driven Design: The First 15 Years"](https://leanpub.com/ddd_first_15_years/) on LeanPub, a collection of "old and new essays" by "prominent authors in the software design world". 
 * The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity.html).
-* Consult [this web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
+* Consult [this Web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
 
 
 ### Data Provenance 
@@ -171,7 +177,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Tactic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "03, 16, 2021"
+date: "03, 30, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
