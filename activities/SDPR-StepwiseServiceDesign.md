@@ -81,7 +81,7 @@ For API testing, refer to:
 ### Example(s)
 Our [Tutorial 1](../tutorials/DPR-Tutorial1.md) applies the seven steps to an online shop example. 
 
-In a [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an Open API generator: 
+In a [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an OpenAPI generator: 
 
 ![Service Design Example (BPMN)](/activities/images/SDPR-ServiceDesignSteps.png)
 
@@ -99,8 +99,8 @@ Step 4. Refine the High-Level Design
 Step 4a (optional). Generate Application Stub
 Step 5. Advance to System Contexts
 Step 6. Generate MDSL Service Contracts
-Step 7. Convert into Open API Specification (OAS)
-Step 7a (optional). Use Open API Specification to Update Application Stub
+Step 7. Convert into OpenAPI Specification (OAS)
+Step 7a (optional). Use OpenAPI Specification to Update Application Stub
 -->
 
 See [MAP Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for an additional application example.

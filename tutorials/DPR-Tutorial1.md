@@ -182,7 +182,7 @@ to achieve interoperability, evolvability and auditability
 accepting that static contracts and workflows do not comply with the REST level 3 vision of HATEOAS
 because the implementation effort on client and server side required for hypermedia-driven state transitions 
 is not justified in this scenario (not requiring dynamic workflows) 
-and there is good contract language and tool support (Open API, Swagger tools).
+and there is good contract language and tool support (OpenAPI, Swagger tools).
 ```
 
 <!-- This would  the only place in the tutorial we talk about Layers (SSD activity has it), so removed "in the Service Layer" from "we decided for" (for now) now -->
@@ -237,7 +237,7 @@ API provider OnlineShopFeaturesBackendProvider
 		via protocol HTTP
 ~~~ 
 
-The [MDSL command line tools](https://github.com/Microservice-API-Patterns/MDSL-Specification/tree/master/dsl-core/io.mdsl.cli) can transform this technology-independent service contract into [Open API](./contracts/DPR-Tutorial1Step6.yaml), [gRPC Protocol Buffers](./contracts/DPR-Tutorial1Step6.proto), and [Jolie](./contracts/DPR-Tutorial1Step6.ol). <!-- TODO GQL, WSDL/XSD, Java --> 
+The [MDSL command line tools](https://github.com/Microservice-API-Patterns/MDSL-Specification/tree/master/dsl-core/io.mdsl.cli) can transform this technology-independent service contract into [OpenAPI](./contracts/DPR-Tutorial1Step6.yaml), [gRPC Protocol Buffers](./contracts/DPR-Tutorial1Step6.proto), and [Jolie](./contracts/DPR-Tutorial1Step6.ol). <!-- TODO GQL, WSDL/XSD, Java --> 
 
 <!-- TODO (v2): add some code-level implementation decision(s), in MADR or e-ADR? -->
 We also do not show how to implement the contract yet, for instance in Spring Boot and Java. Have a look at Step 7 of this [demo for tool-supported API design and service identification](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for such information. 

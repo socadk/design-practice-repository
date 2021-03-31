@@ -99,7 +99,7 @@ Note that one could use a structure that deviates from the template. This is ok 
 A few examples of tools include:
 
 * The Freemarker generator in the [MDSL tools](https://microservice-api-patterns.github.io/MDSL-Specification/tools) can generate Markdown reports formatted according to the above suggestions for RELs.
-* SwaggerHub and its competitors support Open API; SoapUI supports both WSDL/XML schema and RESTful HTTP. A REL provides the input to technology-specific API design and implementation within such tools.
+* SwaggerHub and its competitors support OpenAPI; SoapUI supports both WSDL/XML schema and RESTful HTTP. A REL provides the input to technology-specific API design and implementation within such tools.
 * [JHipster](https://www.jhipster.tech/doing-api-first-development/) can be used to quickly turn OpenAPI specifications into Spring Boot applications.
 
 <!-- TODO cover JSON-API (see MAP and survey) -->
