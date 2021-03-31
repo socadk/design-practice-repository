@@ -131,6 +131,9 @@ Additional rules of thumb regarding the transition from DDD to API design (drawn
 
 <!-- See this [end-to-end service design demo](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for some technical contracts and examples. -->
 
+The [Cloud Adoption Patterns]( https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Microservice-Design.html) website has additional advice to give. 
+
+
 ### Origins and Signs of Use
 The CEL and REL artifacts in DPR originate from the MAP project, mining experiences in the community. <!-- So unlike all other artifact templates, REL is an novel proposal in DPR. -->
 
