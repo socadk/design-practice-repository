@@ -1,6 +1,4 @@
 
-## [Git Pages Home](https://socadk.github.io/design-practice-repository)
-
 ## DPR: *Activities in Service Design and Agile Architecting*
 
 ### Context and Motivation 

@@ -1,5 +1,3 @@
-### [Git Pages Home](https://socadk.github.io/design-practice-repository)
-
 ## DPR: *Roles (a.k.a. Software Engineering/Service Design Personas)*
 
 ### Context and Motivation 

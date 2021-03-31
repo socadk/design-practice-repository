@@ -17,38 +17,31 @@ also known as: Feature, Backlog Item
 > *A user story is an invitation to a conversation about a particular system feature, and may also capture the results of such conversation.*
 
 ### Motivation (Addressed Information Need) 
-The Agile Alliance describes the role and purpose of user stories nicely in its [glossary entry for them](https://www.agilealliance.org/glossary/user-stories/): 
+The Agile Alliance describes the role and purpose of user stories in its [glossary entry for them](https://www.agilealliance.org/glossary/user-stories/) as *divide feature into units that fit into a single iteration" and advises to [INVEST](https://www.agilealliance.org/glossary/invest) in actionable insights on user wants and needs.
 
-* Divide feature into units that fit into a single iteration
-* [INVEST](https://www.agilealliance.org/glossary/invest) in actionable insights on user wants and needs
-
-User stories also are excellent input to API design and system decomposition. 
+User stories come in and out of [Story Splitting](../activities/DPR-StorySplitting.md). Stories also are excellent input to API design and system decomposition. 
 
 
 ### Usage (Produced and Consumed When)
-User stories are used in sprint planning, sprint reviews, etc. They are one way of eliciting and communicating about functional requirements. See entry on Agile Alliance glossary referenced under 'Motivation':
-
-* Sprint planning
-* Minimum Viable Product (MVP) development
-* Later iterations
+User stories are used in sprint planning sprint reviews, both when developing a Minimum Viable Product (MVP) and in later iterations. They are one way of communicating about and eliciting functional requirements (or features).
 
 
 ### Template Structure
-The Connextra format ("role-feature-benefit/reason") is a popular one: 
+A popular format "role-feature-benefit" (or who-what-why) comes from Connextra: 
 
 > As a `[role/persona]`, I want to `[feature, in verb form]` so that `[benefit]`.
 
-See the [glossary entry](https://www.agilealliance.org/glossary/user-story-template/) at the Agile Alliance.
+See the [glossary entry](https://www.agilealliance.org/glossary/user-story-template/) at the Agile Alliance for more information about the template (and user stories in general).
 
 
 ### Example(s)
 The [Context Mapper](https://contextmapper.org/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) demo described in [ZIO's blog](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) starts with this story that employs the role-feature-benefit template:
 
-~~~
+```story
 As a Researcher 
 I want to create a PaperItem with its "title", "authors", "venue" in a "PaperCollection"
 so that other researchers can find and cite the referenced paper easily, and my h-index goes up.
-~~~
+```
 
 
 ### Tools
@@ -60,16 +53,18 @@ The [Context Mapper](https://contextmapper.org/) DSL has first class support for
 ### Hints and Pitfalls to Avoid
 
 * Do not create models or specifications as an excuse for interactions and conversations with end users of the software under construction. When creating libraries, frameworks, or APIs, the client developers are your users. 
-* Do not confuse benefit with outcome in the third part of the who-what-why template. The [glossary entry at the Agile Alliance](https://www.agilealliance.org/glossary/user-story-template/) clearly states: "So that (why they want to accomplish that thing)".
+* Do not confuse benefit with outcome in the third part of the role-feature-benefit template. The [glossary entry at the Agile Alliance](https://www.agilealliance.org/glossary/user-story-template/) clearly states: "So that (why they want to accomplish that thing)". The benefit should outline (business) impact and not formally specify a postcondition or computation result (other practices and templates such as [given-when-then](https://www.agilealliance.org/glossary/gwt/) can be used for that). 
 * Continuously update the stories while learning about users and their requirements.
 * [INVEST](https://www.agilealliance.org/glossary/invest) in story quality.
 * Practice [Story Splitting](../activities/DPR-StorySplitting.md) to make stories fit into single sprints/iterations (and to identify candidate components for [architecture modeling](../activities/DPR-ArchitectureModeling.md), including potential [API endpoints](SDPR-CandidateEndpointList.md)). Also consider story mapping and example mapping.
 
 
 ### Origins and Signs of Use
-The role-feature-benefit template usage is rather easy to spot. 
+The role-feature-benefit template usage is rather easy to spot; whether or note INVEST is achieved requires a little more effort.
 
-Presence or mention of three Cs [Card, Conversation, Confirmation](https://www.agilealliance.org/glossary/three-cs) can also indicate use.
+The presence of one or more of the "three Cs" [Card, Conversation, Confirmation](https://www.agilealliance.org/glossary/three-cs) can also indicate use.
+
+See [glossary entry](https://www.agilealliance.org/glossary/user-story-template/) at the Agile Alliance for "Origins" information.
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
@@ -82,15 +77,16 @@ Presence or mention of three Cs [Card, Conversation, Confirmation](https://www.a
 
 
 ### More Information
-Mike Cohn's book "User Stories Applied" is a seminal reference (@Cohn:2004). <!-- TODO CE: Mike Cohn or M. Cohn? Consistency... -->
+Mike Cohn's book "User Stories Applied" is a seminal reference (@Cohn:2004). 
 
+Many experience reports at Agile conferences deal with user stories; see [this collection](https://www.agilealliance.org/?s=user+story), for instance.
 
 ### Data Provenance 
 
 ```yaml
 title: "Design Practice Repository (DPR): User Stories"
 author: Olaf Zimmermann (ZIO)
-date: "02, 05, 2021 (Source: Project DD-DSE)"
+date: "03, 30, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

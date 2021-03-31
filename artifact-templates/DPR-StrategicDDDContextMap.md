@@ -16,23 +16,26 @@ Artifact/Template: *DDD Context Map*
 > *In domain-driven design, a context map shows bounded contexts (model boundaries, of different types) and their relations (e.g., influence flows).*
 
 ### Motivation (Addressed Information Need)
-A context map visualizes the relationships between [Bounded Contexts]() in [Strategic DDD](../activities/DPR-StrategicDDD.md). Several types of such relationships have been described as patterns; Bounded Contexts abstract from functional feature sets, existing or future application or systems as well as teams.
+A context map visualizes the relationships between [Bounded Contexts]() in [Strategic DDD](../activities/DPR-StrategicDDD.md). Several types of such relationships have been described as patterns; Bounded Contexts abstract from functional feature sets, existing or future application, systems, and teams.
 
-See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) for more information (for the time being). 
+See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) for more context information. 
 
 
 ### Usage (Produced and Consumed When)
 
-* Strategic DDD
-* System decomposition 
-* Team organization (SAFe, Scrum of Scrums etc.)
+The different types of map correspond to the following activities:
+
+* Strategic DDD (feature, application maps)
+* System decomposition (application and system maps)
+* Team organization in SAFe, Scrum of Scrums (team maps)
 
 
 ### Template Structure
 DDD as such does not mandate any notation. Each author and presenter has his/her own style. The following visualization of context maps has become quite popular:
 
-![](./images/CargoDDD_ContextMap.png)
+![Sample Context Map (Source: Cargo Case Study)](./images/CargoDDD_ContextMap.png)
 
+Strategic DDD models influence and data flows, following a stream or river metaphor. The upstream `U` provides information or services consumed by the downstream `D`. The DDD relationship types either pertain to the relation itself and or its upstream and downstream ends.  
 
 ### Example(s)
 
@@ -51,29 +54,33 @@ ContextMap DDDSampleMap {
 }
 ```
 
+SK indicates a Shared Kernel relationship. OHS stands for Open Host Service, PL for Published Language. See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) for pattern descriptions.
+
 ### Tools
 
-* [Context Mapper](https://contextmapper.org/)
-* Any drawing tool, including online ones
-* Whiteboards, both physical and virtual ones such as [miro](https://miro.com)
+Both informal, ad hoc modeling and somewhat more diligent approaches are supported:
+
+* [Context Mapper](https://contextmapper.org/) provides a DSL for DDD, as well as transformation and refactoring tools. [This paper](https://contextmapper.org/media/SummerSoC-2020_Domain-driven-Service-Design_Authors-Copy.pdf) summarizes the supported patterns and introduces the stepwise design approach and the tool support for it.
+* Any drawing tool, including online and offline ones are often used.
+* Whiteboards, both physical and virtual ones such as [miro](https://miro.com), also are a natural choice.
 
 
 ### Hints and Pitfalls to Avoid
 
-* Decide which type(s) of Bounded Context to support: Feature? Application? System? Team?  
+* Decide which type(s) of Bounded Context to support: Feature? Application? System? Team? See [this paper](https://contextmapper.org/media/978-3-030-67445-8_11_AuthorsCopy.pdf) for explanations. 
 * Specify the arrow/relationship semantics (DDD patterns? other?) and provide a figure legend as DDD does not mandate any particular notation.
 * See [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity for more modeling hints, including variants of the general "keep it simple" rule.
 
 
 ### Origins and Signs of Use
 
-See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md) for the time being. 
+See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md). 
 
 
 ### Related Artifacts (incl. Alternatives)
 
 * System Context Diagram
-* Domain Model 
+* [Domain Model](DPR-DomainModel.md)
 * C4 models and other representations of architecture overviews and component models.
 
 
@@ -85,7 +92,7 @@ Context Maps are covered in depth in the book ["Implementing Domain-Driven Desig
 
 The language reference of the Context Mapper DSL can be found [here](https://contextmapper.org/docs/context-map/) and [this conference presentation](https://contextmapper.org/media/ZIOSK-Modelsward-Paper-Presentation-v101p.pdf) gives an overview.
 
-The Feature, Application, System, Team taxonomy is introduced in ["Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper,"](https://contextmapper.org/media/978-3-030-67445-8_11_AuthorsCopy.pdf) by S. Kapferer and O. Zimmermann.
+The Feature, Application, System, Team (FAST) taxonomy is introduced in ["Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper,"](https://contextmapper.org/media/978-3-030-67445-8_11_AuthorsCopy.pdf) by S. Kapferer and O. Zimmermann.
 
 
 ### Data Provenance 
@@ -93,7 +100,7 @@ The Feature, Application, System, Team taxonomy is introduced in ["Domain-driven
 ```yaml
 title: "Design Practice Repository (DPR): Context Map (Strategic DDD)"
 author: Olaf Zimmermann (ZIO)
-date: "02, 18, 2020 (Source: Project DD-DSE)"
+date: "03, 30, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

@@ -1,6 +1,4 @@
 
-### [Git Pages Home](https://socadk.github.io/design-practice-repository)
-
 ## DPR: *Artifact/Templates Index*
 
 ### Context and Motivation 

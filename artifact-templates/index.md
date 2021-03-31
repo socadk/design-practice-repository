@@ -1,8 +1,5 @@
-### [Git Pages Home](https://socadk.github.io/design-practice-repository)
 
-### Quick links
-
-This version of DPR contains the following artifact templates:
+In this folder (quick links): 
 
 * [Architectural Decision Record (Y-Form)](DPR-ArchitecturalDecisionRecordYForm.md)
 * [CRC Card](DPR-CRCCard.md)
@@ -15,6 +12,4 @@ This version of DPR contains the following artifact templates:
 * [Refined Endpoint List](SDPR-RefinedEndpointList.md)
 * [Service Level Agreement](SDPR-ServiceLevelAgreement.md)
 
-### More information
-
-An extended overview can be found in the [Artifact/Templates Readme](readme-gp.md).
+An extended overview can be found in the [README](readme-gp.md).

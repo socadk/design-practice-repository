@@ -1,9 +1,17 @@
-@startuml
+@startuml Domain-Model-Elaborate
+left to right direction
+
+package Product <<Frame>> {
 	class Product {
 	  price
 	  description
 	  image
 	}
+}
+
+
+package Customer <<Frame>> {
+
 	class PostalAddress {
 	  streetAddress
 	  postalCode
@@ -14,6 +22,10 @@
 	  givenName
 	  familyName
 	}
+}
+
+package Order <<Frame>> {
+
 	class LineItem {
 	  amount
 	}
@@ -26,10 +38,13 @@
 	  PICKUP
 	}
 	
-	Customer o-- PostalAddress
-	Order "shippingAddress" o-- PostalAddress
-	LineItem "product"  o-- Product
-	Order "lineItems" o-- LineItem
-	Order "shipping" o-- ShippingMode
-	Customer "orders" o-- Order
+}
+
+Customer *-- PostalAddress
+Order "shippingAddress" o-- PostalAddress
+LineItem "product"  o-- Product
+Order "lineItems" *-- LineItem
+Order "shipping" o-- ShippingMode
+Customer "orders" o-- Order
+
 @enduml
