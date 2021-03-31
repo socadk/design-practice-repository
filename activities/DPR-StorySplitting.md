@@ -26,7 +26,7 @@ Several INVESTment practices and techniques exist; one of them is story splittin
 
 ### Goal and Purpose (When to Use and When not to Use)
 
-> *As an agile practitioner with requirements analysis and/or project planning responsibilities, I would like to split user stories to make stories and their implementation easier to plan and execute.* 
+> *As an agile practitioner with requirements analysis and/or project planning responsibilities, I want to split user stories to make stories and their implementation easier to plan and execute.* 
 
 Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md): 
 
