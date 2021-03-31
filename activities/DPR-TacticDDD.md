@@ -29,7 +29,7 @@ Tactic DDD can be seen as [Object-Oriented Analysis and Design (OOAD)](https://e
 * Find out what to implement (analysis)
 * Define storage units, attributes, methods that keep the connection to the analysis results (design) 
 
-*Note:* There is a deliberate difference between analysis ("what are we building?") and design ("how will we deliver the 'what'"?), explained in this [tutorial](https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_quick_guide.htm). OOA and OOD can and should be performed hand in hand, and DDD supports both OOA and OOD. The transition should be seamless, hence a common set of patterns and notations is used for the incremental and iterative refinement of both analysis and design. <!-- twin peaks model -->
+*Tip:* There is a deliberate difference between analysis ("what are we building?") and design ("how will we deliver the 'what'"?), explained in this [tutorial](https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_quick_guide.htm). OOA and OOD can and should be performed hand in hand, and DDD supports both OOA and OOD. The transition should be seamless, hence a common set of patterns and notations is used for the incremental and iterative refinement of both analysis and design. <!-- twin peaks model -->
 
 
 ### Instructions (Synopsis, Definition)

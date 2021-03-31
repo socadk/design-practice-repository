@@ -29,7 +29,7 @@ Martin Fowler distinguishes between *simple* domain models, that "look very much
 
 Note: A domain model does not have to specify every detail of the resulting implementation, but should show the most important concepts and give the reader an understanding of the code. 
 
-<!-- ZIO4STX: source? add relation from class to class? STX: Own creation, the source is in Domain-Model-Template.puml. Also doesn't look great quality-wise, maybe redo it in miro for a future release? Does PlantUML -> Miro exist? :-) -->
+<!-- TODO add relation from class to class? STX: source is in Domain-Model-Template.puml -->
 ![Domain Model Template](/artifact-templates/images/Domain-Model-Template.png)
 
 
@@ -38,7 +38,7 @@ A minimal domain model can start with just the classes and their relations. For 
 
 ![Simple Domain Model](/artifact-templates//images/Domain-Model-Simple.png)
 
-The classes can then be logically grouped and fleshed out with more details, for example with more specific relations, attributes, and methods: <!-- ZIO4STX: show filled out diamond, physical containment, discuss it a bit? -->
+The classes can then be logically grouped and fleshed out with more details, for example with more specific relations, attributes, and methods: 
 
 ![Elaborate Domain Model](/artifact-templates//images/Domain-Model-Elaborate.png)
 

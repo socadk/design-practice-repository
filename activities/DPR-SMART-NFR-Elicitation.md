@@ -92,7 +92,6 @@ An example and a counter example are:
 * "The system should be highly usable, perform well, and easy to maintain."
 * "The 'place order' user story must complete in less than a second."
 
-<!-- ZIO4STX: replace with blurb? -->
 *Question*: Which of the above is SMARTer than the other?
 
 In a telecommunications order management system, requirements that deal with external and internal quality properties may be: <!-- bibtex OOPSLA 2005 PR? -->>

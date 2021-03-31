@@ -27,12 +27,12 @@ CRC cards primarily serve as specification and documentation tools. Moreover, th
 * Use a custom-off-the-shelf software package, commercial middleware, or open source software? 
 * Can a cloud service or an operating system feature (such as a storage offering or a job scheduler) fulfill the responsibilities?
 
-Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow then is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing--or <!-- ZIO4STX: PoC does "---" work or do we need to use HTML mdash? STX: It depends, two dashes without spaces should work: https://leanpub.com/markua/read#charsub --> serve as graphical notes only, accompanying the textual ones (see [this blog post](https://ozimmer.ch/authoring/2020/07/02/ReviewAndMeetingMarkup.html)) from the workshop.
+Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow then is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing--or <!-- note "--" works, HTML mdash too. see https://leanpub.com/markua/read#charsub --> serve as graphical notes only, accompanying the textual ones (see [this blog post](https://ozimmer.ch/authoring/2020/07/02/ReviewAndMeetingMarkup.html)) from the workshop.
 
 
 ### Template Structure and Notation(s)
 
-An annotated template (with teaser questions) is: <!-- ZIO4STX: resolution not greta in PDF. STX: I'd suggest to leave the powerpoint-tables as they are right now and try to find a better solution for all of these in a future release. -->
+An annotated template (with teaser questions) is: <!-- resolution not great in PDF. decision: leave the powerpoint tables as they are right now and try to find a better solution for all of these in a future release. -->
 
 ![CRC Card Notation Explained](/artifact-templates/images/ZIO-CRCCardNotationExplained.png)
 
