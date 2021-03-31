@@ -1,7 +1,12 @@
+### [Git Pages Home](https://socadk.github.io/design-practice-repository)
 
-In this folder (quick links): 
+### Quick links
+
+This version of DPR contains the following role descriptions:
 
 * [Application and Integration Architect](DPR-ApplicationArchitectRole.md)
 * [API Product Owner](SDPR-APIProductOwner.md)
 
-An extended overview can be found in the [README](readme-gp.md).
+### More information
+
+An extended overview can be found in the [Roles Readme](readme-gp.md).

@@ -1,4 +1,6 @@
-# Literature
+### [Git Pages Home](https://socadk.github.io/design-practice-repository)
+
+## Literature
 
 <!--
 How to update this file:
