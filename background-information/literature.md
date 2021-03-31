@@ -163,16 +163,3 @@ date: "03, 31, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
-
-
-<!-- keep/update the metadata below when updating the page: -->
-
-## DPR Metadata
-
-```yaml
-title: "Design Practice Repository (DPR): Bibliography (Literature)"
-author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "03, 31, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
-license: Creative Commons Attribution 4.0 International License
-```
