@@ -45,7 +45,7 @@ The following wireframe shows a rather simple and basic screen for user manageme
 
 * Users can be created, edited and removed. This hints at the role of our service: it probably is a data-centric [Information Holder](https://www.microservice-api-patterns.org/patterns/responsibility/endpointRoles/InformationHolderResource).
 * Users can be copied. This might be relevant for our service, requiring a create operation in the API, but it could also be implemented just on the client side.
-* The navigation elements at the bottom of the page suggest that there will be a large number of users to be navigated in a [paginated](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) fashion. 
+* The navigation elements at the bottom of the page suggest that there will be numerous users to be navigated in a [paginated](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) fashion. 
 
 ![Wireframe Example](/activities/images/Wireframe-Example.png)
 
@@ -57,10 +57,9 @@ However, it is usually done to improve communication between designers, develope
 
 ### Hints and Pitfalls to Avoid
 
-* Take care not to loose yourself in details, so do not use a graphics program that lets you create a pixel-perfect design, but keep it rough, just like in the example above. This saves time and allows you to focus on the task at hand: figuring out the coarse-grained layout and content of your screens. As an additional benefit, this also clearly communicates to the other stakeholders that you are still far from a working application.
+* Take care not to lose yourself in details, so do not use a graphics program that lets you create a pixel-perfect design, but keep it rough, just like in the example above. This saves time and allows you to focus on the task at hand: figuring out the coarse-grained layout and content of your screens. As an additional benefit, this also clearly communicates to the other stakeholders that you are still far from a working application.
 * Try to find API design patterns in the mockups, as outlined above.
 * Do not hesitate to refactor when necessary.
-<!-- ZIO4STX: pls check additions (end edits) -->
 
 ### Origins and Signs of Use
 Similar techniques have been around for a long time, arguably since the very beginning of software design.

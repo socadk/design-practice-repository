@@ -29,7 +29,7 @@ Martin Fowler distinguishes between *simple* domain models, that "look very much
 
 Note: A domain model does not have to specify every detail of the resulting implementation, but should show the most important concepts and give the reader an understanding of the code. 
 
-<!-- ZIO4STX: source? add relation from class to class? -->
+<!-- ZIO4STX: source? add relation from class to class? STX: Own creation, the source is in Domain-Model-Template.puml. Also doesn't look great quality-wise, maybe redo it in miro for a future release? Does PlantUML -> Miro exist? :-) -->
 ![Domain Model Template](/artifact-templates/images/Domain-Model-Template.png)
 
 
@@ -38,11 +38,11 @@ A minimal domain model can start with just the classes and their relations. For 
 
 ![Simple Domain Model](/artifact-templates//images/Domain-Model-Simple.png)
 
-This can then be fleshed out with more details, for example more specific relations, attributes, and methods: <!-- ZIO4STX: show filled out diamond, physical containment, discuss it a bit? -->
+The classes can then be logically grouped and fleshed out with more details, for example with more specific relations, attributes, and methods: <!-- ZIO4STX: show filled out diamond, physical containment, discuss it a bit? -->
 
 ![Elaborate Domain Model](/artifact-templates//images/Domain-Model-Elaborate.png)
 
-In a next step, the method names could be turned into full method signatures with fully typed parameter names and return values.
+Note the filled diamond composition between order and line items, which form a  *part-of* relationship. In a next step, the method names could be turned into full method signatures with fully typed parameter names and return values.
 
 ### Tools
 Pen and paper or a whiteboard are enough to get started on a simple model. The examples above were generated using [PlantUML](https://plantuml.com/class-diagram), a textual DSL for various kinds of diagrams. UML profiles exist as well and are supported in UML tools such as Sparx Enterprise Architect.
