@@ -23,6 +23,30 @@ pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib
 6. Replace all div elements with p
  -->
 
+# Literature
+
+<!--
+How to update this file:
+
+1. Remove the HTML code below this comment (up to metadata section) and replace it with an empty table 
+
+|Key|Literature|
+|:--|:---------|
+
+2. Run the following command from the repository root:
+
+perl -ne '/@([\w:]+)/ && print "|$1|\@$1|\n";' **/*.md | sort | uniq  
+
+3. Copy the output below the table (and remove refs like @docsoc),
+
+4. Run the following command
+ 
+pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib --citeproc background-information/literature.md
+
+5. Copy the generated bibliography (start from "<p id="refs" class="references hanging-indent" role="doc-bibliography">"), and replace the markdown table below this comment with the copied HTML.
+
+6. Replace all div elements with p
+ -->
 <p id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
 <p id="ref-Allamaraju:2010" class="csl-entry" role="doc-biblioentry">
 Allamaraju, Subbu. 2010. <em><span>RESTful Web Services Cookbook</span></em>. Sebastopol: O’Reilly Media, Inc.
@@ -30,11 +54,17 @@ Allamaraju, Subbu. 2010. <em><span>RESTful Web Services Cookbook</span></em>. Se
 <p id="ref-Ambler:2002" class="csl-entry" role="doc-biblioentry">
 Ambler, Scott. 2002. <em>Agile Modeling: Effective Practices for Extreme Programming and the Unified Process</em>. USA: John Wiley &amp; Sons, Inc.
 </p>
+<p id="ref-Amundsen:2020" class="csl-entry" role="doc-biblioentry">
+Amundsen, Mike. 2020. <em>Design and Build Great Web <span>APIs</span>: Robust, Reliable, and Resilient</em>. Pragmatic Bookshelf.
+</p>
 <p id="ref-Barbacci:2002" class="csl-entry" role="doc-biblioentry">
 Barbacci, Mario R, Robert J Ellison, Anthony Lattanze, Judith Stafford, Charles B Weinstock, and William Wood. 2002. <span>“Quality Attribute Workshops.”</span>
 </p>
 <p id="ref-Bass:2012" class="csl-entry" role="doc-biblioentry">
 Bass, Len, Paul Clements, and Rick Kazman. 2012. <em>Software Architecture in Practice</em>. 3rd ed. Addison-Wesley Professional.
+</p>
+<p id="ref-BeyerJonesPetoffMurphy:2016" class="csl-entry" role="doc-biblioentry">
+Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy. 2016. <em>Site Reliability Engineering: How Google Runs Production Systems</em>. <a href="http://landing.google.com/sre/book.html">http://landing.google.com/sre/book.html</a>.
 </p>
 <p id="ref-Buschmann:2007" class="csl-entry" role="doc-biblioentry">
 Buschmann, Frank, Kevlin Henney, and Douglas Schmidt. 2007. <em>Pattern-Oriented Software Architecture, Volume 4: A Pattern Language for Distributed Computing</em>. John Wiley &amp; Sons.
@@ -75,9 +105,6 @@ Julisch, Klaus, Christophe Suter, Thomas Woitalla, and Olaf Zimmermann. 2011. <s
 <p id="ref-Keeling:2019" class="csl-entry" role="doc-biblioentry">
 Keeling, Michael. 2017. <em>Design It!: From Programmer to Software Architect</em>. The Pragmatic Programmers. Raleigh, NC: Pragmatic Bookshelf.
 </p>
-<p id="ref-Larman:2004" class="csl-entry" role="doc-biblioentry">
-Larman, Craig. 2004. <em>Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd Edition)</em>. USA: Prentice Hall PTR.
-</p>
 <p id="ref-Lauret:2019" class="csl-entry" role="doc-biblioentry">
 Lauret, Arnaud. 2019. <em>The Design of Web APIs</em>. Manning.
 </p>
@@ -102,6 +129,9 @@ Rozanski, Nick, and Eoin Woods. 2011. <em>Software Systems Architecture: Working
 <p id="ref-Starke:2015" class="csl-entry" role="doc-biblioentry">
 Starke, Gernot. 2015. <em>Effektive Software-Architekturen: Ein Praktischer Leitfaden</em>. 7th ed. München: Hanser.
 </p>
+<p id="ref-StockerZimmermannEtAl:2018" class="csl-entry" role="doc-biblioentry">
+Stocker, Mirko, Olaf Zimmermann, Daniel Lübke, Uwe Zdun, and Cesare Pautasso. 2018. <span>“Interface Quality Patterns - Communicating and Improving the Quality of Microservices <span>APIs</span>.”</span> In <em>Proc. Of the 23nd European Conference on Pattern Languages of Programs</em>. EuroPLoP ’18. Irsee, Germany.
+</p>
 <p id="ref-Sturgeon:2016" class="csl-entry" role="doc-biblioentry">
 Sturgeon, Phil. 2016. <em>Build <span>APIs</span> You Won’t Hate</em>. LeanPub. <a href="https://leanpub.com/build-apis-you-wont-hate">https://leanpub.com/build-apis-you-wont-hate</a>.
 </p>
@@ -110,6 +140,9 @@ Vernon, Vaughn. 2013. <em>Implementing Domain-Driven Design</em>. Addison-Wesley
 </p>
 <p id="ref-WirfsBrock:2002" class="csl-entry" role="doc-biblioentry">
 Wirfs-Brock, Rebecca, and Alan McKean. 2002. <em>Object Design: Roles, Responsibilities, and Collaborations</em>. Pearson Education.
+</p>
+<p id="ref-Zimmermann:2017" class="csl-entry" role="doc-biblioentry">
+Zimmermann, Olaf. 2017. <span>“Architectural Refactoring for the Cloud: Decision-Centric View on Cloud Migration.”</span> <em>Computing</em> 99 (2): 129–45. <a href="https://doi.org/10.1007/s00607-016-0520-y">https://doi.org/10.1007/s00607-016-0520-y</a>.
 </p>
 <p id="ref-Zimmermann:2020" class="csl-entry" role="doc-biblioentry">
 Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Cesare Pautasso, and Uwe Zdun. 2020. <span>“Introduction to Microservice API Patterns (MAP).”</span> In <em>Joint Post-Proceedings of the First and Second International Conference on Microservices (Microservices 2017/2019)</em>, edited by Luı́s Cruz-Filipe, Saverio Giallorenzo, Fabrizio Montesi, Marco Peressotti, Florian Rademacher, and Sabine Sachweh, 78:4:1–17. OpenAccess Series in Informatics (OASIcs). Dagstuhl, Germany: Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik. <a href="https://doi.org/10.4230/OASIcs.Microservices.2017-2019.4">https://doi.org/10.4230/OASIcs.Microservices.2017-2019.4</a>.
@@ -126,7 +159,20 @@ Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on W
 ```yaml
 title: "Design Practice Repository (DPR): Bibliography (Literature)"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "03, 24, 2021"
+date: "03, 31, 2021"
+copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+license: Creative Commons Attribution 4.0 International License
+```
+
+
+<!-- keep/update the metadata below when updating the page: -->
+
+## DPR Metadata
+
+```yaml
+title: "Design Practice Repository (DPR): Bibliography (Literature)"
+author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
+date: "03, 31, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
