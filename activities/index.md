@@ -1,4 +1,8 @@
-In this folder (quick links): 
+### [Git Pages Home](https://socadk.github.io/design-practice-repository)
+
+### Quick links
+
+This version of DPR contains the following activities: 
 
 * [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md)
 * [Architecture Modeling](DPR-ArchitectureModeling.md)
@@ -9,4 +13,6 @@ In this folder (quick links):
 * [User Interface Mocking](DPR-UserInterfaceMocking.md)
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md)
 
-An extended overview can be found in the [README](readme.md).
+### More information
+
+An extended overview can be found in the [Activities Readme](readme.md).
