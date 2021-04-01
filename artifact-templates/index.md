@@ -17,4 +17,4 @@ This version of DPR contains the following artifact templates:
 
 ### More information
 
-An extended overview can be found in the [Artifact/Templates Readme](readme-gp.md).
+An extended overview can be found in the [Artifact/Templates Readme](readme.md).
