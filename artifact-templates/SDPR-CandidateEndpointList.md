@@ -6,7 +6,7 @@ Activities: Stepwise/Incremental Service Design (Contract First), Step 4
 Abstraction/Refinement Level: technology-agnostic, platform-independent
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository),
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
