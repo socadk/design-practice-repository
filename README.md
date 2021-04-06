@@ -8,7 +8,9 @@
 
 <!-- "DPR" pronounced "deeper"... and Se (or C?) can be pronounced "see", so [O] see deeper... or "steeper" ;-) -->
 
-*Welcome to DPR (pronounced "deeper")!* This public repository collects method elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond).
+*Welcome to DPR (pronounced "deeper")!* 
+
+This public repository collects method elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond).
 
 ## Target Audience 
 
@@ -23,7 +25,7 @@ This repository targets the following software engineering roles, ordered from s
 
 ## Overview and Quick Links
 
-DPR is organized around *artifacts*, *templates*, *activities* and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
+DPR is organized around *artifacts*, *templates*, *activities*, and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
 
 <img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPR Concepts (Domain Model)"/>
 
@@ -47,15 +49,16 @@ There is an [introductory blog post](https://medium.com/olzzio/design-practice-r
 
 We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 
-### *News*
+### *Status*
 
-Version 1.2, released on December 7, 2020, adds one activity and one artifact:
+Version 1.2, released on December 7, 2020, added one activity and one artifact:
 
 * [Story splitting](/activities/DPR-StorySplitting.md) for planning and design purposes
 * [Component, Responsibility, Collaboration (CRC) cards](artifact-templates/DPR-CRCCard.md), an OOAD veteran repurpose for architecture design 
 
 Tutorial 1 also was enhanced, as well as several other activity and artifact descriptions. We also added (even) more pointers to background information. 
 
+Since then, we have copy edited all content and provided additional references.
 
 ## Terminology Clarification
 
@@ -109,7 +112,7 @@ Contributors (input, technical writing, feedback):
 If you would like to help improve this collection of software/service/API design practices:
 
 * Feel free to create GitHub issues.
-* Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
+* Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository, and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
     * The ["contributing" folder](./contributing) has templates for artifact, activity, role descriptions.
 * [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
 

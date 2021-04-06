@@ -27,7 +27,7 @@ A Refined Endpoint List (REL) is produced in Step 5 in [Stepwise Service Design]
 
 <!-- * Step 5 of the EXPOSE technique -->
 
-Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) includes "Reconcile Magic Strings" as step 3 and "Select a Media Type" as step 4 (@Amundsen:2020); REL creation and population roughly corresponds to these two steps. The REL corresponds to the "updated API goal canvas that Arnaud Lauret proposes in Chapter 2 of "The Design of Web APIs" (@Lauret:2019).
+Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) includes "Reconcile Magic Strings" as Step 3 and "Select a Media Type" as Step 4 (@Amundsen:2020); REL creation and population roughly corresponds to these two steps. The REL corresponds to the "updated API goal canvas that Arnaud Lauret proposes in Chapter 2 of "The Design of Web APIs" (@Lauret:2019).
 
 
 ### Template Structure and Notation(s)
@@ -119,7 +119,7 @@ The book "Implementing Domain-Driven Design" by V. Vernon provides the following
 * When Bounded Contexts (BCs) are realized by API providers, one service API and IDE project for each team/system Bounded Context (a.k.a. microservice) should be foreseen.
 * Aggregates supply API resources (or responsibilities) of service endpoints.
 * DDD (application) services may be exposed as top-level (home) resources in Bounded Context endpoints as well.
-* The Root Entity (also known as Aggregate Root), the Repository and the Factory in an Aggregate suggest top-level resources; contained entities yield sub-resources. The [MDSL generator in Context Mapper](https://contextmapper.org/docs/mdsl/) implements this mapping.
+* The Root Entity (also known as Aggregate Root), the Repository, and the Factory in an Aggregate suggest top-level resources; contained entities yield sub-resources. The [MDSL generator in Context Mapper](https://contextmapper.org/docs/mdsl/) implements this mapping.
 * Repository lookups become paginated queries (GET with search parameters).
 
 Additional rules of thumb regarding the transition from DDD to API design (drawn from our experience and additional sources) are:

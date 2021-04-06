@@ -42,7 +42,7 @@ The following figure suggests a three-step approach:
 
 * A basic, easy-to-remember *FURPS+* classification was originally introduced by R. Grady in the 1990s according to [this article by P. Eeles](https://www.ibm.com/developerworks/rational/library/4706.html) that introduces the elements of FURPS+ and provides examples.
 * ISO 9126 and its successor [ISO 25010](http://iso25000.com/index.php/en/iso-25000-standards/iso-25010) are used in ["Effektive Softarearchitekturen"](https://www.gernotstarke.de/buecher#2020) (@Starke:2015) and also recommended to be used in [arc42](https://arc42.org/overview/) descriptions.
-* SEI quality utility trees are recommended in [this article](http://arnon.me/2010/05/utility-trees-hatching-quality-attributes/) by A. Rotem-Gal-Oz as well as [arc42 tip 10-2](http://docs.arc42.org/tips/10-2/). 
+* SEI quality utility trees are recommended in [this article](http://arnon.me/2010/05/utility-trees-hatching-quality-attributes/) by Arnon Rotem-Gal-Oz as well as [arc42 tip 10-2](http://docs.arc42.org/tips/10-2/). 
 
 *Be SMART*. General [*SMART criteria*](https://en.wikipedia.org/wiki/SMART_criteria) are frequently used in project and people management. All five letters can have different meanings<!--(is this an instance of "semantic diffusion"?-->; here, we use these meanings: *S* for specific, *M* for measurable, *A* for agreed upon, *R* for realistic, and *T* for time-bound.
 
@@ -150,7 +150,7 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 
 ### More Information 
-See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by C. Pautasso and O. Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.
+See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by Cesare Pautasso and Olaf Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.
 
 arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/), and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/). The Scaled Agile Framework (SAFe) also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/). 
 

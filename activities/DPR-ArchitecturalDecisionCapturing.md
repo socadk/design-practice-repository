@@ -120,7 +120,7 @@ The [adr organization at GitHub](https://adr.github.io/) also compiles AD templa
 
 See this [SATURN 2013 BoF session report](http://www.sei.cmu.edu/library/assets/presentations/zimmermann-saturn2013.pdf) for a cost-benefit discussion and open research questions.
 
-Finally, there is a proposed for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html).
+Finally, there is a proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html).
 
 
 ### Data Provenance 

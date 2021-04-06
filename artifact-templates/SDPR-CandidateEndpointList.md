@@ -46,9 +46,9 @@ Record your analysis (and design) results in list or table form:
 A simple table will suffice: 
 
 ```markdown
-| Endpoint | Operation | Role/Exposed Data           | 
-|----------|-----------|-----------------------------|
-|...       |...        |...                          |
+| Endpoint | Operation | Role/Exposed Data | 
+|----------|-----------|-------------------|
+|...       |...        |...                |
 ```
 
 ### Example(s)
@@ -58,7 +58,7 @@ A simple table will suffice:
 
 A CEL identifying the API design and frontend-backend integration needs derived from this story looks like this (note that HTTP verbs are already called out, which might be a little early):
 
-| Endpoint | Operation (HTTP verb)  | Role/Exposed Data | 
+| Endpoint | Operation (HTTP verb) | Role/Exposed Data | 
 |----------|-------------|-----------------------------|
 | Customer | Find (GET)  | Returns list of identifiers of customers that match some search criteria |
 |          | Read (GET)  | Returns details of one particular customer record |
@@ -75,9 +75,10 @@ Taking the output of Step 3 in the [Stepwise Service Design](../activities/SDPR-
 
 1. Add one candidate API per functional partition, for instance expressed as DDD Subdomain (@Evans:2003) or Bounded Context (@Vernon:2013); optionally, also add one candidate endpoint per Entity and Service in a Subdomain and/or Aggregate in a Bounded Context.
 2. Add one candidate API per layer that crosses a physical tier boundary according to the chosen assignment of logical layers to physical tiers, also known as *client-server cuts* (@RenzelKeller:1997). For instance, add one candidate API per client application as explained/motivated in the [*Backends-for-Frontends*](https://samnewman.io/patterns/architectural/bff/) pattern. <!-- removed here: 3. Add one *candidate API client* per backend system to be integrated/required to implement the user/integration stories. -->
-3. Refactor (merge, split) to remove redundant candidate endpoint entries and achieve high cohesion (w.r.t. business-/domain-level responsibilities) within endpoints. <!--, but do not refine to API operation/call level yet. -->
-<!--
-5. Add one *candidate API* per team shown as a *Team Bounded Context (TBC)* in a DDD context map; add one *candidate endpoint* per subteam. -->
+3. Refactor (merge, split) to remove redundant candidate endpoint entries and achieve high cohesion (w.r.t. business-/domain-level responsibilities) within endpoints. 
+
+<!-- but do not refine to API operation/call level yet. -->
+<!-- 4./5. Add one *candidate API* per team shown as a *Team Bounded Context (TBC)* in a DDD context map; add one *candidate endpoint* per subteam. -->
 <!-- not sure where previous one came from; F-A-S-T? see e2e demo -->
 
 A general hint is not to hesitate to undo and revise as you learn more about the client's information needs and provider capabilities (both on CEL and REL level). 
