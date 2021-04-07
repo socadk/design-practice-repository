@@ -160,7 +160,7 @@ Usage of the pattern names and presence of [Domain Model](../artifact-templates/
 * [Context Mapper](https://contextmapper.org/) tutorials and guides, for instance on [rapid OOAD](https://contextmapper.org/docs/rapid-ooad/).
 * [Domain Story Telling](https://domainstorytelling.org/).
 
-There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) that features many business analysis-level extensions to DDD practices, for instance a [Aggregate Design Canvas](hhttps://github.com/ddd-crew/aggregate-design-canvas) template.
+There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) that features many business analysis-level extensions to DDD practices, for instance a [Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas) template.
 
 
 ### More Information 
