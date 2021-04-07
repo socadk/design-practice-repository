@@ -139,14 +139,13 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
-* [Application Architect](../roles/DPR-ApplicationArchitectRole.md) and other decision makers
+[Application Architect](../roles/DPR-ApplicationArchitectRole.md) and other decision makers produce NFR specifications, for instance Quality Attribute Scenarios (QAS) (@Bass:2012). QAS make the NFR specification smart and measurable (but also a bit repetitive); utility trees can help with prioritization (by business value and technical risk)
 
 
 #### Practices and Techniques (Refinements, Guides)
 
-* Quality Attribute Scenarios (QAS) (@Bass:2012) make the NFR specification smart and measurable (but also a bit repetitive); utility trees can help with prioritization (by business value and technical risk).
 * [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) (@Barbacci:2002). Michael Keeling introduces them <!-- as activity 7 in his Architect's Toolbox in --> in his book ["Design It"](https://pragprog.com/titles/mkdsa/design-it/) and his 2015 IEEE Software Insights column ["Lightweight and Flexible"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7093052).
-* [Quality storming](https://speakerdeck.com/mploed/quality-storming) by Michael Ploed
+* [Quality Storming](https://speakerdeck.com/mploed/quality-storming) by Michael Ploed
 
 
 ### More Information 

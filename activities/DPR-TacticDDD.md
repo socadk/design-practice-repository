@@ -140,20 +140,20 @@ Usage of the pattern names and presence of [Domain Model](../artifact-templates/
 
 ### Related Content
 
-* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
-* [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
-* [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
-* [Domain Model](../artifact-templates/DPR-DomainModel.md)
-
 #### Performing Roles and Related Artifacts (Synopsis)
 
 * Domain experts, business analysts
 * Application architects 
 * Any team member designing and developing
 
+* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
+* [Domain Model](../artifact-templates/DPR-DomainModel.md)
+
 
 #### Practices and Techniques (Refinements, Guides)
 
+* [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
+* [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
 * [Event Storming](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html) is a complementary technique that can help identify an initial set of Aggregates, Entities, Commands, Events and other design elements (to be refactored and refined in further tactic DDD). 
 * The [DDD Whirlpool](https://domainlanguage.com/ddd/whirlpool/) by Eric Evans is frequently mentioned. 
 * [Story Mapping](https://www.agilealliance.org/glossary/storymap/) <!-- by J. Patton --> and [Story Splitting](https://www.agilealliance.org/glossary/split/) may assist with DDD pattern identification (among other things).

@@ -15,9 +15,6 @@ Artifact/Template: *DDD Context Map*
 ### Motivation (Addressed Information Need)
 A context map visualizes the relationships between Bounded Contexts in [Strategic DDD](../activities/DPR-StrategicDDD.md). Several types of such relationships have been described as patterns; Bounded Contexts abstract from functional feature sets, existing or future application, systems, and teams.
 
-See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) for more context information. 
-
-
 ### Usage (Produced and Consumed When)
 
 The different types of map correspond to the following activities:
@@ -26,6 +23,7 @@ The different types of map correspond to the following activities:
 * System decomposition (application and system maps)
 * Team organization in SAFe, Scrum of Scrums (team maps)
 
+See activity description for [Strategic DDD](../activities/DPR-StrategicDDD.md) for more context and usage information. 
 
 ### Template Structure
 DDD as such does not mandate any notation. Each author and presenter has his/her own style. The following visualization of context maps has become quite popular:

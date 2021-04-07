@@ -92,18 +92,22 @@ See the blog post["Architectural Decisions — The Making Of"](https://ozimmer.c
 *Signs of Use*. Filled out templates obviously indicate that decisions are made and captured explicitly. But informal justifications, for instance in the form of "we did this ... because ..." also qualify. 
 
 
-### Related Content (in DPR) 
+### Related Content
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
+Involved roles:
+
 * Enterprise architects, program/portfolio architects  
 * Agile teams 
-
 * [Application Architect](../roles/DPR-ApplicationArchitectRole.md) 
+
+Produced artifact: 
+
 * [Decision Log with ADRs](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)
 
 
-#### Other Practices (Alternatives)
+#### Other Practices (Alternatives) 
 There are no alternatives, really. The emergent architecture community suggests not to make ADs consciously, but let the architecture emerge and evolve through frequent iterations including intense refactoring supported by measurements/experiments. 
 
 The Agile Alliance lists a [Quick Design](https://www.agilealliance.org/glossary/quickdesign/) practice in its [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/). The outcome of such quick design sessions can be captured as an ADR in the decision log.

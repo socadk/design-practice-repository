@@ -16,10 +16,9 @@ also known as: Feature, Backlog Item
 ### Motivation (Addressed Information Need) 
 The Agile Alliance describes the role and purpose of user stories in its [glossary entry for them](https://www.agilealliance.org/glossary/user-stories/) as *divide feature into units that fit into a single iteration" and advises to [INVEST](https://www.agilealliance.org/glossary/invest) in actionable insights on user wants and needs.
 
+### Usage (Produced and Consumed When)
 User stories come in and out of [Story Splitting](../activities/DPR-StorySplitting.md). Stories also are excellent input to API design and system decomposition. 
 
-
-### Usage (Produced and Consumed When)
 User stories are used in sprint planning sprint reviews, both when developing a Minimum Viable Product (MVP) and in later iterations. They are one way of communicating about and eliciting functional requirements (or features).
 
 
@@ -70,7 +69,7 @@ See [glossary entry](https://www.agilealliance.org/glossary/user-story-template/
 * [Story Splitting](../activities/DPR-StorySplitting.md)
 * [Job Stories](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
 * Test-Driven Development (TDD) 
-* Behavior-Driven Development (BDD) and [given-when-then](https://www.agilealliance.org/glossary/gwt) template for acceptance criteria.
+* Behavior-Driven Development (BDD) and [Given-When-Then](https://www.agilealliance.org/glossary/gwt) template for acceptance criteria.
 
 
 ### More Information

@@ -86,12 +86,12 @@ Usage of OpenAPI specifications or other platform- and technology-specific IDLs 
 
 The [Known Uses](https://microservice-api-patterns.org/patterns/foundation/APIDescription#sec:APIDescription:KnownUses) section of the API Description pattern lists many notations and tools. 
 
-### Related Artifacts and Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 
 * [Domain Model](DPR-DomainModel.md)
 * [Candidate Endpoint List (CEL)](SDPR-CandidateEndpointList.md) and [Refined Endpoint List (REL)](SDPR-RefinedEndpointList.md)
 * [Service Level Agreement](SDPR-ServiceLevelAgreement.md) (SLA)
-
+* [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md)
 
 ### More Information
 

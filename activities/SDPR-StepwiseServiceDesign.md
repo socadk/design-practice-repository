@@ -154,6 +154,14 @@ The DDD DSL tool Context Mapper supports some of the steps with its [model trans
 
 ### Related Content
 
+#### Performing Roles and Related Artifacts (Synopsis)
+
+Roles: 
+
+* [Application Architect](../roles/DPR-ApplicationArchitectRole.md)
+* [API Product Owner](../roles/SDPR-APIProductOwner.md))
+* Agile developers
+
 Produced artifacts: 
 
 * Architectural models (taking different viewpoints) and [CRC Cards](../artifact-templates/DPR-CRCCard.md)
@@ -163,7 +171,9 @@ Produced artifacts:
 * Decision log of [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md) 
 
 
-#### Other Practices (Alternatives)
+#### Practices and Techniques (Refinements, Guides)
+
+<!-- TODO Could point at Architecture Modeling and UI Mocking here -->
 
 <!-- Taken out of final Q1-2021 release 
 **EXPOSE.** Early presentations on MAP featured six endpoint/service identification and realization steps called EXPOSE (see [this conference presentation]() 2018 seminar presentation) TODO link 

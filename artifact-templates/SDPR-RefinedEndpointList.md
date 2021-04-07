@@ -140,7 +140,7 @@ The CEL and REL artifacts in DPR originate from the MAP project, mining experien
 Usage of the above list and table formats is a sign of use.
 
 
-### Related Artifacts and Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 
 * [Candidate Endpoint List](SDPR-CandidateEndpointList.md) 
 * [API Description](SDPR-APIDescription.md)

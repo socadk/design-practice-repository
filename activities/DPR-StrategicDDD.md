@@ -88,11 +88,7 @@ Strategic DDD was introduced in Eric Evans' original DDD (@Evans:2003), but feat
 
 Usage of the pattern names and presence of context maps, either drawn informally or modelled in a tool, indicate use.
 
-<!-- TODO this section does not seem to be used/populated consistently yet -->
 ### Related Content
-
-* [Tactic DDD](./DPR-TacticDDD.md)
-* [Stepwise Service Design](./SDPR-StepwiseServiceDesign.md) 
 
 ### Performing Roles and Related Artifacts (Synopsis)
 
@@ -105,6 +101,8 @@ Usage of the pattern names and presence of context maps, either drawn informally
 
 ### Practices and Techniques (Refinements, Guides)
 
+* [Tactic DDD](./DPR-TacticDDD.md)
+* [Stepwise Service Design](./SDPR-StepwiseServiceDesign.md) 
 * Event Storming, introduced [here](https://www.ibm.com/cloud/architecture/architecture/practices/event-storming-methodology-architecture) and tool-supported as described [here](https://contextmapper.org/docs/event-storming/).
 * Lean [Wardley Mapping](https://learnwardleymapping.com/), capturing strategic intent.
 * Enterprise Architecture Management (EAM) offerings and the Scaled Agile Framework (SAFe) may benefit from (or completened by) Strategic DDD. <!-- CE: add links -->

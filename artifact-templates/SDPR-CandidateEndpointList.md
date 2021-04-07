@@ -90,7 +90,7 @@ Any design/documentation artifact in between a planning item/requirement specifi
 The CEL and REL artifacts in DPR originate from the MAP project, mining experiences in the community. Similar artifacts appear in "Build APIs You Won’t Hate" (@Sturgeon:2016) and "Design and Build Great Web APIs" (@Amundsen:2020). Chapter 2 of "The Design of Web APIs" (@Lauret:2019) features an "API Goals Canvas", which also is very similar to the CEL/REL artifacts in DPR.
 
 
-### Related Artifacts and Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 
 * [Use Cases](DPR-UseCase.md) or [User Stories](DPR-UserStory.md) as well as [User Interface Mocks](../activities/DPR-UserInterfaceMocking.md) can serve as input to CEL preparation.
 * The same holds for the [Domain Model](DPR-DomainModel.md).
