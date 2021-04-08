@@ -81,13 +81,13 @@ See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md).
 
 ### More Information
 
-["Strategic Domain Driven Design with Context Mapping "](https://www.infoq.com/articles/ddd-contextmapping/) by A. Brandolini introduces context maps by scenario and example.
+["Strategic Domain Driven Design with Context Mapping "](https://www.infoq.com/articles/ddd-contextmapping/) by Alberto Brandolini introduces context maps by scenario and example.
 
-Context Maps are covered in depth in the book ["Implementing Domain-Driven Design"](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577) by V. Vernon (@Vernon:2013).
+Context Maps are covered in depth in the book ["Implementing Domain-Driven Design"](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577) by Vaughn Vernon (@Vernon:2013).
 
 The language reference of the Context Mapper DSL can be found [here](https://contextmapper.org/docs/context-map/) and [this conference presentation](https://contextmapper.org/media/ZIOSK-Modelsward-Paper-Presentation-v101p.pdf) gives an overview.
 
-The Feature, Application, System, Team (FAST) taxonomy is introduced in ["Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper,"](https://contextmapper.org/media/978-3-030-67445-8_11_AuthorsCopy.pdf) by S. Kapferer and O. Zimmermann.
+The Feature, Application, System, Team (FAST) taxonomy is introduced in ["Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper,"](https://contextmapper.org/media/978-3-030-67445-8_11_AuthorsCopy.pdf) by Stefan Kapferer and Olaf Zimmermann.
 
 
 ### Data Provenance 

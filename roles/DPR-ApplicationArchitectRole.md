@@ -10,7 +10,7 @@ also known as: Coding Architect (to indicate strong connection to development)
 
 ### Persona 
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
-Archie Tekt, who first appeared in 2003 in ["Perspectives on Web services"](https://soadecisions.org/atb.htm) by O. Zimmermann, M. Tomlinson, S. Peuser, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability, and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) view model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
+Archie Tekt, who first appeared in 2003 in ["Perspectives on Web services"](https://soadecisions.org/atb.htm) by Olaf Zimmermann, Mark Tomlinson and Stefan Peuser, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability, and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) view model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
 
 Philippe Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But do not forget that architects (like all people) are different!
 
@@ -49,7 +49,7 @@ The applied practices include [Story Splitting](../activities/DPR-StorySplitting
 
 ### More Information
 
-See the guest editorial of the special theme issue of IEEE Software ["The Role of the Software Architect in the Digital Age"](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) by G. Hohpe, I. Ozkaya, U. Zdun, and O. Zimmermann for a retrospective of the field and a discussion of role vs. responsibility. 
+See the guest editorial of the special theme issue of IEEE Software ["The Role of the Software Architect in the Digital Age"](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) by Gregor Hohpe, Ipek Ozkaya, Uwe Zdun, and Olaf Zimmermann for a retrospective of the field and a discussion of role vs. responsibility. 
 
 [The Architect Elevator](https://architectelevator.com/) visits the different facets of the profession, provides tips and tricks for being successful on each level, and gives additional reading recommendations.
 
