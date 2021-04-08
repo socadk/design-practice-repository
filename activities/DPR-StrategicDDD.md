@@ -55,7 +55,9 @@ The original DDD book by Eric Evans defined an initial set of relations between 
 
 Summaries of the patterns from the original DDD book as well as the extensions are available for free download in the book ["Domain-Driven Design Reference"](http://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), also by Eric Evans. For instance, Partnership is defined as: "Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release". An additional relation is *Separate Ways*, expressing that it has been decided not to collaborate and/or integrate two Bounded Contexts.
 
-*Note:* These relationship types are organizational patterns, first and foremost (not technical ones). That said, they can serve as input for design work, differing with respect to the following design concerns: 
+*Note:* These relationship types are organizational patterns, first and foremost (not technical ones). 
+
+The relationship types still can serve as input for design work, differing with respect to the following design concerns: 
 
 * Symmetric or asymmetric relationship?
 * Topology: local vs. remote interface? 

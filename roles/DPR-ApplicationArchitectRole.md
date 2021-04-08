@@ -54,8 +54,15 @@ See the guest editorial of the special theme issue of IEEE Software ["The Role o
 [The Architect Elevator](https://architectelevator.com/) visits the different facets of the profession, provides tips and tricks for being successful on each level, and gives additional reading recommendations.
 
 <!-- 
+Getting Started:
+
+1) https://www.isaqb.org/de/blog/the-new-software-architecture-foundation-curriculum/
+2) tbc
+
 Experience can't be taught but has to be gained. Once you have some, read these books: 
-1) Design It! 2) Just Enough Software Architecture, 3) Software Architect Elevator 
+1) Design It! 
+2) Just Enough Software Architecture
+3) Software Architect Elevator 
 -->
 
 
@@ -64,7 +71,7 @@ Experience can't be taught but has to be gained. Once you have some, read these 
 ```yaml
 title: "Design Practice Repository (DPR): Application Architect"
 author: Olaf Zimmermann (ZIO)
-date: "02, 18, 2020 (Source: Project DD-DSE)"
+date: "04, 08, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
