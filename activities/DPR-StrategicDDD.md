@@ -86,7 +86,7 @@ An [OOSPLA 2006 experience report](https://dddcommunity.org/wp-content/uploads/f
 ### Origins and Signs of Use
 Strategic DDD was introduced in Eric Evans' original DDD (@Evans:2003), but featured even more prominently later in "Implementing Domain-Driven Design" by Vaughn Vernon (@Vernon:2013).
 
-Usage of the pattern names and presence of context maps, either drawn informally or modelled in a tool, indicate use.
+Usage of the pattern names and presence of context maps, either drawn informally or modeled in a tool, indicate use.
 
 ### Related Content
 

@@ -40,7 +40,7 @@ The following figure suggests a three-step approach:
 ### Instructions (Synopsis, Definition)
 *Select and apply a taxonomy consistently.* There are many different NFRs, Quality Attributes (QAs) in particular. Many of these pertain to the runtime, others deal with software support and maintenance. Therefore, many attempts have been made to organize the QA landscape (ordered from informal and ad hoc to formal and complete): <!-- POINT post has D-O-M -->
 
-* A basic, easy-to-remember *FURPS+* classification was originally introduced by R. Grady in the 1990s according to [this article by P. Eeles](https://www.ibm.com/developerworks/rational/library/4706.html) that introduces the elements of FURPS+ and provides examples.
+* A basic, easy-to-remember *FURPS+* classification was originally introduced by Robert Grady in the 1990s according to [this article by Peter Eeles](https://www.researchgate.net/publication/329760910_Capturing_Architectural_Requirements) that introduces the elements of FURPS+ and provides examples.
 * ISO 9126 and its successor [ISO 25010](http://iso25000.com/index.php/en/iso-25000-standards/iso-25010) are used in ["Effektive Softarearchitekturen"](https://www.gernotstarke.de/buecher#2020) (@Starke:2015) and also recommended to be used in [arc42](https://arc42.org/overview/) descriptions.
 * SEI quality utility trees are recommended in [this article](http://arnon.me/2010/05/utility-trees-hatching-quality-attributes/) by Arnon Rotem-Gal-Oz as well as [arc42 tip 10-2](http://docs.arc42.org/tips/10-2/). 
 
@@ -94,7 +94,7 @@ An example and a counter example are:
 
 *Question*: Which of the above is SMARTer than the other?
 
-In a telecommunications order management system, requirements that deal with external and internal quality properties may be: <!-- bibtex OOPSLA 2005 PR? -->>
+In a telecommunications order management system, requirements that deal with external and internal quality properties may be: <!-- bibtex OOPSLA 2005 PR? -->
 
 * *Accuracy*: orders must not be lost, resource reservations must be undone.
 * *Efficiency* (here: performance): sub-second response times specified.
@@ -113,7 +113,7 @@ The more a system fails, the less it is available; the longer it takes to repair
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
-See ["A risk-based, value-oriented approach to quality requirements"](https://www.zora.uzh.ch/id/eprint/7375/) by M. Glinz for guidelines when to invest in deep and SMART NFR elicitation, and when not to.
+See ["A risk-based, value-oriented approach to quality requirements"](https://www.zora.uzh.ch/id/eprint/7375/) by Martin Glinz for guidelines when to invest in deep and SMART NFR elicitation, and when not to.
 
 
 ### Hints and Pitfalls to Avoid

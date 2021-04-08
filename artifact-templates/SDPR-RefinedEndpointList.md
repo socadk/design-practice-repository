@@ -3,7 +3,7 @@ Scope: Remote service layer of backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect, Web Developer
 Activities: Stepwise/Incremental Service Design (Contract First), Step 5
-Abstraction/Refinement Level: technology-agnostic, platform-independent
+Abstraction/Refinement Level: Technology-agnostic, platform-independent
 ---
 
 
@@ -27,7 +27,7 @@ A Refined Endpoint List (REL) is produced in Step 5 in [Stepwise Service Design]
 
 <!-- * Step 5 of the EXPOSE technique -->
 
-Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) includes "Reconcile Magic Strings" as Step 3 and "Select a Media Type" as Step 4 (@Amundsen:2020); REL creation and population roughly corresponds to these two steps. The REL corresponds to the "updated API goal canvas that Arnaud Lauret proposes in Chapter 2 of "The Design of Web APIs" (@Lauret:2019).
+Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) includes "Reconcile Magic Strings" as Step 3 and "Select a Media Type" as Step 4 (@Amundsen:2020); REL creation and population roughly corresponds to these two steps. The REL corresponds to the "updated API goal canvas" that Arnaud Lauret proposes in Chapter 2 of "The Design of Web APIs" (@Lauret:2019).
 
 
 ### Template Structure and Notation(s)
@@ -75,11 +75,11 @@ For each API endpoint in such list, specify its responsibilities and signature o
     * [Application-Level Semantic Profiles (ALPS)](https://tools.ietf.org/html/draft-amundsen-richardson-foster-alps-03)? [JSON-LD](https://json-ld.org/) + Hydra? [Microformats](http://microformats.org/)?
 * Security design (CIA) decisions (details out of scope here)
 
-Make these decisions with an API-wide scope or decide separately per endpoint/per operation if the [non-functional requirements](DPR-SMART-NFR-Elicitation.md) require such differentiation. Update your [architecture modeling](DPR-ArchitectureModeling.md) artifacts from previous steps accordingly.
+Decide with an API-wide scope or decide separately per endpoint/per operation if the [Non-Functional Requirements](DPR-SMART-NFR-Elicitation.md) require such differentiation. Update your [Architecture Modeling](DPR-ArchitectureModeling.md) artifacts from previous steps accordingly.
 
 ### Example(s)
 
-This example of a REL continues and details the example given in the [Candidate Endpoint List](SDPR-CandidateEndpointList.md) artifact:
+This example of a REL continues and details the example given in the [Candidate Endpoint List (CEL)](SDPR-CandidateEndpointList.md) artifact:
 
 | Endpoint | Operation (HTTP verb) | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
 |----------|-------------|------------------------------|---------------------------------------|-------|
@@ -90,7 +90,7 @@ This example of a REL continues and details the example given in the [Candidate 
 
 <!-- TODO (v2) SSD step 5 has more, for instance provider/backend mapping -->
 
-Note that one could use a structure that deviates from the template. This is ok according to our second rule of method adoption "do not follow templates blindly, but adopt them to your needs".
+Note that one could use a structure that deviates from the template. This is ok according to our second rule of method adoption: "do not follow templates blindly, but adopt them to your needs".
 
 <!-- TODO Decision making examples missing here, see activity and tutorial 1 (?) -->
 
@@ -107,24 +107,24 @@ A few examples of tools include:
 ### Hints and Pitfalls to Avoid
 
 * Do not mechanically turn all application domain (micro-)layer artifacts such as Domain-Driven Design (DDD) pattern instances or facades into (micro-)services, but follow a recognized or homegrown identification method. For instance, the DDD *Bounded Context* is seen to form an upper boundary for microservice size, while *Aggregates* serve as lower boundary. <!-- TODO ICSA 2021 paper, EP21 paper -->
-* Reuse already modelled data representation elements if possible (for instance, consider microformats or schema.org).
-* Prioritize the nonfunctional requirements as many of them conflict with each other. Define a [Service Level Agreement](SDPR-ServiceLevelAgreement.md) with at least one service level objective per operation (or endpoint). 
-* Specify at least one API test case per user story and API operation. Evaluate whether your API design and implementation can benefit from [Test-Driven Development (TDD)](https://www.agilealliance.org/glossary/tdd/) and [Behavior-Driven Development (BDD)](https://dannorth.net/introducing-bdd/) and supporting tools such as [Cucumber](https://cucumber.io/). 
+* Reuse already modeled data representation elements if possible (for instance, consider microformats or schema.org).
+* Prioritize the non-functional requirements as many of them conflict with each other. Define a [Service Level Agreement (SLA)](SDPR-ServiceLevelAgreement.md) with at least one service level objective per operation (or endpoint). 
+* Specify at least one API test case per [User Story](DPR-UserStory.md) and API operation. Evaluate whether your API design and implementation can benefit from [Test-Driven Development (TDD)](https://www.agilealliance.org/glossary/tdd/) and [Behavior-Driven Development (BDD)](https://dannorth.net/introducing-bdd/) and supporting tools such as [Cucumber](https://cucumber.io/). 
 
 <!-- From JUG 2019 slide (is there a newer version?) -->
 
-The book "Implementing Domain-Driven Design" by V. Vernon provides the following more platform- and technology-specific advice (enhanced with insights from and blog posts and presentations):
+The book "Implementing Domain-Driven Design" by Vaughn Vernon (@Vernon:2013) provides the following more platform- and technology-specific advice (enhanced with insights from blog posts and presentations):
 
 * Avoid 1:1 pass-through between layers (in particular, interface layer and application/domain layer). <!-- note that https://www.ibm.com/garage/method/practices/code/domain-driven-design seems to contradict this hint at least to some extent -->
-* When Bounded Contexts (BCs) are realized by API providers, one service API and IDE project for each team/system Bounded Context (a.k.a. microservice) should be foreseen.
+* When Bounded Contexts are realized by API providers, one service API and IDE project for each team/system Bounded Context (a.k.a. microservice) should be foreseen.
 * Aggregates supply API resources (or responsibilities) of service endpoints.
 * DDD (application) services may be exposed as top-level (home) resources in Bounded Context endpoints as well.
 * The Root Entity (also known as Aggregate Root), the Repository, and the Factory in an Aggregate suggest top-level resources; contained entities yield sub-resources. The [MDSL generator in Context Mapper](https://contextmapper.org/docs/mdsl/) implements this mapping.
 * Repository lookups become paginated queries (GET with search parameters).
 
-Additional rules of thumb regarding the transition from DDD to API design (drawn from our experience and additional sources) are:
+Additional rules of thumb regarding the transition from DDD (@Evans:2003) to API design (drawn from our experience and additional sources) are:
 
-* Master data and transactional data go to different bounded contexts/aggregates and, in turn, endpoints.
+* Master data and transactional data go to different Bounded Contexts/Aggregates and, in turn, endpoints.
 * Creation requests to Factories become POSTs.
 * Entity modifiers become PUTs or PATCHes.
 * Value Objects appear in the custom MIME types representing resources.
@@ -161,7 +161,7 @@ Usage of the above list and table formats is a sign of use.
 ```yaml
 title: "Design Practice Repository (DPR): Refined Endpoint List (REL)"
 author: Olaf Zimmermann (ZIO)
-date: "02, 02, 2021 (Source: Project DD-DSE)"
+date: "04, 08, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

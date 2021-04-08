@@ -56,7 +56,7 @@ A wide range of notations and tools to support these and other modeling tasks ex
 Popular viewpoint models are:
 
 * Philippe Kruchten's [4+1 views on software architecture](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
-* The [viewpoints and perspectives proposed by N. Rozanski and E. Woods](https://www.viewpoints-and-perspectives.info/home/viewpoints/) (@RozanskiWoods:2005)
+* The [viewpoints and perspectives proposed by Nick Rozanski and Eoin Woods](https://www.viewpoints-and-perspectives.info/home/viewpoints/) (@RozanskiWoods:2005)
 * Having started with a "less is more" (and anti-UML message), the [C4 Model](../artifact-templates/futureWork/DPR-C4Model.md) has now evolved into a rather comprehensive set of diagrams supported by the [Structurizr](https://structurizr.com/) library and online tool. 
 
 

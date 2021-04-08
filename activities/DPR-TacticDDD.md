@@ -135,7 +135,7 @@ DDD has been around, in active use on real-world projects, and supported by a co
 
 Tactic DDD was introduced in Eric Evans' book on DDD (@Evans:2003), but featured even more deeply later in "Implementing Domain-Driven Design" by Vaughn Vernon (@Vernon:2013). 
 
-Usage of the pattern names and presence of [Domain Model](../artifact-templates/DPR-DomainModel.md), either drawn informally or modelled in a UML tool or DSL, indicate use.
+Usage of the pattern names and presence of [Domain Model](../artifact-templates/DPR-DomainModel.md), either drawn informally or modeled in a UML tool or DSL, indicate use.
 
 
 ### Related Content

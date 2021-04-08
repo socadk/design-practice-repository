@@ -3,7 +3,7 @@ Scope: Remote service layer of backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect 
 Activities: Stepwise/Incremental Service Design (Contract First), Step 4
-Abstraction/Refinement Level: technology-agnostic, platform-independent
+Abstraction/Refinement Level: Technology-agnostic, platform-independent
 ---
 
 
@@ -18,7 +18,7 @@ also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, R
 
 Let us articulate the need for this artifact in question form: 
 
-How can an initial, draft set of API capabilities (i.e., responsibilities, collaborations) be compiled as these capabilities are identified in new requirements, design artifacts and descriptions of existing systems (for instance, domain-driven designs, user interface mockups, integration stories)?
+How can an initial, draft set of API capabilities (i.e., responsibilities, collaborations) be compiled as these capabilities are identified in new requirements, design artifacts, and descriptions of existing systems (for instance, domain-driven designs, user interface mockups, integration stories)?
 
 
 ### Usage (Produced and Consumed When)
@@ -66,7 +66,7 @@ A CEL identifying the API design and frontend-backend integration needs derived 
 
 
 ### Tools
-Any plain text or Markdown editor, wikis, presentation tools and even spreadsheets can be used to create and populate CEL tables, as long as they provide some support for table editing.
+Any plain text or Markdown editor, wikis, presentation tools (and even spreadsheets) can be used to create and populate CEL tables, as long as they provide some support for table editing.
 
 
 ### Hints and Pitfalls to Avoid
