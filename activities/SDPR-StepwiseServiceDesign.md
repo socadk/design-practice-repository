@@ -44,7 +44,6 @@ There is no single path to APIs and service endpoints of quality and style. When
 
 ![Service Design Workflow: Seven Steps from Analysis to Design, Realization, Evolution](./images/SDPR-SevenServiceDesignSteps.png)
 
-
 <!-- miro (iframe): 
 <iframe width="640" height="360" src="https://miro.com/app/embed/o9J_ko6VkCM=/?" frameborder="0" scrolling="no" allowfullscreen></iframe>
 -->
