@@ -57,7 +57,7 @@ TODO
 TODO
 
 
-### Related Practices, Artifacts Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 <!-- in DPR/OLAF and elsewhere -->
 
 
