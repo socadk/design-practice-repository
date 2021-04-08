@@ -57,7 +57,7 @@ TODO
 Chapter 13 in @Lauret:2019 features questions to ask and a review checklist.
 
 
-### Related Artifacts and Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 <!-- in DPR/OLAF and elsewhere -->
 
 

@@ -65,11 +65,12 @@ The emerging [Microservice Domain-Specific Language](https://microservice-api-pa
 The pattern text on the MAP website collects additional ["known uses"](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:KnownUses).
 
 
-### Related Artifacts and Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 SLAs are often part of an [API Description](SDPR-APIDescription.md), or complement technical service contracts. 
 
 Terms and Conditions (Ts&Cs) documents of API use are less formal, but similar in their goals. Ts&Cs and SLAs may be used together and can then complement and cross-reference each other. 
 
+<!-- TODO cite SRE book again? -->
 
 ### More Information
 The DPR activity [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md) talks about SLAs in Step 6.

@@ -51,7 +51,7 @@ The following domain model for Tactic DDD gives an overview of the patterns in i
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together.[^1] Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity.
 
-[^1]: In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), S. Millet and S. Knight define Aggregate like this: "A single object graph may closely relate to the real domain, but it does not make for an effective model. Treating the model as a single consistency boundary in a collaborative domain can lead to conflict for changes that are completely unrelated. [...] Therefore: Decompose large objects structures into smaller objects groupings called aggregates which are based around invariants (business rules). An aggregate is a unit of consistency ensuring transactional boundaries are set at the right level of granularity to ensure a usable application by avoiding blocking at the database level."
+[^1]: In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), Scott Millet and Samuel Knight define Aggregate like this: "A single object graph may closely relate to the real domain, but it does not make for an effective model. Treating the model as a single consistency boundary in a collaborative domain can lead to conflict for changes that are completely unrelated. [...] Therefore: Decompose large objects structures into smaller objects groupings called aggregates which are based around invariants (business rules). An aggregate is a unit of consistency ensuring transactional boundaries are set at the right level of granularity to ensure a usable application by avoiding blocking at the database level."
 
 The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (i.e., the root entities in an Aggregate):
 
@@ -105,7 +105,7 @@ The main Aggregate of the Cargo sample application is shown in the following fig
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
-According to M. Fowler in @Fowler:2002, investing in a [Domain Model](../artifact-templates/DPR-DomainModel.md) makes sense if the business logic is inherently complex. 
+According to Martin Fowler in @Fowler:2002, investing in a [Domain Model](../artifact-templates/DPR-DomainModel.md) makes sense if the business logic is inherently complex. 
 
 We would argue that there hardly is any system that is simple enough not to benefit from domain modeling in general and Tactic DDD in particular.
 
@@ -135,15 +135,10 @@ DDD has been around, in active use on real-world projects, and supported by a co
 
 Tactic DDD was introduced in Eric Evans' book on DDD (@Evans:2003), but featured even more deeply later in "Implementing Domain-Driven Design" by Vaughn Vernon (@Vernon:2013). 
 
-Usage of the pattern names and presence of [Domain Model](../artifact-templates/DPR-DomainModel.md), either drawn informally or modelled in a UML tool or DSL, indicate use.
+Usage of the pattern names and presence of [Domain Model](../artifact-templates/DPR-DomainModel.md), either drawn informally or modeled in a UML tool or DSL, indicate use.
 
 
 ### Related Content
-
-* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
-* [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
-* [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
-* [Domain Model](../artifact-templates/DPR-DomainModel.md)
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
@@ -151,9 +146,14 @@ Usage of the pattern names and presence of [Domain Model](../artifact-templates/
 * Application architects 
 * Any team member designing and developing
 
+* [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md) provide input, possibly going through [Story Splitting](DPR-StorySplitting.md). 
+* [Domain Model](../artifact-templates/DPR-DomainModel.md)
+
 
 #### Practices and Techniques (Refinements, Guides)
 
+* [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
+* [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
 * [Event Storming](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html) is a complementary technique that can help identify an initial set of Aggregates, Entities, Commands, Events and other design elements (to be refactored and refined in further tactic DDD). 
 * The [DDD Whirlpool](https://domainlanguage.com/ddd/whirlpool/) by Eric Evans is frequently mentioned. 
 * [Story Mapping](https://www.agilealliance.org/glossary/storymap/) <!-- by J. Patton --> and [Story Splitting](https://www.agilealliance.org/glossary/split/) may assist with DDD pattern identification (among other things).

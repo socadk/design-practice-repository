@@ -21,6 +21,8 @@ So use cases and use case models help determine the system boundary, which in tu
 ### Usage (Produced and Consumed When)
 Use cases are elicited during requirements engineering (analysis) on a project. They can be derived from early [User Stories](DPR-UserStory.md), but also be used alternatively; different levels of elaboration have been proposed. Both use cases and user stories provide input for [User Interface Mocking](../activities/DPR-UserInterfaceMocking.md) and architecture design work.
 
+<!-- TODO mention [Story Splitting](../activities/DPR-StorySplitting.md) already here? -->
+
 ### Template Structure
 No single standardized template for use cases exist. At a bare minimum, a use case comprises:
 

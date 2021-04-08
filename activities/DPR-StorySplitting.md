@@ -110,8 +110,8 @@ Signs of use are difficult to call out for this activity. Backlog size and struc
 
 Roles: 
 
-* Application architect
-* API product owner
+* [Application Architect](../roles/DPR-ApplicationArchitectRole.md)
+* [API Product Owner](../roles/SDPR-APIProductOwner.md))
 * Agile developers
 
 Artifacts: 

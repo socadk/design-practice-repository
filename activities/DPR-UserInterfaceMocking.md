@@ -68,18 +68,11 @@ Mockups should be easy to spot if the above advice to keep it rough is followed;
 
 
 ### Related Content
-Input for your design will come from [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md).
-
 
 #### Performing Roles and Related Artifacts (Synopsis)
 Typically user experience specialist, designer, developer; anyone can do it!
 
-<!--
-|**Role**| Input | Output | Comments |
-|:-|:-----:|:------:|:--------:|
-|  |  |  |  |
--->
-
+Input for your design will come from [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md). <!-- TODO which artifacts come out if this? -->
 
 #### Practices and Techniques (Refinements, Guides)
 User interface mockups can be done with pen and paper and of course with any general purpose graphics software. Specialized tools also exist, here is a non-exhaustive list:

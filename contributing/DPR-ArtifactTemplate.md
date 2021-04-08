@@ -22,7 +22,7 @@ TODO
 
 
 ### Usage (Produced and Consumed When)
-<!-- AA/AS/AE, must identify the producing role and the target audience -->
+<!-- AA/AS/AE, must identify the producing role and the target audience; specify activity too -->
 TODO 
 
 
@@ -57,7 +57,7 @@ TODO
 TODO
 
 
-### Related Artifacts and Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 <!-- in DPR/OLAF and elsewhere -->
 
 

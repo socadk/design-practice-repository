@@ -40,9 +40,9 @@ The following figure suggests a three-step approach:
 ### Instructions (Synopsis, Definition)
 *Select and apply a taxonomy consistently.* There are many different NFRs, Quality Attributes (QAs) in particular. Many of these pertain to the runtime, others deal with software support and maintenance. Therefore, many attempts have been made to organize the QA landscape (ordered from informal and ad hoc to formal and complete): <!-- POINT post has D-O-M -->
 
-* A basic, easy-to-remember *FURPS+* classification was originally introduced by R. Grady in the 1990s according to [this article by P. Eeles](https://www.ibm.com/developerworks/rational/library/4706.html) that introduces the elements of FURPS+ and provides examples.
+* A basic, easy-to-remember *FURPS+* classification was originally introduced by Robert Grady in the 1990s according to [this article by Peter Eeles](https://www.researchgate.net/publication/329760910_Capturing_Architectural_Requirements) that introduces the elements of FURPS+ and provides examples.
 * ISO 9126 and its successor [ISO 25010](http://iso25000.com/index.php/en/iso-25000-standards/iso-25010) are used in ["Effektive Softarearchitekturen"](https://www.gernotstarke.de/buecher#2020) (@Starke:2015) and also recommended to be used in [arc42](https://arc42.org/overview/) descriptions.
-* SEI quality utility trees are recommended in [this article](http://arnon.me/2010/05/utility-trees-hatching-quality-attributes/) by A. Rotem-Gal-Oz as well as [arc42 tip 10-2](http://docs.arc42.org/tips/10-2/). 
+* SEI quality utility trees are recommended in [this article](http://arnon.me/2010/05/utility-trees-hatching-quality-attributes/) by Arnon Rotem-Gal-Oz as well as [arc42 tip 10-2](http://docs.arc42.org/tips/10-2/). 
 
 *Be SMART*. General [*SMART criteria*](https://en.wikipedia.org/wiki/SMART_criteria) are frequently used in project and people management. All five letters can have different meanings<!--(is this an instance of "semantic diffusion"?-->; here, we use these meanings: *S* for specific, *M* for measurable, *A* for agreed upon, *R* for realistic, and *T* for time-bound.
 
@@ -94,7 +94,7 @@ An example and a counter example are:
 
 *Question*: Which of the above is SMARTer than the other?
 
-In a telecommunications order management system, requirements that deal with external and internal quality properties may be: <!-- bibtex OOPSLA 2005 PR? -->>
+In a telecommunications order management system, requirements that deal with external and internal quality properties may be: <!-- bibtex OOPSLA 2005 PR? -->
 
 * *Accuracy*: orders must not be lost, resource reservations must be undone.
 * *Efficiency* (here: performance): sub-second response times specified.
@@ -113,7 +113,7 @@ The more a system fails, the less it is available; the longer it takes to repair
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
-See ["A risk-based, value-oriented approach to quality requirements"](https://www.zora.uzh.ch/id/eprint/7375/) by M. Glinz for guidelines when to invest in deep and SMART NFR elicitation, and when not to.
+See ["A risk-based, value-oriented approach to quality requirements"](https://www.zora.uzh.ch/id/eprint/7375/) by Martin Glinz for guidelines when to invest in deep and SMART NFR elicitation, and when not to.
 
 
 ### Hints and Pitfalls to Avoid
@@ -139,18 +139,17 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
-* [Application Architect](../roles/DPR-ApplicationArchitectRole.md) and other decision makers
+[Application Architect](../roles/DPR-ApplicationArchitectRole.md) and other decision makers produce NFR specifications, for instance Quality Attribute Scenarios (QAS) (@Bass:2012). QAS make the NFR specification smart and measurable (but also a bit repetitive); utility trees can help with prioritization (by business value and technical risk)
 
 
 #### Practices and Techniques (Refinements, Guides)
 
-* Quality Attribute Scenarios (QAS) (@Bass:2012) make the NFR specification smart and measurable (but also a bit repetitive); utility trees can help with prioritization (by business value and technical risk).
 * [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) (@Barbacci:2002). Michael Keeling introduces them <!-- as activity 7 in his Architect's Toolbox in --> in his book ["Design It"](https://pragprog.com/titles/mkdsa/design-it/) and his 2015 IEEE Software Insights column ["Lightweight and Flexible"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7093052).
-* [Quality storming](https://speakerdeck.com/mploed/quality-storming) by Michael Ploed
+* [Quality Storming](https://speakerdeck.com/mploed/quality-storming) by Michael Ploed
 
 
 ### More Information 
-See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by C. Pautasso and O. Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.
+See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by Cesare Pautasso and Olaf Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.
 
 arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/), and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/). The Scaled Agile Framework (SAFe) also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/). 
 
