@@ -96,7 +96,7 @@ The [Known Uses](https://microservice-api-patterns.org/patterns/foundation/APIDe
 ### More Information
 
 * ["APIs should get to the POINT"](https://medium.com/olzzio/apis-should-get-to-the-point-c79113efa31c) proposes five principles for API design, summarized as POINT: purposeful, style-oriented, isolated, channel-neutral, and T-shaped
-* [APIs.guru](APIs.guru) aims at creating "the most comprehensive, standards-compliant and up-to-date directory of machine-readable API definitions" [here](https://github.com/APIs-guru/openapi-directory).
+* [APIs.guru](https://apis.guru) aims at creating "the most comprehensive, standards-compliant and up-to-date directory of machine-readable API definitions" [here](https://github.com/APIs-guru/openapi-directory).
 * The [Programmable Web](https://www.programmableweb.com/) also lists countless APIs and contract information (not all entries seem to be up to date).
 
 
