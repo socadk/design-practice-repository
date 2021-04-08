@@ -6,7 +6,7 @@ Activities: Object-oriented analysis and design, tactic DDD
 Abstraction/Refinement Level: multiple 
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
@@ -24,8 +24,11 @@ In the context of [stepwise API and service design](../activities/SDPR-StepwiseS
 ### Usage (Produced and Consumed When)
 Depending on the maturity of the design and the phase/stage of the project, domain models can be very minimal and only feature business concepts as classes and relationships. More elaborate domain models might include behavior in the form of method names or even complete method signatures and data attributes, domain events and business rules (constraints, invariants).
 
+<!-- TODO mention [Tactic DDD](../activities/DPR-TacticDDD.md) already here? -->
+
 Domain models are usually created early in the project and are refined continuously throughout the project. They complement and glue requirements specifications and architectural models.
 
+<!-- TODO say some more about consuming activities, depending on level OOA vs. OOD (high/low level): data(base) modeling (consistency; cardinalities, directions or relations!), API design, rapid prototyping (e.g., with JHipster), security design/architecture (SPI classification, threats); "content release IPR form" (?) -->
 
 ### Template Structure and Notation(s)
 Martin Fowler distinguishes between *simple* domain models, that "look very much like the database design" and *rich* domain models, which use "inheritance, strategies, and other @Gamma:1995 patterns, and complex webs of small interconnected objects" (@Fowler:2002). UML class diagrams are the most commonly used notation for domain models. 

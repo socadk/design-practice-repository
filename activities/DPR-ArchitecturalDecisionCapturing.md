@@ -7,7 +7,7 @@ Output: "Decision log with ADRs"
 Abstraction/Refinement Level: Technology-, platform-independent
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
 <!--
@@ -88,25 +88,29 @@ See InfoQ/IEEE Software article ["Sustainable Architectural Design Decisions"](h
 ### Origins and Signs of Use
 *Origins*. AD capturing has been a key element in iterative and incremental SE methods such as (R)UP and IBM UMF (and its predecessors) since the late 1990s. For instance, OpenUP has the notion of an *Architecture Notebook* that calls for decision capturing with a justification as a mandatory element even in minimal project  documentation. The term *rationale* also appears in one of the first articles that defined software architecture (by Perry/Woolf). Book authors have always seen decisions to take center stage in architecture design process; see, for instance, works by SEI authors including Attribute-Driven Design (ADD) 3.0, but also patterns books and supporting material such as [this rambling](http://www.enterpriseintegrationpatterns.com/ramblings/86_isthisarchitecture.html) on the Enterprise Integration Patterns website. George Fairbanks suggests a single-sentence decision outcome overview as part of his *Architecture Haiku*, also used by Michael Keeling [here](https://www.neverletdown.net/2015/03/architecture-haiku.html).
 
-Around 2014, research sub-community jumped on the topic at conferences such as WICSA and workshops such as SHARK. Decision rationale also is a mandatory element in the [ISO/IEC/IEEE 42010:2011, Systems and software engineering – Architecture description](http://www.iso-architecture.org/ieee-1471/). The lean and agile communities talk about deferring decisions until the last (but not the least) responsible moment; for instance, M. Nygard [suggested the ADR format in November 2011](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). Many organizations and teams design their own templates, some of which are based on those in the literature; others are custom made, applying common sense and practices from other fields. 
+Around 2014, research sub-community jumped on the topic at conferences such as WICSA and workshops such as SHARK. Decision rationale also is a mandatory element in the [ISO/IEC/IEEE 42010:2011, Systems and software engineering – Architecture description](http://www.iso-architecture.org/ieee-1471/). The lean and agile communities talk about deferring decisions until the last (but not the least) responsible moment; for instance, Michael Nygard [suggested the ADR format in November 2011](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). Many organizations and teams design their own templates, some of which are based on those in the literature; others are custom made, applying common sense and practices from other fields. 
 
 See the blog post["Architectural Decisions — The Making Of"](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) for more history and context information.  
 
 *Signs of Use*. Filled out templates obviously indicate that decisions are made and captured explicitly. But informal justifications, for instance in the form of "we did this ... because ..." also qualify. 
 
 
-### Related Content (in DPR) 
+### Related Content
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
+Involved roles:
+
 * Enterprise architects, program/portfolio architects  
 * Agile teams 
-
 * [Application Architect](../roles/DPR-ApplicationArchitectRole.md) 
+
+Produced artifact: 
+
 * [Decision Log with ADRs](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)
 
 
-#### Other Practices (Alternatives)
+#### Other Practices (Alternatives) 
 There are no alternatives, really. The emergent architecture community suggests not to make ADs consciously, but let the architecture emerge and evolve through frequent iterations including intense refactoring supported by measurements/experiments. 
 
 The Agile Alliance lists a [Quick Design](https://www.agilealliance.org/glossary/quickdesign/) practice in its [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/). The outcome of such quick design sessions can be captured as an ADR in the decision log.
@@ -123,7 +127,7 @@ The [adr organization at GitHub](https://adr.github.io/) also compiles AD templa
 
 See this [SATURN 2013 BoF session report](http://www.sei.cmu.edu/library/assets/presentations/zimmermann-saturn2013.pdf) for a cost-benefit discussion and open research questions.
 
-Finally, there is a proposed for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html).
+Finally, there is a proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html).
 
 
 ### Data Provenance 

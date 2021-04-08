@@ -7,7 +7,7 @@ Output: Context Map
 Abstraction/Refinement Level: Conceptual 
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
 <!-- Word budget: 1000-1500 (3-5 A4 pages); the practice descriptions should be readable in 5 to 10 minutes (expert vs. novice reader) -->
@@ -58,14 +58,16 @@ The original DDD book by Eric Evans defined an initial set of relations between 
 
 Summaries of the patterns from the original DDD book as well as the extensions are available for free download in the book ["Domain-Driven Design Reference"](http://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), also by Eric Evans. For instance, Partnership is defined as: "Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release". An additional relation is *Separate Ways*, expressing that it has been decided not to collaborate and/or integrate two Bounded Contexts.
 
-Note: These relationship types are organizational patterns, first and foremost (not technical ones). That said, they can serve as input for design work, differing with respect to the following design concerns: 
+*Note:* These relationship types are organizational patterns, first and foremost (not technical ones). 
+
+The relationship types still can serve as input for design work, differing with respect to the following design concerns: 
 
 * Symmetric or asymmetric relationship?
 * Topology: local vs. remote interface? 
 * Visibility (of collaboration/communication partners to each other)?  
 * Amount of control and influence for downstream client/consumer on upstream supplier/provider?
 
-*Note:* The relationship types do not exclude, but complement each other by default. 
+Note that the relationship types do not exclude, but complement each other by default. 
 
 Strategic DDD identifies Bounded Contexts and then answers these questions to end up at the right pattern for any given relationship. [Context Mapper](https://contextmapper.org/docs/bounded-context/) can help doing so; it features DDD patterns and enforces additional semantic validation rules. The resulting [Context Maps](../artifact-templates/DPR-StrategicDDDContextMap.md) can drive the architectural decision making in API design. Follow-on decisions then pertain the integration style and technology.
 
@@ -89,13 +91,9 @@ An [OOSPLA 2006 experience report](https://dddcommunity.org/wp-content/uploads/f
 ### Origins and Signs of Use
 Strategic DDD was introduced in Eric Evans' original DDD (@Evans:2003), but featured even more prominently later in "Implementing Domain-Driven Design" by Vaughn Vernon (@Vernon:2013).
 
-Usage of the pattern names and presence of context maps, either drawn informally or modelled in a tool, indicate use.
+Usage of the pattern names and presence of context maps, either drawn informally or modeled in a tool, indicate use.
 
-<!-- TODO this section does not seem to be used/populated consistently yet -->
 ### Related Content
-
-* [Tactic DDD](./DPR-TacticDDD.md)
-* [Stepwise Service Design](./SDPR-StepwiseServiceDesign.md) 
 
 ### Performing Roles and Related Artifacts (Synopsis)
 
@@ -108,6 +106,8 @@ Usage of the pattern names and presence of context maps, either drawn informally
 
 ### Practices and Techniques (Refinements, Guides)
 
+* [Tactic DDD](./DPR-TacticDDD.md)
+* [Stepwise Service Design](./SDPR-StepwiseServiceDesign.md) 
 * Event Storming, introduced [here](https://www.ibm.com/cloud/architecture/architecture/practices/event-storming-methodology-architecture) and tool-supported as described [here](https://contextmapper.org/docs/event-storming/).
 * Lean [Wardley Mapping](https://learnwardleymapping.com/), capturing strategic intent.
 * Enterprise Architecture Management (EAM) offerings and the Scaled Agile Framework (SAFe) may benefit from (or completened by) Strategic DDD. <!-- CE: add links -->

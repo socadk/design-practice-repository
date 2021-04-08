@@ -3,10 +3,10 @@ Scope: Remote service layer of backend
 Phases: Late analysis, early design (any iteration)
 Roles: Service Designer, Integration Architect 
 Activities: Stepwise/Incremental Service Design (Contract First), Step 4
-Abstraction/Refinement Level: technology-agnostic, platform-independent
+Abstraction/Refinement Level: Technology-agnostic, platform-independent
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
@@ -21,7 +21,7 @@ also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, R
 
 Let us articulate the need for this artifact in question form: 
 
-How can an initial, draft set of API capabilities (i.e., responsibilities, collaborations) be compiled as these capabilities are identified in new requirements, design artifacts and descriptions of existing systems (for instance, domain-driven designs, user interface mockups, integration stories)?
+How can an initial, draft set of API capabilities (i.e., responsibilities, collaborations) be compiled as these capabilities are identified in new requirements, design artifacts, and descriptions of existing systems (for instance, domain-driven designs, user interface mockups, integration stories)?
 
 
 ### Usage (Produced and Consumed When)
@@ -50,8 +50,8 @@ A simple table will suffice:
 
 ```markdown
 | Endpoint | Operation | Role/Exposed Data | 
-|----------|-----------|-----------------------------|
-|...|...|...|
+|----------|-----------|-------------------|
+|...       |...        |...                |
 ```
 
 ### Example(s)
@@ -61,7 +61,7 @@ A simple table will suffice:
 
 A CEL identifying the API design and frontend-backend integration needs derived from this story looks like this (note that HTTP verbs are already called out, which might be a little early):
 
-| Endpoint | Operation (HTTP verb)  | Role/Exposed Data | 
+| Endpoint | Operation (HTTP verb) | Role/Exposed Data | 
 |----------|-------------|-----------------------------|
 | Customer | Find (GET)  | Returns list of identifiers of customers that match some search criteria |
 |          | Read (GET)  | Returns details of one particular customer record |
@@ -69,7 +69,7 @@ A CEL identifying the API design and frontend-backend integration needs derived 
 
 
 ### Tools
-Any plain text or Markdown editor, wikis, presentation tools and even spreadsheets can be used to create and populate CEL tables, as long as they provide some support for table editing.
+Any plain text or Markdown editor, wikis, presentation tools (and even spreadsheets) can be used to create and populate CEL tables, as long as they provide some support for table editing.
 
 
 ### Hints and Pitfalls to Avoid
@@ -78,9 +78,10 @@ Taking the output of Step 3 in the [Stepwise Service Design](../activities/SDPR-
 
 1. Add one candidate API per functional partition, for instance expressed as DDD Subdomain (@Evans:2003) or Bounded Context (@Vernon:2013); optionally, also add one candidate endpoint per Entity and Service in a Subdomain and/or Aggregate in a Bounded Context.
 2. Add one candidate API per layer that crosses a physical tier boundary according to the chosen assignment of logical layers to physical tiers, also known as *client-server cuts* (@RenzelKeller:1997). For instance, add one candidate API per client application as explained/motivated in the [*Backends-for-Frontends*](https://samnewman.io/patterns/architectural/bff/) pattern. <!-- removed here: 3. Add one *candidate API client* per backend system to be integrated/required to implement the user/integration stories. -->
-3. Refactor (merge, split) to remove redundant candidate endpoint entries and achieve high cohesion (w.r.t. business-/domain-level responsibilities) within endpoints. <!--, but do not refine to API operation/call level yet. -->
-<!--
-5. Add one *candidate API* per team shown as a *Team Bounded Context (TBC)* in a DDD context map; add one *candidate endpoint* per subteam. -->
+3. Refactor (merge, split) to remove redundant candidate endpoint entries and achieve high cohesion (w.r.t. business-/domain-level responsibilities) within endpoints. 
+
+<!-- but do not refine to API operation/call level yet. -->
+<!-- 4./5. Add one *candidate API* per team shown as a *Team Bounded Context (TBC)* in a DDD context map; add one *candidate endpoint* per subteam. -->
 <!-- not sure where previous one came from; F-A-S-T? see e2e demo -->
 
 A general hint is not to hesitate to undo and revise as you learn more about the client's information needs and provider capabilities (both on CEL and REL level). 
@@ -92,7 +93,7 @@ Any design/documentation artifact in between a planning item/requirement specifi
 The CEL and REL artifacts in DPR originate from the MAP project, mining experiences in the community. Similar artifacts appear in "Build APIs You Won’t Hate" (@Sturgeon:2016) and "Design and Build Great Web APIs" (@Amundsen:2020). Chapter 2 of "The Design of Web APIs" (@Lauret:2019) features an "API Goals Canvas", which also is very similar to the CEL/REL artifacts in DPR.
 
 
-### Related Artifacts and Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 
 * [Use Cases](DPR-UseCase.md) or [User Stories](DPR-UserStory.md) as well as [User Interface Mocks](../activities/DPR-UserInterfaceMocking.md) can serve as input to CEL preparation.
 * The same holds for the [Domain Model](DPR-DomainModel.md).

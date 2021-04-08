@@ -7,7 +7,7 @@ Output: User interface mockups, wireframes
 Abstraction/Refinement Level: Multiple, from abstract/early to refined/concrete
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
 Activity/Technique: *User Interface Mocking*
@@ -33,7 +33,7 @@ The fidelity of user interfaces mockups <!-- note: "mocks" refers to the testing
 <!-- TODO turn into miro flowchart -->
 According to [Balsamiq](https://balsamiq.com/learn/articles/five-steps-to-great-wireframes/), creating a wireframe comprises the following five steps: 
 
-1. *Articulate* the scenario you are addressing. Input for this may come from [User Stories](../artifact-templates/DPR-UserStory) and/or [Use Cases](../artifact-templates/DPR-UseCase).
+1. *Articulate* the scenario you are addressing. Input for this may come from [User Stories](../artifact-templates/DPR-UserStory.md) and/or [Use Cases](../artifact-templates/DPR-UseCase.md).
 1. *Generate* a first mockup, and
 1. *Iterate* until you have a few variations for each screen.
 1. *Communicate* your results to your team and
@@ -71,18 +71,11 @@ Mockups should be easy to spot if the above advice to keep it rough is followed;
 
 
 ### Related Content
-Input for your design will come from [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md).
-
 
 #### Performing Roles and Related Artifacts (Synopsis)
 Typically user experience specialist, designer, developer; anyone can do it!
 
-<!--
-|**Role**| Input | Output | Comments |
-|:-|:-----:|:------:|:--------:|
-|  |  |  |  |
--->
-
+Input for your design will come from [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md). <!-- TODO which artifacts come out if this? -->
 
 #### Practices and Techniques (Refinements, Guides)
 User interface mockups can be done with pen and paper and of course with any general purpose graphics software. Specialized tools also exist, here is a non-exhaustive list:

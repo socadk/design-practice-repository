@@ -3,7 +3,7 @@ Category: Architecture
 Activities: SMART NFR Elicitation, Architectural Capturing, Architecture Modeling, Stepwise Service Design
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 
 Role: *Application and Integration Architect*
@@ -13,7 +13,7 @@ also known as: Coding Architect (to indicate strong connection to development)
 
 ### Persona 
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
-Archie Tekt, who first appeared in 2003 in ["Perspectives on Web services"](https://soadecisions.org/atb.htm) by O. Zimmermann, M. Tomlinson, S. Peuser, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability, and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) view model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
+Archie Tekt, who first appeared in 2003 in ["Perspectives on Web services"](https://soadecisions.org/atb.htm) by Olaf Zimmermann, Mark Tomlinson and Stefan Peuser, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability, and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) view model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
 
 Philippe Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But do not forget that architects (like all people) are different!
 
@@ -52,13 +52,20 @@ The applied practices include [Story Splitting](../activities/DPR-StorySplitting
 
 ### More Information
 
-See the guest editorial of the special theme issue of IEEE Software ["The Role of the Software Architect in the Digital Age"](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) by G. Hohpe, I. Ozkaya, U. Zdun, and O. Zimmermann for a retrospective of the field and a discussion of role vs. responsibility. 
+See the guest editorial of the special theme issue of IEEE Software ["The Role of the Software Architect in the Digital Age"](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) by Gregor Hohpe, Ipek Ozkaya, Uwe Zdun, and Olaf Zimmermann for a retrospective of the field and a discussion of role vs. responsibility. 
 
 [The Architect Elevator](https://architectelevator.com/) visits the different facets of the profession, provides tips and tricks for being successful on each level, and gives additional reading recommendations.
 
 <!-- 
+Getting Started:
+
+1) https://www.isaqb.org/de/blog/the-new-software-architecture-foundation-curriculum/
+2) tbc
+
 Experience can't be taught but has to be gained. Once you have some, read these books: 
-1) Design It! 2) Just Enough Software Architecture, 3) Software Architect Elevator 
+1) Design It! 
+2) Just Enough Software Architecture
+3) Software Architect Elevator 
 -->
 
 
@@ -67,7 +74,7 @@ Experience can't be taught but has to be gained. Once you have some, read these 
 ```yaml
 title: "Design Practice Repository (DPR): Application Architect"
 author: Olaf Zimmermann (ZIO)
-date: "02, 18, 2020 (Source: Project DD-DSE)"
+date: "04, 08, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

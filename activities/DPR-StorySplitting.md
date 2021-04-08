@@ -7,7 +7,7 @@ Output: Set of smaller user stories, domain model updates
 Abstraction/Refinement Level: n/a (requirements)
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
 Activity/Technique: *Story Splitting*
@@ -113,8 +113,8 @@ Signs of use are difficult to call out for this activity. Backlog size and struc
 
 Roles: 
 
-* Application architect
-* API product owner
+* [Application Architect](../roles/DPR-ApplicationArchitectRole.md)
+* [API Product Owner](../roles/SDPR-APIProductOwner.md))
 * Agile developers
 
 Artifacts: 

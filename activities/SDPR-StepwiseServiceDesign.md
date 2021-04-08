@@ -7,7 +7,7 @@ Output: "Service contract (with technology mapping and protocol binding), SLA"
 Abstraction/Refinement Level: Both conceptual (platform-independent) and technical (platform-specific)
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
 ## Activity/Technique: *Stepwise Service Design*
@@ -43,13 +43,15 @@ This activity includes [Domain-Driven Design (DDD)](./DPR-TacticDDD.md); other f
 There is no single path to APIs and service endpoints of quality and style. When "surfing" the Web searching for advice regarding API design and (micro-)service size (or asking the elders), one "rides" at least seven "waves" of analysis and design work (called steps from now on):  
 
 ![Service Design Workflow: Seven Steps from Analysis to Design, Realization, Evolution](./images/SDPR-SevenServiceDesignSteps.png)
+
+
 <!-- miro (iframe): 
 <iframe width="640" height="360" src="https://miro.com/app/embed/o9J_ko6VkCM=/?" frameborder="0" scrolling="no" allowfullscreen></iframe>
 -->
 
 1. *Understand the business problem as well as stakeholder wants and needs, including desired system qualities.* 
     * Before anything can be designed, we ought to know: what should be delivered (on the project, by the software), and why? Which quality properties are desired? Many workshop techniques supporting this step exist, for instance (to name just two) [event storming](https://www.eventstorming.com/) and [quality storming](https://speakerdeck.com/mploed/quality-storming).
-    * A. Lauret suggests the notion of API goals, driven by end user wants and frontend application needs, in ["The Design of Web APIs"](https://apihandyman.io/about/#my-book-the-design-of-web-apis) (@Lauret:2019). No matter which technique or template you use, elicit the Non-Functional Requirements (NFRs) in a [SMART, value- and risk-driven](DPR-SMART-NFR-Elicitation.md) way (@Fairbanks:2010).
+    * Arnaud Lauret suggests the notion of API goals, driven by end user wants and frontend application needs, in ["The Design of Web APIs"](https://apihandyman.io/about/#my-book-the-design-of-web-apis) (@Lauret:2019). No matter which technique or template you use, elicit the Non-Functional Requirements (NFRs) in a [SMART, value- and risk-driven](DPR-SMART-NFR-Elicitation.md) way (@Fairbanks:2010).
 
 2. *Model the business domain and group related capabilities*, for instance by applying [Tactic DDD](DPR-TacticDDD.md) and [Strategic DDD](DPR-StrategicDDD.md) (@Vernon:2013).
     * If "buy" or "rent" is an option (rather than "build" from scratch only), also reverse engineer the interfaces and domain models of the existing systems to be bought or rented and integrated and model them on the same level of detail as those representing the results from forward engineering.
@@ -69,7 +71,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL or gRPC; message exchange formats such as JSON and XML) and implement stubs (or an minimum viable API product).
     * Integrate and test these stubs; iterate and revise the list as needed. If the results are good enough, go ahead and *specify service contracts including protocol bindings and technology mappings* in an [API Description](../artifact-templates/SDPR-APIDescription.md) a.k.a. service contract. 
     * Optionally, establish [Service Level Agreements](../artifact-templates/SDPR-ServiceLevelAgreement.md) and [Rate Plans](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RatePlan). 
-    * Also decide on (micro-)service deployment technologies and infrastructure middleware such as [API gateways](https://microservices.io/patterns/apigateway.html), load balancers and container orchestration engines as well as cloud offerings (@Fehling:2014), again capturing your architectural decisions in the log.
+    * Also decide on (micro-)service deployment technologies and infrastructure middleware such as [API gateways](https://microservices.io/patterns/apigateway.html), load balancers, and container orchestration engines as well as cloud offerings (@Fehling:2014), again capturing your architectural decisions in the log.
     
 7. *Improve and evolve the API design* and its implementation, for instance adjust endpoint and operation numbers as well as request and response message structures to meet the desired runtime qualities (for instance, performance and scalability).
     * Apply [(micro-)service API design and evolution patterns](https://microservice-api-patterns.org/patterns/evolution/) along the way (@Daigneau:2011, @Zimmermann:2020).
@@ -80,13 +82,13 @@ In DPR, the seven top-level steps and activities are supported by one or more [*
 
 1. Functional requirements are often communicated and specified as [User Stories](../artifact-templates/DPR-UserStory.md) and/or [Use Cases](../artifact-templates/DPR-UseCase.md). 
 2. [Domain Models](../artifact-templates/DPR-DomainModel.md) on different levels of elaboration and refinement capture the results of Object-Oriented Analysis and Design (OOAD) in general and [Tactic DDD](DPR-TacticDDD.md) in particular; [Context Maps](../artifact-templates/DPR-StrategicDDDContextMap.md) result from [Strategic DDD](DPR-StrategicDDD.md).
-3. Many templates exist for [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md), which has emerged from an unwelcome but important side activity to a full-fledged practice. DPR includes [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md) that can be captured in [Markdown Architectural Decision Records](https://github.com/adr/madr) or directly in the code. Many options for visualizing/diagramming architectures exist; DPR lists a few practices, notations, and tools (and opinions) in the [Architecture Modeling](DPR-ArchitectureModeling.md) activity. Enterprise Architecture Management and frameworks such as TOGAF are out of scope of DPR at present.
+3. Many templates exist for [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md), which has emerged from an unwelcome but important side activity to a full-fledged practice. DPR includes [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md) that can be captured in [Markdown Architectural Decision Records](https://github.com/adr/madr) or directly in the code. Many options for visualizing/diagramming architectures exist; DPR lists a few practices, notations, and tools in the [Architecture Modeling](DPR-ArchitectureModeling.md) activity. Enterprise Architecture Management and frameworks such as TOGAF are out of scope of DPR at present.
 4. The [Candidate Endpoint List (CEL)](../artifact-templates/SDPR-CandidateEndpointList.md) balances flexibility and expressivity. It translates user stories/use cases and domain model elements into API requirements. <!-- Online articles, for instance by [Mike Amundsen](https://www.infoq.com/articles/web-api-design-methodology/), and an [e-book by Phil Sturgeon](https://apisyouwonthate.com/books/build-apis-you-wont-hate) provide pragmatic and tangible advice for this step. -->  
 5. The [Refined Endpoint List (REL)](../artifact-templates/SDPR-RefinedEndpointList.md) then is more precise and assertive. It can specify endpoint roles and operation responsibilities by referencing patterns, and also identify data formats and media types as well as provider implementation candidates and related decisions.
 6. Step 6 from above should be "business as usual" for agile full stack developers and integration specialists for the most part, yielding an expressive, understandable [API Description](../artifact-templates/SDPR-APIDescription.md). Both the abstract "port" level as well as technology-specific "adapter" bindings should be covered in it; both business and technical information has to be published in it. <!-- TODO (v2) write about "API TDD", jUnit, Postman, SOAPUI, Swagger tools, etc.; bring in review checklist from @Lauret:2019 (can also go to Step 7) -->
 7. Patterns from two categories in [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) are eligible here, with the [Quality Category](https://microservice-api-patterns.org/patterns/quality/) and the [Evolution Category](https://microservice-api-patterns.org/patterns/evolution/) being eligible in particular.
 
-*Note*: It cannot be emphasized enough that All these artifacts can be drafted, revised and completed iteratively and incrementally. And they should only be created if they serve a purpose in the given project context.
+*Note*: It cannot be emphasized enough that All these artifacts can be drafted, revised, and completed iteratively and incrementally. And they should only be created if they serve a purpose in the given project context.
 
 <!-- 
 The architectural refactoring activity is not documented in DPR (this repository) yet, but introduced [here (overview)](https://www.infoq.com/articles/architectural-refactoring/) and [here (more elaborate version with a draft catalog)](http://www.2015.summersoc.eu/wp-content/uploads/2015/07/2.4.ZIO-SummerSoC2015-ArcRefCloudv10p.pdf); it can be supported by tools such as [Context Mapper](https://contextmapper.org/docs/architectural-refactorings/) and [Service Cutter](https://contextmapper.org/docs/service-cutter-context-map-suggestions/).
@@ -157,6 +159,14 @@ The DDD DSL tool Context Mapper supports some of the steps with its [model trans
 
 ### Related Content
 
+#### Performing Roles and Related Artifacts (Synopsis)
+
+Roles: 
+
+* [Application Architect](../roles/DPR-ApplicationArchitectRole.md)
+* [API Product Owner](../roles/SDPR-APIProductOwner.md))
+* Agile developers
+
 Produced artifacts: 
 
 * Architectural models (taking different viewpoints) and [CRC Cards](../artifact-templates/DPR-CRCCard.md)
@@ -166,7 +176,9 @@ Produced artifacts:
 * Decision log of [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md) 
 
 
-#### Other Practices (Alternatives)
+#### Practices and Techniques (Refinements, Guides)
+
+<!-- TODO Could point at Architecture Modeling and UI Mocking here -->
 
 <!-- Taken out of final Q1-2021 release 
 **EXPOSE.** Early presentations on MAP featured six endpoint/service identification and realization steps called EXPOSE (see [this conference presentation]() 2018 seminar presentation) TODO link 
@@ -174,7 +186,7 @@ Produced artifacts:
 ![Proposal of Service Design Steps: EXPOSE](./images/MAP-EXPOSEStepsInServiceDesign.png)
 -->
 
-**Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices - unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and/or [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) are included in the architecture to decouple application and domain logic from integrations and interfaces.
+**Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations, and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices - unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and/or [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) are included in the architecture to decouple application and domain logic from integrations and interfaces.
 
 Bottom-up *code-first* API design can be combined with this top-down contract-first design activity to yield a *meet-in-the-middle* approach (note that code-first runs the risk of exposing provider-side implementation details in the API contract, which violates the information hiding principle).
 

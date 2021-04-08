@@ -6,7 +6,7 @@ Activities: Stepwise Service Design, Steps 6 and 7; code first
 Abstraction/Refinement Level: Platform-independent, platform-specific
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository)
+[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
@@ -61,7 +61,7 @@ API client HelloWorldAPIClient
 ``` 
 <!-- ~~~ -->
 
-The [Microservice Canvas](http://chrisrichardson.net/post/microservices/general/2019/02/27/microservice-canvas.html) template proposed by C. Richardson creates elaborate API Descriptions when filled out completely. The template includes implementation information, service invocation relationships, and events produced/subscribed to.
+The [Microservice Canvas](http://chrisrichardson.net/post/microservices/general/2019/02/27/microservice-canvas.html) template proposed by Chris Richardson creates elaborate API Descriptions when filled out completely. The template includes implementation information, service invocation relationships, and events produced/subscribed to.
 
 See the end-to-end service design demo ["Domain-Driven Service Design with Context Mapper and MDSL"](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for technical, platform-specific contracts generated from the platform-independent MDSL.
 
@@ -77,7 +77,7 @@ See the end-to-end service design demo ["Domain-Driven Service Design with Conte
 
 The API Description pattern text in ["Interface Evolution Patterns — Balancing Compatibility and Extensibility across Service Life Cycles"](http://eprints.cs.univie.ac.at/6082/1/WADE-EuroPlop2019Paper.pdf) (@LuebkeZimmermannEtAl) recommends:
 
-* "Define an *API product owner* that steers and leads the [architectural decision making](https://en.wikipedia.org/wiki/Architectural_decision) for API design and its implementation and decides on the service evolution strategy including versioning. A related pattern is [Open Service Ownership](http://samnewman.io/patterns/organizational/open-service-ownership/) by S. Newman.
+* "Define an *API product owner* that steers and leads the [architectural decision making](https://en.wikipedia.org/wiki/Architectural_decision) for API design and its implementation and decides on the service evolution strategy including versioning. A related pattern is [Open Service Ownership](http://samnewman.io/patterns/organizational/open-service-ownership/) by Sam Newman.
 * Define the upstream and downstream contract relationship e.g. in the form of one of the relationship types in DDD-style [Context Maps](./DPR-StrategicDDDContextMap.md), for instance open host service and customer-supplier, first described in @Evans:2003, later picked up by the microservices community, and supported in tools such as [Context Mapper](https://contextmapper.org/).
 * Consider to specify [Finite State Machines](https://en.wikipedia.org/wiki/Finite-state_machine) (FSMs) if the API causes non-trivial, possibly long-running state changes. Design the system transaction boundaries carefully; discuss and challenge whether strict or eventual consistency is needed if multiple system parts and clients work with the data that is exposed in the API (e.g., master data, transactional data)."
 
@@ -89,17 +89,17 @@ Usage of OpenAPI specifications or other platform- and technology-specific IDLs 
 
 The [Known Uses](https://microservice-api-patterns.org/patterns/foundation/APIDescription#sec:APIDescription:KnownUses) section of the API Description pattern lists many notations and tools. 
 
-### Related Artifacts and Templates (incl. Alternatives)
+### Related Artifacts and Practices (incl. Alternatives)
 
 * [Domain Model](DPR-DomainModel.md)
 * [Candidate Endpoint List (CEL)](SDPR-CandidateEndpointList.md) and [Refined Endpoint List (REL)](SDPR-RefinedEndpointList.md)
 * [Service Level Agreement](SDPR-ServiceLevelAgreement.md) (SLA)
-
+* [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md)
 
 ### More Information
 
 * ["APIs should get to the POINT"](https://medium.com/olzzio/apis-should-get-to-the-point-c79113efa31c) proposes five principles for API design, summarized as POINT: purposeful, style-oriented, isolated, channel-neutral, and T-shaped
-* [APIs.guru](APIs.guru) aims at creating "the most comprehensive, standards-compliant and up-to-date directory of machine-readable API definitions" [here](https://github.com/APIs-guru/openapi-directory).
+* [APIs.guru](https://apis.guru/) aims at creating "the most comprehensive, standards-compliant and up-to-date directory of machine-readable API definitions" [here](https://github.com/APIs-guru/openapi-directory).
 * The [Programmable Web](https://www.programmableweb.com/) also lists countless APIs and contract information (not all entries seem to be up to date).
 
 
