@@ -7,9 +7,9 @@ Abstraction/Refinement Level: All
 ---
 
 
-Artifact/Template: *Architectural Decision Record (Y-Form)*
-------------------------------------------------------------
-also known as: Y-Statement
+Artifact/Template: *Architectural Decision Record (Y-Statement)*
+----------------------------------------------------------------
+also known as: Why-Statement
 
 > *A Y-Statement captures decision context, addressed requirement(s), decision outcome, and consequences (good and bad) in a single, structured sentence.*
 

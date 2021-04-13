@@ -88,7 +88,7 @@ Story splitting is a very light technique. A single application of it (one patte
 A very welcome effect of story splitting is that it often leads to new questions to the domain experts and sparks interesting conversations with them (for instance, about workflow steps and data variations). Hence, the [Domain Model](/artifact-templates/DPR-DomainModel.md) is likely to be updated as well.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 <!-- See ART, don’t overdo etc. -->
 One should not get carried away by dreaming up data entry and data variations, business rules nobody has asked for, and so on.
 

@@ -53,7 +53,7 @@ Any tool that supports table layouts (preferably with the option to merge cells)
 Team [wikis](https://en.wikipedia.org/wiki/Wiki) or [Markdown tables](https://www.markdownguide.org/extended-syntax/) are additional options.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 To be able to serve their purpose, CRC cards should be expressive but also easy to understand:
 
