@@ -35,7 +35,7 @@ Therefore, it is desirable to establish criteria and templates that allow archit
 
 The following figure suggests a three-step approach:
 <!-- Source: https://miro.com/app/board/o9J_lN6Tr5c=/ -->
-![Stepwise ELicitation of Non-Functional Requirements (NFRs)](/activities/images/DPR-NFRElicitation.png)
+![Stepwise Elicitation of Non-Functional Requirements (NFRs)](/activities/images/DPR-NFRElicitation.png)
 
 ### Instructions (Synopsis, Definition)
 *Select and apply a taxonomy consistently.* There are many different NFRs, Quality Attributes (QAs) in particular. Many of these pertain to the runtime, others deal with software support and maintenance. Therefore, many attempts have been made to organize the QA landscape (ordered from informal and ad hoc to formal and complete): <!-- POINT post has D-O-M -->

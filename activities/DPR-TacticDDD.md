@@ -84,7 +84,7 @@ Accounting and non-repudiation
 
 The first meaning of the term is not in focus here, but can be modeled as Entity operations and services. The rules in the second meaning (constraint, invariant) can and should be enforced by DDD Aggregates.
 
-**Modeling Steps**. In tactic DDD, an already existing OOA/OOD [Domain Model](../artifact-templates/DPR-DomainModel.md) is refined to call out instances of these patterns; alternatively, the pattern-oriented [Domain Model](../artifact-templates/DPR-DomainModel.md) can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
+**Modeling Steps**. In tactic DDD, an already existing OOA/OOD [Domain Model](../artifact-templates/DPR-DomainModel.md) is refined to call out instances of these patterns; alternatively, the domain-driven design can also be distilled from the functional requirements directly (possibly via [Subdomains](https://contextmapper.org/docs/subdomain/), another DDD pattern):
 
 1. Distinguish Entities (stateful) and Value Objects (stateless), and expose cross-cutting or supporting code that does not fit into any class well as Services (can start with a [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) per user story or use case).
 2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events. 
@@ -93,7 +93,7 @@ The first meaning of the term is not in focus here, but can be modeled as Entity
 <!-- TODO miro flowchart for these steps -->
 
 ### Example(s)
-The [Context Mapper website](https://contextmapper.org/docs/examples/) provides a number of examples of Tactic and Strategic DDD, including a model of the [Cargo example](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/ddd-sample) from the original DDD book (@Evans:2003).
+The Context Mapper website provides a number of [examples of Tactic and Strategic DDD](https://contextmapper.org/docs/examples/). A model of the [Cargo example](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/ddd-sample) from the original DDD book (@Evans:2003) can be found in its examples repository.
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
@@ -101,7 +101,7 @@ The main Aggregate of the Cargo sample application is shown in the following fig
 
 <!-- png created from puml source (had to add a blank to some relationship arrows) in "models" folder -->
 
-[Context Mapper](https://contextmapper.org/), a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then Bounded Contexts (a [Strategic DDD](DPR-StrategicDDD.md) pattern) containing Aggregates, Entities, and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/) and a comprehensive [end-to-end-demo](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2) features Tactic DDD and Context Mapper in combination wither service domain-specific languages and tools.
+[Context Mapper](https://contextmapper.org/), a DSL and tools for strategic and tactic DDD, provides two model transformations that support the transition from user stories (or use cases) to subdomains and then Bounded Contexts (a [Strategic DDD](DPR-StrategicDDD.md) pattern) containing Aggregates, Entities, and Value Objects. An example is walked through [here](https://contextmapper.org/docs/rapid-ooad/) and a comprehensive [end-to-end-demo](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2) features Tactic DDD and Context Mapper in combination with service domain-specific languages and tools.
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
@@ -154,22 +154,22 @@ Usage of the pattern names and presence of [Domain Model](../artifact-templates/
 
 * [Strategic DDD](DPR-StrategicDDD.md) takes a broader view on the as-is and to-be design.
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
-* [Event Storming](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html) is a complementary technique that can help identify an initial set of Aggregates, Entities, Commands, Events and other design elements (to be refactored and refined in further tactic DDD). 
+* [Event Storming](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html) is a complementary technique that can help identify an initial set of Aggregates, Entities, Commands, Events, and other design elements (to be refactored and refined in further tactic DDD). 
 * The [DDD Whirlpool](https://domainlanguage.com/ddd/whirlpool/) by Eric Evans is frequently mentioned. 
 * [Story Mapping](https://www.agilealliance.org/glossary/storymap/) <!-- by J. Patton --> and [Story Splitting](https://www.agilealliance.org/glossary/split/) may assist with DDD pattern identification (among other things).
-* [Context Mapper](https://contextmapper.org/) tutorials and guides, for instance on [rapid OOAD](https://contextmapper.org/docs/rapid-ooad/).
+* Context Mapper tutorials and guides, for instance on [Rapid OOAD](https://contextmapper.org/docs/rapid-ooad/).
 * [Domain Story Telling](https://domainstorytelling.org/).
 
-There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) that features many business analysis-level extensions to DDD practices, for instance a [Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas) template.
+There is a GitHub organization called ["DDD Crew"](https://github.com/ddd-crew) that features many business analysis-level extensions to DDD practices, for instance a [Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas) template.
 
 
 ### More Information 
 
-* There is a free DDD reference providing pattern summaries ([PDF](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), [Word](http://domainlanguage.com/wp-content/uploads/2016/05/PatternSummariesUnderCreativeCommons.doc)) and a [DDD glossary](http://dddcommunity.org/resources/ddd_terms/) on the community website. 
-* Michael Ploed shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD ebook](https://leanpub.com/ddd-by-example) on LeanPub (@Ploed:2019). 
+* There is a free DDD reference providing pattern summaries ([PDF](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), [Word](http://domainlanguage.com/wp-content/uploads/2016/05/PatternSummariesUnderCreativeCommons.doc)) and a [DDD glossary](http://dddcommunity.org/resources/ddd_terms/) on the DDD community website. 
+* Michael Ploed shares his presentation slides on [Speaker Deck](https://speakerdeck.com/mploed) and also has a [DDD ebook](https://leanpub.com/ddd-by-example) on LeanPub (@Ploed:2019). 
 * The DDD Europe organization has published the ["Domain-Driven Design: The First 15 Years"](https://leanpub.com/ddd_first_15_years/) on LeanPub, a collection of "old and new essays" by "prominent authors in the software design world". 
 * The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity.html).
-* Consult [this Web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
+* Consult [the IFS website](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
 
 
 ### Data Provenance 

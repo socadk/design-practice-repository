@@ -28,7 +28,7 @@ Several INVESTment practices and techniques exist; one of them is story splittin
 
 > *As an agile practitioner with requirements analysis and/or project planning responsibilities, I want to split user stories to make stories and their implementation easier to plan and execute.* 
 
-Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md): 
+Switching to a different set of stakeholder concerns and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md): 
 
 > *As an application architect, I would like to split user stories to identify candidate components and API endpoints.*
 
@@ -40,7 +40,7 @@ Many (but not all) splitting patterns and techniques are equally suited for this
 
 * *Data entry* methods, for instance multiple actors/users and/or technical channels (Web, mobile app and so on)
 * *Workflow* step, from process initiation to processing activities (possibly in parallel) and data manipulations to process termination 
-* *Business rule* variations: domain decisions to be made at runtime, conditions and constraint checking
+* *Business rule* variations: domain decisions to be made at runtime, conditions, and constraint checking
 * *Data variations*: is-a relations, categorizations and classifications, domain partitioning  
 * *Operations* completion: create, read, update (full, partial), delete; search, find, archive; undo (compensation)
 * Investigation vs. implementation architectural *spike* vs. full implementation 

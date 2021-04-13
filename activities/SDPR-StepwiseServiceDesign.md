@@ -65,15 +65,15 @@ There is no single path to APIs and service endpoints of quality and style. When
     * If needed, *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. 
     * [*Refactor*](https://www.ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
 
-6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL or gRPC; message exchange formats such as JSON and XML) and implement stubs (or an minimum viable API product).
-    * Integrate and test these stubs; iterate and revise the list as needed. If the results are good enough, go ahead and *specify service contracts including protocol bindings and technology mappings* in an [API Description](../artifact-templates/SDPR-APIDescription.md) a.k.a. service contract. 
+6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or an minimum viable API product).
+    * Integrate and test these stubs; iterate and revise the list as needed. If the results are good enough, go ahead and *specify service contracts including protocol bindings and technology mappings* in an [API Description](../artifact-templates/SDPR-APIDescription.md) also known as service contract. 
     * Optionally, establish [Service Level Agreements](../artifact-templates/SDPR-ServiceLevelAgreement.md) and [Rate Plans](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RatePlan). 
     * Also decide on (micro-)service deployment technologies and infrastructure middleware such as [API gateways](https://microservices.io/patterns/apigateway.html), load balancers, and container orchestration engines as well as cloud offerings (@Fehling:2014), again capturing your architectural decisions in the log.
     
 7. *Improve and evolve the API design* and its implementation, for instance adjust endpoint and operation numbers as well as request and response message structures to meet the desired runtime qualities (for instance, performance and scalability).
     * Apply [(micro-)service API design and evolution patterns](https://microservice-api-patterns.org/patterns/evolution/) along the way (@Daigneau:2011, @Zimmermann:2020).
 
-*Note:* The seven-step sequence does not suggest sequential or one-time execution ("Big Design Upfront (BDUF)"). Whenever you learn something new in later steps, you can return to previous ones; whenever you believe you need to jump ahead to learn more about the technologies, existing systems and so on, you can and should do so. 
+*Note:* The seven-step sequence does not suggest sequential or one-time execution ("Big Design Upfront, BDUF"). Whenever you learn something new in later steps, you can return to previous ones; whenever you believe you need to jump ahead to learn more about the technologies, existing systems, and so on, you can and should do so. 
 
 In DPR, the seven top-level steps and activities are supported by one or more [*artifact templates*](../artifact-templates): 
 
@@ -100,7 +100,7 @@ For API testing, refer to:
 
 
 ### Example(s)
-Our [Tutorial 1](../tutorials/DPR-Tutorial1.md) applies the seven steps to an online shop example. 
+DPR [Tutorial 1](https://github.com/socadk/design-practice-repository/blob/master/tutorials/DPR-Tutorial1.md) applies the seven steps to an online shop example. 
 
 In the end-to-end demo for tool-supported API design and service identification ["Domain-Driven Service Design with Context Mapper and MDSL"](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an OpenAPI generator: 
 
@@ -151,7 +151,7 @@ You might want to *apply patterns* to optimize API qualities when evolving it:
 ### Origins and Signs of Use
 If [OpenAPI](https://swagger.io/specification/) specifications are provided, either contract-first or code-first API design has been practiced. Usage of DDD patterns such as *Published Language* also may indicate use.
 
-The DDD DSL tool Context Mapper supports some of the steps with its [model transformations](https://contextmapper.org/docs/rapid-ooad/), [architectural refactorings](https://contextmapper.org/docs/architectural-refactorings/) and [service contract generation](https://contextmapper.org/docs/mdsl/).
+The DDD DSL tool Context Mapper supports some of the steps with its [model transformations](https://contextmapper.org/docs/rapid-ooad/), [architectural refactorings](https://contextmapper.org/docs/architectural-refactorings/), and [service contract generation](https://contextmapper.org/docs/mdsl/).
 
 
 ### Related Content
@@ -161,7 +161,7 @@ The DDD DSL tool Context Mapper supports some of the steps with its [model trans
 Roles: 
 
 * [Application Architect](../roles/DPR-ApplicationArchitectRole.md)
-* [API Product Owner](../roles/SDPR-APIProductOwner.md))
+* [API Product Owner](../roles/SDPR-APIProductOwner.md)
 * Agile developers
 
 Produced artifacts: 
@@ -183,7 +183,7 @@ Produced artifacts:
 ![Proposal of Service Design Steps: EXPOSE](/activities/images/MAP-EXPOSEStepsInServiceDesign.png)
 -->
 
-**Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations, and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices - unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and/or [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) are included in the architecture to decouple application and domain logic from integrations and interfaces.
+**Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations, and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices &mdash; unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and/or [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) are included in the architecture to decouple application and domain logic from integrations and interfaces.
 
 Bottom-up *code-first* API design can be combined with this top-down contract-first design activity to yield a *meet-in-the-middle* approach (note that code-first runs the risk of exposing provider-side implementation details in the API contract, which violates the information hiding principle).
 
@@ -193,7 +193,7 @@ Bottom-up *code-first* API design can be combined with this top-down contract-fi
 While written with the Web and RESTful HTTP in mind, many of the existing informal "methods" (or design heuristics) can also be applied when other technologies are chosen:
 
 * Arnaud Lauret, "The Design of Web APIs" (@Lauret:2019).
-* Presentations, [blog posts](http://amundsen.com/blog/) and books by Mike Amundsen (@Amundsen:2020).
+* Presentations, [blog posts](http://amundsen.com/blog/), and books by Mike Amundsen (@Amundsen:2020).
 * Blog posts such as ["Moving to API design-first in an Agile world"](https://tyk.io/moving-api-design-first-agile-world/), ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/), and ["Techniques For Designing Your API and Microservices"](https://tyk.io/api-design-methodologies/) <!-- TODO more link(s) --> by James Higginbotham. 
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
@@ -206,7 +206,7 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 
 The SOAD project 2006 to 2009 compiled a number of architectural decisions that are required when designing service-oriented architectures. Being independent of application genre and architectural style, the meta issues in Table 2 from the SOAD paper ["Architectural Decision Identification in Architectural Patterns"](https://soadecisions.org/download/SOAD-SHARK2012v13Final.pdf) can guide the decision making in Steps 3 to 7:
 
-![Meta issues (decisions required) in service and API design](/activities/images/SOAD-MetaIssuesShark.png)
+![Meta Issues (Decisions Required) in Service and API Design](/activities/images/SOAD-MetaIssuesShark.png)
 
 Note that in microservices architectures, more options for these decisions (in transition from meta issues to actual decisions required) are available, and the decision drivers may vary too. See [this blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html) and [this article](http://rdcu.be/mJPz) for more information on microservices as an implementation approach to service-oriented architectures.
 
