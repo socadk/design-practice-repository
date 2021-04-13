@@ -18,9 +18,9 @@ A [User Story](../artifact-templates/DPR-UserStory.md) that is too large for a s
 * *Valuable:* Each story must be valuable to the customer on its own. <!-- "Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important." --> 
 * *Estimable:* The level of detail should be "just enough to help the customer rank and schedule the story's implementation."
 * *Small:* "Stories typically represent at most a few person-weeks worth of work." Some teams size their stories in such a way that they can be implemented in a single iteration.
-* *Testable:* Customer and developers should understand a story well enough so that a test for it can be written --- or is written first, as in Behavior- and Test-Driven Development (BDD, TDD).[^1]
+* *Testable:* Customer and developers should understand a story well enough so that a test for it can be written --- or is written first, as in Behavior- and Test-Driven Development (BDD, TDD).[^103]
 
-[^1]: See this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html) for a collection of these two and many more "driven" methods.
+[^103]: See this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html) for a collection of these two and many more "driven" methods.
 
 Several INVESTment practices and techniques exist; one of them is story splitting.
 

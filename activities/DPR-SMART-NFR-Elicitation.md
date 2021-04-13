@@ -104,9 +104,9 @@ In a telecommunications order management system, requirements that deal with ext
 An example of a constraint in the same scenario might be "only relational database management system X can be used because an enterprise-wide licensing agreement is in place and the required database administration skills have been built up". 
 
 *Availability* is another example of an important NFR. A system is available if it is up and running *and* produces correct results (or: a system fails if it gives a wrong answer or no answer at all).
-<!-- The availability of a system is the fraction of time it is available. A system is highly available if its availability is close to 1. Thus, high availability is the property of a system to be up and running all the time, always producing correct results. --> Hence, the (in)famous availability requirement is "24x7".[^1]:
+<!-- The availability of a system is the fraction of time it is available. A system is highly available if its availability is close to 1. Thus, high availability is the property of a system to be up and running all the time, always producing correct results. --> Hence, the (in)famous availability requirement is "24x7".[^102]
 
-[^1]: Note that true high availability is expensive to achieve (think about maintenance intervals, need for fault-tolerant hardware, etc.).
+[^102]: Note that true high availability is expensive to achieve (think about maintenance intervals, need for fault-tolerant hardware, etc.).
 
 The more a system fails, the less it is available; the longer it takes to repair a system after it fails, the less it is available. Systems that depend on others "inherit" their availability partly.
 "Mission-critical" middleware such as database management systems, transaction processing monitors, workflow management systems must be highly available --- so that supported applications are able to meet their NFRs.

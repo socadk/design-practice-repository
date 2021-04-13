@@ -49,9 +49,9 @@ The following domain model for Tactic DDD gives an overview of the patterns in i
 
 ![Tactic DDD Concepts and their Relations](/activities/images/ZIO-TacticDDDMetaModel.png)
 
-Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together.[^1] Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity.
+Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together.[^101] Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity.
 
-[^1]: In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), Scott Millet and Samuel Knight define Aggregate like this: "A single object graph may closely relate to the real domain, but it does not make for an effective model. Treating the model as a single consistency boundary in a collaborative domain can lead to conflict for changes that are completely unrelated. [...] Therefore: Decompose large objects structures into smaller objects groupings called aggregates which are based around invariants (business rules). An aggregate is a unit of consistency ensuring transactional boundaries are set at the right level of granularity to ensure a usable application by avoiding blocking at the database level."
+[^101]: In ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/theanatomyofdomain-drivendesign), Scott Millet and Samuel Knight define Aggregate like this: "A single object graph may closely relate to the real domain, but it does not make for an effective model. Treating the model as a single consistency boundary in a collaborative domain can lead to conflict for changes that are completely unrelated. [...] Therefore: Decompose large objects structures into smaller objects groupings called aggregates which are based around invariants (business rules). An aggregate is a unit of consistency ensuring transactional boundaries are set at the right level of granularity to ensure a usable application by avoiding blocking at the database level."
 
 The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (i.e., the root entities in an Aggregate):
 
@@ -166,7 +166,7 @@ There is a GitHub organization called [ddd-crew](https://github.com/ddd-crew) th
 ### More Information 
 
 * There is a free DDD reference providing pattern summaries ([PDF](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), [Word](http://domainlanguage.com/wp-content/uploads/2016/05/PatternSummariesUnderCreativeCommons.doc)) and a [DDD glossary](http://dddcommunity.org/resources/ddd_terms/) on the community website. 
-* Michael Ploed shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD e-book](https://leanpub.com/ddd-by-example) on LeanPub (@Ploed:2019). 
+* Michael Ploed shares his presentation slides on [Slide Deck](https://speakerdeck.com/mploed) and also has a [DDD ebook](https://leanpub.com/ddd-by-example) on LeanPub (@Ploed:2019). 
 * The DDD Europe organization has published the ["Domain-Driven Design: The First 15 Years"](https://leanpub.com/ddd_first_15_years/) on LeanPub, a collection of "old and new essays" by "prominent authors in the software design world". 
 * The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity.html).
 * Consult [this Web page](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
