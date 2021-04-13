@@ -11,7 +11,7 @@ Artifact/Template: *Architectural Decision Record (Y-Form)*
 ------------------------------------------------------------
 also known as: Y-Statement
 
-> *A Y-Statement captures decision context, addressed requirement(s), decision outcome and consequences (good and bad) in a single, structured sentence.*
+> *A Y-Statement captures decision context, addressed requirement(s), decision outcome, and consequences (good and bad) in a single, structured sentence.*
 
 ### Motivation (Addressed Information Need) 
 The purpose of this artifact and template is to provide *decision rationale* (justifications for chosen patterns, technologies, products). Instances of this template answer *"why?"* questions about an architecture (across viewpoints and perspectives).
@@ -24,7 +24,7 @@ On agile projects, the sprint/iteration review meetings might be a good point in
 
 
 ### Template Structure and Notation(s)
-Y-Statements are often captured in plain but structured text (but tables in presentation tools, wiki pages and modeling tools can also be used):
+Y-Statements are often captured in plain but structured text (but tables in presentation tools, wiki pages, and modeling tools can also be used):
 
 ![Y-Statement Template](/artifact-templates/images/ADCaptureYTemplate.png)
 
@@ -57,15 +57,15 @@ When embedding ADs in code, custom annotations can be used (for instance, with [
 
 * Some readers do not appreciate the structured, but rather long sentences in the Y-Statement template proposed above; consider splitting up into two or three sentences if you get such feedback.
 * Optionally, you may want to add a "because" half sentence for any rationale and justification that does not fit into the "to achieve ..., accepting that..." tradeoff/balancing format. 
-* Consider switching to [MADR](https://github.com/adr/madr) logs, Nygard-style [ADRs](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions) or another template for AD capturing if the Y-Statements do not work well in your context and project. An inconsistently formatted decision log is better that none (assuming that its content is accurate and current).
+* Consider switching to [MADR](https://github.com/adr/madr) logs, Nygard-style [ADRs](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), or another template for AD capturing if the Y-Statements do not work well in your context and project. An inconsistently formatted decision log is better that none (assuming that its content is accurate and current).
 
 
 ### Origins and Signs of Use
 The WH(Y) template for AD records was originally suggested in a [SATURN 2012 presentation by Olaf Zimmermann](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=31345); it has been practiced in a number of projects, for instance at ABB, and taught at HSR/OST since 2013. 
 
-The template took inspiration from the decision outcome format suggested by George Fairbanks in this [Architecture Haikus, presented at WICSA 2011](https://www.georgefairbanks.com/blog/comparch-wicsa-2011-panel-discussion-and-haiku-tutorial/): The upper part of Y-Statements ("In the context of, facing") adds feature- and quality-related information to the tradeoff information ("to achieve, accepting that") in the bottom part.
+The template took inspiration from the decision outcome format suggested by George Fairbanks in his [Architecture Haikus, presented at WICSA 2011](https://www.georgefairbanks.com/blog/comparch-wicsa-2011-panel-discussion-and-haiku-tutorial/): The upper part of Y-Statements ("In the context of, facing") adds feature- and quality-related information to the tradeoff information ("to achieve, accepting that") in the bottom part also present in Haiku decision outcomes.
 
-A blog post called ["Architectural Decisions - The Making Of"](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) provides more historical information, known uses, an additional example, and advice on how to provide convincing justifications.
+A blog post called ["Architectural Decisions &mdash; The Making Of"](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) provides more historical information, known uses, an additional example, and advice on how to provide convincing justifications.
 
 <!-- 
 ### Performing Role(s)

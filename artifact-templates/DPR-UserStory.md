@@ -14,7 +14,7 @@ also known as: Feature, Backlog Item
 > *A user story is an invitation to a conversation about a particular system feature, and may also capture the results of such conversation.*
 
 ### Motivation (Addressed Information Need) 
-The Agile Alliance describes the role and purpose of user stories in its [glossary entry for them](https://www.agilealliance.org/glossary/user-stories/) as *divide feature into units that fit into a single iteration" and advises to [INVEST](https://www.agilealliance.org/glossary/invest) in actionable insights on user wants and needs.
+The Agile Alliance describes the role and purpose of user stories in its [glossary entry for them](https://www.agilealliance.org/glossary/user-stories/) as "divide feature into units that fit into a single iteration" and advises to [INVEST](https://www.agilealliance.org/glossary/invest) in actionable insights on user wants and needs.
 
 ### Usage (Produced and Consumed When)
 User stories come in and out of [Story Splitting](../activities/DPR-StorySplitting.md). Stories also are excellent input to API design and system decomposition. 
@@ -35,8 +35,11 @@ The [Context Mapper](https://contextmapper.org/) and [MDSL](https://microservice
 
 ```story
 As a Researcher 
-I want to create a PaperItem with its "title", "authors", "venue" in a "PaperCollection"
-so that other researchers can find and cite the referenced paper easily, and my h-index goes up.
+I want to create a PaperItem 
+  with its "title", "authors", "venue" 
+  in a "PaperCollection"
+so that other researchers can find and cite the referenced paper easily, 
+  and my h-index goes up.
 ```
 
 
