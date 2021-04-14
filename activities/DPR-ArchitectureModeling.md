@@ -15,9 +15,9 @@ also known as: Architecture Specification and Documentation
 ### Context
 Software architecture books such as "Software Architecture in Pratice" (@Bass:2012) or the German "Effektive Softwarearchitekturen" (@Starke:2015) teach us that any architecture design (and early solution strategy in particular) is about *structure* and *technology*. 
 
-The desire for structure can be met by identification of candidate components and their continuous refinement, starting with "big" [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) for instance about logical layers, [Client/Server Cuts (CSCs)](http://www.objectarchitects.de/ObjectArchitects/papers/Published/ZippedPapers/renzel.pdf) and architectural styles such as client/server and/or [(micro-)service-oriented architectures](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html). <!-- styles, patterns, reference architectures -->
+The desire for structure can be met by identification of candidate components and their continuous refinement, starting with "big" [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) for instance about logical layers, [Client/Server Cuts (CSCs)](http://www.objectarchitects.de/ObjectArchitects/papers/Published/ZippedPapers/renzel.pdf), and architectural styles such as client/server and/or [(micro-)service-oriented architectures](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html). <!-- styles, patterns, reference architectures -->
 
-Furthermore, technology concepts also have to be decided: middleware and frameworks such as component containers, communication protocols and message exchange formats, as well as cluster and deployment managers (for instance, Spring Boot and Docker/Kubernetes running in a public cloud). 
+Furthermore, technology concepts also have to be decided: middleware and frameworks such as component containers, communication protocols, and message exchange formats, as well as cluster and deployment managers (for instance, Spring Boot and Docker/Kubernetes running in a public cloud). 
 
 The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture early decisions; complementary to that, the overall architecture and selected parts and their dependencies and interactions should also be visualized (to accommodate the information needs of the different types of stakeholders, from project sponsors to DevOps personnel and auditors). <!-- TODO (v2): link to MRM/SOAD meta issue blog post when there --> 
 
@@ -28,11 +28,11 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 
 > *I want to capture my current understanding of the static and dynamic structure of the system under construction (in terms of its components and connectors), share it with peers and other stakeholders, and continuously evolve it*
 
-> *so that I can plan ahead (design and implementation work), manage risk and trace the design back to [architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements).*
+> *so that I can plan ahead (design and implementation work), manage risk, and trace the design back to [architecturally significant requirements](https://en.wikipedia.org/wiki/Architecturally_significant_requirements).*
 
 
 ### Instructions (Synopsis, Definition)
-*Model the architecture. Derive the level of abstraction, breadth, depth and notation for any architectural model that you create from a set of stakeholder concerns and information needs caused by these concerns. Create one model/diagram per viewpoint (i.e., set of stakeholder concerns).* 
+*Model the architecture. Derive the level of abstraction, breadth, depth, and notation for any architectural model that you create from a set of stakeholder concerns and information needs caused by these concerns. Create one model/diagram per viewpoint (i.e., set of stakeholder concerns).* 
 
 <!-- Source: https://miro.com/app/board/o9J_lN6TopI=/ -->
 
@@ -55,16 +55,16 @@ A wide range of notations and tools to support these and other modeling tasks ex
 
 Popular viewpoint models are:
 
-* Philippe Kruchten's [4+1 views on software architecture](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
-* The [viewpoints and perspectives proposed by Nick Rozanski and Eoin Woods](https://www.viewpoints-and-perspectives.info/home/viewpoints/) (@RozanskiWoods:2005)
-* Having started with a "less is more" (and anti-UML message), the [C4 Model](../artifact-templates/futureWork/DPR-C4Model.md) has now evolved into a rather comprehensive set of diagrams supported by the [Structurizr](https://structurizr.com/) library and online tool. 
+* Philippe Kruchten's [4+1 views on software architecture](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model).
+* The [viewpoints and perspectives](https://www.viewpoints-and-perspectives.info/home/viewpoints/) (@RozanskiWoods:2005) proposed by Nick Rozanski and Eoin Woods.
+* Having started with a "less is more" (and anti-UML message), the C4 Model has now evolved into a rather comprehensive set of diagrams supported by the [Structurizr](https://structurizr.com/) library and online tool. 
 
 
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full -->
 The component overview of the frontend-backend and service landscape at [Lakeside Mutual](https://github.com/Microservice-API-Patterns/LakesideMutual), targeting architects and developers that want to orient themselves, was created with PlantUML:
 
-![Lakeside Mutual component overview](https://raw.githubusercontent.com/Microservice-API-Patterns/LakesideMutual/master/resources/overview-diagram.png)
+![Lakeside Mutual Component Overview](https://raw.githubusercontent.com/Microservice-API-Patterns/LakesideMutual/master/resources/overview-diagram.png)
 
 Page 4 of [this presentation](https://ozimmer.ch/assets/presos/ZIO-FromDDDToMAPIsQS2020v10p.pdf) provides an example of an architecture overview diagram styled as an IRP. C4 examples are available publicly [here](https://structurizr.com/share/1). PlantUML extensions and examples can be found in [The Hitchhiker’s Guide to PlantUML](https://crashedmind.github.io/PlantUMLHitchhikersGuide/index.html).
 
@@ -85,7 +85,7 @@ A variation of the "if in doubt leave it out" rule for DPR method adoption appli
 
 * Capture both static and dynamic aspects (for instance, compile time and runtime dependencies). UML sequence diagrams can serve as CIDs; the [arc42 Runtime View](https://docs.arc42.org/section-6/) provides further advice. 
 * Model both "sunny day" and "rainy day" behavior (normal case, error situations).
-* Do not model just because; choose set of diagrams and notation consciously, reflecting on the project and company culture, team capabilities and preferences. 
+* Do not model just because; choose set of diagrams and notation consciously, reflecting on the project and company culture as well as team capabilities and preferences. 
 * But do not skip modeling just because working software is valued more than comprehensive documentation; see above for motivation and (light, lean) instructions.
 * All diagrams should disclose the notation used as well as their target audience and purpose (i.e., satisfied information needs). If a non-standard notation is used, a legend should be provided. 
 * Consider to complement your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows). 

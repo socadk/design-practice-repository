@@ -18,9 +18,9 @@ A [User Story](../artifact-templates/DPR-UserStory.md) that is too large for a s
 * *Valuable:* Each story must be valuable to the customer on its own. <!-- "Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important." --> 
 * *Estimable:* The level of detail should be "just enough to help the customer rank and schedule the story's implementation."
 * *Small:* "Stories typically represent at most a few person-weeks worth of work." Some teams size their stories in such a way that they can be implemented in a single iteration.
-* *Testable:* Customer and developers should understand a story well enough so that a test for it can be written --- or is written first, as in Behavior- and Test-Driven Development (BDD, TDD).[^1]
+* *Testable:* Customer and developers should understand a story well enough so that a test for it can be written --- or is written first, as in Behavior- and Test-Driven Development (BDD, TDD).[^103]
 
-[^1]: See this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html) for a collection of these two and many more "driven" methods.
+[^103]: See this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html) for a collection of these two and many more "driven" methods.
 
 Several INVESTment practices and techniques exist; one of them is story splitting.
 
@@ -28,7 +28,7 @@ Several INVESTment practices and techniques exist; one of them is story splittin
 
 > *As an agile practitioner with requirements analysis and/or project planning responsibilities, I want to split user stories to make stories and their implementation easier to plan and execute.* 
 
-Switching to a different set of [stakeholder concerns](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md): 
+Switching to a different set of stakeholder concerns and viewpoint, the same practice can be used to identify candidate components in [architecture design](DPR-ArchitectureModeling.md): 
 
 > *As an application architect, I would like to split user stories to identify candidate components and API endpoints.*
 
@@ -40,7 +40,7 @@ Many (but not all) splitting patterns and techniques are equally suited for this
 
 * *Data entry* methods, for instance multiple actors/users and/or technical channels (Web, mobile app and so on)
 * *Workflow* step, from process initiation to processing activities (possibly in parallel) and data manipulations to process termination 
-* *Business rule* variations: domain decisions to be made at runtime, conditions and constraint checking
+* *Business rule* variations: domain decisions to be made at runtime, conditions, and constraint checking
 * *Data variations*: is-a relations, categorizations and classifications, domain partitioning  
 * *Operations* completion: create, read, update (full, partial), delete; search, find, archive; undo (compensation)
 * Investigation vs. implementation architectural *spike* vs. full implementation 
@@ -88,7 +88,7 @@ Story splitting is a very light technique. A single application of it (one patte
 A very welcome effect of story splitting is that it often leads to new questions to the domain experts and sparks interesting conversations with them (for instance, about workflow steps and data variations). Hence, the [Domain Model](/artifact-templates/DPR-DomainModel.md) is likely to be updated as well.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 <!-- See ART, don’t overdo etc. -->
 One should not get carried away by dreaming up data entry and data variations, business rules nobody has asked for, and so on.
 

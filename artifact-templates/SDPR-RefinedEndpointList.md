@@ -70,9 +70,8 @@ For each API endpoint in such list, specify its responsibilities and signature o
 **Design elaboration**. Make the following decisions and record them as described in the activity [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md):
 
 * Communication protocol (HTTP? gRPC? GraphQL?) including REST maturity level when using http (from 0 to 3, HATEOAS) 
-* Message exchange format, for instance MIME type when using RESTful HTTP (refining a platform-neutral DTO design in UML or MDSL) and media/content type profile:
-    * JSON? XML? Other message exchange format?
-    * [Application-Level Semantic Profiles (ALPS)](https://tools.ietf.org/html/draft-amundsen-richardson-foster-alps-03)? [JSON-LD](https://json-ld.org/) + Hydra? [Microformats](http://microformats.org/)?
+* Message exchange format, for instance MIME type when using RESTful HTTP (refining a platform-neutral DTO design in UML or MDSL): JSON? XML? Other message exchange format?
+* Media/content type profile: [Application-Level Semantic Profiles (ALPS)](https://tools.ietf.org/html/draft-amundsen-richardson-foster-alps-03)? [JSON-LD](https://json-ld.org/) + Hydra? [Microformats](http://microformats.org/)?
 * Security design (CIA) decisions (details out of scope here)
 
 Decide with an API-wide scope or decide separately per endpoint/per operation if the [Non-Functional Requirements](DPR-SMART-NFR-Elicitation.md) require such differentiation. Update your [Architecture Modeling](DPR-ArchitectureModeling.md) artifacts from previous steps accordingly.
@@ -83,7 +82,7 @@ This example of a REL continues and details the example given in the [Candidate 
 
 | Endpoint | Operation (HTTP verb) | Responsibility Pattern (MAP) | Published Language (Request and Response Message Payload) | Media Type/Profile |
 |----------|-------------|------------------------------|---------------------------------------|-------|
-| Customer |             | [*Master Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/MasterDataHolder)         |              | microformats or ALPS (tbd) |
+| Customer |             | [*Master Data Holder*](https://microservice-api-patterns.org/patterns/responsibility/informationHolderEndpointTypes/MasterDataHolder)         |              | Microformats or ALPS (tbd) |
 |          |  Find (GET) |  [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* QueryString (tbd), *out:* CustomerDTOSet | |
 |          |  Read (GET) | [*Retrieval Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/RetrievalOperation) | *in:* `CustomerId":ID<int>`, *out:* `CustomerDTO` <!-- MDSL snippets --> |  |
 |          |  Update (PUT) | [*State Creation Operation*](https://microservice-api-patterns.org/patterns/responsibility/operationResponsibilities/StateCreationOperation)  | *in:* `{"CustomerId", "newPhoneNumber", "newAddress"}`, *out:* `{"statusInformation", "linkToUpdatedCustomerResource}` <!-- MDSL snippets --> | |
@@ -108,7 +107,7 @@ A few examples of tools include:
 
 * Do not mechanically turn all application domain (micro-)layer artifacts such as Domain-Driven Design (DDD) pattern instances or facades into (micro-)services, but follow a recognized or homegrown identification method. For instance, the DDD *Bounded Context* is seen to form an upper boundary for microservice size, while *Aggregates* serve as lower boundary. <!-- TODO ICSA 2021 paper, EP21 paper -->
 * Reuse already modeled data representation elements if possible (for instance, consider microformats or schema.org).
-* Prioritize the non-functional requirements as many of them conflict with each other. Define a [Service Level Agreement (SLA)](SDPR-ServiceLevelAgreement.md) with at least one service level objective per operation (or endpoint). 
+* Prioritize the non-functional requirements as many of them conflict with each other. Define a [Service Level Agreement](SDPR-ServiceLevelAgreement.md) with at least one service level objective per operation (or endpoint). 
 * Specify at least one API test case per [User Story](DPR-UserStory.md) and API operation. Evaluate whether your API design and implementation can benefit from [Test-Driven Development (TDD)](https://www.agilealliance.org/glossary/tdd/) and [Behavior-Driven Development (BDD)](https://dannorth.net/introducing-bdd/) and supporting tools such as [Cucumber](https://cucumber.io/). 
 
 <!-- From JUG 2019 slide (is there a newer version?) -->

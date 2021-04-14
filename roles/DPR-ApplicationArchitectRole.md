@@ -10,7 +10,7 @@ also known as: Coding Architect (to indicate strong connection to development)
 
 ### Persona 
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
-Archie Tekt, who first appeared in 2003 in ["Perspectives on Web services"](https://soadecisions.org/atb.htm) by Olaf Zimmermann, Mark Tomlinson and Stefan Peuser, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability, and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) view model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
+Archie Tekt, who first appeared in 2003 in ["Perspectives on Web services"](https://soadecisions.org/atb.htm) by Olaf Zimmermann, Mark Tomlinson, and Stefan Peuser, cares about the structure of and decisions about code packages and configuration artifacts, as well as their dependencies. Development should be productive, the developed software simply and quick to change. It should meet its performance, scalability, and security requirements at runtime. Archie primarily uses the logical and the implementation viewpoints (in the [4+1](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) view model), but occasionally also gets involved with the scenario viewpoint and the process viewpoint (for instance, in reviews).
 
 Philippe Kruchten has an article ["What do software architects really do?"](https://pkruchten.files.wordpress.com/2010/05/kruchten_2008_journal-of-systems-and-software.pdf) that describes the persona well. But do not forget that architects (like all people) are different!
 
@@ -41,7 +41,7 @@ Application architects worry about and need:
 |:-|:-----:|:------:|:--------:|
 | Analysis | [User Stories](../artifact-templates/DPR-UserStory.md), [Use Cases](../artifact-templates/DPR-UseCase.md) | Non-functional requirements, for instance in the form of Quality Attribute Scenarios | Iteratively refined |
 | Design | Legacy system descriptions, external interfaces | [CRC Cards](../artifact-templates/DPR-CRCCard.md), Decision log comprising of ADRs (for instance [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)), architecture design models | Both produced and consumed |
-| Implementation and test | Code, test specifications and reports | Reviews | Not in scope of DPR at present |
+| Implementation and test | Code, test specifications, and reports | Reviews | Not in scope of DPR at present |
 | Evolution and maintenance | Change requests, bug reports | Architectural refactorings | Not in scope of DPR at present |
 
 The applied practices include [Story Splitting](../activities/DPR-StorySplitting.md) and  [Strategic Domain-Driven Design](../activities/DPR-StrategicDDD.md).

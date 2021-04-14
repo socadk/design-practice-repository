@@ -35,7 +35,7 @@ More elaborate templates also include:
 * *Actors* that are involved in the use case. These also include the system and other stakeholders. The user from whose perspective the use case is described and initiated is the *primary actor*; external players (people or systems) that the system has to consult/contact/call are called *secondary actors*. 
 * *Preconditions* that need to hold for the use case to be executable.
 * *Postconditions* to indicate changes in the system after the use case was executed.
-* *Alternatives* in the flow of interactions, e.g. to handle errors or special cases. 
+* *Alternatives* in the flow of interactions, for instance handling errors or special cases. 
 
 Most templates are variations of the "fully-dressed" template described in @Cockburn:2001 (also available on [Wikipedia](https://en.wikipedia.org/wiki/Use_case#Fully_dressed)). One example of a brief notation is shown in the [Context Mapper DSL](https://contextmapper.org/docs/user-requirements/).
 
@@ -66,7 +66,8 @@ Pre: The social network influencer has created an account and is logged in.
 1. The influencer uploads an image from his/her computer.
 2. The system verifies that the image satisfies the size constraints.
 3. The influencer crops and/or zooms the image.
-4. The influencer indicates that they want to use the new image as his/her profile picture.
+4. The influencer indicates that they want 
+   to use the new image as his/her profile picture.
 5. The system saves the image and updates the user profile.
 
 Post: The influencer's profile picture has been changed.

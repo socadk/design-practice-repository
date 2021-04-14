@@ -55,7 +55,7 @@ SK indicates a Shared Kernel relationship. OHS stands for Open Host Service, PL 
 
 Both informal, ad hoc modeling and somewhat more diligent approaches are supported:
 
-* [Context Mapper](https://contextmapper.org/) provides a DSL for DDD, as well as transformation and refactoring tools. [This paper](https://contextmapper.org/media/SummerSoC-2020_Domain-driven-Service-Design_Authors-Copy.pdf) summarizes the supported patterns and introduces the stepwise design approach and the tool support for it.
+* [Context Mapper](https://contextmapper.org/) provides a DSL for DDD as well as transformation and refactoring tools. [This paper](https://contextmapper.org/media/SummerSoC-2020_Domain-driven-Service-Design_Authors-Copy.pdf) summarizes the supported patterns and introduces the stepwise design approach and the tool support for it.
 * Any drawing tool, including online and offline ones are often used.
 * Whiteboards, both physical and virtual ones such as [miro](https://miro.com), also are a natural choice.
 
@@ -76,12 +76,12 @@ See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md).
 
 * System Context Diagram
 * [Domain Model](DPR-DomainModel.md)
-* C4 models and other representations of architecture overviews and component models.
+* C4 models and other representations of architecture overviews and component models
 
 
 ### More Information
 
-["Strategic Domain Driven Design with Context Mapping "](https://www.infoq.com/articles/ddd-contextmapping/) by Alberto Brandolini introduces context maps by scenario and example.
+["Strategic Domain Driven Design with Context Mapping"](https://www.infoq.com/articles/ddd-contextmapping/) by Alberto Brandolini introduces context maps by scenario and example.
 
 Context Maps are covered in depth in the book ["Implementing Domain-Driven Design"](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577) by Vaughn Vernon (@Vernon:2013).
 

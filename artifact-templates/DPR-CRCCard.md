@@ -21,13 +21,13 @@ A notation that is well suited for *candidate* component modeling is the *CRC Ca
 ### Usage (Produced and Consumed When)
 <!--AA/AS/AE, must identify the producing role and the target audience-->
  
-CRC cards primarily serve as specification and documentation tool during [Architecture Modeling](../activities/DPR-ArchitectureModeling.md). Moreover, the cards can support decision-making during component realization, starting with a "make or buy/rent" decision: 
+CRC cards primarily serve as specification and documentation tool during [Architecture Modeling](/activities/DPR-ArchitectureModeling.md). Moreover, the cards can support decision-making during component realization, starting with a "make or buy/rent" decision: 
 
 * Buy, build, or rent (a cloud service) software with the desired capabilities?
 * Use a custom-off-the-shelf software package, commercial middleware, or open source software? 
 * Can a cloud service or an operating system feature (such as a storage offering or a job scheduler) fulfill the responsibilities?
 
-Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow then is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing--or <!-- note "--" works, HTML mdash too. see https://leanpub.com/markua/read#charsub --> serve as graphical notes only, accompanying the textual ones (see [this blog post](https://ozimmer.ch/authoring/2020/07/02/ReviewAndMeetingMarkup.html)) from the workshop.
+Another usage scenario for CRC cards is an interactive workshop or "design thinking" format, sometimes up to a role-playing game: Each participant takes the role of an object/a candidate component (each represented by one CRC card). A ball representing business event and/or program control flow then is thrown around to learn about (and design) data flow, message formats, (a)synchrony, etc. The participants record the resulting collaborations and responsibilities on their CRC cards. These initial versions can then be put in a collaboration tool for further processing &mdash; or serve as graphical notes only, accompanying the textual ones (see [this blog post](https://ozimmer.ch/authoring/2020/07/02/ReviewAndMeetingMarkup.html)) from the workshop.
 
 
 ### Template Structure and Notation(s)
@@ -53,13 +53,13 @@ Any tool that supports table layouts (preferably with the option to merge cells)
 Team [wikis](https://en.wikipedia.org/wiki/Wiki) or [Markdown tables](https://www.markdownguide.org/extended-syntax/) are additional options.
 
 
-### Hints and Pitfalls to Avoid (Common Pitfalls)
+### Hints and Pitfalls to Avoid
 
 To be able to serve their purpose, CRC cards should be expressive but also easy to understand:
 
 * Names should communicate what application/architecture are about.
     * [Metaphors](https://www.agilealliance.org/resources/videos/making-metaphors-that-matter/) can make cards expressive and easy to remember, but must be chosen wisely. How will key stakeholders react to them? For instance, sports analogies might not work equally well in all geographies. <!-- e.g., baseball, cricket, handball -->
-    * Prefer strong semantics and domain-specific vocabulary, e.g. "Web Shop" over "Client".
+    * Prefer strong semantics and domain-specific vocabulary, for instance "Web Shop" over "Client".
     * A common naming scheme is `domain concept + architectural role/pattern`.
 * Value consistency (no contradictions) over completeness.
     * Good component descriptions should be SMART (like goals and NFRs).

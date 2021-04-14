@@ -13,13 +13,13 @@ Artifact/Template: *Domain Model*
 > *An analysis-level domain model captures domain concepts and their relations from an external, non-technical point if view. A design-level domain model represents design solutions for the concepts in the analysis model (including logic/behavior and data/structure).*
 
 ### Motivation (Addressed Information Need) 
-A domain model shows the essential (most important, core) concepts an application deals with, and how these concepts relate to each other. Such domain model helps domain experts (a.k.a. business analysts), architects, developers, and all other project stakeholders to establish a common understanding of the business problem at hand, which is an important milestone en route to an appropriate software design. Examples of such domains are business sectors such as finance, insurance, and telecommunications as well as somewhat more technical genres such as online shopping, Internet of Things (IoT) and social networks.
+A domain model shows the essential (most important, core) concepts an application deals with, and how these concepts relate to each other. Such domain model helps domain experts (a.k.a. business analysts), architects, developers, and all other project stakeholders to establish a common understanding of the business problem at hand, which is an important milestone en route to an appropriate software design. Examples of such domains are business sectors such as finance, insurance, and telecommunications as well as somewhat more technical genres such as online shopping, Internet of Things (IoT), and social networks.
 
 In the context of [stepwise API and service design](../activities/SDPR-StepwiseServiceDesign.md), a domain model is instrumental to identify [candidate endpoints](SDPR-CandidateEndpointList.md) for the provider-side service layer. 
 
 
 ### Usage (Produced and Consumed When)
-Depending on the maturity of the design and the phase/stage of the project, domain models can be very minimal and only feature business concepts as classes and relationships. More elaborate domain models might include behavior in the form of method names or even complete method signatures and data attributes, domain events and business rules (constraints, invariants).
+Depending on the maturity of the design and the phase/stage of the project, domain models can be very minimal and only feature business concepts as classes and relationships. More elaborate domain models might include behavior in the form of method names or even complete method signatures and data attributes, domain events, and business rules (constraints, invariants).
 
 <!-- TODO mention [Tactic DDD](../activities/DPR-TacticDDD.md) already here? -->
 
@@ -55,7 +55,7 @@ Pen and paper or a whiteboard are enough to get started on a simple model. The e
 
 ### Hints and Pitfalls to Avoid
 
-* A Domain Model is not a data-centric [Entity-Relationship (ER) Diagram](https://www.lucidchart.com/pages/er-diagrams), even if these two artifacts might look very similar at the first glance. For instance, a domain model does not contain any notion of primary keys, whereas the typical ER diagram does not use inheritance. Domain models are supposed to feature attributes *and* operations. Martin Fowler warns about such [Anemic Domain Models](https://www.martinfowler.com/bliki/AnemicDomainModel.html).
+* A Domain Model is not a data-centric [Entity-Relationship Diagram](https://www.lucidchart.com/pages/er-diagrams), even if these two artifacts might look very similar at the first glance. For instance, a domain model does not contain any notion of primary keys, whereas the typical ER diagram does not use inheritance. Domain models are supposed to feature attributes *and* operations. Martin Fowler warns about such [Anemic Domain Models](https://www.martinfowler.com/bliki/AnemicDomainModel.html).
 * A Domain Model may serve as an early check to see whether the desired functionality can be implemented, for instance by making sure that all required relationships are present.
 * The refinement of the Domain Model should not be forgotten as more use cases or user stories are implemented and the design evolves (but often is). A model, diagram, or document that is not up to date may cause unnecessary confusion, for instance when the cardinalities (multiplicities) of relationship advance from 1:1 to 1:n and then n:m over time.
 
@@ -66,7 +66,7 @@ When UML-based methods and their predecessors are applied, chances are that a do
 
 * ["UML Components"](https://www.pearson.com/us/higher-education/program/Cheesman-UML-Components-A-Simple-Process-for-Specifying-Component-Based-Software/PGM319361.html) by John Cheesman and John Daniels has a *business type model* artifact (which is an early OOA domain model).
 * Craig Larman's book ["Applying UML and Patterns"](https://www.craiglarman.com/wiki/index.php?title=Book_Applying_UML_and_Patterns) covers OOA and OOD. 
-* [Tactic DDD](../activities/DPR-TacticDDD.md) can be seen as domain modeling "on stereoids".
+* [Tactic DDD](../activities/DPR-TacticDDD.md) can be seen as domain modeling "on steroids".
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
@@ -80,7 +80,7 @@ When UML-based methods and their predecessors are applied, chances are that a do
 
 Several books were listed under "Origins and Signs of Use" above.
 
-An end-to-end design demo that includes some OOAD and Tactic DDD is describes in this [Medium story](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2).
+An end-to-end design demo that includes some OOAD and Tactic DDD is described in this [Medium story](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2).
 
 
 ### Data Provenance 
