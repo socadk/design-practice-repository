@@ -7,15 +7,8 @@ Output: "Decision log with ADRs"
 Abstraction/Refinement Level: Technology-, platform-independent
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
-
-<!--
-#### Performing Roles and Related Artifacts (Synopsis)
-|**Role**| Input | Output | Comments and Pointers |
-|:-------|:-----:|:------:|:---------------------:|
-|   | ) |  |  |
--->
 
 Activity/Technique: *Architectural Decision Capturing*
 ------------------------------------------------------
@@ -41,10 +34,10 @@ There are no reasons not to capture decisions. Two variants exist, *continuous a
 This log can, for instance, be a team-wide source modeling or code repository, a project-wide wiki, or a shared office document (word processor, spreadsheet). As the first decision to be captured, select a *verbosity level* for the decision log: 
 
 - At a minimum, document the decision outcome ("we chose") and provide basic rationale (for instance, in the form of a "because" half sentence).
-- On a medium level of verbosity, use one of the lean *Architectural Decision Record (ADR)* templates such as [MADR](https://github.com/adr/madr), [Y-Statements](http://www.sei.cmu.edu/library/abstracts/presentations/zimmermann-saturn2012.cfm) or [Nygard's ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). 
+- On a medium level of verbosity, use one of the lean *Architectural Decision Record (ADR)* templates such as [MADR](https://github.com/adr/madr), [Y-Statements](http://www.sei.cmu.edu/library/abstracts/presentations/zimmermann-saturn2012.cfm), or [Nygard's ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). 
 - If needed or desired, for instance due to external stakeholder pressure to reach certain compliance or maturity levels, apply one of the full-fledged decision modeling templates from the literature.
 
-<!-- TOOO visualize ecADR from DoD post in miro -->
+<!-- TOOO (done) visualize ecADR from DoD post in miro -->
 
 
 ### Examples
@@ -57,11 +50,11 @@ has good tool support and sufficient performance under the workload that
 we expect from the user stories to be implemented in the next 10 sprints.
 ```
 
-Slide 18 in a [SAGRA 2016 keynote](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) features a medium-verbose ADR:
+Page 18 in a [SAGRA 2016 keynote](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) features a medium-verbose ADR:
 
 ![Exemplary Architectural Decision Record (ADR)](./images/ZIO-ADCapturingExample.png)
 
-See [this SATURN 2010 presentation](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=22124) for a full-fledged example (Slide 14). 
+See [this SATURN 2010 presentation](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=22124) for a full-fledged example (Page 14). 
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
@@ -107,7 +100,7 @@ Involved roles:
 
 Produced artifact: 
 
-* [Decision Log with ADRs](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)
+* Decision log with [ADRs](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)
 
 
 #### Other Practices (Alternatives) 
@@ -119,13 +112,13 @@ Agile Modeling has the notion of [Architecture Envisioning](http://agilemodeling
 
 
 ### More Information 
-See ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) post on Medium and [slides 51 and 52 in this presentation](http://resources.sei.cmu.edu/asset_files/Presentation/2012_017_001_31349.pdf) for examples of good and bad justifications; for instance, "will look good on my CV" does not qualify as a sound decision rationale for a technology selection decision (although it is understandable to come up with such argument). <!-- emoji removed -->
+See ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) post on Medium and Slides 51 and 52 in [this presentation](http://resources.sei.cmu.edu/asset_files/Presentation/2012_017_001_31349.pdf) for examples of good and bad justifications; for instance, "will look good on my CV" does not qualify as a sound decision rationale for a technology selection decision (although it is understandable to come up with such argument). <!-- emoji removed -->
 
 [This website](https://www.ifs.hsr.ch/index.php?id=13191&L=4) and [this paper](http://www.ifs.hsr.ch/fileadmin/user_upload/customers/ifs.hsr.ch/Home/projekte/ADMentor-WICSA2015ubmissionv11nc.pdf) provide an overview of selected existing templates for AD capturing and decision logging (both lean and full-fledged). 
 
 The [adr organization at GitHub](https://adr.github.io/) also compiles AD templates, as well as tools and other resources.
 
-See this [SATURN 2013 BoF session report](http://www.sei.cmu.edu/library/assets/presentations/zimmermann-saturn2013.pdf) for a cost-benefit discussion and open research questions.
+See this [SATURN 2013 BoF session report](https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_47704.pdf) for a cost-benefit discussion and open research questions.
 
 Finally, there is a proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html).
 

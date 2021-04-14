@@ -6,7 +6,7 @@ Activities: Stepwise Service Design, Steps 6 and 7; code first
 Abstraction/Refinement Level: Platform-independent, platform-specific
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
@@ -17,7 +17,7 @@ also known as: Service Contract
 > *An API Description answers the following questions: "Which knowledge should be shared between an API provider and its clients? How should this knowledge be documented?"* <!-- MAP quote -->
 
 ### Motivation (Addressed Information Need) 
-Quoting the context section of the [API Description pattern](https://microservice-api-patterns.org/patterns/foundation/APIDescription) on the MAP website, let's assume that "a service provider has decided to expose one or more API operations in an API endpoint; the number, name, and synopsis of these API calls have not been specified yet. Therefore, developers of clients (i.e., Web and mobile app developers implementing [Frontend Integrations](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration) or the system integrators writing adapters for [Backend Integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration)) are not yet able to code service invocations and do not know what to expect in responses. Furthermore, supplemental interface descriptions are missing as well, including informal explanations of the meaning of the API calls (e.g., parameters in message representations, effects on application state in the API implementation) and related qualities (e.g., idempotency, transactionality)."
+Quoting the context section of the [API Description pattern](https://microservice-api-patterns.org/patterns/foundation/APIDescription) on the MAP website, let us assume that "a service provider has decided to expose one or more API operations in an API endpoint; the number, name, and synopsis of these API calls have not been specified yet. Therefore, developers of clients (i.e., Web and mobile app developers implementing [Frontend Integrations](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration) or the system integrators writing adapters for [Backend Integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration)) are not yet able to code service invocations and do not know what to expect in responses. Furthermore, supplemental interface descriptions are missing as well, including informal explanations of the meaning of the API calls (e.g., parameters in message representations, effects on application state in the API implementation) and related qualities (e.g., idempotency, transactionality)."
 
 * "How can API client and API provider make their agreement on the functional aspects of service invocation (e.g., data transfer representations and invocation prerequisites) explicit?
 * How can this functional information be amended with other technical specification elements (e.g., protocol headers, security policies, fault records) and business-level documentation (e.g., call semantics, API owner, billing information, support procedures, versioning)?"
@@ -28,7 +28,7 @@ Desired qualities are understandability, interoperability, and extensibility (pr
 ### Usage (Produced and Consumed When)
 Explicit, both human- and machine readable API specifications (or service contracts) are typically created during design elaboration and transition activities. In the [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md) activity in DPR, they are created in Step 6 (and then evolved in Step 7).
 
-Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) features "Create a Semantic Profile" in step 5. Service description and profile formats are created in this step, hence it produces an API Description in DPR and MAP terms.
+Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) features "Create a Semantic Profile" in Step 5. Service description and profile formats are created in this step, hence it produces an API Description in DPR and MAP terms.
 <!-- @Amundsen:2020 proposes to use ALPS -->
 
 ### Template Structure and Notation(s)
@@ -75,10 +75,10 @@ See the end-to-end service design demo ["Domain-Driven Service Design with Conte
 
 ### Hints and Pitfalls to Avoid
 
-The API Description pattern text in ["Interface Evolution Patterns — Balancing Compatibility and Extensibility across Service Life Cycles"](http://eprints.cs.univie.ac.at/6082/1/WADE-EuroPlop2019Paper.pdf) (@LuebkeZimmermannEtAl) recommends:
+The API Description pattern text in ["Interface Evolution Patterns — Balancing Compatibility and Extensibility across Service Life Cycles"](http://eprints.cs.univie.ac.at/6082/1/WADE-EuroPlop2019Paper.pdf) (@LuebkeZimmermannEtAl:2019) recommends:
 
 * "Define an *API product owner* that steers and leads the [architectural decision making](https://en.wikipedia.org/wiki/Architectural_decision) for API design and its implementation and decides on the service evolution strategy including versioning. A related pattern is [Open Service Ownership](http://samnewman.io/patterns/organizational/open-service-ownership/) by Sam Newman.
-* Define the upstream and downstream contract relationship e.g. in the form of one of the relationship types in DDD-style [Context Maps](./DPR-StrategicDDDContextMap.md), for instance open host service and customer-supplier, first described in @Evans:2003, later picked up by the microservices community, and supported in tools such as [Context Mapper](https://contextmapper.org/).
+* Define the upstream and downstream contract relationship, e.g., in the form of one of the relationship types in DDD-style [Context Maps](./DPR-StrategicDDDContextMap.md), for instance open host service and customer-supplier, first described in @Evans:2003, later picked up by the microservices community, and supported in tools such as [Context Mapper](https://contextmapper.org/).
 * Consider to specify [Finite State Machines](https://en.wikipedia.org/wiki/Finite-state_machine) (FSMs) if the API causes non-trivial, possibly long-running state changes. Design the system transaction boundaries carefully; discuss and challenge whether strict or eventual consistency is needed if multiple system parts and clients work with the data that is exposed in the API (e.g., master data, transactional data)."
 
 
@@ -93,12 +93,12 @@ The [Known Uses](https://microservice-api-patterns.org/patterns/foundation/APIDe
 
 * [Domain Model](DPR-DomainModel.md)
 * [Candidate Endpoint List (CEL)](SDPR-CandidateEndpointList.md) and [Refined Endpoint List (REL)](SDPR-RefinedEndpointList.md)
-* [Service Level Agreement](SDPR-ServiceLevelAgreement.md) (SLA)
+* [Service Level Agreement (SLA)](SDPR-ServiceLevelAgreement.md) 
 * [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md)
 
 ### More Information
 
-* ["APIs should get to the POINT"](https://medium.com/olzzio/apis-should-get-to-the-point-c79113efa31c) proposes five principles for API design, summarized as POINT: purposeful, style-oriented, isolated, channel-neutral, and T-shaped
+* ["APIs should get to the POINT"](https://medium.com/olzzio/apis-should-get-to-the-point-c79113efa31c) proposes five principles for API design, summarized as POINT: purposeful, style-oriented, isolated, channel-neutral, and T-shaped.
 * [APIs.guru](https://apis.guru/) aims at creating "the most comprehensive, standards-compliant and up-to-date directory of machine-readable API definitions" [here](https://github.com/APIs-guru/openapi-directory).
 * The [Programmable Web](https://www.programmableweb.com/) also lists countless APIs and contract information (not all entries seem to be up to date).
 

@@ -3,7 +3,7 @@ Category: Business, technical leadership
 Activities: Service design, rollout
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Roles Overview](https://socadk.github.io/design-practice-repository/roles)
 
 <!-- Word budget: 500-1000 (2-3 A4 pages); the artifacts descriptions should be readable in a few minutes (while practice descriptions will be a bit more elaborate) -->

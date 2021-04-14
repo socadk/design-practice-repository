@@ -6,14 +6,14 @@ Activities: Stepwise Service Design, Step 6
 Abstraction/Refinement Level: Concrete, elaborate 
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *Service Level Agreement (SLA)*
 --------------------------------------------------
 
-> *An Service Level Agreement (SLA) answers the following questions: "How can an API client learn about the specific quality-of-service characteristics of an API and its operations? How can these characteristics and the consequences of not meeting them be defined in a measurable way?"* <!-- MAP quote -->
+> *A Service Level Agreement (SLA) answers the following questions: "How can an API client learn about the specific quality-of-service characteristics of an API and its operations? How can these characteristics and the consequences of not meeting them be defined in a measurable way?"* <!-- MAP quote -->
 
 ### Motivation (Addressed Information Need) 
 API providers want to deliver high-quality services while at the same time using their available resources economically. The resulting compromise can be expressed in an SLA. 
@@ -25,7 +25,7 @@ An API quality property that is often expressed in an SLA is the *availability* 
 Providing an SLA for a service has the following benefits: 
 
 * Service clients can decide whether a provider’s offerings match the client’s business needs from a business agility and vitality point of view.
-* The service provider can communicate the attractiveness, availability and performance goals of its services to clients without making unrealistic promises that may cause client dissatisfaction or even financial losses.
+* The service provider can communicate the attractiveness, availability, and performance goals of its services to clients without making unrealistic promises that may cause client dissatisfaction or even financial losses.
 
 The [Microservice API Pattern (MAP)](https://microservice-api-patterns.org/) website captures the SLA artifacts as a pattern; the [Forces](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:Forces) and the [Consequences](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:Consequences) sections of the pattern, for instance, discuss the pros and cons of such artifact in depth.
 
@@ -63,7 +63,7 @@ The emerging [Microservice Domain-Specific Language](https://microservice-api-pa
 * SLAs usually require legal clearance.
 
 ### Origins and Signs of Use
-[Site Reliability Engineering](https://cloud.google.com/blog/products/gcp/sre-vs-devops-competing-standards-or-close-friends) (SRE) teams use SLAs to guide the development and delivery of new features: if an SLO is overachieved, the team has a so-called "error budget" where it can risk breaking the SLO. On the other hand, if an SLO is at the point of breaking, the team has to be more careful with changes and slow down (@BeyerJonesPetoffMurphy:2016).
+[Site Reliability Engineering (SRE)](https://cloud.google.com/blog/products/gcp/sre-vs-devops-competing-standards-or-close-friends) teams use SLAs to guide the development and delivery of new features: if an SLO is overachieved, the team has a so-called "error budget" where it can risk breaking the SLO. On the other hand, if an SLO is at the point of breaking, the team has to be more careful with changes and slow down (@BeyerJonesPetoffMurphy:2016).
 
 The pattern text on the MAP website collects additional ["known uses"](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:KnownUses).
 
@@ -78,9 +78,9 @@ Terms and Conditions (Ts&Cs) documents of API use are less formal, but similar i
 ### More Information
 The DPR activity [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign.md) talks about SLAs in Step 6.
 
-See this Userlike blog post ["Service Level Agreement - Best Practices & Crucial Elements"](https://www.userlike.com/en/blog/service-level-agreement-best-practices).
+See this Userlike blog post ["Service Level Agreement &mdash; Best Practices & Crucial Elements"](https://www.userlike.com/en/blog/service-level-agreement-best-practices).
 
-The SLA concept has been mined as a pattern in "Interface Quality Patterns - Communicating and Improving the Quality of Microservices APIs" (@StockerZimmermannEtAl:2018).
+The SLA concept has been mined as a pattern in "Interface Quality Patterns &mdash;  Communicating and Improving the Quality of Microservices APIs" (@StockerZimmermannEtAl:2018).
 
 
 ### Data Provenance 

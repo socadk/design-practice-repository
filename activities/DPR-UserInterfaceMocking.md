@@ -7,7 +7,7 @@ Output: User interface mockups, wireframes
 Abstraction/Refinement Level: Multiple, from abstract/early to refined/concrete
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities)
 
 Activity/Technique: *User Interface Mocking*
@@ -46,7 +46,7 @@ The resulting wireframes are not only a potential alternative to [Stepwise Servi
 
 The following wireframe shows a rather simple and basic screen for user management. While simple, it still contains valuable information for our service design:
 
-* Users can be created, edited and removed. This hints at the role of our service: it probably is a data-centric [Information Holder](https://www.microservice-api-patterns.org/patterns/responsibility/endpointRoles/InformationHolderResource).
+* Users can be created, edited, and removed. This hints at the role of our service: it probably is a data-centric [Information Holder](https://www.microservice-api-patterns.org/patterns/responsibility/endpointRoles/InformationHolderResource).
 * Users can be copied. This might be relevant for our service, requiring a create operation in the API, but it could also be implemented just on the client side.
 * The navigation elements at the bottom of the page suggest that there will be numerous users to be navigated in a [paginated](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) fashion. 
 
@@ -55,7 +55,7 @@ The following wireframe shows a rather simple and basic screen for user manageme
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 Creating some sort of mockup (whether that is a paper prototype or fully interactive design) is part of most teams' practices anyway; the value of such early validation is commonly agreed upon.
 
-However, it is usually done to improve communication between designers, developers and customers/end-users and not for service API design as outlined above. Hence, the extra effort is rather low. 
+However, it is usually done to improve communication between designers, developers, and customers/end-users and not for service API design as outlined above. Hence, the extra effort is rather low. 
 
 
 ### Hints and Pitfalls to Avoid

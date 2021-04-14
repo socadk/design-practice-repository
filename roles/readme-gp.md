@@ -12,7 +12,7 @@ The third rule of method adoption applies (the first two laws can be found in th
 
 > *Context matters: what works for one role in a particular client, team, and project environment might be the root of all evil elsewhere.*
 
-See Part 1 of O. Zimmermann's [ICWE 2020 presentation](https://ozimmer.ch/assets/presos/ZIO-ICWEKeynoteWADEC3v10p.pdf) for more information on the importance of context during design and [decision making](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html).
+See Part 1 of Olaf Zimmermann's [ICWE 2020 presentation](https://ozimmer.ch/assets/presos/ZIO-ICWEKeynoteWADEC3v10p.pdf) for more information on the importance of context during design and [decision making](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html).
 
 
 ### Overview/Inventory (Genetic and Specific Roles)

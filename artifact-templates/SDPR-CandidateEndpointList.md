@@ -6,7 +6,7 @@ Activities: Stepwise/Incremental Service Design (Contract First), Step 4
 Abstraction/Refinement Level: Technology-agnostic, platform-independent
 ---
 
-[Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
@@ -30,9 +30,9 @@ Step 4 in the [Stepwise Service Design](../activities/SDPR-StepwiseServiceDesign
 
 <!-- * Step 3 of the EXPOSE technique -->
 
-Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) starts with "List all the things"; this activity roughly corresponds to Steps 1 to 3 in DPR. Arnaud Lauret proposes an "API goal canvas" in Chapter 2 of "The Design of Web APIs" (@Lauret:2019): 
+Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) starts with "List all the things"; this activity roughly corresponds to Steps 1 to 3 in DPR. Arnaud Lauret proposes an "API goal canvas" in Chapter 2 of "The Design of Web APIs" (@Lauret:2019). 
 
-Who wants to do what and how? What are the inputs and outputs? Which goals result? 
+> *Who wants to do what and how? What are the inputs and outputs? Which goals result?*
 
 
 ### Template Structure and Notation(s)
@@ -95,7 +95,7 @@ The CEL and REL artifacts in DPR originate from the MAP project, mining experien
 
 ### Related Artifacts and Practices (incl. Alternatives)
 
-* [Use Cases](DPR-UseCase.md) or [User Stories](DPR-UserStory.md) as well as [User Interface Mocks](../activities/DPR-UserInterfaceMocking.md) can serve as input to CEL preparation.
+* [Use Cases](DPR-UseCase.md) or [User Stories](DPR-UserStory.md) as well as [User Interface Mockups](../activities/DPR-UserInterfaceMocking.md) can serve as input to CEL preparation.
 * The same holds for the [Domain Model](DPR-DomainModel.md).
 * Architecture overview diagrams and models containing a (Remote) Service Layer
 * The [Refined Endpoint List](SDPR-RefinedEndpointList.md) picks up the CEL en route to implementation.
