@@ -1,8 +1,6 @@
-## Welcome to DPR (Git Pages Edition)
+## Welcome to DPR Version 1.2.6 (Git Pages Edition) 
 
-*Note:* This index page only lists a subset of the available method elements. 
-<!-- Please use the repository-level [README.md](https://github.com/socadk/design-practice-repository/blob/master/README.md) as entry into DPR for the time being. -->
-The [introduction](./introduction.md) page is a more comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
+The [introduction](./introduction.md) page is a comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
 
 ### Navigation (to Full Content)
 
@@ -45,4 +43,4 @@ The books and other publications referenced in the artifact and activity descrip
 * Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)
 * [ZIO at OST IFS](https://ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4)
 
-(c) Olaf Zimmermann, 2021. All rights reserved. Licensed as Creative Commons (see repository). 
+(c) Olaf Zimmermann and Mirko Stocker, 2021. All rights reserved. Licensed as Creative Commons (see repository). 
