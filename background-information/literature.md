@@ -10,34 +10,9 @@ How to update this file:
 
 2. Run the following command from the repository root:
 
-perl -ne '/@([\w:]+)/ && print "|$1|\@$1|\n";' **/*.md | sort | uniq  
+perl -ne '/@([\w:]+:[\w]+)/ && print "|$1|\@$1|\n";' **/*.md | sort | uniq  
 
-3. Copy the output below the table (and remove refs like @docsoc),
-
-4. Run the following command
- 
-pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib --citeproc background-information/literature.md
-
-5. Copy the generated bibliography (start from "<div id="refs" class="references hanging-indent" role="doc-bibliography">"), and replace the markdown table below this comment with the copied HTML.
-
-6. Replace all div elements with p
- -->
-
-# Literature
-
-<!--
-How to update this file:
-
-1. Remove the HTML code below this comment (up to metadata section) and replace it with an empty table 
-
-|Key|Literature|
-|:--|:---------|
-
-2. Run the following command from the repository root:
-
-perl -ne '/@([\w:]+)/ && print "|$1|\@$1|\n";' **/*.md | sort | uniq  
-
-3. Copy the output below the table (and remove refs like @docsoc),
+3. Copy the output below the table
 
 4. Run the following command
  
@@ -107,6 +82,9 @@ Keeling, Michael. 2017. <em>Design It!: From Programmer to Software Architect</e
 </p>
 <p id="ref-Lauret:2019" class="csl-entry" role="doc-biblioentry">
 Lauret, Arnaud. 2019. <em>The Design of Web APIs</em>. Manning.
+</p>
+<p id="ref-LuebkeZimmermannEtAl:2019" class="csl-entry" role="doc-biblioentry">
+Lübke, Daniel, Olaf Zimmermann, Mirko Stocker, Cesare Pautasso, and Uwe Zdun. 2019. <span>“Interface Evolution Patterns - Balancing Compatibility and Extensibility Across Service Life Cycles.”</span> In <em>Proc. Of the 24th European Conference on Pattern Languages of Programs</em>. EuroPLoP ’19. Irsee, Germany.
 </p>
 <p id="ref-MannionKeepence:1995" class="csl-entry" role="doc-biblioentry">
 Mannion, Mike, and Barry Keepence. 1995. <span>“SMART Requirements.”</span> <em>SIGSOFT Softw. Eng. Notes</em> 20 (2): 42–47. <a href="https://doi.org/10.1145/224155.224157">https://doi.org/10.1145/224155.224157</a>.
