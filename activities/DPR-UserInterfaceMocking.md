@@ -16,18 +16,19 @@ also known as: Wireframing
 The need for a new service API may arise from different occasions, including [Frontend Integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration). For example, you are building a new single page Web app or adding new features to a mobile app. If the service client does not exist yet, how do you know what responsibilities your service should have, and what message structure is best suited for the new client?
 
 ### Goal and Purpose (When to Use)
-<!-- turned purpose into user story (for consistency): -->
 
 > *As a designer and/or developer of user interfaces, user experience specialist, I want to share emerging user interface designs with my stakeholders (for instance, end users and product managers but also backend API providers) to solicit their feedback and involve them in the design closely.* 
 
 The goal of *User Interface Mocking* or *Wireframing* in the context of service and API design is to get a better understanding of the structure, amount, and kind of data a client requires so that the remote interface can be designed accordingly. For example, should a service operation use [Pagination](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) to break response messages into chunks, and what kind of [Reference Management](https://www.microservice-api-patterns.org/patterns/quality/#reference-management/) is best suited? 
 
-*When not to use*. Service APIs serve different purposes. Some APIs are tailored to a specific frontend (applying the [Backends-for-Frontend](https://samnewman.io/patterns/architectural/bff/) pattern), while others are built for yet unknown clients (for instance, when your product offering is the API itself). If you are not planning on also creating a client for the service, then creating a mockup of its interface might not be the best approach and you might be better served by [Stepwise Service Design](SDPR-StepwiseServiceDesign.md).
+*When not to use*. Service APIs serve different purposes. Some APIs are tailored to a specific frontend (applying the [Backends-for-Frontend](https://samnewman.io/patterns/architectural/bff/) pattern), while others are built for yet unknown clients (for instance, when your product offering is the API itself). If you are not planning on also creating a client for the service, then creating a mockup of its interface might not be the best approach, and you might be better served by [Stepwise Service Design](SDPR-StepwiseServiceDesign.md).
 
 ### Instructions (Synopsis, Definition)
 The fidelity of user interfaces mockups <!-- note: "mocks" refers to the testing concept of a mock, an imitation, whereas a UI mockup is a simple model. --> varies between hand-drawn sketches to pixel perfect, clickable prototypes. A middle way of a rough gray-scale layout (to make clear that this is just a mockup and should not be taken as a representation of the exact development outcome) that shows the user interface elements and their approximate positions offers a good cost-benefit ratio.
 
-<!-- TODO turn into miro flowchart -->
+<!-- Source: https://miro.com/app/board/o9J_lM74VuY=/ -->
+![The five steps of user interface mocking according to Balsamiq.](/activities/images/DPR-UIMockingSteps.jpg)
+
 According to [Balsamiq](https://balsamiq.com/learn/articles/five-steps-to-great-wireframes/), creating a wireframe comprises the following five steps: 
 
 1. *Articulate* the scenario you are addressing. Input for this may come from [User Stories](../artifact-templates/DPR-UserStory.md) and/or [Use Cases](../artifact-templates/DPR-UseCase.md).
@@ -47,7 +48,7 @@ The following wireframe shows a rather simple and basic screen for user manageme
 * Users can be copied. This might be relevant for our service, requiring a create operation in the API, but it could also be implemented just on the client side.
 * The navigation elements at the bottom of the page suggest that there will be numerous users to be navigated in a [paginated](https://www.microservice-api-patterns.org/patterns/structure/compositeRepresentations/Pagination) fashion. 
 
-![Wireframe Example](/activities/images/Wireframe-Example.png)
+![Wireframe Example](/activities/images/Wireframe-Example.png) <!-- Source: STX -->
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 Creating some sort of mockup (whether that is a paper prototype or fully interactive design) is part of most teams' practices anyway; the value of such early validation is commonly agreed upon.
@@ -72,7 +73,7 @@ Mockups should be easy to spot if the above advice to keep it rough is followed;
 #### Performing Roles and Related Artifacts (Synopsis)
 Typically user experience specialist, designer, developer; anyone can do it!
 
-Input for your design will come from [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md). <!-- TODO which artifacts come out if this? -->
+Input for your design will come from [User Stories](../artifact-templates/DPR-UserStory.md) and [Use Cases](../artifact-templates/DPR-UseCase.md). Because the mockup shows input fields and dynamic content, it can be used as input and/or validation for the [Domain Model](../artifact-templates/DPR-DomainModel.md) and [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md).
 
 #### Practices and Techniques (Refinements, Guides)
 User interface mockups can be done with pen and paper and of course with any general purpose graphics software. Specialized tools also exist, here is a non-exhaustive list:
