@@ -53,7 +53,7 @@ Pre: ___
 Post: ___
 ```
 
-The sum of all use cases forms the *use case model* <!-- TODO STX: Find a reference, IIRC the term originates from RUP. --> and can be accompanied by a UML [*Use Case Diagram*](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/) to show the relationships between actors and use cases.
+The sum of all use cases forms the *use case model* (@Jacobson:1999) and can be accompanied by a UML [*Use Case Diagram*](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/) to show the relationships between actors and use cases.
 
 ### Example(s)
 Filling out the basic template from above in a social media scenario may yield this use case:
