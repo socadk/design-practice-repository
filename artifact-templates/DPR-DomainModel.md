@@ -32,7 +32,7 @@ Martin Fowler distinguishes between *simple* domain models, that "look very much
 
 Note: A domain model does not have to specify every detail of the resulting implementation, but should show the most important concepts and give the reader an understanding of the code. 
 
-<!-- Source: STX, see Domain-Model-Template.puml -->
+<!-- Source: own creation, see Domain-Model-Template.puml -->
 ![Domain Model Template](/artifact-templates/images/Domain-Model-Template.png)
 
 
