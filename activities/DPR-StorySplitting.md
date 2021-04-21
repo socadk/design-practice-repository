@@ -48,6 +48,10 @@ Many (but not all) splitting patterns and techniques are equally suited for this
 * *Simple/complex*
 * *Defer performance* 
 
+<!-- Source: https://miro.com/app/board/o9J_lM7Rzo0=/ -->
+![Story Splitting Patterns by Richard Lawrence](/activities/images/DPR-StorySplittingPatterns.jpg)
+
+
 **Component identification.** Each data entry split, for instance, suggests at least one presentation layer component (as a candidate). 
 
 Complex workflows call for explicit state management, to be designed architecturally and assigned as a responsibility to one or more components. 
