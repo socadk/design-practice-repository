@@ -129,7 +129,7 @@ More information can be found [here](contributing/CONTRIBUTING.md).
 ```yaml
 title: Design Practice Repository (DPR)
 owner: Olaf Zimmermann (ZIO)
-date: "03, 16, 2021"
+date: "04, 22, 2021"
 copyright: Copyright 2020-2021 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 
