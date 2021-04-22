@@ -1,4 +1,4 @@
-## Welcome to DPR Version 1.2.6 (Git Pages Edition) 
+## Welcome to DPR Version 1.2.7 (Git Pages Edition) 
 
 The [introduction](./introduction.md) page is a comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
 
@@ -27,9 +27,12 @@ Roles:
 * [API Product Owner](roles/SDPR-APIProductOwner.md)
 * [Application Architect](roles/DPR-ApplicationArchitectRole.md)
 
-<!--
-### Preview (TODO enable when book draft is out)
 
+### Preview: DPR eBook
+
+*Update (April 8, 2021):* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
+
+<!--
 <iframe width='160' height='400' src='https://leanpub.com/dpr/embed' frameborder='0' allowtransparency='true'></iframe>
 -->
 

@@ -4,7 +4,7 @@ Activities: SMART NFR Elicitation, Architectural Capturing, Architecture Modelin
 ---
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
+[Roles Index](https://socadk.github.io/design-practice-repository/roles)
 
 Role: *Application and Integration Architect*
 ---------------------------------------------

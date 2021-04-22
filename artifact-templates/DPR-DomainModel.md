@@ -7,16 +7,16 @@ Abstraction/Refinement Level: multiple
 ---
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
+[Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *Domain Model*
 ---------------------------------
 
-> *An analysis-level domain model captures domain concepts and their relations from an external, non-technical point if view. A design-level domain model represents design solutions for the concepts in the analysis model (including logic/behavior and data/structure).*
+> *An analysis-level domain model captures domain concepts and their relations from an external, non-technical point of view. A design-level domain model represents design solutions for the concepts in the analysis model (including logic/behavior and data/structure).*
 
 ### Motivation (Addressed Information Need) 
-A domain model shows the essential (most important, core) concepts an application deals with, and how these concepts relate to each other. Such domain model helps domain experts (a.k.a. business analysts), architects, developers, and all other project stakeholders to establish a common understanding of the business problem at hand, which is an important milestone en route to an appropriate software design. Examples of such domains are business sectors such as finance, insurance, and telecommunications as well as somewhat more technical genres such as online shopping, Internet of Things (IoT), and social networks.
+A domain model shows the essential (most important, core) concepts an application deals with, and how these concepts relate to each other. Such a domain model helps domain experts (a.k.a. business analysts), architects, developers, and all other project stakeholders to establish a common understanding of the business problem at hand, which is an important milestone en route to an appropriate software design. Examples of such domains are business sectors such as finance, insurance, and telecommunications as well as somewhat more technical genres such as online shopping, Internet of Things (IoT), and social networks.
 
 In the context of [stepwise API and service design](../activities/SDPR-StepwiseServiceDesign.md), a domain model is instrumental to identify [candidate endpoints](SDPR-CandidateEndpointList.md) for the provider-side service layer. 
 
@@ -28,14 +28,14 @@ Depending on the maturity of the design and the phase/stage of the project, doma
 
 Domain models are usually created early in the project and are refined continuously throughout the project. They complement and glue requirements specifications and architectural models.
 
-<!-- TODO say some more about consuming activities, depending on level OOA vs. OOD (high/low level): data(base) modeling (consistency; cardinalities, directions or relations!), API design, rapid prototyping (e.g., with JHipster), security design/architecture (SPI classification, threats); "content release IPR form" (?) -->
+<!-- TODO say some more about consuming activities, depending on level OOA vs. OOD (high/low level): data(base) modeling (consistency; cardinalities, directions or relations!), API design, security design/architecture (SPI classification, threats); "content release IPR form" (?) -->
 
 ### Template Structure and Notation(s)
 Martin Fowler distinguishes between *simple* domain models, that "look very much like the database design" and *rich* domain models, which use "inheritance, strategies, and other @Gamma:1995 patterns, and complex webs of small interconnected objects" (@Fowler:2002). UML class diagrams are the most commonly used notation for domain models. 
 
 Note: A domain model does not have to specify every detail of the resulting implementation, but should show the most important concepts and give the reader an understanding of the code. 
 
-<!-- TODO add relation from class to class? STX: source is in Domain-Model-Template.puml -->
+<!-- Source: own creation, see Domain-Model-Template.puml -->
 ![Domain Model Template](./images/Domain-Model-Template.png)
 
 
@@ -48,13 +48,14 @@ The classes can then be logically grouped and fleshed out with more details, for
 
 ![Elaborate Domain Model](.//images/Domain-Model-Elaborate.png)
 
-Note the filled diamond composition between order and line items, which form a  *part-of* relationship. In a next step, the method names could be turned into full method signatures with fully typed parameter names and return values.
+Note the filled diamond composition between order and line items, which form a *part-of* relationship. In a next step, the method names could be turned into full method signatures with fully typed parameter names and return values.
 
 ### Tools
 Pen and paper or a whiteboard are enough to get started on a simple model. The examples above were generated using [PlantUML](https://plantuml.com/class-diagram), a textual DSL for various kinds of diagrams. UML profiles exist as well and are supported in UML tools such as Sparx Enterprise Architect.
 
 [Context Mapper](https://contextmapper.org/docs/tactic-ddd/), a DSL and tool for strategic and tactic DDD, embeds Sculptor. The Sculptor DSL can express domain models. 
 
+Rapid prototyping tools, such as [JHipster](https://www.jhipster.tech/), can turn a domain model into fully functional applications. JHipster uses its own [JDL](https://www.jhipster.tech/jdl/) modelling language to express domain models.
 
 ### Hints and Pitfalls to Avoid
 
@@ -68,7 +69,7 @@ Pen and paper or a whiteboard are enough to get started on a simple model. The e
 When UML-based methods and their predecessors are applied, chances are that a domain model is present:
 
 * ["UML Components"](https://www.pearson.com/us/higher-education/program/Cheesman-UML-Components-A-Simple-Process-for-Specifying-Component-Based-Software/PGM319361.html) by John Cheesman and John Daniels has a *business type model* artifact (which is an early OOA domain model).
-* Craig Larman's book ["Applying UML and Patterns"](https://www.craiglarman.com/wiki/index.php?title=Book_Applying_UML_and_Patterns) covers OOA and OOD. 
+* Craig Larman's book "Applying UML and Patterns" (@Larman:2004) covers OOA and OOD. 
 * [Tactic DDD](../activities/DPR-TacticDDD.md) can be seen as domain modeling "on steroids".
 
 
@@ -81,7 +82,7 @@ When UML-based methods and their predecessors are applied, chances are that a do
 
 ### More Information
 
-Several books were listed under "Origins and Signs of Use" above.
+Several books were listed under "Origins and Signs of Use" above. Cesare Pautasso discusses the different kinds of models -- domains models among them -- used to capture an architecture in @Pautasso:2020. 
 
 An end-to-end design demo that includes some OOAD and Tactic DDD is described in this [Medium story](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2).
 

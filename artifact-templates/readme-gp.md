@@ -1,8 +1,4 @@
 
-[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Activities Overview](https://socadk.github.io/design-practice-repository/activities) ---
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
-
 ## DPR: *Artifact/Templates Index*
 
 ### Context and Motivation 
@@ -64,6 +60,11 @@ Some evaluation and assessment templates are:
 * Strength Weaknesses Opportunities Threats (SWOT) tables
 * Architecture review report
 * [API/Code Review Checklist](futureWork/SDPR-APIReviewChecklist.md)
+
+
+### More Information
+
+See [top-level readme](../README.md) for a general motivation "why DPR?". See [background information folder](../background-information) for design principles of DPR and a recap of method and practice engineering from the 1990s to present.
 
 
 ## DPR Metadata

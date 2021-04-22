@@ -8,7 +8,7 @@ Abstraction/Refinement Level: n/a (requirements)
 ---
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
+[Activities Index](https://socadk.github.io/design-practice-repository/activities)
 
 
 Activity/Technique: *SMART NFR Elicitation*

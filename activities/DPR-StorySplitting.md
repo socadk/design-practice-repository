@@ -8,7 +8,7 @@ Abstraction/Refinement Level: n/a (requirements)
 ---
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Activities Overview](https://socadk.github.io/design-practice-repository/activities)
+[Activities Index](https://socadk.github.io/design-practice-repository/activities)
 
 Activity/Technique: *Story Splitting*
 -------------------------------------
@@ -50,6 +50,10 @@ Many (but not all) splitting patterns and techniques are equally suited for this
 * *Major effort* 
 * *Simple/complex*
 * *Defer performance* 
+
+<!-- Source: https://miro.com/app/board/o9J_lM7Rzo0=/ -->
+![Story Splitting Patterns by Richard Lawrence](./images/DPR-StorySplittingPatterns.jpg)
+
 
 **Component identification.** Each data entry split, for instance, suggests at least one presentation layer component (as a candidate). 
 
@@ -145,7 +149,7 @@ Tony Heap, a business analyst, [puts the splitting steps in a logical order](htt
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Story Splitting"
 author: Olaf Zimmermann (ZIO)
-date: "03, 30, 2021"
+date: "04, 21, 2021"
 copyright: Copyright 2020-2021 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

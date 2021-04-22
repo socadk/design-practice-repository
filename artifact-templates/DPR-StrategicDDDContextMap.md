@@ -7,7 +7,7 @@ Abstraction/Refinement Level: Conceptual
 ---
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates)
+[Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates)
 
 
 Artifact/Template: *DDD Context Map*
