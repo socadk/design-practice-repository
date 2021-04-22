@@ -146,7 +146,7 @@ Tony Heap, a business analyst, [puts the splitting steps in a logical order](htt
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Story Splitting"
 author: Olaf Zimmermann (ZIO)
-date: "03, 30, 2021"
+date: "04, 21, 2021"
 copyright: Copyright 2020-2021 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
