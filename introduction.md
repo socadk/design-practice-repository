@@ -47,7 +47,7 @@ The activities and artifacts that we have collected so far are:
 
 There is an [introductory blog post](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd). And the [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
-We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
+We also provide a [bibliography](./background-information/literature.md).
 
 ### *Status*
 
@@ -114,14 +114,8 @@ Contributors (input, technical writing, feedback):
 
 
 ## Getting Involved 
-If you would like to help improve this collection of software/service/API design practices:
 
-* Feel free to create GitHub issues.
-* Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository, and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
-    * The ["contributing" folder](./contributing) has templates for artifact, activity, role descriptions.
-* [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
-
-More information can be found [here](contributing/CONTRIBUTING.md).
+Information can be found [in the repository](https://socadk.github.io/design-practice-repository/contributing/CONTRIBUTING.md).
 
 
 ## DPR Metadata 

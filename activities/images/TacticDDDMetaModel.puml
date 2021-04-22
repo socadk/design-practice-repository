@@ -1,0 +1,108 @@
+
+@startuml TacticDDDMetaModel
+
+class ApplicationService
+class DomainService
+class InfrastructureService
+
+class Service {
+	+ statelessOperation1(valueObject1, rootEntityId)
+}
+
+
+note right of Service
+  Service types 
+  (inheritance hierarchies) 
+  match DDD layers
+end note
+
+
+class Aggregate {
+	- name
+	+ boolean checkInvariant1() 
+	+ findRootEntity()
+	+ createRootEntity()
+	# openTransaction()
+	# commitTransaction()
+	# rollbackTransaction()
+	+ receiveAndDispatchDomainEvent()
+}
+
+class ValueObject {
+	- int attribute1
+	- String attribute2
+	- ValueObject attribute3
+	- EntityId attribute4
+	+ Result calculate()
+	+ String format()
+}
+
+note right of ValueObject
+  read only
+end note
+
+class RootEntity {
+	- EntityId globalId
+	+ Entity factoryMethod1()
+}
+
+note right of RootEntity
+  Also called Aggregate Root
+end note
+
+class Entity {
+	- EntityId localId
+	- EntityId localEntityReference
+	- Enum lifecycleState
+	+ EntityReference1 businessLogicOperation1(valueObject1)
+	+ ValueObject2 entityModifier1(entityReference1, valueObject2) 
+	+ Enum stateTransition1()
+	+ processDomainEvent()
+}
+
+class AggregateRepository {
+	+ addAggregateRoot()
+	+ removeAggregateRoot()
+	+ searchEntity(byString)
+}
+
+
+note right of AggregateRepository
+  One repository per Aggregate is 
+  recommended in "DDD Reference" by Evans
+  and "Implementing DDD" by Vaugnh
+end note
+
+
+class EntityFactory {
+	+ Aggregate createAggregate(creationInput)
+	+ Entity createEntity(creationInput)
+	+ RootEntity createRootEntity(creationInput)
+	+ ValueObject createValueObject(creationInput)
+}
+
+note right of EntityFactory
+  Only as needed
+end note
+
+Aggregate ..> "use" AggregateRepository
+Aggregate <.. "instantiate" AggregateRepository
+
+Aggregate ..> "use" EntityFactory
+Aggregate "instantiate" <..  EntityFactory
+RootEntity "instantiate"  <..  EntityFactory
+ValueObject "instantiate"  <..  EntityFactory
+Entity "instantiate"  <..  EntityFactory
+
+ApplicationService --|> Service
+DomainService --|> Service
+InfrastructureService --|> Service
+
+Service ..> "use" Aggregate
+Aggregate *-- ValueObject 
+Aggregate *-- RootEntity 
+RootEntity *-- Entity 
+Entity o-- ValueObject 
+
+
+@enduml
