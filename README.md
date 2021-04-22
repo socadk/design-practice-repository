@@ -60,6 +60,11 @@ Tutorial 1 also was enhanced, as well as several other activity and artifact des
 
 Since then, we have copy edited all content and provided additional references.
 
+### Preview: DPR eBook
+
+*Update (April 8, 2021):* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
+
+
 ## Terminology Clarification
 
 ### (Micro-)Services and SOA Definitions

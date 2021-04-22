@@ -34,8 +34,8 @@ This log can, for instance, be a team-wide source modeling or code repository, a
 - On a medium level of verbosity, use one of the lean *Architectural Decision Record (ADR)* templates such as [MADR](https://github.com/adr/madr), [Y-Statements](http://www.sei.cmu.edu/library/abstracts/presentations/zimmermann-saturn2012.cfm), or [Nygard's ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). 
 - If needed or desired, for instance due to external stakeholder pressure to reach certain compliance or maturity levels, apply one of the full-fledged decision modeling templates from the literature.
 
-<!-- TOOO (done) visualize ecADR from DoD post in miro -->
-
+<!-- Source: https://miro.com/app/board/o9J_lM7N_F8=/ Select the frame -> export as image -->
+![The Five Steps of Decision Capturing: EC-ADR ("easy ADR")](/activities/images/ADCapturing-EC-ADR.jpg)
 
 ### Examples
 An example of a minimal decision capture is: 
@@ -125,7 +125,7 @@ Finally, there is a proposal for ["A Definition of Done for Architectural Decisi
 ```yaml
 title: "Design Practice Repository (DPR): Architectural Decision Capturing"
 author: Olaf Zimmermann (ZIO)
-date: "03, 29, 2021"
+date: "04, 21, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

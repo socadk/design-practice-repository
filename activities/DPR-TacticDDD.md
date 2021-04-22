@@ -25,7 +25,7 @@ also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 Tactic DDD can be seen as [Object-Oriented Analysis and Design (OOAD)](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) done well, putting emphasis on the business logic in layered architecture and elaborating upon the [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) pattern in Martin Fowler's "Patterns of Enterprise Application Architecture" (@Fowler:2002). The goals of OOAD and tactic DDD are:
 
-* Establish an [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) with users, other external stakeholders, and within the team
+* Establish a [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) with users, other external stakeholders, and within the team
 * Find out what to implement (analysis)
 * Define storage units, attributes, methods that keep the connection to the analysis results (design) 
 
@@ -47,7 +47,7 @@ The original DDD book @Evans:2003 provides this pattern map for tactic DDD (show
 -->
 The following domain model for Tactic DDD gives an overview of the patterns in it:
 
-![Tactic DDD Concepts and their Relations](/activities/images/ZIO-TacticDDDMetaModel.png)
+![Tactic DDD Concepts and their Relations](/activities/images/TacticDDDMetaModel.png) <!-- STX4ZIO: Redone in PlantUML to get a more unified style with the example below. -->
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together.[^101] Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity.
 
@@ -90,7 +90,9 @@ The first meaning of the term is not in focus here, but can be modeled as Entity
 2. Group output of Step 1 into Aggregates (storage units) and let Aggregates communicate state changes via Domain Events. 
 3. Add a Repository for each Aggregate (to implement lifecycle management) and add Factories as needed (generally speaking, never apply a pattern just because it exists; there has to be a solid business-level or technical justification for its use).
 
-<!-- TODO miro flowchart for these steps -->
+<!-- Source: https://miro.com/app/board/o9J_lM74VxE=/ Select the frame -> export as image -->
+![Modeling Steps From Analysis to Design](/activities/images/TacticDDDSteps.jpg)
+
 
 ### Example(s)
 The Context Mapper website provides a number of [examples of Tactic and Strategic DDD](https://contextmapper.org/docs/examples/). A model of the [Cargo example](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/ddd-sample) from the original DDD book (@Evans:2003) can be found in its examples repository.
@@ -177,7 +179,7 @@ There is a GitHub organization called ["DDD Crew"](https://github.com/ddd-crew) 
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Tactic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "03, 30, 2021"
+date: "04, 21, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

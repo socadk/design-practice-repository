@@ -69,7 +69,7 @@ For each API endpoint in such list, specify its responsibilities and signature o
 
 **Design elaboration**. Make the following decisions and record them as described in the activity [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md):
 
-* Communication protocol (HTTP? gRPC? GraphQL?) including REST maturity level when using http (from 0 to 3, HATEOAS) 
+* Communication protocol (HTTP? gRPC? GraphQL?) including REST maturity level when using HTTP (from 0 to 3, HATEOAS) 
 * Message exchange format, for instance MIME type when using RESTful HTTP (refining a platform-neutral DTO design in UML or MDSL): JSON? XML? Other message exchange format?
 * Media/content type profile: [Application-Level Semantic Profiles (ALPS)](https://tools.ietf.org/html/draft-amundsen-richardson-foster-alps-03)? [JSON-LD](https://json-ld.org/) + Hydra? [Microformats](http://microformats.org/)?
 * Security design (CIA) decisions (details out of scope here)

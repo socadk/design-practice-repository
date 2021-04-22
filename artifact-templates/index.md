@@ -4,7 +4,7 @@
 
 This version of DPR contains the following artifact templates:
 
-* [Architectural Decision Record (Y-Form)](DPR-ArchitecturalDecisionRecordYForm.md)
+* [Architectural Decision Record (Y-Statement)](DPR-ArchitecturalDecisionRecordYForm.md)
 * [CRC Card](DPR-CRCCard.md)
 * [Domain Model](DPR-DomainModel.md)
 * [DDD Context Map](DPR-StrategicDDDContextMap.md)
