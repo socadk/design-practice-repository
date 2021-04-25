@@ -3,7 +3,7 @@
 [Activities Index](https://socadk.github.io/design-practice-repository/activities) ---
 [Roles Index](https://socadk.github.io/design-practice-repository/roles)
 
-### Quick links
+### Quick links to artifact templates
 
 This version of DPR contains the following artifact templates:
 
