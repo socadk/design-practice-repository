@@ -27,7 +27,7 @@ This repository targets the following software engineering roles, ordered from s
 
 DPR is organized around *artifacts*, *templates*, *activities*, and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
 
-<img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.png" alt="DPR Concepts (Domain Model)"/>
+<img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.jpg" alt="DPR Concepts (Domain Model)"/>
 
 <!-- 
 <object height="100%" width="100%" data="./images/DPR-MetamodelMiro.svg" alt="DPR concepts visualized with miro">
@@ -43,7 +43,7 @@ DPR contains three types of method/practice elements:
 The activities and artifacts that we have collected so far are:
 <!-- source: https://miro.com/app/board/o9J_lN5KDw0=/ -->
 
-![DPR Activities, Artifacts and their dependencies](/images/DPR-ActivityArtifactDependencies.png)
+![DPR Activities, Artifacts and their dependencies](/images/DPR-ActivityArtifactDependencies.jpg)
 
 There is an [introductory blog post](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd). And the [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
