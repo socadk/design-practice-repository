@@ -1,5 +1,8 @@
 ### [Git Pages Home](https://socadk.github.io/design-practice-repository)
 
+[Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates) ---
+[Roles Index](https://socadk.github.io/design-practice-repository/roles) 
+
 ### Quick links
 
 This version of DPR contains the following activities: 

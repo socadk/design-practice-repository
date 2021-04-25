@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: CC-BY-4.0
 -->
 
-# Software/Service/API Design Practice Repository (DPR)
+# Design Practice Repository (DPR)
 
 <!-- "DPR" pronounced "deeper"... and Se (or C?) can be pronounced "see", so [O] see deeper... or "steeper" ;-) -->
 
-*Welcome to DPR (pronounced "deeper")!* 
+*Welcome to Software/Service/API Design Practice Repository (DPR), pronounced "deeper"!* 
 
 This public repository collects method elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond).
 
