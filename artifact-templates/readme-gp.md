@@ -1,5 +1,9 @@
 
-## DPR: *Artifact/Templates Index*
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities) ---
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles)
+
+## DPR: *Artifact/Templates Overview*
 
 ### Context and Motivation 
 
