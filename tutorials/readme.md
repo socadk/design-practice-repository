@@ -1,4 +1,10 @@
 
+## [Git Pages Home](https://socadk.github.io/design-practice-repository)
+
+[Activities Index](https://socadk.github.io/design-practice-repository/activities) ---
+[Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates) ---
+[Roles Index](https://socadk.github.io/design-practice-repository/roles)
+
 ## *DPR*: Tutorials 
 
 At present, there are two DPR tutorials:

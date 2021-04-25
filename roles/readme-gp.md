@@ -2,7 +2,9 @@
 [Activities Overview](https://socadk.github.io/design-practice-repository/activities/readme-gp) ---
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates/readme-gp)
 
-## DPR: *Roles (a.k.a. Software Engineering/Service Design Personas)*
+## DPR: *Roles*
+
+a.k.a. Software Engineering/Service Design Personas
 
 ### Context and Motivation 
 
