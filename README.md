@@ -54,15 +54,15 @@ We also provide some [background information](./background-information) on metho
 Version 1.2, released on December 7, 2020, added one activity and one artifact:
 
 * [Story splitting](/activities/DPR-StorySplitting.md) for planning and design purposes
-* [Component, Responsibility, Collaboration (CRC) cards](artifact-templates/DPR-CRCCard.md), an OOAD veteran repurpose for architecture design 
+* [Component, Responsibility, Collaboration (CRC) cards](artifact-templates/DPR-CRCCard.md), an OOAD veteran repurposed for architecture design 
 
 Tutorial 1 also was enhanced, as well as several other activity and artifact descriptions. We also added (even) more pointers to background information. 
 
 Since then, we have copy edited all content and provided additional references.
 
-### Preview: DPR eBook
+### *Preview: DPR eBook*
 
-*Update (April 8, 2021):* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
+*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
 
 
 ## Terminology Clarification

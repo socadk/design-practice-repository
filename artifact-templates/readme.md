@@ -1,5 +1,5 @@
 
-## DPR: *Artifact/Templates Index*
+## DPR: *Artifacts and Templates for Them*
 
 ### Context and Motivation 
 
