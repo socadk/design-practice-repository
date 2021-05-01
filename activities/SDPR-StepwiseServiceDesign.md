@@ -42,7 +42,7 @@ This activity includes [Domain-Driven Design (DDD)](./DPR-TacticDDD.md); other f
 
 There is no single path to APIs and service endpoints of quality and style. When "surfing" the Web searching for advice regarding API design and (micro-)service size (or asking the elders), one "rides" at least seven "waves" of analysis and design work (called steps from now on):  
 
-![Service Design Workflow: Seven Steps from Analysis to Design, Realization, Evolution](./images/SDPR-SevenServiceDesignSteps.png)
+![Service Design Workflow: Seven Steps from Analysis to Design, Realization, Evolution](./images/SDPR-SevenServiceDesignSteps.jpg)
 
 
 <!-- miro (iframe): 
@@ -108,7 +108,7 @@ DPR [Tutorial 1](https://github.com/socadk/design-practice-repository/blob/maste
 
 In the end-to-end demo for tool-supported API design and service identification ["Domain-Driven Service Design with Context Mapper and MDSL"](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an OpenAPI generator: 
 
-![Service Design Example (BPMN)](./images/SDPR-ServiceDesignSteps.jpg)
+![Service Design Example (BPMN)](./images/SDPR-ServiceDesignSteps.png)
 
 Finally, the microservices in the sample application [Lakeside Mutual](https://github.com/Microservice-API-Patterns/LakesideMutual) contain several [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) implemented as HTTP resources and DTOs that are serialized into JSON.
 
