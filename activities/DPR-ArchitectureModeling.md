@@ -36,7 +36,7 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 
 <!-- Source: https://miro.com/app/board/o9J_lN6TopI=/ -->
 
-![Architecture Modeling Steps and Viewpoints](/activities/images/DPR-ArchitectureModeling.png)
+![Architecture Modeling Steps and Viewpoints](/activities/images/DPR-ArchitectureModeling.jpg)
 
 For instance, four common modeling steps are: 
 

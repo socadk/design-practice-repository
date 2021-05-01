@@ -12,16 +12,17 @@ How to update this file:
 
 perl -ne '/@([\w:]+:[\w]+)/ && print "|$1|\@$1|\n";' **/*.md | sort | uniq  
 
-3. Copy the output below the table
+3. Copy the command output to into the table from Step 1
 
 4. Run the following command
  
 pandoc -s --metadata link-citations=true --bibliography DPR-ReferencesMaster.bib --citeproc background-information/literature.md
 
-5. Copy the generated bibliography (start from "<p id="refs" class="references hanging-indent" role="doc-bibliography">"), and replace the markdown table below this comment with the copied HTML.
+5. Copy the command output (HTML), which is the generated bibliography (start from "<p id="refs" class="references hanging-indent" role="doc-bibliography">"), to replace the markdown table from Step 3.
 
-6. Replace all div elements with p
+6. Replace all HTML div elements with p (start tags, end tags)
  -->
+ 
 <p id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
 <p id="ref-Allamaraju:2010" class="csl-entry" role="doc-biblioentry">
 Allamaraju, Subbu. 2010. <em><span>RESTful Web Services Cookbook</span></em>. Sebastopol: O’Reilly Media, Inc.
@@ -74,11 +75,17 @@ Fowler, Martin. 2002. <em>Patterns of Enterprise Application Architecture</em>. 
 <p id="ref-Gamma:1995" class="csl-entry" role="doc-biblioentry">
 Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. 1995. <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc.
 </p>
+<p id="ref-Jacobson:1999" class="csl-entry" role="doc-biblioentry">
+Jacobson, Ivar, Grady Booch, and James Rumbaugh. 1999. <em>The Unified Software Development Process</em>. Reading, Mass.: Addison-Wesley. <a href="http://www.amazon.com/gp/product/0201571692/">http://www.amazon.com/gp/product/0201571692/</a>.
+</p>
 <p id="ref-Julisch:2011" class="csl-entry" role="doc-biblioentry">
 Julisch, Klaus, Christophe Suter, Thomas Woitalla, and Olaf Zimmermann. 2011. <span>“Compliance by Design–Bridging the Chasm Between Auditors and IT Architects.”</span> <em>Computers &amp; Security</em> 30 (6): 410–26.
 </p>
 <p id="ref-Keeling:2019" class="csl-entry" role="doc-biblioentry">
 Keeling, Michael. 2017. <em>Design It!: From Programmer to Software Architect</em>. The Pragmatic Programmers. Raleigh, NC: Pragmatic Bookshelf.
+</p>
+<p id="ref-Larman:2004" class="csl-entry" role="doc-biblioentry">
+Larman, Craig. 2004. <em>Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development (3rd Edition)</em>. USA: Prentice Hall PTR.
 </p>
 <p id="ref-Lauret:2019" class="csl-entry" role="doc-biblioentry">
 Lauret, Arnaud. 2019. <em>The Design of Web APIs</em>. Manning.
@@ -91,6 +98,9 @@ Mannion, Mike, and Barry Keepence. 1995. <span>“SMART Requirements.”</span> 
 </p>
 <p id="ref-Newman:2015" class="csl-entry" role="doc-biblioentry">
 Newman, Sam. 2015. <em>Building Microservices: Designing Fine-Grained Systems</em>. O’Reilly Media, Inc.
+</p>
+<p id="ref-Pautasso:2020" class="csl-entry" role="doc-biblioentry">
+Pautasso, Cesare. In Press. <em>Software Architecture: Visual Lecture Notes</em>. LeanPub. <a href="https://leanpub.com/software-architecture/">https://leanpub.com/software-architecture/</a>.
 </p>
 <p id="ref-Ploed:2019" class="csl-entry" role="doc-biblioentry">
 Plöd, M. 2019. <em>Hands-on Domain-Driven Design - by Example</em>. Leanpub.
@@ -129,7 +139,6 @@ Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Cesare Pautasso, and Uwe Zdun. 2
 Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on Web Services: Applying SOAP, WSDL and UDDI to Real-World Projects</em>. Springer Science &amp; Business Media.
 </p>
 </p>
-
 <!-- keep/update the metadata below when updating the page: -->
 
 ## DPR Metadata
