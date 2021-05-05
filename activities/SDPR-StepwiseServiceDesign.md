@@ -198,9 +198,13 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
 
-<!-- The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices". -->
+<!-- TODO 2021:
 
-<!-- https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ -->
+* (tbd) The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices".
+* CAPs https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ 
+* (tbd) https://www.infoq.com/articles/api-first-integration/ 
+
+-->
 
 [Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
 
