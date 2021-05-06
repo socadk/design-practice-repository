@@ -13,6 +13,11 @@ also known as: Ordered Endpoint List, Final API Action Plan, Detailed API Road
 
 > *A Refined Endpoint List (REL) records intermediate API design results in list or table form.*
 
+<!-- STX4ZIO: I wasn't happy with the current synopsis (too similar to CEL, and the "list" is already in the title (not the table though)) so I tried to come up with a new one:
+
+> *A Refined Endpoint List (REL) represents an intermediate API design showing endpoints and their responsibilities and data contracts.*
+-->
+
 ### Motivation (Addressed Information Need) 
 
 A REL answers the following questions:

@@ -13,6 +13,14 @@ also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, R
 
 > *A Candidate Endpoint List (CEL) records early API design results in list or table form.*
 
+<!-- STX4ZIO: I wasn't happy with the current synopsis (too similar to REL, and the "list" is already in the title (not the table though)) so I tried to come up with a new one:
+
+> *A Candidate Endpoint List (CEL) presents a preliminary API design derived from analysis and design activities.*
+
+ -->
+
+
+
 ### Motivation (Addressed Information Need) 
 <!-- copy-pasted from https://internal.microservice-api-patterns.org/patterns/identification/CandidateEndpointList.html TOOO decide pattern/method split, pattern has more content already -->
 

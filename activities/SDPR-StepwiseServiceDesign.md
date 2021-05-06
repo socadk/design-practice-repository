@@ -24,8 +24,9 @@ API and service design have high [architectural significance](https://en.wikiped
 
 ### Goal and Purpose (When to Use and When not to Use)
 <!--
-> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* 
+> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* STX4ZIO: Here's a first draft, it's hard to arrive at a concise user story for such a large activity:
 -->
+> *As an architect and/or product owner, I want to design loosely coupled services that expose business capabilities through well-defined APIs, so that stakeholders can satisfy their information and processing (??) needs.*  
 
 This activity has the objective to answer the questions raised under 'Context' above. It delivers:
 
@@ -65,7 +66,7 @@ There is no single path to APIs and service endpoints of quality and style. When
     * If needed, *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. 
     * [*Refactor*](https://www.ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
 
-6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or an minimum viable API product).
+6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or a minimum viable API product).
     * Integrate and test these stubs; iterate and revise the list as needed. If the results are good enough, go ahead and *specify service contracts including protocol bindings and technology mappings* in an [API Description](../artifact-templates/SDPR-APIDescription.md) also known as service contract. 
     * Optionally, establish [Service Level Agreements](../artifact-templates/SDPR-ServiceLevelAgreement.md) and [Rate Plans](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RatePlan). 
     * Also decide on (micro-)service deployment technologies and infrastructure middleware such as [API gateways](https://microservices.io/patterns/apigateway.html), load balancers, and container orchestration engines as well as cloud offerings (@Fehling:2014), again capturing your architectural decisions in the log.
