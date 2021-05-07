@@ -91,7 +91,7 @@ The first meaning of the term is not in focus here, but can be modeled as Entity
 3. Add a Repository for each Aggregate (to implement lifecycle management) and add Factories as needed (generally speaking, never apply a pattern just because it exists; there has to be a solid business-level or technical justification for its use).
 
 <!-- Source: https://miro.com/app/board/o9J_lM74VxE=/ Select the frame -> export as image -->
-![Modeling Steps From Analysis to Design](/activities/images/TacticDDDSteps.jpg)
+![Modeling Steps From Analysis to Design](/activities/images/DPR-TacticDDDSteps.jpg)
 
 
 ### Example(s)
