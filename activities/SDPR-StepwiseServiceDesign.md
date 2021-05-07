@@ -23,10 +23,10 @@ API and service design have high [architectural significance](https://en.wikiped
 
 
 ### Goal and Purpose (When to Use and When not to Use)
-<!--
-> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* STX4ZIO: Here's a first draft, it's hard to arrive at a concise user story for such a large activity:
--->
-> *As an architect and/or product owner, I want to design loosely coupled services that expose business capabilities through well-defined APIs, so that stakeholders can satisfy their information and processing (??) needs.*  
+
+<!-- ZIO4STX: Thanks! I like your suggestion, edited a bit to enhance. -->
+
+> *As an architect and/or product owner, I want to design loosely coupled services that expose business capabilities through well-defined, quality-driven APIs so that clients can satisfy their information needs and initiate server-side processing.*  
 
 This activity has the objective to answer the questions raised under 'Context' above. It delivers:
 

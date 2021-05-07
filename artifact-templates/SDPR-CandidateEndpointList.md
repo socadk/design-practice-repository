@@ -11,12 +11,13 @@ Artifact/Template: *Candidate Endpoint List (CEL)*
 --------------------------------------------------
 also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, Resource Candidates <!-- from MAP -->
 
-> *A Candidate Endpoint List (CEL) records early API design results in list or table form.*
+> *A Candidate Endpoint List (CEL) captures early API design results in overview form.*
 
 <!-- STX4ZIO: I wasn't happy with the current synopsis (too similar to REL, and the "list" is already in the title (not the table though)) so I tried to come up with a new one:
 
-> *A Candidate Endpoint List (CEL) presents a preliminary API design derived from analysis and design activities.*
+> *A Candidate Endpoint List (CEL) outlines a initial API design derived from analysis results.*
 
+ZIO4STX: Thx, edited further. Make sure table format is mentioned later. TODO decide
  -->
 
 
