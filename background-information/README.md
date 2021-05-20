@@ -36,11 +36,13 @@ More snippets of method engineering and usage principles are:
 
 This section certainly does not aim to be complete; please send additions via pull requests if you miss a method you have applied or created.
 
-Methods from the 1970s, 1980s, 1990s:
+Methods from the 1970s, 1980s, 1990s include:
 
-* Structured Analysis (SA)
-* Object-Oriented Analysis and Design (OOAD), supported by a number of methods such as Booch, OMT, OOSE; several OOAD methods later converged in UML and the Unified Process (UP) 
-* Enterprise Architecture Management (EAM) frameworks and methods such as TOGAF and Zachman
+* [Structured Analysis (SA)](https://en.wikipedia.org/wiki/Structured_analysis)
+* Object-Oriented Analysis and Design (OOAD), supported by a number of methods such as Booch, OMT, OOSE; several OOAD methods later converged in UML and the Unified Process (UP). Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) provides historical information on object-orriented methods and beyond throughout the book.
+* Enterprise Architecture Management (EAM) frameworks and methods such as TOGAF and Zachman complement the above examples, moving from building construction to city planning (in the civil architecture metaphor).
+
+<!-- State of the practice in 1998: http://www.bradapp.net/links/swe-links.html#SwE (from C. Larman book, page 40; other links gone or included here -->
 
 And the 2000s:
 

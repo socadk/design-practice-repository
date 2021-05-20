@@ -23,9 +23,10 @@ API and service design have high [architectural significance](https://en.wikiped
 
 
 ### Goal and Purpose (When to Use and When not to Use)
-<!--
-> *TODO 2021: goal and purpose story (see ADC, ADM), should identify the performing role and the target audience (producer, consumer)* 
--->
+
+<!-- ZIO4STX: Thanks! I like your suggestion, edited a bit to enhance. -->
+
+> *As an architect and/or product owner, I want to design loosely coupled services that expose business capabilities through well-defined, quality-driven APIs so that clients can satisfy their information needs and initiate server-side processing.*  
 
 This activity has the objective to answer the questions raised under 'Context' above. It delivers:
 
@@ -65,7 +66,7 @@ There is no single path to APIs and service endpoints of quality and style. When
     * If needed, *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. 
     * [*Refactor*](https://www.ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
 
-6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or an minimum viable API product).
+6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or a minimum viable API product).
     * Integrate and test these stubs; iterate and revise the list as needed. If the results are good enough, go ahead and *specify service contracts including protocol bindings and technology mappings* in an [API Description](../artifact-templates/SDPR-APIDescription.md) also known as service contract. 
     * Optionally, establish [Service Level Agreements](../artifact-templates/SDPR-ServiceLevelAgreement.md) and [Rate Plans](https://microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/RatePlan). 
     * Also decide on (micro-)service deployment technologies and infrastructure middleware such as [API gateways](https://microservices.io/patterns/apigateway.html), load balancers, and container orchestration engines as well as cloud offerings (@Fehling:2014), again capturing your architectural decisions in the log.
@@ -198,9 +199,13 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
 
-<!-- The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices". -->
+<!-- TODO 2021:
 
-<!-- https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ -->
+* (tbd) The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices".
+* CAPs https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ 
+* (tbd) https://www.infoq.com/articles/api-first-integration/ 
+
+-->
 
 [Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
 
