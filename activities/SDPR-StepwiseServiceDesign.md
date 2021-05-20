@@ -24,9 +24,7 @@ API and service design have high [architectural significance](https://en.wikiped
 
 ### Goal and Purpose (When to Use and When not to Use)
 
-<!-- ZIO4STX: Thanks! I like your suggestion, edited a bit to enhance. -->
-
-> *As an architect and/or product owner, I want to design loosely coupled services that expose business capabilities through well-defined, quality-driven APIs so that clients can satisfy their information needs and initiate server-side processing.*  
+> *As an architect and/or product owner, I want to design loosely coupled services that expose business capabilities through well-defined, quality-driven APIs so that clients can satisfy their information needs and initiate server-side processing efficiently.*  
 
 This activity has the objective to answer the questions raised under 'Context' above. It delivers:
 

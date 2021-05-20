@@ -47,7 +47,7 @@ The original DDD book @Evans:2003 provides this pattern map for tactic DDD (show
 -->
 The following domain model for Tactic DDD gives an overview of the patterns in it:
 
-![Tactic DDD Concepts and their Relations](/activities/images/TacticDDDMetaModel.png) <!-- STX4ZIO: Redone in PlantUML to get a more unified style with the example below. -->
+![Tactic DDD Concepts and their Relations](/activities/images/TacticDDDMetaModel.png) <!-- Redone in PlantUML to get a more unified style with the example below. -->
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together.[^101] Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity.
 
