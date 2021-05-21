@@ -1,4 +1,8 @@
 
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities/readme-gp) ---
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles/readme-gp)
+
 ## DPR: *Artifacts and Templates for Them*
 
 ### Context and Motivation 
