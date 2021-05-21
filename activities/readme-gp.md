@@ -123,12 +123,6 @@ Some of the ones we have contributed to, or work on, are:
 More specific information, also about other tools, can be found on the individual pages.
 
 
-### More Information 
-
-* See [top-level readme](../README.md).
-* See [background information folder](../background-information).
-
-
 ## DPR Metadata
 
 ```yaml
