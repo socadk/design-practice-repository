@@ -1,9 +1,5 @@
 
-[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Activities Overview](https://socadk.github.io/design-practice-repository/activities/readme-gp) ---
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles/readme-gp)
-
-## DPR: *Artifact/Templates Overview*
+## DPR: *Artifacts and Templates for Them*
 
 ### Context and Motivation 
 
@@ -66,12 +62,17 @@ Some evaluation and assessment templates are:
 * [API/Code Review Checklist](futureWork/SDPR-APIReviewChecklist.md)
 
 
+### More Information
+
+See [top-level readme](../README.md) for a general motivation "why DPR?". See [background information folder](../background-information) for design principles of DPR and a recap of method and practice engineering from the 1990s to present.
+
+
 ## DPR Metadata
 
 ```yaml
 title: "Design Practice Repository (DPR): Templates and Artifacts Overview"
 author: Olaf Zimmermann (ZIO)
-date: "04, 25, 2020"
+date: "03, 27, 2020 (Source: Project DD-DSE)"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 ```
 

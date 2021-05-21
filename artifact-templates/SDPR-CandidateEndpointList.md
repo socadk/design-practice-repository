@@ -14,7 +14,8 @@ Artifact/Template: *Candidate Endpoint List (CEL)*
 --------------------------------------------------
 also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, Resource Candidates <!-- from MAP -->
 
-> *A Candidate Endpoint List (CEL) records early API design results in list or table form.*
+> *A Candidate Endpoint List (CEL) outlines a initial API design, derived from analysis results.*
+
 
 ### Motivation (Addressed Information Need) 
 <!-- copy-pasted from https://internal.microservice-api-patterns.org/patterns/identification/CandidateEndpointList.html TOOO decide pattern/method split, pattern has more content already -->

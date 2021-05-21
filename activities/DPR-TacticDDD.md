@@ -50,7 +50,7 @@ The original DDD book @Evans:2003 provides this pattern map for tactic DDD (show
 -->
 The following domain model for Tactic DDD gives an overview of the patterns in it:
 
-![Tactic DDD Concepts and their Relations](./images/TacticDDDMetaModel.png) <!-- STX4ZIO: Redone in PlantUML to get a more unified style with the example below. -->
+![Tactic DDD Concepts and their Relations](./images/TacticDDDMetaModel.png) <!-- Redone in PlantUML to get a more unified style with the example below. -->
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). All entities and value objects in this aggregate are stored in and loaded from the database together.[^101] Entities have an identity and a life cycle; while value objects do not and are immutable. Services contain logic that cannot be easily assigned to a single entity.
 
@@ -94,7 +94,7 @@ The first meaning of the term is not in focus here, but can be modeled as Entity
 3. Add a Repository for each Aggregate (to implement lifecycle management) and add Factories as needed (generally speaking, never apply a pattern just because it exists; there has to be a solid business-level or technical justification for its use).
 
 <!-- Source: https://miro.com/app/board/o9J_lM74VxE=/ Select the frame -> export as image -->
-![Modeling Steps From Analysis to Design](./images/TacticDDDSteps.jpg)
+![Modeling Steps From Analysis to Design](./images/DPR-TacticDDDSteps.jpg)
 
 
 ### Example(s)
@@ -174,8 +174,11 @@ There is a GitHub organization called ["DDD Crew"](https://github.com/ddd-crew) 
 * Michael Ploed shares his presentation slides on [Speaker Deck](https://speakerdeck.com/mploed) and also has a [DDD ebook](https://leanpub.com/ddd-by-example) on LeanPub (@Ploed:2019). 
 * The DDD Europe organization has published the ["Domain-Driven Design: The First 15 Years"](https://leanpub.com/ddd_first_15_years/) on LeanPub, a collection of "old and new essays" by "prominent authors in the software design world". 
 * The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity.html).
-* Consult [the IFS website](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
+* Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) does not cover DDD specifically, but still has very valid advice for tactic DDD work. For instance, Chapter 9 provides detailed guidance how to find conceptual classes.
 
+<!--
+* Consult [the IFS website](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
+-->
 
 ### Data Provenance 
 

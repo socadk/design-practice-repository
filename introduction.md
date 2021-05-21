@@ -4,13 +4,11 @@
 # SPDX-License-Identifier: CC-BY-4.0
 -->
 
-[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) 
-
 # Design Practice Repository (DPR)
 
 <!-- "DPR" pronounced "deeper"... and Se (or C?) can be pronounced "see", so [O] see deeper... or "steeper" ;-) -->
 
-*Welcome to Software/Service/API Design Practice Repository (DPR), pronounced "deeper"!* 
+*Welcome to Software/Service/API Design Practice Repository (DPR) (pronounced "deeper")!* 
 
 This public repository collects method elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond).
 
@@ -49,22 +47,22 @@ The activities and artifacts that we have collected so far are:
 
 There is an [introductory blog post](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd). And the [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
-We also provide a [bibliography](./background-information/literature.md).
+We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 
 ### *Status*
 
 Version 1.2, released on December 7, 2020, added one activity and one artifact:
 
 * [Story splitting](/activities/DPR-StorySplitting.md) for planning and design purposes
-* [Component, Responsibility, Collaboration (CRC) cards](artifact-templates/DPR-CRCCard.md), an OOAD veteran repurpose for architecture design 
+* [Component, Responsibility, Collaboration (CRC) cards](artifact-templates/DPR-CRCCard.md), an OOAD veteran repurposed for architecture design 
 
 Tutorial 1 also was enhanced, as well as several other activity and artifact descriptions. We also added (even) more pointers to background information. 
 
 Since then, we have copy edited all content and provided additional references.
 
-### Preview: DPR eBook
+### *Preview: DPR eBook*
 
-*Update (April 8, 2021):* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
+*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
 
 
 ## Terminology Clarification
@@ -116,8 +114,14 @@ Contributors (input, technical writing, feedback):
 
 
 ## Getting Involved 
+If you would like to help improve this collection of software/service/API design practices:
 
-Information can be found [in the repository](https://socadk.github.io/design-practice-repository/contributing/CONTRIBUTING.md).
+* Feel free to create GitHub issues.
+* Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository, and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
+    * The ["contributing" folder](./contributing) has templates for artifact, activity, role descriptions.
+* [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
+
+More information can be found [here](contributing/CONTRIBUTING.md).
 
 
 ## DPR Metadata 

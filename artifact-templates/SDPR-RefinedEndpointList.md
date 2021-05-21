@@ -14,7 +14,7 @@ Artifact/Template: *Refined Endpoint List (REL)*
 ------------------------------------------------
 also known as: Ordered Endpoint List, Final API Action Plan, Detailed API Roadmap, Resource Specifications <!-- from MAP -->
 
-> *A Refined Endpoint List (REL) records intermediate API design results in list or table form.*
+> *A Refined Endpoint List (REL) records intermediate API design results on a medium level of abstraction/refinement and detail, showing endpoints with their responsibilities and data contracts.*
 
 ### Motivation (Addressed Information Need) 
 

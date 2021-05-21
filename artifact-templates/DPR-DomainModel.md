@@ -69,7 +69,7 @@ Rapid prototyping tools, such as [JHipster](https://www.jhipster.tech/), can tur
 When UML-based methods and their predecessors are applied, chances are that a domain model is present:
 
 * ["UML Components"](https://www.pearson.com/us/higher-education/program/Cheesman-UML-Components-A-Simple-Process-for-Specifying-Component-Based-Software/PGM319361.html) by John Cheesman and John Daniels has a *business type model* artifact (which is an early OOA domain model).
-* Craig Larman's book "Applying UML and Patterns" (@Larman:2004) covers OOA and OOD. 
+* Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) covers OOA and OOD. Note that the "Domain Model" is the OOA artifact, while the OOD output is captured in an atifact called "Design Model". 
 * [Tactic DDD](../activities/DPR-TacticDDD.md) can be seen as domain modeling "on steroids".
 
 

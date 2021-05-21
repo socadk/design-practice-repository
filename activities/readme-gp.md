@@ -1,6 +1,3 @@
-[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates/readme-gp) ---
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles/readme-gp) 
 
 ## DPR: *Activities in Service Design and Agile Architecting*
 
@@ -123,12 +120,18 @@ Some of the ones we have contributed to, or work on, are:
 More specific information, also about other tools, can be found on the individual pages.
 
 
+### More Information 
+
+* See [top-level readme](../README.md).
+* See [background information folder](../background-information).
+
+
 ## DPR Metadata
 
 ```yaml
 title: "Design Practice Repository (DPR): Activities (Practices, Techniques) Overview"
 author: Olaf Zimmermann (ZIO)
-date: "04, 25, 2021"
+date: "03, 17, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 ```
 

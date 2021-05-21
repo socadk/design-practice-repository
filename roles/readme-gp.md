@@ -1,8 +1,5 @@
-[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Activities Overview](https://socadk.github.io/design-practice-repository/activities/readme-gp) ---
-[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates/readme-gp)
 
-## DPR: *Roles*
+## DPR: *Roles* 
 
 a.k.a. Software Engineering/Service Design Personas
 
@@ -56,7 +53,7 @@ We have identified a number of roles already, but only documented two of them so
 ```yaml
 title: "Design Practice Repository (DPR): Roles and Personas Overview"
 author: Olaf Zimmermann (ZIO)
-date: "04, 25, 2021"
+date: "01, 15, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 ```
 

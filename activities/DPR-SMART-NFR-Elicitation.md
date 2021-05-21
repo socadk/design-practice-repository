@@ -43,7 +43,7 @@ The following figure suggests a three-step approach:
 ### Instructions (Synopsis, Definition)
 *Select and apply a taxonomy consistently.* There are many different NFRs, Quality Attributes (QAs) in particular. Many of these pertain to the runtime, others deal with software support and maintenance. Therefore, many attempts have been made to organize the QA landscape (ordered from informal and ad hoc to formal and complete): <!-- POINT post has D-O-M -->
 
-* A basic, easy-to-remember *FURPS+* classification was originally introduced by Robert Grady in the 1990s according to [this article by Peter Eeles](https://www.researchgate.net/publication/329760910_Capturing_Architectural_Requirements) that introduces the elements of FURPS+ and provides examples.
+* A basic, easy-to-remember *FURPS+* classification was originally introduced by Robert Grady in the 1990s according to [this article by Peter Eeles](https://www.researchgate.net/publication/329760910_Capturing_Architectural_Requirements). The article introduces the elements of FURPS+ and provides examples.
 * ISO 9126 and its successor [ISO 25010](http://iso25000.com/index.php/en/iso-25000-standards/iso-25010) are used in ["Effektive Softarearchitekturen"](https://www.gernotstarke.de/buecher#2020) (@Starke:2015) and also recommended to be used in [arc42](https://arc42.org/overview/) descriptions.
 * SEI quality utility trees are recommended in [this article](http://arnon.me/2010/05/utility-trees-hatching-quality-attributes/) by Arnon Rotem-Gal-Oz as well as [arc42 tip 10-2](http://docs.arc42.org/tips/10-2/). 
 
@@ -149,7 +149,7 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 * [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) (@Barbacci:2002). Michael Keeling introduces them <!-- as activity 7 in his Architect's Toolbox in --> in his book ["Design It"](https://pragprog.com/titles/mkdsa/design-it/) and his 2015 IEEE Software Insights column ["Lightweight and Flexible"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7093052).
 * [Quality Storming](https://speakerdeck.com/mploed/quality-storming) by Michael Ploed
-
+* Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) covers parts of the Unfied Process (UP) and, like UP,  suggests the FURPS+ taxonomy for functional and non-functional requirements.
 
 ### More Information 
 See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by Cesare Pautasso and Olaf Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.

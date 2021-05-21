@@ -71,6 +71,11 @@ Note that the relationship types do not exclude, but complement each other by de
 
 Strategic DDD identifies Bounded Contexts and then answers these questions to end up at the right pattern for any given relationship. [Context Mapper](https://contextmapper.org/docs/bounded-context/) can help doing so; it features DDD patterns and enforces additional semantic validation rules. The resulting [Context Maps](../artifact-templates/DPR-StrategicDDDContextMap.md) can drive the architectural decision making in API design. Follow-on decisions then pertain the integration style and technology.
 
+<!-- TODO explain FAST and link to Context Mapper paper -->
+
+<!-- Source: https://miro.com/app/board/o9J_lIRKK0Y=/ Select the frame -> export as image -->
+![Suggested Steps in Strategic DDD](./images/DPR-StrategicDDDSteps.jpg)
+
 
 ### Example(s)
 The [Context Mapper website](https://contextmapper.org/docs/examples/) provides a number of examples of tactic and strategic, including a model of the [Lakeside Mutual](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/insurance-example) microservices ecosystem:
