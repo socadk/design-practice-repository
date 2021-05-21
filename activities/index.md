@@ -15,4 +15,4 @@ This version of DPR contains the following activities:
 
 ### More information
 
-An extended overview can be found in the [Activities Readme](readme.md).
+An extended overview can be found in the [Activities Readme](readme-gp.md).
