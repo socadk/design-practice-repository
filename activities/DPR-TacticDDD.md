@@ -8,8 +8,8 @@ Abstraction/Refinement Level: Conceptual
 ---
 
 
-Activity/Technique: *Tactic Domain-Driven Design (DDD)*
--------------------------------------------------------
+Activity/Technique: *Tactic(al) Domain-Driven Design (DDD)*
+------------------------------------------------------------
 also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 
@@ -23,7 +23,7 @@ also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
 
 > *As a domain-driven designer, I want to design software concepts to address and satisfy requirements so that the stakeholder wants and needs are met in an understandable and traceable way.*
 
-Tactic DDD can be seen as [Object-Oriented Analysis and Design (OOAD)](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) done well, putting emphasis on the business logic in layered architecture and elaborating upon the [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) pattern in Martin Fowler's "Patterns of Enterprise Application Architecture" (@Fowler:2002). The goals of OOAD and tactic DDD are:
+Tactic (or tactical) DDD can be seen as [Object-Oriented Analysis and Design (OOAD)](https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design) done well, putting emphasis on the business logic in layered architecture and elaborating upon the [Domain Model](https://martinfowler.com/eaaCatalog/domainModel.html) pattern in Martin Fowler's "Patterns of Enterprise Application Architecture" (@Fowler:2002). The goals of OOAD and tactic DDD are:
 
 * Establish a [ubiquitous language](https://martinfowler.com/bliki/UbiquitousLanguage.html) with users, other external stakeholders, and within the team
 * Find out what to implement (analysis)
@@ -33,7 +33,7 @@ Tactic DDD can be seen as [Object-Oriented Analysis and Design (OOAD)](https://e
 
 
 ### Instructions (Synopsis, Definition)
-Key patterns in tactic DDD are (@Evans:2003):
+Key patterns in Tactic DDD are (@Evans:2003):
 
 * Entity and Value Object
 * Aggregate with a single Root Entity also called Aggregate Root (that may link to additional ones)
