@@ -11,11 +11,11 @@ Abstraction/Refinement Level: Both conceptual (platform-independent) and technic
 also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
 
 ### Context
-The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) website motivates the need for Application Programming Interface (API) and (micro-)service design as this: 
+The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) website motivates the need for Application Programming Interface (API) and (micro-)service design as this:  
 
 "While much has been said about microservices in general and about supporting infrastructure architectures, the actual service design has received less attention:
 
-* How many services should be exposed? What is an adequate size for them?
+* How many services should be exposed? What is an adequate size for them? <!-- TODO 2021: review [FB] and [Q]s: + 1. what does "exposed" mean, 1:n for deployment unit:service? 2. size of API or underlying implementation (breadth, depth)? 3. "remote services" and 3. "service-client interactions" (for LC) -->
 * How to ensure that services are loosely coupled? How much data should they exchange, and how often does this happen?
 * What are the most suitable message representations? How to agree on the meaning of each message?"
 
@@ -31,7 +31,7 @@ This activity has the objective to answer the questions raised under 'Context' a
 1. Platform-independent *interface specifications*, including [API Description a.k. a. service contract](/artifact-templates/SDPR-APIDescription.md) and [Service Level Agreement (SLA)](/artifact-templates/SDPR-ServiceLevelAgreement.md).
 2. At least one serialization *technology mapping* and communication *protocol binding* for this design (for instance, JSON schemas and HTTP resource contracts). 
 
-This activity includes [Domain-Driven Design (DDD)](./DPR-TacticDDD.md); other forms of business-driven forward engineering can be used alternatively. It is commonly used when [Backend Integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration) are realized. It can also be applied in [Frontend Integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration); in that case, [User Interface Mocking](./DPR-UserInterfaceMocking.md) is an alternative and complementary activity. 
+This activity includes [Domain-Driven Design (DDD)](./DPR-TacticDDD.md). It is commonly used when [Backend Integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration) are realized. It can also be applied in [Frontend Integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration); in that case, [User Interface Mocking](./DPR-UserInterfaceMocking.md) is an alternative and complementary activity. 
 
 
 ### Instructions (Synopsis, Definition)
@@ -46,22 +46,27 @@ There is no single path to APIs and service endpoints of quality and style. When
 -->
 
 1. *Understand the business problem as well as stakeholder wants and needs, including desired system qualities.* 
-    * Before anything can be designed, we ought to know: what should be delivered (on the project, by the software), and why? Which quality properties are desired? Many workshop techniques supporting this step exist, for instance (to name just two) [event storming](https://www.eventstorming.com/) and [quality storming](https://speakerdeck.com/mploed/quality-storming).
-    * Arnaud Lauret suggests the notion of API goals, driven by end user wants and frontend application needs, in ["The Design of Web APIs"](https://apihandyman.io/about/#my-book-the-design-of-web-apis) (@Lauret:2019). No matter which technique or template you use, elicit the Non-Functional Requirements (NFRs) in a [SMART, value- and risk-driven](DPR-SMART-NFR-Elicitation.md) way (@Fairbanks:2010).
+    * Before anything can be designed, we ought to know: what should be delivered (on the project, by the software), and why? Which quality properties are desired? 
+    * Arnaud Lauret suggests the notion of API goals, driven by end user wants and frontend application needs, in ["The Design of Web APIs"](https://apihandyman.io/about/#my-book-the-design-of-web-apis) (@Lauret:2019).
 
 2. *Model the business domain and group related capabilities*, for instance by applying [Tactic DDD](DPR-TacticDDD.md) and [Strategic DDD](DPR-StrategicDDD.md) (@Vernon:2013).
+    * [Event storming](https://www.eventstorming.com/) is a workshop technique supporting this step. Many alternative forms of business-driven forward engineering exist and can be blended in. Two examples are event-driven process chains and use case scenario walkthroughs.
     * If "buy" or "rent" is an option (rather than "build" from scratch only), also reverse engineer the interfaces and domain models of the existing systems to be bought or rented and integrated and model them on the same level of detail as those representing the results from forward engineering.
+    * No matter which technique or template you use to elicit the related Non-Functional Requirements (NFRs), do so in a [SMART, value- and risk-driven](DPR-SMART-NFR-Elicitation.md) way (@Fairbanks:2010). [Quality storming](https://speakerdeck.com/mploed/quality-storming) is one option.
 
-3. *Split applications into frontends and backends*, again applying [Strategic DDD](DPR-StrategicDDD.md) and/or other patterns for distributed computing while doing so (@Buschmann:2007, @RenzelKeller:1997).     
-    * While designing, *capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made* and *[model](DPR-ArchitectureModeling.md) the resulting architecture*.
+3. *Split applications into frontends and backends*, again applying [Strategic DDD](DPR-StrategicDDD.md). 
+    * Use patterns for distributed computing while doing so (@Buschmann:2007, @RenzelKeller:1997).     
+    * Apply recognized system decomposition techniques, considering coupling criteria, during this step. The method promoted by [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria), for instance, is based on a catalog of such criteria. Context Mapper integrated this approach, see ["Context Map Suggestions with Service Cutter"](https://contextmapper.org/docs/service-cutter-context-map-suggestions/).
+    * While designing, capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made and [model](DPR-ArchitectureModeling.md) the resulting architecture.
 
 4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API endpoints and their roles. 
     * For each candidate endpoint, foresee a [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html) that exposes [Data Transfer Objects (DTOs)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) in the request and response messages of its API operations to decouple the (published) languages of frontends and backends and to optimize the message exchange over the network w.r.t exchange frequency and message size. 
-    * Consider to add a [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) to further encapsulate the business logic, to control transactions and to coordinate responses (@Fowler:2002). 
+    * Consider adding a [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) to further encapsulate the business logic, to control transactions and to coordinate responses (@Fowler:2002). Note that the term *service* is overloaded; it can refer to remote API services (and this is what this activity is all about), but also to supporting local application, domain, and infrastructure services (see description of [Tactic DDD](./DPR-TacticDDD.md)).
     * Capture your architectural decisions about these patterns as well as resulting additional decisions. 
 
 5. *Specify operation responsibilities and data formats to yield a [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md)* and *map the endpoints to existing or new API providers*.
     * If needed, *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. 
+    * Criteria-based decomposition approaches such as those listed under Step 3 as well legacy modernization and transformation techniques can be used. See for instance the [Strangler Fig Application](https://martinfowler.com/bliki/StranglerFigApplication.html) approach described by Martin Fowler and ["Working Effectively with Legacy Code"](https://www.infoq.com/podcasts/working-effectively-legacy-code/) by Michael Feathers. <!-- TODO (v13) fact check -->
     * [*Refactor*](https://www.ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
 
 6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or a minimum viable API product).
@@ -78,7 +83,7 @@ In DPR, the seven top-level steps and activities are supported by one or more [*
 
 1. Functional requirements are often communicated and specified as [User Stories](../artifact-templates/DPR-UserStory.md) and/or [Use Cases](../artifact-templates/DPR-UseCase.md). 
 2. [Domain Models](../artifact-templates/DPR-DomainModel.md) on different levels of elaboration and refinement capture the results of Object-Oriented Analysis and Design (OOAD) in general and [Tactic DDD](DPR-TacticDDD.md) in particular; [Context Maps](../artifact-templates/DPR-StrategicDDDContextMap.md) result from [Strategic DDD](DPR-StrategicDDD.md).
-3. Many templates exist for [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md), which has emerged from an unwelcome but important side activity to a full-fledged practice. DPR includes [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md) that can be captured in [Markdown Architectural Decision Records](https://github.com/adr/madr) or directly in the code. Many options for visualizing/diagramming architectures exist; DPR lists a few practices, notations, and tools in the [Architecture Modeling](DPR-ArchitectureModeling.md) activity. Enterprise Architecture Management and frameworks such as TOGAF are out of scope of DPR at present.
+3. [Context Maps](../artifact-templates/DPR-StrategicDDDContextMap.md) can also record the results of systematic system decomposition work. Many templates exist for [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md), which has emerged from an unwelcome but important side activity to a full-fledged practice. DPR includes [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md) that can be captured in [Markdown Architectural Decision Records](https://github.com/adr/madr) or directly in the code. Many options for visualizing/diagramming architectures exist; DPR lists a few practices, notations, and tools in the [Architecture Modeling](DPR-ArchitectureModeling.md) activity. Enterprise Architecture Management and frameworks such as TOGAF are out of scope of DPR at present.
 4. The [Candidate Endpoint List (CEL)](../artifact-templates/SDPR-CandidateEndpointList.md) balances flexibility and expressivity. It translates user stories/use cases and domain model elements into API requirements. <!-- Online articles, for instance by [Mike Amundsen](https://www.infoq.com/articles/web-api-design-methodology/), and an [ebook by Phil Sturgeon](https://apisyouwonthate.com/books/build-apis-you-wont-hate) provide pragmatic and tangible advice for this step. -->  
 5. The [Refined Endpoint List (REL)](../artifact-templates/SDPR-RefinedEndpointList.md) then is more precise and assertive. It can specify endpoint roles and operation responsibilities by referencing patterns, and also identify data formats and media types as well as provider implementation candidates and related decisions.
 6. Step 6 from above should be "business as usual" for agile full stack developers and integration specialists for the most part, yielding an expressive, understandable [API Description](../artifact-templates/SDPR-APIDescription.md). Both the abstract "port" level as well as technology-specific "adapter" bindings should be covered in it; both business and technical information has to be published in it. <!-- TODO (v2) write about "API TDD", jUnit, Postman, SOAPUI, Swagger tools, etc.; bring in review checklist from @Lauret:2019 (can also go to Step 7) -->
@@ -99,7 +104,7 @@ For API testing, refer to:
 
 
 ### Example(s)
-DPR [Tutorial 1](https://github.com/socadk/design-practice-repository/blob/master/tutorials/DPR-Tutorial1.md) applies the seven steps to an online shop example. 
+DPR [Tutorial 1](https://github.com/socadk/design-practice-repository/blob/master/tutorials/DPR-Tutorial1.md) applies the seven steps to an online shop example. [MAP Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) provides an additional application example.
 
 In the end-to-end demo for tool-supported API design and service identification ["Domain-Driven Service Design with Context Mapper and MDSL"](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an OpenAPI generator: 
 
@@ -122,8 +127,6 @@ Step 6. Generate MDSL Service Contracts
 Step 7. Convert into OpenAPI Specification (OAS)
 Step 7a (optional). Use OpenAPI Specification to Update Application Stub
 -->
-
-See [MAP Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for an additional application example.
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)

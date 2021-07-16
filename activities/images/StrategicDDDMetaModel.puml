@@ -1,0 +1,101 @@
+
+@startuml StrategicDDDMetaModel
+
+' TODO right now these are all "classes", this could be improved:
+' https://plantuml.com/class-diagram#4b62dd14f1d33739
+
+hide members
+
+class Subdomain
+
+class "Core Domain" as CoreDomain
+class "Supporting Subdomain" as SupportingSubdomain
+class "Generic Subdomain" as GenericSubdomain
+
+Subdomain <|- CoreDomain
+Subdomain <|-- SupportingSubdomain 
+Subdomain <|-- GenericSubdomain
+
+class "Model Partitioning Concept" as ModelPartitioningConcept
+
+Subdomain --|> ModelPartitioningConcept : "conceptual/functional"
+
+class Aggregate
+
+Aggregate --> Subdomain
+
+Aggregate --> Aggregate : "consult root entity of another"
+
+note top of Aggregate
+  Aggregate encaspulates
+  other tactic DDD 
+  patterns (not shown)
+end note
+ 
+class BoundedContext
+
+BoundedContext --|> ModelPartitioningConcept : "technical/organizational"
+
+BoundedContext "1..*" --> "1..*" Subdomain : "realizes parts of"
+
+Aggregate "1..*" --* BoundedContext 
+
+class "Context Map" as ContextMap
+
+ContextMap *-- BoundedContext 
+
+class "Buy vs. Build Decision" as BuyVsBuildDecision << (?,Orange) >> 
+
+ModelPartitioningConcept --> BuyVsBuildDecision : "is subject to"
+ContextRelationship --> BuyVsBuildDecision : "is subject to"
+
+ContextMap --> BuyVsBuildDecision : "can support"
+ContextMap --> IntegrationStyleTechnologyDecisions : "can support"
+
+class "Context Relationship" as ContextRelationship
+
+ContextMap *-- ContextRelationship
+
+class "Published Language (PL)" as PublishedLanguage
+
+'ContextRelationship --> PublishedLanguage : "exposes"
+PublishedLanguage --|> ContextRelationship
+
+note right of ContextRelationship
+  Separate Ways
+  relationship
+  not shown
+end note
+
+class "Shared Kernel (Library)" as SharedKernel
+class "Open Host Service (OHS)" as OpenHostService
+class "Customer/Supplier" as CustomerSupplier
+class "Anti-Corruption Layer (ACL)" as AntiCorruptionLayer
+class Conformist
+
+SharedKernel --|> ContextRelationship
+OpenHostService --|> ContextRelationship
+CustomerSupplier --|> ContextRelationship
+Conformist --|> ContextRelationship
+AntiCorruptionLayer --|> ContextRelationship
+
+SharedKernel <-> Partnership : "alternative to"
+'SharedKernel <-> OpenHostService : "alternative to"
+Partnership <-> CustomerSupplier : "alternative to"
+CustomerSupplier <-> OpenHostService : "alternative to"
+CustomerSupplier --> AntiCorruptionLayer : "may use"
+Conformist --> AntiCorruptionLayer : "often uses"
+OpenHostService --> Conformist : "turns client into"
+
+class "Integration Style and Technology Decisions" as IntegrationStyleTechnologyDecisions << (?,Orange) >> 
+
+'SharedKernel --> IntegrationStyleTechnologyDecisions : "requires"
+'Conformist --> IntegrationStyleTechnologyDecisions : "requires"
+'OpenHostService --> IntegrationStyleTechnologyDecisions : "requires"
+'CustomerSupplier --> IntegrationStyleTechnologyDecisions : "requires"
+ContextRelationship --> IntegrationStyleTechnologyDecisions : "requires"
+
+'BuyVsBuildDecision --> BoundedContext : "pertains to"
+BoundedContext <-- IntegrationStyleTechnologyDecisions : "pertains to"
+
+@enduml
