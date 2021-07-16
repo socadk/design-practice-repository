@@ -7,6 +7,9 @@ Output: "Service contract (with technology mapping and protocol binding), SLA"
 Abstraction/Refinement Level: Both conceptual (platform-independent) and technical (platform-specific)
 ---
 
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[Activities Index](https://socadk.github.io/design-practice-repository./)
+
 ## Activity/Technique: *Stepwise Service Design*
 also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
 
@@ -38,7 +41,7 @@ This activity includes [Domain-Driven Design (DDD)](./DPR-TacticDDD.md). It is c
 
 There is no single path to APIs and service endpoints of quality and style. When "surfing" the Web searching for advice regarding API design and (micro-)service size (or asking the elders), one "rides" at least seven "waves" of analysis and design work (called steps from now on):  
 
-![Service Design Workflow: Seven Steps from Analysis to Design, Realization, Evolution](/activities/images/SDPR-SevenServiceDesignSteps.jpg)
+![Service Design Workflow: Seven Steps from Analysis to Design, Realization, Evolution](./images/SDPR-SevenServiceDesignSteps.jpg)
 
 
 <!-- miro (iframe): 
@@ -108,7 +111,7 @@ DPR [Tutorial 1](https://github.com/socadk/design-practice-repository/blob/maste
 
 In the end-to-end demo for tool-supported API design and service identification ["Domain-Driven Service Design with Context Mapper and MDSL"](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an OpenAPI generator: 
 
-![Service Design Example (BPMN)](/activities/images/SDPR-ServiceDesignSteps.png)
+![Service Design Example (BPMN)](./images/SDPR-ServiceDesignSteps.png)
 
 Finally, the microservices in the sample application [Lakeside Mutual](https://github.com/Microservice-API-Patterns/LakesideMutual) contain several [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) implemented as HTTP resources and DTOs that are serialized into JSON.
 
@@ -182,7 +185,7 @@ Produced artifacts:
 <!-- Taken out of final Q1-2021 release 
 **EXPOSE.** Early presentations on MAP featured six endpoint/service identification and realization steps called EXPOSE (see [this conference presentation]() 2018 seminar presentation) TODO link 
 
-![Proposal of Service Design Steps: EXPOSE](/activities/images/MAP-EXPOSEStepsInServiceDesign.png)
+![Proposal of Service Design Steps: EXPOSE](./images/MAP-EXPOSEStepsInServiceDesign.png)
 -->
 
 **Code first.** Sometimes, a bottom-up approach exposing already existing [solution-internal APIs](https://microservice-api-patterns.org/patterns/foundation/SolutionInternalAPI) is preferred, in particular when only a few straightforward API calls are required: standardized or framework-specific annotations (or other forms of configuration) call our services, operations, and parameters (and map them to JSON and Web server settings). Such code-first approach is supported well, for instance in Web Frameworks; it runs the risk of not meeting API client requirements and violating API design best practices &mdash; unless a dedicated [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and/or [Remote Facades](https://martinfowler.com/eaaCatalog/remoteFacade.html) are included in the architecture to decouple application and domain logic from integrations and interfaces.
@@ -212,7 +215,7 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 
 The SOAD project 2006 to 2009 compiled a number of architectural decisions that are required when designing service-oriented architectures. Being independent of application genre and architectural style, the meta issues in Table 2 from the SOAD paper ["Architectural Decision Identification in Architectural Patterns"](https://soadecisions.org/download/SOAD-SHARK2012v13Final.pdf) can guide the decision making in Steps 3 to 7:
 
-![Meta Issues (Decisions Required) in Service and API Design](/activities/images/SOAD-MetaIssuesShark.png)
+![Meta Issues (Decisions Required) in Service and API Design](./images/SOAD-MetaIssuesShark.png)
 
 Note that in microservices architectures, more options for these decisions (in transition from meta issues to actual decisions required) are available, and the decision drivers may vary too. See [this blog post](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html) and [this article](http://rdcu.be/mJPz) for more information on microservices as an implementation approach to service-oriented architectures.
 

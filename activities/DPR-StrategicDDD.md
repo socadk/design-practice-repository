@@ -7,6 +7,9 @@ Output: Context Map
 Abstraction/Refinement Level: Conceptual 
 ---
 
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[Activities Index](https://socadk.github.io/design-practice-repository/activities)
+
 Activity/Technique: *Strategic Domain-Driven Design (DDD)*
 ----------------------------------------------------------
 
@@ -40,7 +43,7 @@ The key pattern in strategic DDD is *Bounded Context*, an abstraction of a funct
 The following domain model for Strategic DDD gives an overview of the patterns in it (as well as the connection to [Tactic DDD](./DPR-TacticDDD.md) via Aggregates):
 
 <!-- ZIO4STX: redo in puml like T-DDD one? STX4ZIO: Done! -->
-![Strategic DDD Concepts and their Relations](/activities/images/StrategicDDDMetaModel.png)
+![Strategic DDD Concepts and their Relations](./images/StrategicDDDMetaModel.png)
 
 The original DDD book by Eric Evans defined an initial set of relations between Bounded Contexts appearing in a [Context Map](./DPR-StrategicDDDContextMap.md), e.g., the *Conformist* pattern (@Evans:2003). Later on, a few additional types were added. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), Dan Haywood summarizes the original six patterns as this: <!-- ZIO4STX: remove for LP? -->
 
@@ -75,13 +78,13 @@ Note that the relationship patterns do not exclude, but complement each other by
 <!-- TODO explain FAST and link to Context Mapper paper -->
 
 <!-- Source: https://miro.com/app/board/o9J_lIRKK0Y=/ Select the frame -> export as image -->
-![Suggested Steps in Strategic DDD](/activities/images/DPR-StrategicDDDSteps.jpg)
+![Suggested Steps in Strategic DDD](.//images/DPR-StrategicDDDSteps.jpg)
 
 
 ### Example(s)
 The [Context Mapper website](https://contextmapper.org/docs/examples/) provides a number of examples of DDD applied, including a model of a fictitious [microservices ecosystem in the insurance domain](https://github.com/ContextMapper/context-mapper-examples/tree/master/src/main/cml/insurance-example):
 
-![Example Context Map: Lakeside Mutual Case Study](/activities/images/ContextMap-Illustration.png)
+![Example Context Map: Lakeside Mutual Case Study](./images/ContextMap-Illustration.png)
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 An [OOSPLA 2006 experience report](https://dddcommunity.org/wp-content/uploads/files/practitioner_reports/landre_einar_2006_part1.pdf) makes the case for strategic DDD in an oil company. A [second article from the same authors](https://dddcommunity.org/wp-content/uploads/files/practitioner_reports/landre_einar_2006_part2.pdf) reports on usage of strategic DDD in enterprise architecture management. 

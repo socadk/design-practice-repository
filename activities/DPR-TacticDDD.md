@@ -7,6 +7,8 @@ Output: Domain model, DDD pattern instances
 Abstraction/Refinement Level: Conceptual
 ---
 
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[Activities Index](https://socadk.github.io/design-practice-repository./)
 
 Activity/Technique: *Tactic(al) Domain-Driven Design (DDD)*
 ------------------------------------------------------------
@@ -43,11 +45,11 @@ Key patterns in Tactic DDD are (@Evans:2003):
 
 <!-- 
 The original DDD book @Evans:2003 provides this pattern map for tactic DDD (showing more patterns):
-![Pattern Map for Tactic DDD (Eric Evans)](/activities/images/EE-TacticDDDPatternMap.png)
+![Pattern Map for Tactic DDD (Eric Evans)](./images/EE-TacticDDDPatternMap.png)
 -->
 The following domain model for Tactic DDD gives an overview of the patterns in it:
 
-![Tactic DDD Concepts and their Relations](/activities/images/TacticDDDMetaModel.png) <!-- Redone in PlantUML to get a more unified style with the example below. -->
+![Tactic DDD Concepts and their Relations](./images/TacticDDDMetaModel.png) <!-- Redone in PlantUML to get a more unified style with the example below. -->
 
 Aggregates are object clusters serving as storage units, preserving consistency invariants (e.g., an order and its items). They have a single *Root Entity* (also called Aggregate Root) that may link to additional entities. All entities and value objects in an Aggregate are stored in and loaded from the database together.[^101] Entities have an identity and a life cycle; Value Objects do not and are immutable. Services contain logic that cannot be easily assigned to a single Entity.
 
@@ -55,7 +57,7 @@ Aggregates are object clusters serving as storage units, preserving consistency 
 
 The following CRC card outlines the responsibilities and collaborations of Aggregate Roots (i.e., the root entities in an Aggregate):
 
-![CRC Card for DDD Aggregate](/activities/images/ZIO-AggregateCRC.png)
+![CRC Card for DDD Aggregate](./images/ZIO-AggregateCRC.png)
 
 **Aggregates and Business Rules.** An Aggregate in DDD is responsible for business rule enforcement across entities (single entity rules can be enforced by entity). But what is a business rule? The term has (at least) two meanings:
 
@@ -91,7 +93,7 @@ The first meaning of the term is not in focus here, but can be modeled as Entity
 3. Add a Repository for each Aggregate (to implement lifecycle management) and add Factories as needed (generally speaking, never apply a pattern just because it exists; there has to be a solid business-level or technical justification for its use).
 
 <!-- Source: https://miro.com/app/board/o9J_lM74VxE=/ Select the frame -> export as image -->
-![Modeling Steps From Analysis to Design](/activities/images/DPR-TacticDDDSteps.jpg)
+![Modeling Steps From Analysis to Design](./images/DPR-TacticDDDSteps.jpg)
 
 <!-- Review [FB] on figure: 
 
@@ -109,7 +111,7 @@ The Context Mapper website provides a number of [DDD examples](https://contextma
 
 The main Aggregate of the Cargo sample application is shown in the following figure. It comprises a `Cargo` Entity that aggregates different Value Objects. You might be wondering how `Delivery` can be a Value Object with that many attributes indicating some kind of lifecycle (various status attributes, current voyage, last event). If we look at [the implementation](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Delivery.java), we can see that it is in fact implemented as an immutable class that creates a new `Delivery` instance when changes are made.
 
-![Example of a DDD Aggregate in Cargo Case Study](/activities/images/CM-TacticDDDCargoAggregate.png)
+![Example of a DDD Aggregate in Cargo Case Study](./images/CM-TacticDDDCargoAggregate.png)
 
 <!-- Review [FB] busy, (too) rich example -->
 <!-- png created from puml source (had to add a blank to some relationship arrows) in "models" folder -->
