@@ -195,7 +195,7 @@ There is a GitHub organization called ["DDD Crew"](https://github.com/ddd-crew) 
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Tactic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "04, 21, 2021"
+date: "07, 16, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
