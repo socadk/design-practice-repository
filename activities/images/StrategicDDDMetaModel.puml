@@ -6,15 +6,15 @@
 
 hide members
 
+class Subdomain
+
 class "Core Domain" as CoreDomain
 class "Supporting Subdomain" as SupportingSubdomain
 class "Generic Subdomain" as GenericSubdomain
 
-class Subdomain
-
-CoreDomain --|> Subdomain
-SupportingSubdomain --|> Subdomain
-GenericSubdomain --|> Subdomain
+Subdomain <|- CoreDomain
+Subdomain <|-- SupportingSubdomain 
+Subdomain <|-- GenericSubdomain
 
 class "Model Partitioning Concept" as ModelPartitioningConcept
 
@@ -22,11 +22,11 @@ Subdomain --|> ModelPartitioningConcept : "conceptual/functional"
 
 class Aggregate
 
-Aggregate --o Subdomain 
+Aggregate --> Subdomain
 
 Aggregate --> Aggregate : "consult root entity of another"
 
-note left of Aggregate
+note top of Aggregate
   Aggregate encaspulates
   other tactic DDD 
   patterns (not shown)
@@ -47,8 +47,10 @@ ContextMap *-- BoundedContext
 class "Buy vs. Build Decision" as BuyVsBuildDecision << (?,Orange) >> 
 
 ModelPartitioningConcept --> BuyVsBuildDecision : "is subject to"
+ContextRelationship --> BuyVsBuildDecision : "is subject to"
 
 ContextMap --> BuyVsBuildDecision : "can support"
+ContextMap --> IntegrationStyleTechnologyDecisions : "can support"
 
 class "Context Relationship" as ContextRelationship
 
@@ -56,13 +58,12 @@ ContextMap *-- ContextRelationship
 
 class "Published Language (PL)" as PublishedLanguage
 
-ContextRelationship --> PublishedLanguage : "exposes"
+'ContextRelationship --> PublishedLanguage : "exposes"
 PublishedLanguage --|> ContextRelationship
 
 note right of ContextRelationship
-  Separate Ways and 
-  Partnerships
-  relationships
+  Separate Ways
+  relationship
   not shown
 end note
 
@@ -78,15 +79,23 @@ CustomerSupplier --|> ContextRelationship
 Conformist --|> ContextRelationship
 AntiCorruptionLayer --|> ContextRelationship
 
-SharedKernel <--> OpenHostService : "alternative to"
-CustomerSupplier <--> OpenHostService : "alternative to"
+SharedKernel <-> Partnership : "alternative to"
+'SharedKernel <-> OpenHostService : "alternative to"
+Partnership <-> CustomerSupplier : "alternative to"
+CustomerSupplier <-> OpenHostService : "alternative to"
 CustomerSupplier --> AntiCorruptionLayer : "may use"
 Conformist --> AntiCorruptionLayer : "often uses"
 OpenHostService --> Conformist : "turns client into"
 
 class "Integration Style and Technology Decisions" as IntegrationStyleTechnologyDecisions << (?,Orange) >> 
 
-CustomerSupplier --> IntegrationStyleTechnologyDecisions : "requires"
-IntegrationStyleTechnologyDecisions --> BoundedContext : "pertains to"
+'SharedKernel --> IntegrationStyleTechnologyDecisions : "requires"
+'Conformist --> IntegrationStyleTechnologyDecisions : "requires"
+'OpenHostService --> IntegrationStyleTechnologyDecisions : "requires"
+'CustomerSupplier --> IntegrationStyleTechnologyDecisions : "requires"
+ContextRelationship --> IntegrationStyleTechnologyDecisions : "requires"
+
+'BuyVsBuildDecision --> BoundedContext : "pertains to"
+BoundedContext <-- IntegrationStyleTechnologyDecisions : "pertains to"
 
 @enduml

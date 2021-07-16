@@ -11,7 +11,7 @@ Activity/Technique: *Strategic Domain-Driven Design (DDD)*
 ----------------------------------------------------------
 
 ### Context
-While [Tactic DDD](./DPR-TacticDDD.md) deals with implementing domain logic, Strategic DDD deals with integrating the resulting components. It attempts to manage complexity in end-to-end application landscapes, possibly over long periods of time. For small projects and businesses, such long-term perspective might not require this coordination, but software development projects and development organizations at large software-intensive firms usually do. <!-- TODO (M) could indicate "how large is large enough to justify S-DDD -->
+While [Tactic DDD](./DPR-TacticDDD.md) deals with implementing domain logic, Strategic DDD deals with integrating the resulting components. It attempts to manage complexity in end-to-end application landscapes, possibly over long periods of time. Small projects and businesses might not require such long-term perspective and coordination; software development projects and development organizations at large software-intensive firms usually do. <!-- TODO (M) could indicate "how large is large enough to justify S-DDD -->
 
 The interfaces between systems and teams have to be managed somehow, either centrally or decentrally. Enterprise architecture management frameworks such as [TOGAF](https://www.opengroup.org/togaf) can be leveraged to do so; [Scrum of Scrums](https://www.agilealliance.org/glossary/scrum-of-scrums/) and the portfolio level in the [Scaled Agile Framework (SAFe)](https://www.scaledagileframework.com/) address related concerns. Strategic DDD provides patterns and a simple diagram type to either support or complement such efforts.
 
