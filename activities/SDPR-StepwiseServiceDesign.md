@@ -50,13 +50,14 @@ There is no single path to APIs and service endpoints of quality and style. When
     * Arnaud Lauret suggests the notion of API goals, driven by end user wants and frontend application needs, in ["The Design of Web APIs"](https://apihandyman.io/about/#my-book-the-design-of-web-apis) (@Lauret:2019).
 
 2. *Model the business domain and group related capabilities*, for instance by applying [Tactic DDD](DPR-TacticDDD.md) and [Strategic DDD](DPR-StrategicDDD.md) (@Vernon:2013).
-    * Many workshop techniques supporting this step exist, for instance [event storming](https://www.eventstorming.com/). Many alternative forms of business-driven forward engineering exist and can be blended it. Two examples are event-driven process chains and use case scenario walkthroughs.
+    * [Event storming](https://www.eventstorming.com/) is a workshop techniques supporting this step. Many alternative forms of business-driven forward engineering exist and can be blended in. Two examples are event-driven process chains and use case scenario walkthroughs.
     * If "buy" or "rent" is an option (rather than "build" from scratch only), also reverse engineer the interfaces and domain models of the existing systems to be bought or rented and integrated and model them on the same level of detail as those representing the results from forward engineering.
     * No matter which technique or template you use to elicit the related Non-Functional Requirements (NFRs), do so in a [SMART, value- and risk-driven](DPR-SMART-NFR-Elicitation.md) way (@Fairbanks:2010). [Quality storming](https://speakerdeck.com/mploed/quality-storming) is one option.
 
-3. *Split applications into frontends and backends*, again applying [Strategic DDD](DPR-StrategicDDD.md) and/or other patterns for distributed computing while doing so (@Buschmann:2007, @RenzelKeller:1997).     
+3. *Split applications into frontends and backends*, again applying [Strategic DDD](DPR-StrategicDDD.md). 
+    * Use patterns for distributed computing while doing so (@Buschmann:2007, @RenzelKeller:1997).     
     * Apply recognized system decomposition techniques, considering coupling criteria, during this step. The method promoted by [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria), for instance, is based on a catalog of such criteria. Context Mapper integrated this approach, see ["Context Map Suggestions with Service Cutter"](https://contextmapper.org/docs/service-cutter-context-map-suggestions/).
-    * While designing, *capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made* and *[model](DPR-ArchitectureModeling.md) the resulting architecture*.
+    * While designing, capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made* and *[model](DPR-ArchitectureModeling.md) the resulting architecture.
 
 4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API endpoints and their roles. 
     * For each candidate endpoint, foresee a [Remote Facade](https://martinfowler.com/eaaCatalog/remoteFacade.html) that exposes [Data Transfer Objects (DTOs)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) in the request and response messages of its API operations to decouple the (published) languages of frontends and backends and to optimize the message exchange over the network w.r.t exchange frequency and message size. 
@@ -65,6 +66,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 
 5. *Specify operation responsibilities and data formats to yield a [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md)* and *map the endpoints to existing or new API providers*.
     * If needed, *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. 
+    * Criteria-based decomposition approaches such as those listed under Step 3 as well legacy modernization and transformation techniques can be used. See for instance the [Strangler Fig Application](https://martinfowler.com/bliki/StranglerFigApplication.html) approach described by Martin Fowler and ["Working Effectively with Legacy Code"](https://www.infoq.com/podcasts/working-effectively-legacy-code/) by Michael Feathers. <!-- TODO (v13) fact check -->
     * [*Refactor*](https://www.ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
 
 6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or a minimum viable API product).
@@ -102,7 +104,7 @@ For API testing, refer to:
 
 
 ### Example(s)
-DPR [Tutorial 1](https://github.com/socadk/design-practice-repository/blob/master/tutorials/DPR-Tutorial1.md) applies the seven steps to an online shop example. 
+DPR [Tutorial 1](https://github.com/socadk/design-practice-repository/blob/master/tutorials/DPR-Tutorial1.md) applies the seven steps to an online shop example. [MAP Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) provides an additional application example.
 
 In the end-to-end demo for tool-supported API design and service identification ["Domain-Driven Service Design with Context Mapper and MDSL"](https://medium.com/olzzio/domain-driven-service-design-with-context-mapper-and-mdsl-d5a0fc6091c2), the seven steps are applied, and partially automated with the help of [Context Mapper](https://contextmapper.org/news/2020/08/06/v5.15.0-released/) and [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/) tools such as an OpenAPI generator: 
 
@@ -125,8 +127,6 @@ Step 6. Generate MDSL Service Contracts
 Step 7. Convert into OpenAPI Specification (OAS)
 Step 7a (optional). Use OpenAPI Specification to Update Application Stub
 -->
-
-See [MAP Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) for an additional application example.
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
