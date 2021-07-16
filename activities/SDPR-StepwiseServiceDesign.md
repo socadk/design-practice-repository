@@ -8,7 +8,7 @@ Abstraction/Refinement Level: Both conceptual (platform-independent) and technic
 ---
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Activities Index](https://socadk.github.io/design-practice-repository./)
+[Activities Index](https://socadk.github.io/design-practice-repository/activities)
 
 ## Activity/Technique: *Stepwise Service Design*
 also known as: Contract-First, Incremental/Top-Down Service Identification, Iterative API Design and Refinement, Evolutionary Integration Architecting <!-- "eiSD"? -->
@@ -224,7 +224,7 @@ Note that in microservices architectures, more options for these decisions (in t
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "03, 22, 2021"
+date: "07, 16, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
