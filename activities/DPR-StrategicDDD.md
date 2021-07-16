@@ -27,7 +27,7 @@ According to Alberto Brandolini's [InfoQ article on strategic DDD](https://www.i
 3. "External system differences" (heterogeneity)
 4. "Scaling up the organization" (multiple teams) 
 
-Ambiguities that are not detected can cause misunderstandings between stakeholders and create project risk. For instance, different attributes and different relations between domain concepts might have to be analyzed, designed, and implemented. Differences between customers, business partners, and staff members exist (even if they all are human beings) and legal entities/persons might have similar but not the same properties (what would the body mass index of a company be?). Finding out about such facets during integration or interoperability testing causes extra effort and other pain; strategic DDD can unveil such ambiguities, and help manage them.
+Ambiguities that are not detected can cause misunderstandings between stakeholders and create project risk. For instance, different attributes and different relations between domain concepts around people may have to be analyzed, designed, and implemented. Differences between customers, business partners, and staff members do exist and probably matter, even if all three are human beings. And legal entities/persons might have similar but not the same properties (what would the body mass index of a company be?). Finding out about such domain facets when coding or, even worse, during integration or interoperability testing causes extra effort and other pain; strategic DDD can unveil such ambiguities early, and help manage them from then on.
 
 ### Instructions (Synopsis, Definition)
 
@@ -42,7 +42,7 @@ The following domain model for Strategic DDD gives an overview of the patterns i
 <!-- ZIO4STX: redo in puml like T-DDD one? -->
 ![Strategic DDD Concepts and their Relations](/activities/images/ZIO-StrategicDDDMetaModel.png)
 
-The original DDD book by Eric Evans defined an initial set of relations between Bounded Contexts appearing in a [Context Map](./DPR-StrategicDDDContextMap.md), e.g., the *Conformist* pattern (@Evans:2003). Later on, a few additional types were added, for instance *Partnership* and *Big Ball of Mud*. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), Dan Haywood summarizes the original six patterns as this: <!-- ZIO4STX: remove for LP? -->
+The original DDD book by Eric Evans defined an initial set of relations between Bounded Contexts appearing in a [Context Map](./DPR-StrategicDDDContextMap.md), e.g., the *Conformist* pattern (@Evans:2003). Later on, a few additional types were added. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), Dan Haywood summarizes the original six patterns as this: <!-- ZIO4STX: remove for LP? -->
 
 * *Shared Kernel*: "Two bounded contexts use a common kernel of code (for example a library) as a common lingua-franca, but otherwise do their other stuff in their own specific way."
 * *Open Host Service (OHS)*: "A bounded context specifies a protocol by which any other bounded context can use its services (for instance, a RESTful HTTP service or a SOAP Web service). This protocol exposes the Published Language."
@@ -51,9 +51,15 @@ The original DDD book by Eric Evans defined an initial set of relations between 
 * *Conformist*: "One bounded context uses the services of another but is not a stakeholder to that other bounded context. As such it uses "as-is" (conforms to) the protocols or APIs provided by that bounded context."
 * *Anti-Corruption Layer (ACL)*: "One bounded context uses the services of another and is not a stakeholder, but aims to minimize impact from changes in the bounded context it depends on by introducing a set of adapters – an anti-corruption layer."
 
+The extensions are:
+
+* *Partnership* is defined as: "Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release".
+* *Separate Ways*, expressing that it has been decided not to collaborate and/or integrate two Bounded Contexts. Note that not show all relationship patterns (old and newer) appear in the Figure above ("Strategic DDD Concepts and their Relations").
+* *Big Ball of Mud*.
+
 *Note:* These patterns describe organizational relationships, first and foremost (not technical ones). 
 
-Summaries of the patterns from the original DDD book as well as the extensions are available for free download in the book ["Domain-Driven Design Reference"](http://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), also by Eric Evans. For instance, Partnership is defined as: "Where development failure in either of two contexts would result in delivery failure for both, forge a partnership between the teams in charge of the two contexts. Institute a process for coordinated planning of development and joint management of integration. The teams must cooperate on the evolution of their interfaces to accommodate the development needs of both systems. Interdependent features should be scheduled so that they are completed for the same release". An additional relationship pattern is *Separate Ways*, expressing that it has been decided not to collaborate and/or integrate two Bounded Contexts. Note that not show all relationship patterns (old and newer) appear in the Figure above ("Strategic DDD Concepts and their Relations").
+Summaries of the patterns from the original DDD book as well as the extensions are available for free download in the book ["Domain-Driven Design Reference"](http://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), also by Eric Evans. 
 
 While being organizational, the relationships can still serve as input for technical design work. They differing with respect to the following design concerns: 
 
