@@ -39,7 +39,7 @@ Key patterns in Tactic DDD are (@Evans:2003):
 * Aggregate 
 * Service (domain level; not to be confused with Web services, microservices and other remoting concepts)
 * Domain Event
-* Factory and Repository (not that patterns of these names also appear in other pattern catalogs and languages, for instance "Design Patterns") <!-- TODO add bibtex -->
+* Factory and Repository (not that patterns of these names also appear in other pattern catalogs and languages, for instance "Design Patterns" (Gamma:1995))
 
 <!-- 
 The original DDD book @Evans:2003 provides this pattern map for tactic DDD (showing more patterns):
@@ -99,6 +99,8 @@ The first meaning of the term is not in focus here, but can be modeled as Entity
 * Number figures and use numbers in text 
 
 ZIO4STX pls take over 
+
+STX4ZIO: I've added the three steps to the figure.
 
 -->
 

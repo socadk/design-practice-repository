@@ -11,7 +11,7 @@ Activity/Technique: *Strategic Domain-Driven Design (DDD)*
 ----------------------------------------------------------
 
 ### Context
-While [Tactic DDD](./DPR-TacticDDD.md) deals with implementing domain logic, Strategic DDD deals with integrating the resulting components. It attempts to manage complexity in end-to-end application landscapes, possibly over long periods of time. Small projects and businesses such long-term perspective might not require this coordination, but software development projects and development organizations at large software-intensive firms usually do. <!-- TODO (M) could indicate "how large is large enough to justify S-DDD -->
+While [Tactic DDD](./DPR-TacticDDD.md) deals with implementing domain logic, Strategic DDD deals with integrating the resulting components. It attempts to manage complexity in end-to-end application landscapes, possibly over long periods of time. For small projects and businesses, such long-term perspective might not require this coordination, but software development projects and development organizations at large software-intensive firms usually do. <!-- TODO (M) could indicate "how large is large enough to justify S-DDD -->
 
 The interfaces between systems and teams have to be managed somehow, either centrally or decentrally. Enterprise architecture management frameworks such as [TOGAF](https://www.opengroup.org/togaf) can be leveraged to do so; [Scrum of Scrums](https://www.agilealliance.org/glossary/scrum-of-scrums/) and the portfolio level in the [Scaled Agile Framework (SAFe)](https://www.scaledagileframework.com/) address related concerns. Strategic DDD provides patterns and a simple diagram type to either support or complement such efforts.
 
@@ -39,8 +39,8 @@ The key pattern in strategic DDD is *Bounded Context*, an abstraction of a funct
 
 The following domain model for Strategic DDD gives an overview of the patterns in it (as well as the connection to [Tactic DDD](./DPR-TacticDDD.md) via Aggregates):
 
-<!-- ZIO4STX: redo in puml like T-DDD one? -->
-![Strategic DDD Concepts and their Relations](/activities/images/ZIO-StrategicDDDMetaModel.png)
+<!-- ZIO4STX: redo in puml like T-DDD one? STX4ZIO: Done! -->
+![Strategic DDD Concepts and their Relations](/activities/images/StrategicDDDMetaModel.png)
 
 The original DDD book by Eric Evans defined an initial set of relations between Bounded Contexts appearing in a [Context Map](./DPR-StrategicDDDContextMap.md), e.g., the *Conformist* pattern (@Evans:2003). Later on, a few additional types were added. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), Dan Haywood summarizes the original six patterns as this: <!-- ZIO4STX: remove for LP? -->
 
@@ -61,7 +61,7 @@ The extensions are:
 
 Summaries of the patterns from the original DDD book as well as the extensions are available for free download in the book ["Domain-Driven Design Reference"](http://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), also by Eric Evans. 
 
-While being organizational, the relationships can still serve as input for technical design work. They differing with respect to the following design concerns: 
+While being organizational, the relationships can still serve as input for technical design work. They differ with respect to the following design concerns: 
 
 * Symmetric or asymmetric relationship?
 * Topology: local vs. remote interface? 
