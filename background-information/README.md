@@ -56,6 +56,7 @@ And the 2000s:
     * [arc42](https://arc42.org/) is a rich 12-section template for architecture descriptions. It comes with many hints, examples of SMART quality attributes, and much more. Many of the general purpose artifacts in DPR also appear in arc42.
     * Service-Oriented Architecture (SOA) method(s) and SOAD proposal ([HTML](https://www.ibm.com/developerworks/library/ws-soad1/), [PDF](https://www.ibm.com/developerworks/library/ws-soad1/ws-soad1-pdf.pdf))
     <!-- * SOMA and similar proprietary methods (see this paper) -->
+* [Viewpoints and Perspectives Reference](https://www.viewpoints-and-perspectives.info/vpandp/wp-content/themes/secondedition/doc/registered/VPandP_Reference.pdf)
 
 ["The Software Architect’s Role in the Digital Age"](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7725214) reports the state-of-the art and the practice (as of 2016).
 
@@ -116,7 +117,7 @@ See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-toward
 ```yaml
 title: "Design Practice Repository (DPR): Background Information"
 author: Olaf Zimmermann (ZIO)
-date: "02, 12, 2021 (Source: Project DD-DSE, supported by the Hasler-Foundation)"
+date: "08, 18, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
