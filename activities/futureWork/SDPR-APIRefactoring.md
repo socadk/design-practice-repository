@@ -63,9 +63,23 @@ Just like code refactoring, API/interface refactoring causes effort. It removes 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!-- See ART, don’t overdo etc. -->
 
+Document each refactoring in the same form. An exemplary structure is:
+
+* Context and Motivation
+* Stakeholder Concerns (including Quality Attributes and Design Forces)
+* Initial Position Sketch
+* Smells / Drivers
+* Instructions (Steps)
+* Target Solution Sketch (Evolution Outline)
+* Example(s)
+* Hints and Pitfalls to Avoid
+* Related Content
+
+When appying catalof entries: 
+
 * Try to refactor in backward-compatible ways if at all possible; apply semantic versioning if not.
 * Measure the effect of a refactoring, for instance by load testing before and after its application.
-* DO not forget to also refactor the API implementation if that is needed to avoid mismatches between service layer and business logic layer.
+* Do not forget to also refactor the API implementation if that is needed to avoid mismatches between service layer and business logic layer.
 
 
 ### Origins and Signs of Use
@@ -88,6 +102,8 @@ Integration Architect, Service Designer, API Developer
 
 #### Practices and Techniques (Refinements, Guides)
 
+An *API refactoring catalog* can lists and organizes the API refactorings available in a particular community. The public [Interface Refactoring Catalog (IRC)](https://interface-refactoring.github.io/refactorings/) is a such catalog.
+ 
 Having applied a refactoring, always apply the TELL steps (Test, Explain, Let Know and Learn):
 
 * Test the updates (locally and end-to-end),
