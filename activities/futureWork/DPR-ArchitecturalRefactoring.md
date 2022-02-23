@@ -89,9 +89,9 @@ Review the [agile glossary](https://www.agilealliance.org/agile101/agile-glossar
 ### Data Provenance 
 
 ```yaml
-title: "Design Practice Repository (DPR): Practice/Technique Story Splitting"
+title: "Design Practice Repository (DPR): Practice/Technique Architectural Refactoring"
 author: Olaf Zimmermann (ZIO)
-date: "10, 14, 2020 (Source: Project DD-DSE)"
+date: "10, 14, 2020"
 copyright: Copyright 2020 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

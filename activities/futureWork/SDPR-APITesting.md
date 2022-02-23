@@ -21,6 +21,8 @@ also known as: TODO
 <!-- Keywords, preconditions (input artifacts), performing role -->
 TODO
 
+<https://www.thoughtworks.com/radar/techniques/apis-as-a-product>
+
 
 ### Goal and Purpose (When to Use and When not to Use)
 <!-- TODO, can be a user story, must identify the performing role and the target audience (producer, consumer) -->
@@ -84,7 +86,8 @@ Review the [agile glossary](https://www.agilealliance.org/agile101/agile-glossar
 
 * <https://agileforall.com/patterns-for-splitting-user-stories/>
 * <!-- TODO AppArch exercise 5, fact sheet, slides: <https://blogs.itemis.com/en/spidr-five-simple-techniques-for-a-perfectly-split-user-story> or the 20 splitting suggestions in <https://xp123.com/articles/twenty-ways-to-split-stories/> -->
-
+* <https://medium.com/hackernoon/yes-karate-is-not-true-bdd-698bf4a9be39> 
+* <https://labs.ig.com/code-coverage-100-percent-tragedy>
 
 ### Data Provenance 
 
