@@ -47,7 +47,7 @@ accepting that a session database needs to be designed, implemented, and replica
 Several options are available: 
 
 * Word processors and text editors
-* Markdown editors, often coming as extensions/plugins to general-purpose developer tools such as Visual Studio Code, possibly supported by the [MADR] template and tools
+* Markdown editors, often coming as extensions/plugins to general-purpose developer tools such as Visual Studio Code, possibly supported by the [MADR template](https://github.com/adr/madr/blob/main/template/adr-template.md) and tools
 * [AD Mentor](https://github.com/IFS-HSR/ADMentor) has a Y-Statement template for its solution space models/diagrams
 
 When embedding ADs in code, custom annotations can be used (for instance, with [Embedded Architectural Decision Records (e-adr)](https://github.com/adr/e-adr)).
@@ -84,7 +84,8 @@ Many other templates have been proposed; see [activity description](../activitie
 ### More Information
 
 * Blog post on ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) on Medium
-* IFS website [Architectural Knowledge Management (AKM)](https://www.ifs.hsr.ch/index.php?id=13191&L=4) 
+* IFS website [Architectural Knowledge Management (AKM)](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab/architectural-knowledge-management-akm) 
+* [Markdown Any/Architectural Decision Records (MADR)](https://adr.github.io/madr)
 * Proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html)
 
 <!-- https://ardalis.com/getting-started-with-architecture-decision-records/ and https://betterprogramming.pub/here-is-a-simple-yet-powerful-tool-to-record-your-architectural-decisions-5fb31367a7da -->
@@ -98,5 +99,3 @@ date: "03, 29, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
-
-[MADR]: https://adr.github.io/madr
