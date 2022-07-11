@@ -47,8 +47,8 @@ accepting that a session database needs to be designed, implemented, and replica
 Several options are available: 
 
 * Word processors and text editors
-* Markdown editors, often coming as extensions/plugins to general-purpose developer tools such as Visual Studio Code, possibly supported by the [MADR](https://github.com/adr/madr) template and tools
-* [AD Mentor](https://www.ifs.hsr.ch/index.php?id=13201&L=4) has a Y-Statement template for its solution space models/diagrams
+* Markdown editors, often coming as extensions/plugins to general-purpose developer tools such as Visual Studio Code, possibly supported by the [MADR] template and tools
+* [AD Mentor](https://github.com/IFS-HSR/ADMentor) has a Y-Statement template for its solution space models/diagrams
 
 When embedding ADs in code, custom annotations can be used (for instance, with [Embedded Architectural Decision Records (e-adr)](https://github.com/adr/e-adr)).
 
@@ -57,7 +57,7 @@ When embedding ADs in code, custom annotations can be used (for instance, with [
 
 * Some readers do not appreciate the structured, but rather long sentences in the Y-Statement template proposed above; consider splitting up into two or three sentences if you get such feedback.
 * Optionally, you may want to add a "because" half sentence for any rationale and justification that does not fit into the "to achieve ..., accepting that..." tradeoff/balancing format. 
-* Consider switching to [MADR](https://github.com/adr/madr) logs, Nygard-style [ADRs](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), or another template for AD capturing if the Y-Statements do not work well in your context and project. An inconsistently formatted decision log is better that none (assuming that its content is accurate and current).
+* Consider switching to [MADR] logs, Nygard-style [ADRs](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), or another template for AD capturing if the Y-Statements do not work well in your context and project. An inconsistently formatted decision log is better that none (assuming that its content is accurate and current).
 
 
 ### Origins and Signs of Use
@@ -99,3 +99,4 @@ copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reser
 license: Creative Commons Attribution 4.0 International License
 ```
 
+[MADR]: https://adr.github.io/madr
