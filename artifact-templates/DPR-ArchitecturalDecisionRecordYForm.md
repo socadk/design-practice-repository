@@ -47,8 +47,8 @@ accepting that a session database needs to be designed, implemented, and replica
 Several options are available: 
 
 * Word processors and text editors
-* Markdown editors, often coming as extensions/plugins to general-purpose developer tools such as Visual Studio Code, possibly supported by the [MADR template](https://github.com/adr/madr/blob/main/template/adr-template.md) and tools
-* [AD Mentor](https://github.com/IFS-HSR/ADMentor) has a Y-Statement template for its solution space models/diagrams
+* Markdown editors, often coming as extensions/plugins to general-purpose developer tools such as Visual Studio Code, possibly supported by the [Markdown Any/Architectural Decision Records (MADR) template](https://github.com/adr/madr/blob/main/template/adr-template.md) and tools
+* [AD Mentor](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab/architectural-knowledge-management-akm/admentor-tool) has a Y-Statement template for its solution space models/diagrams.
 
 When embedding ADs in code, custom annotations can be used (for instance, with [Embedded Architectural Decision Records (e-adr)](https://github.com/adr/e-adr)).
 
@@ -57,7 +57,7 @@ When embedding ADs in code, custom annotations can be used (for instance, with [
 
 * Some readers do not appreciate the structured, but rather long sentences in the Y-Statement template proposed above; consider splitting up into two or three sentences if you get such feedback.
 * Optionally, you may want to add a "because" half sentence for any rationale and justification that does not fit into the "to achieve ..., accepting that..." tradeoff/balancing format. 
-* Consider switching to [MADR] logs, Nygard-style [ADRs](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), or another template for AD capturing if the Y-Statements do not work well in your context and project. An inconsistently formatted decision log is better that none (assuming that its content is accurate and current).
+* Consider switching to MADR logs, Nygard-style [ADRs](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions), or another template for AD capturing if the Y-Statements do not work well in your context and project. An inconsistently formatted decision log is better that none (assuming that its content is accurate and current).
 
 
 ### Origins and Signs of Use
@@ -85,7 +85,7 @@ Many other templates have been proposed; see [activity description](../activitie
 
 * Blog post on ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) on Medium
 * IFS website [Architectural Knowledge Management (AKM)](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab/architectural-knowledge-management-akm) 
-* [Markdown Any/Architectural Decision Records (MADR)](https://adr.github.io/madr)
+* [MHomepage of the ADR GitHub organization](https://adr.github.io/)
 * Proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html)
 
 <!-- https://ardalis.com/getting-started-with-architecture-decision-records/ and https://betterprogramming.pub/here-is-a-simple-yet-powerful-tool-to-record-your-architectural-decisions-5fb31367a7da -->
@@ -95,7 +95,7 @@ Many other templates have been proposed; see [activity description](../activitie
 ```yaml
 title: "Design Practice Repository (DPR): ADR-Y"
 author: Olaf Zimmermann (ZIO)
-date: "03, 29, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "09, 09, 2022"
+copyright: Olaf Zimmermann, 2020-2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
