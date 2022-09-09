@@ -50,7 +50,7 @@ Several options are available:
 * Markdown editors, often coming as extensions/plugins to general-purpose developer tools such as Visual Studio Code, possibly supported by the [Markdown Any/Architectural Decision Records (MADR) template](https://github.com/adr/madr/blob/main/template/adr-template.md) and tools <!-- ADR Manager (Web), VSC plugin -->
 * [AD Mentor](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab/architectural-knowledge-management-akm/admentor-tool) has a Y-Statement template for its solution space models/diagrams.
 
-When embedding ADs in code, custom annotations can be used (for instance, with [Embedded Architectural Decision Records (e-adr)](https://github.com/adr/e-adr)).
+When embedding ADs in code, custom annotations can be used. For instance, [Embedded Architectural Decision Records (e-adr)](https://github.com/adr/e-adr) provides such annotations for Java.
 
 
 ### Hints and Pitfalls to Avoid
@@ -87,7 +87,7 @@ Many other templates have been proposed; see [activity description](../activitie
 * IFS website [Architectural Knowledge Management (AKM)](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab/architectural-knowledge-management-akm) 
 * [Homepage of the ADR GitHub organization](https://adr.github.io/)
 * Proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html)
-* ADRs may also capture design decisions that are not architecturally significant, even any decision ["ADR = Any Decision Record?"](https://medium.com/olzzio/adr-any-decision-record-916d1b64b28d)
+* ADRs may also capture design decisions that are not architecturally significant, even any decision: ["ADR = Any Decision Record?"](https://medium.com/olzzio/adr-any-decision-record-916d1b64b28d)
 
 <!-- https://ardalis.com/getting-started-with-architecture-decision-records/ and https://betterprogramming.pub/here-is-a-simple-yet-powerful-tool-to-record-your-architectural-decisions-5fb31367a7da -->
 
