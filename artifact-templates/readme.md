@@ -53,13 +53,13 @@ Requirements analysis and conversation with stakeholders can be captured in the 
 * Integration flows (a.k.a. "Gregorgrams")
 * Deployment diagram (providing an operational, physical view)
 * [Y-Statements](DPR-ArchitecturalDecisionRecordYForm.md) and other ADR formats
-* Architectural refactoring template (from HSR FHO [ARC project](https://ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4))
+* Architectural refactoring template (from [research project ARC](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab/architectural-refactoring-for-the-cloud-arc))
 
 Some evaluation and assessment templates are:
 
 * Strength Weaknesses Opportunities Threats (SWOT) tables
 * Architecture review report
-* [API/Code Review Checklist](futureWork/SDPR-APIReviewChecklist.md)
+* API/Code Review Checklist ([futureWork](futureWork/SDPR-APIReviewChecklist.md))
 
 
 ### More Information
@@ -72,8 +72,8 @@ See [top-level readme](../README.md) for a general motivation "why DPR?". See [b
 ```yaml
 title: "Design Practice Repository (DPR): Templates and Artifacts Overview"
 author: Olaf Zimmermann (ZIO)
-date: "03, 27, 2020 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "09, 09, 2022 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2022 (unless noted otherwise). All rights reserved.
 ```
 
 ### License
