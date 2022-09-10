@@ -41,7 +41,7 @@ Most templates are variations of the "fully-dressed" template described in @Cock
 
 An example of a basic template is:
 
-```markdown
+```text
 # UC 1: Name
 
 Pre: ___
@@ -58,7 +58,7 @@ The sum of all use cases forms the *use case model* (@Jacobson:1999) and can be 
 ### Example(s)
 Filling out the basic template from above in a social media scenario may yield this use case:
 
-```markdown
+```text
 # UC 1: Change Profile Picture
 
 Pre: The social network influencer has created an account and is logged in.
