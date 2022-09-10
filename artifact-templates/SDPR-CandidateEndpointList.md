@@ -46,7 +46,7 @@ Record your analysis (and design) results in list or table form:
 
 A simple table will suffice: 
 
-```markdown
+```text
 | Endpoint | Operation | Role/Exposed Data | 
 |----------|-----------|-------------------|
 |...       |...        |...                |

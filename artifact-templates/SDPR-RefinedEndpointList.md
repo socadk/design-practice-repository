@@ -33,7 +33,7 @@ Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/article
 ### Template Structure and Notation(s)
 Record your design results in list or table form. Start with a list of endpoints with their visibility and direction and link to requirements and domain model, for instance structured as this: 
 
-```markdown
+```text
 API name:  [name]
 
 Identified in: [user story, domain model element, architecture diagram]
@@ -56,7 +56,7 @@ This is an elaborate proposal, referencing several categories in [Microservice A
 
 For each API endpoint in such list, specify its responsibilities and signature on a platform- and technology-neutral, yet concrete level of detail:
 
-```markdown
+```text
 | EP | Op. | Responsibility | Request and Response Message | Media Type |
 |----|-----|----------------|------------------------------|------------|
 | [name] | | [endpoint role] | | |                    
