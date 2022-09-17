@@ -153,7 +153,7 @@ See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functiona
 
 arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/), and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/). The Scaled Agile Framework (SAFe) also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/). 
 
-Websites dedicated to software quality include [Quality-Aware development](http://www.quality-aware.com/). The presentation [Non-Functional Requirements --- How to Get Them in Shape](http://www.softwaresummit.com/2006/speakers/BerghJohnssonNFR.pdf) defines the acronym differently but sends similar messages as we do here.
+<!-- The presentation [Non-Functional Requirements --- How to Get Them in Shape](http://www.softwaresummit.com/2006/speakers/BerghJohnssonNFR.pdf) defines the acronym differently but sends similar messages as we do here. -->
 
 
 ### Data Provenance 
@@ -161,7 +161,7 @@ Websites dedicated to software quality include [Quality-Aware development](http:
 ```yaml
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
-date: "03, 29, 2021"
+date: "09, 1, 2022"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
