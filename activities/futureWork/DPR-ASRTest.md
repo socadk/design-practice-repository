@@ -9,8 +9,8 @@ Abstraction/Refinement Level: TODO
 
 <!-- Word budget: 1000-1500 (3-5 A4 pages); the practice descriptions should be readable in 5 to 10 minutes (expert vs. novice reader) -->
 
-Activity/Technique: *Ast Test*
---------------------------------
+Activity/Technique: *ASR Testing*
+---------------------------------
 <!-- Alternate names or candidate names) can be listed as "Also known as" here. -->
 also known as: TODO
 

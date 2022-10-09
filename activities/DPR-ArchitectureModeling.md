@@ -40,8 +40,8 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 
 For instance, four common modeling steps are: 
 
-1. Create a *system context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
-2. Provide an *architecture overview diagram* that captures the outcome of the early, "big" decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder needs, project/iteration planning).
+1. Create a system *context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
+2. Provide an *architecture overview diagram* (aka container diagram) that captures the outcome of the early, "big" decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder needs, project/iteration planning).
 3. Refine selected components that are technically challenging to design and implement in one or more *component diagram(s)* (stakeholder: architects, developers, maintainers; concern: support decision making, trace design and implementation progress, manage/mitigate technical risk during evolution and maintenance). You might want to capture the component design results in [CRC Cards](../artifact-templates/DPR-CRCCard.md) that explain responsibilities and collaborations of the boxes in architecture overviews and component diagrams. You also might want to complement these diagrams and cards with *Component Interaction Diagrams (CIDs)* that illustrate the dynamic behavior of the components.   
 4. Show how and where logical components will be deployed to real or virtual hardware (stakeholder: DevOps personnel including database administrators, system managers, security specialists; concern: automation, cloud cost management, network configuration) in a *deployment diagram*.
 

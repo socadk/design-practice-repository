@@ -10,7 +10,7 @@ Abstraction/Refinement Level: Concrete, elaborate
 Artifact/Template: *Service Level Agreement (SLA)*
 --------------------------------------------------
 
-> *A Service Level Agreement (SLA) answers the following questions: "How can an API client learn about the specific quality-of-service characteristics of an API and its operations? How can these characteristics and the consequences of not meeting them be defined in a measurable way?"* <!-- MAP quote -->
+> *A service-level agreement answers the following questions: "How can an API client learn about the specific quality-of-service characteristics of an API and its operations? How can these characteristics and the consequences of not meeting them be defined in a measurable way?"* <!-- MAP quote -->
 
 ### Motivation (Addressed Information Need) 
 API providers want to deliver high-quality services while at the same time using their available resources economically. The resulting compromise can be expressed in an SLA. 

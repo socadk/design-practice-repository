@@ -1,0 +1,103 @@
+---
+Scope: Entire system
+Phases: Design (all levels) 
+Roles: Architect (different specializations)
+Activities: Architecture design, component modeling 
+Abstraction/Refinement Level: Technology/platform-independent
+---
+
+
+Artifact/Template: *Container Diagram*
+--------------------------------------
+<!--Alternate names or candidate names) can be listed as "Also known as " here.-->
+also known as: Architecture Overview Diagram <!-- "The Important Stuff View" -->
+
+> *A container diagram provides an overview of logical and physical building blocks that are refined in other types of diagrams. Unlike the context diagram, it looks inside, picking up all external interfaces (with human users, with other systems).*
+
+### Motivation (Addressed Information Need) 
+<!--Purpose -->
+
+* Typically created during solution strategy, refined iteratively and incrementally later (as/if needed)
+* Illustrate Client-Server Cuts (CSCs) and other big decisions 
+* Interface protocols and implementation technologies also shown
+
+
+### Usage (Produced and Consumed When)
+<!--AA/AS/AE, must identify the producing role and the target audience-->
+
+A container diagram (aka architecture overview) can be used for: 
+
+* Provide quick orientation for starters (new DevOps team member, support and maintenance staff)
+* Work distribution and planning
+* Non-technical stakeholder communication (including project managers, sponsors) 
+
+
+### Template Structure and Notation(s)
+<!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)--> 
+
+Container diagrams often come as informal rich pictures (IRPs). C4 and its tools take slightly more formal approach, allowing to zoom in (coming from a context diagram, moving on to a component diagram).
+
+
+### Example(s)
+<!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
+
+![Container Diagram SKetch/Example](/artifact-templates/images/ZIO-AbstractContainerDiagramSketch.png) <!-- TODO 2022 (H) TODO explain figure -->
+
+
+### Tools
+<!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
+
+* Any drawing tool, whiteboards
+* Structurizr
+* UML tools
+
+
+### Hints and Pitfalls to Avoid (Common Pitfalls)
+<!--See ART, don’t overdo etc.-->
+
+Just a few hints (many more can be found online):
+
+* Use names that unveil domain concept and architectural role, for example "Policy Management Frontend" is better than "Client" (in insurance domain/scenario). 
+* Be consistent.
+* Provide a legend.
+
+See section "Notation, notation, notation2 on the [C4 model home page](https://c4model.com/#notation) and its [diagram review checklist](https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf) for more hints.
+
+
+### Origins and Signs of Use
+<!-- From PLOPs and from AA-->
+
+Container Diagram is one of the four Cs in C4, but the notion and concept of providing overview diagrams is much older, going back to the beginnings of the software architecture field (and beyond). 
+
+
+### Related Artifacts and Practices (incl. Alternatives)
+<!--in DPR/OLAF and elsewhere-->
+
+* Context Diagram
+* Component Diagram
+* Deployment Diagram
+
+[Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity.
+
+
+### More Information
+
+* [C4 on InfoQ](https://www.infoq.com/articles/C4-architecture-model/)
+* arc42 [solution strategy](https://docs.arc42.org/section-4/)
+* Agile modeling website
+
+
+### Data Provenance 
+
+```yaml
+title: "Design Practice Repository (DPR): Container Diagram"
+author: Olaf Zimmermann (ZIO)
+date: "10, 09, 2022"
+copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
+license: Creative Commons Attribution 4.0 International License
+```
+
+<!--
+# References
+[C-99]: # (Comment: References will be added here automatically when using -bibliography option of pandoc command)
+-->

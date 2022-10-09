@@ -75,7 +75,7 @@ A proposal for Open and Lean Architecting Framework collecting important artifac
 title: "Design Practice Repository (DPR): API Review Checklist"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
 date: "mm, dd, yyyy (Source: Project NN)"
-copyright: Olaf Zimmermann, 2020 (unless noted otherwise). All rights reserved.
+copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 
