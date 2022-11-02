@@ -41,7 +41,11 @@ Container diagrams often come as informal rich pictures (IRPs). C4 and its tools
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-![Container Diagram SKetch/Example](/artifact-templates/images/ZIO-AbstractContainerDiagramSketch.png) <!-- TODO 2022 (H) TODO explain figure -->
+Having decided for logical layers as primary organizing/decomposition principles (which is a common but not the only option), an architecture overview diagram featuring layers and their assignment to tiers may look as follows:
+
+![Container Diagram Sketch/Example](/artifact-templates/images/ZIO-AbstractContainerDiagramSketch.png)
+
+Three conceptual tiers are shown, one for application frontends and integrated external systems (in client role), one centered on business logics and one containing data stores and external systems (in provider role).
 
 
 ### Tools
@@ -61,7 +65,7 @@ Just a few hints (many more can be found online):
 * Be consistent.
 * Provide a legend.
 
-See section "Notation, notation, notation2 on the [C4 model home page](https://c4model.com/#notation) and its [diagram review checklist](https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf) for more hints.
+See section "Notation, notation, notation" on the [C4 model home page](https://c4model.com/#notation) and its [diagram review checklist](https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf) for more hints.
 
 
 ### Origins and Signs of Use
@@ -92,7 +96,7 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 ```yaml
 title: "Design Practice Repository (DPR): Container Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "10, 09, 2022"
+date: "11, 02, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

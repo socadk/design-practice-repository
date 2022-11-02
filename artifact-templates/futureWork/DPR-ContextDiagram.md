@@ -41,7 +41,9 @@ Context diagrams are informal, typically; their layout should follow certain con
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-![Context Diagram Example](/artifact-templates/images/ZIO-ContextDiagramExample.png) <!-- TODO 2022 (H) explain figure, provide paper reference -->
+In an order management scenario in telecommunications, external clients such as Web channels supporting human users and external systems (in client/consumer role) may be the primary actors interfacing with the order management system. Secondary actors include backend systems for billing and customer management, as well as the telephony network:
+
+![Context Diagram Example](/artifact-templates/images/ZIO-ContextDiagramExample.png) <!-- TODO 2022 provide paper reference -->
 
 See C4 website for more examples.
 
@@ -73,11 +75,14 @@ UAM has this artifact: <http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_de
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
+The [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity produces context diagrams.
+
+Related artifacts are: 
+
 * Strategic DDD context maps, showing relations between bounded contexts 
 * Use cases and user stories (contributing primary external interfaces)
 * Container Diagram
 
-[Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity.
 
 ### More Information
 
@@ -91,7 +96,7 @@ DDD tools such as Context Mapper. Agile modeling website. Scenario viewpoint in 
 ```yaml
 title: "Design Practice Repository (DPR): Context Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "10, 09, 2022"
+date: "11, 02, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

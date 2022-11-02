@@ -87,9 +87,10 @@ When drawing use case diagrams, some modelers put the primary actor(s) at the to
 
 To classify use cases, Alistair Cockburn suggests to specify the *design scope* of a use case, ranging from black-box organization to single component. To indicate the level of detail to readers (and  writers as well), use cases may be annotated with a *goal level*. In the context of API and service design, strive to write on the *user goal* or *subfunction* level (@Cockburn:2001).
 
-Resist the temptation to start designing in a use case specification; a use case is an analysis artifact. It describes what a system does (when being observed from the outside), not how it does do.
+<!-- ZIO4STX: please review next two paragraphs -->
+Resist the temptation to start designing in a use case specification; a use case is an analysis artifact. It describes what a system does (when being observed from the outside), not how it does do. Design decisions and specifications of system-internal behavior may (and should) reference use cases, but not be part of them. The separation of concerns principles applies here too.
 
-In most cases, specify the system behavior on a rather abstract, conceptual level; do not let technology details slip in. The more technical your use case specification is, the more it has to change when technology changes, and you run the risk of entering design mode by stealth.
+In most cases, specify the system behavior on a rather abstract, conceptual level; do not let technology details slip in. The more technical your use case specification is, the more it has to change when technology changes, and you run the risk of entering design mode by stealth (see previous hint).
 
 
 ### Origins and Signs of Use

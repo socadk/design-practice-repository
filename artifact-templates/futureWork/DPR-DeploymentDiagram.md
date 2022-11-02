@@ -53,7 +53,9 @@ Key concepts: nodes, DUs (one per logical layer!). DSLs, vendor-specific icon se
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-![Deployment Diagram Example](/artifact-templates/images/ZIO-DeploymentDiagramExample.png) <!-- TODO 2022 (H) TODO explain figure: -->
+The deployment units and physical tiers in an order management scenario in telecommunications may look as follows (in a hot standby or load balancing configuration):
+
+![Deployment Diagram Example](/artifact-templates/images/ZIO-DeploymentDiagramExample.png)
 
 
 ### Tools
@@ -101,7 +103,7 @@ UML, IBM GS Method, C4 (later addition, not part of the original four C).
 ```yaml
 title: "Design Practice Repository (DPR): Deployment Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "10, 09, 2022"
+date: "11, 02, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

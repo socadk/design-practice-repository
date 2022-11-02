@@ -46,9 +46,9 @@ Unified Modeling Language (UML) has a component diagram, but due to language and
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-TODO explain figure:
+The following component diagram identified a number of candidate components across logical layers:
 
-![Component Diagram Example](/artifact-templates/images/ZIO-AbstractComponentModelSketch.png) <!-- TODO 2022 (H) -->
+![Component Diagram Example](/artifact-templates/images/ZIO-AbstractComponentModelSketch.png)
 
 See C4 website and Lakeside Mutual case for more examples. <!-- Methods have an architecture too, so our DPR overview figure can be seen as a container diagram. We also use user stories (in activity template) -->
 
@@ -99,7 +99,7 @@ Component Diagram is one of the four Cs in C4. <!-- Context is featured in a sep
 ```yaml
 title: "Design Practice Repository (DPR): Component Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "10, 09, 2022"
+date: "11, 02, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

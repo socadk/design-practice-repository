@@ -38,7 +38,7 @@ The template look as follows (with explanations):
 ![Annotated QAS Template](/artifact-templates/images/ZIO-QualityAttributeScenarioExplanations.png)
 
 See sample chapter of ADD 3.0 book by H. Cervantes and R. Kazman for the SEI visualization.
-<!-- TODO 2022 show graphical image from SEI books and reports (MK has them too), https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf bibtex this tutorial is good too: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536 (SATURN 2015) -->
+<!-- TODO 2022 repaint and show graphical image from SEI books and reports (MK has them too), https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf bibtex this tutorial is good too: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536 (SATURN 2015) -->
 
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
@@ -75,21 +75,21 @@ This is a text artifact, possibly structured with the help of templates and tabl
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
-In general: 
+Relate activities in DPR are:
 
-* Agile landing zones for NFRs (RWB) 
-* SMART NFR checklist
-* PLANG
-
-In DPR: 
-
-* SMART NFR Elicitation, features specific and measurable as quality criteria for quality requirements; QAS bring these properties when filled out properly
-* Architecture Modeling activity, uses QAS and other SMART NFRs as input
+* [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md), features specific and measurable as quality criteria for quality requirements; QAS bring these properties when filled out properly
+* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity, uses QAS and other SMART NFRs as input
 
 
 ### More Information
 
-Blog post [""Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html).
+Related practices include: 
+
+* Agile landing zones for NFRs (RWB) 
+* NFR checklists, for instance regarding the SMARTness of the quality goals  
+* PLANG <!-- TODO 2022 AppArch FS -->
+
+The blog post [""Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) covers NFRs.
 
 
 ### Data Provenance 
@@ -97,7 +97,7 @@ Blog post [""Do Software Architectures Meet Extra-Functional or Non-Functional R
 ```yaml
 title: "Design Practice Repository (DPR): Quality Attribute Scenario"
 author: Olaf Zimmermann (ZIO)
-date: "10, 09, 2022"
+date: "11, 02, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
