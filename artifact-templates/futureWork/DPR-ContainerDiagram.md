@@ -7,12 +7,12 @@ Abstraction/Refinement Level: Technology/platform-independent
 ---
 
 
-Artifact/Template: *Container Diagram*
+Artifact/Template: *Overview Diagram*
 --------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
-also known as: Architecture Overview Diagram <!-- "The Important Stuff View" -->
+also known as: Architecture Overview Diagram , Container Diagram <!-- "The Important Stuff View" -->
 
-> *A container diagram provides an overview of logical and physical building blocks that are refined in other types of diagrams. Unlike the context diagram, it looks inside, picking up all external interfaces (with human users, with other systems).*
+> *A container/overview diagram provides an overview of logical and physical building blocks that are refined in other types of diagrams. Unlike the context diagram, it looks inside, picking up all external interfaces (with human users, with other systems).*
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
@@ -77,11 +77,10 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
+* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity.
 * Context Diagram
 * Component Diagram
 * Deployment Diagram
-
-[Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity.
 
 
 ### More Information
@@ -96,7 +95,7 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 ```yaml
 title: "Design Practice Repository (DPR): Container Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "11, 02, 2022"
+date: "11, 25, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

@@ -14,6 +14,7 @@ a.k.a. Operational View, Physical View
 
 > *A deployment diagram depicts a managed runtime configuration, consisting of physical elements such as compute nodes, storage units, and network connections.*
 
+<!-- TODO bring more content from AA FS and exercise -->
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
@@ -39,7 +40,7 @@ Many DSLs exist today, for instance coming from cloud providers and CI/CD vendor
 * Network zones
 * Compute and storage nodes, virtual and physical
 * Deployment units, installable software
-* Infrastructure components such as firewalls, gateways, caches, authenticating proxies, load balancers, management agents and UIs, log archives and credentials vaults, database replicators, ...
+* Infrastructure components such as firewalls, gateways, caches, authenticating proxies, load balancers, management agents and UIs, log archives and credentials vaults, database replicators
 * Network connections and other dependencies between these diagram elements
 
 UML is a valid and popular choice and has a dedicated diagram type.
@@ -71,7 +72,7 @@ The deployment units and physical tiers in an order management scenario in telec
 
 * Do not start too late, develop component diagram and deployment diagram hand in hand.
 * Model iteratively, starting on a conceptual, platform- and technology-independent level to promote qualities such as design portability and cloud agnosticism.
-* Follow the hints and guidelines from [Gernot Starke](https://www.innoq.com/en/articles/2022/09/better-architecture-diagrams/) (in German for the time being), Simon Brown, and others.
+* Follow the modeling hints and guidelines from [Gernot Starke](https://www.innoq.com/en/articles/2022/09/better-architecture-diagrams/) (in German for the time being), Simon Brown, and others.
 
 
 ### Origins and Signs of Use
@@ -103,7 +104,7 @@ UML, IBM GS Method, C4 (later addition, not part of the original four C).
 ```yaml
 title: "Design Practice Repository (DPR): Deployment Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "11, 02, 2022"
+date: "11, 25, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

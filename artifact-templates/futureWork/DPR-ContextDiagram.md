@@ -63,13 +63,15 @@ See C4 website for more examples.
 * Do not confuse black box and white box and views. Here, no internals should be shown.
 * Do not stop at the outside view, but zoom in (with a container diagram). Label all arrows, and explain their meaning in a legend. 
 * Do not forget to update this diagram as a design evolves; when a new API is consumed, this has to be shown as an outbound external interface in any context diagrams drawn earlier.
-
+* Consider strategic DDD to carve out contexts.
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
 This is not a UML diagram type (tools have some basic/proprietary support, usually), but has been present in professional services methods since late 1990s.
 
-UAM has this artifact: <http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html>
+The Unified Architecture Method (UAM) has this artifact: <http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html>
+
+<!-- TODO Wayback machine for IBM dW article? URI? -->
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
@@ -96,7 +98,7 @@ DDD tools such as Context Mapper. Agile modeling website. Scenario viewpoint in 
 ```yaml
 title: "Design Practice Repository (DPR): Context Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "11, 02, 2022"
+date: "11, 25, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

@@ -38,7 +38,7 @@ Component diagrams often come in boxes-and-arrows form, with the semantics of th
 
 <!-- ![](/images/NN.png) -->
 
-The [C4 Model](https://c4model.com/) for visualizing software architecture by Simon Brown <!-- say that SB does not recommend to model the fourth C, but added three several supplemental views later, which makes it a C7, not too different from pragmatic UML use -->
+The [C4 Model](https://c4model.com/) for visualizing software architecture by Simon Brown introduces component models as its third C. <!-- say that SB does not recommend to model the fourth C, but added three several supplemental views later, which makes it a C7, not too different from pragmatic UML use -->
 
 Unified Modeling Language (UML) has a component diagram, but due to language and tool limitations stereotyped class diagrams might also be an adequate choice.
 
@@ -66,7 +66,7 @@ See C4 website and Lakeside Mutual case for more examples. <!-- Methods have an 
 
 * Do not confuse logical and physical model elements.
 * Do not create a single component for each and every class (in OO program).
-* DO not assume all component have to be implemented; buying and renting are options.
+* Do not assume all component have to be implemented; buying and renting are options.
 
 
 ### Origins and Signs of Use
@@ -99,7 +99,7 @@ Component Diagram is one of the four Cs in C4. <!-- Context is featured in a sep
 ```yaml
 title: "Design Practice Repository (DPR): Component Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "11, 02, 2022"
+date: "11, 25, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
