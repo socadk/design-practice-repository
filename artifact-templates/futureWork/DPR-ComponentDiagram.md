@@ -65,8 +65,10 @@ See C4 website and Lakeside Mutual case for more examples. <!-- Methods have an 
 <!--See ART, don’t overdo etc.-->
 
 * Do not confuse logical and physical model elements.
-* Do not create a single component for each and every class (in OO program).
-* Do not assume all component have to be implemented; buying and renting are options.
+* Decide for a leading decomposition type, for instance functional/domain-driven versus technical. Identify and apply decomposition criteria and strategies such as those in Service Cutter.   
+* Do not create a single component for each and every class (in OO program). 
+* Measure coupling and cohesion as the design and its implementation evolve. Consider architectural refactoring to improve the design as desired qualities and their priorities come and go. 
+* Do not assume all component have to be implemented; buying and renting are valid options as well.
 
 
 ### Origins and Signs of Use
