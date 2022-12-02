@@ -12,7 +12,7 @@ Artifact/Template: *Context Diagram*
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 also known as: System Context Diagram
 
-> *A context diagram provides an outside view on a system, including incoming and outgoing relations to/with other systems.*
+> *A context diagram provides an outside view on a single system, including incoming and outgoing relations with other systems. It does not unveil any system-internal design.*
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
@@ -23,11 +23,11 @@ The [C4 model page](https://en.wikipedia.org/wiki/C4_model) on Wikipedia advises
 ### Usage (Produced and Consumed When)
 <!--AA/AS/AE, must identify the producing role and the target audience-->
 
-Drawing a container diagram serves one or more of these purposes: 
+Drawing a context diagram serves one or more of these purposes: 
 
-* Document dependencies and coordination needs (technical risk, scheduling)
+* Document external dependencies and coordination needs (technical risk, scheduling)
 * Identify application owners and other stakeholders of neighboring systems
-* Initiate integration design and implementation 
+* Estimate and initiate integration design and implementation 
 
 
 ### Template Structure and Notation(s)
@@ -83,12 +83,15 @@ Related artifacts are:
 
 * Strategic DDD context maps, showing relations between bounded contexts 
 * Use cases and user stories (contributing primary external interfaces)
-* Container Diagram
+* [Container Diagram](DPR-ContainerDiagram.md)
 
 
 ### More Information
 
-DDD tools such as Context Mapper. Agile modeling website. Scenario viewpoint in the 4+1 model.
+* Domain-driven design tools such as Context Mapper can be used to model context diagrams. 
+* The Agile Modeling website covers sketching. 
+* There is a Scenario viewpoint in the 4+1 model. 
+* The Soft Systems Methodology has a [Rich Picture](https://en.wikipedia.org/wiki/Rich_picture) artifact.
 
 <!-- A proposal for Open and Lean Architecting Framework collecting important artifacts can be found on an [HSR FHO/OST web page](https://www.ifs.hsr.ch/index.php?id=13195&L=4). -->
 
@@ -98,7 +101,7 @@ DDD tools such as Context Mapper. Agile modeling website. Scenario viewpoint in 
 ```yaml
 title: "Design Practice Repository (DPR): Context Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "11, 25, 2022"
+date: "12, 02, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
