@@ -10,9 +10,9 @@ Abstraction/Refinement Level: Technology/platform-independent
 Artifact/Template: *Overview Diagram*
 --------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
-also known as: Architecture Overview Diagram , Container Diagram <!-- "The Important Stuff View" -->
+also known as: Architecture Overview Diagram, Container Diagram <!-- "The Important Stuff View" -->
 
-> *A container/overview diagram provides an overview of logical and physical building blocks that are refined in other types of diagrams. Unlike the context diagram, it looks inside, picking up all external interfaces (with human users, with other systems).*
+> *A container/overview diagram provides an overview of logical and physical building blocks that are refined in other types of diagrams. Unlike the context diagram, it looks inside a system, picking up all external interfaces (with human users, with other systems).*
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
@@ -27,7 +27,7 @@ also known as: Architecture Overview Diagram , Container Diagram <!-- "The Impor
 
 A container diagram (aka architecture overview) can be used for: 
 
-* Provide quick orientation for starters (new DevOps team member, support and maintenance staff)
+* Quick orientation for starters (new DevOps team member, support and maintenance staff)
 * Work distribution and planning
 * Non-technical stakeholder communication (including project managers, sponsors) 
 
@@ -61,9 +61,10 @@ Three conceptual tiers are shown, one for application frontends and integrated e
 
 Just a few hints (many more can be found online):
 
+* Decide for a single, consistent level of abstraction and refinement per diagram; explain which elements are included in the overview and why. 
+* Do not confuse the abstract, conceptual notion of "container" (used here) with more concrete technical container concepts such as those in charge of dependency injection (for instance, in Spring) or orchestration and deployment containers (for instance, in Docker and Kubernetes).   
 * Use names that unveil domain concept and architectural role, for example "Policy Management Frontend" is better than "Client" (in insurance domain/scenario). 
-* Be consistent.
-* Provide a legend.
+* Be consistent in the use of notation, provide a legend for non-standard diagram elements.
 
 See section "Notation, notation, notation" on the [C4 model home page](https://c4model.com/#notation) and its [diagram review checklist](https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf) for more hints.
 
@@ -77,17 +78,17 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
-* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity.
-* Context Diagram
-* Component Diagram
-* Deployment Diagram
+* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity
+* [Context Diagram](DPR-ContextDiagram.md)
+* [Component Diagram](DPR-ComponentDiagram.md)
+* [Deployment Diagram](DPR-DeploymentDiagram.md)
 
 
 ### More Information
 
 * [C4 on InfoQ](https://www.infoq.com/articles/C4-architecture-model/)
 * arc42 [solution strategy](https://docs.arc42.org/section-4/)
-* Agile modeling website
+* Scott Ambler advises to ["Model Your Architecture"](http://agilemodeling.com/essays/agileArchitecture.htm#Model)
 
 
 ### Data Provenance 
@@ -95,7 +96,7 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 ```yaml
 title: "Design Practice Repository (DPR): Container Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "11, 25, 2022"
+date: "12, 02, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

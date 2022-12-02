@@ -92,7 +92,7 @@ Related artifacts are:
 
 * Domain-driven design tools such as Context Mapper can be used to model context diagrams. 
 * The Agile Modeling website advocates [free form modeling](http://agilemodeling.com/artifacts/freeForm.htm) and a [multiple models](http://agilemodeling.com/artifacts/) approach. 
-* There is a Scenario viewpoint in the [4+1 architetcural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model). 
+* There is a Scenario viewpoint in the [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model). 
 * The Soft Systems Methodology has a [Rich Picture](https://en.wikipedia.org/wiki/Rich_picture) artifact.
 
 <!-- A proposal for Open and Lean Architecting Framework collecting important artifacts can be found on an [HSR FHO/OST web page](https://www.ifs.hsr.ch/index.php?id=13195&L=4). -->
