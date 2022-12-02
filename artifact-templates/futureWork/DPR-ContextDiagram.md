@@ -69,9 +69,11 @@ See C4 website for more examples.
 <!-- From PLOPs and from AA-->
 This is not a UML diagram type (tools have some basic/proprietary support, usually), but has been present in professional services methods since late 1990s.
 
-The Unified Architecture Method (UAM) has this artifact: <http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html>
+The Unified Architecture Method (UAM) has a task called ["Define System Scope & Context"](http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html).
 
-<!-- TODO Wayback machine for IBM dW article? URI? -->
+The System Integration Method in IBM Global Services has included a System Context Diagram artifact since its inception in the late 1990s.
+
+<!-- TODO Wayback machine for IBM dW article? URI? [O] Student Project? Combo Crawler/Archive Lookup/Diffing? -->
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
@@ -89,8 +91,8 @@ Related artifacts are:
 ### More Information
 
 * Domain-driven design tools such as Context Mapper can be used to model context diagrams. 
-* The Agile Modeling website covers sketching. 
-* There is a Scenario viewpoint in the 4+1 model. 
+* The Agile Modeling website advocates [free form modeling](http://agilemodeling.com/artifacts/freeForm.htm) and a [multiple models](http://agilemodeling.com/artifacts/) approach. 
+* There is a Scenario viewpoint in the [4+1 architetcural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model). 
 * The Soft Systems Methodology has a [Rich Picture](https://en.wikipedia.org/wiki/Rich_picture) artifact.
 
 <!-- A proposal for Open and Lean Architecting Framework collecting important artifacts can be found on an [HSR FHO/OST web page](https://www.ifs.hsr.ch/index.php?id=13195&L=4). -->

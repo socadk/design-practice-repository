@@ -76,13 +76,15 @@ Component models and diagrams arguably are as old as the software architecture f
 
 Component Diagram is one of the four Cs in C4. <!-- Context is featured in a separate template. Containers correspond to architecture overviews. We will not cover classes here. -->
 
+Layering and partitioning is featured in Scott Ambler's work, see for instance ["Class Type Architecture: A Strategy for Layering Software Applications"](http://ambysoft.com/essays/classTypeArchitecture.html).
+
 
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
-*  [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity in DPR
-* Context Diagram
-* Deployment Diagram
+* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity in DPR
+* [Container Diagram](DPR-ContainerDiagram.md)
+* [Deployment Diagram](DPR-DeploymentDiagram.md)
 * Implementation code
 
 
