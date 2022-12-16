@@ -18,7 +18,7 @@ also known as: Architecture Overview Diagram, Container Diagram <!-- "The Import
 <!--Purpose -->
 
 * Typically created during solution strategy, refined iteratively and incrementally later (as/if needed)
-* Illustrate Client-Server Cuts (CSCs) and other big decisions 
+* Illustrate [Client-Server Cuts (CSCs)](https://hillside.net/plop/plop97/Proceedings/renzel.pdf) such as Remote User Interface or Distributed Presentation and other "big" architectural decisions 
 * Interface protocols and implementation technologies also shown
 
 
@@ -96,7 +96,7 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 ```yaml
 title: "Design Practice Repository (DPR): Container Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "12, 02, 2022"
+date: "12, 16, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

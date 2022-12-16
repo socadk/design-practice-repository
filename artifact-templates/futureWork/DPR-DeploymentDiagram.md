@@ -35,7 +35,7 @@ Usage scenarios (required for any production environment, including cloud deploy
 ### Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)--> 
 
-Many DSLs exist today, for instance coming from cloud providers and CI/CD vendors. Typically rich pictures are used that show:
+Many custom notations and Domain-Specific Languages (DSLs) for topology modeling and configuration management exist today, for instance coming from cloud providers and CI/CD vendors. Typically rich pictures are used that show:
 
 * Network zones
 * Compute and storage nodes, virtual and physical
@@ -82,8 +82,9 @@ The deployment units and physical tiers in an order management scenario in telec
 * UML deployment diagrams <!--, since Version n.m -->
 * C4 Model, as a later addition, not part of the original four C). 
 
-See for instance "Architectural Knowledge in an SOA Infrastructure Reference Architecture". 
-<!-- TODO bibtex, also see https://www.ifi.uzh.ch/dam/jcr:00000000-6e46-e644-0000-00004804109f/Reading.zip -->
+See for instance the book chapter "Architectural Knowledge in an SOA Infrastructure Reference Architecture" ([PDF](http://soadecisions.org/download/SOAD-4AKMBookv11.pdf)). 
+
+<!-- TODO bibtex, also see https://www.ifi.uzh.ch/dam/jcr:00000000-6e46-e644-0000-00004804109f/Reading.zip (ADS and more) -->
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
@@ -109,7 +110,7 @@ See for instance "Architectural Knowledge in an SOA Infrastructure Reference Arc
 ```yaml
 title: "Design Practice Repository (DPR): Deployment Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "12, 02, 2022"
+date: "12, 16, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

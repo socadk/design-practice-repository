@@ -43,9 +43,9 @@ Context diagrams are informal, typically; their layout should follow certain con
 
 In an order management scenario in telecommunications, external clients such as Web channels supporting human users and external systems (in client/consumer role) may be the primary actors interfacing with the order management system. Secondary actors include backend systems for billing and customer management, as well as the telephony network:
 
-![Context Diagram Example](/artifact-templates/images/ZIO-ContextDiagramExample.png) <!-- TODO 2022 provide paper reference -->
+![Context Diagram Example](/artifact-templates/images/ZIO-ContextDiagramExample.png)
 
-See C4 website for more examples.
+<!-- See C4 website for more examples. -->
 
 
 ### Tools
@@ -103,7 +103,7 @@ Related artifacts are:
 ```yaml
 title: "Design Practice Repository (DPR): Context Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "12, 02, 2022"
+date: "12, 16, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

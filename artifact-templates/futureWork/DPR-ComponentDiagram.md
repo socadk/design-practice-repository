@@ -30,6 +30,9 @@ This diagram type is an intermediate artifact, supporting usage scenarios and pr
 * Divide and conquer, facilitate working in parallel 
 * Estimate effort, organize and support buy-vs.-build-vs.-rent decision making  
 * Support development with meaningful abstractions, explain difficult parts (design hot spots)
+* Assist with change impact analysis 
+* Identify bottlenecks, single points of failure and other quality risks
+
 
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
@@ -50,7 +53,9 @@ The following component diagram identified a number of candidate components acro
 
 ![Component Diagram Example](/artifact-templates/images/ZIO-AbstractComponentModelSketch.png)
 
-See C4 website and Lakeside Mutual case for more examples. <!-- Methods have an architecture too, so our DPR overview figure can be seen as a container diagram. We also use user stories (in activity template) -->
+<!-- See C4 website and Lakeside Mutual case for more examples. --> 
+
+<!-- Methods have an architecture too, so our DPR overview figure can be seen as a container diagram. We also use user stories (in activity template) -->
 
 
 ### Tools
@@ -103,7 +108,7 @@ Layering and partitioning is featured in Scott Ambler's work, see for instance [
 ```yaml
 title: "Design Practice Repository (DPR): Component Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "11, 25, 2022"
+date: "12, 16, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
