@@ -209,7 +209,7 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 
 -->
 
-[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) includes more patterns and pattern categories. MAP now forms the core of the "Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges"](https://medium.com/nerd-for-tech/api-patterns-website-redesigned-and-sample-book-chapter-available-df9daf4b5e15) book @PatternsForAPIDesign:2022.
+[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) includes more patterns and pattern categories. MAP now forms the core of the ["Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges"](https://medium.com/nerd-for-tech/api-patterns-website-redesigned-and-sample-book-chapter-available-df9daf4b5e15) book (@PatternsForAPIDesign:2022).
 
 A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
 
