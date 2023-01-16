@@ -132,15 +132,14 @@ Refer to presentations and articles by:
 * Vaughn Vernon's [YouTube channel](https://www.youtube.com/channel/UCdbDxsXevDLt7EhRbi2KGjg)
 * ["Introduction to Strategic DDD"](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design) on the Vaadin website 
 
-<!-- TODO bibtex SummerSoC 2020, Modelsward 2020 -->
-Articles about Context Mapper and its interpretation of the DDD patterns can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/).
+Articles about Context Mapper and its interpretation of the DDD patterns can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/), including "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020:CM1) and "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020:CM2). Experience with the tool on projects is shared in [this blog post](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [this blog post](https://blog.mimacom.com/ddd-and-context-mapper-experience/).
 
 ### Data Provenance 
 
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Strategic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "07, 16, 2021"
+date: "01, 16, 2023"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

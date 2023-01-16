@@ -15,7 +15,7 @@ The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) we
 
 "While much has been said about microservices in general and about supporting infrastructure architectures, the actual service design has received less attention:
 
-* How many services should be exposed? What is an adequate size for them? <!-- TODO 2021: review [FB] and [Q]s: + 1. what does "exposed" mean, 1:n for deployment unit:service? 2. size of API or underlying implementation (breadth, depth)? 3. "remote services" and 3. "service-client interactions" (for LC) -->
+* How many services should be exposed? What is an adequate size for them? <!-- TODO 2023 (L): review [FB] and [Q]s: + 1. what does "exposed" mean, 1:n for deployment unit:service? 2. size of API or underlying implementation (breadth, depth)? 3. "remote services" and 3. "service-client interactions" (for LC) -->
 * How to ensure that services are loosely coupled? How much data should they exchange, and how often does this happen?
 * What are the most suitable message representations? How to agree on the meaning of each message?"
 
@@ -200,15 +200,18 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
 
-<!-- TODO 2021:
+<!-- TODO 2023: extend more information section 
 
+* More on PfAD MAP book, more from JH (second paragraph)
 * (tbd) The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices".
 * CAPs https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ 
 * (tbd) https://www.infoq.com/articles/api-first-integration/ 
 
 -->
 
-[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
+[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) includes more patterns and pattern categories. MAP now forms the core of the "Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges"](https://medium.com/nerd-for-tech/api-patterns-website-redesigned-and-sample-book-chapter-available-df9daf4b5e15) book @PatternsForAPIDesign:2022.
+
+A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
 
 The SOAD project 2006 to 2009 compiled a number of architectural decisions that are required when designing service-oriented architectures. Being independent of application genre and architectural style, the meta issues in Table 2 from the SOAD paper ["Architectural Decision Identification in Architectural Patterns"](https://soadecisions.org/download/SOAD-SHARK2012v13Final.pdf) can guide the decision making in Steps 3 to 7:
 
@@ -221,7 +224,7 @@ Note that in microservices architectures, more options for these decisions (in t
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "07, 16, 2021"
+date: "01, 16, 2023"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
