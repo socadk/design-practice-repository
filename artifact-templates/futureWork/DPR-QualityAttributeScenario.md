@@ -39,7 +39,7 @@ The full template look as follows (with explanations). Note that the six rows in
 
 ![Annotated QAS Template](/artifact-templates/images/ZIO-QualityAttributeScenarioExplanations.png)
 
-See sample chapter of ADD 3.0 book by H. Cervantes and R. Kazman for the SEI visualization.
+See sample chapter of ADD 3.0 book by Humberto Cervantes and Rick Kazman for the SEI visualization.
 <!-- TODO 2023 repaint and show graphical image from SEI books and reports (MK has them too), https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf bibtex this tutorial is good too: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536 (SATURN 2015) -->
 
 ### Example(s)
@@ -99,8 +99,8 @@ The blog post ["Do Software Architectures Meet Extra-Functional or Non-Functiona
 ```yaml
 title: "Design Practice Repository (DPR): Quality Attribute Scenario"
 author: Olaf Zimmermann (ZIO)
-date: "01, 18, 2022"
-copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
+date: "01, 18, 2023"
+copyright: Olaf Zimmermann, 2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 
