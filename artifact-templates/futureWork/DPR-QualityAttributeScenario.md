@@ -9,31 +9,33 @@ Abstraction/Refinement Level: n/a (requirements)
 Artifact/Template: *Quality Attribute Scenario (QAS)*
 -----------------------------------------------------
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
-also known as: SMART NFR
+also known as: SMART Non-Functional Requirement (NFR) Specification
 
-> *A quality attribute scenario specifies measurable quality goals for a particular context.*
+> *A quality attribute scenario specifies a measurable quality goal for a particular context.*
+
+There might be multiple goals and corresponding scenarios, even when dealing with a single quality in a single context.
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
 
-It is not sufficient to find out and specify *what* a system under construction is supposed to do. It is equally important to investigate *how* it does so (from an architectural point of view). Vague statements such as "we value a good user experience" are not verifiable and let to tension between project team and irs external stakeholders.
+It is not sufficient to find out and specify *what* a system under construction is supposed to do. It is equally important to investigate *how* it does so (from an architectural point of view). Vague statements such as "we value a splendid user experience" or "the faster, the better" are not verifiable and let to tension between project team and its external stakeholders.
 
 
 ### Usage (Produced and Consumed When)
 <!--AA/AS/AE, must identify the producing role and the target audience-->
 
-QAS are created and used in:
+QAS are created, refined, and used in:
 
 * Requirements elicitation (analysis), see [SMART NFR Elicitation](../artifacts-activities/DPR-SMART-NFR-Elicitation.md) activity
 * Architecture design and architectural decision making
 * Test preparation and testing (stress testing in particular)
-* [Service Level Agreement (SLA)](SDPR-ServiceLevelAgreement.md) 
+* Establishment of [Service Level Agreement (SLA)](SDPR-ServiceLevelAgreement.md) 
 * Reviews and planning of re-engineering and refactoring
 
 
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
-The template look as follows (with explanations):
+The full template look as follows (with explanations). Note that the six rows in the middle, from "Stimulus" to "Response Measure", which are grouped as "scenario components", form the core of a QAS. The other ones provide context information and deal with consequences of the specified response and response measure.
 
 ![Annotated QAS Template](/artifact-templates/images/ZIO-QualityAttributeScenarioExplanations.png)
 
@@ -49,15 +51,15 @@ See sample chapter of ADD 3.0 book by H. Cervantes and R. Kazman for the SEI vis
 ### Tools
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
 
-This is a text artifact, possibly structured with the help of templates and tables.
+This is a text artifact, possibly structured with the help of templates and tables. Any word processing or other tool supporting item lists and table formatting can be used to create QAS instances, including wikis, markup languages, and Markdown.
 
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!--See ART, don’t overdo etc.-->
 
-* Focus on key qualities, prioritize elicitation and documentation effort by business value and technical risk (e.g., ASR test)
-* Define the behavior in different environments (steady state, high workload, error cases)
-* Do not let this analysis artifact morph into a design one; the response measure is an observable quality, not a means to achieve this quality.
+* Focus on key qualities, prioritize elicitation and documentation effort by business value and technical risk (for instance, via a test for [architectural significance](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490)).
+* Define the desired behavior in different environments such as steady state, high workload, and error cases. Create multiple QAS instances as/if needed.
+* Do not let the scope of this analysis artifact creep, for instance by morphing it into a design document. The response measure is an observable quality, not a means to achieve this quality.
 
 <!-- TODO could talk about design time vs. runtime; what are measures for design time qualities such as maintainability? could talk about quality trees for prioritization, risk-based approach by M .Glinz (see fact sheets) -->
 
@@ -69,7 +71,7 @@ This is a text artifact, possibly structured with the help of templates and tabl
 
 * The SEI books and technical reports established the template since the late 1990s (@Bass:2012).
 * The arc42 template also features it in its [Section 10](https://docs.arc42.org/section-10/).
-* Methods such as UP have/had similar concepts.
+* Methods such as the Unified Process have/had similar concepts.
 
 
 ### Related Artifacts and Practices (incl. Alternatives)
@@ -77,19 +79,19 @@ This is a text artifact, possibly structured with the help of templates and tabl
 
 Relate activities in DPR are:
 
-* [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md), features specific and measurable as quality criteria for quality requirements; QAS bring these properties when filled out properly
-* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity, uses QAS and other SMART NFRs as input
+* [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md), features specific and measurable as quality criteria for quality requirements; QAS bring these properties when filled out properly.
+* The [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity uses QAS (or other forms of SMART NFRs) as input.
 
 
 ### More Information
 
-Related practices include: 
+Related concepts include: 
 
-* Agile landing zones for NFRs (RWB) 
+* [Agile landing zones]() for NFRs 
 * NFR checklists, for instance regarding the SMARTness of the quality goals  
-* PLANG <!-- TODO 2023 AppArch FS -->
-
-The blog post [""Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) covers NFRs.
+* [Planguage](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/2926/Specifying-Quality-Requirements-With-Planguage.aspx), explained in detail in the article "Rich Requirement Specs: The use of Planguage to clarify requirements" @Gilb:2006. <!-- alternative links: http://www.syque.com/quality_tools/tools/Tools104.htm  and <https://www.gilb.com/blog/search?q=planguage> and <http://www.geocities.ws/g/i/gillani/SE%272%20Full%20Lectures/ASE%20-%20%20Planguage%20Quantifying%20Quality%20Requirements.pdf> -->
+ 
+The blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) covers NFRs.
 
 
 ### Data Provenance 
@@ -97,7 +99,7 @@ The blog post [""Do Software Architectures Meet Extra-Functional or Non-Function
 ```yaml
 title: "Design Practice Repository (DPR): Quality Attribute Scenario"
 author: Olaf Zimmermann (ZIO)
-date: "11, 02, 2022"
+date: "01, 18, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
