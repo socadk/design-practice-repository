@@ -25,9 +25,9 @@ The [C4 model page](https://en.wikipedia.org/wiki/C4_model) on Wikipedia advises
 
 Drawing a context diagram serves one or more of these purposes: 
 
-* Document external dependencies and coordination needs (technical risk, scheduling)
-* Identify application owners and other stakeholders of neighboring systems
-* Estimate and initiate integration design and implementation 
+* Document external dependencies and coordination needs (technical risk, scheduling).
+* Identify application owners and other stakeholders of neighboring systems.
+* Estimate and initiate integration design and implementation.
 
 
 ### Template Structure and Notation(s)
@@ -51,19 +51,21 @@ In an order management scenario in telecommunications, external clients such as 
 ### Tools
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
 
-* Any drawing tool, whiteboards
-* Structurizr
-* UML tools
+Context diagrams are typically created with light tools, although full-fledged modeling tools can also be used:
+
+* Any drawing tool or whiteboarding capability
+* C4 tools, one option being Structurizr
+* UML tools, either graphical or text-based (such as PlantUML)
 
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!--See ART, don’t overdo etc.-->
 
-* Organize the diagram for readability; for instance, place interface consumers at the top and interface providers at the bottom. Order consumers and providers by their type(human user, external system) and/or importance and/or time of activity.
+* Organize the diagram for readability; for instance, place interface consumers at the top and interface providers at the bottom. Order consumers and providers by their type (human user, external system) and/or importance and/or time of activity. Label all arrows, and explain their meaning in a legend (runtime API call or compile-time dependency?).
 * Do not confuse black box and white box and views. Here, no internals should be shown.
-* Do not stop at the outside view, but zoom in (with a container diagram). Label all arrows, and explain their meaning in a legend. 
+* Do not stop at the outside view, but zoom in (with a container diagram).  
 * Do not forget to update this diagram as a design evolves; when a new API is consumed, this has to be shown as an outbound external interface in any context diagrams drawn earlier.
-* Consider strategic DDD to carve out contexts.
+* Consider [Strategic DDD](DPR-StrategicDDD.md) to carve out contexts.
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
@@ -71,7 +73,7 @@ This is not a UML diagram type (tools have some basic/proprietary support, usual
 
 The Unified Architecture Method (UAM) has a task called ["Define System Scope & Context"](http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html).
 
-The System Integration Method in IBM Global Services has included a System Context Diagram artifact since its inception in the late 1990s.
+The System Integration Method in IBM Global Services included a System Context Diagram artifact since its inception in the late 1990s.
 
 <!-- TODO Wayback machine for IBM dW article? URI? [O] Student Project? Combo Crawler/Archive Lookup/Diffing? -->
 
@@ -103,7 +105,7 @@ Related artifacts are:
 ```yaml
 title: "Design Practice Repository (DPR): Context Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "12, 16, 2022"
+date: "01, 18, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
