@@ -75,7 +75,7 @@ Infrastructure architecture and system management are fields and competence area
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!--See ART, don’t overdo etc.-->
 
-* Do not start teh operational design too late, but develop component diagram and deployment diagram hand in hand.
+* Do not start the operational design too late, but develop component diagram and deployment diagram hand in hand.
 * Model iteratively, starting on a conceptual, platform- and technology-independent level to promote qualities such as design portability and cloud agnosticism.
 * Follow the general modeling hints and guidelines from [Gernot Starke](https://www.innoq.com/en/articles/2022/09/better-architecture-diagrams/) (in German for the time being), Simon Brown, and others to ensure readability and maintainability.
 * Keep the diagram current as the design evolves and the hosted system advances throughout its lifecycle.
@@ -84,11 +84,13 @@ Infrastructure architecture and system management are fields and competence area
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
 
+Deployment diagrams have a log history:
+
 * IBM ADS and System Integration/Global Services Method
 * Unified Modeling Language (UML) <!-- deployment diagrams, since Version n.m -->
 * C4 Model, as a later addition (not part of the original four C). 
 
-See for instance the book chapter "Architectural Knowledge in an SOA Infrastructure Reference Architecture" ([PDF](http://soadecisions.org/download/SOAD-4AKMBookv11.pdf)). 
+See the book chapter "Architectural Knowledge in an SOA Infrastructure Reference Architecture" for motivation and usage in context ([PDF](http://soadecisions.org/download/SOAD-4AKMBookv11.pdf)). 
 
 <!-- TODO bibtex, also see https://www.ifi.uzh.ch/dam/jcr:00000000-6e46-e644-0000-00004804109f/Reading.zip (ADS and more) -->
 
@@ -98,7 +100,7 @@ See for instance the book chapter "Architectural Knowledge in an SOA Infrastruct
 
 * [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity
 * The [C4 Model](https://c4model.com/) for visualizing software architecture by Simon Brown <!-- say that SB does not recommend to model the fourth C, but added three several supplemental views later, which makes it a C7, not too different from pragmatic UML use -->
-* Unified Modeling Language (UML), see below
+* Unified Modeling Language (UML) deployment diagrams
 
 
 ### More Information
