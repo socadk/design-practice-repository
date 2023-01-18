@@ -19,7 +19,7 @@ also known as: Architecture Overview Diagram, Container Diagram <!-- "The Import
 
 * Typically created during solution strategy, refined iteratively and incrementally later (as/if needed)
 * Illustrate [Client-Server Cuts (CSCs)](https://hillside.net/plop/plop97/Proceedings/renzel.pdf) such as Remote User Interface or Distributed Presentation and other "big" architectural decisions 
-* Interface protocols and implementation technologies also shown
+* Disclose information about interface protocols and implementation technologies
 
 
 ### Usage (Produced and Consumed When)
@@ -51,9 +51,11 @@ Three conceptual tiers are shown, one for application frontends and integrated e
 ### Tools
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
 
-* Any drawing tool, whiteboards
-* Structurizr
-* UML tools
+Common choices include:
+
+* Any drawing tool, real-world whiteboards or whoteboarding software
+* C4 tools incuding Structurizr
+* UML tools, possibly with customization or profiling
 
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
@@ -61,6 +63,7 @@ Three conceptual tiers are shown, one for application frontends and integrated e
 
 Just a few hints (many more can be found online):
 
+* Model and diagram with a clearly defined purpose and target audience in mind.
 * Decide for a single, consistent level of abstraction and refinement per diagram; explain which elements are included in the overview and why. 
 * Do not confuse the abstract, conceptual notion of "container" (used here) with more concrete technical container concepts such as those in charge of dependency injection (for instance, in Spring) or orchestration and deployment containers (for instance, in Docker and Kubernetes).   
 * Use names that unveil domain concept and architectural role, for example "Policy Management Frontend" is better than "Client" (in insurance domain/scenario). 
@@ -78,7 +81,12 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
+Activities:
+
 * [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity
+
+Artifacts:
+
 * [Context Diagram](DPR-ContextDiagram.md)
 * [Component Diagram](DPR-ComponentDiagram.md)
 * [Deployment Diagram](DPR-DeploymentDiagram.md)
@@ -86,9 +94,9 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 
 ### More Information
 
-* [C4 on InfoQ](https://www.infoq.com/articles/C4-architecture-model/)
 * arc42 [solution strategy](https://docs.arc42.org/section-4/)
-* Scott Ambler advises to ["Model Your Architecture"](http://agilemodeling.com/essays/agileArchitecture.htm#Model)
+* [C4 on InfoQ](https://www.infoq.com/articles/C4-architecture-model/)
+* Scott Ambler <!-- advises to --> ["Model Your Architecture"](http://agilemodeling.com/essays/agileArchitecture.htm#Model)
 
 
 ### Data Provenance 
@@ -96,7 +104,7 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 ```yaml
 title: "Design Practice Repository (DPR): Container Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "12, 16, 2022"
+date: "01, 18, 2022"
 copyright: Olaf Zimmermann, 2022 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
