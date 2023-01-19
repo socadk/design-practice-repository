@@ -37,13 +37,13 @@ This diagram type is an intermediate artifact, supporting usage scenarios and pr
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
 
-Component diagrams often come in boxes-and-arrows form, with the semantics of these diagram elements explained in a legend or standardized. When using UML, for instance, stereotyped classed can be used as boxes.
+Component diagrams that illustrate the static structure often come in boxes-and-arrows form, with the semantics of these diagram elements explained in a legend or standardized. When using UML, for instance, stereotyped classes can be used as boxes.
 
 <!-- ![](/images/NN.png) -->
 
-The [C4 Model](https://c4model.com/) for visualizing software architecture by Simon Brown introduces component models as its third C. <!-- say that SB does not recommend to model the fourth C, but added three several supplemental views later, which makes it a C7, not too different from pragmatic UML use -->
+The [C4 Model](https://c4model.com/) for visualizing software architecture by Simon Brown introduces component models as its third C. <!-- say that SB does not recommend to model the fourth C, but added three several supplemental views later, which makes it a C7, not too different from pragmatic UML use --> It also features a ["Dynamic diagram"](https://c4model.com/#SupplementaryDiagrams).
 
-Unified Modeling Language (UML) has a component diagram, but due to language and tool limitations stereotyped class diagrams might also be an adequate choice. <!-- TODO ADS link? -->
+Unified Modeling Language (UML) has a component diagram, but due to language and tool limitations stereotyped class diagrams might also be an adequate choice. The UML communication diagram (formerly known as a "UML collaboration diagram") captures component dynamics; sequence diagrams are a valid choice for that purpose as well. <!-- TODO ADS link? -->
 
 
 ### Example(s)
@@ -71,7 +71,7 @@ Common choices include:
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!--See ART, don’t overdo etc.-->
 
-* Do not confuse logical and physical model elements; this diagram shows the logical structure.
+* Do not confuse logical and physical model elements; this diagram shows the logical structure. The interactions between the components in selected usage scenarios should be specified as well (for instance, representative cases or particularly challenging design hot spots such as peak load processing and error handling). 
 * Decide for a leading decomposition type, for instance functional/domain-driven versus technical. Apply decomposition criteria and strategies such as those in [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria) to identify candidate components.   
 * Do not create a single component for each and every class (in object-oriented programs), but group classes to achieve cohesion, which makes the design change-friendly. <!-- TODO 2023 cire integrators and disintegrators in "The Hard Parts" -->
 * Measure coupling and cohesion as the design and its implementation evolve. Consider architectural and interface [refactoring](https://interface-refactoring.github.io/) to improve the design as desired qualities and their priorities come and go. 
@@ -97,6 +97,7 @@ Activities:
 
 Artifacts:
 
+* Component Interaction Diagram (CID) 
 * [Container Diagram](DPR-ContainerDiagram.md)
 * [Deployment Diagram](DPR-DeploymentDiagram.md)
 * Implementation code
