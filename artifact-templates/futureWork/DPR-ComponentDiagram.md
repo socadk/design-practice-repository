@@ -17,7 +17,7 @@ a.k.a. Logical View
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
 
-The [C4 model page](https://en.wikipedia.org/wiki/C4_model) on Wikipedia describes this artifacts as: "decompose containers into interrelated components, and relate the components to other containers or other systems".
+The [C4 model page](https://en.wikipedia.org/wiki/C4_model) on Wikipedia describes this artifact as: "decompose containers into interrelated components, and relate the components to other containers or other systems".
 
 <!-- TODO what is a component anyway? how different from class? *candidate*, comes from story splitting and patterns (solution strategy!) -->
 
@@ -25,7 +25,7 @@ The [C4 model page](https://en.wikipedia.org/wiki/C4_model) on Wikipedia describ
 ### Usage (Produced and Consumed When)
 <!--AA/AS/AE, must identify the producing role and the target audience-->
 
-This diagram type is an intermediate artifact, supporting usage scenarios and problem solving strategies such as:
+This diagram type is an intermediate artifact, supporting usage scenarios and problem-solving strategies such as:
 
 * Divide and conquer, facilitate working in parallel. 
 * Estimate effort, organize and support buy-vs.-build-vs.-rent decision making.  
@@ -72,10 +72,10 @@ Common choices include:
 <!--See ART, don’t overdo etc.-->
 
 * Do not confuse logical and physical model elements; this diagram shows the logical structure. The interactions between the components in selected usage scenarios should be specified as well (for instance, representative cases or particularly challenging design hot spots such as peak load processing and error handling). 
-* Decide for a leading decomposition type, for instance functional/domain-driven versus technical. Apply decomposition criteria and strategies such as those in [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria) to identify candidate components.   
+* Decide for a leading decomposition type, for instance, functional/domain-driven versus technical. Apply decomposition criteria and strategies such as those in [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria) to identify candidate components.   
 * Do not create a single component for each and every class (in object-oriented programs), but group classes to achieve cohesion, which makes the design change-friendly. <!-- TODO 2023 cire integrators and disintegrators in "The Hard Parts" -->
 * Measure coupling and cohesion as the design and its implementation evolve. Consider architectural and interface [refactoring](https://interface-refactoring.github.io/) to improve the design as desired qualities and their priorities come and go. 
-* Do not assume all component have to be implemented; buying products and renting cloud services are valid options as well.
+* Do not assume all components have to be implemented; buying products and renting cloud services are valid options as well.
 
 
 ### Origins and Signs of Use
@@ -83,7 +83,7 @@ Common choices include:
 
 Component models and diagrams arguably are as old as the software architecture field (or even older), appearing under various names. We find instances of them in classic papers by Fred Brooks and David Parnas. <!-- TODO 2023 fact check, pointer to example -->
 
-Component Diagram is one of the four Cs in C4. <!-- Context is featured in a separate template. Containers correspond to architecture overviews. We will not cover classes here. -->
+The Component Diagram is one of the four Cs in C4. <!-- Context is featured in a separate template. Containers correspond to architecture overviews. We will not cover classes here. -->
 
 Layering and partitioning is featured in Scott Ambler's publications, see for instance his online essay ["Class Type Architecture: A Strategy for Layering Software Applications"](http://ambysoft.com/essays/classTypeArchitecture.html).
 

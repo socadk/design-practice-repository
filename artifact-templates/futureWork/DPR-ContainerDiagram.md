@@ -6,6 +6,7 @@ Activities: Architecture design, component modeling
 Abstraction/Refinement Level: Technology/platform-independent
 ---
 
+<!-- MS4OZ: just a reminder to rename the file before publishing -->
 
 Artifact/Template: *Overview Diagram*
 --------------------------------------
@@ -27,15 +28,15 @@ also known as: Architecture Overview Diagram, Container Diagram <!-- "The Import
 
 A container diagram (aka architecture overview) can be used for: 
 
-* Quick orientation for starters (new DevOps team member, support and maintenance staff)
+* Quick orientation for starters (new DevOps team member, support, and maintenance staff)
 * Work distribution and planning
-* Non-technical stakeholder communication (including project managers, sponsors) 
+* Non-technical stakeholder communication (including project managers and sponsors) 
 
 
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)--> 
 
-Container diagrams often come as informal rich pictures (IRPs). C4 and its tools take slightly more formal approach, allowing to zoom in (coming from a context diagram, moving on to a component diagram).
+Container diagrams often come as informal rich pictures (IRPs). C4 and its tools take a slightly more formal approach, allowing one to zoom in (coming from a context diagram, moving on to a component diagram).
 
 
 ### Example(s)
@@ -45,7 +46,7 @@ Having decided for logical layers as primary organizing/decomposition principles
 
 ![Container Diagram Sketch/Example](/artifact-templates/images/ZIO-AbstractContainerDiagramSketch.png)
 
-Three conceptual tiers are shown, one for application frontends and integrated external systems (in client role), one centered on business logics and one containing data stores and external systems (in provider role).
+Three conceptual tiers are shown, one for application frontends and integrated external systems (in client role), one centered on business logic, and one containing data stores and external systems (in provider role).
 
 
 ### Tools
@@ -53,8 +54,8 @@ Three conceptual tiers are shown, one for application frontends and integrated e
 
 Common choices include:
 
-* Any drawing tool, real-world whiteboards or whoteboarding software
-* C4 tools incuding Structurizr
+* Any drawing tool, real-world whiteboards or whiteboarding software
+C4 tools including Structurizr
 * UML tools, possibly with customization or profiling
 
 
@@ -66,10 +67,10 @@ Just a few hints (many more can be found online):
 * Model and diagram with a clearly defined purpose and target audience in mind.
 * Decide for a single, consistent level of abstraction and refinement per diagram; explain which elements are included in the overview and why. 
 * Do not confuse the abstract, conceptual notion of "container" (used here) with more concrete technical container concepts such as those in charge of dependency injection (for instance, in Spring) or orchestration and deployment containers (for instance, in Docker and Kubernetes).   
-* Use names that unveil domain concept and architectural role, for example "Policy Management Frontend" is better than "Client" (in insurance domain/scenario). 
+* Use names that unveil domain concepts and architectural roles; for example, "Policy Management Frontend" is better than "Client" (in an insurance domain/scenario). 
 * Be consistent in the use of notation, provide a legend for non-standard diagram elements.
 
-See section "Notation, notation, notation" on the [C4 model home page](https://c4model.com/#notation) and its [diagram review checklist](https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf) for more hints.
+See the section "Notation, notation, notation" on the [C4 model home page](https://c4model.com/#notation) and its [diagram review checklist](https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf) for more hints.
 
 
 ### Origins and Signs of Use

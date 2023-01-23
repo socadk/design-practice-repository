@@ -18,7 +18,7 @@ There might be multiple goals and corresponding scenarios, even when dealing wit
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
 
-It is not sufficient to find out and specify *what* a system under construction is supposed to do. It is equally important to investigate *how* it does so (from an architectural point of view). Vague statements such as "we value a splendid user experience" or "the faster, the better" are not verifiable and let to tension between project team and its external stakeholders.
+It is not sufficient to find out and specify *what* a system under construction is supposed to do. It is equally important to investigate *how* it does so (from an architectural point of view). Vague statements such as "we value a splendid user experience" or "the faster, the better" are not verifiable and lead to tension between the project team and its external stakeholders.
 
 
 ### Usage (Produced and Consumed When)
@@ -39,7 +39,7 @@ The full template look as follows (with explanations). Note that the six rows in
 
 ![Annotated QAS Template](/artifact-templates/images/ZIO-QualityAttributeScenarioExplanations.png)
 
-See sample chapter of ADD 3.0 book by Humberto Cervantes and Rick Kazman for the SEI visualization.
+See the sample chapter of ADD 3.0 book by Humberto Cervantes and Rick Kazman @Cervantes:2016 for the SEI visualization.
 <!-- TODO 2023 repaint and show graphical image from SEI books and reports (MK has them too), https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf bibtex this tutorial is good too: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536 (SATURN 2015) -->
 
 ### Example(s)
@@ -58,8 +58,8 @@ This is a text artifact, possibly structured with the help of templates and tabl
 <!--See ART, don’t overdo etc.-->
 
 * Focus on key qualities, prioritize elicitation and documentation effort by business value and technical risk (for instance, via a test for [architectural significance](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490)).
-* Define the desired behavior in different environments such as steady state, high workload, and error cases. Create multiple QAS instances as/if needed.
-* Do not let the scope of this analysis artifact creep, for instance by morphing it into a design document. The response measure is an observable quality, not a means to achieve this quality.
+* Define the desired behavior in different environments, such as steady state, high workload, and error cases. Create multiple QAS instances as/if needed.
+* Do not let the scope of this analysis artifact creep, for instance, by morphing it into a design document. The response measure is an observable quality, not a means to achieve this quality.
 
 <!-- TODO could talk about design time vs. runtime; what are measures for design time qualities such as maintainability? could talk about quality trees for prioritization, risk-based approach by M .Glinz (see fact sheets) -->
 
@@ -79,7 +79,7 @@ This is a text artifact, possibly structured with the help of templates and tabl
 
 Relate activities in DPR are:
 
-* [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md), features specific and measurable as quality criteria for quality requirements; QAS bring these properties when filled out properly.
+* [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md) features "specific" and "measurable" as quality criteria for quality requirements; QAS satisfy these properties when filled out properly.
 * The [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity uses QAS (or other forms of SMART NFRs) as input.
 
 
@@ -87,8 +87,8 @@ Relate activities in DPR are:
 
 Related concepts include: 
 
-* [Agile landing zones]() for NFRs 
-* NFR checklists, for instance regarding the SMARTness of the quality goals  
+* [Agile landing zones]() for NFRs <!-- MS4OZ: Link is missing, we could use this one: https://wirfs-brock.com/blog/2011/07/20/introducing-landing-zones/ -->
+* NFR checklists, for instance, regarding the SMARTness of the quality goals  
 * [Planguage](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/2926/Specifying-Quality-Requirements-With-Planguage.aspx), explained in detail in the article "Rich Requirement Specs: The use of Planguage to clarify requirements" @Gilb:2006. <!-- alternative links: http://www.syque.com/quality_tools/tools/Tools104.htm  and <https://www.gilb.com/blog/search?q=planguage> and <http://www.geocities.ws/g/i/gillani/SE%272%20Full%20Lectures/ASE%20-%20%20Planguage%20Quantifying%20Quality%20Requirements.pdf> -->
  
 The blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) covers NFRs.

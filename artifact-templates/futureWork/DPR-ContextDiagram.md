@@ -33,7 +33,7 @@ Drawing a context diagram serves one or more of these purposes:
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
 
-Context diagrams are informal, typically; their layout should follow certain conventions. For instance, the external systems or human users can can be ordered in certain ways: consumers at the top of the figure, providers at the bottom. Arrows should be labelled to indicate the types of interface (and integration style). 
+Context diagrams are informal, typically; their layout should follow certain conventions. For instance, the external systems or human users can be ordered in specific ways: consumers at the top of the figure and providers at the bottom. Arrows should be labeled to indicate the types of interface (and integration style). 
 
 <!-- not sure: Could use IRP one? -->
 
@@ -69,7 +69,7 @@ Context diagrams are typically created with light tools, although full-fledged m
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
-This is not a UML diagram type (tools have some basic/proprietary support, usually), but has been present in professional services methods since late 1990s.
+This is not a UML diagram type (tools have some basic/proprietary support, usually), but has been present in professional services methods since the late 1990s.
 
 The Unified Architecture Method (UAM) has a task called ["Define System Scope & Context"](http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html).
 
@@ -86,14 +86,14 @@ The [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity 
 Related artifacts are: 
 
 * Strategic DDD context maps, showing relations between bounded contexts 
-* Use cases and user stories (contributing primary external interfaces)
+* [Use cases](DPR-UseCase.md) and [user stories](DPR-UserStory) (contributing primary external interfaces)
 * [Container Diagram](DPR-ContainerDiagram.md)
 
 
 ### More Information
 
 * Domain-driven design tools such as Context Mapper can be used to model context diagrams. 
-* The Agile Modeling website advocates [free form modeling](http://agilemodeling.com/artifacts/freeForm.htm) and a [multiple models](http://agilemodeling.com/artifacts/) approach. 
+* The Agile Modeling website advocates free-form[ modeling](http://agilemodeling.com/artifacts/freeForm.htm) and a [multiple-models](http://agilemodeling.com/artifacts/) approach. 
 * There is a Scenario viewpoint in the [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model). 
 * The Soft Systems Methodology has a [Rich Picture](https://en.wikipedia.org/wiki/Rich_picture) artifact.
 

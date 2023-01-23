@@ -28,14 +28,14 @@ The [C4 model page](https://en.wikipedia.org/wiki/C4_model) on Wikipedia defines
 This artifact is required for any production environment, including cloud deployments. Its usage scenarios include: 
 
 * Project management, logical-physical design interlock
-* Capacity planning, hardware procurement, and hosting decision making (on premises? in the cloud?)
+* Capacity planning, hardware procurement, and hosting decision making (on-premise? in the cloud?)
 * Preparation and execution of system operations, including systems management activities.
 
 
 ### Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)--> 
 
-Many custom notations and [Domain-Specific Languages (DSLs)](https://en.wikipedia.org/wiki/Domain-specific_language) for topology modeling and configuration management exist today, for instance coming from cloud providers and CI/CD vendors. Oftentimes, informal rich pictures are used that visualize the following model elements and their relationships:
+Many custom notations and [Domain-Specific Languages (DSLs)](https://en.wikipedia.org/wiki/Domain-specific_language) for topology modeling and configuration management exist today, for instance, coming from cloud providers and CI/CD vendors. Oftentimes, informal rich pictures are used that visualize the following model elements and their relationships:
 
 * Network zones
 * Compute and storage nodes, virtual and physical
@@ -54,11 +54,11 @@ Key concepts: nodes, DUs (one per logical layer!). DSLs, vendor-specific icon se
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-The deployment units and physical tiers in an order management scenario in telecommunications may look as follows (in a hot standby or load balancing configuration):
+The deployment units and physical tiers in an order management scenario in telecommunications may look as follows (in a hot standby or load-balancing configuration):
 
 ![Deployment Diagram Example](/artifact-templates/images/ZIO-DeploymentDiagramExample.png)
 
-The locations contain one or more nodes. The mid tier, for instance, is called Enterprise Application Data Center in this example. Two nodes are configured redundantly (in terms of application deployment units, DUs) to support load balancing and standby/failover capabilities (to improve reliability and availability). A UML note comments on architectural decisions still required (while decisions already made manifest themselves in the diagram).
+The locations contain one or more nodes. The mid-tier, for instance, is called Enterprise Application Data Center in this example. Two nodes are configured redundantly (in terms of application deployment units, DUs) to support load balancing and standby/failover capabilities (to improve reliability and availability). A UML note comments on architectural decisions still required (while decisions already made manifest themselves in the diagram).
 
 ### Tools
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
@@ -78,13 +78,13 @@ Infrastructure architecture and system management are fields and competence area
 * Do not start the operational design too late, but develop component diagram and deployment diagram hand in hand.
 * Model iteratively, starting on a conceptual, platform- and technology-independent level to promote qualities such as design portability and cloud agnosticism.
 * Follow the general modeling hints and guidelines from [Gernot Starke](https://www.innoq.com/en/articles/2022/09/better-architecture-diagrams/) (in German for the time being), Simon Brown, and others to ensure readability and maintainability.
-* Keep the diagram current as the design evolves and the hosted system advances throughout its lifecycle.
+* Keep the diagram current as the design evolves, and the hosted system advances throughout its lifecycle.
 
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
 
-Deployment diagrams have a log history:
+Deployment diagrams have a long history:
 
 * IBM ADS and System Integration/Global Services Method
 * Unified Modeling Language (UML) <!-- deployment diagrams, since Version n.m -->
