@@ -40,7 +40,7 @@ A specific and measurable [Non-Functional Requirement (NFR)](../artifact-templat
 Scoping decisions might include (we could capture them as [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md); see Step 6 for an example of such statement): 
 
 * Build the shop components rather than buy or rent them.
-* Use a [microservices architecture](https://microservice-api-patterns.org/introduction) whose service components are identified with [Domain-Driven Design (DDD)](https://www.ifs.hsr.ch/index.php?id=15666&L=4). 
+* Use a [microservices architecture](https://microservice-api-patterns.org/introduction) whose service components are identified with [Domain-Driven Design (DDD)](https://www.ost.ch/en/research-and-consulting-services/computer-science/ifs-institute-for-software-new/cloud-application-lab/architectural-refactoring-for-the-cloud-arc/domain-driven-design-ddd). 
 * Reuse architectural knowledge by applying patterns.
 * Develop in JavaScript (frontends) and Java (backends).
 * Integrate an external payment service. <!-- TODO feature in SCD etc. -->

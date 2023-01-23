@@ -10,7 +10,7 @@ Role: *API Product Owner*
 
 ### Persona 
 <!--Name of stakeholder (of architecture and architectural artifacts) and its main concerns-->
-An API product owner operates at the intersection where API clients and providers meet. This leads to a constant struggle between fulfilling clients' wishes and keeping the API on [POINT](https://ifs.hsr.ch/index.php?id=15667&L=0) and economically viable.
+An API product owner operates at the intersection where API clients and providers meet. This leads to a constant struggle between fulfilling clients' wishes and keeping the API on [POINT](https://ozimmer.ch/practices/2021/03/05/POINTPrinciplesForAPIDesign.html) and economically viable.
 
 <!-- We decided to call it API Product Owner based on various definitions we found:
 
