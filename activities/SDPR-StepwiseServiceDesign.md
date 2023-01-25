@@ -15,7 +15,7 @@ The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) we
 
 "While much has been said about microservices in general and about supporting infrastructure architectures, the actual service design has received less attention:
 
-* How many services should be exposed? What is an adequate size for them? <!-- TODO 2023 (L): review [FB] and [Q]s: + 1. what does "exposed" mean, 1:n for deployment unit:service? 2. size of API or underlying implementation (breadth, depth)? 3. "remote services" and 3. "service-client interactions" (for LC) -->
+* How many services should be exposed? What is an adequate size for them? <!-- TODO (v2): review [FB] and [Q]s: + 1. what does "exposed" mean, 1:n for deployment unit:service? 2. size of API or underlying implementation (breadth, depth)? 3. "remote services" and 3. "service-client interactions" (for LC) -->
 * How to ensure that services are loosely coupled? How much data should they exchange, and how often does this happen?
 * What are the most suitable message representations? How to agree on the meaning of each message?"
 
@@ -200,7 +200,7 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
 
-<!-- TODO 2023: extend more information section 
+<!-- TODO (v2) extend more information section 
 
 * More on PfAD MAP book, more from JH (second paragraph)
 * (tbd) The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices".

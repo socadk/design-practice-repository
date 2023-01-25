@@ -19,7 +19,7 @@ The desire for structure can be met by the identification of candidate component
 
 Furthermore, technology concepts also have to be decided: middleware and frameworks such as component containers, communication protocols, and message exchange formats, as well as cluster and deployment managers (for instance, Spring Boot and Docker/Kubernetes running in a public cloud). 
 
-The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture early decisions; complementary to that, the overall architecture and selected parts and their dependencies and interactions should also be visualized (to accommodate the information needs of the different types of stakeholders, from project sponsors to DevOps personnel and auditors). <!-- TODO (v2): link to MRM/SOAD meta issue blog post when there --> 
+The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture early decisions; complementary to that, the overall architecture and selected parts and their dependencies and interactions should also be visualized (to accommodate the information needs of the different types of stakeholders, from project sponsors to DevOps personnel and auditors). 
 
 
 ### Goal and Purpose (When to Use and When not to Use)

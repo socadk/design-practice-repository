@@ -30,7 +30,7 @@ Roles:
 
 ### *Preview: DPR eBook*
 
-*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
+*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). 
 
 <!--
 <iframe width='160' height='400' src='https://leanpub.com/dpr/embed' frameborder='0' allowtransparency='true'></iframe>

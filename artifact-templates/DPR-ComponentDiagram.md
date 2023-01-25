@@ -49,11 +49,11 @@ Unified Modeling Language (UML) has a component diagram, but due to language and
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-The following component diagram identified a number of candidate components across logical layers:
+The following component diagram identifies a number of generic candidate components across logical layers:
 
 ![Component Diagram Example](/artifact-templates/images/ZIO-AbstractComponentModelSketch.png)
 
-<!-- TODO 2023 find better one, see C4 website and Lakeside Mutual case for more examples. --> 
+Note that this diagram operates on a meta level; it might be part of a reference architecture, but does not part of a concrete solution architecture (the generic candidate component would have to be translated into domain-specific components for that).
 
 <!-- Methods have an architecture too, so our DPR overview figure can be seen as a container diagram. We also use user stories (in activity template) -->
 
@@ -73,7 +73,7 @@ Common choices include:
 
 * Do not confuse logical and physical model elements; this diagram shows the logical structure. The interactions between the components in selected usage scenarios should be specified as well (for instance, representative cases or particularly challenging design hot spots such as peak load processing and error handling). 
 * Decide for a leading decomposition type, for instance, functional/domain-driven versus technical. Apply decomposition criteria and strategies such as those in [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria) to identify candidate components.   
-* Do not create a single component for each and every class (in object-oriented programs), but group classes to achieve cohesion, which makes the design change-friendly. <!-- TODO 2023 cire integrators and disintegrators in "The Hard Parts" -->
+* Do not create a single component for each and every class (in object-oriented programs), but group classes to achieve cohesion, which makes the design change-friendly. <!-- TODO (v2) refer to integrators and disintegrators in "Software Architecture: The Hard Parts" -->
 * Measure coupling and cohesion as the design and its implementation evolve. Consider architectural and interface [refactoring](https://interface-refactoring.github.io/) to improve the design as desired qualities and their priorities come and go. 
 * Do not assume all components have to be implemented; buying products and renting cloud services are valid options as well.
 
@@ -81,7 +81,7 @@ Common choices include:
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
 
-Component models and diagrams arguably are as old as the software architecture field (or even older), appearing under various names. We find instances of them in classic papers by Fred Brooks and David Parnas. <!-- TODO 2023 fact check, pointer to example -->
+Component models and diagrams arguably are as old as the software architecture field (or even older), appearing under various names. <!-- TODO (v2) could add "We find instances of them in classic papers by Fred Brooks and David Parnas." (fact check required) -->
 
 The Component Diagram is one of the four Cs in C4. <!-- Context is featured in a separate template. Containers correspond to architecture overviews. We will not cover classes here. -->
 

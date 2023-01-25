@@ -40,7 +40,7 @@ The full template look as follows (with explanations). Note that the six rows in
 ![Annotated QAS Template](/artifact-templates/images/ZIO-QualityAttributeScenarioExplanations.png)
 
 See the sample chapter of ADD 3.0 book by Humberto Cervantes and Rick Kazman @Cervantes:2016 for the SEI visualization.
-<!-- TODO 2023 repaint and show graphical image from SEI books and reports (MK has them too), https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf bibtex this tutorial is good too: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536 (SATURN 2015) -->
+<!-- TODO (v2) repaint and show graphical image from SEI books and reports (MK has them too), https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf bibtex this tutorial is good too: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536 (SATURN 2015) -->
 
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->

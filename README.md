@@ -62,7 +62,7 @@ Since then, we have copy edited all content and provided additional references.
 
 ### *Preview: DPR eBook*
 
-*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
+*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). 
 
 
 ## Terminology Clarification
@@ -81,7 +81,7 @@ DPR applies a best-of-breed approach. Our metamodel adopts parts of Chapter 2 fr
 
 ![DPR metamodel (from SOAD PhD thesis)](/images/SOADMethodMetamodel.png)
 
-This terminology maps to that of other method engineers like this<!-- TODO (v2): review terms again; RUP: https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf -->:
+This terminology maps to that of other method engineers like this<!-- TODO (v2): review terms again; RUP (broken link): https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf -->:
 
 | This repository | Agile community ([glossary](https://www.agilealliance.org/agile101/agile-glossary/))| OMG SPEM 2.0 ([PDF](https://www.omg.org/spec/SPEM/2.0/PDF)) | [Open Unified Process (UP)](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm) and other methods |
 |-|-|-|-|
