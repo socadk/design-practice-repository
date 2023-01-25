@@ -98,7 +98,7 @@ Activities:
 Artifacts:
 
 * Component Interaction Diagram (CID) 
-* [Container Diagram](DPR-ContainerDiagram.md)
+* Architecture [Overview Diagram](DPR-OverviewDiagram.md)
 * [Deployment Diagram](DPR-DeploymentDiagram.md)
 * Implementation code
 

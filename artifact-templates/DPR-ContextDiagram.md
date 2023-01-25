@@ -87,7 +87,7 @@ Related artifacts are:
 
 * Strategic DDD context maps, showing relations between bounded contexts 
 * [Use cases](DPR-UseCase.md) and [user stories](DPR-UserStory) (contributing primary external interfaces)
-* [Container Diagram](DPR-ContainerDiagram.md)
+* Architecture [Overview Diagram](DPR-OverviewDiagram.md)
 
 
 ### More Information
