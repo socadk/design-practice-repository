@@ -87,7 +87,7 @@ The workflow steps and the business rules call for components in the business lo
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 <!-- From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
-Story splitting is a very light technique. A single application of it (one pattern applied to one story) will only take a few moments. It does not require any particular, specialized skills; its positive effects should become apparent immediately: more actionable backlog items, more expressive, problem- and/or domain-specific architecture models (component diagrams in particular).
+Story splitting is a very light technique. A single application of it (one pattern applied to one story) will only take a few moments. It does not require any particular, specialized skills; its positive effects should become apparent immediately: more actionable backlog items, more expressive, problem- and/or domain-specific architecture models ([Component Diagrams](../artifact-templates/DPR-ComponentDiagram.md) in particular).
 
 A very welcome effect of story splitting is that it often leads to new questions to the domain experts and sparks interesting conversations with them (for instance, about workflow steps and data variations). Hence, the [Domain Model](/artifact-templates/DPR-DomainModel.md) is likely to be updated as well.
 

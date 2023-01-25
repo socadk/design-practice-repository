@@ -35,7 +35,7 @@ A container diagram (aka architecture overview) can be used for:
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)--> 
 
-Container diagrams often come as informal rich pictures (IRPs). C4 and its tools take a slightly more formal approach, allowing one to zoom in (coming from a context diagram, moving on to a component diagram).
+Container diagrams often come as informal rich pictures (IRPs). C4 and its tools take a slightly more formal approach, allowing one to zoom in (coming from a [Context Diagram](DPR-ContextDiagram.md), moving on to a [Component Diagram](DPR-ComponentDiagram.md)).
 
 
 ### Example(s)

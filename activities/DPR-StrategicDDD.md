@@ -108,7 +108,7 @@ Usage of the pattern names and presence of Context Maps, either drawn informally
 * Agile teams 
 
 * [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md)
-* System Context Diagram (future work)
+* System [Context Diagram](../artifact-templates/DPR-ContextDiagram.md)
 
 ### Practices and Techniques (Refinements, Guides)
 
