@@ -72,8 +72,8 @@ See [top-level readme](../README.md) for a general motivation "why DPR?". See [b
 ```yaml
 title: "Design Practice Repository (DPR): Templates and Artifacts Overview"
 author: Olaf Zimmermann (ZIO)
-date: "09, 09, 2022 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020-2022 (unless noted otherwise). All rights reserved.
+date: "01, 25, 2022 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 ```
 
 ### License
