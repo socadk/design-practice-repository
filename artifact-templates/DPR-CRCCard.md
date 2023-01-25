@@ -21,7 +21,7 @@ A notation that is well suited for *candidate* component modeling is the *CRC Ca
 ### Usage (Produced and Consumed When)
 <!--AA/AS/AE, must identify the producing role and the target audience-->
  
-CRC cards primarily serve as specification and documentation tool during [Architecture Modeling](/activities/DPR-ArchitectureModeling.md). Moreover, the cards can support decision-making during component realization, starting with a "make or buy/rent" decision: 
+CRC cards primarily serve as specification and documentation tool during [Architecture Modeling](../activities/DPR-ArchitectureModeling.md). Moreover, the cards can support decision-making during component realization, starting with a "make or buy/rent" decision: 
 
 * Buy, build, or rent (a cloud service) software with the desired capabilities?
 * Use a custom-off-the-shelf software package, commercial middleware, or open source software? 

@@ -19,7 +19,7 @@ The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) we
 * How to ensure that services are loosely coupled? How much data should they exchange, and how often does this happen?
 * What are the most suitable message representations? How to agree on the meaning of each message?"
 
-API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence, software [architects](/roles/DPR-ApplicationArchitectRole.md) and developers collaborate on this activity; [API owners](/roles/SDPR-APIProductOwner.md) initiate and oversee this work.
+API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence, software [architects](../roles/DPR-ApplicationArchitectRole.md) and developers collaborate on this activity; [API owners](../roles/SDPR-APIProductOwner.md) initiate and oversee this work.
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -28,7 +28,7 @@ API and service design have high [architectural significance](https://en.wikiped
 
 This activity has the objective to answer the questions raised under 'Context' above. It delivers:
 
-1. Platform-independent *interface specifications*, including [API Description a.k. a. service contract](/artifact-templates/SDPR-APIDescription.md) and [Service Level Agreement (SLA)](/artifact-templates/SDPR-ServiceLevelAgreement.md).
+1. Platform-independent *interface specifications*, including [API Description a.k. a. service contract](../artifact-templates/SDPR-APIDescription.md) and [Service Level Agreement (SLA)](../artifact-templates/SDPR-ServiceLevelAgreement.md).
 2. At least one serialization *technology mapping* and communication *protocol binding* for this design (for instance, JSON schemas and HTTP resource contracts). 
 
 This activity includes [Domain-Driven Design (DDD)](./DPR-TacticDDD.md). It is commonly used when [Backend Integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration) are realized. It can also be applied in [Frontend Integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration); in that case, [User Interface Mocking](./DPR-UserInterfaceMocking.md) is an alternative and complementary activity. 

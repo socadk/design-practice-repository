@@ -112,7 +112,7 @@ Contributors (input, technical writing, feedback):
 * [Olaf Zimmermann (ZIO)](https://ozimmer.ch)
 * [Mirko Stocker (STX)](https://www.linkedin.com/in/misto/)
 
-[Stefan Kapferer](https://stefan.kapferer.ch/about/) and [Oliver Kopp](https://ozimmer.ch/practices/2020/10/14/github.com/koppor/) reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
+[Stefan Kapferer](https://stefan.kapferer.ch/about/) and [Oliver Kopp](https://github.com/koppor/) reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
 
 
 ## Getting Involved 
@@ -120,10 +120,10 @@ If you would like to help improve this collection of software/service/API design
 
 * Feel free to create GitHub issues.
 * Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository, and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
-    * The ["contributing" folder](./contributing) has templates for artifact, activity, role descriptions.
+* The ["contributing" folder](https://github.com/socadk/design-practice-repository/tree/master/contributing) has templates for artifact, activity, role descriptions.
 * [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
 
-More information can be found [here](contributing/CONTRIBUTING.md).
+More information can be found [here](https://github.com/socadk/design-practice-repository/blob/master/contributing/CONTRIBUTING.md).
 
 
 ## DPR Metadata 

@@ -42,7 +42,7 @@ The following domain model for Strategic DDD gives an overview of the patterns i
 <!-- ZIO4STX: redo in puml like T-DDD one? STX4ZIO: Done! -->
 ![Strategic DDD Concepts and their Relations](/activities/images/StrategicDDDMetaModel.png)
 
-The original DDD book by Eric Evans defined an initial set of relations between Bounded Contexts appearing in a [Context Map](./DPR-StrategicDDDContextMap.md), e.g., the *Conformist* pattern (@Evans:2003). Later on, a few additional types were added. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), Dan Haywood summarizes the original six patterns as this: <!-- ZIO4STX: remove for LP? -->
+The original DDD book by Eric Evans defined an initial set of relations between Bounded Contexts appearing in a [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md), e.g., the *Conformist* pattern (@Evans:2003). Later on, a few additional types were added. In ["An Introduction to Domain Driven Design"](http://www.methodsandtools.com/archive/archive.php?id=97), Dan Haywood summarizes the original six patterns as this: <!-- ZIO4STX: remove for LP? -->
 
 * *Shared Kernel*: "Two bounded contexts use a common kernel of code (for example a library) as a common lingua-franca, but otherwise do their other stuff in their own specific way."
 * *Open Host Service (OHS)*: "A bounded context specifies a protocol by which any other bounded context can use its services (for instance, a RESTful HTTP service or a SOAP Web service). This protocol exposes the Published Language."

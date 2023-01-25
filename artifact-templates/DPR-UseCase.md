@@ -96,7 +96,7 @@ The history of use cases dates back to Ivar Jacobson in 1986. They are an essent
 
 * [User Stories](DPR-UserStory.md) can be seen as a preliminary stage to use cases; however, they are not a direct alternative, and there is no simple one-to-one mapping between them. See explanations in the [Agile Alliance glossary](https://www.agilealliance.org/glossary/user-stories). That said, [Story Splitting](../activities/DPR-StorySplitting.md) can be applied to use cases as well.
 * [User Interface Mocking](../activities/DPR-UserInterfaceMocking.md) can be used to visualize how use cases will be supported in application frontends.
-* One aspect and possibility of making [NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md) SMART is to tie the desired qualities to features, expressed as use cases. 
+* One aspect and possibility of making [NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md) SMART is to tie the desired qualities to features expressed as use cases. 
 
 ### More Information
 

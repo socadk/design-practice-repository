@@ -52,7 +52,7 @@ Pen and paper or a whiteboard are enough to get started on a simple model. The e
 
 [Context Mapper](https://contextmapper.org/docs/tactic-ddd/), a DSL and tool for strategic and tactic DDD, embeds Sculptor. The Sculptor DSL can express domain models. 
 
-Rapid prototyping tools, such as [JHipster](https://www.jhipster.tech/), can turn a domain model into fully functional applications. JHipster uses its own [JDL](https://www.jhipster.tech/jdl/) modelling language to express domain models.
+Rapid prototyping tools, such as [JHipster](https://www.jhipster.tech/), can turn a domain model into fully functional applications. JHipster uses its own [JDL](https://www.jhipster.tech/jdl/intro) modelling language to express domain models.
 
 ### Hints and Pitfalls to Avoid
 

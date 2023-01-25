@@ -67,7 +67,7 @@ For each API endpoint in such list, specify its responsibilities and signature o
 
 <!-- Step 5 of activity has more here: service layer, remote facade, DTO ADs; feature in tutorial (not needed here) -->
 
-**Design elaboration**. Make the following decisions and record them as described in the activity [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md):
+**Design elaboration**. Make the following decisions and record them as described in the activity [Architectural Decision Capturing](../activities/DPR-ArchitecturalDecisionCapturing.md):
 
 * Communication protocol (HTTP? gRPC? GraphQL?) including REST maturity level when using HTTP (from 0 to 3, HATEOAS) 
 * Message exchange format, for instance MIME type when using RESTful HTTP (refining a platform-neutral DTO design in UML or MDSL): JSON? XML? Other message exchange format?
@@ -130,7 +130,7 @@ Additional rules of thumb regarding the transition from DDD (@Evans:2003) to API
 
 <!-- See this [end-to-end service design demo](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for some technical contracts and examples. -->
 
-The [Cloud Adoption Patterns]( https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Microservice-Design.html) website has additional advice to give. 
+The [Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Microservice-Design/) website has additional advice to give. 
 
 
 ### Origins and Signs of Use

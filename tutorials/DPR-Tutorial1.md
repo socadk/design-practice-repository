@@ -33,7 +33,7 @@ UseCase UC2_BrowseAndBuy {
 }
 ~~~
 
-A specific and measurable [Non-Functional Requirement (NFR)](../artifact-templates/DPR-SMART-NFR-Elicitation.md) is: 
+A specific and measurable [Non-Functional Requirement (NFR)](../activities/DPR-SMART-NFR-Elicitation.md) is: 
 
 * 80% of all executions of "UC1_Register" should produce a correct response (user account created or error reported) in less than 3 seconds on average, measured at the system boundary of the shop (so excluding external network communication).
 
@@ -109,7 +109,7 @@ Let us assume that the following [architectural decisions](../activities/DPR-Arc
 
 A very basic [Context Map](../artifact-templates/DPR-StrategicDDDContextMap.md) for this scenario (resulting from [Strategic DDD](../activities/DPR-StrategicDDD.md)) is:
 
-![Sample Context Map](/tutorials/models/DPR-DomainModelMiniTutorial_ContextMap.svg)
+![Sample Context Map](models/DPR-DomainModelMiniTutorial_ContextMap.svg)
 
 
 ### Step 4: Identify Service Candidates, Select Architectural Patterns
