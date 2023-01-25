@@ -6,7 +6,6 @@ Activities: Architecture design, component modeling
 Abstraction/Refinement Level: Technology/platform-independent
 ---
 
-<!-- MS4OZ: just a reminder to rename the file before publishing -->
 
 Artifact/Template: *Overview Diagram*
 --------------------------------------

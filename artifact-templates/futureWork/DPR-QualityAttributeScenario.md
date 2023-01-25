@@ -87,7 +87,7 @@ Relate activities in DPR are:
 
 Related concepts include: 
 
-* [Agile landing zones]() for NFRs <!-- MS4OZ: Link is missing, we could use this one: https://wirfs-brock.com/blog/2011/07/20/introducing-landing-zones/ -->
+* [Agile landing zones](https://wirfs-brock.com/blog/2011/07/20/introducing-landing-zones/) for NFRs 
 * NFR checklists, for instance, regarding the SMARTness of the quality goals  
 * [Planguage](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/2926/Specifying-Quality-Requirements-With-Planguage.aspx), explained in detail in the article "Rich Requirement Specs: The use of Planguage to clarify requirements" @Gilb:2006. <!-- alternative links: http://www.syque.com/quality_tools/tools/Tools104.htm  and <https://www.gilb.com/blog/search?q=planguage> and <http://www.geocities.ws/g/i/gillani/SE%272%20Full%20Lectures/ASE%20-%20%20Planguage%20Quantifying%20Quality%20Requirements.pdf> -->
  
