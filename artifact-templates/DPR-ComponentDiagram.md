@@ -49,9 +49,9 @@ Unified Modeling Language (UML) has a component diagram, but due to language and
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-The following component diagram identifies a number of generic candidate components across logical layers:
+The following component diagram identifies a number of generic candidate components across logical layers (based on Figure 7 in ["An architectural decision modeling framework for service oriented architecture design"](https://elib.uni-stuttgart.de/handle/11682/2682)):
 
-![Component Diagram Example](/artifact-templates/images/ZIO-AbstractComponentModelSketch.png)
+![Generalized Component Diagram (Example)](/artifact-templates/images/ZIO-AbstractComponentModelSketch.png)
 
 Note that this diagram operates on a meta level; it might be part of a reference architecture, but does not part of a concrete solution architecture (the generic candidate component would have to be translated into domain-specific components for that).
 

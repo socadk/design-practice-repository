@@ -43,7 +43,7 @@ Container diagrams often come as informal rich pictures (IRPs). C4 and its tools
 
 Having decided for logical layers as primary organizing/decomposition principles (which is a common but not the only option), an architecture overview diagram featuring layers and their assignment to tiers may look as follows:
 
-![Container Diagram Sketch/Example](/artifact-templates/images/ZIO-AbstractContainerDiagramSketch.png)
+![Example of an Overview/Container Diagram](/artifact-templates/images/ZIO-AbstractContainerDiagramSketch.png)
 
 Three conceptual tiers are shown, one for application frontends and integrated external systems (in client role), one centered on business logic, and one containing data stores and external systems (in provider role).
 
