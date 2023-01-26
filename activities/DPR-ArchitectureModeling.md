@@ -126,7 +126,7 @@ The output of this activity is documented in one or more instances of [Context D
 ```yaml
 title: "Design Practice Repository (DPR): Architecture Modeling"
 author: Olaf Zimmermann (ZIO)
-date: "03, 29, 2021"
-copyright: Copyright 2020-2021 Olaf Zimmermann. All rights reserved.
+date: "01, 26, 2023"
+copyright: Copyright 2020-2023 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
