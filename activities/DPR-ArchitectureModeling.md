@@ -102,7 +102,7 @@ By definition, models abstract from the modeled subject(s); so carefully decide 
 #### Performing Roles and Related Artifacts (Synopsis)
 Application architects and anybody else involved in system design model architectures, using non-functional requirements and architectural decisions made as input. While modeling, new requirements and decisions required often are identified.
 
-[CRC Cards](../artifact-templates/DPR-CRCCard.md) can be produced while modeling.
+The output of this activity is documented in one or more instances of [Context Diagram](../artifact-templates/DPR-ContextDiagram.md), [Overview Diagram](../artifact-templates/DPR-OverviewDiagram.md), [Component Diagram(s)](../artifact-templates/DPR-ComponentDiagram.md), and [Deployment Diagram](../artifact-templates/DPR-DeploymentDiagram.md). [CRC Cards](../artifact-templates/DPR-CRCCard.md) can be produced while modeling.
 
 #### Practices and Techniques (Refinements, Guides)
 
