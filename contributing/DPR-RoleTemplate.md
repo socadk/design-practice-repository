@@ -6,7 +6,7 @@ Activities: TODO
 
 Role: *NN*
 ----------
-<!-- Alternate names or candidate names) can be listed as "Also known as " here. -->
+<!-- Alternative names (or candidate names) can be listed as "Also known as " here. -->
 also known as: TODO
 
 ### Persona 

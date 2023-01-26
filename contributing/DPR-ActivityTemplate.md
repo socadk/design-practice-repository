@@ -11,7 +11,7 @@ Abstraction/Refinement Level: TODO
 
 Activity/Technique: *NN*
 ------------------------
-<!-- Alternate names or candidate names) can be listed as "Also known as" here. -->
+<!-- Alternative names (or candidate names) can be listed as "Also known as" here. -->
 also known as: TODO
 
 <!-- *Note to method engineers):* Terms from Agile Alliance template appear in parenthesis in headings (if it makes sense) -->

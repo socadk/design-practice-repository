@@ -58,7 +58,7 @@ Complex workflows call for explicit state management, to be designed architectur
 
 Each business rule has to be implemented and enforced somewhere (see below for a discussion of the term in this context). 
 
-Data variations and operations find their place in the [Domain Model](../artifact-templates/DPR-DomainModel.md) as well as the data access/data source and persistence layer of the application system under construction. <!-- TODO could add a table mapping the splitting patterns to logical layers and patterns/component types -->
+Data variations and operations find their place in the [Domain Model](../artifact-templates/DPR-DomainModel.md) as well as the data access/data source and persistence layer of the application system under construction. <!-- TODO (v2) could add a table mapping the splitting patterns to logical layers and patterns/component types -->
 
 The remaining patterns are useful for planning iterations, but less relevant for component identification and architecture design (unlike their output, which might yield additional candidate components).
 
@@ -87,7 +87,7 @@ The workflow steps and the business rules call for components in the business lo
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
 <!-- From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
-Story splitting is a very light technique. A single application of it (one pattern applied to one story) will only take a few moments. It does not require any particular, specialized skills; its positive effects should become apparent immediately: more actionable backlog items, more expressive, problem- and/or domain-specific architecture models (component diagrams in particular).
+Story splitting is a very light technique. A single application of it (one pattern applied to one story) will only take a few moments. It does not require any particular, specialized skills; its positive effects should become apparent immediately: more actionable backlog items, more expressive, problem- and/or domain-specific architecture models ([Component Diagrams](../artifact-templates/DPR-ComponentDiagram.md) in particular).
 
 A very welcome effect of story splitting is that it often leads to new questions to the domain experts and sparks interesting conversations with them (for instance, about workflow steps and data variations). Hence, the [Domain Model](../artifact-templates/DPR-DomainModel.md) is likely to be updated as well.
 
@@ -102,7 +102,7 @@ One should not get carried away by dreaming up data entry and data variations, b
 The Wayback Machine (a.k.a. Internet Archive) keeps early posts about story splitting [here](https://web.archive.org/web/20120909082905/http://lassekoskela.com/thoughts/7/ways-to-split-user-stories/) and [here](https://web.archive.org/web/20120716060616/http://jbrains.ca/permalink/how-youll-probably-learn-to-split-features).
 
 Signs of use are difficult to call out for this activity. Backlog size and structure might indicate use.
-<!-- TODO How about CI/CM? -->
+<!-- TODO (v2) How about CI/CM? -->
 
 
 ### Related Content

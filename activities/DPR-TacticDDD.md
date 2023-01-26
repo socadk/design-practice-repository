@@ -190,12 +190,20 @@ There is a GitHub organization called ["DDD Crew"](https://github.com/ddd-crew) 
 * Consult [the IFS website](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
 -->
 
+Articles about Context Mapper and its interpretation of the DDD patterns include:
+
+* "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020:CM1) 
+* "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020:CM2). 
+
+These conference papers can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/). Experience with the tool on projects is shared online [here](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [here](https://blog.mimacom.com/ddd-and-context-mapper-experience/).
+
+
 ### Data Provenance 
 
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Tactic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "07, 16, 2021"
+date: "01, 16, 2023"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

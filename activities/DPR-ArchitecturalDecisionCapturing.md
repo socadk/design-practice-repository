@@ -78,7 +78,7 @@ See InfoQ/IEEE Software article ["Sustainable Architectural Design Decisions"](h
 ### Origins and Signs of Use
 *Origins*. AD capturing has been a key element in iterative and incremental SE methods such as (R)UP and IBM UMF (and its predecessors) since the late 1990s. For instance, OpenUP has the notion of an *Architecture Notebook* that calls for decision capturing with a justification as a mandatory element even in minimal project  documentation. The term *rationale* also appears in one of the first articles that defined software architecture (by Perry/Woolf). Book authors have always seen decisions to take center stage in architecture design process; see, for instance, works by SEI authors including Attribute-Driven Design (ADD) 3.0, but also patterns books and supporting material such as [this rambling](http://www.enterpriseintegrationpatterns.com/ramblings/86_isthisarchitecture.html) on the Enterprise Integration Patterns website. George Fairbanks suggests a single-sentence decision outcome overview as part of his *Architecture Haiku*, also used by Michael Keeling [here](https://www.neverletdown.net/2015/03/architecture-haiku.html).
 
-Around 2014, research sub-community jumped on the topic at conferences such as WICSA and workshops such as SHARK. Decision rationale also is a mandatory element in the [ISO/IEC/IEEE 42010:2011, Systems and software engineering – Architecture description](http://www.iso-architecture.org/ieee-1471/). The lean and agile communities talk about deferring decisions until the last (but not the least) responsible moment; for instance, Michael Nygard [suggested the ADR format in November 2011](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). Many organizations and teams design their own templates, some of which are based on those in the literature; others are custom made, applying common sense and practices from other fields. 
+Around 2014, research sub-community jumped on the topic at conferences such as WICSA and workshops such as SHARK. Decision rationale also is a mandatory element in the [ISO/IEC/IEEE 42010:2011, Systems and software engineering – Architecture description](http://www.iso-architecture.org/ieee-1471/). The lean and agile communities talk about deferring decisions until the last (but not the least) responsible moment. Michael Nygard suggested an [ADR format](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) that is inspired by the context-solution-consequences structure of ["Alexandrian"](https://en.wikipedia.org/wiki/Christopher_Alexander) design patterns in a blog post in November 2011. Many organizations and teams design their own templates, some of which are based on those in the literature; others are custom made, applying common sense and practices from other fields.
 
 See the blog post["Architectural Decisions — The Making Of"](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) for more history and context information.  
 
@@ -109,11 +109,13 @@ Agile Modeling has the notion of [Architecture Envisioning](http://agilemodeling
 
 
 ### More Information 
-See ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) post on Medium and Slides 51 and 52 in [this presentation](http://resources.sei.cmu.edu/asset_files/Presentation/2012_017_001_31349.pdf) for examples of good and bad justifications; for instance, "will look good on my CV" does not qualify as a sound decision rationale for a technology selection decision (although it is understandable to come up with such argument). <!-- emoji removed -->
+The ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) post on Medium and Slides 51 and 52 in [this presentation](http://resources.sei.cmu.edu/asset_files/Presentation/2012_017_001_31349.pdf) provide examples of good and bad justifications; for instance, "will look good on my CV" does not qualify as a sound decision rationale for a technology selection decision (although it is understandable to come up with such argument). <!-- emoji removed -->
 
+<!--
 [This website](https://www.ifs.hsr.ch/index.php?id=13191&L=4) and [this paper](http://www.ifs.hsr.ch/fileadmin/user_upload/customers/ifs.hsr.ch/Home/projekte/ADMentor-WICSA2015ubmissionv11nc.pdf) provide an overview of selected existing templates for AD capturing and decision logging (both lean and full-fledged). 
+-->
 
-The [adr organization at GitHub](https://adr.github.io/) also compiles AD templates, as well as tools and other resources.
+The [adr organization at GitHub](https://adr.github.io/) compiles AD templates, as well as tools and other resources. It also hosts the MADR project. The MADR template is explained in detail in [this blog post](https://medium.com/@docsoc/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb).
 
 See this [SATURN 2013 BoF session report](https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_47704.pdf) for a cost-benefit discussion and open research questions.
 
@@ -125,7 +127,7 @@ Finally, there is a proposal for ["A Definition of Done for Architectural Decisi
 ```yaml
 title: "Design Practice Repository (DPR): Architectural Decision Capturing"
 author: Olaf Zimmermann (ZIO)
-date: "04, 21, 2021"
+date: "01, 16, 2023"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

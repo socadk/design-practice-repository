@@ -5,7 +5,6 @@ Activities: SMART NFR Elicitation, Architectural Capturing, Architecture Modelin
 
 Role: *Application and Integration Architect*
 ---------------------------------------------
-<!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 also known as: Coding Architect (to indicate strong connection to development)
 
 ### Persona 

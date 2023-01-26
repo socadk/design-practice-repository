@@ -74,7 +74,7 @@ See activity description of [Strategic DDD](../activities/DPR-StrategicDDD.md).
 
 ### Related Artifacts (incl. Alternatives)
 
-* System Context Diagram
+* System [Context Diagram](DPR-ContextDiagram.md)
 * [Domain Model](DPR-DomainModel.md)
 * C4 models and other representations of architecture overviews and component models
 

@@ -41,17 +41,17 @@ Requirements analysis and conversation with stakeholders can be captured in the 
 
 * [User Stories](DPR-UserStory.md)
 * [Use Cases](DPR-UseCase.md)
-* [Quality Attribute Scenarios (QAS)](futureWork/DPR-QualityAttributeScenario.md) and other templates for NFR/QA elicitation <!-- quality stories, Sophisten, PLANGUAGE -->
-* [System Context Diagram (SCD)](futureWork/DPR-SystemContextDiagram.md)
+* [Quality Attribute Scenarios (QAS)](DPR-QualityAttributeScenario.md) and other templates for NFR/QA elicitation <!-- quality stories, Sophisten, PLANGUAGE -->
+* [System Context Diagram (SCD)](DPR-ContextDiagram.md)
 
 (Architecture) design work is usually documented both textually and visually:
 
-* [Architecture Overview Diagram (AOD)](futureWork/DPR-ArchitectureOverviewDiagram.md) a.k.a. Container Diagram
-* [Component Diagram](futureWork/DPR-ComponentDiagram.md), providing a logical [view](https://www.ibm.com/developerworks/rational/library/08/0108_cooks-cripps-spaas/index.html) on the architecture <!-- The four views in C4 actually map to SCD, AOD/OML0, CML0, CML1) -->
+* [Architecture Overview Diagram (AOD)](DPR-OverviewDiagram.md) a.k.a. Container Diagram
+* [Component Diagram](DPR-ComponentDiagram.md), providing a logical [view](https://www.ibm.com/developerworks/rational/library/08/0108_cooks-cripps-spaas/index.html) on the architecture <!-- The four views in C4 actually map to SCD, AOD/OML0, CML0, CML1) -->
 * [Component, Responsibility, Collaborations (CRC) cards](DPR-CRCCard.md)
 * Component Interaction Diagrams (CIDs), often expressed as UML sequence diagrams
 * Integration flows (a.k.a. "Gregorgrams")
-* Deployment diagram (providing an operational, physical view)
+* [Deployment diagram](DPR-DeploymentDiagram.md) (providing an operational, physical view)
 * [Y-Statements](DPR-ArchitecturalDecisionRecordYForm.md) and other ADR formats
 * Architectural refactoring template (from [research project ARC](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab/architectural-refactoring-for-the-cloud-arc))
 
@@ -59,7 +59,7 @@ Some evaluation and assessment templates are:
 
 * Strength Weaknesses Opportunities Threats (SWOT) tables
 * Architecture review report
-* API/Code Review Checklist ([futureWork](futureWork/SDPR-APIReviewChecklist.md))
+* API/Code Review Checklist (futureWork)
 
 
 ### More Information
@@ -72,8 +72,8 @@ See [top-level readme](../README.md) for a general motivation "why DPR?". See [b
 ```yaml
 title: "Design Practice Repository (DPR): Templates and Artifacts Overview"
 author: Olaf Zimmermann (ZIO)
-date: "09, 09, 2022 (Source: Project DD-DSE)"
-copyright: Olaf Zimmermann, 2020-2022 (unless noted otherwise). All rights reserved.
+date: "01, 25, 2022 (Source: Project DD-DSE)"
+copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 ```
 
 ### License

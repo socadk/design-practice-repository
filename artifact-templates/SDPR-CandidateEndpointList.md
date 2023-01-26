@@ -11,7 +11,7 @@ Artifact/Template: *Candidate Endpoint List (CEL)*
 --------------------------------------------------
 also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, Resource Candidates <!-- from MAP -->
 
-> *A Candidate Endpoint List (CEL) outlines an initial API design, derived from analysis results.*
+> *A candidate endpoint list outlines an initial API design, derived from analysis results.*
 
 
 ### Motivation (Addressed Information Need) 
@@ -95,7 +95,7 @@ The CEL and REL artifacts in DPR originate from the MAP project, mining experien
 
 * [Use Cases](DPR-UseCase.md) or [User Stories](DPR-UserStory.md) as well as [User Interface Mockups](../activities/DPR-UserInterfaceMocking.md) can serve as input to CEL preparation.
 * The same holds for the [Domain Model](DPR-DomainModel.md).
-* Architecture overview diagrams and models containing a (Remote) Service Layer
+* Architecture [Overview Diagrams](DPR-OverviewDiagram.md) and models containing a (Remote) Service Layer
 * The [Refined Endpoint List](SDPR-RefinedEndpointList.md) picks up the CEL en route to implementation.
 * [API Description](SDPR-APIDescription.md), capturing platform-independent and -specific service contracts (MDSL, OpenAPI Specification, AsyncAPI)
 
