@@ -139,7 +139,7 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
-[Application Architect](../roles/DPR-ApplicationArchitectRole.md) and other decision makers produce NFR specifications, for instance Quality Attribute Scenarios (QAS) (@Bass:2012). QAS make the NFR specification smart and measurable (but also a bit repetitive); utility trees can help with prioritization (by business value and technical risk)
+[Application Architect](../roles/DPR-ApplicationArchitectRole.md) and other decision makers produce NFR specifications, for instance [Quality Attribute Scenarios (QAS)](../artifact-templates/DPR-QualityAttributeScenario.md) (@Bass:2012). QAS make the NFR specification smart and measurable (but also a bit repetitive); utility trees can help with prioritization (by business value and technical risk).
 
 
 #### Practices and Techniques (Refinements, Guides)
@@ -161,7 +161,7 @@ arc42 recommends to have [top three to five QAs in Section 1 of architecture des
 ```yaml
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
-date: "09, 1, 2022"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "01, 27, 2023"
+copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

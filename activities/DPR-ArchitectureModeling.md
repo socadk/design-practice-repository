@@ -102,7 +102,8 @@ By definition, models abstract from the modeled subject(s); so carefully decide 
 #### Performing Roles and Related Artifacts (Synopsis)
 Application architects and anybody else involved in system design model architectures, using non-functional requirements and architectural decisions made as input. While modeling, new requirements and decisions required often are identified.
 
-The output of this activity is documented in one or more instances of [Context Diagram](../artifact-templates/DPR-ContextDiagram.md), [Overview Diagram](../artifact-templates/DPR-OverviewDiagram.md), [Component Diagram(s)](../artifact-templates/DPR-ComponentDiagram.md), and [Deployment Diagram](../artifact-templates/DPR-DeploymentDiagram.md). [CRC Cards](../artifact-templates/DPR-CRCCard.md) can be produced while modeling.
+Non-functional requirements, for instance those captured in [Quality Attribute Scenarios (QAS)](../artifact-templates/DPR-QualityAttributeScenario.md), provide essential input to this activity.
+Its output is documented in one or more instances of [Context Diagram](../artifact-templates/DPR-ContextDiagram.md), [Overview Diagram](../artifact-templates/DPR-OverviewDiagram.md), [Component Diagram(s)](../artifact-templates/DPR-ComponentDiagram.md), and [Deployment Diagram](../artifact-templates/DPR-DeploymentDiagram.md). [CRC Cards](../artifact-templates/DPR-CRCCard.md) can be produced while modeling.
 
 #### Practices and Techniques (Refinements, Guides)
 
@@ -126,7 +127,7 @@ The output of this activity is documented in one or more instances of [Context D
 ```yaml
 title: "Design Practice Repository (DPR): Architecture Modeling"
 author: Olaf Zimmermann (ZIO)
-date: "01, 26, 2023"
+date: "01, 27, 2023"
 copyright: Copyright 2020-2023 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
