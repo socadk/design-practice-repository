@@ -6,6 +6,9 @@ Activities: All design work
 Abstraction/Refinement Level: All
 ---
 
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates)
+
 
 Artifact/Template: *Architectural Decision Record (Y-Statement)*
 ----------------------------------------------------------------
@@ -26,7 +29,7 @@ On agile projects, the sprint/iteration review meetings might be a good point in
 ### Template Structure and Notation(s)
 Y-Statements are often captured in plain but structured text (but tables in presentation tools, wiki pages, and modeling tools can also be used):
 
-![Y-Statement Template](/artifact-templates/images/ADCaptureYTemplate.png)
+![Y-Statement Template](images/ADCaptureYTemplate.png)
 
 <!-- TODO: check consistency of author names; DONE: feature tradeoff character of bottom half more -->
 
@@ -76,7 +79,7 @@ A blog post called ["Architectural Decisions &mdash; The Making Of"](https://ozi
 -->
 
 ### Related Artifacts and Practices (incl. Alternatives)
-Instances of this artifact are produced when employing a continuous or stage-based [Architectural Decision Capturing](../artifacts-activities/DPR-ArchitecturalDecisionCapturing.md) practice. The captured rationale (decision justification) should reference one or more [non-functional requirements](../artifacts-activities/DPR-SMART-NFR-Elicitation.md) and go hand-in-hand with the [Architecture Modeling](../artifacts-activities/DPR-ArchitectureModeling.md) activities.
+Instances of this artifact are produced when employing a continuous or stage-based [Architectural Decision Capturing](../activities/DPR-ArchitecturalDecisionCapturing.md) practice. The captured rationale (decision justification) should reference one or more [non-functional requirements](../activities/DPR-SMART-NFR-Elicitation.md) and go hand-in-hand with the [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activities.
 
 Many other templates have been proposed; see [activity description](../activities/DPR-ArchitecturalDecisionCapturing.md) for pointers.
 

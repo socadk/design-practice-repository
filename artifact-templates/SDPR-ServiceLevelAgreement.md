@@ -13,7 +13,7 @@ Abstraction/Refinement Level: Concrete, elaborate
 Artifact/Template: *Service Level Agreement (SLA)*
 --------------------------------------------------
 
-> *A Service Level Agreement (SLA) answers the following questions: "How can an API client learn about the specific quality-of-service characteristics of an API and its operations? How can these characteristics and the consequences of not meeting them be defined in a measurable way?"* <!-- MAP quote -->
+> *A service-level agreement answers the following questions: "How can an API client learn about the specific quality-of-service characteristics of an API and its operations? How can these characteristics and the consequences of not meeting them be defined in a measurable way?"* <!-- MAP quote -->
 
 ### Motivation (Addressed Information Need) 
 API providers want to deliver high-quality services while at the same time using their available resources economically. The resulting compromise can be expressed in an SLA. 
@@ -32,7 +32,7 @@ The [Microservice API Pattern (MAP)](https://microservice-api-patterns.org/) web
 ### Template Structure and Notation(s)
 An SLA comprises at least one *Service Level Objective*, which specifies a measurable aspect of the service the provider agrees to uphold:
 
-![SLA Structure (Source: MAP Website)](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/plantuml-images/42eccd72824320a88d354f225b467c2c461e7386.png)
+![SLA Structure (Source: MAP Website)](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/plantuml-images/7b2adc660717a22db5d49a72564bce342ae58aca.png)
 
 The [SLA pattern description on the MAP website](https://www.microservice-api-patterns.org/patterns/quality/qualityManagementAndGovernance/ServiceLevelAgreement#sec:ServiceLevelAgreement:Solution) provides detailed information.
 

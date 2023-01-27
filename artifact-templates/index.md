@@ -1,4 +1,9 @@
-### [Git Pages Home](https://socadk.github.io/design-practice-repository)
+
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[Activities Overview](https://socadk.github.io/design-practice-repository/activities/readme-gp) ---
+[Roles Overview](https://socadk.github.io/design-practice-repository/roles/readme-gp)
+
+## Artifact Templates Index
 
 ### Quick links
 
@@ -17,4 +22,4 @@ This version of DPR contains the following artifact templates:
 
 ### More information
 
-An extended overview can be found in the [Artifact/Templates Readme](readme-gp.md).
+An extended overview can be found in the [Artifact/Templates Readme](readme.md).

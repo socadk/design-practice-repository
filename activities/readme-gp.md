@@ -1,3 +1,4 @@
+
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates/readme-gp) ---
 [Roles Overview](https://socadk.github.io/design-practice-repository/roles/readme-gp) 

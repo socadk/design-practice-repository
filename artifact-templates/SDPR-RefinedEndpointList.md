@@ -14,7 +14,7 @@ Artifact/Template: *Refined Endpoint List (REL)*
 ------------------------------------------------
 also known as: Ordered Endpoint List, Final API Action Plan, Detailed API Roadmap, Resource Specifications <!-- from MAP -->
 
-> *A Refined Endpoint List (REL) records intermediate API design results on a medium level of abstraction/refinement and detail, showing endpoints with their responsibilities and data contracts.*
+> *A refined endpoint list records intermediate API design results on a medium level of abstraction/refinement and detail, showing endpoints with their responsibilities and data contracts.*
 
 ### Motivation (Addressed Information Need) 
 
@@ -36,7 +36,7 @@ Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/article
 ### Template Structure and Notation(s)
 Record your design results in list or table form. Start with a list of endpoints with their visibility and direction and link to requirements and domain model, for instance structured as this: 
 
-```markdown
+```text
 API name:  [name]
 
 Identified in: [user story, domain model element, architecture diagram]
@@ -59,7 +59,7 @@ This is an elaborate proposal, referencing several categories in [Microservice A
 
 For each API endpoint in such list, specify its responsibilities and signature on a platform- and technology-neutral, yet concrete level of detail:
 
-```markdown
+```text
 | EP | Op. | Responsibility | Request and Response Message | Media Type |
 |----|-----|----------------|------------------------------|------------|
 | [name] | | [endpoint role] | | |                    
@@ -70,7 +70,7 @@ For each API endpoint in such list, specify its responsibilities and signature o
 
 <!-- Step 5 of activity has more here: service layer, remote facade, DTO ADs; feature in tutorial (not needed here) -->
 
-**Design elaboration**. Make the following decisions and record them as described in the activity [Architectural Decision Capturing](DPR-ArchitecturalDecisionCapturing.md):
+**Design elaboration**. Make the following decisions and record them as described in the activity [Architectural Decision Capturing](../activities/DPR-ArchitecturalDecisionCapturing.md):
 
 * Communication protocol (HTTP? gRPC? GraphQL?) including REST maturity level when using HTTP (from 0 to 3, HATEOAS) 
 * Message exchange format, for instance MIME type when using RESTful HTTP (refining a platform-neutral DTO design in UML or MDSL): JSON? XML? Other message exchange format?
@@ -133,7 +133,7 @@ Additional rules of thumb regarding the transition from DDD (@Evans:2003) to API
 
 <!-- See this [end-to-end service design demo](https://ozimmer.ch/practices/2020/06/10/ICWEKeynoteAndDemo.html) for some technical contracts and examples. -->
 
-The [Cloud Adoption Patterns]( https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Microservice-Design.html) website has additional advice to give. 
+The [Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Microservice-Design/) website has additional advice to give. 
 
 
 ### Origins and Signs of Use

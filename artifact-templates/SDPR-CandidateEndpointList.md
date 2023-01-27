@@ -14,7 +14,7 @@ Artifact/Template: *Candidate Endpoint List (CEL)*
 --------------------------------------------------
 also known as: Preliminary Endpoint List, Draft API Plan, Initial API Roadmap, Resource Candidates <!-- from MAP -->
 
-> *A Candidate Endpoint List (CEL) outlines an initial API design, derived from analysis results.*
+> *A candidate endpoint list outlines an initial API design, derived from analysis results.*
 
 
 ### Motivation (Addressed Information Need) 
@@ -49,7 +49,7 @@ Record your analysis (and design) results in list or table form:
 
 A simple table will suffice: 
 
-```markdown
+```text
 | Endpoint | Operation | Role/Exposed Data | 
 |----------|-----------|-------------------|
 |...       |...        |...                |
@@ -98,7 +98,7 @@ The CEL and REL artifacts in DPR originate from the MAP project, mining experien
 
 * [Use Cases](DPR-UseCase.md) or [User Stories](DPR-UserStory.md) as well as [User Interface Mockups](../activities/DPR-UserInterfaceMocking.md) can serve as input to CEL preparation.
 * The same holds for the [Domain Model](DPR-DomainModel.md).
-* Architecture overview diagrams and models containing a (Remote) Service Layer
+* Architecture [Overview Diagrams](DPR-OverviewDiagram.md) and models containing a (Remote) Service Layer
 * The [Refined Endpoint List](SDPR-RefinedEndpointList.md) picks up the CEL en route to implementation.
 * [API Description](SDPR-APIDescription.md), capturing platform-independent and -specific service contracts (MDSL, OpenAPI Specification, AsyncAPI)
 
@@ -107,7 +107,7 @@ The CEL and REL artifacts in DPR originate from the MAP project, mining experien
 
 * Phil Sturgeon's ["Build APIs You Won't Hate"](https://apisyouwonthate.com/books) (@Sturgeon:2016) features a simple but effective resource identification technique and a simple table format for CELs.
 * Mike Amundsen's [seven-step Web API design method](https://www.infoq.com/articles/web-api-design-methodology/) uses finite state machines as an intermediate artifact (@Amundsen:2020). 
-* James Higginbotham has posted API design advice on the [Tyk blog](https://tyk.io/author/james-higginbotham/), for instance he advises ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/) in five steps. The API model produced in the fourth step corresponds to the CEL here in DPR.
+* James Higginbotham has posted API design advice on the [Tyk blog](https://tyk.io/blog/author/james-higginbotham/), for instance he advises ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/) in five steps. The API model produced in the fourth step corresponds to the CEL here in DPR.
 
 
 ### Data Provenance 

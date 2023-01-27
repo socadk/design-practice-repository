@@ -142,21 +142,23 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 
 #### Performing Roles and Related Artifacts (Synopsis)
 
-[Application Architect](../roles/DPR-ApplicationArchitectRole.md) and other decision makers produce NFR specifications, for instance Quality Attribute Scenarios (QAS) (@Bass:2012). QAS make the NFR specification smart and measurable (but also a bit repetitive); utility trees can help with prioritization (by business value and technical risk)
+[Application Architect](../roles/DPR-ApplicationArchitectRole.md) and other decision makers produce NFR specifications, for instance [Quality Attribute Scenarios (QAS)](../artifact-templates/DPR-QualityAttributeScenario.md) (@Bass:2012). QAS make the NFR specification smart and measurable (but also a bit repetitive); utility trees can help with prioritization (by business value and technical risk).
 
 
 #### Practices and Techniques (Refinements, Guides)
 
 * [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) (@Barbacci:2002). Michael Keeling introduces them <!-- as activity 7 in his Architect's Toolbox in --> in his book ["Design It"](https://pragprog.com/titles/mkdsa/design-it/) and his 2015 IEEE Software Insights column ["Lightweight and Flexible"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7093052).
-* [Quality Storming](https://speakerdeck.com/mploed/quality-storming) by Michael Ploed
-* Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) covers parts of the Unfied Process (UP) and, like UP,  suggests the FURPS+ taxonomy for functional and non-functional requirements.
+* [Quality Storming](https://speakerdeck.com/mploed/quality-storming), described by by Michael Ploed.
+* Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) covers parts of the Unified Process (UP) and, like UP, suggests the FURPS+ taxonomy for functional and non-functional requirements. 
+* The output of a [Story Splitting](DPR-StorySplitting.md) may provide the functional context of NFRs and sources/stimuli for QAS.
+
 
 ### More Information 
 See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by Cesare Pautasso and Olaf Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.
 
 arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/), and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/). The Scaled Agile Framework (SAFe) also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/). 
 
-Websites dedicated to software quality include [Quality-Aware development](http://www.quality-aware.com/). The presentation [Non-Functional Requirements --- How to Get Them in Shape](http://www.softwaresummit.com/2006/speakers/BerghJohnssonNFR.pdf) defines the acronym differently but sends similar messages as we do here.
+<!-- The presentation [Non-Functional Requirements --- How to Get Them in Shape](http://www.softwaresummit.com/2006/speakers/BerghJohnssonNFR.pdf) defines the acronym differently but sends similar messages as we do here. -->
 
 
 ### Data Provenance 
@@ -164,7 +166,7 @@ Websites dedicated to software quality include [Quality-Aware development](http:
 ```yaml
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
-date: "03, 29, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "01, 27, 2023"
+copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

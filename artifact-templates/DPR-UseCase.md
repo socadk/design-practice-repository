@@ -27,7 +27,7 @@ Use cases are elicited during requirements engineering (analysis) on a project. 
 <!-- TODO mention [Story Splitting](../activities/DPR-StorySplitting.md) already here? -->
 
 ### Template Structure
-No single standardized template for use cases exist. At a bare minimum, a use case comprises:
+No single standardized template for use cases exists. At a bare minimum, a use case comprises:
 
 1. A *name* that captures the essence of the actor-system interaction sequence (and their purpose/value).
 2. An *identifier* to be able to refer to use cases elsewhere, for instance in design specifications.
@@ -38,13 +38,13 @@ More elaborate templates also include:
 * *Actors* that are involved in the use case. These also include the system and other stakeholders. The user from whose perspective the use case is described and initiated is the *primary actor*; external players (people or systems) that the system has to consult/contact/call are called *secondary actors*. 
 * *Preconditions* that need to hold for the use case to be executable.
 * *Postconditions* to indicate changes in the system after the use case was executed.
-* *Alternatives* in the flow of interactions, for instance handling errors or special cases. 
+* *Alternatives* in the flow of interactions, for instance, handling errors or special cases. 
 
 Most templates are variations of the "fully-dressed" template described in @Cockburn:2001 (also available on [Wikipedia](https://en.wikipedia.org/wiki/Use_case#Fully_dressed)). One example of a brief notation is shown in the [Context Mapper DSL](https://contextmapper.org/docs/user-requirements/).
 
 An example of a basic template is:
 
-```markdown
+```text
 # UC 1: Name
 
 Pre: ___
@@ -61,7 +61,7 @@ The sum of all use cases forms the *use case model* (@Jacobson:1999) and can be 
 ### Example(s)
 Filling out the basic template from above in a social media scenario may yield this use case:
 
-```markdown
+```text
 # UC 1: Change Profile Picture
 
 Pre: The social network influencer has created an account and is logged in.
@@ -84,11 +84,17 @@ Many requirements engineering and UML tools such as DOORS or Enterprise Architec
 
 
 ### Hints and Pitfalls to Avoid
-It is a common convention to name use cases with verbs; strong, possibly domain-specific term such as "buy" or "invoice" should be preferred over generic ones such as "make" or "manage"; acronyms should be avoided. Actors should also be named specifically and expressively; for instance, prefer "online shopper" over "user". See Hint 6 in Olaf Zimmermann's ["Technical Writing Tips and Tricks"](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
+It is a common convention to name use cases with verbs; strong, possibly domain-specific terms such as "buy" or "invoice" should be preferred over generic ones such as "make" or "manage"; acronyms should be avoided. Actors should also be named specifically and expressively; for instance, prefer "online shopper" over "user". See Hint 6 in Olaf Zimmermann's ["Technical Writing Tips and Tricks"](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
 
-When drawing use case diagrams, some modelers put the primary actor(s) at the top (or the left side) of the figure, the system under construction (that will implement the use cases) in the middle and the secondary actor(s) at the bottom (or the right side).
+When drawing use case diagrams, some modelers put the primary actor(s) at the top (or the left side) of the figure, the system under construction (that will implement the use cases) in the middle, and the secondary actor(s) at the bottom (or the right side).
 
 To classify use cases, Alistair Cockburn suggests to specify the *design scope* of a use case, ranging from black-box organization to single component. To indicate the level of detail to readers (and  writers as well), use cases may be annotated with a *goal level*. In the context of API and service design, strive to write on the *user goal* or *subfunction* level (@Cockburn:2001).
+
+<!-- ZIO4STX: please review next two paragraphs -->
+Resist the temptation to start designing in a use case specification; a use case is an analysis artifact. It describes what a system does (when being observed from the outside), not how it does do. Design decisions and specifications of system-internal behavior may (and should) reference use cases, but not be part of them. The separation of concerns principles applies here too.
+
+In most cases, specify the system behavior on a rather abstract, conceptual level; do not let technology details slip in. The more technical your use case specification is, the more it has to change when technology changes, and you run the risk of entering design mode by stealth (see previous hint).
+
 
 ### Origins and Signs of Use
 
@@ -97,9 +103,10 @@ The history of use cases dates back to Ivar Jacobson in 1986. They are an essent
 
 ### Related Artifacts and Practices (incl. Alternatives)
 
-* [User Stories](DPR-UserStory.md) can be seen as a preliminary stage to use cases; however, they are not a direct alternative, and there is no simple one-to-one mapping between them. See explanations in [Agile Alliance glossary](https://www.agilealliance.org/glossary/user-stories). That said, [Story Splitting](../activities/DPR-StorySplitting.md) can be applied to use cases as well.
+* [User Stories](DPR-UserStory.md) can be seen as a preliminary stage to use cases; however, they are not a direct alternative, and there is no simple one-to-one mapping between them. See explanations in the [Agile Alliance glossary](https://www.agilealliance.org/glossary/user-stories). That said, [Story Splitting](../activities/DPR-StorySplitting.md) can be applied to use cases as well.
 * [User Interface Mocking](../activities/DPR-UserInterfaceMocking.md) can be used to visualize how use cases will be supported in application frontends.
-* One aspect and possibility of making [NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md) SMART is to tie the desired qualities to features, expressed as use cases. 
+* One aspect and possibility of making [NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md) SMART is to tie the desired qualities to features expressed as use cases. 
+* [Context Diagram](DPR-ContextDiagram.md)
 
 ### More Information
 

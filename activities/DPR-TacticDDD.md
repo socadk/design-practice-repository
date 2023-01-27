@@ -10,6 +10,7 @@ Abstraction/Refinement Level: Conceptual
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
 [Activities Index](https://socadk.github.io/design-practice-repository/activities)
 
+
 Activity/Technique: *Tactic(al) Domain-Driven Design (DDD)*
 ------------------------------------------------------------
 also known as: Pattern-Oriented Object-Oriented Analysis and Design (OOAD)
@@ -41,7 +42,7 @@ Key patterns in Tactic DDD are (@Evans:2003):
 * Aggregate 
 * Service (domain level; not to be confused with Web services, microservices and other remoting concepts)
 * Domain Event
-* Factory and Repository (not that patterns of these names also appear in other pattern catalogs and languages, for instance "Design Patterns" (Gamma:1995))
+* Factory and Repository (not that patterns of these names also appear in other pattern catalogs and languages, for instance "Design Patterns" (@Gamma:1995))
 
 <!-- 
 The original DDD book @Evans:2003 provides this pattern map for tactic DDD (showing more patterns):
@@ -185,19 +186,27 @@ There is a GitHub organization called ["DDD Crew"](https://github.com/ddd-crew) 
 * There is a free DDD reference providing pattern summaries ([PDF](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), [Word](http://domainlanguage.com/wp-content/uploads/2016/05/PatternSummariesUnderCreativeCommons.doc)) and a [DDD glossary](http://dddcommunity.org/resources/ddd_terms/) on the DDD community website. 
 * Michael Ploed shares his presentation slides on [Speaker Deck](https://speakerdeck.com/mploed) and also has a [DDD ebook](https://leanpub.com/ddd-by-example) on LeanPub (@Ploed:2019). 
 * The DDD Europe organization has published the ["Domain-Driven Design: The First 15 Years"](https://leanpub.com/ddd_first_15_years/) on LeanPub, a collection of "old and new essays" by "prominent authors in the software design world". 
-* The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity.html).
+* The IBM Cloud Garage introduces tactic DDD [here](https://www.ibm.com/garage/method/practices/code/domain-driven-design). The connection to service API design is discussed in a [side bar of the pattern language Cloud Adoption Patterns](https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/Sidebar-API-Entity/).
 * Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) does not cover DDD specifically, but still has very valid advice for tactic DDD work. For instance, Chapter 9 provides detailed guidance how to find conceptual classes.
 
 <!--
 * Consult [the IFS website](https://www.ifs.hsr.ch/index.php?id=15666&L=4) for additional pointers.
 -->
 
+Articles about Context Mapper and its interpretation of the DDD patterns include:
+
+* "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020:CM1) 
+* "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020:CM2). 
+
+These conference papers can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/). Experience with the tool on projects is shared online [here](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [here](https://blog.mimacom.com/ddd-and-context-mapper-experience/).
+
+
 ### Data Provenance 
 
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Tactic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "07, 16, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "01, 16, 2023"
+copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

@@ -51,6 +51,16 @@ We also provide some [background information](./background-information) on metho
 
 ### *Status*
 
+Version 1.4 adds five artifact templates as output of Architecture Modeling:
+
+* Quality Attribute Scenarios (QAS)
+* Context Diagram
+* Overview Diagram
+* Component Diagram
+* Deployment Diagram
+
+Version 1.3 was a content hardening and maintenance release. 
+
 Version 1.2, released on December 7, 2020, added one activity and one artifact:
 
 * [Story splitting](/activities/DPR-StorySplitting.md) for planning and design purposes
@@ -58,11 +68,14 @@ Version 1.2, released on December 7, 2020, added one activity and one artifact:
 
 Tutorial 1 also was enhanced, as well as several other activity and artifact descriptions. We also added (even) more pointers to background information. 
 
-Since then, we have copy edited all content and provided additional references.
+We have copy edited all content, provided additional references, and updated various external links.
 
-### *Preview: DPR eBook*
 
-*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
+### *Books* With a DPR Connection
+
+*August 25, 2022:* "Patterns for API Design: Simplifying Integration with Loosely Coupled Message Exchanges", to be published in the Addison Wesley Signature Series curated by Vaughn Vernon, references DPR and features sample artifacts such as domain models, Y-statements, and API descriptions. Learn [more](https://medium.com/olzzio/new-book-patterns-for-api-design-announced-bb1fb45bb8d8).
+
+*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). 
 
 
 ## Terminology Clarification
@@ -110,7 +123,7 @@ Contributors (input, technical writing, feedback):
 * [Olaf Zimmermann (ZIO)](https://ozimmer.ch)
 * [Mirko Stocker (STX)](https://www.linkedin.com/in/misto/)
 
-[Stefan Kapferer](https://stefan.kapferer.ch/about/) and [Oliver Kopp](https://ozimmer.ch/practices/2020/10/14/github.com/koppor/) reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
+[Stefan Kapferer](https://stefan.kapferer.ch/about/) and [Oliver Kopp](https://github.com/koppor/) reviewed selected repository content and structure. Many members of our professional networks provided input and/or inspiration through discussions, workshops, joint client projects and many other ways. Thank you!
 
 
 ## Getting Involved 
@@ -118,10 +131,10 @@ If you would like to help improve this collection of software/service/API design
 
 * Feel free to create GitHub issues.
 * Submit pull requests. If you do so, we assume that you own the IP you submit, agree to open source it under the license of this repository, and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
-    * The ["contributing" folder](./contributing) has templates for artifact, activity, role descriptions.
+* The ["contributing" folder](https://github.com/socadk/design-practice-repository/tree/master/contributing) has templates for artifact, activity, role descriptions.
 * [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
 
-More information can be found [here](contributing/CONTRIBUTING.md).
+More information can be found [here](https://github.com/socadk/design-practice-repository/blob/master/contributing/CONTRIBUTING.md).
 
 
 ## DPR Metadata 
@@ -129,8 +142,8 @@ More information can be found [here](contributing/CONTRIBUTING.md).
 ```yaml
 title: Design Practice Repository (DPR)
 owner: Olaf Zimmermann (ZIO)
-date: "04, 22, 2021"
-copyright: Copyright 2020-2021 Olaf Zimmermann (unless noted otherwise). All rights reserved.
+date: "01, 27, 2023"
+copyright: Copyright 2020-2023 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 
 <!-- could use ISO date format yyyy-mm-dd 2. add SPDX license identifier and metadata -->

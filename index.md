@@ -1,4 +1,4 @@
-## Welcome to DPR Version 1.3.1 (Git Pages Edition) 
+## Welcome to DPR Version 1.4.0 (Git Pages Edition) 
 
 The [introduction](./introduction.md) page is a comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
 
@@ -30,7 +30,7 @@ Roles:
 
 ### *Preview: DPR eBook*
 
-*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). <!-- TODO feature bundle too https://leanpub.com/b/software-architecture-dpr -->
+*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). 
 
 <!--
 <iframe width='160' height='400' src='https://leanpub.com/dpr/embed' frameborder='0' allowtransparency='true'></iframe>
@@ -42,8 +42,8 @@ The books and other publications referenced in the artifact and activity descrip
 
 ### Other Resources
 
-* [Microservice API Patterns](https://microservice-api-patterns.org/) website 
+* [API Patterns](https://api-patterns.org/) website 
 * Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)
-* [ZIO at OST IFS](https://ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4)
+* [Cloud Application Lab at OST IFS](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab)
 
-(c) Olaf Zimmermann and Mirko Stocker, 2021. All rights reserved. Licensed as Creative Commons (see repository). 
+(c) Olaf Zimmermann and Mirko Stocker, 2021-2023. All rights reserved. Licensed as Creative Commons (see repository). 

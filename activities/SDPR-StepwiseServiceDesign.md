@@ -18,11 +18,11 @@ The [Microservice API Patterns (MAP)](https://microservice-api-patterns.org/) we
 
 "While much has been said about microservices in general and about supporting infrastructure architectures, the actual service design has received less attention:
 
-* How many services should be exposed? What is an adequate size for them? <!-- TODO 2021: review [FB] and [Q]s: + 1. what does "exposed" mean, 1:n for deployment unit:service? 2. size of API or underlying implementation (breadth, depth)? 3. "remote services" and 3. "service-client interactions" (for LC) -->
+* How many services should be exposed? What is an adequate size for them? <!-- TODO (v2): review [FB] and [Q]s: + 1. what does "exposed" mean, 1:n for deployment unit:service? 2. size of API or underlying implementation (breadth, depth)? 3. "remote services" and 3. "service-client interactions" (for LC) -->
 * How to ensure that services are loosely coupled? How much data should they exchange, and how often does this happen?
 * What are the most suitable message representations? How to agree on the meaning of each message?"
 
-API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence, software [architects](/roles/DPR-ApplicationArchitectRole.md) and developers collaborate on this activity; [API owners](/roles/SDPR-APIProductOwner.md) initiate and oversee this work.
+API and service design have high [architectural significance](https://en.wikipedia.org/wiki/Architecturally_significant_requirements), but also have to be implemented, obviously. Hence, software [architects](../roles/DPR-ApplicationArchitectRole.md) and developers collaborate on this activity; [API owners](../roles/SDPR-APIProductOwner.md) initiate and oversee this work.
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -31,7 +31,7 @@ API and service design have high [architectural significance](https://en.wikiped
 
 This activity has the objective to answer the questions raised under 'Context' above. It delivers:
 
-1. Platform-independent *interface specifications*, including [API Description a.k. a. service contract](/artifact-templates/SDPR-APIDescription.md) and [Service Level Agreement (SLA)](/artifact-templates/SDPR-ServiceLevelAgreement.md).
+1. Platform-independent *interface specifications*, including [API Description a.k. a. service contract](../artifact-templates/SDPR-APIDescription.md) and [Service Level Agreement (SLA)](../artifact-templates/SDPR-ServiceLevelAgreement.md).
 2. At least one serialization *technology mapping* and communication *protocol binding* for this design (for instance, JSON schemas and HTTP resource contracts). 
 
 This activity includes [Domain-Driven Design (DDD)](./DPR-TacticDDD.md). It is commonly used when [Backend Integrations](https://microservice-api-patterns.org/patterns/foundation/BackendIntegration) are realized. It can also be applied in [Frontend Integration](https://microservice-api-patterns.org/patterns/foundation/FrontendIntegration); in that case, [User Interface Mocking](./DPR-UserInterfaceMocking.md) is an alternative and complementary activity. 
@@ -70,7 +70,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 5. *Specify operation responsibilities and data formats to yield a [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md)* and *map the endpoints to existing or new API providers*.
     * If needed, *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. 
     * Criteria-based decomposition approaches such as those listed under Step 3 as well legacy modernization and transformation techniques can be used. See for instance the [Strangler Fig Application](https://martinfowler.com/bliki/StranglerFigApplication.html) approach described by Martin Fowler and ["Working Effectively with Legacy Code"](https://www.infoq.com/podcasts/working-effectively-legacy-code/) by Michael Feathers. <!-- TODO (v13) fact check -->
-    * [*Refactor*](https://www.ifs.hsr.ch/Architectural-Refactoring-for.12044.0.html?&L=4) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
+    * [*Refactor*](https://www.ost.ch/en/research-and-consulting-services/computer-science/ifs-institute-for-software-new/cloud-application-lab/architectural-refactoring-for-the-cloud-arc) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
 
 6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or a minimum viable API product).
     * Integrate and test these stubs; iterate and revise the list as needed. If the results are good enough, go ahead and *specify service contracts including protocol bindings and technology mappings* in an [API Description](../artifact-templates/SDPR-APIDescription.md) also known as service contract. 
@@ -203,15 +203,18 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
 
-<!-- TODO 2021:
+<!-- TODO (v2) extend more information section 
 
+* More on PfAD MAP book, more from JH (second paragraph)
 * (tbd) The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices".
 * CAPs https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ 
 * (tbd) https://www.infoq.com/articles/api-first-integration/ 
 
 -->
 
-[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
+[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) includes more patterns and pattern categories. MAP now forms the core of the ["Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges"](https://medium.com/nerd-for-tech/api-patterns-website-redesigned-and-sample-book-chapter-available-df9daf4b5e15) book (@PatternsForAPIDesign:2022).
+
+A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
 
 The SOAD project 2006 to 2009 compiled a number of architectural decisions that are required when designing service-oriented architectures. Being independent of application genre and architectural style, the meta issues in Table 2 from the SOAD paper ["Architectural Decision Identification in Architectural Patterns"](https://soadecisions.org/download/SOAD-SHARK2012v13Final.pdf) can guide the decision making in Steps 3 to 7:
 
@@ -224,7 +227,7 @@ Note that in microservices architectures, more options for these decisions (in t
 ```yaml
 title: "Design Practice Repository (DPR): Stepwise Service Design"
 author: Olaf Zimmermann (ZIO)
-date: "07, 16, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "01, 16, 2023"
+copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

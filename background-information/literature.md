@@ -1,12 +1,29 @@
-### [Git Pages Home](https://socadk.github.io/design-practice-repository)
+# Literature
 
-[Activities Index](https://socadk.github.io/design-practice-repository/activities) ---
-[Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates) ---
-[Roles Index](https://socadk.github.io/design-practice-repository/roles)
+<!--
+How to update this file:
 
-### Literature
+1. Remove the HTML code below this comment (up to metadata section) and replace it with an empty table 
 
-<p id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+|Key|Literature|
+|:--|:---------|
+
+2. Run the following command from the repository root:
+
+perl -ne '/@([\w:]+:[\w]+)/ && print "|$1|\@$1|\n";' **/*.md | sort | uniq  
+
+3. Copy the command output to into the table from Step 1
+
+4. Run the following command
+ 
+pandoc -s --metadata link-citations=true --wrap=none --bibliography DPR-ReferencesMaster.bib --citeproc background-information/literature.md
+
+5. Copy the command output (HTML), which is the generated bibliography (start from "<p id="refs" class="references hanging-indent" role="doc-bibliography">"), to replace the markdown table from Step 3.
+
+6. Replace all HTML div elements with p (start tags, end tags)
+ -->
+ 
+
 <p id="ref-Allamaraju:2010" class="csl-entry" role="doc-biblioentry">
 Allamaraju, Subbu. 2010. <em><span>RESTful Web Services Cookbook</span></em>. Sebastopol: O’Reilly Media, Inc.
 </p>
@@ -41,7 +58,7 @@ Cockburn, Alistair. 2001. <em>Writing Effective Use Cases</em>. Boston, MA: Addi
 Cohn, Mike. 2004. <em>User Stories Applied: For Agile Software Development</em>. USA: Addison Wesley Longman Publishing Co., Inc.
 </p>
 <p id="ref-Daigneau:2011" class="csl-entry" role="doc-biblioentry">
-Daigneau, Robert. 2011. <em>Service Design Patterns: Fundamental Design Solutions for SOAP/WSDL and RESTful Web Services</em>. Addison-Wesley Professional. <a href="http://www.servicedesignpatterns.com/">http://www.servicedesignpatterns.com/</a>.
+Daigneau, Robert. 2011. <em>Service Design Patterns: Fundamental Design Solutions for SOAP/WSDL and RESTful Web Services</em>. Addison-Wesley Professional.
 </p>
 <p id="ref-Evans:2003" class="csl-entry" role="doc-biblioentry">
 Evans, Eric. 2003. <em>Domain-Driven Design: Tacking Complexity in the Heart of Software</em>. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc.
@@ -58,11 +75,20 @@ Fowler, Martin. 2002. <em>Patterns of Enterprise Application Architecture</em>. 
 <p id="ref-Gamma:1995" class="csl-entry" role="doc-biblioentry">
 Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. 1995. <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc.
 </p>
+<p id="ref-Gilb:2006" class="csl-entry" role="doc-biblioentry">
+Gilb, Tom. 2006. <span>“Rich Requirement Specs: The Use of Planguage to Clarify Requirements.”</span> <a href="http://concepts.gilb.com/dl44">http://concepts.gilb.com/dl44</a>.
+</p>
 <p id="ref-Jacobson:1999" class="csl-entry" role="doc-biblioentry">
 Jacobson, Ivar, Grady Booch, and James Rumbaugh. 1999. <em>The Unified Software Development Process</em>. Reading, Mass.: Addison-Wesley. <a href="http://www.amazon.com/gp/product/0201571692/">http://www.amazon.com/gp/product/0201571692/</a>.
 </p>
 <p id="ref-Julisch:2011" class="csl-entry" role="doc-biblioentry">
 Julisch, Klaus, Christophe Suter, Thomas Woitalla, and Olaf Zimmermann. 2011. <span>“Compliance by Design–Bridging the Chasm Between Auditors and IT Architects.”</span> <em>Computers &amp; Security</em> 30 (6): 410–26.
+</p>
+<p id="ref-Kapferer:2020:CM1" class="csl-entry" role="doc-biblioentry">
+Kapferer, Stefan, and Olaf Zimmermann. 2020a. <span>“Domain-Driven Architecture Modeling and Rapid Prototyping with Context Mapper.”</span> In <em>Model-Driven Engineering and Software Development - 8th International Conference, <span>MODELSWARD</span> 2020, Valletta, Malta, February 25-27, 2020, Revised Selected Papers</em>, 1361:250–72. Communications in Computer and Information Science. Springer. <a href="https://doi.org/10.1007/978-3-030-67445-8\_11">https://doi.org/10.1007/978-3-030-67445-8\_11</a>.
+</p>
+<p id="ref-Kapferer:2020:CM2" class="csl-entry" role="doc-biblioentry">
+———. 2020b. <span>“Domain-Driven Service Design - Context Modeling, Model Refactoring and Contract Generation.”</span> In <em>Service-Oriented Computing - 14th Symposium and Summer School on Service-Oriented Computing, SummerSOC 2020, Crete, Greece, September 13-19, 2020</em>, 1310:189–208. Communications in Computer and Information Science. Springer. <a href="https://doi.org/10.1007/978-3-030-64846-6\_11">https://doi.org/10.1007/978-3-030-64846-6\_11</a>.
 </p>
 <p id="ref-Keeling:2019" class="csl-entry" role="doc-biblioentry">
 Keeling, Michael. 2017. <em>Design It!: From Programmer to Software Architect</em>. The Pragmatic Programmers. Raleigh, NC: Pragmatic Bookshelf.
@@ -118,11 +144,12 @@ Zimmermann, Olaf. 2017. <span>“Architectural Refactoring for the Cloud: Decisi
 <p id="ref-Zimmermann:2020" class="csl-entry" role="doc-biblioentry">
 Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Cesare Pautasso, and Uwe Zdun. 2020. <span>“Introduction to Microservice API Patterns (MAP).”</span> In <em>Joint Post-Proceedings of the First and Second International Conference on Microservices (Microservices 2017/2019)</em>, edited by Luı́s Cruz-Filipe, Saverio Giallorenzo, Fabrizio Montesi, Marco Peressotti, Florian Rademacher, and Sabine Sachweh, 78:4:1–17. OpenAccess Series in Informatics (OASIcs). Dagstuhl, Germany: Schloss Dagstuhl–Leibniz-Zentrum fuer Informatik. <a href="https://doi.org/10.4230/OASIcs.Microservices.2017-2019.4">https://doi.org/10.4230/OASIcs.Microservices.2017-2019.4</a>.
 </p>
+<p id="ref-PatternsForAPIDesign:2022" class="csl-entry" role="doc-biblioentry">
+Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Uwe Zdun, and Cesare Pautasso. 2022. <em>Patterns for API Design: Simplifying Integration with Loosely Coupled Message Exchanges</em>. Addison-Wesley Signature Series (Vernon). Addison-Wesley Professional.
 <p id="ref-Zimmermann:2003" class="csl-entry" role="doc-biblioentry">
 Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on Web Services: Applying SOAP, WSDL and UDDI to Real-World Projects</em>. Springer Science &amp; Business Media.
 </p>
 </p>
-
 <!-- keep/update the metadata below when updating the page: -->
 
 ## DPR Metadata
@@ -130,7 +157,7 @@ Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on W
 ```yaml
 title: "Design Practice Repository (DPR): Bibliography (Literature)"
 author: Mirko Stocker (STX), Olaf Zimmermann (ZIO)
-date: "04, 25, 2021"
+date: "03, 31, 2021"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

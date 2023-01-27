@@ -18,11 +18,11 @@ also known as: Architecture Specification and Documentation
 ### Context
 Software architecture books such as "Software Architecture in Pratice" (@Bass:2012) or the German "Effektive Softwarearchitekturen" (@Starke:2015) teach us that any architecture design (and early solution strategy in particular) is about *structure* and *technology*. 
 
-The desire for structure can be met by identification of candidate components and their continuous refinement, starting with "big" [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) for instance about logical layers, [Client/Server Cuts (CSCs)](http://www.objectarchitects.de/ObjectArchitects/papers/Published/ZippedPapers/renzel.pdf), and architectural styles such as client/server and/or [(micro-)service-oriented architectures](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html). <!-- styles, patterns, reference architectures -->
+The desire for structure can be met by the identification of candidate components and their continuous refinement, starting with "big" [architectural [decisions](DPR-ArchitecturalDecisionCapturing.md), for instance, about logical layers, [Client/Server Cuts (CSCs)](http://www.objectarchitects.de/ObjectArchitects/papers/Published/ZippedPapers/renzel.pdf), and architectural styles such as client/server and/or [(micro-)service-oriented architectures](https://ozimmer.ch/patterns/2020/07/06/MicroservicePositions.html). <!-- styles, patterns, reference architectures -->
 
 Furthermore, technology concepts also have to be decided: middleware and frameworks such as component containers, communication protocols, and message exchange formats, as well as cluster and deployment managers (for instance, Spring Boot and Docker/Kubernetes running in a public cloud). 
 
-The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture early decisions; complementary to that, the overall architecture and selected parts and their dependencies and interactions should also be visualized (to accommodate the information needs of the different types of stakeholders, from project sponsors to DevOps personnel and auditors). <!-- TODO (v2): link to MRM/SOAD meta issue blog post when there --> 
+The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format to capture early decisions; complementary to that, the overall architecture and selected parts and their dependencies and interactions should also be visualized (to accommodate the information needs of the different types of stakeholders, from project sponsors to DevOps personnel and auditors). 
 
 
 ### Goal and Purpose (When to Use and When not to Use)
@@ -43,10 +43,10 @@ The [arc42 website](https://docs.arc42.org/section-4/) suggests a table format t
 
 For instance, four common modeling steps are: 
 
-1. Create a *system context diagram* to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
-2. Provide an *architecture overview diagram* that captures the outcome of the early, "big" decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder needs, project/iteration planning).
-3. Refine selected components that are technically challenging to design and implement in one or more *component diagram(s)* (stakeholder: architects, developers, maintainers; concern: support decision making, trace design and implementation progress, manage/mitigate technical risk during evolution and maintenance). You might want to capture the component design results in [CRC Cards](../artifact-templates/DPR-CRCCard.md) that explain responsibilities and collaborations of the boxes in architecture overviews and component diagrams. You also might want to complement these diagrams and cards with *Component Interaction Diagrams (CIDs)* that illustrate the dynamic behavior of the components.   
-4. Show how and where logical components will be deployed to real or virtual hardware (stakeholder: DevOps personnel including database administrators, system managers, security specialists; concern: automation, cloud cost management, network configuration) in a *deployment diagram*.
+1. Create a system [Context Diagram](../artifact-templates/DPR-ContextDiagram.md) to visualize external dependencies (stakeholder: project manager; concern: scope control and risk management).
+2. Provide an Architecture [Overview Diagram](../artifact-templates/DPR-OverviewDiagram.md) (aka container diagram) that captures the outcome of the early, "big" decisions made in the solution strategy (stakeholder: project sponsor, entire team; concern: joint understanding of technical approach to achieving project goals and stakeholder needs, project/iteration planning).
+3. Refine selected components that are technically challenging to design and implement in one or more [Component Diagram(s)](../artifact-templates/DPR-ComponentDiagram.md) (stakeholder: architects, developers, maintainers; concern: support decision making, trace design and implementation progress, manage/mitigate technical risk during evolution and maintenance). You might want to capture the component design results in [CRC Cards](../artifact-templates/DPR-CRCCard.md) that explain responsibilities and collaborations of the boxes in architecture overviews and component diagrams. You also might want to complement these diagrams and cards with *Component Interaction Diagrams (CIDs)* that illustrate the dynamic behavior of the components.   
+4. Show how and where logical components will be deployed to real or virtual hardware (stakeholder: DevOps personnel including database administrators, system managers, security specialists; concern: automation, cloud cost management, network configuration) in a [Deployment Diagram](../artifact-templates/DPR-DeploymentDiagram.md).
 
 A wide range of notations and tools to support these and other modeling tasks exist, from ad hoc and informal to systematic and full-fledged. Some of the choices include:
 
@@ -88,10 +88,9 @@ A variation of the "if in doubt leave it out" rule for DPR method adoption appli
 
 * Capture both static and dynamic aspects (for instance, compile time and runtime dependencies). UML sequence diagrams can serve as CIDs; the [arc42 Runtime View](https://docs.arc42.org/section-6/) provides further advice. 
 * Model both "sunny day" and "rainy day" behavior (normal case, error situations).
-* Do not model just because; choose set of diagrams and notation consciously, reflecting on the project and company culture as well as team capabilities and preferences. 
+* Do not model just because; choose a set of diagrams and notation consciously, reflecting on the project and company culture as well as team capabilities and preferences. 
 * But do not skip modeling just because working software is valued more than comprehensive documentation; see above for motivation and (light, lean) instructions.
-* All diagrams should disclose the notation used as well as their target audience and purpose (i.e., satisfied information needs). If a non-standard notation is used, a legend should be provided. 
-* Consider to complement your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows). 
+* All diagrams should disclose the notation used as well as their target audience and purpose (i.e., satisfied information needs). If a non-standard notation is used, a legend should be provided. Consider complementing your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows). 
 * A [checklist for architecture diagram reviews](https://c4model.com/review/) can be found on the C4 website.
 
 
@@ -106,7 +105,8 @@ By definition, models abstract from the modeled subject(s); so carefully decide 
 #### Performing Roles and Related Artifacts (Synopsis)
 Application architects and anybody else involved in system design model architectures, using non-functional requirements and architectural decisions made as input. While modeling, new requirements and decisions required often are identified.
 
-[CRC Cards](../artifact-templates/DPR-CRCCard.md) can be produced while modeling.
+Non-functional requirements, for instance those captured in [Quality Attribute Scenarios (QAS)](../artifact-templates/DPR-QualityAttributeScenario.md), provide essential input to this activity.
+Its output is documented in one or more instances of [Context Diagram](../artifact-templates/DPR-ContextDiagram.md), [Overview Diagram](../artifact-templates/DPR-OverviewDiagram.md), [Component Diagram(s)](../artifact-templates/DPR-ComponentDiagram.md), and [Deployment Diagram](../artifact-templates/DPR-DeploymentDiagram.md). [CRC Cards](../artifact-templates/DPR-CRCCard.md) can be produced while modeling.
 
 #### Practices and Techniques (Refinements, Guides)
 
@@ -130,7 +130,7 @@ Application architects and anybody else involved in system design model architec
 ```yaml
 title: "Design Practice Repository (DPR): Architecture Modeling"
 author: Olaf Zimmermann (ZIO)
-date: "03, 29, 2021"
-copyright: Copyright 2020-2021 Olaf Zimmermann. All rights reserved.
+date: "01, 27, 2023"
+copyright: Copyright 2020-2023 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
