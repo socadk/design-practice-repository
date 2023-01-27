@@ -51,6 +51,16 @@ We also provide some [background information](./background-information) on metho
 
 ### *Status*
 
+Version 1.4 adds five artifact templates as output of Architecture Modeling:
+
+* Quality Attribute Scenarios (QAS)
+* Context Diagram
+* Overview Diagram
+* Component Diagram
+* Deployment Diagram
+
+Version 1.3 was a content hardening and maintenance release. 
+
 Version 1.2, released on December 7, 2020, added one activity and one artifact:
 
 * [Story splitting](/activities/DPR-StorySplitting.md) for planning and design purposes
@@ -58,7 +68,8 @@ Version 1.2, released on December 7, 2020, added one activity and one artifact:
 
 Tutorial 1 also was enhanced, as well as several other activity and artifact descriptions. We also added (even) more pointers to background information. 
 
-Since then, we have copy edited all content and provided additional references.
+We have copy edited all content, provided additional references, and updated various external links.
+
 
 ### *Books* With a DPR Connection
 
