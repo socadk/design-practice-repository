@@ -142,8 +142,8 @@ More information can be found [here](https://github.com/socadk/design-practice-r
 ```yaml
 title: Design Practice Repository (DPR)
 owner: Olaf Zimmermann (ZIO)
-date: "12, 16, 2022"
-copyright: Copyright 2020-2021 Olaf Zimmermann (unless noted otherwise). All rights reserved.
+date: "01, 27, 2023"
+copyright: Copyright 2020-2023 Olaf Zimmermann (unless noted otherwise). All rights reserved.
 ```
 
 <!-- could use ISO date format yyyy-mm-dd 2. add SPDX license identifier and metadata -->

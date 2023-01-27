@@ -128,6 +128,6 @@ Finally, there is a proposal for ["A Definition of Done for Architectural Decisi
 title: "Design Practice Repository (DPR): Architectural Decision Capturing"
 author: Olaf Zimmermann (ZIO)
 date: "01, 16, 2023"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

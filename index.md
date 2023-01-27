@@ -42,8 +42,8 @@ The books and other publications referenced in the artifact and activity descrip
 
 ### Other Resources
 
-* [Microservice API Patterns](https://microservice-api-patterns.org/) website 
+* [API Patterns](https://api-patterns.org/) website 
 * Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)
-* [ZIO at OST IFS](https://ifs.hsr.ch/Olaf-Zimmermann.11623.0.html?&L=4)
+* [Cloud Application Lab at OST IFS](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab)
 
-(c) Olaf Zimmermann and Mirko Stocker, 2021. All rights reserved. Licensed as Creative Commons (see repository). 
+(c) Olaf Zimmermann and Mirko Stocker, 2021-2023. All rights reserved. Licensed as Creative Commons (see repository). 
