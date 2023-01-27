@@ -77,7 +77,7 @@ For each API endpoint in such list, specify its responsibilities and signature o
 * Media/content type profile: [Application-Level Semantic Profiles (ALPS)](https://tools.ietf.org/html/draft-amundsen-richardson-foster-alps-03)? [JSON-LD](https://json-ld.org/) + Hydra? [Microformats](http://microformats.org/)?
 * Security design (CIA) decisions (details out of scope here)
 
-Decide with an API-wide scope or decide separately per endpoint/per operation if the [Non-Functional Requirements](DPR-SMART-NFR-Elicitation.md) require such differentiation. Update your [Architecture Modeling](DPR-ArchitectureModeling.md) artifacts from previous steps accordingly.
+Decide with an API-wide scope or decide separately per endpoint/per operation if the [Non-Functional Requirements](../activities/DPR-SMART-NFR-Elicitation.md) require such differentiation. Update your [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) artifacts from previous steps accordingly.
 
 ### Example(s)
 
@@ -152,7 +152,7 @@ Usage of the above list and table formats is a sign of use.
 ### More Information
 
 * [Service Layer](https://martinfowler.com/eaaCatalog/serviceLayer.html) and related patterns (@Fowler:2002)
-* Books on Web API design and RESTful HTTP (@Allamaraju:2010, @Lauret:2019) as well as related blog posts such as [those by James Higginbotham](https://tyk.io/author/james-higginbotham/)
+* Books on Web API design and RESTful HTTP (@Allamaraju:2010, @Lauret:2019) as well as related blog posts such as [those by James Higginbotham](https://tyk.io/blog/author/james-higginbotham/)
 * gRPC guidelines, for instance this [style guide](https://developers.google.com/protocol-buffers/docs/style)
 * GraphQL [learning resources](https://graphql.org/learn/) 
 * WSDL/SOAP tips and tricks (@Zimmermann:2003)

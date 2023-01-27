@@ -68,7 +68,7 @@ Context diagrams are typically created with light tools, although full-fledged m
 * Do not confuse black box and white box and views. Here, no internals should be shown.
 * Do not stop at the outside view, but zoom in (with a container diagram).  
 * Do not forget to update this diagram as a design evolves; when a new API is consumed, this has to be shown as an outbound external interface in any context diagrams drawn earlier.
-* Consider [Strategic DDD](DPR-StrategicDDD.md) to carve out contexts.
+* Consider [Strategic DDD](../activities/DPR-StrategicDDD.md) to carve out contexts.
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
@@ -88,7 +88,7 @@ The [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity 
 
 Related artifacts are: 
 
-* Strategic DDD context maps, showing relations between bounded contexts 
+* [Strategic DDD context maps](DPR-StrategicDDDContextMap.md), showing relations between bounded contexts 
 * [Use cases](DPR-UseCase.md) and [user stories](DPR-UserStory) (contributing primary external interfaces)
 * Architecture [Overview Diagram](DPR-OverviewDiagram.md)
 
