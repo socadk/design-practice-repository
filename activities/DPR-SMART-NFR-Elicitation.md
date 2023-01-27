@@ -145,8 +145,10 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 #### Practices and Techniques (Refinements, Guides)
 
 * [Mini-Quality Attribute Workshop (QAW)](https://www.neverletdown.net/p/mini-quality-attribute-workshop.html), a simplified form of the QAWs that are part of the Architecture Tradeoff Analysis Method (ATAM) (@Barbacci:2002). Michael Keeling introduces them <!-- as activity 7 in his Architect's Toolbox in --> in his book ["Design It"](https://pragprog.com/titles/mkdsa/design-it/) and his 2015 IEEE Software Insights column ["Lightweight and Flexible"](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7093052).
-* [Quality Storming](https://speakerdeck.com/mploed/quality-storming) by Michael Ploed
-* Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) covers parts of the Unfied Process (UP) and, like UP,  suggests the FURPS+ taxonomy for functional and non-functional requirements.
+* [Quality Storming](https://speakerdeck.com/mploed/quality-storming), described by by Michael Ploed.
+* Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) covers parts of the Unified Process (UP) and, like UP, suggests the FURPS+ taxonomy for functional and non-functional requirements. 
+* The output of a [Story Splitting](DPR-StorySplitting.md) may provide the functional context of NFRs and sources/stimuli for QAS.
+
 
 ### More Information 
 See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by Cesare Pautasso and Olaf Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.

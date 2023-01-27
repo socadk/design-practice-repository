@@ -91,9 +91,10 @@ Layering and partitioning is featured in Scott Ambler's publications, see for in
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
-Activities:
+Activities in DPR:
 
-* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity in DPR
+* [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md)
+* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md)
 
 Artifacts:
 

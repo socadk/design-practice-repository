@@ -83,7 +83,8 @@ Container Diagram is one of the four Cs in C4, but the notion and concept of pro
 
 Activities:
 
-* [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity
+* [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md) provides design drivers and decision justifications.
+* Created in [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activities
 
 Artifacts:
 

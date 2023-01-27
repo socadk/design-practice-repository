@@ -98,8 +98,14 @@ See the book chapter "Architectural Knowledge in an SOA Infrastructure Reference
 ### Related Artifacts and Practices (incl. Alternatives)
 <!--in DPR/OLAF and elsewhere-->
 
+DPR activities:
+
+* [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md)
 * [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity
-* The [C4 Model](https://c4model.com/) for visualizing software architecture by Simon Brown <!-- say that SB does not recommend to model the fourth C, but added three several supplemental views later, which makes it a C7, not too different from pragmatic UML use -->
+
+Artifact types and notations:
+
+* [C4 Model](https://c4model.com/) for visualizing software architecture by Simon Brown <!-- say that SB does not recommend to model the fourth C, but added three several supplemental views later, which makes it a C7, not too different from pragmatic UML use -->
 * Unified Modeling Language (UML) deployment diagrams
 
 
