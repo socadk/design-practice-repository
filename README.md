@@ -75,7 +75,7 @@ We have copy edited all content, provided additional references, and updated var
 
 *August 25, 2022:* "Patterns for API Design: Simplifying Integration with Loosely Coupled Message Exchanges", to be published in the Addison Wesley Signature Series curated by Vaughn Vernon, references DPR and features sample artifacts such as domain models, Y-statements, and API descriptions. Learn [more](https://medium.com/olzzio/new-book-patterns-for-api-design-announced-bb1fb45bb8d8).
 
-*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). 
+*April 8, 2021:* The DPR content also comes as an ebook now. The latest version is available on [Leanpub](https://leanpub.com/dpr). 
 
 
 ## Terminology Clarification
@@ -114,7 +114,7 @@ The above terms establish an [ubiquitous language](https://martinfowler.com/blik
 *Note:* Method adoption is eased if you make your methods [mighty](https://ecsa2020.disim.univaq.it/details/ecsa-2020-keynotes/3/Mighty-Methods-Four-Essential-Tools-for-Every-Software-Architect-s-Silver-Toolbox).
 
 
-##  Acknowledgments 
+## Acknowledgments 
 
 The creation and release of DPR was partially supported by the project "Domain-Driven Digital Service Engineering" funded by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
 
