@@ -13,4 +13,4 @@ This version of DPR contains the following role descriptions:
 
 ### More information
 
-An extended overview can be found in the [Roles Readme](introduction.md).
+An extended overview can be found in the [Roles Readme](readme-gp.md).

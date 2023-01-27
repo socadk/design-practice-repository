@@ -1,6 +1,6 @@
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Activities Introduction](https://socadk.github.io/design-practice-repository/activities/readme-gp) 
+[Activities Introduction](https://socadk.github.io/design-practice-repository/activities/readme-gp) ---
 [Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates/index) ---
 [Roles Index](https://socadk.github.io/design-practice-repository/roles/index) 
 
@@ -21,4 +21,4 @@ This version of DPR contains the following activities:
 
 ### More information
 
-An extended overview can be found in the [Activities Readme](introduction.md).
+An extended overview can be found in the [Activities Readme](readme-gp.md).

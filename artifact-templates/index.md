@@ -31,4 +31,4 @@ Specific to service and API design, there are:
 
 ### More information
 
-An extended overview can be found in the [Artifact/Templates Readme](introduction.md).
+An extended overview can be found in the [Artifact/Templates Readme](readme-gp.md).

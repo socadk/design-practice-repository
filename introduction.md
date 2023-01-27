@@ -47,7 +47,9 @@ The activities and artifacts that we have collected so far are:
 
 There is an [introductory blog post](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd). And the [quick start tutorial](tutorials/DPR-Tutorial0.md) takes you through the repository structure in a small sample scenario. The deeper [API design tutorial](tutorials/DPR-Tutorial1.md) (in draft state) is a good starting point if you like to learn by example (and are willing to invest a little more time). <!-- Not there yet: [examples](./examples) --> 
 
-We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
+### Bibliography
+
+We also provide <!-- some [background information](./background-information) on methods and practices, including --> a [bibliography](/./background-information/literature.md).
 
 ### *Status*
 
