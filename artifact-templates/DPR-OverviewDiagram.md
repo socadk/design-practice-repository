@@ -54,7 +54,7 @@ Three conceptual tiers are shown, one for application frontends and integrated e
 Common choices include:
 
 * Any drawing tool, real-world whiteboards or whiteboarding software
-C4 tools including Structurizr
+* C4 tools including Structurizr
 * UML tools, possibly with customization or profiling
 
 
