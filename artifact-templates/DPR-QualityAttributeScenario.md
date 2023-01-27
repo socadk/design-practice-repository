@@ -26,7 +26,7 @@ It is not sufficient to find out and specify *what* a system under construction 
 
 QAS are created, refined, and used in:
 
-* Requirements elicitation (analysis), see [SMART NFR Elicitation](../artifacts-activities/DPR-SMART-NFR-Elicitation.md) activity
+* Requirements elicitation (analysis), see [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md) activity
 * Architecture design and architectural decision making
 * Test preparation and testing (stress testing in particular)
 * Establishment of [Service Level Agreement (SLA)](SDPR-ServiceLevelAgreement.md) 
