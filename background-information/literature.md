@@ -21,6 +21,8 @@ pandoc -s --metadata link-citations=true --wrap=none --bibliography DPR-Referenc
 5. Copy the command output (HTML), which is the generated bibliography (start from "<p id="refs" class="references hanging-indent" role="doc-bibliography">"), to replace the markdown table from Step 3.
 
 6. Replace all HTML div elements with p (start tags, end tags)
+
+7. Replace \_ with just _ in urls.
  -->
 
 <p id="ref-Allamaraju:2010" class="csl-entry" role="doc-biblioentry">
@@ -84,10 +86,10 @@ Jacobson, Ivar, Grady Booch, and James Rumbaugh. 1999. <em>The Unified Software 
 Julisch, Klaus, Christophe Suter, Thomas Woitalla, and Olaf Zimmermann. 2011. <span>“Compliance by Design–Bridging the Chasm Between Auditors and IT Architects.”</span> <em>Computers &amp; Security</em> 30 (6): 410–26.
 </p>
 <p id="ref-Kapferer:2020:CM1" class="csl-entry" role="doc-biblioentry">
-Kapferer, Stefan, and Olaf Zimmermann. 2020a. <span>“Domain-Driven Architecture Modeling and Rapid Prototyping with Context Mapper.”</span> In <em>Model-Driven Engineering and Software Development - 8th International Conference, <span>MODELSWARD</span> 2020, Valletta, Malta, February 25-27, 2020, Revised Selected Papers</em>, 1361:250–72. Communications in Computer and Information Science. Springer. <a href="https://doi.org/10.1007/978-3-030-67445-8\_11">https://doi.org/10.1007/978-3-030-67445-8\_11</a>.
+Kapferer, Stefan, and Olaf Zimmermann. 2020a. <span>“Domain-Driven Architecture Modeling and Rapid Prototyping with Context Mapper.”</span> In <em>Model-Driven Engineering and Software Development - 8th International Conference, <span>MODELSWARD</span> 2020, Valletta, Malta, February 25-27, 2020, Revised Selected Papers</em>, 1361:250–72. Communications in Computer and Information Science. Springer. <a href="https://doi.org/10.1007/978-3-030-67445-8_11">https://doi.org/10.1007/978-3-030-67445-8_11</a>.
 </p>
 <p id="ref-Kapferer:2020:CM2" class="csl-entry" role="doc-biblioentry">
-———. 2020b. <span>“Domain-Driven Service Design - Context Modeling, Model Refactoring and Contract Generation.”</span> In <em>Service-Oriented Computing - 14th Symposium and Summer School on Service-Oriented Computing, SummerSOC 2020, Crete, Greece, September 13-19, 2020</em>, 1310:189–208. Communications in Computer and Information Science. Springer. <a href="https://doi.org/10.1007/978-3-030-64846-6\_11">https://doi.org/10.1007/978-3-030-64846-6\_11</a>.
+———. 2020b. <span>“Domain-Driven Service Design - Context Modeling, Model Refactoring and Contract Generation.”</span> In <em>Service-Oriented Computing - 14th Symposium and Summer School on Service-Oriented Computing, SummerSOC 2020, Crete, Greece, September 13-19, 2020</em>, 1310:189–208. Communications in Computer and Information Science. Springer. <a href="https://doi.org/10.1007/978-3-030-64846-6_11">https://doi.org/10.1007/978-3-030-64846-6_11</a>.
 </p>
 <p id="ref-Keeling:2019" class="csl-entry" role="doc-biblioentry">
 Keeling, Michael. 2017. <em>Design It!: From Programmer to Software Architect</em>. The Pragmatic Programmers. Raleigh, NC: Pragmatic Bookshelf.
