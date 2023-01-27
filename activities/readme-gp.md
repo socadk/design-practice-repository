@@ -1,7 +1,8 @@
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Artifacts Overview](https://socadk.github.io/design-practice-repository/artifact-templates/readme-gp) ---
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles/readme-gp) 
+[Activities Index](https://socadk.github.io/design-practice-repository/activities/index) ---
+[Artifacts Introduction](https://socadk.github.io/design-practice-repository/artifact-templates/readme-gp) ---
+[Roles Introduction](https://socadk.github.io/design-practice-repository/roles/readme-gp) 
 
 ## DPR: *Activities in Service Design and Agile Architecting*
 

@@ -1,7 +1,8 @@
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Activities Overview](https://socadk.github.io/design-practice-repository/activities/readme-gp) ---
-[Roles Overview](https://socadk.github.io/design-practice-repository/roles/readme-gp)
+[Artifacts Introduction](https://socadk.github.io/design-practice-repository/activities/readme-gp) ---
+[Activities Index](https://socadk.github.io/design-practice-repository/activities/index) ---
+[Roles Index](https://socadk.github.io/design-practice-repository/roles/index)
 
 ## Artifact Templates Index
 
@@ -13,11 +14,11 @@ This version of DPR contains the following general-purpose artifact templates:
 * [CRC Card](DPR-CRCCard.md)
 * [Domain Model](DPR-DomainModel.md)
 * [DDD Context Map](DPR-StrategicDDDContextMap.md)
-* [Component Diagram](#DPR-ComponentDiagram)
-* [Context Diagram](#DPR-ContextDiagram)
-* [Deployment Diagram](#DPR-DeploymentDiagram)
-* [Overview Diagram](#DPR-OverviewDiagram)
-* [Quality Attribute Scenario](#DPR-QualityAttributeScenario)
+* [Component Diagram](DPR-ComponentDiagram)
+* [Context Diagram](DPR-ContextDiagram)
+* [Deployment Diagram](DPR-DeploymentDiagram)
+* [Overview Diagram](DPR-OverviewDiagram)
+* [Quality Attribute Scenario](DPR-QualityAttributeScenario)
 * [Use Case (Model)](DPR-UseCase.md)
 * [User Story](DPR-UserStory.md)
 
