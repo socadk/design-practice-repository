@@ -7,14 +7,22 @@
 
 ### Quick links
 
-This version of DPR contains the following artifact templates:
+This version of DPR contains the following general-purpose artifact templates:
 
 * [Architectural Decision Record (Y-Statement)](DPR-ArchitecturalDecisionRecordYForm.md)
 * [CRC Card](DPR-CRCCard.md)
 * [Domain Model](DPR-DomainModel.md)
 * [DDD Context Map](DPR-StrategicDDDContextMap.md)
+* [Component Diagram](#DPR-ComponentDiagram)
+* [Context Diagram](#DPR-ContextDiagram)
+* [Deployment Diagram](#DPR-DeploymentDiagram)
+* [Overview Diagram](#DPR-OverviewDiagram)
+* [Quality Attribute Scenario](#DPR-QualityAttributeScenario)
 * [Use Case (Model)](DPR-UseCase.md)
 * [User Story](DPR-UserStory.md)
+
+Specific to service and API design, there are:
+
 * [API Description](SDPR-APIDescription.md)
 * [Candidate Endpoint List](SDPR-CandidateEndpointList.md)
 * [Refined Endpoint List](SDPR-RefinedEndpointList.md)
@@ -22,4 +30,4 @@ This version of DPR contains the following artifact templates:
 
 ### More information
 
-An extended overview can be found in the [Artifact/Templates Readme](readme.md).
+An extended overview can be found in the [Artifact/Templates Readme](introduction.md).
