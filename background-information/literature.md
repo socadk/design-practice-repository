@@ -22,7 +22,6 @@ pandoc -s --metadata link-citations=true --wrap=none --bibliography DPR-Referenc
 
 6. Replace all HTML div elements with p (start tags, end tags)
  -->
- 
 
 <p id="ref-Allamaraju:2010" class="csl-entry" role="doc-biblioentry">
 Allamaraju, Subbu. 2010. <em><span>RESTful Web Services Cookbook</span></em>. Sebastopol: O’Reilly Media, Inc.
@@ -146,10 +145,12 @@ Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Cesare Pautasso, and Uwe Zdun. 2
 </p>
 <p id="ref-PatternsForAPIDesign:2022" class="csl-entry" role="doc-biblioentry">
 Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Uwe Zdun, and Cesare Pautasso. 2022. <em>Patterns for API Design: Simplifying Integration with Loosely Coupled Message Exchanges</em>. Addison-Wesley Signature Series (Vernon). Addison-Wesley Professional.
+</p>
 <p id="ref-Zimmermann:2003" class="csl-entry" role="doc-biblioentry">
 Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on Web Services: Applying SOAP, WSDL and UDDI to Real-World Projects</em>. Springer Science &amp; Business Media.
 </p>
-</p>
+
+
 <!-- keep/update the metadata below when updating the page: -->
 
 ## DPR Metadata
