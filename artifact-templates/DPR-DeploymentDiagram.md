@@ -105,6 +105,8 @@ DPR activities:
 
 Artifact types and notations:
 
+* Architecture [Overview Diagram](DPR-OverviewDiagram.md)
+* [Component Diagram](DPR-ComponentDiagram.md)
 * [C4 Model](https://c4model.com/) for visualizing software architecture by Simon Brown <!-- say that SB does not recommend to model the fourth C, but added three several supplemental views later, which makes it a C7, not too different from pragmatic UML use -->
 * Unified Modeling Language (UML) deployment diagrams
 
