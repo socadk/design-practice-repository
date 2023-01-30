@@ -89,7 +89,7 @@ The [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity 
 Related artifacts are: 
 
 * [Strategic DDD context maps](DPR-StrategicDDDContextMap.md), showing relations between bounded contexts 
-* [Use cases](DPR-UseCase.md) and [user stories](DPR-UserStory) (contributing primary external interfaces)
+* [Use cases](DPR-UseCase.md) and [user stories](DPR-UserStory.md) (contributing primary external interfaces)
 * Architecture [Overview Diagram](DPR-OverviewDiagram.md)
 
 
