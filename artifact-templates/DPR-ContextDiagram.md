@@ -33,7 +33,7 @@ Drawing a context diagram serves one or more of these purposes:
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
 
-Context diagrams are informal, typically; their layout should follow certain conventions. For instance, the external systems or human users can be ordered in specific ways: consumers at the top of the figure and providers at the bottom. Arrows labels and layout should indicate the types of interface (and integration style). 
+Context diagrams are informal, typically; their layout should follow certain conventions. For instance, the external systems or human users can be ordered in specific ways: consumers at the top of the figure and providers at the bottom. Arrow labels and layout should indicate the types of interface (and integration style). 
 
 <!-- not sure: Could use IRP one? -->
 

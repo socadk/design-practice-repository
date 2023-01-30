@@ -68,7 +68,7 @@ The locations in this example contain one or more nodes. The mid-tier, for insta
 Common tool choices include: 
 
 * Any drawing tool, possibly supported by domain-specific templates, icon collections, stencil libraries, and so on. 
-* Physical and Online and whiteboards (in support of agile modeling)
+* Physical and online whiteboards (in support of agile modeling)
 * UML tools with Sparx Enterprise Architect being one example 
 * C4-enabled tools such as Structurizr
 
