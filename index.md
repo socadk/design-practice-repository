@@ -1,4 +1,4 @@
-## Welcome to DPR Version 1.4.0 (Git Pages Edition) 
+## Welcome to DPR Version 1.4 (Git Pages Edition) 
 
 The [introduction](./introduction.md) page is a comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
 
@@ -21,6 +21,7 @@ Artifact templates:
 * [Y-shaped Architecture Decision Records (ADRs)](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)
 * [Component, Responsibility, Collaborations (CRC) Cards](artifact-templates/DPR-CRCCard.md)
 * [API Description](artifact-templates/SDPR-APIDescription.md)
+* [Candidate Endpoint List](artifact-templates/SDPR-CandidateEndpointList.md)
 
 Roles:
 
