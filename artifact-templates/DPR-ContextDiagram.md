@@ -25,7 +25,7 @@ The [C4 model page](https://en.wikipedia.org/wiki/C4_model) on Wikipedia advises
 
 Drawing a context diagram serves one or more of these purposes: 
 
-* Document external dependencies and coordination needs (technical risk, scheduling).
+* Document external dependencies and coordination needs (including technical risk management and release scheduling).
 * Identify application owners and other stakeholders of neighboring systems.
 * Estimate and initiate integration design and implementation.
 
@@ -33,7 +33,7 @@ Drawing a context diagram serves one or more of these purposes:
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
 
-Context diagrams are informal, typically; their layout should follow certain conventions. For instance, the external systems or human users can be ordered in specific ways: consumers at the top of the figure and providers at the bottom. Arrows should be labeled to indicate the types of interface (and integration style). 
+Context diagrams are informal, typically; their layout should follow certain conventions. For instance, the external systems or human users can be ordered in specific ways: consumers at the top of the figure and providers at the bottom. Arrows labels and layout should indicate the types of interface (and integration style). 
 
 <!-- not sure: Could use IRP one? -->
 
@@ -45,13 +45,13 @@ In an order management scenario in telecommunications, external clients such as 
 
 ![Context Diagram Example](/artifact-templates/images/ZIO-ContextDiagramExample.png)
 
-<!-- See C4 website for more examples. -->
+<!-- See C4 website and ["An architectural decision modeling framework for service oriented architecture design"](https://elib.uni-stuttgart.de/handle/11682/2682) for more examples. -->
 
 
 ### Tools
 <!--From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
 
-Context diagrams are typically created with light tools, although full-fledged modeling tools can also be used:
+Context diagrams are typically created with light tools, although full-fledged modeling software can also be used:
 
 * Any drawing tool or whiteboarding capability
 * C4 tools, one option being Structurizr
@@ -61,7 +61,7 @@ Context diagrams are typically created with light tools, although full-fledged m
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!--See ART, don’t overdo etc.-->
 
-* Organize the diagram for readability; for instance, place interface consumers at the top and interface providers at the bottom. Order consumers and providers by their type (human user, external system) and/or importance and/or time of activity. Label all arrows, and explain their meaning in a legend (runtime API call or compile-time dependency?).
+* Organize the diagram for readability; for instance, place and order consumers and providers by their type (human user, external system) and/or importance and/or time of activity. Label all arrows, and explain their meaning in a legend (for example, runtime API call or compile-time dependency?). <!-- already said: place interface consumers at the top and interface providers at the bottom. -->
 * Do not confuse black box and white box and views. Here, no internals should be shown.
 * Do not stop at the outside view, but zoom in (with a container diagram).  
 * Do not forget to update this diagram as a design evolves; when a new API is consumed, this has to be shown as an outbound external interface in any context diagrams drawn earlier.
@@ -69,7 +69,7 @@ Context diagrams are typically created with light tools, although full-fledged m
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
-This is not a UML diagram type (tools have some basic/proprietary support, usually), but has been present in professional services methods since the late 1990s.
+This is not a UML diagram type, but has been present in professional services methods since the late 1990s. Many UML tools have some proprietary support, often basic.
 
 The Unified Architecture Method (UAM) has a task called ["Define System Scope & Context"](http://www.unified-am.com/UAM/index.htm#UAM/tasks/uam_define_system_scope_D6C3E23D.html).
 
@@ -92,7 +92,7 @@ Related artifacts are:
 
 ### More Information
 
-* Domain-driven design tools such as Context Mapper can be used to draw context diagrams. 
+* Domain-driven design tools such as [Context Mapper](https://contextmapper.org/docs/context-map/) can be used to draw context diagrams that show one or more systems and their relations.  
 * The Agile Modeling website advocates free-form[ modeling](http://agilemodeling.com/artifacts/freeForm.htm) and a [multiple-models](http://agilemodeling.com/artifacts/) approach. 
 * There is a Scenario viewpoint in the [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model). 
 * The Soft Systems Methodology has a [Rich Picture](https://en.wikipedia.org/wiki/Rich_picture) artifact.

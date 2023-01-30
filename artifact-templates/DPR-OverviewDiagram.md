@@ -17,35 +17,39 @@ also known as: Architecture Overview Diagram, Container Diagram <!-- "The Import
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
 
-* Typically created during solution strategy, refined iteratively and incrementally later (as/if needed)
-* Illustrate [Client-Server Cuts (CSCs)](https://hillside.net/plop/plop97/Proceedings/renzel.pdf) such as Remote User Interface or Distributed Presentation and other "big" architectural decisions 
-* Disclose information about interface protocols and implementation technologies
+* Typically created during solution strategy, refined iteratively and incrementally later (as/if needed).
+* Illustrates [Client-Server Cuts (CSCs)](https://hillside.net/plop/plop97/Proceedings/renzel.pdf) such as Remote User Interface or Distributed Presentation and other "big" architectural decisions. 
+* Discloses information about interface protocols and implementation technologies.
 
 
 ### Usage (Produced and Consumed When)
 <!--AA/AS/AE, must identify the producing role and the target audience-->
 
-A container diagram (aka architecture overview) can be used for: 
+An architecture overview diagram can be used for: 
 
 * Quick orientation for starters (new DevOps team member, support, and maintenance staff)
 * Work distribution and planning
 * Non-technical stakeholder communication (including project managers and sponsors) 
 
+Many more use cases for this diagram exist because [a picture is worth a thousand words](https://en.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words). 
+
 
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)--> 
 
-Container diagrams often come as informal rich pictures (IRPs). C4 and its tools take a slightly more formal approach, allowing one to zoom in (coming from a [Context Diagram](DPR-ContextDiagram.md), moving on to a [Component Diagram](DPR-ComponentDiagram.md)).
+Container diagrams often come as Informal Rich Pictures (IRPs). C4 and its tools take a slightly more formal approach, allowing designers to zoom in (coming from a [Context Diagram](DPR-ContextDiagram.md), moving on to a [Component Diagram](DPR-ComponentDiagram.md)).
 
 
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-Having decided for logical layers as primary organizing/decomposition principles (which is a common but not the only option), an architecture overview diagram featuring layers and their assignment to tiers may look as follows:
+Having decided for logical layers as primary organizing/decomposition principles, an architecture overview diagram featuring layers and their assignment to tiers may look as follows:
 
 ![Example of an Overview/Container Diagram](/artifact-templates/images/ZIO-AbstractContainerDiagramSketch.png)
 
 Three conceptual tiers are shown, one for application frontends and integrated external systems (in client role), one centered on business logic, and one containing data stores and external systems (in provider role).
+
+Note that logical layering is a common but not the only option to decompose systems and turn then into distributed applications. Workflows and pipes-and-filters are among the other options, as explained in a [Cloud Computing Pattern](https://www.cloudcomputingpatterns.org/distributed_application/).
 
 
 ### Tools
@@ -63,13 +67,14 @@ Common choices include:
 
 Just a few hints (many more can be found online):
 
-* Model and diagram with a clearly defined purpose and target audience in mind.
+* As for all diagrams, model with a clearly defined purpose and target audience in mind.
 * Decide for a single, consistent level of abstraction and refinement per diagram; explain which elements are included in the overview and why. 
 * Do not confuse the abstract, conceptual notion of "container" (used here) with more concrete technical container concepts such as those in charge of dependency injection (for instance, in Spring) or orchestration and deployment containers (for instance, in Docker and Kubernetes).   
 * Use names that unveil domain concepts and architectural roles; for example, "Policy Management Frontend" is better than "Client" (in an insurance domain/scenario). 
-* Be consistent in the use of notation, provide a legend for non-standard diagram elements.
+* As for all diagrams, be consistent in the use of notation and provide a legend for non-standard diagram elements.
 
-See the section "Notation, notation, notation" on the [C4 model home page](https://c4model.com/#notation) and its [diagram review checklist](https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf) for more hints.
+See the section "Notation, notation, notation" on the [C4 model home page](https://c4model.com/#notation) and its [diagram review checklist](https://c4model.com/assets/software-architecture-diagram-review-checklist.pdf) for more hints. 
+<!-- could also refer to a blog post on good names -->
 
 
 ### Origins and Signs of Use

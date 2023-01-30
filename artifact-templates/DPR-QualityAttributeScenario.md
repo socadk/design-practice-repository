@@ -35,7 +35,7 @@ QAS are created, refined, and used in:
 
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?)-->  
-The full template look as follows (with explanations). Note that the six rows in the middle, from "Stimulus" to "Response Measure", which are grouped as "scenario components", form the core of a QAS. The other ones provide context information and deal with consequences of the specified response and response measure.
+The full template look as follows (with explanations). Note that the six rows in the middle, from "Stimulus" to "Response Measure", which are grouped as "Scenario Components", form the core of a QAS. The other ones provide context information and deal with consequences of the specified response and response measure.
 
 ![Annotated QAS Template](/artifact-templates/images/ZIO-QualityAttributeScenarioExplanations.png)
 
@@ -45,7 +45,7 @@ See the [sample chapter of ADD 3.0 book](https://ptgmedia.pearsoncmg.com/images/
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
 
-![QAS Example](/artifact-templates/images/ZIO-QualityAttributeScenarioExample.png)
+![QAS Example: Desired Performance in Order Management Scenario](/artifact-templates/images/ZIO-QualityAttributeScenarioExample.png)
 
 
 ### Tools
@@ -53,12 +53,13 @@ See the [sample chapter of ADD 3.0 book](https://ptgmedia.pearsoncmg.com/images/
 
 This is a text artifact, possibly structured with the help of templates and tables. Any word processing or other tool supporting item lists and table formatting can be used to create QAS instances, including wikis, markup languages, and Markdown.
 
+Requirements management tools provide additional tooling options.
 
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!--See ART, don’t overdo etc.-->
 
 * Focus on key qualities, prioritize elicitation and documentation effort by business value and technical risk (for instance, via a test for [architectural significance](https://medium.com/olzzio/architectural-significance-test-9ff17a9b4490)).
-* Define the desired behavior in different environments, such as steady state, high workload, and error cases. Create multiple QAS instances as/if needed.
+* Define the desired behavior in different environments such as steady state, high workload, and error cases. Create multiple QAS instances as/if needed.
 * Do not let the scope of this analysis artifact creep, for instance, by morphing it into a design document. The response measure is an observable quality, not a means to achieve this quality.
 
 <!-- TODO could talk about design time vs. runtime; what are measures for design time qualities such as maintainability? could talk about quality trees for prioritization, risk-based approach by M .Glinz (see fact sheets) -->
@@ -81,6 +82,8 @@ Relate activities in DPR are:
 
 * [SMART NFR Elicitation](../activities/DPR-SMART-NFR-Elicitation.md) features "specific" and "measurable" as quality criteria for quality requirements; QAS satisfy these properties when filled out properly.
 * The [Architecture Modeling](../activities/DPR-ArchitectureModeling.md) activity uses QAS (or other forms of SMART NFRs) as input.
+
+Many artifacts require specific and measurable NFRs as input, including but not limited to Architectural Decision Records (ADRs) and [Deployment Diagrams](DPR-DeploymentDiagram.md).
 
 
 ### More Information
