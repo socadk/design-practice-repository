@@ -113,7 +113,7 @@ Artifacts:
 * Sparx Systems provides a [UML Tutorial](https://sparxsystems.com/resources/tutorials/uml/use-case-model.html).
 * C4 has a [Wikipedia](https://en.wikipedia.org/wiki/C4_model) page.
 * arc42 includes a [building block view](https://docs.arc42.org/section-5/) and a [runtime view](https://docs.arc42.org/section-6/).
-* Gernot Starke (in German) explains how to create strong diagrams in ["1×1 guter Architekturdiagramme"](https://www.innoq.com/de/articles/2022/09/better-architecture-diagrams/).
+* Gernot Starke explains how to create strong diagrams in ["1×1 guter Architekturdiagramme"](https://www.innoq.com/de/articles/2022/09/better-architecture-diagrams/) (in German).
 
 ### Data Provenance 
 
