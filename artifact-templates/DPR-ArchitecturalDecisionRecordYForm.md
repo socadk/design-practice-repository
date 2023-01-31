@@ -29,7 +29,7 @@ On agile projects, the sprint/iteration review meetings might be a good point in
 ### Template Structure and Notation(s)
 Y-Statements are often captured in plain but structured text (but tables in presentation tools, wiki pages, and modeling tools can also be used):
 
-![Y-Statement Template](images/ADCaptureYTemplate.png)
+![Y-Statement Template](/artifact-templates/images/ADCaptureYTemplate.png)
 
 <!-- TODO: check consistency of author names; DONE: feature tradeoff character of bottom half more -->
 
