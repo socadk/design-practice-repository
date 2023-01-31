@@ -5,9 +5,9 @@
 -->
 
 [DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
-[Roles Index](https://socadk.github.io/design-practice-repository/roles/index) ---
 [Activities Index](https://socadk.github.io/design-practice-repository/activities/index) ---
 [Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates/index)
+[Roles Index](https://socadk.github.io/design-practice-repository/roles/index) ---
 
 # Design Practice Repository (DPR)
 
