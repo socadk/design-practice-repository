@@ -4,6 +4,11 @@
 # SPDX-License-Identifier: CC-BY-4.0
 -->
 
+[DPR Git Pages Home](https://socadk.github.io/design-practice-repository) ---
+[Roles Index](https://socadk.github.io/design-practice-repository/roles/index) ---
+[Activities Index](https://socadk.github.io/design-practice-repository/activities/index) ---
+[Artifacts Index](https://socadk.github.io/design-practice-repository/artifact-templates/index)
+
 # Design Practice Repository (DPR)
 
 <!-- "DPR" pronounced "deeper"... and Se (or C?) can be pronounced "see", so [O] see deeper... or "steeper" ;-) -->
