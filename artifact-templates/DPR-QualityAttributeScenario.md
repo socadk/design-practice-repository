@@ -102,7 +102,7 @@ The blog post ["Do Software Architectures Meet Extra-Functional or Non-Functiona
 ```yaml
 title: "Design Practice Repository (DPR): Quality Attribute Scenario"
 author: Olaf Zimmermann (ZIO)
-date: "01, 26, 2023"
+date: "01, 31, 2023"
 copyright: Olaf Zimmermann, 2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

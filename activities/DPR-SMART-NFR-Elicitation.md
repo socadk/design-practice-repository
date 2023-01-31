@@ -8,7 +8,7 @@ Abstraction/Refinement Level: n/a (requirements)
 ---
 
 
-Activity/Technique: *SMART NFR Elicitation*
+Activity/Technique: *SMART Non-Functional Requirement (NFR) Elicitation*
 --------------------------------------------
 
 <!-- TODO (v2) decide on split: "Group NFRs by Type" or "select taxonomy" could be a separate activity that features FURPS, etc.; activity vs. artifact? -->
@@ -163,7 +163,7 @@ arc42 recommends to have [top three to five QAs in Section 1 of architecture des
 ```yaml
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
-date: "01, 27, 2023"
+date: "01, 31, 2023"
 copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
