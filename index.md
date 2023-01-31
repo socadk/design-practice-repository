@@ -1,4 +1,5 @@
-## Welcome to DPR Version 1.4 (Git Pages Edition) 
+## Design Practice Repository/Reference (DPR) Version 1.4 (Git Pages Edition) 
+-----------------------------------------------------------------------------
 
 The [introduction](./introduction.md) page is a comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
 
@@ -15,14 +16,13 @@ Activities:
 * [SMART NFR Elicitation](activities/DPR-SMART-NFR-Elicitation.md)
 * [Architectural Decision Capturing](activities/DPR-ArchitecturalDecisionCapturing.md)
 * [Stepwise Service Design](activities/SDPR-StepwiseServiceDesign.md) practice
-* [Candidate Endpoint List](artifact-templates/SDPR-CandidateEndpointList.md)
-
 
 Artifact templates:
 
 * [Y-shaped Architecture Decision Records (ADRs)](artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)
 * [Component, Responsibility, Collaborations (CRC) Cards](artifact-templates/DPR-CRCCard.md)
 * [API Description](artifact-templates/SDPR-APIDescription.md)
+* [Candidate Endpoint List](artifact-templates/SDPR-CandidateEndpointList.md)
 
 Roles:
 
@@ -30,9 +30,9 @@ Roles:
 * [Application Architect](roles/DPR-ApplicationArchitectRole.md)
 
 
-### *Preview: DPR eBook*
+### DPR eBook*
 
-*April 8, 2021:* The DPR content also comes as an ebook now. The current draft version is available on [Leanpub](https://leanpub.com/dpr). 
+*January 31, 2023:* The DPR content also is available as an ebook (since April 2021). The latest version can always be found on [Leanpub](https://leanpub.com/dpr). 
 
 <!--
 <iframe width='160' height='400' src='https://leanpub.com/dpr/embed' frameborder='0' allowtransparency='true'></iframe>
@@ -48,4 +48,4 @@ The books and other publications referenced in the artifact and activity descrip
 * Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)
 * [Cloud Application Lab at OST IFS](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab)
 
-(c) Olaf Zimmermann and Mirko Stocker, 2021-2023. All rights reserved. Licensed as Creative Commons (see repository). 
+(c) Olaf Zimmermann and Mirko Stocker, 2021-2023. All rights reserved. Licensed as Creative Commons Licensed as Creative Commons (see [LICENSE](https://github.com/socadk/design-practice-repository/blob/master/LICENSE) in GitHub repository).
