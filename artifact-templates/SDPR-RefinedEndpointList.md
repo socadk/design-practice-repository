@@ -56,13 +56,13 @@ This is an elaborate proposal, referencing several categories in [Microservice A
 
 For each API endpoint in such list, specify its responsibilities and signature on a platform- and technology-neutral, yet concrete level of detail:
 
-```text
-| EP | Op. | Responsibility | Request and Response Message | Media Type |
-|----|-----|----------------|------------------------------|------------|
-| [name] | | [endpoint role] | | |                    
-|  | [name] | [operation responsibility] | [abstract data contract] | [custom, IANA] |
-| ... | |  | | |                    
-|  | ... | | | |
+``` text
+| Endpt. | Op.    | Responsibility | Request and Response Message | Media Type |
+|--------|--------|----------------|------------------------------|------------|
+| [name] |        | [endpt. role]  |                              |            |
+|        | [name] | [op. resp.]    | [abstract data contract]     | [DIY, IANA]|
+| ...    |        |                |                              |            |
+|        | ...    |                |                              |            |
 ```
 
 <!-- Step 5 of activity has more here: service layer, remote facade, DTO ADs; feature in tutorial (not needed here) -->
@@ -160,7 +160,7 @@ Usage of the above list and table formats is a sign of use.
 ```yaml
 title: "Design Practice Repository (DPR): Refined Endpoint List (REL)"
 author: Olaf Zimmermann (ZIO)
-date: "04, 08, 2021"
+date: "1, 31, 2023"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
