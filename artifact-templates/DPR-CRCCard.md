@@ -39,11 +39,11 @@ An annotated template (with teaser questions) is: <!-- resolution not great in P
 
 ![CRC Card Notation Explained](./images/ZIO-CRCCardNotationExplained.png)
 
-*Discussion:* The template and the teaser questions deviate from the original CRC format a bit (applying our method engineering rule "do not follow templates blindly, but adopt them to your needs"). In the Responsibilities cell, functions, (externally visible) data, and qualities are mentioned; in the Collaborations cell, both inbound and outbound dependencies can be listed. Note that there is an extra cell asking for previous experiences and realizations with the candidate component (in support of the decision-making use case of CRC cards).
+*Discussion:* The template and the teaser questions deviate from the original CRC format a bit (applying our method engineering rule "do not follow templates blindly, but adopt them to your needs"). In the Responsibilities cell, functions, (externally visible) data, and qualities are mentioned; in the Collaborations cell, both inbound and outbound dependencies can be listed. There is an extra cell asking for previous experiences and realizations with the candidate component (in support of the decision-making use case of CRC cards).
 
 ### Example(s)
 
-This is an example of a filled out card (an entire layer is described here, rather than a single component in that layer):
+This is an example of a filled-out card (an entire layer is described here, rather than a single component in that layer):
 
 <!-- IH CE: two more comments on figure -->
 
@@ -104,8 +104,8 @@ RDD and many other methods are compiled and commented on in ["Driven by Acronyms
 ```yaml
 title: "Design Practice Repository (DPR): CRC Card"
 author: Olaf Zimmermann (ZIO)
-date: "03, 29, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "01, 31, 2023"
+copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 

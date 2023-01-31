@@ -132,7 +132,7 @@ Artifact types and notations:
 ```yaml
 title: "Design Practice Repository (DPR): Deployment Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "01, 26, 2023"
+date: "01, 31, 2023"
 copyright: Olaf Zimmermann, 2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
