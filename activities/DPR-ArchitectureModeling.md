@@ -110,8 +110,8 @@ Its output is documented in one or more instances of [Context Diagram](../artifa
 
 #### Practices and Techniques (Refinements, Guides)
 
-* [SMART NFR Elicitation](DPR-SMART-NFR-Elicitation.md)
-* [Architectural Decisions (AD) Capturing](DPR-ArchitecturalDecisionCapturing.md)
+* [SMART NFR Elicitation](DPR-SMART-NFR-Elicitation.md) provides input
+* [Architectural Decisions (AD) Capturing](DPR-ArchitecturalDecisionCapturing.md) to justify the modeling output
 * Architecture review practices such as ATAM and DCAR
 
 

@@ -98,6 +98,10 @@ Involved roles:
 * Agile teams 
 * [Application Architect](../roles/DPR-ApplicationArchitectRole.md) 
 
+Related activity:
+
+* [Architecture Modeling](DPR-ArchitectureModeling.md)
+
 Produced artifact: 
 
 * Decision log with [ADRs](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)
