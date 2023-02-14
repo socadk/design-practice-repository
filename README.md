@@ -10,7 +10,9 @@
 
 *Welcome to Software/Service/API Design Practice Repository (DPR) (pronounced "deeper")!* 
 
-This public repository collects method elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond).
+This public repository collects method elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond). 
+
+*News (Feb 7, 2023):* See Medium story ["Design Practice Repository and Reference: GitPages and eBook Enhanced"](https://medium.com/olzzio/design-practice-repository-and-reference-gitpages-and-ebook-enhanced-f43c107f2567).
 
 ## Target Audience 
 
