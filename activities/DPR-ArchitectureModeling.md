@@ -75,7 +75,7 @@ An [arc42 FAQ](https://faq.arc42.org/questions/C-4-3/) provides examples of "big
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
-"Agile Modeling" by Scott Ambler has a core practice called ["Just Barely Good Enough Models and Documents"](http://agilemodeling.com/essays/barelyGoodEnough.html) that covers cost vs. benefit of modeling (@Ambler:2002). 
+"Agile Modeling" by Scott Ambler has a core practice called ["Just Barely Good Enough Models and Documents"](http://agilemodeling.com/essays/barelyGoodEnough.htm) that covers cost vs. benefit of modeling (@Ambler:2002). 
 
 George Fairbanks sends similar messages in his book ["Just Enough Software Architecture"](https://www.georgefairbanks.com/book/) (@Fairbanks:2010).
 
