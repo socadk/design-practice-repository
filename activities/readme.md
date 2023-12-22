@@ -69,7 +69,7 @@ Particularly relevant for service/API design are:
 * User Interface (UI) Design
     * [User Interface Mocking](./DPR-UserInterfaceMocking.md)
 * Coding the Architecture 
-    * [Architecturally Evident Coding Styles](https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_48651.pdf)
+    * [Architecturally Evident Coding Styles](https://www.georgefairbanks.com/software-architecture/architecturally-evident-coding-style/)
 * Operational Modeling
     * As proposed by the IBM Global Services Method (see [here](https://www.ifi.uzh.ch/dam/jcr:00000000-10dc-dd8d-ffff-ffffa2484ab4/UniZH_HS2011_5_DevelopingSolutionArchitecture.pdf))
 <!-- * DevOps (or: ArchOps?) -->

@@ -48,7 +48,7 @@ And the 2000s:
 
 * [Agile practices](https://www.agilealliance.org/agile101/agile-glossary/), including proposals for scaling agile such as SAFe
 * Strategic and tactic [Domain-Driven Design (DDD)](https://dddcommunity.org/) <!-- OOAD continuation/extension -->
-* [Software Engineering Method and Theory (SEMAT)](http://semat.org/what-is-it-and-why-should-you-care-) initiative, [Essence Standard](http://semat.org/essence-1.2) and [learning/teaching material](http://www.software-engineering-essentialized.com/home)
+* [Software Engineering Method and Theory (SEMAT)](http://semat.org) initiative, [Essence Standard](https://semat.org/en/essence-1.html) <!-- broken link: and [learning/teaching material](http://www.software-engineering-essentialized.com/home) -->
 * Software architecture templates and notations: 
     * [C4 Model](https://c4model.com/) and RCDA
     * [ISO/IEC/IEEE 42010 templates](http://www.iso-architecture.org/ieee-1471/templates/)

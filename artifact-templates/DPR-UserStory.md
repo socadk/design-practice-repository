@@ -72,7 +72,7 @@ See [glossary entry](https://www.agilealliance.org/glossary/user-story-template/
 * [Story Splitting](../activities/DPR-StorySplitting.md)
 * [Job Stories](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
 * Test-Driven Development (TDD) 
-* Behavior-Driven Development (BDD) and [Given-When-Then](https://www.agilealliance.org/glossary/gwt) template for acceptance criteria.
+* Behavior-Driven Development (BDD) and [Given-When-Then](https://www.agilealliance.org/glossary/given-when-then/) template for acceptance criteria.
 
 
 ### More Information

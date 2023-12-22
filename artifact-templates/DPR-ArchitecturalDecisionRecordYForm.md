@@ -61,7 +61,7 @@ When embedding ADs in code, custom annotations can be used. For instance, [Embed
 
 
 ### Origins and Signs of Use
-The WH(Y) template for AD records was originally suggested in a [SATURN 2012 presentation by Olaf Zimmermann](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=31345); it has been practiced in a number of projects, for instance at ABB, and taught at HSR/OST since 2013. 
+The WH(Y) template for AD records was originally suggested in a SATURN 2012 presentation by Olaf Zimmermann<!-- broken link: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=31345)-->; it has been practiced in a number of projects, for instance at ABB, and taught at HSR/OST since 2013. 
 
 The template took inspiration from the decision outcome format suggested by George Fairbanks in his [Architecture Haikus, presented at WICSA 2011](https://www.georgefairbanks.com/blog/comparch-wicsa-2011-panel-discussion-and-haiku-tutorial/): The upper part of Y-Statements ("In the context of, facing") adds feature- and quality-related information to the tradeoff information ("to achieve, accepting that") in the bottom part also present in Haiku decision outcomes.
 
