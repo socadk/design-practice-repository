@@ -28,10 +28,8 @@ TODO
 
 ### Template Structure and Notation(s)
 <!-- What to do, artifact to produce; minimum, medium maximum diligence/verbosity (?) -->  
-TODO
 
-![](/images/NN.png)
-
+See <https://medium.com/nerd-for-tech/a-checklist-for-api-design-reviews-5f7db45b0cb3>. 
 
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full -->
@@ -65,8 +63,6 @@ Chapter 13 in @Lauret:2019 features questions to ask and a review checklist.
 TODO
 
 <!-- JH: https://tyk.io/how-to-conduct-an-api-design-review/ -->
-
-A proposal for Open and Lean Architecting Framework collecting important artifacts can be found on an [HSR FHO/OST web page](https://www.ifs.hsr.ch/index.php?id=13195&L=4).
 
 
 ### Data Provenance 

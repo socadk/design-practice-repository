@@ -54,7 +54,7 @@ Particularly relevant for service/API design are:
 * [Architecture Modeling](DPR-ArchitectureModeling.md)
     * "Architecture Overviewing" and Strategic Architecting
 * Quality- and Pattern-Oriented Design 
-	* [Attribute-Driven Design (ADD) 3.0](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536) 
+	* [Attribute-Driven Design (ADD) 3.0](https://en.wikipedia.org/wiki/Attribute-driven_design) 
 	* Pattern-Oriented Software Architecture (POSA) book series, Volume 4 in particular @Buschmann:2007
 * Component Identification and Modeling 
     <!-- * C4 (which extend into C5+2, adding Connectors, Context and Concerns) -->

@@ -18,7 +18,7 @@ also known as: Architecture Overview Diagram, Container Diagram <!-- "The Import
 <!--Purpose -->
 
 * Typically created during solution strategy, refined iteratively and incrementally later (as/if needed).
-* Illustrates [Client-Server Cuts (CSCs)](https://hillside.net/plop/plop97/Proceedings/renzel.pdf) such as Remote User Interface or Distributed Presentation and other "big" architectural decisions. 
+* Illustrates Client-Server Cuts (CSCs) such as Remote User Interface or Distributed Presentation and other "big" architectural decisions (@RenzelKeller:1997). 
 * Discloses information about interface protocols and implementation technologies.
 
 

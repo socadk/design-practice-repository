@@ -89,7 +89,7 @@ Here are some additional resources and references:
 General purpose:
 
 * The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level DDD. A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
-* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its younger "sibling" [OpenUP](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm)
+* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its younger "sibling" [OpenUP](https://en.wikipedia.org/wiki/OpenUP)
 * Articles ["On Design"](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
 * [Methods and Tools](http://www.methodsandtools.com/) is an online "Software Development Magazine - Project Management, Programming, Software Testing".
 
@@ -100,7 +100,7 @@ API and service design:
 * [MAP Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/#tutorial-2) (not public yet, but access can be granted upon request) features a good share of the tasks describes in this repository.
 * The [Service Cutter Wiki](https://github.com/ServiceCutter/ServiceCutter/wiki) collects coupling criteria 
 
-See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://ifs.hsr.ch/index.php?id=13195&L=4) for more pointers.
+See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-towardsopenleanarchitectureframework-sagranov2016v10p.pdf) and this [IFS website](https://web.archive.org/web/20220117051549/https://ifs.hsr.ch/index.php?id=13195&L=4) (archived) for more pointers.
 
 
 ### Site Navigation

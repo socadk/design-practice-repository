@@ -64,7 +64,6 @@ TODO
 ### More Information
 TODO
 
-A proposal for Open and Lean Architecting Framework collecting important artifacts can be found on an [HSR FHO/OST web page](https://www.ifs.hsr.ch/index.php?id=13195&L=4).
 
 
 ### Data Provenance 

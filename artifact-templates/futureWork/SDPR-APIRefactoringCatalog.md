@@ -74,12 +74,12 @@ The [MDSL Tools](https://microservice-api-patterns.github.io/MDSL-Specification/
 ### Hints and Pitfalls to Avoid (Common Pitfalls)
 <!-- See ART, don’t overdo etc. -->
 
-See the TELL rule and other tips and tricks [here](https://interface-refactoring.github.io/refactorings/hints/).
+See the TELL rule and other tips and tricks [here](https://interface-refactoring.github.io/hints/).
 
 
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA -->
-This template is original research by Mirko Stocker and Olaf Zimmerman 2020 to 2021 supported by the Hasler Foundation. This work has roots in code refactoring and earlier work on architectural refactoring for the cloud).
+This template is original research by Mirko Stocker and Olaf Zimmerman 2020 to 2021 supported by the Hasler Foundation. This work has roots in code refactoring and earlier work on architectural refactoring for the cloud.
 
 
 ### Related Artifacts and Practices (incl. Alternatives)

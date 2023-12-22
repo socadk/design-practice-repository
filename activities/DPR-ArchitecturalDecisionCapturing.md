@@ -107,7 +107,7 @@ Produced artifact:
 #### Other Practices (Alternatives) 
 There are no alternatives, really. The emergent architecture community suggests not to make ADs consciously, but let the architecture emerge and evolve through frequent iterations including intense refactoring supported by measurements/experiments. 
 
-The Agile Alliance lists a [Quick Design](https://www.agilealliance.org/glossary/quickdesign/) practice in its [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/). The outcome of such quick design sessions can be captured as an ADR in the decision log.
+The Agile Alliance lists a [Quick Design](https://www.agilealliance.org/glossary/quick-design-session/) practice in its [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/). The outcome of such quick design sessions can be captured as an ADR in the decision log.
 
 Agile Modeling has the notion of [Architecture Envisioning](http://agilemodeling.com/essays/initialArchitectureModeling.htm), which yields strategic, high-impact decisions. Not even the most extreme agile team will replace is database paradigm, technology, and provider in each and every sprint.
 
