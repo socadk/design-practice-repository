@@ -41,7 +41,7 @@ Application architects worry about and need:
 
 |**Phase**| Consumed | Produced | Comments |
 |:-|:-----:|:------:|:--------:|
-| Analysis | [User Stories](../artifact-templates/DPR-UserStory.md), [Use Cases](../artifact-templates/DPR-UseCase.md) | Non-functional requirements, for instance in the form of Quality Attribute Scenarios | Iteratively refined |
+| Analysis | [User Stories](../artifact-templates/DPR-UserStory.md), [Use Cases](../artifact-templates/DPR-UseCase.md) | Non-functional requirements, for instance in the form of [Quality Attribute Scenarios](../artifact-templates/DPR-QualityAttributeScenario.md)| Iteratively refined |
 | Design | Legacy system descriptions, external interfaces | [CRC Cards](../artifact-templates/DPR-CRCCard.md), Decision log comprising of ADRs (for instance [Y-Statements](../artifact-templates/DPR-ArchitecturalDecisionRecordYForm.md)), architecture design models | Both produced and consumed |
 | Implementation and test | Code, test specifications, and reports | Reviews | Not in scope of DPR at present |
 | Evolution and maintenance | Change requests, bug reports | Architectural refactorings | Not in scope of DPR at present |

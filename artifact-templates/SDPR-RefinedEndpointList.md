@@ -163,7 +163,7 @@ Usage of the above list and table formats is a sign of use.
 ```yaml
 title: "Design Practice Repository (DPR): Refined Endpoint List (REL)"
 author: Olaf Zimmermann (ZIO)
-date: "04, 08, 2021"
+date: "1, 31, 2023"
 copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
