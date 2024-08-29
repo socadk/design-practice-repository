@@ -55,7 +55,7 @@ The [Context Mapper](https://contextmapper.org/) DSL has first class support for
 ### Hints and Pitfalls to Avoid
 
 * Do not create models or specifications as an excuse for interactions and conversations with end users of the software under construction. When creating libraries, frameworks, or APIs, the client developers are your users. 
-* Do not confuse benefit with outcome in the third part of the role-feature-benefit template. The [glossary entry at the Agile Alliance](https://www.agilealliance.org/glossary/user-story-template/) clearly states: "So that (why they want to accomplish that thing)". The benefit should outline (business) impact and not formally specify a postcondition or computation result (other practices and templates such as [given-when-then](https://www.agilealliance.org/glossary/gwt/) can be used for that). 
+* Do not confuse benefit with outcome in the third part of the role-feature-benefit template. The [glossary entry at the Agile Alliance](https://www.agilealliance.org/glossary/user-story-template/) clearly states: "So that (why they want to accomplish that thing)". The benefit should outline (business) impact and not formally specify a postcondition or computation result (other practices and templates such as [given-when-then](https://www.agilealliance.org/glossary/given-when-then/) can be used for that). 
 * Continuously update the stories while learning about users and their requirements.
 * [INVEST](https://www.agilealliance.org/glossary/invest) in story quality.
 * Practice [Story Splitting](../activities/DPR-StorySplitting.md) to make stories fit into single sprints/iterations (and to identify candidate components for [architecture modeling](../activities/DPR-ArchitectureModeling.md), including potential [API endpoints](SDPR-CandidateEndpointList.md)). Also consider story mapping and example mapping.
@@ -75,7 +75,7 @@ See [glossary entry](https://www.agilealliance.org/glossary/user-story-template/
 * [Story Splitting](../activities/DPR-StorySplitting.md)
 * [Job Stories](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
 * Test-Driven Development (TDD) 
-* Behavior-Driven Development (BDD) and [Given-When-Then](https://www.agilealliance.org/glossary/gwt) template for acceptance criteria.
+* Behavior-Driven Development (BDD) and [Given-When-Then](https://www.agilealliance.org/glossary/given-when-then/) template for acceptance criteria.
 
 
 ### More Information

@@ -174,7 +174,7 @@ Usage of the pattern names and presence of [Domain Model](../artifact-templates/
 * [Stepwise Service Design](SDPR-StepwiseServiceDesign.md) can identify API endpoints *candidates* in DDDs.
 * [Event Storming](https://ziobrando.blogspot.com/2013/11/introducing-event-storming.html) is a complementary technique that can help identify an initial set of Aggregates, Entities, Commands, Events, and other design elements (to be refactored and refined in further tactic DDD). 
 * The [DDD Whirlpool](https://domainlanguage.com/ddd/whirlpool/) by Eric Evans is frequently mentioned. 
-* [Story Mapping](https://www.agilealliance.org/glossary/storymap/) <!-- by J. Patton --> and [Story Splitting](https://www.agilealliance.org/glossary/split/) may assist with DDD pattern identification (among other things).
+* [Story Mapping](https://www.agilealliance.org/glossary/story-mapping/) <!-- by J. Patton --> and [Story Splitting](https://www.agilealliance.org/glossary/story-splitting/) may assist with DDD pattern identification (among other things).
 * Context Mapper tutorials and guides, for instance on [Rapid OOAD](https://contextmapper.org/docs/rapid-ooad/).
 * [Domain Story Telling](https://domainstorytelling.org/).
 

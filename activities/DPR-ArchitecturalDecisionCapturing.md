@@ -34,7 +34,7 @@ There are no reasons not to capture decisions. Two variants exist, *continuous a
 This log can, for instance, be a team-wide source modeling or code repository, a project-wide wiki, or a shared office document (word processor, spreadsheet). As the first decision to be captured, select a *verbosity level* for the decision log: 
 
 - At a minimum, document the decision outcome ("we chose") and provide basic rationale (for instance, in the form of a "because" half sentence).
-- On a medium level of verbosity, use one of the lean *Architectural Decision Record (ADR)* templates such as [MADR](https://github.com/adr/madr), [Y-Statements](http://www.sei.cmu.edu/library/abstracts/presentations/zimmermann-saturn2012.cfm), or [Nygard's ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). 
+- On a medium level of verbosity, use one of the lean *Architectural Decision Record (ADR)* templates such as [MADR](https://github.com/adr/madr), [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177), or [Nygard's ADRs](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions). 
 - If needed or desired, for instance due to external stakeholder pressure to reach certain compliance or maturity levels, apply one of the full-fledged decision modeling templates from the literature.
 
 <!-- Source: https://miro.com/app/board/o9J_lM7N_F8=/ Select the frame -> export as image -->
@@ -110,7 +110,7 @@ Produced artifact:
 #### Other Practices (Alternatives) 
 There are no alternatives, really. The emergent architecture community suggests not to make ADs consciously, but let the architecture emerge and evolve through frequent iterations including intense refactoring supported by measurements/experiments. 
 
-The Agile Alliance lists a [Quick Design](https://www.agilealliance.org/glossary/quickdesign/) practice in its [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/). The outcome of such quick design sessions can be captured as an ADR in the decision log.
+The Agile Alliance lists a [Quick Design](https://www.agilealliance.org/glossary/quick-design-session/) practice in its [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/). The outcome of such quick design sessions can be captured as an ADR in the decision log.
 
 Agile Modeling has the notion of [Architecture Envisioning](http://agilemodeling.com/essays/initialArchitectureModeling.htm), which yields strategic, high-impact decisions. Not even the most extreme agile team will replace is database paradigm, technology, and provider in each and every sprint.
 
@@ -126,7 +126,9 @@ The [adr organization at GitHub](https://adr.github.io/) compiles AD templates, 
 
 See this [SATURN 2013 BoF session report](https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_47704.pdf) for a cost-benefit discussion and open research questions.
 
-Finally, there is a proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html).
+Finally, there is a proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html). <!-- AD DoR too  ->
+
+<!-- TODO (H) four links to SEI SATURN 2010, 2013 not working at present (12/23) -->
 
 
 ### Data Provenance 
