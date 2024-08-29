@@ -106,7 +106,7 @@ Artifacts:
 
 ### More Information
 
-* Philippe Kruchten introduces the 4+1 model in ["The 4+1 View Model of Architecture"](https://www.researchgate.net/publication/220018231_The_41_View_Model_of_Architecture/link/0046351a4dc4f9da04000000/download).<!-- also feature Rozanski/Woods? -->
+* Philippe Kruchten introduces the 4+1 model in ["The 4+1 View Model of Architecture"](https://www.researchgate.net/publication/220018231_The_41_View_Model_of_Architecture).<!-- also feature Rozanski/Woods? -->
 * Sparx Systems provides a [UML Tutorial](https://sparxsystems.com/resources/tutorials/uml/use-case-model.html).
 * C4 has a [Wikipedia](https://en.wikipedia.org/wiki/C4_model) page.
 * arc42 includes a [building block view](https://docs.arc42.org/section-5/) and a [runtime view](https://docs.arc42.org/section-6/).

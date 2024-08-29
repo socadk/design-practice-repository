@@ -10,7 +10,7 @@ The blog post ["DPR: an Open Source Repository Collecting Mighty Methods"](https
 * Prefer a practice collection over a closed, formal/full method(ology):
     * Roles are not formally defined, but represent stakeholder personas with information/specification/review needs
     * Be open and lean by design, so never finished (and delivered as a repo)
-* Practice [situational method engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review/link/0912f508a5a083e5bc000000/download) when creating new method elements (artifact description techniques, templates, and so on)
+* Practice [situational method engineering](https://www.researchgate.net/publication/220349352_Situational_Method_Engineering_State-of-the-Art_Review) when creating new method elements (artifact description techniques, templates, and so on)
 * We agree with Philippe Kruchten that ["we do not need richer software process models"](https://philippe.kruchten.com/2011/03/11/we-do-not-need-richer-software-process-models/) if rich means means heavy, detailed, complicated. Hence, our main focus is on the (hopefully light) artifacts templates for commonly used practices, and much less on activity flows and roles
 
 We follow a *PEACH* model (compare with the ["Keeling Five"](https://ozimmer.ch/practices/2020/10/14/DesignPracticeRepository.html) criteria for mighty methods): 
@@ -89,7 +89,7 @@ Here are some additional resources and references:
 General purpose:
 
 * The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level DDD. A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
-* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its younger "sibling" [OpenUP](https://en.wikipedia.org/wiki/OpenUP)
+* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its younger "sibling" OpenUP <!-- TODO (v1.2) find new link for OpenUP, https://en.wikipedia.org/wiki/OpenUP no longer there -->
 * Articles ["On Design"](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
 * [Methods and Tools](http://www.methodsandtools.com/) is an online "Software Development Magazine - Project Management, Programming, Software Testing".
 

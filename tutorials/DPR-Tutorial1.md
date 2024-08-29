@@ -189,7 +189,7 @@ and there is good contract language and tool support (OpenAPI, Swagger tools).
 
 The [API description](../artifact-templates/SDPR-APIDescription.md) that refines the output from Step 5 may look like this (notation: [Microservice Domain-Specific Language (MDSL)](https://microservice-api-patterns.github.io/MDSL-Specification/)):
 
-<!-- TODO (v2): show MAP decorators too? addGraphQL (why n files?); TODO (v1.2) recreate file after API name change -->
+<!-- TODO (v2): show MAP decorators too? addGraphQL (why n files?) -->
 ~~~
 API description OnlineShopBackend
 
@@ -231,10 +231,10 @@ endpoint type OrderBasket
 	  delivering
 		payload OrderItemId
 
-API provider OnlineShopFeaturesBackendProvider
-	offers BusinessToConsumerAggregateBackend
-	at endpoint location "http://..."
-		via protocol HTTP
+API provider OnlineShopBackendProvider
+	offers OrderBasket
+	offers ProductCatalog
+	offers Customer
 ~~~ 
 
 The [MDSL command line tools](https://github.com/Microservice-API-Patterns/MDSL-Specification/tree/master/dsl-core/io.mdsl.cli) can transform this technology-independent service contract into [OpenAPI](./contracts/DPR-Tutorial1Step6.yaml), [gRPC Protocol Buffers](./contracts/DPR-Tutorial1Step6.proto), and [Jolie](./contracts/DPR-Tutorial1Step6.ol). <!-- TODO GQL, WSDL/XSD, Java --> 

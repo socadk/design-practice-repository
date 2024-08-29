@@ -119,7 +119,7 @@ See ["A risk-based, value-oriented approach to quality requirements"](https://ww
 ### Hints and Pitfalls to Avoid
 
 * State assumptions if stakeholder input is incomplete or insufficient; have these assumptions reviewed and approved.
-* Define [landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) if single numbers are hard to come up with and agree upon. For instance, a triplet of "minimal", "target", and "outstanding" quality goals may define such landing zone.
+* Define [landing zones](http://wirfs-brock.com/blog/2011/07/29/agile-landing-zones/) if single numbers are hard to come up with and agree upon. For instance, a triplet of "minimal", "target", and "outstanding" quality goals may define such landing zone.
 * Be assertive in your [technical writing](https://ozimmer.ch/tags/#technical-writing); avoid filler words such as "in principle" , "generally", "more or less", etc. 
 * Make conflicts between NFRs explicit, prioritize, and find tradeoffs. For instance, balance security and performance requirements.
 * Do not hesitate to refine or relax NFRs as the system evolves and you learn more about actual user wants and needs and technical feasibility of runtime qualities.

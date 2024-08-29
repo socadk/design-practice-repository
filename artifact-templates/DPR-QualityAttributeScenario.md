@@ -40,7 +40,7 @@ The full template look as follows (with explanations). Note that the six rows in
 ![Annotated QAS Template](/artifact-templates/images/ZIO-QualityAttributeScenarioExplanations.png)
 
 See the [sample chapter of ADD 3.0 book](https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf) by Humberto Cervantes and Rick Kazman @Cervantes:2016 for the SEI visualization.
-<!-- TODO (v2) repaint and show graphical image from SEI books and reports (MK has them too), https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf bibtex this tutorial is good too: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536 (SATURN 2015) -->
+<!-- TODO (v2) repaint and show graphical image from SEI books and reports (MK has them too), https://ptgmedia.pearsoncmg.com/images/9780134390789/samplepages/9780134390789.pdf bibtex this tutorial is good too: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=436536 (SATURN 2015); add links to Q42 on arc42.org -->
 
 ### Example(s)
 <!-- Must be concrete, ideally give three ones, one for each verbosity/fidelity level basic, medium, full-->
@@ -90,9 +90,9 @@ Many artifacts require specific and measurable NFRs as input, including but not 
 
 Related concepts include: 
 
-* [Agile landing zones](https://wirfs-brock.com/blog/2011/07/20/introducing-landing-zones/) for NFRs 
+* [Agile landing zones](https://wirfs-brock.com/blog/2011/07/21/introducing-landing-zones/) for NFRs 
 * NFR checklists, for instance, regarding the SMARTness of the quality goals  
-* [Planguage](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/2926/Specifying-Quality-Requirements-With-Planguage.aspx), explained in detail in the article "Rich Requirement Specs: The use of Planguage to clarify requirements" @Gilb:2006. <!-- alternative links: http://www.syque.com/quality_tools/tools/Tools104.htm  and <https://www.gilb.com/blog/search?q=planguage> and <http://www.geocities.ws/g/i/gillani/SE%272%20Full%20Lectures/ASE%20-%20%20Planguage%20Quantifying%20Quality%20Requirements.pdf> -->
+* [Planguage](https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/2926/Specifying-Quality-Requirements-With-Planguage.aspx), explained in detail in the article "Rich Requirement Specs: The use of Planguage to clarify requirements" @Gilb:2006. <!-- alternative links: http://www.syque.com/quality_tools/tools/Tools104.htm  and <https://www.geocities.ws/g/i/gillani/SE%272%20Full%20Lectures/ASE%20-%20%20Planguage%20Quantifying%20Quality%20Requirements.pdf> -->
  
 The blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) covers NFRs.
 
