@@ -98,8 +98,6 @@ The first meaning of the term is not in focus here, but can be modeled as Entity
 * add discussion of role and imporance of domain events; talk about relation between E and VO, few and bidirectional rel. (?) 
 * Number figures and use numbers in text 
 
-ZIO4STX pls take over 
-
 STX4ZIO: I've added the three steps to the figure.
 
 -->

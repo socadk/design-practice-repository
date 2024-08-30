@@ -149,11 +149,14 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 * Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) covers parts of the Unified Process (UP) and, like UP, suggests the FURPS+ taxonomy for functional and non-functional requirements. 
 * The output of a [Story Splitting](DPR-StorySplitting.md) may provide the functional context of NFRs and sources/stimuli for QAS.
 
+<!-- TODO (v1.5) point at ESE and GGS here -->
 
 ### More Information 
 See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by Cesare Pautasso and Olaf Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.
 
-arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/), and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/). The Scaled Agile Framework (SAFe) also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/). 
+arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/), and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/). There also is an ["arc42 Quality Model"](https://quality.arc42.org/) now that collects and categorizes many examples.
+
+The Scaled Agile Framework (SAFe) also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/). 
 
 <!-- The presentation [Non-Functional Requirements --- How to Get Them in Shape](http://www.softwaresummit.com/2006/speakers/BerghJohnssonNFR.pdf) defines the acronym differently but sends similar messages as we do here. -->
 
@@ -163,7 +166,7 @@ arc42 recommends to have [top three to five QAs in Section 1 of architecture des
 ```yaml
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
-date: "01, 31, 2023"
-copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
+date: "08, 30, 2024"
+copyright: Olaf Zimmermann, 2020-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

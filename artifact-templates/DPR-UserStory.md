@@ -48,6 +48,8 @@ User stories typically are created and updated transiently in issue tracking sys
 
 The [Context Mapper](https://contextmapper.org/) DSL has first class support for an extended user story format. 
 
+<!-- TODO (v1.5) point at JEDi here -->
+
 
 ### Hints and Pitfalls to Avoid
 

@@ -12,7 +12,7 @@ We are happy to welcome new contributors who want to help improve our collection
     * There are templates for [artifact](DPR-ArtifactTemplate.md), [activity](DPR-ActivityTemplate.md), and [role](DPR-RoleTemplate.md) descriptions.
 * [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
 
-<!-- TODO (v2.1): Please review our contribution rules/code of conduct upfront. Thank you! -->
+<!-- TODO (v2): Please review our contribution rules/code of conduct upfront. Thank you! -->
 
 
 ## DPR Metadata 

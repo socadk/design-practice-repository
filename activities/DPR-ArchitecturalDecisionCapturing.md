@@ -113,7 +113,7 @@ Agile Modeling has the notion of [Architecture Envisioning](http://agilemodeling
 
 
 ### More Information 
-The ["Y-Statements"](https://medium.com/@docsoc/y-statements-10eb07b5a177) post on Medium <!-- and Slides 51 and 52 in [this presentation](https://resources.sei.cmu.edu/asset_files/Presentation/2012_017_001_31349.pdf) --> provides examples of good and bad justifications; for instance, "will look good on my CV" does not qualify as a sound decision rationale for a technology selection decision (although it is understandable to come up with such argument). <!-- emoji removed -->
+The blog post ["Architectural Decisions — The Making Of"](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) <!-- and Slides 51 and 52 in [this presentation](https://resources.sei.cmu.edu/asset_files/Presentation/2012_017_001_31349.pdf) --> provides examples of good and bad justifications; for instance, "will look good on my CV" does not qualify as a sound decision rationale for a technology selection decision (although it is understandable to come up with such argument). <!-- emoji removed -->
 
 <!--
 [This website](https://www.ifs.hsr.ch/index.php?id=13191&L=4) and [this paper](http://www.ifs.hsr.ch/fileadmin/user_upload/customers/ifs.hsr.ch/Home/projekte/ADMentor-WICSA2015ubmissionv11nc.pdf) provide an overview of selected existing templates for AD capturing and decision logging (both lean and full-fledged). 
@@ -123,7 +123,7 @@ The [adr organization at GitHub](https://adr.github.io/) compiles AD templates, 
 
 See this [SATURN 2013 BoF session report](https://web.archive.org/web/20210418172822/https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_47704.pdf) for a cost-benefit discussion and open research questions. 
 
-Finally, there is a proposal for ["A Definition of Done for Architectural Decision Making"](https://ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html). <!-- TODO AD DoR too  ->
+Finally, there is a proposal for ["A Definition of Done for Architectural Decision Making"](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) and ["A Definition of Ready for Architectural Decisions (ADs)"](https://medium.com/olzzio/a-definition-of-ready-for-architectural-decisions-ads-2814e399b09b).
 
 
 ### Data Provenance 
@@ -131,7 +131,7 @@ Finally, there is a proposal for ["A Definition of Done for Architectural Decisi
 ```yaml
 title: "Design Practice Repository (DPR): Architectural Decision Capturing"
 author: Olaf Zimmermann (ZIO)
-date: "01, 16, 2023"
-copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
+date: "08, 30, 2024"
+copyright: Olaf Zimmermann, 2020-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
