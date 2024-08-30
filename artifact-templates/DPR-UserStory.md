@@ -46,9 +46,7 @@ so that other researchers can find and cite the referenced paper easily,
 ### Tools
 User stories typically are created and updated transiently in issue tracking systems. They can also go to wiki pages, specification and documentation documents. 
 
-The [Context Mapper](https://contextmapper.org/) DSL has first class support for an extended user story format. 
-
-<!-- TODO (v1.5) point at JEDi here -->
+The [Context Mapper](https://contextmapper.org/) DSL has first class support for a role-feature-benefit user story format. Since Verison 6.12, Context Mapper also supports [story valuation](https://github.com/ethical-se/ese-practices/blob/main/practices/ESE-StoryValuation.md) and other forms of [stakeholder-value modelling](https://ethical-se.github.io/value-driven-analysis-and-design/practices/).
 
 
 ### Hints and Pitfalls to Avoid
