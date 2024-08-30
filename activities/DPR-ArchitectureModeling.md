@@ -91,7 +91,7 @@ A variation of the "if in doubt leave it out" rule for DPR method adoption appli
 * Do not model just because; choose a set of diagrams and notation consciously, reflecting on the project and company culture as well as team capabilities and preferences. 
 * But do not skip modeling just because working software is valued more than comprehensive documentation; see above for motivation and (light, lean) instructions.
 * All diagrams should disclose the notation used as well as their target audience and purpose (i.e., satisfied information needs). If a non-standard notation is used, a legend should be provided. Consider complementing your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows). 
-* A [checklist for architecture diagram reviews](https://c4model.com/review/) can be found on the C4 website.
+* Do not forget to review. A [checklist for architecture diagram reviews](https://c4model.com/review/) can be found on the C4 website. <!-- TODO (v1.6) <https://medium.com/olzzio/questions-to-ask-when-migrating-to-the-cloud-dcbf7c5febdf> -->
 
 
 ### Origins and Signs of Use
@@ -130,7 +130,7 @@ Its output is documented in one or more instances of [Context Diagram](../artifa
 ```yaml
 title: "Design Practice Repository (DPR): Architecture Modeling"
 author: Olaf Zimmermann (ZIO)
-date: "01, 27, 2023"
-copyright: Copyright 2020-2023 Olaf Zimmermann. All rights reserved.
+date: "08, 30, 2024"
+copyright: Copyright 2020-2024 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
