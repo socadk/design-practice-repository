@@ -77,8 +77,8 @@ Fowler, Martin. 2002. <em>Patterns of Enterprise Application Architecture</em>. 
 Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. 1995. <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc.
 </p>
 <p id="ref-Gilb:2006" class="csl-entry" role="doc-biblioentry">
-Gilb, Tom. 2006. <span>“Rich Requirement Specs: The Use of Planguage to Clarify Requirements.”</span> <a href="http://concepts.gilb.com/dl44">http://concepts.gilb.com/dl44</a>.
-</p>
+Gilb, Tom. 2006. <span>“Rich Requirement Specs: The Use of Planguage to Clarify Requirements.”</span> <!-- <a href="http://concepts.gilb.com/dl44">http://concepts.gilb.com/dl44</a>. -->
+</p> 
 <p id="ref-Jacobson:1999" class="csl-entry" role="doc-biblioentry">
 Jacobson, Ivar, Grady Booch, and James Rumbaugh. 1999. <em>The Unified Software Development Process</em>. Reading, Mass.: Addison-Wesley. <a href="http://www.amazon.com/gp/product/0201571692/">http://www.amazon.com/gp/product/0201571692/</a>.
 </p>

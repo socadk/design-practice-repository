@@ -73,7 +73,7 @@ Common choices include:
 
 * Do not confuse logical and physical model elements; this diagram shows the logical structure. The interactions between the components in selected usage scenarios should be specified as well (for instance, representative cases or particularly challenging design hot spots such as peak load processing and error handling). 
 * Decide for a leading decomposition type, for instance, functional/domain-driven versus technical. Apply decomposition criteria and strategies such as those in [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria) to identify candidate components.   
-* Do not create a single component for each and every class (in object-oriented programs), but group classes to achieve cohesion, which makes the design change-friendly. <!-- TODO (v2) refer to integrators and disintegrators in "Software Architecture: The Hard Parts" -->
+* Do not create a single component for each and every class (in object-oriented programs), but group classes to achieve cohesion, which makes the design change-friendly. <!-- TODO (v2) (H) refer to integrators and disintegrators in "Software Architecture: The Hard Parts" -->
 * Measure coupling and cohesion as the design and its implementation evolve. Consider architectural and interface [refactoring](https://interface-refactoring.github.io/) to improve the design as desired qualities and their priorities come and go. 
 * Do not assume all components have to be implemented; buying products and renting cloud services are valid options as well.
 
@@ -81,7 +81,7 @@ Common choices include:
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
 
-Component models and diagrams arguably are as old as the software architecture field (or even older), appearing under various names. <!-- TODO (v2) could add "We find instances of them in classic papers by Fred Brooks and David Parnas." (fact check required) -->
+Component models and diagrams arguably are as old as the software architecture field (or even older), appearing under various names. <!-- TODO (v2) (M) could add "We find instances of them in classic papers by Fred Brooks and David Parnas." (fact check required) -->
 
 The Component Diagram is one of the four Cs in C4. <!-- Context is featured in a separate template. Containers correspond to architecture overviews. We will not cover classes here. -->
 
@@ -106,7 +106,7 @@ Artifacts:
 
 ### More Information
 
-* Philippe Kruchten introduces the 4+1 model in ["The 4+1 View Model of Architecture"](https://www.researchgate.net/publication/220018231_The_41_View_Model_of_Architecture/link/0046351a4dc4f9da04000000/download).<!-- also feature Rozanski/Woods? -->
+* Philippe Kruchten introduces the 4+1 model in ["The 4+1 View Model of Architecture"](https://www.researchgate.net/publication/220018231_The_41_View_Model_of_Architecture).<!-- also feature Rozanski/Woods? -->
 * Sparx Systems provides a [UML Tutorial](https://sparxsystems.com/resources/tutorials/uml/use-case-model.html).
 * C4 has a [Wikipedia](https://en.wikipedia.org/wiki/C4_model) page.
 * arc42 includes a [building block view](https://docs.arc42.org/section-5/) and a [runtime view](https://docs.arc42.org/section-6/).

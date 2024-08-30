@@ -119,7 +119,7 @@ See ["A risk-based, value-oriented approach to quality requirements"](https://ww
 ### Hints and Pitfalls to Avoid
 
 * State assumptions if stakeholder input is incomplete or insufficient; have these assumptions reviewed and approved.
-* Define [landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) if single numbers are hard to come up with and agree upon. For instance, a triplet of "minimal", "target", and "outstanding" quality goals may define such landing zone.
+* Define [landing zones](http://wirfs-brock.com/blog/2011/07/29/agile-landing-zones/) if single numbers are hard to come up with and agree upon. For instance, a triplet of "minimal", "target", and "outstanding" quality goals may define such landing zone.
 * Be assertive in your [technical writing](https://ozimmer.ch/tags/#technical-writing); avoid filler words such as "in principle" , "generally", "more or less", etc. 
 * Make conflicts between NFRs explicit, prioritize, and find tradeoffs. For instance, balance security and performance requirements.
 * Do not hesitate to refine or relax NFRs as the system evolves and you learn more about actual user wants and needs and technical feasibility of runtime qualities.
@@ -148,12 +148,15 @@ Numbers usually indicate that the 'M' property has been strived for; explicit me
 * [Quality Storming](https://speakerdeck.com/mploed/quality-storming), described by by Michael Ploed.
 * Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) covers parts of the Unified Process (UP) and, like UP, suggests the FURPS+ taxonomy for functional and non-functional requirements. 
 * The output of a [Story Splitting](DPR-StorySplitting.md) may provide the functional context of NFRs and sources/stimuli for QAS.
+* Ethical values, including environmental sustainability, form a type of NFRs that should not be forgotten but treated with the same rigor as business requirements, user wants and needs, and technical quality attributes. The [Growing Green Software](https://medium.com/growing-green-software) blog, the [Ethical Software Engineering (ESE)](https://github.com/ethical-se/ese-practices)repository, and the [Value-Driven Analysis and Design](https://ethical-se.github.io/value-driven-analysis-and-design/) process and practices investigate these topic areas to raise awareness, stimulate discussions, and provide informal guidance. 
 
 
 ### More Information 
 See blog post ["Do Software Architectures Meet Extra-Functional or Non-Functional Requirements?"](https://ozimmer.ch/practices/2020/11/19/ExtraExtraReadAllboutIt.html) by Cesare Pautasso and Olaf Zimmermann for a deeper (only half-serious) terminology discussion, examples, and pointers to related taxonomies and templates.
 
-arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/), and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/). The Scaled Agile Framework (SAFe) also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/). 
+arc42 recommends to have [top three to five QAs in Section 1 of architecture descriptions](http://docs.arc42.org/section-1/), suggests a [Section 2 dealing with constraints](http://docs.arc42.org/section-2/), and puts the detailed quality requirements section towards the end in [Section 10](http://docs.arc42.org/section-10/). There also is an ["arc42 Quality Model"](https://quality.arc42.org/) now that collects and categorizes many examples.
+
+The Scaled Agile Framework (SAFe) also covers [NFRs](https://www.scaledagileframework.com/nonfunctional-requirements/). 
 
 <!-- The presentation [Non-Functional Requirements --- How to Get Them in Shape](http://www.softwaresummit.com/2006/speakers/BerghJohnssonNFR.pdf) defines the acronym differently but sends similar messages as we do here. -->
 
@@ -163,7 +166,7 @@ arc42 recommends to have [top three to five QAs in Section 1 of architecture des
 ```yaml
 title: "Design Practice Repository (DPR): SMART NFR Elicitation"
 author: Olaf Zimmermann (ZIO)
-date: "01, 31, 2023"
-copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
+date: "08, 30, 2024"
+copyright: Olaf Zimmermann, 2020-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

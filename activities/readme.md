@@ -43,7 +43,7 @@ Particularly relevant for service/API design are:
     * User Story-Based Iteration Planning, Story Mapping and [Story Splitting](DPR-StorySplitting.md) 
     * [Use Case](../artifact-templates/DPR-UseCase.md) Modeling (full vs. brief)
     * [SMART Non-Functional Requirement (NFR) Elicitation](DPR-SMART-NFR-Elicitation.md), including value-, risk-, and cost-based prioritization of NFRs, proposed in an article by Martin Glinz ([PDF](https://www.researchgate.net/publication/3249473_A_Risk-Based_Value-Oriented_Approach_to_Quality_Requirements)); very much in line with George Fairbank's advice on [Just Enough Software Architecture](https://www.georgefairbanks.com/book/). [Quality storming](https://speakerdeck.com/mploed/quality-storming) has been proposed by Michael Ploed more recently. 
-    * Specification of [Agile landing zones](http://wirfs-brock.com/blog/2011/07/28/agile-landing-zones/) (Rebecca Wirfs-Brock) 
+    * Specification of [Agile landing zones](http://wirfs-brock.com/blog/2011/07/29/agile-landing-zones/) (Rebecca Wirfs-Brock) 
 <!--
     * Quality story telling (two flavours: extended user story, standalone)
     * PLANGUAGE, Sophisten templates) 

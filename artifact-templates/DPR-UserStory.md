@@ -46,7 +46,7 @@ so that other researchers can find and cite the referenced paper easily,
 ### Tools
 User stories typically are created and updated transiently in issue tracking systems. They can also go to wiki pages, specification and documentation documents. 
 
-The [Context Mapper](https://contextmapper.org/) DSL has first class support for an extended user story format. 
+The [Context Mapper](https://contextmapper.org/) DSL has first class support for a role-feature-benefit user story format. Since Version 6.12, Context Mapper also supports ethical [Story Valuation](https://github.com/ethical-se/ese-practices/blob/main/practices/ESE-StoryValuation.md) and other forms of stakeholder-value modelling, as suggested in [Value-Driven Analysis and Design](https://ethical-se.github.io/value-driven-analysis-and-design/practices/).
 
 
 ### Hints and Pitfalls to Avoid
@@ -80,12 +80,14 @@ Mike Cohn's book "User Stories Applied" is a seminal reference (@Cohn:2004).
 
 Many experience reports at Agile conferences deal with user stories; see [this collection](https://www.agilealliance.org/?s=user+story), for instance.
 
+["How to Write High-Quality User Story"](https://medium.com/beyond-agile-leadership/how-to-write-high-quality-user-story-87cbc58c12c6) on Medium covers stories in context comprehensively.
+
 ### Data Provenance 
 
 ```yaml
 title: "Design Practice Repository (DPR): User Stories"
 author: Olaf Zimmermann (ZIO)
-date: "03, 30, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "08, 30, 2024"
+copyright: Olaf Zimmermann, 2020-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
