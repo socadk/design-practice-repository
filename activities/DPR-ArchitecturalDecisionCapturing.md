@@ -74,6 +74,11 @@ From a quality point view, look for accountability (of decision makers), consist
 
 See InfoQ/IEEE Software article ["Sustainable Architectural Design Decisions"](https://www.infoq.com/articles/sustainable-architectural-design-decisions) for more tips and tricks.
 
+<!-- More advice: 
+* <https://medium.com/olzzio/how-to-create-architectural-decision-records-adrs-and-how-not-to-93b5b4b33080>
+* <https://medium.com/olzzio/how-to-review-architectural-decision-records-adrs-and-how-not-to-2707652db196>
+* <https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb>
+-->
 
 ### Origins and Signs of Use
 *Origins*. AD capturing has been a key element in iterative and incremental SE methods such as (R)UP and IBM UMF (and its predecessors) since the late 1990s. For instance, OpenUP has the notion of an *Architecture Notebook* that calls for decision capturing with a justification as a mandatory element even in minimal project  documentation. The term *rationale* also appears in one of the first articles that defined software architecture (by Perry/Woolf). Book authors have always seen decisions to take center stage in architecture design process; see, for instance, works by SEI authors including Attribute-Driven Design (ADD) 3.0, but also patterns books and supporting material such as [this rambling](http://www.enterpriseintegrationpatterns.com/ramblings/86_isthisarchitecture.html) on the Enterprise Integration Patterns website. George Fairbanks suggests a single-sentence decision outcome overview as part of his *Architecture Haiku*, also used by Michael Keeling [here](https://www.neverletdown.net/2015/03/architecture-haiku.html).
@@ -123,7 +128,7 @@ The [adr organization at GitHub](https://adr.github.io/) compiles AD templates, 
 
 See this [SATURN 2013 BoF session report](https://web.archive.org/web/20210418172822/https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_47704.pdf) for a cost-benefit discussion and open research questions. 
 
-Finally, there is a proposal for ["A Definition of Done for Architectural Decision Making"](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) and ["A Definition of Ready for Architectural Decisions (ADs)"](https://medium.com/olzzio/a-definition-of-ready-for-architectural-decisions-ads-2814e399b09b).
+Finally, there are proposals for ["A Definition of Done for Architectural Decision Making"](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) and ["A Definition of Ready for Architectural Decisions (ADs)"](https://medium.com/olzzio/a-definition-of-ready-for-architectural-decisions-ads-2814e399b09b).
 
 
 ### Data Provenance 

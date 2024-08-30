@@ -56,7 +56,7 @@ Requirements management tools provide additional tooling options.
 * Define the desired behavior in different environments such as steady state, high workload, and error cases. Create multiple QAS instances as/if needed.
 * Do not let the scope of this analysis artifact creep, for instance, by morphing it into a design document. The response measure is an observable quality, not a means to achieve this quality.
 
-<!-- TODO could talk about design time vs. runtime; what are measures for design time qualities such as maintainability? could talk about quality trees for prioritization, risk-based approach by M.Glinz -->
+<!-- TODO could talk about design time vs. runtime; what are measures for design time qualities such as maintainability? could talk about quality trees for prioritization, risk-based approach by M. Glinz -->
 
 
 ### Origins and Signs of Use

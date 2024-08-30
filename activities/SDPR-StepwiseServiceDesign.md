@@ -202,11 +202,12 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 
 <!-- TODO (v2) (H) extend More Information section 
 
-* More on PfAD MAP book, more from JH (second paragraph)
+* More on PfAD MAP book (#apidpotw series), more from JH (second paragraph)
 * (tbd) The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices".
 * CAPs https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ 
 * (tbd) https://www.infoq.com/articles/api-first-integration/ 
-* IRC
+* IRC update
+* <https://medium.com/nerd-for-tech/a-checklist-for-api-design-reviews-5f7db45b0cb3>
   
 -->
 
