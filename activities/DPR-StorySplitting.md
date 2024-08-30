@@ -89,28 +89,23 @@ The workflow steps and the business rules call for components in the business lo
 
 
 ### Benefits vs. Effort (Expected Benefits, Skill Levels)
-<!-- From AA, should call out what one needs to be able to do on beginner, intermediate, advanced level; as a team -->
 Story splitting is a very light technique. A single application of it (one pattern applied to one story) will only take a few moments. It does not require any particular, specialized skills; its positive effects should become apparent immediately: more actionable backlog items, more expressive, problem- and/or domain-specific architecture models ([Component Diagrams](../artifact-templates/DPR-ComponentDiagram.md) in particular).
 
 A very welcome effect of story splitting is that it often leads to new questions to the domain experts and sparks interesting conversations with them (for instance, about workflow steps and data variations). Hence, the [Domain Model](../artifact-templates/DPR-DomainModel.md) is likely to be updated as well.
 
 
 ### Hints and Pitfalls to Avoid
-<!-- See ART, don’t overdo etc. -->
 One should not get carried away by dreaming up data entry and data variations, business rules nobody has asked for, and so on.
 
 
 ### Origins and Signs of Use
-<!-- From PLOPs and from AA -->
 The Wayback Machine (a.k.a. Internet Archive) keeps early posts about story splitting [here](https://web.archive.org/web/20120909082905/http://lassekoskela.com/thoughts/7/ways-to-split-user-stories/) and [here](https://web.archive.org/web/20120716060616/http://jbrains.ca/permalink/how-youll-probably-learn-to-split-features).
 
 Signs of use are difficult to call out for this activity. Backlog size and structure might indicate use.
-<!-- TODO (v2) How about CI/CM? -->
+<!-- TODO (v2) How about CI/CM? "Architecture and design methods providing technical partitioning advice, such as Component Identification and Component Modeling, promote overlapping approaches." -->
 
 
 ### Related Content
-<!-- in DPR/OLAF and elsewhere -->
-
 <!-- TODO (v2) [O] discuss "use case splitting": patterns applicable to (brief) stories too, full scenarios can be seen as application/variant of the workflow splitting pattern; UML relations -->
 
 #### Performing Roles and Related Artifacts (Synopsis)
@@ -136,7 +131,6 @@ Story splitting is complemented by [SMART NFR Elicitation](DPR-SMART-NFR-Elicita
 
 
 ### More Information 
-<!-- Further Reading, Academic Publications) -->
 The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) has an entry for [Story Splitting](https://www.agilealliance.org/glossary/story-splitting/).
 
 Agile for All provides a [Cheat Sheet](https://agileforall.com/wp-content/uploads/2009/10/Story-Splitting-Cheat-Sheet.pdf) that summarizes the patterns. 

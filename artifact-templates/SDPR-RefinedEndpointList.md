@@ -94,7 +94,7 @@ This example of a REL continues and details the example given in the [Candidate 
 
 Note that one could use a structure that deviates from the template. This is ok according to our second rule of method adoption: "do not follow templates blindly, but adopt them to your needs".
 
-<!-- TODO Decision making examples missing here, see activity and tutorial 1 (?) -->
+<!-- TODO (v2) decision making examples missing here, see activity and tutorial 1 (?) -->
 
 ### Tools
 
