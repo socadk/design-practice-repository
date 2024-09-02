@@ -60,7 +60,7 @@ To be able to serve their purpose, CRC cards should be expressive but also easy 
 * Names should communicate what application/architecture are about.
     * [Metaphors](https://www.agilealliance.org/resources/videos/making-metaphors-that-matter/) can make cards expressive and easy to remember, but must be chosen wisely. How will key stakeholders react to them? For instance, sports analogies might not work equally well in all geographies. <!-- e.g., baseball, cricket, handball -->
     * Prefer strong semantics and domain-specific vocabulary, for instance "Web Shop" over "Client".
-    * A common naming scheme is `domain concept + architectural role/pattern`.
+    * A common naming scheme is: 'domain concept + architectural role/pattern'.
 * Value consistency (no contradictions) over completeness.
     * Good component descriptions should be SMART (like goals and NFRs).
     * Each outgoing collaboration relationship should correspond to an incoming one elsewhere and vice versa (a service consumer needs a provider). Look for it in other CRC cards (or the API contracts of systems in the context of the one under construction).
