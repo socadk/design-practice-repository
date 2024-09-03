@@ -129,9 +129,9 @@ The blog post ["Architectural Decisions — The Making Of"](https://ozimmer.ch/p
 
 The [adr organization at GitHub](https://adr.github.io/) compiles AD templates, as well as tools and other resources. It also hosts the MADR project. The MADR template is explained in detail in [this blog post](https://medium.com/@docsoc/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb).
 
-See this [SATURN 2013 BoF session report](https://web.archive.org/web/20210418172822/https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_47704.pdf) for a cost-benefit discussion and open research questions. 
+<!-- See this [SATURN 2013 BoF session report](https://web.archive.org/web/20210418172822/https://resources.sei.cmu.edu/asset_files/Presentation/2013_017_001_47704.pdf) for a cost-benefit discussion and open research questions. -->
 
-Finally, there are proposals for ["A Definition of Done for Architectural Decision Making"](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) and ["A Definition of Ready for Architectural Decisions (ADs)"](https://medium.com/olzzio/a-definition-of-ready-for-architectural-decisions-ads-2814e399b09b).
+There are proposals for ["A Definition of Done for Architectural Decision Making"](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) and ["A Definition of Ready for Architectural Decisions (ADs)"](https://medium.com/olzzio/a-definition-of-ready-for-architectural-decisions-ads-2814e399b09b).
 
 
 ### Data Provenance 
@@ -139,7 +139,7 @@ Finally, there are proposals for ["A Definition of Done for Architectural Decisi
 ```yaml
 title: "Design Practice Repository (DPR): Architectural Decision Capturing"
 author: Olaf Zimmermann (ZIO)
-date: "08, 30, 2024"
+date: "09, 02, 2024"
 copyright: Olaf Zimmermann, 2020-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
