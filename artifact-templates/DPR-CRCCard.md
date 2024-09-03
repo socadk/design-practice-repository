@@ -58,19 +58,24 @@ Team [wikis](https://en.wikipedia.org/wiki/Wiki) or [Markdown tables](https://ww
 
 ### Hints and Pitfalls to Avoid
 
-To be able to serve their purpose, CRC cards should be expressive but also easy to understand:
+To be able to serve their purpose, CRC cards should be expressive but also easy to understand.
+Names should communicate what application/architecture are about:
 
-* Names should communicate what application/architecture are about.
-    * [Metaphors](https://www.agilealliance.org/resources/videos/making-metaphors-that-matter/) can make cards expressive and easy to remember, but must be chosen wisely. How will key stakeholders react to them? For instance, sports analogies might not work equally well in all geographies. <!-- e.g., baseball, cricket, handball -->
-    * Prefer strong semantics and domain-specific vocabulary, for instance "Web Shop" over "Client".
-    * A common naming scheme is `domain concept + architectural role/pattern`.
-* Value consistency (no contradictions) over completeness.
-    * Good component descriptions should be SMART (like goals and NFRs).
-    * Each outgoing collaboration relationship should correspond to an incoming one elsewhere and vice versa (a service consumer needs a provider). Look for it in other CRC cards (or the API contracts of systems in the context of the one under construction).
-    * Sunny day (happy path scenarios) and rainy days (error and edge cases) should be taken into account when assigning responsibilities.
-* Model on same level of detail on all cards and find a medium ground.
-    * Too precise specifications are hard to implement and change.
-    * Too vague ones do not add value, implementations are hard to integrate, and the resulting architecture is difficult to validate.
+* [Metaphors](https://www.agilealliance.org/resources/videos/making-metaphors-that-matter/) can make cards expressive and easy to remember, but must be chosen wisely. How will key stakeholders react to them? For instance, sports analogies might not work equally well in all geographies. <!-- e.g., baseball, cricket, handball -->
+* Prefer strong semantics and domain-specific vocabulary, for instance "Web Shop" over "Client".
+* A common naming scheme is: 'domain concept + architectural role/pattern'.
+
+One should value consistency (no contradictions) over completeness.
+
+* Good component descriptions should be SMART (like goals and NFRs).
+* Each outgoing collaboration relationship should correspond to an incoming one elsewhere and vice versa (a service consumer needs a provider). Look for it in other CRC cards (or the API contracts of systems in the context of the one under construction).
+
+Sunny day (happy path scenarios) and rainy days (error and edge cases) should be taken into account when assigning responsibilities.
+
+One should model on same level of detail on all cards and find a medium ground.
+
+* Too precise specifications are hard to implement and change.
+* Too vague ones do not add value, implementations are hard to integrate, and the resulting architecture is difficult to validate.
 
 Very busy cards might indicate violations of the single responsibility principle; a large number of nested collaboration chains might indicate an undesired amount of coupling.
 
@@ -104,8 +109,8 @@ RDD and many other methods are compiled and commented on in ["Driven by Acronyms
 ```yaml
 title: "Design Practice Repository (DPR): CRC Card"
 author: Olaf Zimmermann (ZIO)
-date: "01, 31, 2023"
-copyright: Olaf Zimmermann, 2020-2023 (unless noted otherwise). All rights reserved.
+date: "09, 02, 2024"
+copyright: Olaf Zimmermann, 2020-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 
