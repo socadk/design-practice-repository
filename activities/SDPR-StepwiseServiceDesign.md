@@ -56,7 +56,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 
 3. *Split applications into frontends and backends*, again applying [Strategic DDD](DPR-StrategicDDD.md). 
     * Use patterns for distributed computing while doing so (@Buschmann:2007, @RenzelKeller:1997).     
-    * Apply recognized system decomposition techniques, considering coupling criteria, during this step. The method promoted by [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria), for instance, is based on a catalog of such criteria. Context Mapper integrated this approach, see ["Context Map Suggestions with Service Cutter"](https://contextmapper.org/docs/service-cutter-context-map-suggestions/). <!-- TODO (v2) Integrators and Disintegrators from "The Hard Parts", "Clean Architecture" component principles -->
+    * Apply recognized system decomposition techniques, considering coupling criteria, during this step. The method promoted by [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria), for instance, is based on a catalog of such criteria. Context Mapper integrated this approach, see ["Context Map Suggestions with Service Cutter"](https://contextmapper.org/docs/service-cutter-context-map-suggestions/). <!-- TODO (v2) (M) Integrators and Disintegrators from "The Hard Parts", "Clean Architecture" component principles -->
     * While designing, capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made and [model](DPR-ArchitectureModeling.md) the resulting architecture.
 
 4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API endpoints and their roles. 
@@ -197,17 +197,17 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Arnaud Lauret, "The Design of Web APIs" (@Lauret:2019).
 * Presentations, [blog posts](http://amundsen.com/blog/), and books by Mike Amundsen (@Amundsen:2020).
 * Blog posts such as ["Moving to API design-first in an Agile world"](https://tyk.io/moving-api-design-first-agile-world/), ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/), and ["Techniques For Designing Your API and Microservices"](https://tyk.io/api-design-methodologies/) <!-- TODO more link(s) --> by James Higginbotham. 
+* Matthias Biel's [API University](https://api-university.com/).
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
+* Our "Patterns for API Design" are technology-neutral, with many known uses coming from public and private Web APIs (@PatternsForAPIDesign:2022). There is an accompanying ["Checklist for API Design Review"](https://medium.com/nerd-for-tech/a-checklist-for-api-design-reviews-5f7db45b0cb3).
 
-<!-- TODO (v2) (H) extend More Information section 
+<!-- TODO (v2) (M) extend More Information section 
 
 * More on PfAD MAP book (#apidpotw series), more from JH (second paragraph)
-* (tbd) The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices".
 * CAPs https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ 
 * (tbd) https://www.infoq.com/articles/api-first-integration/ 
 * IRC update
-* <https://medium.com/nerd-for-tech/a-checklist-for-api-design-reviews-5f7db45b0cb3>
   
 -->
 

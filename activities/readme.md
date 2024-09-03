@@ -132,7 +132,7 @@ More specific information, also about other tools, can be found on the individua
 title: "Design Practice Repository (DPR): Activities (Practices, Techniques) Overview"
 author: Olaf Zimmermann (ZIO)
 date: "03, 17, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+copyright: Olaf Zimmermann, 2020-2024 (unless noted otherwise). All rights reserved.
 ```
 
 ### License

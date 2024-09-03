@@ -89,7 +89,7 @@ Here are some additional resources and references:
 General purpose:
 
 * The [DDD crew](https://github.com/ddd-crew/) repositories and templates for business-level DDD. A great place to start is [Domain-Driven Design Starter Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process) 
-* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its younger "sibling" OpenUP <!-- TODO (v1.2) find new link for OpenUP, https://en.wikipedia.org/wiki/OpenUP no longer there -->
+* [Rational Unified Process (RUP)](https://en.wikipedia.org/wiki/Rational_Unified_Process) and its younger "sibling" OpenUP 
 * Articles ["On Design"](http://www.wirfs-brock.com/Resources.html) by Rebecca Wirfs-Brock
 * [Methods and Tools](http://www.methodsandtools.com/) is an online "Software Development Magazine - Project Management, Programming, Software Testing".
 
