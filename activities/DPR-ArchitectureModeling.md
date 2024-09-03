@@ -88,7 +88,7 @@ A variation of the "if in doubt leave it out" rule for DPR method adoption appli
 * Do not model just because; choose a set of diagrams and notation consciously, reflecting on the project and company culture as well as team capabilities and preferences. 
 * But do not skip modeling just because working software is valued more than comprehensive documentation; see above for motivation and (light, lean) instructions.
 * All diagrams should disclose the notation used as well as their target audience and purpose (i.e., satisfied information needs). If a non-standard notation is used, a legend should be provided. Consider complementing your diagrams with supplemental information; for instance, talk the reader through each figure (i.e., explain all boxes and arrows). 
-* Do not forget to review. A [checklist for architecture diagram reviews](https://c4model.com/review/) can be found on the C4 website. The Medium story ["Questions to Ask when Migrating to the Cloud"](https://medium.com/olzzio/questions-to-ask-when-migrating-to-the-cloud-dcbf7c5febdf) collected 18 review questions, many of which also are eligible when not operating in the cloud.
+* Do not forget to review. A [checklist for architecture diagram reviews](https://c4model.com/review/) can be found on the C4 website. The Medium story ["Questions to Ask when Migrating to the Cloud"](https://medium.com/olzzio/questions-to-ask-when-migrating-to-the-cloud-dcbf7c5febdf) collects 18 review questions, many of which also are eligible when not operating in the cloud.
 
 
 ### Origins and Signs of Use

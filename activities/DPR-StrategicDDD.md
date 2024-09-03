@@ -135,7 +135,7 @@ Refer to presentations, articles, and books by:
 
 An ["Introduction to Strategic DDD"](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design) is available on the Vaadin website.
 
-Articles about Context Mapper and its interpretation of the DDD patterns can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/), including "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020:CM1) and "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020:CM2). Experience with the tool on projects is shared in twos blog posts "Domain-Driven Design in Practice — Experience with Context Mapper" ([here](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [here](https://blog.mimacom.com/ddd-and-context-mapper-experience/)).
+Articles about Context Mapper and its interpretation of the DDD patterns can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/), including "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020:CM1) and "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020:CM2). Experience with the tool on projects is shared in two blog posts "Domain-Driven Design in Practice — Experience with Context Mapper" ([here](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [here](https://blog.mimacom.com/ddd-and-context-mapper-experience/)).
 
 ### Data Provenance 
 
