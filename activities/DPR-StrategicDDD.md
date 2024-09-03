@@ -131,7 +131,7 @@ Refer to presentations, articles, and books by:
 * Scott Millet, for instance ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/anatomy-of-DDD) on LeanPub 
 * Michael Ploed, for instance ["Visualizing Sociotechnical Architectures with Context Maps"](https://speakerdeck.com/mploed/visualizing-sociotechnical-architectures-with-context-maps?slide=4)
 * Vaughn Vernon, for instance his [YouTube channel](https://www.youtube.com/channel/UCdbDxsXevDLt7EhRbi2KGjg)
-* [Hennning Schwentner](https://hschwentner.io/) and his colleagues at Workplace Solutions. <!-- TODO (v1.6) suggestion: "Model Pollution" talk, feat. "Hamburger Architecture": <https://speakerdeck.com/hschwentner/model-pollution> -->
+* [Hennning Schwentner](https://hschwentner.io/) and his colleagues at Workplace Solutions <!-- TODO (v1.6) suggestion: "Model Pollution" talk, feat. "Hamburger Architecture": <https://speakerdeck.com/hschwentner/model-pollution> -->
 
 An ["Introduction to Strategic DDD"](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design) is available on the Vaadin website.
 
