@@ -103,7 +103,7 @@ DPR applies a best-of-breed approach. Our metamodel adopts parts of Chapter 2 fr
 
 This terminology maps to that of other method engineers like this<!-- TODO (v2): review terms again; RUP: https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf -->:
 
-| This repository | Agile community ([glossary](https://www.agilealliance.org/agile101/agile-glossary/))| OMG SPEM 2.0 ([PDF](https://www.omg.org/spec/SPEM/2.0/PDF)) | [Open Unified Process (UP)](https://download.eclipse.org/technology/epf/OpenUP/published/openup_published_1.5.1.5_20121212/openup/index.htm) and other methods |
+| This repository | Agile community ([glossary](https://www.agilealliance.org/agile101/agile-glossary/))| OMG SPEM 2.0 ([PDF](https://www.omg.org/spec/SPEM/2.0/PDF)) | Open Unified Process (UP) and other UP variants |
 |-|-|-|-|
 | [Role](./roles) | Persona, team member | Role | Worker, stakeholder |
 | [Activity](activities) (with steps) | n/a (not plan-driven, backlog item types come close)  | Task (with steps) | RUP: activity, OpenUP: task |
