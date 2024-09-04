@@ -12,7 +12,7 @@ Artifact/Template: *Overview Diagram*
 <!--Alternate names or candidate names) can be listed as "Also known as " here.-->
 also known as: Architecture Overview Diagram, Container Diagram <!-- "The Important Stuff View" -->
 
-> *A container/overview diagram provides an overview of logical and physical building blocks that are refined in other types of diagrams. Unlike the context diagram, it looks inside a system, picking up all external interfaces (with human users, with other systems).*
+> *A container/overview diagram provides an architecture overview of logical and physical building blocks that are refined in other types of diagrams. Unlike a context diagram, it looks inside a system, picking up all external interfaces (with human users, with other systems).*
 
 ### Motivation (Addressed Information Need) 
 <!--Purpose -->
