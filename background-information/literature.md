@@ -73,6 +73,9 @@ Fairbanks, George. 2010. <em>Just Enough Software Architecture: A Risk-Driven Ap
 <p id="ref-Fehling:2014" class="csl-entry" role="listitem">
 Fehling, Christoph, Frank Leymann, Ralph Retter, Walter Schupeck, and Peter Arbitter. 2014. <em>Cloud Computing Patterns: Fundamentals to Design, Build, and Manage Cloud Applications</em>. Springer Publishing Company, Incorporated.
 </p>
+<p id="ref-Ford:2021" class="csl-entry" role="listitem">
+Ford, Neil, Mark Richards, Pramod Sadalage, and Zhamak Dehghani. 2021. <em>Software Architecture: The Hard Parts</em>. O’Reilly Media, Inc.
+</p>
 <p id="ref-Fowler:2002" class="csl-entry" role="listitem">
 Fowler, Martin. 2002. <em>Patterns of Enterprise Application Architecture</em>. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc.
 </p>
@@ -154,6 +157,7 @@ Zimmermann, Olaf, Mirko Stocker, Daniel Lübke, Uwe Zdun, and Cesare Pautasso. 2
 <p id="ref-Zimmermann:2003" class="csl-entry" role="listitem">
 Zimmermann, Olaf, Mark Tomlinson, and Stefan Peuser. 2003. <em>Perspectives on Web Services: Applying SOAP, WSDL and UDDI to Real-World Projects</em>. Springer Science &amp; Business Media.
 </p>
+
 
 <!-- keep/update the metadata below when updating the page: -->
 
