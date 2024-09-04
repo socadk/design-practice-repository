@@ -73,7 +73,7 @@ Strategic DDD identifies Bounded Contexts and then answers these questions to en
 Note that the relationship patterns do not exclude, but complement each other by default. [Context Mapper](https://contextmapper.org/docs/bounded-context/) is a tool that can help doing so; it features DDD patterns and enforces additional semantic validation rules that clarify which relationships and pattern combinations make sense. 
 
 <!-- explain FAST and link to Context Mapper paper -->
-The FAST taxonomy introduced in @Kapferer:2020:CM1 proposes a classification of Bounded Contexts into *Feature*, *Application*, *System*, and *Team* contexts.
+The FAST taxonomy introduced in @Kapferer:2020a proposes a classification of Bounded Contexts into *Feature*, *Application*, *System*, and *Team* contexts.
 
 <!-- Source: https://miro.com/app/board/o9J_lIRKK0Y=/ Select the frame -> export as image -->
 ![Suggested Steps in Strategic DDD](/activities/images/DPR-StrategicDDDSteps.jpg)
@@ -135,7 +135,7 @@ Refer to presentations, articles, and books by:
 
 An ["Introduction to Strategic DDD"](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design) is available on the Vaadin website.
 
-Articles about Context Mapper and its interpretation of the DDD patterns can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/), including "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020:CM1) and "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020:CM2). Experience with the tool on projects is shared in two blog posts "Domain-Driven Design in Practice — Experience with Context Mapper" ([here](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [here](https://blog.mimacom.com/ddd-and-context-mapper-experience/)).
+Articles about Context Mapper and its interpretation of the DDD patterns can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/), including "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020a) and "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020b). Experience with the tool on projects is shared in two blog posts "Domain-Driven Design in Practice — Experience with Context Mapper" ([here](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [here](https://blog.mimacom.com/ddd-and-context-mapper-experience/)).
 
 ### Data Provenance 
 
