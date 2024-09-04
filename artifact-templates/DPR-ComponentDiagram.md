@@ -76,7 +76,7 @@ Common choices include:
 
 * Do not confuse logical and physical model elements; this diagram shows the logical structure. The interactions between the components in selected usage scenarios should be specified as well (for instance, representative cases or particularly challenging design hot spots such as peak load processing and error handling). 
 * Decide for a leading decomposition type, for instance, functional/domain-driven versus technical. Apply decomposition criteria and strategies such as those in [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria) to identify candidate components.   
-* Do not create a single component for each and every class (in object-oriented programs), but group classes to achieve cohesion, which makes the design change-friendly. <!-- TODO (v2) (H) refer to integrators and disintegrators in "Software Architecture: The Hard Parts" -->
+* Do not create a single component for each and every class (in object-oriented programs), but group classes to achieve cohesion, which makes the design change-friendly. The "integrators" and "disintegrators" from "Software Architecture: The Hard Parts" can guide component distribution; options and tradeoffs regarding communication, coordination, and consistency come into play (@Ford:2021).
 * Measure coupling and cohesion as the design and its implementation evolve. Consider architectural and interface [refactoring](https://interface-refactoring.github.io/) to improve the design as desired qualities and their priorities come and go. 
 * Do not assume all components have to be implemented; buying products and renting cloud services are valid options as well.
 
@@ -84,7 +84,7 @@ Common choices include:
 ### Origins and Signs of Use
 <!-- From PLOPs and from AA-->
 
-Component models and diagrams arguably are as old as the software architecture field (or even older), appearing under various names. <!-- TODO (v2) (M) could add "We find instances of them in classic papers by Fred Brooks and David Parnas." (fact check required) -->
+Component models and diagrams arguably are as old as the software architecture field (or even older), appearing under various names. <!-- TODO (v2) could add "We find instances of them in classic papers by Fred Brooks and David Parnas." (fact check required) -->
 
 The Component Diagram is one of the four Cs in C4. <!-- Context is featured in a separate template. Containers correspond to architecture overviews. We will not cover classes here. -->
 
@@ -120,8 +120,8 @@ Artifacts:
 ```yaml
 title: "Design Practice Repository (DPR): Component Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "01, 31, 2023"
-copyright: Olaf Zimmermann, 2023 (unless noted otherwise). All rights reserved.
+date: "09, 04, 2024"
+copyright: Olaf Zimmermann, 2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 
