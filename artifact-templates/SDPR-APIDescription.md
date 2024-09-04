@@ -65,7 +65,7 @@ See the end-to-end service design demo ["Domain-Driven Service Design with Conte
 
 ### Tools
 
-* [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/), a service contract language with supporting tools such as API-first transformations, API linter and generators for OpenAPI, Protocol Buffers (gRPC), Jolie, and GraphQL (among aothers)
+* [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/), a service contract language with supporting tools such as API-first transformations, API linter and generators for OpenAPI, Protocol Buffers (gRPC), Jolie, and GraphQL (among others)
 * Swagger tools such as [Swagger Hub](https://swagger.io/tools/swaggerhub/) and the online [Swagger/OpenAPI Editor](https://editor.swagger.io/) 
 * Annotation processors and equivalent programming language-level tools, often included in Web development frameworks and application servers, examples: JAX-RS, Spring MVC, and Spring Fox
 
