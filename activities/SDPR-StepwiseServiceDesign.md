@@ -56,7 +56,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 
 3. *Split applications into frontends and backends*, again applying [Strategic DDD](DPR-StrategicDDD.md). 
     * Use patterns for distributed computing while doing so (@Buschmann:2007, @RenzelKeller:1997).     
-    * Apply recognized system decomposition techniques, considering coupling criteria, during this step. The method promoted by [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria), for instance, is based on a catalog of such criteria. Context Mapper integrated this approach, see ["Context Map Suggestions with Service Cutter"](https://contextmapper.org/docs/service-cutter-context-map-suggestions/). <!-- TODO (v2) (M) Integrators and Disintegrators from "The Hard Parts", "Clean Architecture" component principles -->
+    * Apply recognized system decomposition techniques, considering coupling criteria, during this step. The method promoted by [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria), for instance, is based on a catalog of such criteria. Context Mapper integrated this approach, see ["Context Map Suggestions with Service Cutter"](https://contextmapper.org/docs/service-cutter-context-map-suggestions/). The Integrators and Disintegrators from "Software Architecture: The Hard Parts" (@Ford:2021) provide relate advice. <!-- TODO (v2) "Clean Architecture" component principles -->
     * While designing, capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made and [model](DPR-ArchitectureModeling.md) the resulting architecture.
 
 4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API endpoints and their roles. 
@@ -200,18 +200,17 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Matthias Biel's [API University](https://api-university.com/).
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
-* Our "Patterns for API Design" are technology-neutral, with many known uses coming from public and private Web APIs (@PatternsForAPIDesign:2022). There is an accompanying ["Checklist for API Design Review"](https://medium.com/nerd-for-tech/a-checklist-for-api-design-reviews-5f7db45b0cb3).
+* Our "Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges" are technology-neutral, with many known uses coming from public and private Web APIs (@PatternsForAPIDesign:2022). Pattern summaries are available online, and there is an article series ["API Design Pattern of the Week](https://medium.com/olzzio/article-series-api-design-pattern-of-the-week-completed-4a9684fcfe4d) featuring 21 of them. The patterns are accompanied by ["A Checklist for API Design Review"](https://medium.com/nerd-for-tech/a-checklist-for-api-design-reviews-5f7db45b0cb3).
 
-<!-- TODO (v2) (M) extend More Information section 
+<!-- TODO (v2) extend More Information section 
 
-* More on PfAD MAP book (#apidpotw series), more from JH (second paragraph)
+* more from JH (second paragraph)
 * CAPs https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ 
 * (tbd) https://www.infoq.com/articles/api-first-integration/ 
-* IRC update
   
 -->
 
-[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) includes more patterns and pattern categories. MAP now forms the core of the ["Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges"](https://medium.com/nerd-for-tech/api-patterns-website-redesigned-and-sample-book-chapter-available-df9daf4b5e15) book (@PatternsForAPIDesign:2022).
+[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) includes more patterns and pattern categories. <!-- MAP now forms the core of the ["Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges"](https://medium.com/nerd-for-tech/api-patterns-website-redesigned-and-sample-book-chapter-available-df9daf4b5e15) book (@PatternsForAPIDesign:2022). -->
 
 A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
 
