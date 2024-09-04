@@ -117,8 +117,8 @@ Artifacts:
 ```yaml
 title: "Design Practice Repository (DPR): Component Diagram"
 author: Olaf Zimmermann (ZIO)
-date: "01, 31, 2023"
-copyright: Olaf Zimmermann, 2023 (unless noted otherwise). All rights reserved.
+date: "09, 04, 2024"
+copyright: Olaf Zimmermann, 2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 
