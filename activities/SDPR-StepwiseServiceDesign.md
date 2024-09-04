@@ -56,7 +56,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 
 3. *Split applications into frontends and backends*, again applying [Strategic DDD](DPR-StrategicDDD.md). 
     * Use patterns for distributed computing while doing so (@Buschmann:2007, @RenzelKeller:1997).     
-    * Apply recognized system decomposition techniques, considering coupling criteria, during this step. The method promoted by [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria), for instance, is based on a catalog of such criteria. Context Mapper integrated this approach, see ["Context Map Suggestions with Service Cutter"](https://contextmapper.org/docs/service-cutter-context-map-suggestions/).
+    * Apply recognized system decomposition techniques, considering coupling criteria, during this step. The method promoted by [Service Cutter](https://github.com/ServiceCutter/ServiceCutter/wiki/Coupling-Criteria), for instance, is based on a catalog of such criteria. Context Mapper integrated this approach, see ["Context Map Suggestions with Service Cutter"](https://contextmapper.org/docs/service-cutter-context-map-suggestions/). The "integrators" and "disintegrators" from "Software Architecture: The Hard Parts" (@Ford:2021) provide related advice. <!-- TODO (v2) "Clean Architecture" component principles -->
     * While designing, capture the [architectural decisions](DPR-ArchitecturalDecisionCapturing.md) made and [model](DPR-ArchitectureModeling.md) the resulting architecture.
 
 4. *Create a [Candidate Endpoint List](../artifact-templates/SDPR-CandidateEndpointList.md)* that identifies potential API endpoints and their roles. 
@@ -66,7 +66,7 @@ There is no single path to APIs and service endpoints of quality and style. When
 
 5. *Specify operation responsibilities and data formats to yield a [Refined Endpoint List](../artifact-templates/SDPR-RefinedEndpointList.md)* and *map the endpoints to existing or new API providers*.
     * If needed, *decompose monolithic backends into (micro-)services* (@Newman:2015) to promote flexibility and scalability if these are desired qualities and your software engineering (and operations) toolbox is rich and mature enough. 
-    * Criteria-based decomposition approaches such as those listed under Step 3 as well legacy modernization and transformation techniques can be used. See for instance the [Strangler Fig Application](https://martinfowler.com/bliki/StranglerFigApplication.html) approach described by Martin Fowler and ["Working Effectively with Legacy Code"](https://www.infoq.com/podcasts/working-effectively-legacy-code/) by Michael Feathers. <!-- TODO (v1.6) fact check -->
+    * Criteria-based decomposition approaches such as those listed under Step 3 can be used.  Legacy modernization approaches such as [Strangler Fig](https://martinfowler.com/bliki/StranglerFigApplication.html) described by Martin Fowler and techniques from ["Working Effectively with Legacy Code"](https://www.infoq.com/podcasts/working-effectively-legacy-code/) by Michael Feathers can be applied as well.
     * [*Refactor*](https://www.ost.ch/en/research-and-consulting-services/computer-science/ifs-institute-for-software-new/cloud-application-lab/architectural-refactoring-for-the-cloud-arc) (@Zimmermann:2017) the preliminary architecture from the previous steps along the way (including the remote facades and DTOs). Document and justify these conceptual and technology-related architectural decisions and add the resulting architectural decision records to the decision log from Steps 3 and 4. <!-- TODO (v2): cite S. Newman's 2nd book instead of first one -->
 
 6. Once the refined endpoint list is somewhat stable, *decide for integration technologies* (protocols such as plain HTTP, GraphQL, or gRPC; message exchange formats such as JSON and XML) and implement stubs (or a minimum viable API product).
@@ -197,21 +197,20 @@ While written with the Web and RESTful HTTP in mind, many of the existing inform
 * Arnaud Lauret, "The Design of Web APIs" (@Lauret:2019).
 * Presentations, [blog posts](http://amundsen.com/blog/), and books by Mike Amundsen (@Amundsen:2020).
 * Blog posts such as ["Moving to API design-first in an Agile world"](https://tyk.io/moving-api-design-first-agile-world/), ["Before you design your API, model your API"](https://tyk.io/before-you-design-your-api-model-your-api/), and ["Techniques For Designing Your API and Microservices"](https://tyk.io/api-design-methodologies/) <!-- TODO more link(s) --> by James Higginbotham. 
+* Matthias Biel's [API University](https://api-university.com/).
 * Phil Sturgeon's website and ebooks themed ["APIs you won't hate"](https://apisyouwonthate.com/).
 * Martin Fowler's "Patterns of Application Architecture" introduces the patterns Service Layer, Remote Facade, [Data Transfer Object (DTO)](https://martinfowler.com/eaaCatalog/dataTransferObject.html) (@Fowler:2002).
+* Our "Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges" are technology-neutral, with many known uses coming from public and private Web APIs (@PatternsForAPIDesign:2022). Pattern summaries are available online, and there is an article series ["API Design Pattern of the Week](https://medium.com/olzzio/article-series-api-design-pattern-of-the-week-completed-4a9684fcfe4d) featuring 21 of them. The patterns are accompanied by ["A Checklist for API Design Review"](https://medium.com/nerd-for-tech/a-checklist-for-api-design-reviews-5f7db45b0cb3).
 
-<!-- TODO (v2) (H) extend More Information section 
+<!-- TODO (v2) extend More Information section 
 
-* More on PfAD MAP book (#apidpotw series), more from JH (second paragraph)
-* (tbd) The [API Academy](https://apiacademy.co/) "provides expertise and best practices for the strategy, architecture, design and security of enterprise-grade APIs and microservices".
+* more from JH (second paragraph)
 * CAPs https://kgb1001001.github.io/cloudadoptionpatterns/Cloud-Native-Architecture/ 
 * (tbd) https://www.infoq.com/articles/api-first-integration/ 
-* IRC update
-* <https://medium.com/nerd-for-tech/a-checklist-for-api-design-reviews-5f7db45b0cb3>
   
 -->
 
-[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) includes more patterns and pattern categories. MAP now forms the core of the ["Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges"](https://medium.com/nerd-for-tech/api-patterns-website-redesigned-and-sample-book-chapter-available-df9daf4b5e15) book (@PatternsForAPIDesign:2022).
+[Tutorial 1 in MAP](https://www.microservice-api-patterns.org/patterns/tutorials/tutorial1) explains how patterns can mitigate quality issues. <!--  Even if you are not yet thinking about the next version of your API, it is good to know which evolution strategies and patterns exist. --> [Tutorial 2](https://microservice-api-patterns.org/patterns/tutorials/tutorial2) includes more patterns and pattern categories. <!-- MAP now forms the core of the ["Patterns for API Design — Simplifying Integration with Loosely Coupled Message Exchanges"](https://medium.com/nerd-for-tech/api-patterns-website-redesigned-and-sample-book-chapter-available-df9daf4b5e15) book (@PatternsForAPIDesign:2022). -->
 
 A [presentation](https://www.slideshare.net/launchany/gluecon-2019-beyond-rest-moving-to-eventbased-apis-and-streaming) by James Higginbotham talks about messaging and streaming in the context of API design and REST.
 

@@ -65,7 +65,7 @@ See the end-to-end service design demo ["Domain-Driven Service Design with Conte
 
 ### Tools
 
-* [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/), a service contract language with supporting tools such as an API Linter and generators for OpenAPI, Protocol Buffers (gRPC), Jolie, and GraphQL 
+* [MDSL](https://microservice-api-patterns.github.io/MDSL-Specification/), a service contract language with supporting tools such as API-first transformations, API linter and generators for OpenAPI, Protocol Buffers (gRPC), Jolie, and GraphQL (among others)
 * Swagger tools such as [Swagger Hub](https://swagger.io/tools/swaggerhub/) and the online [Swagger/OpenAPI Editor](https://editor.swagger.io/) 
 * Annotation processors and equivalent programming language-level tools, often included in Web development frameworks and application servers, examples: JAX-RS, Spring MVC, and Spring Fox
 
@@ -95,6 +95,7 @@ The [Known Uses](https://microservice-api-patterns.org/patterns/foundation/APIDe
 
 ### More Information
 
+* The *API Description* pattern in ["Patterns for API Design"](https://api-patterns.org/book/) corresponds to this artifact template.
 * ["APIs should get to the POINT"](https://medium.com/olzzio/apis-should-get-to-the-point-c79113efa31c) proposes five principles for API design, summarized as POINT: purposeful, style-oriented, isolated, channel-neutral, and T-shaped.
 * [APIs.guru](https://apis.guru/) aims at creating "the most comprehensive, standards-compliant and up-to-date directory of machine-readable API definitions" [here](https://github.com/APIs-guru/openapi-directory).
 <!-- sunset: * The [Programmable Web](https://www.programmableweb.com/) also lists countless APIs and contract information (not all entries seem to be up to date). -->
@@ -105,7 +106,7 @@ The [Known Uses](https://microservice-api-patterns.org/patterns/foundation/APIDe
 ```yaml
 title: "Design Practice Repository (DPR): API Description"
 author: Olaf Zimmermann (ZIO), woth contributions from other MAP authors
-date: "03, 31, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "09, 04, 2024"
+copyright: Olaf Zimmermann, 2020-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

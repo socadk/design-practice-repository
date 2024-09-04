@@ -131,11 +131,11 @@ Refer to presentations, articles, and books by:
 * Scott Millet, for instance ["The Anatomy Of Domain-Driven Design"](https://leanpub.com/anatomy-of-DDD) on LeanPub 
 * Michael Ploed, for instance ["Visualizing Sociotechnical Architectures with Context Maps"](https://speakerdeck.com/mploed/visualizing-sociotechnical-architectures-with-context-maps?slide=4)
 * Vaughn Vernon, for instance his [YouTube channel](https://www.youtube.com/channel/UCdbDxsXevDLt7EhRbi2KGjg)
-* [Hennning Schwentner](https://hschwentner.io/) and his colleagues at Workplace Solutions <!-- TODO (v1.6) suggestion: "Model Pollution" talk, feat. "Hamburger Architecture": <https://speakerdeck.com/hschwentner/model-pollution> -->
+* [Henning Schwentner](https://hschwentner.io/) and his colleagues at Workplace Solutions, for instance ["Model Pollution"](https://speakerdeck.com/hschwentner/model-pollution) features a proposal for a "Hamburger Architecture" (as well as many valuable pointers).
 
 An ["Introduction to Strategic DDD"](https://vaadin.com/learn/tutorials/ddd/strategic_domain_driven_design) is available on the Vaadin website.
 
-Articles about Context Mapper and its interpretation of the DDD patterns can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/), including "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020a) and "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020b). Experience with the tool on projects is shared in twos blog posts "Domain-Driven Design in Practice — Experience with Context Mapper" ([here](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [here](https://blog.mimacom.com/ddd-and-context-mapper-experience/)).
+Articles about Context Mapper and its interpretation of the DDD patterns can be found on the [Context Mapper website](https://contextmapper.org/background-and-publications/), including "Domain-driven Architecture Modeling and Rapid Prototyping with Context Mapper" (@Kapferer:2020a) and "Domain-Driven Service Design — Context Modeling, Model Refactoring and Contract Generation" (@Kapferer:2020b). Experience with the tool on projects is shared in two blog posts "Domain-Driven Design in Practice — Experience with Context Mapper" ([here](https://ozimmer.ch/modeling/2022/11/23/ContextMapperInsights.html) and [here](https://blog.mimacom.com/ddd-and-context-mapper-experience/)).
 
 ### Data Provenance 
 
