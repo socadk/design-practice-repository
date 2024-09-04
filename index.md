@@ -1,4 +1,4 @@
-## Design Practice Repository/Reference (DPR) Version 1.4 (Git Pages Edition) 
+## Design Practice Repository/Reference (DPR) Version 1.5 (Git Pages Edition) 
 -----------------------------------------------------------------------------
 
 The [introduction](./introduction.md) page is a comprehensive entry into these DPR pages. A [blog post on Medium](https://medium.com/olzzio/design-practice-repository-dpr-ed5e9d0e91cd) provides background information and content orientation as well.
