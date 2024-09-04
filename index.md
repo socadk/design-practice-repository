@@ -48,4 +48,4 @@ The books and other publications referenced in the artifact and activity descrip
 * Blog ["The Concerned Architect"](https://ozimmer.ch/blog/)
 * [Cloud Application Lab at OST IFS](https://www.ost.ch/de/forschung-und-dienstleistungen/informatik/ifs-institut-fuer-software/labs/cloud-application-lab)
 
-(c) Olaf Zimmermann and Mirko Stocker, 2021-2023. All rights reserved. Licensed as Creative Commons Licensed as Creative Commons (see [LICENSE](https://github.com/socadk/design-practice-repository/blob/master/LICENSE) in GitHub repository).
+(c) Olaf Zimmermann and Mirko Stocker, 2021-2024. All rights reserved. Licensed as Creative Commons Licensed as Creative Commons (see [LICENSE](https://github.com/socadk/design-practice-repository/blob/master/LICENSE) in GitHub repository).
