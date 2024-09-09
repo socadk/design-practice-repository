@@ -122,8 +122,6 @@ We would argue that there hardly is any system that is simple enough not to bene
 
 
 ### Hints and Pitfalls to Avoid
-Specific to OOAD and DDD, it is a good idea to establish naming conventions, for instance for Aggregates and their Entities. See Hint 6 in Olaf Zimmermann's ["Technical Writing Tips and Tricks"](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
-
 Eric Evans establishes the following design heuristics for Aggregates in his [DDD Reference](http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf):
 
 * "Use asynchronous communication between Aggregates
@@ -140,6 +138,7 @@ In "Implementing DDD", Vaughn Vernon establishes similar rules for Aggregate des
 
 These recommendations can also be found online in an [article series ](http://dddcommunity.org/library/vernon_2011/) at dddcommunity.org.
 
+Specific to OOAD and DDD, it is a good idea to establish naming conventions, for instance for Aggregates and their Entities. See Hint 6 in Olaf Zimmermann's ["Technical Writing Tips and Tricks"](https://ozimmer.ch/authoring/2020/04/24/TechWritingAdvice.html) for rationale and additional examples.
 
 ### Origins and Signs of Use
 DDD has been around, in active use on real-world projects, and supported by a community since the first DDD book came out in 2003; it recently became particularly popular in the microservices community as a way to identify service boundaries (via [Strategic DDD](DPR-StrategicDDD.md)). 
