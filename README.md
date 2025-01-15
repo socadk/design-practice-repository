@@ -11,8 +11,9 @@
 *Welcome to Software/Service/API Design Practice Repository (DPR) (pronounced "deeper")!* 
 
 This public repository collects method elements and practices from various methods (old and new) that are applicable to service-oriented analysis and design (and beyond). 
+The post ["Design Practice Repository and Reference: GitPages and eBook Enhanced"](https://medium.com/olzzio/design-practice-repository-and-reference-gitpages-and-ebook-enhanced-f43c107f2567) provides an overview. 
 
-*News (Feb 7, 2023):* See Medium story ["Design Practice Repository and Reference: GitPages and eBook Enhanced"](https://medium.com/olzzio/design-practice-repository-and-reference-gitpages-and-ebook-enhanced-f43c107f2567).
+The Git Pages rendering of the method content is available [here](https://socadk.github.io/design-practice-repository/).
 
 ## Target Audience 
 
@@ -52,6 +53,8 @@ There is an [introductory blog post](https://medium.com/olzzio/design-practice-r
 We also provide some [background information](./background-information) on methods and practices, including a [bibliography](/./background-information/literature.md).
 
 ### *Status*
+
+[Version 1.5](https://github.com/socadk/design-practice-repository/releases/tag/v1.5), released Sep 4, 2024, provides content enhancements, link updates and minor enhancements. 
 
 Version 1.4 adds five artifact templates as output of Architecture Modeling:
 
