@@ -8,7 +8,7 @@ Checklists and templates can speed up the creation of artifacts, and help ensure
 The Agile Alliance lists more than 100 agile practices and concepts in its [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/). Selecting and applying them well requires experience, training, and/or consultancy. On the other end of the spectrum, more traditional plan-driven methods tend to impose processes on teams, which is not always appropriate and often not received well. Parts of the agile community <!--, for instance [Clean Agile](https://www.pearson.com/us/higher-education/program/Martin-Clean-Agile-Back-to-Basics/PGM2604771.html),--> see methods as "training wheels" only.
 
 #### What is different in DPR? 
-We employ a best-of-both-worlds approach here: This [artifact-templates folder](.) collects commonly created artifacts and proven templates for them, the [activities folder](../activities) suggests (but does not norm) a light process through the creation of these artifacts by one or more of these [roles](../roles). Feel free to deviate from it, and do not forget the second rule of method adoption: 
+We employ a best-of-both-worlds approach here: This [artifact-templates folder](.) collects commonly created artifacts and proven templates for them, the [activities folder](../activities) suggests (but does not norm) a light process through the creation of these artifacts by one or more of these [roles](../roles). Feel free to deviate from it, and do not forget the second rule of method adoption ("if in doubt, leave it out"): 
 
 > *Do not follow templates blindly, but adopt them to your needs (or: no [cargo cult](https://en.wikipedia.org/wiki/Cargo_cult) please).*
 

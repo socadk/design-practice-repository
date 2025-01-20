@@ -12,7 +12,7 @@ Let's now walk through the main API design activity in DPR, [Stepwise Service De
 
 
 ### Step 1: Gather Requirements, Make Scoping Decisions
-<!-- TODO (all steps) summarize purpose, input and output of step from [activity description](activities/SDPR-StepwiseServiceDesign.md)? -->
+<!-- TODO (v2, all steps) summarize purpose, input and output of step from [activity description](activities/SDPR-StepwiseServiceDesign.md)? -->
 
 Two obvious [use cases](../artifact-templates/DPR-UseCase.md) in our sample scenario are specified in a [brief](https://contextmapper.org/docs/user-requirements/) format that unveils the required data and their relations just a bit: 
 
