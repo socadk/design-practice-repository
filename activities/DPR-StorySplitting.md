@@ -20,7 +20,7 @@ A [User Story](../artifact-templates/DPR-UserStory.md) that is too large for a s
 * *Small:* "Stories typically represent at most a few person-weeks worth of work." Some teams size their stories in such a way that they can be implemented in a single iteration.
 * *Testable:* Customer and developers should understand a story well enough so that a test for it can be written --- or is written first, as in Behavior- and Test-Driven Development (BDD, TDD).[^103]
 
-[^103]: See this [blog post](https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html) for a collection of these two and many more "driven" methods.
+[^103]: See this blog post for a collection of these two and many more "driven" methods: <https://ozimmer.ch/index/2020/10/30/DrivenByTLAs.html>.
 
 Several INVESTment practices and techniques exist; one of them is story splitting.
 
@@ -140,8 +140,8 @@ Tony Heap, a business analyst, [puts the splitting steps in a logical order](htt
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Story Splitting"
 author: Olaf Zimmermann (ZIO)
-date: "04, 21, 2021"
-copyright: Copyright 2020-2021 Olaf Zimmermann. All rights reserved.
+date: "01, 20, 2025"
+copyright: Copyright 2020-2025 Olaf Zimmermann. All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 

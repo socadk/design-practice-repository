@@ -93,7 +93,7 @@ Deployment diagrams have a long history:
 * Unified Modeling Language (UML) <!-- deployment diagrams, since Version n.m -->
 * C4 Model, as a later addition (not part of the original four C). 
 
-Also see the book chapter "Architectural Knowledge in an SOA Infrastructure Reference Architecture" for motivation and usage context ([PDF](http://soadecisions.org/download/SOAD-4AKMBookv11.pdf)). 
+Also see the book chapter "Architectural Knowledge in an SOA Infrastructure Reference Architecture" for motivation and usage context ([PDF](https://soadecisions.org/download/SOAD-4AKMBookv11.pdf)). 
 
 <!-- TODO 2023 bibtex, also see https://www.ifi.uzh.ch/dam/jcr:00000000-6e46-e644-0000-00004804109f/Reading.zip (ADS and more) -->
 
@@ -116,7 +116,7 @@ Artifact types and notations:
 
 ### More Information
 
-* The notion of operational models on different levels of refinement (conceptual, specified, physical) is explained in ["Architectural Knowledge in an SOA Infrastructure Reference Architecture"](http://soadecisions.org/download/SOAD-4AKMBookv11.pdf).
+* The notion of operational models on different levels of refinement (conceptual, specified, physical) is explained in ["Architectural Knowledge in an SOA Infrastructure Reference Architecture"](https://soadecisions.org/download/SOAD-4AKMBookv11.pdf).
 * Philippe Kruchten introduces the 4+1 model in ["The 4+1 View Model of Architecture"](https://www.researchgate.net/publication/220018231_The_41_View_Model_of_Architecture/). <!-- also feature Rozanski/Woods? -->
 * Sparx Systems provides a [UML Tutorial](https://sparxsystems.com/resources/tutorials/uml/use-case-model.html).
 * arc42 has a [deployment view](https://docs.arc42.org/section-7/) and a [runtime view](https://docs.arc42.org/section-6/).
