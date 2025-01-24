@@ -15,6 +15,8 @@ The post ["Design Practice Repository and Reference: GitPages and eBook Enhanced
 
 The Git Pages rendering of the method content is available [here](https://socadk.github.io/design-practice-repository/).
 
+*January 24, 2025:* The DPR eBook, available on [Leanpub](https://leanpub.com/dpr), matches DPR repository version 1.5.1 now.
+
 ## Target Audience 
 
 This repository targets the following software engineering roles, ordered from specific to generic:
@@ -80,7 +82,7 @@ We have copy edited all content, provided additional references, and updated var
 
 *November 8, 2022:* ["Patterns for API Design: Simplifying Integration with Loosely Coupled Message Exchanges"](https://api-patterns.org/book/), published in the Addison Wesley Signature Series curated by Vaughn Vernon, references DPR and features sample artifacts such as domain models, Y-statements, and API descriptions. Learn [more](https://medium.com/olzzio/new-book-patterns-for-api-design-announced-bb1fb45bb8d8).
 
-*April 8, 2021:* The DPR content also comes as an ebook now. The latest version is available on [Leanpub](https://leanpub.com/dpr). 
+*April 8, 2021:* The DPR content also comes as an ebook. The latest version is available on [Leanpub](https://leanpub.com/dpr). 
 
 
 ## Terminology Clarification
