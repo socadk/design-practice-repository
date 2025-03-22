@@ -142,7 +142,7 @@ Articles about Context Mapper and its interpretation of the DDD patterns can be 
 ```yaml
 title: "Design Practice Repository (DPR): Practice/Technique Strategic DDD"
 author: Olaf Zimmermann (ZIO)
-date: "02, 28, 202"5
+date: "02, 28, 2025"
 copyright: Olaf Zimmermann, 2020-2025 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
