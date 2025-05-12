@@ -38,7 +38,7 @@ This section certainly does not aim to be complete; please send additions via pu
 
 Methods from the 1970s, 1980s, 1990s include:
 
-* [Structured Analysis (SA)](https://en.wikipedia.org/wiki/Structured_analysis)
+* [Structured Analysis (SA)](https://en.wikipedia.org/wiki/Structured_analysis) and [Structured Design](https://archive.org/details/Structured_Design_Edward_Yourdon_Larry_Constantine)
 * Object-Oriented Analysis and Design (OOAD), supported by a number of methods such as Booch, OMT, OOSE; several OOAD methods later converged in UML and the Unified Process (UP). Craig Larman's book "Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development" (@Larman:2004) provides historical information on object-orriented methods and beyond throughout the book.
 * Enterprise Architecture Management (EAM) frameworks and methods such as TOGAF and Zachman complement the above examples, moving from building construction to city planning (in the civil architecture metaphor).
 
@@ -118,8 +118,8 @@ See this [presentation](https://sagra2016.files.wordpress.com/2016/10/zio-toward
 ```yaml
 title: "Design Practice Repository (DPR): Background Information"
 author: Olaf Zimmermann (ZIO)
-date: "08, 18, 2021"
-copyright: Olaf Zimmermann, 2020-2021 (unless noted otherwise). All rights reserved.
+date: "05, 12, 2025"
+copyright: Olaf Zimmermann, 2020-2025 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 
