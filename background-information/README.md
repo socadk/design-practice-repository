@@ -67,6 +67,7 @@ Ordered alphabetically:
 * George Fairbanks, [Architecture Haikus](https://www.georgefairbanks.com/software-architecture/architecture-haiku/) and more 
 * Gregor Hohpe, [IT Architect Elevator](https://architectelevator.com/) and [Cloud Strategy](https://architectelevator.com/book/cloudstrategy/) book
 * Michael Keeling, Design It! book (@Keeling:2019) and [blog](https://www.neverletdown.net/)
+* Patrick Roos compiled ["30 Fundamental Techniques for Software Architects"](https://www.workingsoftware.dev/fundamental-techniques-for-software-architects/) including Domain Storytelling, Event Storming, Impact Mapping, Quality Storming and Wardley Mapping.
 * Michael Stal's [Hitchhiker's Guide to Software Architecture and Everything Else](http://stal.blogspot.com/)
 * Rebecca Wirfs-Brock’s blog [The Responsible Designer](http://wirfs-brock.com/blog/)
 
