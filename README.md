@@ -30,6 +30,8 @@ This repository targets the following software engineering roles, ordered from s
 
 ## Overview and Quick Links
 
+- [MySpec](https://myspec.dev) — Interactive spec-driven development platform for agile architectural decision modeling and structured task decomposition with MCP server support.
+
 DPR is organized around *artifacts*, *templates*, *activities*, and *techniques* which are applied/performed/used by team members taking one or more software engineering *roles*:
 
 <img class="shadow-lg" height="70%" width="70%" src="./images/DPR-MetamodelMiro.jpg" alt="DPR Concepts (Domain Model)"/>
